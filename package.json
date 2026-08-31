@@ -1,0 +1,22 @@
+{
+  "name": "nest-landing-page",
+  "version": "1.0.0",
+  "description": "Nest home-introductions landing-page model and validation pack",
+  "keywords": [
+    "gabriel-operator",
+    "persona",
+    "landing-page",
+    "skills"
+  ],
+  "license": "MIT",
+  "bin": {
+    "skills": "./cli.js"
+  },
+  "engines": {
+    "node": ">=16"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vipin-go/nest-landing-page.git"
+  }
+}

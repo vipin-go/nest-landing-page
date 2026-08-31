@@ -1,0 +1,498 @@
+{
+  "schemaVersion": 2,
+  "resourceKey": "landing_page.nest",
+  "runtimeDataPolicy": "definitions_only",
+  "landingPage": {
+    "headline": "One qualified introduction that fits.",
+    "subheadline": "Private buyer and seller introductions, one human-reviewed proposal at a time.",
+    "ctaLabel": "Talk to Nest",
+    "secondaryCtaLabel": "See how it works",
+    "heroCharacterImage": "/landing-pages/nest/nest-character-meet-compact-high-wings-transparent.png",
+    "seoImage": {
+      "src": "/landing-pages/nest/og.png",
+      "alt": "Nest — one careful home introduction at a time"
+    },
+    "header": {
+      "brandMark": "image",
+      "logoImageUrl": "/landing-pages/nest/nest-keyround-logo.svg"
+    },
+    "design": {
+      "variant": "home-introductions",
+      "defaultThemeMode": "light",
+      "theme": {
+        "palette": "emerald",
+        "primaryColor": "emerald",
+        "secondaryColor": "stone",
+        "accentColor": "orange",
+        "fontFamily": "inter"
+      },
+      "brand": {
+        "presetRevision": 1,
+        "colors": {
+          "light": {
+            "canvas": "#f3efe5",
+            "surface": "#fffaf0",
+            "sidebar": "#173e31",
+            "text": "#18352a",
+            "accent": "#bd623f",
+            "userBubble": "#173e31"
+          },
+          "dark": {
+            "canvas": "#10251e",
+            "surface": "#173129",
+            "sidebar": "#0c1d17",
+            "text": "#f3efe5",
+            "accent": "#e29a7d",
+            "userBubble": "#bd623f"
+          }
+        },
+        "typography": {
+          "body": {
+            "source": "google",
+            "family": "DM Sans"
+          },
+          "display": {
+            "source": "google",
+            "family": "Manrope"
+          },
+          "label": {
+            "source": "google",
+            "family": "DM Sans"
+          }
+        }
+      }
+    },
+    "homeIntroductions": {
+      "header": {
+        "brandLabel": "Nest.",
+        "brandTagline": "One careful introduction",
+        "navItems": [
+          {
+            "label": "How it works",
+            "target": "how-it-works"
+          },
+          {
+            "label": "Privacy",
+            "target": "privacy"
+          },
+          {
+            "label": "Start here",
+            "target": "hero-chat"
+          }
+        ],
+        "ctaLabel": "Request an introduction",
+        "mobileCtaLabel": "Start"
+      },
+      "service": {
+        "activeMode": "event",
+        "announcement": "Now matching at Second Home Fair, Jaarbeurs Utrecht — Fri 27–Sun 29 Mar",
+        "feeCopy": "Fee shared before you request an introduction",
+        "disclaimer": "Nest is not a licensed brokerage and does not represent either party, negotiate, value your home, or handle your transaction. When you are ready to move forward, we connect you with a licensed local agent to complete the process.",
+        "configurations": [
+          {
+            "mode": "event",
+            "label": "Event",
+            "actionLabel": "View",
+            "name": "Second Home Fair, Jaarbeurs Utrecht",
+            "location": "Jaarbeurs Utrecht",
+            "dateRange": "Fri 27–Sun 29 Mar",
+            "availabilityLabel": "Fri 27–Sun 29 Mar · Jaarbeurs Utrecht"
+          },
+          {
+            "mode": "city",
+            "label": "City",
+            "actionLabel": "View",
+            "name": "Nest Amsterdam",
+            "location": "Amsterdam Zuid",
+            "dateRange": "Ongoing",
+            "availabilityLabel": "Always-on local introductions"
+          }
+        ]
+      },
+      "tracks": [
+        {
+          "id": "buying",
+          "label": "I’m buying",
+          "responseMessage": "Tell me the home that would be worth moving for. I’ll ask only for the details a human reviewer needs, then bring back one considered fit.",
+          "composerPlaceholder": "Tell Nest what you need from a home…",
+          "processSteps": [
+            {
+              "number": "01",
+              "image": "/landing-pages/nest/nest-how-conversation-human.webp",
+              "alt": "A prospective buyer sharing a private home brief with Nest",
+              "title": "Have a real conversation with Nest.",
+              "body": "Talk through what you actually need: budget, must-haves, dealbreakers, and timing. The small details belong in the conversation too."
+            },
+            {
+              "number": "02",
+              "image": "/landing-pages/nest/nest-how-review-human.webp",
+              "alt": "Nest and a human reviewer carefully considering one buyer and one home",
+              "title": "Receive one property fit at a time.",
+              "body": "A person reviews every proposal before either side sees it. No public catalog, ranking, or endless filter grid.",
+              "badge": "Human approved"
+            },
+            {
+              "number": "03",
+              "image": "/landing-pages/nest/nest-how-introduction-human.webp",
+              "alt": "Nest introducing a prospective buyer and homeowner after mutual consent",
+              "title": "Unlock the introduction together.",
+              "body": "Once both sides accept, the full address, contact details, and proposed viewing time are shared privately."
+            }
+          ],
+          "briefFields": [
+            {
+              "key": "area",
+              "label": "Preferred or general area",
+              "placeholder": "Utrecht region, Amsterdam Zuid…",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "propertyType",
+              "label": "Property type",
+              "placeholder": "Apartment, family home, second home…",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "propertyBrief",
+              "label": "What should the home feel like?",
+              "placeholder": "Describe the home and why it matters.",
+              "type": "textarea",
+              "required": true
+            },
+            {
+              "key": "budgetOrPrice",
+              "label": "Budget range",
+              "placeholder": "A private range is enough",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "mustHavesOrHighlights",
+              "label": "Must-haves",
+              "placeholder": "Light, garden, workspace, accessibility…",
+              "type": "textarea",
+              "required": true
+            },
+            {
+              "key": "dealbreakersOrBuyerCriteria",
+              "label": "Dealbreakers",
+              "placeholder": "What would make the introduction a poor fit?",
+              "type": "textarea",
+              "required": false
+            },
+            {
+              "key": "timing",
+              "label": "Timing",
+              "placeholder": "When would you be ready to view or move?",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "readiness",
+              "label": "Readiness",
+              "placeholder": "Exploring, mortgage ready, cash buyer…",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "privateConstraints",
+              "label": "Private constraints",
+              "placeholder": "Anything Nest should keep private",
+              "type": "textarea",
+              "required": false
+            }
+          ]
+        },
+        {
+          "id": "selling",
+          "label": "I’m selling",
+          "responseMessage": "Tell me what makes the home distinct and which buyer would be a serious fit. I’ll keep the exact address private and bring back one considered introduction.",
+          "composerPlaceholder": "Tell Nest what matters about your sale…",
+          "processSteps": [
+            {
+              "number": "01",
+              "image": "/landing-pages/nest/nest-how-conversation-human.webp",
+              "alt": "A homeowner sharing a private property brief with Nest",
+              "title": "Have a real conversation with Nest.",
+              "body": "Talk through the property, your timing, motivation, and what qualified means to you."
+            },
+            {
+              "number": "02",
+              "image": "/landing-pages/nest/nest-how-review-human.webp",
+              "alt": "Nest and a human reviewer carefully considering one seller and one qualified buyer",
+              "title": "Receive one buyer fit at a time.",
+              "body": "A person reviews every proposal before either side sees it. No public exposure or bulk deal flow.",
+              "badge": "Human approved"
+            },
+            {
+              "number": "03",
+              "image": "/landing-pages/nest/nest-how-introduction-human.webp",
+              "alt": "Nest introducing a homeowner and prospective buyer after mutual consent",
+              "title": "Unlock the introduction together.",
+              "body": "Once both sides accept, contact details, the exact address, and proposed viewing time are shared privately."
+            }
+          ],
+          "briefFields": [
+            {
+              "key": "area",
+              "label": "General area",
+              "placeholder": "Neighborhood or broad area only",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "propertyType",
+              "label": "Property type",
+              "placeholder": "Apartment, family home, second home…",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "propertyBrief",
+              "label": "Property brief",
+              "placeholder": "Describe the property without an exact address.",
+              "type": "textarea",
+              "required": true
+            },
+            {
+              "key": "budgetOrPrice",
+              "label": "Asking-price range",
+              "placeholder": "A private range is enough",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "mustHavesOrHighlights",
+              "label": "Property highlights",
+              "placeholder": "What makes this home distinct?",
+              "type": "textarea",
+              "required": true
+            },
+            {
+              "key": "dealbreakersOrBuyerCriteria",
+              "label": "Buyer-fit criteria",
+              "placeholder": "What should be true of a serious buyer?",
+              "type": "textarea",
+              "required": false
+            },
+            {
+              "key": "timing",
+              "label": "Timing",
+              "placeholder": "When would you be ready to arrange a viewing?",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "readiness",
+              "label": "Readiness",
+              "placeholder": "Preparing, ready for private viewings…",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "privateConstraints",
+              "label": "Private constraints",
+              "placeholder": "Anything Nest should keep private",
+              "type": "textarea",
+              "required": false
+            }
+          ]
+        }
+      ],
+      "hero": {
+        "eyebrow": "The one home, or the one buyer — not a scroll of listings.",
+        "headingLines": [
+          "One qualified introduction",
+          "that fits, not a thousand",
+          "you have to filter yourself."
+        ],
+        "body": "Tell Nest what you are actually looking for, or what you are actually selling. Nest proposes one match. Both sides say yes before anything is shared.",
+        "backgroundImage": "/landing-pages/nest/nest-hero-interior-clean.png",
+        "backgroundAlt": "A warm, calm home interior",
+        "primaryCtaLabel": "Talk with Nest",
+        "secondaryCtaLabel": "Meet Nest",
+        "privacyLine": "One match at a time. Human reviewed. Private until both sides opt in.",
+        "characterImage": "/landing-pages/nest/nest-character-meet-compact-high-wings-transparent.png",
+        "characterAlt": "Nest holding a notebook and keys with compact wings",
+        "chat": {
+          "statusLabel": "Online · human supervised",
+          "privacyBadge": "Private",
+          "openingMessage": "Are you buying or selling?",
+          "visitorMessage": "I’m buying",
+          "assistantMessage": "Tell me the home that would be worth moving for. I’ll ask only for the details a human reviewer needs, then bring back one considered fit.",
+          "inputPlaceholder": "Tell Nest what you need from a home…"
+        },
+        "briefDemo": {
+          "enabled": true,
+          "commandTrigger": "request-introduction",
+          "introHeading": "Your private home brief",
+          "introBody": "Share only what a human reviewer needs. Exact addresses and contact details are never requested here.",
+          "chatLabel": "Build by chat · 10 turns",
+          "voiceLabel": "Build by voice · 5 min",
+          "reviewLabel": "Review brief",
+          "editLabel": "Edit",
+          "reviewHeading": "Review your private brief",
+          "reviewBody": "Nothing is persisted, searched, proposed, or shared while you are anonymous.",
+          "submitLabel": "Sign in for human review",
+          "loginNotice": "Sign in to move this private home brief into your Nest workspace for authenticated human review.",
+          "expiryCopy": "Unsubmitted briefs expire after one hour.",
+          "privacyCopy": "No participant search, exact-address sharing, or contact disclosure while anonymous.",
+          "errorCopy": "Nest could not save this brief. Please retry or sign in."
+        }
+      },
+      "audience": {
+        "kicker": "A smaller door by design",
+        "heading": "For people ready for a real next step.",
+        "body": "No public catalog. No property feed. No filter grid. Nest listens, proposes one fit, and waits for two private yeses.",
+        "forHeading": "This is for",
+        "forItems": [
+          "Buyers who are seriously looking and can act quickly.",
+          "Sellers who prefer a small number of qualified, pre-matched buyers over open public exposure."
+        ],
+        "notForHeading": "This is not for",
+        "notForItems": [
+          "Casual visitors who only want to see what is on the market.",
+          "Anyone expecting a public property feed or a grid of filters.",
+          "People looking for bulk deal flow."
+        ]
+      },
+      "privacy": {
+        "kicker": "Privacy is the sequence",
+        "heading": "Your address stays private until you both say yes.",
+        "body": "Nest starts with a neighborhood-sized area. Identity, contact details, and the exact address stay locked through the proposal and mutual-consent stages.",
+        "stages": [
+          {
+            "status": "proposed",
+            "label": "Proposed",
+            "title": "General area",
+            "body": "No identity or exact location is visible. Each side can accept or pass."
+          },
+          {
+            "status": "accepted",
+            "label": "Both accepted",
+            "title": "Mutual yes",
+            "body": "Both sides accepted. A person completes the final verification before details go out."
+          },
+          {
+            "status": "confirmed",
+            "label": "Confirmed",
+            "title": "Introduction confirmed",
+            "body": "Full contact details, the exact address, and the proposed time are now available to both participants."
+          }
+        ],
+        "proposalLabel": "Proposal",
+        "proposalAreaLabel": "General area",
+        "proposalArea": "Utrecht, Overvecht",
+        "proposalNote": "No identity or exact location is visible. Each side can accept or pass."
+      },
+      "process": {
+        "kicker": "How it works",
+        "heading": "One careful sequence.",
+        "licensedAgentNote": "A licensed local agent is looped in when you are ready to move forward."
+      },
+      "proposals": {
+        "kicker": "What a proposal looks like",
+        "heading": "Two sides. One considered fit.",
+        "body": "These example cards show the shape of a Nest proposal. They never expose an identity or exact address before mutual consent.",
+        "cards": [
+          {
+            "pairing": "Buyer × Property",
+            "status": "proposed",
+            "heading": "Quiet home, green outlook, flexible handover.",
+            "facts": [
+              {
+                "label": "General area",
+                "value": "Utrecht, Overvecht"
+              },
+              {
+                "label": "Event slot",
+                "value": "Saturday morning"
+              }
+            ],
+            "tone": "cream"
+          },
+          {
+            "pairing": "Property × Qualified buyer",
+            "status": "accepted",
+            "heading": "Funding prepared, timing aligned, priorities understood.",
+            "facts": [
+              {
+                "label": "Buyer summary",
+                "value": "Ready to move forward thoughtfully"
+              },
+              {
+                "label": "Event slot",
+                "value": "Sunday afternoon"
+              }
+            ],
+            "tone": "terracotta"
+          }
+        ]
+      },
+      "meet": {
+        "kicker": "Meet Nest",
+        "heading": "The detail-noticer in your corner.",
+        "body": "Nest listens beyond the obvious brief: the morning light you loved, the timing you cannot move, the one compromise that is not really a compromise. Then Nest brings back one considered fit.",
+        "characterImage": "/landing-pages/nest/nest-character-meet-compact-high-wings-transparent.png",
+        "characterAlt": "Meet Nest, holding a notebook and keys with compact wings raised behind the upper shoulders",
+        "principles": [
+          {
+            "title": "Listens first",
+            "body": "A conversation, not a wall of fields."
+          },
+          {
+            "title": "Proposes one fit",
+            "body": "No public property feed or endless grid."
+          },
+          {
+            "title": "Waits for two yeses",
+            "body": "Identity and exact address stay private until mutual consent."
+          }
+        ],
+        "primaryCtaLabel": "Talk to Nest",
+        "secondaryCtaLabel": "See how it works"
+      },
+      "footer": {
+        "brandLabel": "Nest.",
+        "tagline": "One careful home introduction at a time.",
+        "disclaimer": "Nest is not a licensed brokerage and does not represent either party, negotiate, value your home, or handle your transaction. When you are ready to move forward, we connect you with a licensed local agent to complete the process.",
+        "eventDisclaimer": "Second Home Fair details are modeled for this Nest instantiation and should be verified before attendance.",
+        "copyright": "© 2026 Nest",
+        "groups": [
+          {
+            "label": "Explore",
+            "links": [
+              {
+                "label": "How it works",
+                "target": "how-it-works"
+              },
+              {
+                "label": "Privacy",
+                "target": "privacy"
+              },
+              {
+                "label": "Proposals",
+                "target": "proposals"
+              }
+            ]
+          },
+          {
+            "label": "Nest",
+            "links": [
+              {
+                "label": "Meet Nest",
+                "target": "meet"
+              },
+              {
+                "label": "Build a brief",
+                "target": "hero-chat"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}
