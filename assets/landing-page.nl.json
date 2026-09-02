@@ -1,0 +1,500 @@
+{
+  "schemaVersion": 1,
+  "language": "nl",
+  "regionKey": null,
+  "sourceRevision": "b403368b522c83332476945d763c1cdb9c3211e7fa0204db9923ea107dbb96a8",
+  "landingPage": {
+    "headline": "Een gekwalificeerde introductie die past.",
+    "subheadline": "Particuliere kopers en verkopersintroducties, één door de mens beoordeeld voorstel tegelijk.",
+    "ctaLabel": "Praat met Nest",
+    "secondaryCtaLabel": "Kijk hoe het werkt",
+    "heroCharacterImage": "/landing-pages/nest/nest-character-meet-compact-high-wings-transparent.png",
+    "seoImage": {
+      "src": "/landing-pages/nest/og.jpg",
+      "alt": "Nest, een privégids voor huisintroductie, in een warm interieur met de woorden een zorgvuldige introductie"
+    },
+    "header": {
+      "brandMark": "image",
+      "logoImageUrl": "/landing-pages/nest/nest-keyround-logo.svg"
+    },
+    "design": {
+      "variant": "home-introductions",
+      "defaultThemeMode": "light",
+      "theme": {
+        "palette": "emerald",
+        "primaryColor": "emerald",
+        "secondaryColor": "stone",
+        "accentColor": "orange",
+        "fontFamily": "inter"
+      },
+      "brand": {
+        "presetRevision": 1,
+        "colors": {
+          "light": {
+            "canvas": "#f3efe5",
+            "surface": "#fffaf0",
+            "sidebar": "#173e31",
+            "text": "#18352a",
+            "accent": "#bd623f",
+            "userBubble": "#173e31"
+          },
+          "dark": {
+            "canvas": "#10251e",
+            "surface": "#173129",
+            "sidebar": "#0c1d17",
+            "text": "#f3efe5",
+            "accent": "#e29a7d",
+            "userBubble": "#bd623f"
+          }
+        },
+        "typography": {
+          "body": {
+            "source": "google",
+            "family": "DM Sans"
+          },
+          "display": {
+            "source": "google",
+            "family": "Manrope"
+          },
+          "label": {
+            "source": "google",
+            "family": "DM Sans"
+          }
+        }
+      }
+    },
+    "homeIntroductions": {
+      "header": {
+        "brandLabel": "nest.",
+        "brandTagline": "Een zorgvuldige introductie",
+        "navItems": [
+          {
+            "label": "Hoe het werkt",
+            "target": "how-it-works"
+          },
+          {
+            "label": "Geheimhouding",
+            "target": "privacy"
+          },
+          {
+            "label": "Begin hier",
+            "target": "hero-chat"
+          }
+        ],
+        "ctaLabel": "Vraag een introductie aan",
+        "mobileCtaLabel": "Begin"
+      },
+      "service": {
+        "activeMode": "event",
+        "announcement": "Nu matchen op Second Home Fair, Jaarbeurs Utrecht — vr 27–zo 29 mrt",
+        "feeCopy": "Vergoeding gedeeld voordat u een introductie aanvraagt",
+        "disclaimer": "Nest is geen gelicentieerde makelaardij en vertegenwoordigt geen van beide partijen, onderhandelt, waardeert uw huis of handelt uw transactie af. Wanneer u klaar bent om verder te gaan, verbinden we u met een gelicentieerde lokale agent om het proces te voltooien.",
+        "configurations": [
+          {
+            "mode": "event",
+            "label": "Evenement",
+            "actionLabel": "Uitzicht",
+            "name": "Tweede Huisbeurs, Jaarbeurs Utrecht",
+            "location": "Jaarbeurs Utrecht",
+            "dateRange": "vr 27–zo 29 mrt",
+            "availabilityLabel": "vr 27–zo 29 mrt · Jaarbeurs Utrecht"
+          },
+          {
+            "mode": "city",
+            "label": "Stad",
+            "actionLabel": "Uitzicht",
+            "name": "Nest Amsterdam",
+            "location": "Amsterdam Zuid",
+            "dateRange": "Voortgaande",
+            "availabilityLabel": "Altijd-op lokale introducties"
+          }
+        ]
+      },
+      "tracks": [
+        {
+          "id": "buying",
+          "label": "ik koop",
+          "responseMessage": "Vertel me het huis dat het waard zou zijn om voor te verhuizen. Ik zal alleen om de details vragen die een menselijke recensent nodig heeft, en dan een die als geschikt wordt beschouwd, terugbrengen.",
+          "composerPlaceholder": "Vertel Nest wat je nodig hebt van een huis…",
+          "processSteps": [
+            {
+              "number": "01",
+              "image": "/landing-pages/nest/nest-how-conversation-human.webp",
+              "alt": "Een potentiële koper die een privé-thuisbriefing deelt met Nest",
+              "title": "Ga een echt gesprek met Nest.",
+              "body": "Bespreek wat je echt nodig hebt: budget, must-haves, dealbreakers en timing. De kleine details horen ook in het gesprek."
+            },
+            {
+              "number": "02",
+              "image": "/landing-pages/nest/nest-how-review-human.webp",
+              "alt": "Nest en een menselijke recensent zorgvuldig overwegen een koper en een huis",
+              "title": "één eigenschap tegelijk ontvangen.",
+              "body": "Een persoon beoordeelt elk voorstel voordat beide partijen het zien. Geen openbare catalogus, ranking of eindeloos filterraster.",
+              "badge": "Menselijk goedgekeurd"
+            },
+            {
+              "number": "03",
+              "image": "/landing-pages/nest/nest-how-introduction-human.webp",
+              "alt": "Nest introduceert een potentiële koper en huiseigenaar na wederzijdse toestemming",
+              "title": "Ontgrendel de introductie samen.",
+              "body": "Zodra beide partijen accepteren, worden het volledige adres, de contactgegevens en de voorgestelde kijktijd privé gedeeld."
+            }
+          ],
+          "briefFields": [
+            {
+              "key": "area",
+              "label": "voorkeurs- of algemeen gebied",
+              "placeholder": "Regio Utrecht, Amsterdam Zuid…",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "propertyType",
+              "label": "Eigenschapstype",
+              "placeholder": "Appartement, gezinswoning, tweede huis…",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "propertyBrief",
+              "label": "Hoe moet het huis aanvoelen?",
+              "placeholder": "Beschrijf het huis en waarom het ertoe doet.",
+              "type": "textarea",
+              "required": true
+            },
+            {
+              "key": "budgetOrPrice",
+              "label": "Budgetbereik",
+              "placeholder": "Een privébereik is genoeg",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "mustHavesOrHighlights",
+              "label": "must-haves",
+              "placeholder": "Licht, tuin, werkruimte, toegankelijkheid…",
+              "type": "textarea",
+              "required": true
+            },
+            {
+              "key": "dealbreakersOrBuyerCriteria",
+              "label": "Dealbreakers",
+              "placeholder": "Wat zou de introductie slecht maken?",
+              "type": "textarea",
+              "required": false
+            },
+            {
+              "key": "timing",
+              "label": "het maat houden",
+              "placeholder": "Wanneer zou je klaar zijn om te bekijken of te verhuizen?",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "readiness",
+              "label": "Gereedheid",
+              "placeholder": "Verkennen, hypotheekklaar, contante koper...",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "privateConstraints",
+              "label": "Privé beperkingen",
+              "placeholder": "Alles wat Nest moet houden, moet privé blijven",
+              "type": "textarea",
+              "required": false
+            }
+          ]
+        },
+        {
+          "id": "selling",
+          "label": "ik verkoop",
+          "responseMessage": "Vertel me wat het huis onderscheidend maakt en welke koper een serieuze match zou zijn. Ik zal het exacte adres privé houden en een weloverwogen introductie terugbrengen.",
+          "composerPlaceholder": "Vertel Nest wat belangrijk is voor uw verkoop...",
+          "processSteps": [
+            {
+              "number": "01",
+              "image": "/landing-pages/nest/nest-how-conversation-human.webp",
+              "alt": "Een huiseigenaar die een privé-eigendomsbriefing deelt met Nest",
+              "title": "Ga een echt gesprek met Nest.",
+              "body": "Praat door het pand, uw timing, motivatie en wat gekwalificeerd voor u betekent."
+            },
+            {
+              "number": "02",
+              "image": "/landing-pages/nest/nest-how-review-human.webp",
+              "alt": "Nest en een menselijke recensent zorgvuldig overwegen een verkoper en een gekwalificeerde koper",
+              "title": "Ontvang één koper fit tegelijk.",
+              "body": "Een persoon beoordeelt elk voorstel voordat beide partijen het zien. Geen openbare blootstelling of bulkdealstroom.",
+              "badge": "Menselijk goedgekeurd"
+            },
+            {
+              "number": "03",
+              "image": "/landing-pages/nest/nest-how-introduction-human.webp",
+              "alt": "Nest introduceert een huiseigenaar en potentiële koper na wederzijdse toestemming",
+              "title": "Ontgrendel de introductie samen.",
+              "body": "Zodra beide partijen accepteren, worden contactgegevens, het exacte adres en de voorgestelde kijktijd privé gedeeld."
+            }
+          ],
+          "briefFields": [
+            {
+              "key": "area",
+              "label": "algens",
+              "placeholder": "Alleen buurt of breed gebied",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "propertyType",
+              "label": "Eigenschapstype",
+              "placeholder": "Appartement, gezinswoning, tweede huis…",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "propertyBrief",
+              "label": "eigendomskort",
+              "placeholder": "Beschrijf de eigenschap zonder een exact adres.",
+              "type": "textarea",
+              "required": true
+            },
+            {
+              "key": "budgetOrPrice",
+              "label": "Vraagprijsbereik",
+              "placeholder": "Een privébereik is genoeg",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "mustHavesOrHighlights",
+              "label": "Hoogtepunten van het onroerend goed",
+              "placeholder": "Wat maakt dit huis onderscheidend?",
+              "type": "textarea",
+              "required": true
+            },
+            {
+              "key": "dealbreakersOrBuyerCriteria",
+              "label": "Koper-fit criteria",
+              "placeholder": "Wat zou er moeten zijn voor een serieuze koper?",
+              "type": "textarea",
+              "required": false
+            },
+            {
+              "key": "timing",
+              "label": "het maat houden",
+              "placeholder": "Wanneer zou je klaar zijn om een bezichtiging te regelen?",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "readiness",
+              "label": "Gereedheid",
+              "placeholder": "Voorbereiden, klaar voor privébezichtigingen…",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "privateConstraints",
+              "label": "Privé beperkingen",
+              "placeholder": "Alles wat Nest moet houden, moet privé blijven",
+              "type": "textarea",
+              "required": false
+            }
+          ]
+        }
+      ],
+      "hero": {
+        "eyebrow": "Het ene huis, of de ene koper - geen boekrol.",
+        "headingLines": [
+          "Eén gekwalificeerde introductie",
+          "Dat past, niet duizend",
+          "Je moet jezelf filteren."
+        ],
+        "body": "Vertel Nest wat je eigenlijk zoekt, of wat je eigenlijk verkoopt. Nest stelt één match voor. Beide partijen zeggen ja voordat er iets wordt gedeeld.",
+        "backgroundImage": "/landing-pages/nest/nest-hero-interior-clean.png",
+        "backgroundAlt": "Een warm, rustig interieur",
+        "primaryCtaLabel": "Praat met Nest",
+        "secondaryCtaLabel": "ontmoet nest",
+        "privacyLine": "één wedstrijd tegelijk. mens beoordeeld. Privé totdat beide partijen zich aanmelden.",
+        "characterImage": "/landing-pages/nest/nest-character-meet-compact-high-wings-transparent.png",
+        "characterAlt": "Nest met een notebook en sleutels met compacte vleugels",
+        "chat": {
+          "statusLabel": "Online · Menselijk toezicht",
+          "privacyBadge": "Privé-",
+          "openingMessage": "Koopt of verkoopt u?",
+          "visitorMessage": "ik koop",
+          "assistantMessage": "Vertel me het huis dat het waard zou zijn om voor te verhuizen. Ik zal alleen om de details vragen die een menselijke recensent nodig heeft, en dan een die als geschikt wordt beschouwd, terugbrengen.",
+          "inputPlaceholder": "Vertel Nest wat je nodig hebt van een huis…"
+        },
+        "briefDemo": {
+          "enabled": true,
+          "commandTrigger": "request-introduction",
+          "introHeading": "Uw privé-huisbriefing",
+          "introBody": "Deel alleen wat een menselijke recensent nodig heeft. Exacte adressen en contactgegevens worden hier nooit aangevraagd.",
+          "chatLabel": "bouwen door chat · 10 beurten",
+          "voiceLabel": "Bouw door stem · 5 min",
+          "reviewLabel": "Herziene korte",
+          "editLabel": "Bewerk",
+          "reviewHeading": "Bekijk uw privébriefing",
+          "reviewBody": "Niets wordt volgehouden, gezocht, voorgesteld of gedeeld terwijl u anoniem bent.",
+          "submitLabel": "Log in voor menselijke beoordeling",
+          "loginNotice": "Meld u aan om deze privé-thuisopdracht naar uw Nest-werkruimte te verplaatsen voor geauthenticeerde menselijke beoordeling.",
+          "expiryCopy": "Niet-ingediende briefs verlopen na een uur.",
+          "privacyCopy": "Geen deelnemers zoeken, exact-adres delen, of contactgegevens openbaar maken terwijl anoniem.",
+          "errorCopy": "Nest kon deze opdracht niet redden. Probeer het opnieuw of log in."
+        }
+      },
+      "audience": {
+        "kicker": "Een kleinere deur door ontwerp",
+        "heading": "Voor mensen die klaar zijn voor een echte volgende stap.",
+        "body": "Geen openbare catalogus. Geen eigendomsvoeding. Geen filterrooster. Nest luistert, stelt één aanval voor en wacht op twee privé-ja's.",
+        "forHeading": "Dit is voor",
+        "forItems": [
+          "Kopers die serieus op zoek zijn en snel kunnen handelen.",
+          "Verkopers die een klein aantal gekwalificeerde, vooraf op elkaar afgestemde kopers verkiezen boven open publieke blootstelling."
+        ],
+        "notForHeading": "Dit is niet voor",
+        "notForItems": [
+          "Casual bezoekers die alleen willen zien wat er op de markt is.",
+          "Iedereen die een openbare eigendomsfeed of een raster van filters verwacht.",
+          "Mensen die op zoek zijn naar bulk deal flow."
+        ]
+      },
+      "privacy": {
+        "kicker": "Privacy is de volgorde",
+        "heading": "Je adres blijft privé totdat jullie allebei ja zeggen.",
+        "body": "Nest begint met een buurtgebied. Identiteit, contactgegevens en het exacte adres blijven vergrendeld door middel van het voorstel en de fasen van wederzijdse toestemming.",
+        "stages": [
+          {
+            "status": "proposed",
+            "label": "voorgesteld",
+            "title": "algens",
+            "body": "Er is geen identiteit of exacte locatie zichtbaar. Elke kant kan accepteren of passeren."
+          },
+          {
+            "status": "accepted",
+            "label": "Beide geaccepteerd",
+            "title": "Mutual yes",
+            "body": "Beide partijen aanvaardden. Een persoon voltooit de definitieve verificatie voordat details de deur uitgaan."
+          },
+          {
+            "status": "confirmed",
+            "label": "Verstokt",
+            "title": "Inleiding bevestigd",
+            "body": "Volledige contactgegevens, het exacte adres en de voorgestelde tijd zijn nu beschikbaar voor beide deelnemers."
+          }
+        ],
+        "proposalLabel": "Voorstel",
+        "proposalAreaLabel": "algens",
+        "proposalArea": "Utrecht, Overvecht",
+        "proposalNote": "Er is geen identiteit of exacte locatie zichtbaar. Elke kant kan accepteren of passeren."
+      },
+      "process": {
+        "kicker": "Hoe het werkt",
+        "heading": "één zorgvuldige reeks.",
+        "licensedAgentNote": "Een gelicentieerde lokale agent wordt doorgelust wanneer u klaar bent om verder te gaan."
+      },
+      "proposals": {
+        "kicker": "Hoe een voorstel eruit ziet",
+        "heading": "Twee kanten. een beschouwd als geschikt.",
+        "body": "Deze voorbeeldkaarten tonen de vorm van een nestvoorstel. Ze brengen nooit een identiteit of exact adres bloot voor wederzijdse toestemming.",
+        "cards": [
+          {
+            "pairing": "Koper × eigendom",
+            "status": "proposed",
+            "heading": "Rustig huis, groen vooruitzicht, flexibele overdracht.",
+            "facts": [
+              {
+                "label": "algens",
+                "value": "Utrecht, Overvecht"
+              },
+              {
+                "label": "Evenementenslot",
+                "value": "Zaterdag ochtend"
+              }
+            ],
+            "tone": "cream"
+          },
+          {
+            "pairing": "Eigendom × gekwalificeerde koper",
+            "status": "accepted",
+            "heading": "Financiering voorbereid, timing afgestemd, prioriteiten begrepen.",
+            "facts": [
+              {
+                "label": "Koperoverzicht",
+                "value": "Klaar om bedachtzaam verder te gaan"
+              },
+              {
+                "label": "Evenementenslot",
+                "value": "Zondagmiddag"
+              }
+            ],
+            "tone": "terracotta"
+          }
+        ]
+      },
+      "meet": {
+        "kicker": "ontmoet nest",
+        "heading": "De detail-noticer in uw hoek.",
+        "body": "Nest luistert verder dan de voor de hand liggende opdracht: het ochtendlicht waar je van hield, de timing die je niet kunt bewegen, het enige compromis dat niet echt een compromis is. Dan brengt Nest iemand terug die als geschikt wordt beschouwd.",
+        "characterImage": "/landing-pages/nest/nest-character-meet-compact-high-wings-transparent.png",
+        "characterAlt": "Ontmoet Nest, met een notitieboekje en sleutels met compacte vleugels die achter de bovenste schouders zijn opgeheven",
+        "principles": [
+          {
+            "title": "luistert eerst",
+            "body": "Een gesprek, geen muur van velden."
+          },
+          {
+            "title": "Stelt een pasvorm voor",
+            "body": "Geen openbare eigendomsfeed of eindeloos net."
+          },
+          {
+            "title": "wacht op twee ja",
+            "body": "Identiteit en exact adres blijven privé tot wederzijdse toestemming."
+          }
+        ],
+        "primaryCtaLabel": "Praat met Nest",
+        "secondaryCtaLabel": "Kijk hoe het werkt"
+      },
+      "footer": {
+        "brandLabel": "nest.",
+        "tagline": "één zorgvuldige thuisintroductie tegelijk.",
+        "disclaimer": "Nest is geen gelicentieerde makelaardij en vertegenwoordigt geen van beide partijen, onderhandelt, waardeert uw huis of handelt uw transactie af. Wanneer u klaar bent om verder te gaan, verbinden we u met een gelicentieerde lokale agent om het proces te voltooien. Not a broker. Does not represent either party. Does not provide valuations. Does not negotiate.",
+        "eventDisclaimer": "Details van de tweede thuisbeurs worden gemodelleerd voor deze nest-instantiatie en moeten worden geverifieerd voordat ze aanwezig zijn.",
+        "copyright": "© 2026",
+        "groups": [
+          {
+            "label": "Onderzoeken",
+            "links": [
+              {
+                "label": "Hoe het werkt",
+                "target": "how-it-works"
+              },
+              {
+                "label": "Geheimhouding",
+                "target": "privacy"
+              },
+              {
+                "label": "voorstellen",
+                "target": "proposals"
+              }
+            ]
+          },
+          {
+            "label": "Nest",
+            "links": [
+              {
+                "label": "ontmoet nest",
+                "target": "meet"
+              },
+              {
+                "label": "Bouw een korte",
+                "target": "hero-chat"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "generatedAt": "2026-09-01T15:39:42.215Z"
+}

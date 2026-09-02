@@ -1,0 +1,500 @@
+{
+  "schemaVersion": 1,
+  "language": "bg",
+  "regionKey": null,
+  "sourceRevision": "b403368b522c83332476945d763c1cdb9c3211e7fa0204db9923ea107dbb96a8",
+  "landingPage": {
+    "headline": "Едно квалифицирано въведение, което отговаря.",
+    "subheadline": "Представяне на частен купувач и продавач, едно по едно предложение за хора.",
+    "ctaLabel": "Говорете с Nest",
+    "secondaryCtaLabel": "Вижте как работи",
+    "heroCharacterImage": "/landing-pages/nest/nest-character-meet-compact-high-wings-transparent.png",
+    "seoImage": {
+      "src": "/landing-pages/nest/og.jpg",
+      "alt": "Nest, частно ръководство за въвеждане на дома, в топъл интериор с думите едно внимателно въведение"
+    },
+    "header": {
+      "brandMark": "image",
+      "logoImageUrl": "/landing-pages/nest/nest-keyround-logo.svg"
+    },
+    "design": {
+      "variant": "home-introductions",
+      "defaultThemeMode": "light",
+      "theme": {
+        "palette": "emerald",
+        "primaryColor": "emerald",
+        "secondaryColor": "stone",
+        "accentColor": "orange",
+        "fontFamily": "inter"
+      },
+      "brand": {
+        "presetRevision": 1,
+        "colors": {
+          "light": {
+            "canvas": "#f3efe5",
+            "surface": "#fffaf0",
+            "sidebar": "#173e31",
+            "text": "#18352a",
+            "accent": "#bd623f",
+            "userBubble": "#173e31"
+          },
+          "dark": {
+            "canvas": "#10251e",
+            "surface": "#173129",
+            "sidebar": "#0c1d17",
+            "text": "#f3efe5",
+            "accent": "#e29a7d",
+            "userBubble": "#bd623f"
+          }
+        },
+        "typography": {
+          "body": {
+            "source": "google",
+            "family": "DM Sans"
+          },
+          "display": {
+            "source": "google",
+            "family": "Manrope"
+          },
+          "label": {
+            "source": "google",
+            "family": "DM Sans"
+          }
+        }
+      }
+    },
+    "homeIntroductions": {
+      "header": {
+        "brandLabel": "гнездо.",
+        "brandTagline": "Едно внимателно въведение",
+        "navItems": [
+          {
+            "label": "как работи",
+            "target": "how-it-works"
+          },
+          {
+            "label": "Уединение",
+            "target": "privacy"
+          },
+          {
+            "label": "Започнете тук",
+            "target": "hero-chat"
+          }
+        ],
+        "ctaLabel": "Заявете въведение",
+        "mobileCtaLabel": "Начало"
+      },
+      "service": {
+        "activeMode": "event",
+        "announcement": "Сега съвпадащ на Втори домашен панаир, Jaarbeurs Utrecht — пт, 27 – нд, 29 март",
+        "feeCopy": "Таксата е споделена, преди да поискате въведение",
+        "disclaimer": "Nest не е лицензирана брокерска компания и не представлява нито една от страните, не договаря, оценява дома ви или не обработва вашата транзакция. Когато сте готови да продължите напред, ние ви свързваме с лицензиран локален агент, за да завършим процеса.",
+        "configurations": [
+          {
+            "mode": "event",
+            "label": "Случай",
+            "actionLabel": "Оглед",
+            "name": "Втори панаир на дома, Jaarbeurs Utrecht",
+            "location": "Jaarbeurs Utrecht",
+            "dateRange": "пт 27 – нд 29 март",
+            "availabilityLabel": "пт 27–нд 29 март · Jaarbeurs Utrecht"
+          },
+          {
+            "mode": "city",
+            "label": "Град",
+            "actionLabel": "Оглед",
+            "name": "Гнездом Амстердам",
+            "location": "Амстердам Зуид",
+            "dateRange": "В процес",
+            "availabilityLabel": "Винаги включено местно представяне"
+          }
+        ]
+      },
+      "tracks": [
+        {
+          "id": "buying",
+          "label": "купувам",
+          "responseMessage": "Кажете ми за дома, за който си струва да се преместя. Ще попитам само за подробностите, от които човек се нуждае рецензент, след което ще върна един смятан за подходящ.",
+          "composerPlaceholder": "Кажете на Nest какво ви трябва от дома...",
+          "processSteps": [
+            {
+              "number": "01",
+              "image": "/landing-pages/nest/nest-how-conversation-human.webp",
+              "alt": "бъдещ купувач, споделящ частен дом с Nest",
+              "title": "Проведете истински разговор с Nest.",
+              "body": "Говорете за това, от което всъщност се нуждаете: бюджет, задължителни неща, нарушители на сделки и време. Малките детайли принадлежат и на разговора."
+            },
+            {
+              "number": "02",
+              "image": "/landing-pages/nest/nest-how-review-human.webp",
+              "alt": "гнездо и човек рецензент внимателно обмисля един купувач и един дом",
+              "title": "получавате едно прилягане на имота в даден момент.",
+              "body": "Човек преглежда всяко предложение, преди някоя от страните да го види. Няма публичен каталог, класиране или безкрайна филтърна мрежа.",
+              "badge": "Одобрен от човека"
+            },
+            {
+              "number": "03",
+              "image": "/landing-pages/nest/nest-how-introduction-human.webp",
+              "alt": "Nest представя бъдещ купувач и собственик на жилище след взаимно съгласие",
+              "title": "Отключете заедно въведението.",
+              "body": "След като и двете страни приемат, пълният адрес, данните за контакт и предложеното време за гледане се споделят частно."
+            }
+          ],
+          "briefFields": [
+            {
+              "key": "area",
+              "label": "Предпочитана или обща зона",
+              "placeholder": "Утрехт, Амстердам Зуид…",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "propertyType",
+              "label": "Тип имот",
+              "placeholder": "Апартамент, семеен дом, втори дом…",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "propertyBrief",
+              "label": "Как трябва да се чувства домът?",
+              "placeholder": "Опишете дома и защо има значение.",
+              "type": "textarea",
+              "required": true
+            },
+            {
+              "key": "budgetOrPrice",
+              "label": "Бюджетен диапазон",
+              "placeholder": "Достатъчен е частен диапазон",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "mustHavesOrHighlights",
+              "label": "Задължителни",
+              "placeholder": "Светлина, Градина, Работно пространство, Достъпност…",
+              "type": "textarea",
+              "required": true
+            },
+            {
+              "key": "dealbreakersOrBuyerCriteria",
+              "label": "Dealbreakers",
+              "placeholder": "Какво би направило въведението лошо?",
+              "type": "textarea",
+              "required": false
+            },
+            {
+              "key": "timing",
+              "label": "Синхронизиране",
+              "placeholder": "Кога бихте били готови да видите или да се преместите?",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "readiness",
+              "label": "Готовност",
+              "placeholder": "Проучване, готово за ипотека, купувач в брой...",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "privateConstraints",
+              "label": "Частни ограничения",
+              "placeholder": "Anything Nest should keep private",
+              "type": "textarea",
+              "required": false
+            }
+          ]
+        },
+        {
+          "id": "selling",
+          "label": "продавам",
+          "responseMessage": "Кажете ми какво прави дома различен и кой купувач би бил сериозен. Ще запазя точния адрес поверителен и ще върна едно обмислено въведение.",
+          "composerPlaceholder": "Кажете на Nest какво има значение за вашата продажба...",
+          "processSteps": [
+            {
+              "number": "01",
+              "image": "/landing-pages/nest/nest-how-conversation-human.webp",
+              "alt": "Собственик на жилище, споделящ частен имот с Nest",
+              "title": "Проведете истински разговор с Nest.",
+              "body": "Говорете през имота, вашето време, мотивация и какво означава квалифицирано за вас."
+            },
+            {
+              "number": "02",
+              "image": "/landing-pages/nest/nest-how-review-human.webp",
+              "alt": "Nest и рецензент на хора внимателно обмислят един продавач и един квалифициран купувач",
+              "title": "получавате един купувач в даден момент.",
+              "body": "Човек преглежда всяко предложение, преди някоя от страните да го види. Без публична експозиция или поток на насипни сделки.",
+              "badge": "Одобрен от човека"
+            },
+            {
+              "number": "03",
+              "image": "/landing-pages/nest/nest-how-introduction-human.webp",
+              "alt": "Nest представя собственик на жилище и бъдещ купувач след взаимно съгласие",
+              "title": "Отключете заедно въведението.",
+              "body": "След като и двете страни приемат, данните за контакт, точният адрес и предложеното време за гледане се споделят частно."
+            }
+          ],
+          "briefFields": [
+            {
+              "key": "area",
+              "label": "Обща площ",
+              "placeholder": "само квартал или широка зона",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "propertyType",
+              "label": "Тип имот",
+              "placeholder": "Апартамент, семеен дом, втори дом…",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "propertyBrief",
+              "label": "Кратка информация за имота",
+              "placeholder": "Опишете имота без точен адрес.",
+              "type": "textarea",
+              "required": true
+            },
+            {
+              "key": "budgetOrPrice",
+              "label": "Диапазон на ценови цени",
+              "placeholder": "Достатъчен е частен диапазон",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "mustHavesOrHighlights",
+              "label": "Акценти на имота",
+              "placeholder": "Какво прави този дом различен?",
+              "type": "textarea",
+              "required": true
+            },
+            {
+              "key": "dealbreakersOrBuyerCriteria",
+              "label": "Критерии за купуване",
+              "placeholder": "Какво трябва да е вярно за сериозен купувач?",
+              "type": "textarea",
+              "required": false
+            },
+            {
+              "key": "timing",
+              "label": "Синхронизиране",
+              "placeholder": "Кога бихте били готови да организирате оглед?",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "readiness",
+              "label": "Готовност",
+              "placeholder": "Подготовка, готова за частни гледания...",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "privateConstraints",
+              "label": "Частни ограничения",
+              "placeholder": "Anything Nest should keep private",
+              "type": "textarea",
+              "required": false
+            }
+          ]
+        }
+      ],
+      "hero": {
+        "eyebrow": "Единственият дом или единственият купувач - не свитък от обяви.",
+        "headingLines": [
+          "Едно квалифицирано въведение",
+          "Това пасва, а не хиляда",
+          "Трябва да се филтрираш."
+        ],
+        "body": "Кажете на Nest какво всъщност търсите или какво всъщност продавате. Nest предлага едно съвпадение. И двете страни казват „да“, преди нещо да бъде споделено.",
+        "backgroundImage": "/landing-pages/nest/nest-hero-interior-clean.png",
+        "backgroundAlt": "Топъл, спокоен домашен интериор",
+        "primaryCtaLabel": "Говорете с Nest",
+        "secondaryCtaLabel": "Запознайте се с Nest",
+        "privacyLine": "един мач наведнъж. Преглед на човека. Частен, докато и двете страни не се включат.",
+        "characterImage": "/landing-pages/nest/nest-character-meet-compact-high-wings-transparent.png",
+        "characterAlt": "Гнездо, което държи тетрадка и ключове с компактни крила",
+        "chat": {
+          "statusLabel": "Онлайн · Надзорен човек",
+          "privacyBadge": "Частен",
+          "openingMessage": "Купуваш ли или продаваш?",
+          "visitorMessage": "купувам",
+          "assistantMessage": "Кажете ми за дома, за който си струва да се преместя. Ще попитам само за подробностите, от които човек се нуждае рецензент, след което ще върна един смятан за подходящ.",
+          "inputPlaceholder": "Кажете на Nest какво ви трябва от дома..."
+        },
+        "briefDemo": {
+          "enabled": true,
+          "commandTrigger": "request-introduction",
+          "introHeading": "Вашият личен дом",
+          "introBody": "Споделете само това, от което се нуждае човек рецензент. Точни адреси и данни за контакт никога не се изискват тук.",
+          "chatLabel": "Изграждане чрез чат · 10 завоя",
+          "voiceLabel": "Изграждане от глас · 5 минути",
+          "reviewLabel": "Кратка информация за преглед",
+          "editLabel": "Редактиране",
+          "reviewHeading": "Прегледайте личното си резюме",
+          "reviewBody": "Нищо не се запазва, търси, предлага или споделя, докато сте анонимен.",
+          "submitLabel": "Влезте за преглед при хора",
+          "loginNotice": "Влезте, за да преместите този частен дом във вашето работно пространство на Nest за удостоверен човешки преглед.",
+          "expiryCopy": "Неизпратените слипове изтичат след един час.",
+          "privacyCopy": "Няма търсене на участници, споделяне на точен адрес или разкриване на контакт, докато е анонимно.",
+          "errorCopy": "Nest не можа да запази това резюме. Моля, опитайте отново или влезте."
+        }
+      },
+      "audience": {
+        "kicker": "По-малка врата по дизайн",
+        "heading": "За хора, готови за истинска следваща стъпка.",
+        "body": "Няма публичен каталог. Няма емисия за собственост. Няма филтърна мрежа. Nest слуша, предлага едно прилягане и чака две частни „да“.",
+        "forHeading": "Това е за",
+        "forItems": [
+          "Купувачи, които сериозно търсят и могат да действат бързо.",
+          "Продавачи, които предпочитат малък брой квалифицирани, предварително съвпадащи купувачи пред открита обществена експозиция."
+        ],
+        "notForHeading": "Това не е за",
+        "notForItems": [
+          "Случайни посетители, които искат само да видят какво има на пазара.",
+          "Всеки, който очаква обществена собственост или мрежа от филтри.",
+          "Хора, които търсят насипен поток на сделки."
+        ]
+      },
+      "privacy": {
+        "kicker": "Поверителността е последователността",
+        "heading": "Вашият адрес остава частен, докато и двамата не кажете „да“.",
+        "body": "Гнездото започва с район с размер на квартал. Самоличността, данните за контакт и точният адрес остават заключени през етапите на предложението и взаимното съгласие.",
+        "stages": [
+          {
+            "status": "proposed",
+            "label": "предложено",
+            "title": "Обща площ",
+            "body": "Не се вижда самоличност или точно местоположение. Всяка страна може да приеме или да премине."
+          },
+          {
+            "status": "accepted",
+            "label": "И двете приеха",
+            "title": "взаимно да",
+            "body": "И двете страни приеха. Човек завършва окончателната проверка, преди да излязат подробностите."
+          },
+          {
+            "status": "confirmed",
+            "label": "Заклет",
+            "title": "Въведение Потвърдено",
+            "body": "Пълните данни за контакт, точния адрес и предложеното време вече са достъпни и за двамата участници."
+          }
+        ],
+        "proposalLabel": "Предложение",
+        "proposalAreaLabel": "Обща площ",
+        "proposalArea": "Утрехт, Овървехт",
+        "proposalNote": "Не се вижда самоличност или точно местоположение. Всяка страна може да приеме или да премине."
+      },
+      "process": {
+        "kicker": "как работи",
+        "heading": "Една внимателна последователност.",
+        "licensedAgentNote": "Лицензиран локален агент се включва, когато сте готови да продължите напред."
+      },
+      "proposals": {
+        "kicker": "Как изглежда едно предложение",
+        "heading": "Две страни. един смятан за годен.",
+        "body": "Тези примерни карти показват формата на предложение за гнездо. Те никога не излагат самоличност или точен адрес преди взаимното съгласие.",
+        "cards": [
+          {
+            "pairing": "Купувач × Имот",
+            "status": "proposed",
+            "heading": "Тих дом, зелена перспектива, гъвкаво предаване.",
+            "facts": [
+              {
+                "label": "Обща площ",
+                "value": "Утрехт, Овървехт"
+              },
+              {
+                "label": "Слот за събитие",
+                "value": "Събота сутрин"
+              }
+            ],
+            "tone": "cream"
+          },
+          {
+            "pairing": "Имот × квалифициран купувач",
+            "status": "accepted",
+            "heading": "Финансирането е подготвено, времето е подравнено, приоритетите са разбрани.",
+            "facts": [
+              {
+                "label": "Резюме на купувача",
+                "value": "Готов да се движи замислено напред"
+              },
+              {
+                "label": "Слот за събитие",
+                "value": "Неделя следобед"
+              }
+            ],
+            "tone": "terracotta"
+          }
+        ]
+      },
+      "meet": {
+        "kicker": "Запознайте се с Nest",
+        "heading": "Уведомителят за детайли във вашия ъгъл.",
+        "body": "Nest слуша отвъд очевидното кратко описание: сутрешната светлина, която сте обичали, времето, което не можете да преместите, единственият компромис, който всъщност не е компромис. След това Nest връща един смятан за годен.",
+        "characterImage": "/landing-pages/nest/nest-character-meet-compact-high-wings-transparent.png",
+        "characterAlt": "Запознайте се с Nest, като държите тетрадка и ключове с компактни крила, повдигнати зад горните рамене",
+        "principles": [
+          {
+            "title": "слуша първо",
+            "body": "Разговор, а не стена от полета."
+          },
+          {
+            "title": "предлага едно прилягане",
+            "body": "Без емисия за обществена собственост или безкрайна мрежа."
+          },
+          {
+            "title": "чака две да",
+            "body": "Самоличността и точният адрес остават частни до взаимното съгласие."
+          }
+        ],
+        "primaryCtaLabel": "Говорете с Nest",
+        "secondaryCtaLabel": "Вижте как работи"
+      },
+      "footer": {
+        "brandLabel": "гнездо.",
+        "tagline": "Едно внимателно домашно представяне наведнъж.",
+        "disclaimer": "Nest не е лицензирана брокерска компания и не представлява нито една от страните, не договаря, оценява дома ви или не обработва вашата транзакция. Когато сте готови да продължите напред, ние ви свързваме с лицензиран локален агент, за да завършим процеса. Not a broker. Does not represent either party. Does not provide valuations. Does not negotiate.",
+        "eventDisclaimer": "Подробностите за панаира на втория дом са моделирани за тази инстанция на гнездо и трябва да бъдат проверени преди присъствието.",
+        "copyright": "© 2026 Nest",
+        "groups": [
+          {
+            "label": "Изследвам",
+            "links": [
+              {
+                "label": "как работи",
+                "target": "how-it-works"
+              },
+              {
+                "label": "Уединение",
+                "target": "privacy"
+              },
+              {
+                "label": "Предложения",
+                "target": "proposals"
+              }
+            ]
+          },
+          {
+            "label": "Гнездо",
+            "links": [
+              {
+                "label": "Запознайте се с Nest",
+                "target": "meet"
+              },
+              {
+                "label": "Изградете кратко",
+                "target": "hero-chat"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "generatedAt": "2026-09-01T15:39:42.215Z"
+}

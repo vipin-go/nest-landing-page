@@ -1,0 +1,500 @@
+{
+  "schemaVersion": 1,
+  "language": "et",
+  "regionKey": null,
+  "sourceRevision": "b403368b522c83332476945d763c1cdb9c3211e7fa0204db9923ea107dbb96a8",
+  "landingPage": {
+    "headline": "Üks kvalifitseeritud tutvustus, mis sobib.",
+    "subheadline": "Erastatud ostja ja müüja tutvustused, üks inimese poolt üle vaadatud ettepanek korraga.",
+    "ctaLabel": "Rääkige Nest-iga",
+    "secondaryCtaLabel": "Vaadake, kuidas see toimib",
+    "heroCharacterImage": "/landing-pages/nest/nest-character-meet-compact-high-wings-transparent.png",
+    "seoImage": {
+      "src": "/landing-pages/nest/og.jpg",
+      "alt": "Nest, privaatne kodututvustuste giid, soojas siseinterjööris sõnadega „Üks hoolikas tutvustus”"
+    },
+    "header": {
+      "brandMark": "image",
+      "logoImageUrl": "/landing-pages/nest/nest-keyround-logo.svg"
+    },
+    "design": {
+      "variant": "home-introductions",
+      "defaultThemeMode": "light",
+      "theme": {
+        "palette": "emerald",
+        "primaryColor": "emerald",
+        "secondaryColor": "stone",
+        "accentColor": "orange",
+        "fontFamily": "inter"
+      },
+      "brand": {
+        "presetRevision": 1,
+        "colors": {
+          "light": {
+            "canvas": "#f3efe5",
+            "surface": "#fffaf0",
+            "sidebar": "#173e31",
+            "text": "#18352a",
+            "accent": "#bd623f",
+            "userBubble": "#173e31"
+          },
+          "dark": {
+            "canvas": "#10251e",
+            "surface": "#173129",
+            "sidebar": "#0c1d17",
+            "text": "#f3efe5",
+            "accent": "#e29a7d",
+            "userBubble": "#bd623f"
+          }
+        },
+        "typography": {
+          "body": {
+            "source": "google",
+            "family": "DM Sans"
+          },
+          "display": {
+            "source": "google",
+            "family": "Manrope"
+          },
+          "label": {
+            "source": "google",
+            "family": "DM Sans"
+          }
+        }
+      }
+    },
+    "homeIntroductions": {
+      "header": {
+        "brandLabel": "Nest.",
+        "brandTagline": "Üks hoolikas tutvustus",
+        "navItems": [
+          {
+            "label": "Kuidas see toimib",
+            "target": "how-it-works"
+          },
+          {
+            "label": "Privaatsus",
+            "target": "privacy"
+          },
+          {
+            "label": "Alusta siit",
+            "target": "hero-chat"
+          }
+        ],
+        "ctaLabel": "Taotlege tutvustust",
+        "mobileCtaLabel": "Alusta"
+      },
+      "service": {
+        "activeMode": "event",
+        "announcement": "Praegu toimub sobitamine Second Home Fairil, Jaarbeurs Utrecht – reedel 27.–pühapäeval 29. märts",
+        "feeCopy": "Tasu jagatakse enne tutvustuse taotlemist",
+        "disclaimer": "Nest ei ole litsentseeritud vahendusfirma ega esinda kumbagi poolt, ei läbi räägi, ei hindata teie kodu ega halda teie tehingut. Kui olete valmis edasi liikuma, ühendame teid litsentseeritud kohaliku maakleriga protsessi lõpuleviimiseks.",
+        "configurations": [
+          {
+            "mode": "event",
+            "label": "Üritus",
+            "actionLabel": "Vaata",
+            "name": "Second Home Fair, Jaarbeurs Utrecht",
+            "location": "Jaarbeurs Utrecht",
+            "dateRange": "Reede 27.–pühapäev 29. märts",
+            "availabilityLabel": "Reede 27.–pühapäev 29. märts · Jaarbeurs Utrecht"
+          },
+          {
+            "mode": "city",
+            "label": "Linn",
+            "actionLabel": "Vaata",
+            "name": "Nest Amsterdam",
+            "location": "Amsterdam Zuid",
+            "dateRange": "Kestev",
+            "availabilityLabel": "Alati aktiivsed kohalikud tutvustused"
+          }
+        ]
+      },
+      "tracks": [
+        {
+          "id": "buying",
+          "label": "Ostan",
+          "responseMessage": "Öelge mulle kodu, mille pärast oleks kolimist väärt. Küsin ainult detaile, mida inimkontrollija vajab, ja toon siis ühe kaalutud sobivuse.",
+          "composerPlaceholder": "Öelge Nest-ile, mida teil kodult vaja on…",
+          "processSteps": [
+            {
+              "number": "01",
+              "image": "/landing-pages/nest/nest-how-conversation-human.webp",
+              "alt": "Potentsiaalne ostja jagab Nest-iga privaatset kodukirjeldust",
+              "title": "Pidage Nest-iga tõihtlast vestlust.",
+              "body": "Rääkige läbi see, mida te tegelikult vajate: eelarve, peamised vajadused, tagasilükkamiskriteeriumid ja ajakava. Väikesed detailid kuuluvad samuti vestlusesse."
+            },
+            {
+              "number": "02",
+              "image": "/landing-pages/nest/nest-how-review-human.webp",
+              "alt": "Nest ja inimkontrollija kaaluvad hoolikalt ühte ostjat ja ühte kodu",
+              "title": "Saage korraga üks kinnisvara sobivus.",
+              "body": "Iga ettepanekut vaatab enne kummagi poole nägemist läbi üks inimene. Ilma avaliku kataloogi, edetabeli või lõputu filtrivõrgustikuta.",
+              "badge": "Inimese kinnitatud"
+            },
+            {
+              "number": "03",
+              "image": "/landing-pages/nest/nest-how-introduction-human.webp",
+              "alt": "Nest tutvustab potentsiaalset ostjat ja koduomanikku pärast vastastikust nõusolekut",
+              "title": "Avage tutvustus koos.",
+              "body": "Kui mõlemad pooled nõustuvad, jagatakse täielik aadress, kontaktandmed ja pakutud vaatamise aeg privaatselt."
+            }
+          ],
+          "briefFields": [
+            {
+              "key": "area",
+              "label": "Eelistatud või üldine piirkond",
+              "placeholder": "Utrechti piirkond, Amsterdam Zuid…",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "propertyType",
+              "label": "Kinnisvara tüüp",
+              "placeholder": "Korter, perekodu, teine kodu…",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "propertyBrief",
+              "label": "Milline tunne kodus peaks olema?",
+              "placeholder": "Kirjeldage kodu ja miks see oluline on.",
+              "type": "textarea",
+              "required": true
+            },
+            {
+              "key": "budgetOrPrice",
+              "label": "Eelarvevahemik",
+              "placeholder": "Privaatne vahemik on piisav",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "mustHavesOrHighlights",
+              "label": "Peamised vajadused",
+              "placeholder": "Valgus, aed, tööruum, juurdepääsetavus…",
+              "type": "textarea",
+              "required": true
+            },
+            {
+              "key": "dealbreakersOrBuyerCriteria",
+              "label": "Tagasilükkamiskriteeriumid",
+              "placeholder": "Mis muudaks tutvustuse kehvaks sobivuseks?",
+              "type": "textarea",
+              "required": false
+            },
+            {
+              "key": "timing",
+              "label": "Ajastus",
+              "placeholder": "Millal oleksite valmis vaatama või kolima?",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "readiness",
+              "label": "Valmidus",
+              "placeholder": "Uurimine, hüpoteegi valmidus, sularaha ostja…",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "privateConstraints",
+              "label": "Privaatsed piirangud",
+              "placeholder": "Midagi, mida Nest peaks privaatseks jätma",
+              "type": "textarea",
+              "required": false
+            }
+          ]
+        },
+        {
+          "id": "selling",
+          "label": "Müün",
+          "responseMessage": "Öelge mulle, mis muudab kodu eriliseks ja milline ostja oleks tõsine sobivus. Täpse aadressi hoian privaatsena ja toon ühe kaalutud tutvustuse.",
+          "composerPlaceholder": "Öelge Nest-ile, mis on teie müügi juures oluline…",
+          "processSteps": [
+            {
+              "number": "01",
+              "image": "/landing-pages/nest/nest-how-conversation-human.webp",
+              "alt": "Koduomanik jagab Nest-iga privaatset kinnisvarakirjeldust",
+              "title": "Pidage Nest-iga tõihtlast vestlust.",
+              "body": "Rääkige kinnisvarast, oma ajakavast, motivatsioonist ja sellest, mida teie jaoks kvalifitseeritus tähendab."
+            },
+            {
+              "number": "02",
+              "image": "/landing-pages/nest/nest-how-review-human.webp",
+              "alt": "Nest ja inimkontrollija kaaluvad hoolikalt ühte müüjat ja ühte kvalifitseeritud ostjat",
+              "title": "Saage korraga üks ostja sobivus.",
+              "body": "Iga ettepanekut vaatab enne kummagi poole nägemist läbi üks inimene. Ilma avaliku kokkupuute või hulgitehingute voota.",
+              "badge": "Inimese kinnitatud"
+            },
+            {
+              "number": "03",
+              "image": "/landing-pages/nest/nest-how-introduction-human.webp",
+              "alt": "Nest tutvustab koduomanikku ja potentsiaalset ostjat pärast vastastikust nõusolekut",
+              "title": "Avage tutvustus koos.",
+              "body": "Kui mõlemad pooled nõustuvad, jagatakse kontaktandmed, täpne aadress ja pakutud vaatamise aeg privaatselt."
+            }
+          ],
+          "briefFields": [
+            {
+              "key": "area",
+              "label": "Üldine piirkond",
+              "placeholder": "Ainult naabruskond või laiem piirkond",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "propertyType",
+              "label": "Kinnisvara tüüp",
+              "placeholder": "Korter, perekodu, teine kodu…",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "propertyBrief",
+              "label": "Kinnisvarakirjeldus",
+              "placeholder": "Kirjeldage kinnisvara ilma täpse aadressita.",
+              "type": "textarea",
+              "required": true
+            },
+            {
+              "key": "budgetOrPrice",
+              "label": "Küsitud hinna vahemik",
+              "placeholder": "Privaatne vahemik on piisav",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "mustHavesOrHighlights",
+              "label": "Kinnisvara tippjooned",
+              "placeholder": "Mis teeb selle kodu eriliseks?",
+              "type": "textarea",
+              "required": true
+            },
+            {
+              "key": "dealbreakersOrBuyerCriteria",
+              "label": "Ostja sobivuse kriteeriumid",
+              "placeholder": "Mis peaks olema tõsi tõsise ostja kohta?",
+              "type": "textarea",
+              "required": false
+            },
+            {
+              "key": "timing",
+              "label": "Ajastus",
+              "placeholder": "Millal oleksite valmis vaatamist korraldama?",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "readiness",
+              "label": "Valmidus",
+              "placeholder": "Ettevalmistamine, valmis privaatseteks vaatamisteks…",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "privateConstraints",
+              "label": "Privaatsed piirangud",
+              "placeholder": "Midagi, mida Nest peaks privaatseks jätma",
+              "type": "textarea",
+              "required": false
+            }
+          ]
+        }
+      ],
+      "hero": {
+        "eyebrow": "Üks kodu või üks ostja – mitte kuulutuste loend.",
+        "headingLines": [
+          "Üks kvalifitseeritud tutvustus",
+          "mis sobib, mitte tuhanded",
+          "mida peate ise filtreerima."
+        ],
+        "body": "Öelge Nest-ile, mida te tegelikult otsite või mida tegelikult müüte. Nest pakub ühe sobivuse. Mõlemad pooled ütlevad jaat enne, kui midagi jagatakse.",
+        "backgroundImage": "/landing-pages/nest/nest-hero-interior-clean.png",
+        "backgroundAlt": "Soe, rahulik koduinterjöör",
+        "primaryCtaLabel": "Rääkige Nest-iga",
+        "secondaryCtaLabel": "Tutvuge Nest-iga",
+        "privacyLine": "Üks sobivus korraga. Inimese poolt üle vaadatud. Privaatne kuni mõlemad pooled nõustuvad.",
+        "characterImage": "/landing-pages/nest/nest-character-meet-compact-high-wings-transparent.png",
+        "characterAlt": "Nest hoiab märkmikku ja võtmeid koos tihedate tiibadega",
+        "chat": {
+          "statusLabel": "Veebis · inimjärelevalve all",
+          "privacyBadge": "Privaatne",
+          "openingMessage": "Kas ostate või müüte?",
+          "visitorMessage": "Ostan",
+          "assistantMessage": "Öelge mulle kodu, mille pärast oleks kolimist väärt. Küsin ainult detaile, mida inimkontrollija vajab, ja toon siis ühe kaalutud sobivuse.",
+          "inputPlaceholder": "Öelge Nest-ile, mida teil kodult vaja on…"
+        },
+        "briefDemo": {
+          "enabled": true,
+          "commandTrigger": "request-introduction",
+          "introHeading": "Teie privaatne kodukirjeldus",
+          "introBody": "Jagage ainult seda, mida inimkontrollija vajab. Täpseid aadresse ja kontaktandmeid siin kunagi ei küsita.",
+          "chatLabel": "Ehitage vestluse kaudu · 10 käiku",
+          "voiceLabel": "Koosta hääle abil · 5 min",
+          "reviewLabel": "Vaata kokkuvõtet üle",
+          "editLabel": "Muuda",
+          "reviewHeading": "Vaadake oma privaatset lühiülevaadet",
+          "reviewBody": "Midagi ei salvestata, otsita, pakuta ega jagata, kuni olete anonüümne.",
+          "submitLabel": "Logige sisse inimkontrolliks",
+          "loginNotice": "Logige sisse, et viia see privaatne kodukirjeldus oma Nesti tööruumi autentitud inimkontrolliks.",
+          "expiryCopy": "Esitamata lühiülevaated aeguvad ühe tunni pärast.",
+          "privacyCopy": "Anonüümsena ei toimu osalejate otsingut, täpse aadressi jagamist ega kontaktandmete avaldamist.",
+          "errorCopy": "Nest ei suutnud seda lühiülevaadet salvestada. Palun proovige uuesti või logige sisse."
+        }
+      },
+      "audience": {
+        "kicker": "Väiksem uks disaini poolest",
+        "heading": "Inimestele, kes on valmis tõeliseks järgmiseks sammuks.",
+        "body": "Ilma avaliku kataloogita. Ilma kinnisvaravoota. Ilma filtrivõrgustikuta. Nest kuulab, pakub ühe sobivuse ja ootab kahte privaatset jaatust.",
+        "forHeading": "See on mõeldud",
+        "forItems": [
+          "Ostjad, kes otsivad tõsiselt ja suudavad kiiresti tegutseda.",
+          "Müüjad, kes eelistavad vähestele kvalifitseeritud eelsobitatud ostjatele avatud avaliku kokkupuute asemel."
+        ],
+        "notForHeading": "See ei ole mõeldud",
+        "notForItems": [
+          "Juhuslikud külastajad, kes soovivad lihtsalt näha, mis turul saadaval on.",
+          "Igaüks, kes ootab avalikku kinnisvara voogu või filtrite ruudustikku.",
+          "Inimesed, kes otsivad hulgi tehinguvoogu."
+        ]
+      },
+      "privacy": {
+        "kicker": "Privaatsus on jada",
+        "heading": "Teie aadress jääb privaatseks, kuni mõlemad ütlevad jah.",
+        "body": "Nest algab naabruskonna suurusega alast. Identiteet, kontaktandmed ja täpne aadress jäävad lukustatuks läbi ettepaneku ja vastastikuse nõusoleku etappide.",
+        "stages": [
+          {
+            "status": "proposed",
+            "label": "Ette pandud",
+            "title": "Üldine piirkond",
+            "body": "Ühtki identiteeti ega täpset asukohta ei ole näha. Kumbki pool võib vastu võtta või edasi minna."
+          },
+          {
+            "status": "accepted",
+            "label": "Mõlemad aktsepteerisid",
+            "title": "Vastastikku jah",
+            "body": "Mõlemad pooled aktsepteerisid. Üks inimene viib lõpule lõpliku kinnituse enne, kui üksikasjad välja saadetakse."
+          },
+          {
+            "status": "confirmed",
+            "label": "Kinnitatud",
+            "title": " Tutvustus kinnitatud",
+            "body": "Täielikud kontaktandmed, täpne aadress ja pakutud aeg on nüüd mõlema osaleja jaoks kättesaadavad."
+          }
+        ],
+        "proposalLabel": "Ettepanek",
+        "proposalAreaLabel": "Üldine piirkond",
+        "proposalArea": "Utrecht, Overvecht",
+        "proposalNote": "Ühtki identiteeti ega täpset asukohta ei ole näha. Kumbki pool võib vastu võtta või edasi minna."
+      },
+      "process": {
+        "kicker": "Kuidas see toimib",
+        "heading": "Üks hoolikas jada.",
+        "licensedAgentNote": "Litsenseeritud kohalik agent kaasatakse, kui olete valmis edasi liikuma."
+      },
+      "proposals": {
+        "kicker": "Kuidas ettepanek välja näeb",
+        "heading": "Kaks külge. Üks läbimõeldud sobivus.",
+        "body": "Need näidiskaardid näitavad Nest ettepaneku kuju. Nad ei avalda kunagi identiteeti ega täpset aadressi enne vastastikust nõusolekut.",
+        "cards": [
+          {
+            "pairing": "Ostja × Kinnisvara",
+            "status": "proposed",
+            "heading": "Vaikne kodu, roheline vaade, paindlik üleandmine.",
+            "facts": [
+              {
+                "label": "Üldine piirkond",
+                "value": "Utrecht, Overvecht"
+              },
+              {
+                "label": "Ürituse aeg",
+                "value": "Laupäev hommikul"
+              }
+            ],
+            "tone": "cream"
+          },
+          {
+            "pairing": "Kinnisvara × Kvalifitseeritud ostja",
+            "status": "accepted",
+            "heading": "Raha tagatud, ajastus kooskõlas, prioriteedid mõistetud.",
+            "facts": [
+              {
+                "label": " Ostja kokkuvõte",
+                "value": "Valmis hoolikaks edasiliikumiseks"
+              },
+              {
+                "label": "Ürituse aeg",
+                "value": "Pühapäev pärastlõunal"
+              }
+            ],
+            "tone": "terracotta"
+          }
+        ]
+      },
+      "meet": {
+        "kicker": "Tutvuge Nest-iga",
+        "heading": "Detailide märkaja teie nurgas.",
+        "body": "Nest kuulab ilmsest kaugemale: hommikune valgus, mis teile meeldis, ajastus, mida ei saa muuta, üks kompromiss, mis tegelikult ei ole kompromiss. Siis Nest toob tagasi ühe läbimõeldud sobivuse.",
+        "characterImage": "/landing-pages/nest/nest-character-meet-compact-high-wings-transparent.png",
+        "characterAlt": " Tutvuge Nestiga, hoides märkmikku ja võtmeid kokkusurutud tiibadega ülemiste õlgade taga",
+        "principles": [
+          {
+            "title": "Kuulab esmalt",
+            "body": "Vestlus, mitte väljade sein."
+          },
+          {
+            "title": "Pakub ühte sobivust",
+            "body": "Avalikku kinnisvara voogu ega lõputut ruudustikku ei."
+          },
+          {
+            "title": "Ootab kahte jah-i",
+            "body": "Identiteet ja täpne aadress jäävad privaatseks vastastikuse nõusolekuni."
+          }
+        ],
+        "primaryCtaLabel": "Rääkige Nest-iga",
+        "secondaryCtaLabel": "Vaadake, kuidas see toimib"
+      },
+      "footer": {
+        "brandLabel": "Nest.",
+        "tagline": "Üks hoolikas kodu tutvustus korraga.",
+        "disclaimer": "Nest ei ole litsentseeritud vahendusfirma ega esinda kumbagi poolt, ei läbi räägi, ei hindata teie kodu ega halda teie tehingut. Kui olete valmis edasi liikuma, ühendame teid litsentseeritud kohaliku maakleriga protsessi lõpuleviimiseks. Not a broker. Does not represent either party. Does not provide valuations. Does not negotiate.",
+        "eventDisclaimer": "Teise kodu messi üksikasjad on modelleeritud selle Nest eksemplari jaoks ning tuleb enne osalemist üle kontrollida.",
+        "copyright": "© 2026 Nest",
+        "groups": [
+          {
+            "label": "Uurige",
+            "links": [
+              {
+                "label": "Kuidas see toimib",
+                "target": "how-it-works"
+              },
+              {
+                "label": "Privaatsus",
+                "target": "privacy"
+              },
+              {
+                "label": "Ettepanekud",
+                "target": "proposals"
+              }
+            ]
+          },
+          {
+            "label": "Nest",
+            "links": [
+              {
+                "label": "Tutvuge Nest-iga",
+                "target": "meet"
+              },
+              {
+                "label": "Koostage lühiülevaade",
+                "target": "hero-chat"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "generatedAt": "2026-09-01T15:39:42.215Z"
+}

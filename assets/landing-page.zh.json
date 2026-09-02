@@ -1,0 +1,500 @@
+{
+  "schemaVersion": 1,
+  "language": "zh",
+  "regionKey": null,
+  "sourceRevision": "b403368b522c83332476945d763c1cdb9c3211e7fa0204db9923ea107dbb96a8",
+  "landingPage": {
+    "headline": "一份合格的介绍，适合。",
+    "subheadline": "私人买卖双方介绍，一次人工审查的提案。",
+    "ctaLabel": "与 Nest 交谈",
+    "secondaryCtaLabel": "看看它是如何工作的",
+    "heroCharacterImage": "/landing-pages/nest/nest-character-meet-compact-high-wings-transparent.png",
+    "seoImage": {
+      "src": "/landing-pages/nest/og.jpg",
+      "alt": "Nest，一个私人家庭介绍指南，在一个温暖的室内，用一个仔细的介绍"
+    },
+    "header": {
+      "brandMark": "image",
+      "logoImageUrl": "/landing-pages/nest/nest-keyround-logo.svg"
+    },
+    "design": {
+      "variant": "home-introductions",
+      "defaultThemeMode": "light",
+      "theme": {
+        "palette": "emerald",
+        "primaryColor": "emerald",
+        "secondaryColor": "stone",
+        "accentColor": "orange",
+        "fontFamily": "inter"
+      },
+      "brand": {
+        "presetRevision": 1,
+        "colors": {
+          "light": {
+            "canvas": "#f3efe5",
+            "surface": "#fffaf0",
+            "sidebar": "#173e31",
+            "text": "#18352a",
+            "accent": "#bd623f",
+            "userBubble": "#173e31"
+          },
+          "dark": {
+            "canvas": "#10251e",
+            "surface": "#173129",
+            "sidebar": "#0c1d17",
+            "text": "#f3efe5",
+            "accent": "#e29a7d",
+            "userBubble": "#bd623f"
+          }
+        },
+        "typography": {
+          "body": {
+            "source": "google",
+            "family": "DM Sans"
+          },
+          "display": {
+            "source": "google",
+            "family": "Manrope"
+          },
+          "label": {
+            "source": "google",
+            "family": "DM Sans"
+          }
+        }
+      }
+    },
+    "homeIntroductions": {
+      "header": {
+        "brandLabel": "巢。",
+        "brandTagline": "一本细致的介绍",
+        "navItems": [
+          {
+            "label": "这个怎么运作",
+            "target": "how-it-works"
+          },
+          {
+            "label": "隐私",
+            "target": "privacy"
+          },
+          {
+            "label": "从这里开始",
+            "target": "hero-chat"
+          }
+        ],
+        "ctaLabel": "请求介绍",
+        "mobileCtaLabel": "开始"
+      },
+      "service": {
+        "activeMode": "event",
+        "announcement": "现在在第二家博览会上匹配，Jaarbeurs Utrecht — 周五 27 日至 3 月 29 日星期日",
+        "feeCopy": "申请介绍前分摊的费用",
+        "disclaimer": "Nest 不是持牌经纪商，不代表任何一方、谈判、评估您的房屋或处理您的交易。 当您准备好继续前进时，我们会将您与许可的本地代理联系起来以完成该过程。",
+        "configurations": [
+          {
+            "mode": "event",
+            "label": "事件",
+            "actionLabel": "视图",
+            "name": "第二个家庭博览会，Jaarbeurs Utrecht",
+            "location": "贾尔伯斯乌得勒支",
+            "dateRange": "周五 27-3 月 29 日星期日",
+            "availabilityLabel": "周五27日至周日29日 · 贾尔伯斯 乌得勒支"
+          },
+          {
+            "mode": "city",
+            "label": "市",
+            "actionLabel": "视图",
+            "name": "巢阿姆斯特丹",
+            "location": "阿姆斯特丹祖伊德",
+            "dateRange": "前进",
+            "availabilityLabel": "始终在线的本地介绍"
+          }
+        ]
+      },
+      "tracks": [
+        {
+          "id": "buying",
+          "label": "我在买",
+          "responseMessage": "告诉我值得搬家的家。 我只会询问人类审阅者需要的细节，然后带回一个被认为合适的人。",
+          "composerPlaceholder": "告诉 Nest 从家里你需要什么……",
+          "processSteps": [
+            {
+              "number": "01",
+              "image": "/landing-pages/nest/nest-how-conversation-human.webp",
+              "alt": "与 Nest 分享私人住宅简报的潜在买家",
+              "title": "与 Nest 进行真正的对话。",
+              "body": "谈谈你真正需要的东西：预算、必备品、破坏者和时间安排。 小细节也属于对话。"
+            },
+            {
+              "number": "02",
+              "image": "/landing-pages/nest/nest-how-review-human.webp",
+              "alt": "Nest 和一位人工审稿人仔细考虑了一位买家和一所房屋",
+              "title": "一次获得一份合适的财产。",
+              "body": "一个人在任何一方看到它之前都会审查每个提案。 没有公共目录、排名或无穷无尽的过滤网格。",
+              "badge": "人类批准"
+            },
+            {
+              "number": "03",
+              "image": "/landing-pages/nest/nest-how-introduction-human.webp",
+              "alt": "NEST 在相互同意后引入潜在买家和房主",
+              "title": "一起解锁介绍。",
+              "body": "一旦双方接受，完整的地址、联系方式和建议的观看时间将私下共享。"
+            }
+          ],
+          "briefFields": [
+            {
+              "key": "area",
+              "label": "首选或一般区域",
+              "placeholder": "乌得勒支地区，阿姆斯特丹 Zuid …",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "propertyType",
+              "label": "财产类型",
+              "placeholder": "公寓，家庭住宅，第二个家…",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "propertyBrief",
+              "label": "家应该是什么感觉？",
+              "placeholder": "描述家庭及其重要的原因。",
+              "type": "textarea",
+              "required": true
+            },
+            {
+              "key": "budgetOrPrice",
+              "label": "预算范围",
+              "placeholder": "私有范围就足够了",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "mustHavesOrHighlights",
+              "label": "必备品",
+              "placeholder": "灯光、花园、工作空间、无障碍…",
+              "type": "textarea",
+              "required": true
+            },
+            {
+              "key": "dealbreakersOrBuyerCriteria",
+              "label": "交易破坏者",
+              "placeholder": "是什么让介绍变得不合适？",
+              "type": "textarea",
+              "required": false
+            },
+            {
+              "key": "timing",
+              "label": "定时",
+              "placeholder": "你什么时候准备好查看或移动？",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "readiness",
+              "label": "准备",
+              "placeholder": "探索，抵押准备，现金买家…",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "privateConstraints",
+              "label": "私人约束",
+              "placeholder": "任何巢都应该保密",
+              "type": "textarea",
+              "required": false
+            }
+          ]
+        },
+        {
+          "id": "selling",
+          "label": "我在卖",
+          "responseMessage": "告诉我是什么让房屋与众不同，哪个买家会非常适合。 我将把确切的地址保密，并带回一份经过深思熟虑的介绍。",
+          "composerPlaceholder": "告诉 Nest 与您的销售有什么关系……",
+          "processSteps": [
+            {
+              "number": "01",
+              "image": "/landing-pages/nest/nest-how-conversation-human.webp",
+              "alt": "房主与 Nest 共享私人物业简报",
+              "title": "与 Nest 进行真正的对话。",
+              "body": "谈谈财产、你的时机、动机以及合格对你意味着什么。"
+            },
+            {
+              "number": "02",
+              "image": "/landing-pages/nest/nest-how-review-human.webp",
+              "alt": "Nest 和一名人工审核员仔细考虑一位卖家和一名合格的买家",
+              "title": "一次获得一位买方的合身。",
+              "body": "一个人在任何一方看到它之前都会审查每个提案。 没有公开曝光或批量交易流程。",
+              "badge": "人类批准"
+            },
+            {
+              "number": "03",
+              "image": "/landing-pages/nest/nest-how-introduction-human.webp",
+              "alt": "NEST 在相互同意后介绍房主和潜在买家",
+              "title": "一起解锁介绍。",
+              "body": "一旦双方接受，联系方式、确切地址和建议的观看时间将私下共享。"
+            }
+          ],
+          "briefFields": [
+            {
+              "key": "area",
+              "label": "一般区域",
+              "placeholder": "仅限邻里或广域",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "propertyType",
+              "label": "财产类型",
+              "placeholder": "公寓，家庭住宅，第二个家…",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "propertyBrief",
+              "label": "物业简介",
+              "placeholder": "描述没有确切地址的属性。",
+              "type": "textarea",
+              "required": true
+            },
+            {
+              "key": "budgetOrPrice",
+              "label": "要价范围",
+              "placeholder": "私有范围就足够了",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "mustHavesOrHighlights",
+              "label": "属性亮点",
+              "placeholder": "是什么让这个家与众不同？",
+              "type": "textarea",
+              "required": true
+            },
+            {
+              "key": "dealbreakersOrBuyerCriteria",
+              "label": "买方适合标准",
+              "placeholder": "认真的买家应该是什么？",
+              "type": "textarea",
+              "required": false
+            },
+            {
+              "key": "timing",
+              "label": "定时",
+              "placeholder": "你什么时候准备好安排观看？",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "readiness",
+              "label": "准备",
+              "placeholder": "准备，准备私人观看…",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "privateConstraints",
+              "label": "私人约束",
+              "placeholder": "任何巢都应该保密",
+              "type": "textarea",
+              "required": false
+            }
+          ]
+        }
+      ],
+      "hero": {
+        "eyebrow": "一个家，或一位买家——而不是一卷房源。",
+        "headingLines": [
+          "一份合格的介绍",
+          "适合，不是一千",
+          "你必须自己过滤。"
+        ],
+        "body": "告诉 Nest 您实际在寻找什么，或者您实际销售的内容。 Nest 提议一场比赛。 在分享任何东西之前，双方都说是。",
+        "backgroundImage": "/landing-pages/nest/nest-hero-interior-clean.png",
+        "backgroundAlt": "温暖、平静的家居内部",
+        "primaryCtaLabel": "与 Nest 交谈",
+        "secondaryCtaLabel": "认识巢穴",
+        "privacyLine": "一次一场比赛。 人工审核。 私有，直到双方选择加入。",
+        "characterImage": "/landing-pages/nest/nest-character-meet-compact-high-wings-transparent.png",
+        "characterAlt": "Nest 拿着一个笔记本和紧凑型翅膀的钥匙",
+        "chat": {
+          "statusLabel": "在线 · 人力监督",
+          "privacyBadge": "私人的",
+          "openingMessage": "你是买还是卖？",
+          "visitorMessage": "我在买",
+          "assistantMessage": "告诉我值得搬家的家。 我只会询问人类审阅者需要的细节，然后带回一个被认为合适的人。",
+          "inputPlaceholder": "告诉 Nest 从家里你需要什么……"
+        },
+        "briefDemo": {
+          "enabled": true,
+          "commandTrigger": "request-introduction",
+          "introHeading": "您的私人家庭简介",
+          "introBody": "仅分享人工审阅者需要的内容。 此处绝不会要求确切的地址和联系方式。",
+          "chatLabel": "通过聊天构建 · 10 回合",
+          "voiceLabel": "通过语音构建 · 5 分钟",
+          "reviewLabel": "回顾简介",
+          "editLabel": "编辑",
+          "reviewHeading": "查看您的私人简报",
+          "reviewBody": "在您匿名的情况下，没有任何内容被保留、搜索、提议或共享。",
+          "submitLabel": "登录以进行人工审核",
+          "loginNotice": "登录以将此私人家庭简介移至您的 Nest 工作区，以进行经过身份验证的人工审核。",
+          "expiryCopy": "未提交的简报在一小时后过期。",
+          "privacyCopy": "匿名时没有参与者搜索、精确地址共享或联系人披露。",
+          "errorCopy": "Nest 无法保存这个简报。 请重试或登录。"
+        }
+      },
+      "audience": {
+        "kicker": "设计的小门",
+        "heading": "对于准备好进行真正下一步的人。",
+        "body": "没有公共目录。 没有物业饲料。 没有过滤网格。 Nest Listening，提议一种适合，并等待两个私人是。",
+        "forHeading": "这是为了",
+        "forItems": [
+          "认真看待并可以迅速采取行动的买家。",
+          "与公开公开曝光相比，更喜欢少量合格、预先匹配的买家的卖家。"
+        ],
+        "notForHeading": "这不是为了",
+        "notForItems": [
+          "只是想看看市场上有什么的休闲游客。",
+          "任何期待公共财产提要或过滤器网格的人。",
+          "寻找批量交易流程的人。"
+        ]
+      },
+      "privacy": {
+        "kicker": "隐私是顺序",
+        "heading": "在你们都说是之前，您的地址是私密的。",
+        "body": "NEST 以邻里大小的区域开始。 在提案和相互同意的阶段，身份、联系方式和确切地址保持锁定状态。",
+        "stages": [
+          {
+            "status": "proposed",
+            "label": "提议",
+            "title": "一般区域",
+            "body": "没有身份或确切位置是可见的。 每一方都可以接受或通过。"
+          },
+          {
+            "status": "accepted",
+            "label": "两者都接受",
+            "title": "相互是的",
+            "body": "双方都接受了。 一个人在详细信息发布之前完成最终验证。"
+          },
+          {
+            "status": "confirmed",
+            "label": "确认",
+            "title": "介绍确认",
+            "body": "完整的联系方式、确切的地址和建议的时间现在可供两位参与者使用。"
+          }
+        ],
+        "proposalLabel": "提案",
+        "proposalAreaLabel": "一般区域",
+        "proposalArea": "乌得勒支，奥弗韦希特",
+        "proposalNote": "没有身份或确切位置是可见的。 每一方都可以接受或通过。"
+      },
+      "process": {
+        "kicker": "这个怎么运作",
+        "heading": "一小心的顺序。",
+        "licensedAgentNote": "当您准备好前进时，许可的本地代理会被循环使用。"
+      },
+      "proposals": {
+        "kicker": "提案是什么样的",
+        "heading": "两个方面。 一种被认为是合适的。",
+        "body": "这些示例卡片显示了 Nest 提案的形状。 他们从不在相互同意之前暴露身份或确切地址。",
+        "cards": [
+          {
+            "pairing": "买方 × 财产",
+            "status": "proposed",
+            "heading": "安静的家，绿色的前景，灵活的交接。",
+            "facts": [
+              {
+                "label": "一般区域",
+                "value": "乌得勒支，奥弗韦希特"
+              },
+              {
+                "label": "事件插槽",
+                "value": "星期六早上"
+              }
+            ],
+            "tone": "cream"
+          },
+          {
+            "pairing": "物业 × 合格买方",
+            "status": "accepted",
+            "heading": "准备好的资金，时间一致，理解优先事项。",
+            "facts": [
+              {
+                "label": "买家摘要",
+                "value": "准备好好前进"
+              },
+              {
+                "label": "事件插槽",
+                "value": "星期天下午"
+              }
+            ],
+            "tone": "terracotta"
+          }
+        ]
+      },
+      "meet": {
+        "kicker": "认识巢穴",
+        "heading": "角落里的细节通知器。",
+        "body": "Nest 聆听超越明显的简短：您喜爱的晨光，您无法移动的时间，一种妥协，不是真正的妥协。 然后 Nest 带回了一种被认为合适的人。",
+        "characterImage": "/landing-pages/nest/nest-character-meet-compact-high-wings-transparent.png",
+        "characterAlt": "遇见Nest，拿着笔记本和上肩背后凸起的紧凑翅膀的钥匙",
+        "principles": [
+          {
+            "title": "先听",
+            "body": "一场对话，而不是一堵田野之墙。"
+          },
+          {
+            "title": "建议一种适合",
+            "body": "没有公共财产提要或无休止的网格。"
+          },
+          {
+            "title": "等待两个是",
+            "body": "身份和确切地址保持私密，直到相互同意。"
+          }
+        ],
+        "primaryCtaLabel": "与 Nest 交谈",
+        "secondaryCtaLabel": "看看它是如何工作的"
+      },
+      "footer": {
+        "brandLabel": "巢。",
+        "tagline": "一次仔细的家庭介绍。",
+        "disclaimer": "Nest 不是持牌经纪商，不代表任何一方、谈判、评估您的房屋或处理您的交易。 当您准备好继续前进时，我们会将您与许可的本地代理联系起来以完成该过程。 Not a broker. Does not represent either party. Does not provide valuations. Does not negotiate.",
+        "eventDisclaimer": "第二个家庭展览详细信息针对此 Nest 实例化进行了建模，应在出席前进行验证。",
+        "copyright": "© 2026 巢",
+        "groups": [
+          {
+            "label": "探索",
+            "links": [
+              {
+                "label": "这个怎么运作",
+                "target": "how-it-works"
+              },
+              {
+                "label": "隐私",
+                "target": "privacy"
+              },
+              {
+                "label": "提案",
+                "target": "proposals"
+              }
+            ]
+          },
+          {
+            "label": "巢",
+            "links": [
+              {
+                "label": "认识巢穴",
+                "target": "meet"
+              },
+              {
+                "label": "建立一个简报",
+                "target": "hero-chat"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "generatedAt": "2026-09-01T15:39:42.215Z"
+}

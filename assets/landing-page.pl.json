@@ -1,0 +1,500 @@
+{
+  "schemaVersion": 1,
+  "language": "pl",
+  "regionKey": null,
+  "sourceRevision": "b403368b522c83332476945d763c1cdb9c3211e7fa0204db9923ea107dbb96a8",
+  "landingPage": {
+    "headline": "Jedno kwalifikowane wprowadzenie, które pasuje.",
+    "subheadline": "Wprowadzenie nabywców prywatnych i sprzedawców, jedna recenzowana przez człowieka propozycja na raz.",
+    "ctaLabel": "Porozmawiaj z Nestem",
+    "secondaryCtaLabel": "Zobacz jak to działa",
+    "heroCharacterImage": "/landing-pages/nest/nest-character-meet-compact-high-wings-transparent.png",
+    "seoImage": {
+      "src": "/landing-pages/nest/og.jpg",
+      "alt": "Nest , prywatny przewodnik do domu, w ciepłym wnętrzu ze słowami One ostrożne wprowadzenie"
+    },
+    "header": {
+      "brandMark": "image",
+      "logoImageUrl": "/landing-pages/nest/nest-keyround-logo.svg"
+    },
+    "design": {
+      "variant": "home-introductions",
+      "defaultThemeMode": "light",
+      "theme": {
+        "palette": "emerald",
+        "primaryColor": "emerald",
+        "secondaryColor": "stone",
+        "accentColor": "orange",
+        "fontFamily": "inter"
+      },
+      "brand": {
+        "presetRevision": 1,
+        "colors": {
+          "light": {
+            "canvas": "#f3efe5",
+            "surface": "#fffaf0",
+            "sidebar": "#173e31",
+            "text": "#18352a",
+            "accent": "#bd623f",
+            "userBubble": "#173e31"
+          },
+          "dark": {
+            "canvas": "#10251e",
+            "surface": "#173129",
+            "sidebar": "#0c1d17",
+            "text": "#f3efe5",
+            "accent": "#e29a7d",
+            "userBubble": "#bd623f"
+          }
+        },
+        "typography": {
+          "body": {
+            "source": "google",
+            "family": "DM Sans"
+          },
+          "display": {
+            "source": "google",
+            "family": "Manrope"
+          },
+          "label": {
+            "source": "google",
+            "family": "DM Sans"
+          }
+        }
+      }
+    },
+    "homeIntroductions": {
+      "header": {
+        "brandLabel": "gniazdo.",
+        "brandTagline": "Jedno uważne wprowadzenie",
+        "navItems": [
+          {
+            "label": "Jak to działa",
+            "target": "how-it-works"
+          },
+          {
+            "label": "Prywatność",
+            "target": "privacy"
+          },
+          {
+            "label": "Zacznij tutaj",
+            "target": "hero-chat"
+          }
+        ],
+        "ctaLabel": "Poproś o wprowadzenie",
+        "mobileCtaLabel": "Zaczynać"
+      },
+      "service": {
+        "activeMode": "event",
+        "announcement": "Teraz dopasowanie na Second Home Fair, Jaarbeurs Utrecht — pt 27-nie 29 marca",
+        "feeCopy": "Opłata udostępniona przed poproszeniem o wprowadzenie",
+        "disclaimer": "Nest nie jest licencjonowanym pośrednikiem i nie reprezentuje żadnej ze stron, negocjuje, nie ceni swojego domu ani nie obsługuje transakcji. Gdy jesteś gotowy, aby przejść do przodu, połączymy Cię z licencjonowanym agentem lokalnym, aby zakończyć proces.",
+        "configurations": [
+          {
+            "mode": "event",
+            "label": "Zdarzenie",
+            "actionLabel": "Widok",
+            "name": "Second Home Fair, Jaarbeurs Utrecht",
+            "location": "Jaarbeurs Utrecht",
+            "dateRange": "pt 27-słońce 29 marca",
+            "availabilityLabel": "Pt 27–Sun 29 marca · Jaarbeurs Utrecht"
+          },
+          {
+            "mode": "city",
+            "label": "Miasto",
+            "actionLabel": "Widok",
+            "name": "Gniazdo Amsterdamu",
+            "location": "Amsterdam Zuid",
+            "dateRange": "Trwający",
+            "availabilityLabel": "Zawsze na lokalnych wprowadzeniach"
+          }
+        ]
+      },
+      "tracks": [
+        {
+          "id": "buying",
+          "label": "Kupuję",
+          "responseMessage": "Powiedz mi dom, dla którego warto byłoby się przeprowadzić. Poproszę tylko o szczegóły, których potrzebuje ludzki recenzent, a następnie przywrócę jeden uznany za pasujący.",
+          "composerPlaceholder": "Powiedz Nest, czego potrzebujesz z domu…",
+          "processSteps": [
+            {
+              "number": "01",
+              "image": "/landing-pages/nest/nest-how-conversation-human.webp",
+              "alt": "Potencjalny nabywca dzielący się prywatnym domem z Nest",
+              "title": "Przeprowadź prawdziwą rozmowę z Nest.",
+              "body": "Omów to, czego naprawdę potrzebujesz: budżet, must-have, łamacze umów i czas. Drobne szczegóły również należą do rozmowy."
+            },
+            {
+              "number": "02",
+              "image": "/landing-pages/nest/nest-how-review-human.webp",
+              "alt": "Nest i ludzki recenzent starannie rozważając jednego kupującego i jeden dom",
+              "title": "Otrzymuj jedno dopasowanie w jednym czasie.",
+              "body": "Osoba sprawdza każdą propozycję, zanim którakolwiek ze stron ją zobaczy. Brak publicznego katalogu, rankingu lub niekończącej się siatki filtracyjnej.",
+              "badge": "Zatwierdzony przez człowieka"
+            },
+            {
+              "number": "03",
+              "image": "/landing-pages/nest/nest-how-introduction-human.webp",
+              "alt": "Nest Wprowadzenie potencjalnego nabywcy i właściciela domu po wzajemnej zgodzie",
+              "title": "Odblokuj wstęp razem.",
+              "body": "Gdy obie strony zaakceptują, pełny adres, dane kontaktowe i proponowany czas oglądania są udostępniane prywatnie."
+            }
+          ],
+          "briefFields": [
+            {
+              "key": "area",
+              "label": "Preferowany lub ogólny obszar",
+              "placeholder": "Region Utrecht, Amsterdam Zuid…",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "propertyType",
+              "label": "Typ nieruchomości",
+              "placeholder": "Mieszkanie, dom rodzinny, drugi dom…",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "propertyBrief",
+              "label": "Jak powinien wyglądać dom?",
+              "placeholder": "Opisz dom i dlaczego ma to znaczenie.",
+              "type": "textarea",
+              "required": true
+            },
+            {
+              "key": "budgetOrPrice",
+              "label": "Zakres budżetu",
+              "placeholder": "Wystarczy prywatny zakres",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "mustHavesOrHighlights",
+              "label": "Must-have",
+              "placeholder": "Światło, ogród, miejsce do pracy, dostępność…",
+              "type": "textarea",
+              "required": true
+            },
+            {
+              "key": "dealbreakersOrBuyerCriteria",
+              "label": "Łamacze umów",
+              "placeholder": "Co sprawiłoby, że wprowadzenie było kiepskie?",
+              "type": "textarea",
+              "required": false
+            },
+            {
+              "key": "timing",
+              "label": "Chronometraż",
+              "placeholder": "Kiedy byłbyś gotowy do obejrzenia lub przeprowadzki?",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "readiness",
+              "label": "Gotowość",
+              "placeholder": "Odkrywanie, kredyt hipoteczny, kupujący gotówkę…",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "privateConstraints",
+              "label": "Ograniczenia prywatne",
+              "placeholder": "Wszystko, co gniazdo powinno zachować prywatność",
+              "type": "textarea",
+              "required": false
+            }
+          ]
+        },
+        {
+          "id": "selling",
+          "label": "Sprzedam",
+          "responseMessage": "Powiedz mi, co wyróżnia dom i który kupujący byłby poważnym dopasowaniem. Zachowam dokładny adres i przywrócę jedno przemyślane wprowadzenie.",
+          "composerPlaceholder": "Powiedz Nest, co ma znaczenie w Twojej sprzedaży…",
+          "processSteps": [
+            {
+              "number": "01",
+              "image": "/landing-pages/nest/nest-how-conversation-human.webp",
+              "alt": "Właściciel domu dzielący brief własności prywatnej z gniazdem",
+              "title": "Przeprowadź prawdziwą rozmowę z Nest.",
+              "body": "Omów nieruchomość, swój czas, motywację i to, co oznacza dla Ciebie kwalifikowane."
+            },
+            {
+              "number": "02",
+              "image": "/landing-pages/nest/nest-how-review-human.webp",
+              "alt": "Nest i ludzki recenzent starannie rozważając jednego sprzedawcę i jednego wykwalifikowanego nabywcę",
+              "title": "Otrzymuj jednego dopasowania kupującego na raz.",
+              "body": "Osoba sprawdza każdą propozycję, zanim którakolwiek ze stron ją zobaczy. Brak publicznej ekspozycji lub przepływu transakcji zbiorczych.",
+              "badge": "Zatwierdzony przez człowieka"
+            },
+            {
+              "number": "03",
+              "image": "/landing-pages/nest/nest-how-introduction-human.webp",
+              "alt": "Nest Wprowadzenie właściciela domu i potencjalnego nabywcy po wzajemnej zgodzie",
+              "title": "Odblokuj wstęp razem.",
+              "body": "Gdy obie strony zaakceptują, dane kontaktowe, dokładny adres i proponowany czas oglądania są udostępniane prywatnie."
+            }
+          ],
+          "briefFields": [
+            {
+              "key": "area",
+              "label": "Obszar ogólny",
+              "placeholder": "tylko okolica lub szeroki obszar",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "propertyType",
+              "label": "Typ nieruchomości",
+              "placeholder": "Mieszkanie, dom rodzinny, drugi dom…",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "propertyBrief",
+              "label": "Krótkometrażowy",
+              "placeholder": "Opisz nieruchomość bez dokładnego adresu.",
+              "type": "textarea",
+              "required": true
+            },
+            {
+              "key": "budgetOrPrice",
+              "label": "Zakres ceny zapytania",
+              "placeholder": "Wystarczy prywatny zakres",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "mustHavesOrHighlights",
+              "label": "Najważniejsze właściwości",
+              "placeholder": "Co wyróżnia ten dom?",
+              "type": "textarea",
+              "required": true
+            },
+            {
+              "key": "dealbreakersOrBuyerCriteria",
+              "label": "Kryteria dopasowania kupującego",
+              "placeholder": "Co powinno być prawdą w przypadku poważnego nabywcy?",
+              "type": "textarea",
+              "required": false
+            },
+            {
+              "key": "timing",
+              "label": "Chronometraż",
+              "placeholder": "Kiedy będziesz gotowy na zorganizowanie oglądania?",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "readiness",
+              "label": "Gotowość",
+              "placeholder": "Przygotowanie, gotowe do oglądania na prywatne…",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "privateConstraints",
+              "label": "Ograniczenia prywatne",
+              "placeholder": "Wszystko, co gniazdo powinno zachować prywatność",
+              "type": "textarea",
+              "required": false
+            }
+          ]
+        }
+      ],
+      "hero": {
+        "eyebrow": "Jeden dom lub jeden kupujący — a nie zwój ofert.",
+        "headingLines": [
+          "Jedno kwalifikowane wprowadzenie",
+          "To pasuje, nie tysiąc",
+          "Musisz się filtrować."
+        ],
+        "body": "Powiedz Nest, czego tak naprawdę szukasz lub co faktycznie sprzedajesz. Nest proponuje jeden mecz. Obie strony mówią tak, zanim cokolwiek zostanie udostępnione.",
+        "backgroundImage": "/landing-pages/nest/nest-hero-interior-clean.png",
+        "backgroundAlt": "Ciepłe, spokojne wnętrze domu",
+        "primaryCtaLabel": "Porozmawiaj z Nestem",
+        "secondaryCtaLabel": "Poznaj gniazdo",
+        "privacyLine": "jeden mecz na raz. Recenzja człowieka. Prywatne, dopóki obie strony nie zdecydują się.",
+        "characterImage": "/landing-pages/nest/nest-character-meet-compact-high-wings-transparent.png",
+        "characterAlt": "Nest trzymający notatnik i klucze z kompaktowymi skrzydłami",
+        "chat": {
+          "statusLabel": "Online · nadzorowany przez człowieka",
+          "privacyBadge": "Prywatny",
+          "openingMessage": "Kupujesz czy sprzedajesz?",
+          "visitorMessage": "Kupuję",
+          "assistantMessage": "Powiedz mi dom, dla którego warto byłoby się przeprowadzić. Poproszę tylko o szczegóły, których potrzebuje ludzki recenzent, a następnie przywrócę jeden uznany za pasujący.",
+          "inputPlaceholder": "Powiedz Nest, czego potrzebujesz z domu…"
+        },
+        "briefDemo": {
+          "enabled": true,
+          "commandTrigger": "request-introduction",
+          "introHeading": "Twój prywatny domowy brief",
+          "introBody": "Udostępnij tylko to, czego potrzebuje ludzki recenzent. Dokładne adresy i dane kontaktowe nigdy nie są tutaj wymagane.",
+          "chatLabel": "Buduj przez czat · 10 tur",
+          "voiceLabel": "Buduj głosem · 5 min",
+          "reviewLabel": "Przejrzyj brief",
+          "editLabel": "Edytować",
+          "reviewHeading": "Przejrzyj swój prywatny raport",
+          "reviewBody": "Nic nie jest utrzymywane, wyszukiwane, proponowane ani udostępniane, gdy jesteś anonimowy.",
+          "submitLabel": "Zaloguj się do przeglądu ludzi",
+          "loginNotice": "Zaloguj się, aby przenieść ten prywatny brief do domu do obszaru roboczego Nest w celu uwierzytelnienia przeglądu człowieka.",
+          "expiryCopy": "Nieprzesłane majtki wygasają po godzinie.",
+          "privacyCopy": "Żadne wyszukiwanie uczestników, udostępnianie adresów dokładnych lub ujawnianie kontaktów w przypadku anonimowości.",
+          "errorCopy": "Nest nie mógł zapisać tego krótkiego briefu. Spróbuj ponownie lub zaloguj się."
+        }
+      },
+      "audience": {
+        "kicker": "Mniejsze drzwi według projektu",
+        "heading": "Dla ludzi gotowych na prawdziwy kolejny krok.",
+        "body": "Brak publicznego katalogu. Brak kanału właściwości. Brak siatki filtracyjnej. Nest słucha, proponuje jedno dopasowanie i czeka na dwa prywatne tak.",
+        "forHeading": "To jest dla",
+        "forItems": [
+          "Kupujący, którzy poważnie szukają i mogą działać szybko.",
+          "Sprzedawcy, którzy preferują niewielką liczbę wykwalifikowanych, wstępnie dopasowanych nabywców od otwartej ekspozycji publicznej."
+        ],
+        "notForHeading": "To nie jest dla",
+        "notForItems": [
+          "Przypadkowi goście, którzy chcą tylko zobaczyć to, co jest na rynku.",
+          "Każdy, kto oczekuje kanału własności publicznej lub siatki filtrów.",
+          "Ludzie szukający masowego przepływu transakcji."
+        ]
+      },
+      "privacy": {
+        "kicker": "Prywatność to sekwencja",
+        "heading": "Twój adres pozostaje prywatny, dopóki oboje nie powiesz tak.",
+        "body": "Gniazdo zaczyna się od obszaru wielkości sąsiedztwa. Tożsamość, dane kontaktowe i dokładny adres pozostają zablokowane przez etapy propozycji i wzajemnej zgody.",
+        "stages": [
+          {
+            "status": "proposed",
+            "label": "proponowane",
+            "title": "Obszar ogólny",
+            "body": "Żadna tożsamość ani dokładna lokalizacja nie są widoczne. Każda strona może zaakceptować lub przejść."
+          },
+          {
+            "status": "accepted",
+            "label": "Oboje zaakceptowali",
+            "title": "Wzajemne tak",
+            "body": "Obie strony zaakceptowały. Osoba kończy ostateczną weryfikację, zanim szczegóły wyjdą."
+          },
+          {
+            "status": "confirmed",
+            "label": "Zatwardziały",
+            "title": "Wprowadzenie potwierdzone",
+            "body": "Pełne dane kontaktowe, dokładny adres i proponowany czas są teraz dostępne dla obu uczestników."
+          }
+        ],
+        "proposalLabel": "Wniosek",
+        "proposalAreaLabel": "Obszar ogólny",
+        "proposalArea": "Utrecht, przesadzanie",
+        "proposalNote": "Żadna tożsamość ani dokładna lokalizacja nie są widoczne. Każda strona może zaakceptować lub przejść."
+      },
+      "process": {
+        "kicker": "Jak to działa",
+        "heading": "Jedna ostrożna sekwencja.",
+        "licensedAgentNote": "Licencjonowany agent lokalny jest zapętlony, gdy jesteś gotowy, aby przejść dalej."
+      },
+      "proposals": {
+        "kicker": "Jak wygląda propozycja",
+        "heading": "Dwie strony. Jeden uważany za odpowiedni.",
+        "body": "Te przykładowe karty pokazują kształt propozycji gniazda. Nigdy nie ujawniają tożsamości ani dokładnego adresu przed wzajemną zgodą.",
+        "cards": [
+          {
+            "pairing": "Kupujący × nieruchomość",
+            "status": "proposed",
+            "heading": "Cichy dom, zielony widok, elastyczne przekazanie.",
+            "facts": [
+              {
+                "label": "Obszar ogólny",
+                "value": "Utrecht, przesadzanie"
+              },
+              {
+                "label": "miejsce na wydarzenie",
+                "value": "Sobota rano"
+              }
+            ],
+            "tone": "cream"
+          },
+          {
+            "pairing": "Property × Qualified buyer",
+            "status": "accepted",
+            "heading": "Finansowanie przygotowane, dostosowane do czasu, zrozumiałe priorytety.",
+            "facts": [
+              {
+                "label": "Podsumowanie kupującego",
+                "value": "Ready to move forward thoughtfully"
+              },
+              {
+                "label": "miejsce na wydarzenie",
+                "value": "Niedzielne popołudnie"
+              }
+            ],
+            "tone": "terracotta"
+          }
+        ]
+      },
+      "meet": {
+        "kicker": "Poznaj gniazdo",
+        "heading": "Szczegółowy notatnik w twoim rogu.",
+        "body": "Nest słucha poza oczywistym briefem: poranne światło, które kochałeś, czas, którego nie możesz się ruszyć, jedyny kompromis, który tak naprawdę nie jest kompromisem. Następnie Nest przywraca jeden uważany za sprawny.",
+        "characterImage": "/landing-pages/nest/nest-character-meet-compact-high-wings-transparent.png",
+        "characterAlt": "Poznaj gniazdo, trzymając notatnik i klucze z kompaktowymi skrzydłami uniesionymi za górnymi ramionami",
+        "principles": [
+          {
+            "title": "Słucha najpierw",
+            "body": "Rozmowa, a nie ściana pól."
+          },
+          {
+            "title": "proponuje jedno dopasowanie",
+            "body": "Brak kanału publicznego lub niekończąca się siatka."
+          },
+          {
+            "title": "Czeka na dwa tak",
+            "body": "Tożsamość i dokładny adres pozostają prywatne do czasu wzajemnej zgody."
+          }
+        ],
+        "primaryCtaLabel": "Porozmawiaj z Nestem",
+        "secondaryCtaLabel": "Zobacz jak to działa"
+      },
+      "footer": {
+        "brandLabel": "gniazdo.",
+        "tagline": "Jedno staranne wprowadzenie do domu na raz.",
+        "disclaimer": "Nest nie jest licencjonowanym pośrednikiem i nie reprezentuje żadnej ze stron, negocjuje, nie ceni swojego domu ani nie obsługuje transakcji. Gdy jesteś gotowy, aby przejść do przodu, połączymy Cię z licencjonowanym agentem lokalnym, aby zakończyć proces. Not a broker. Does not represent either party. Does not provide valuations. Does not negotiate.",
+        "eventDisclaimer": "Szczegóły dotyczące drugiego targu domowego są modelowane dla tego założenia NEST i powinny zostać zweryfikowane przed obecnością.",
+        "copyright": "© 2026 Gniazdo",
+        "groups": [
+          {
+            "label": "Zbadać",
+            "links": [
+              {
+                "label": "Jak to działa",
+                "target": "how-it-works"
+              },
+              {
+                "label": "Prywatność",
+                "target": "privacy"
+              },
+              {
+                "label": "propozycje",
+                "target": "proposals"
+              }
+            ]
+          },
+          {
+            "label": "Gniazdo",
+            "links": [
+              {
+                "label": "Poznaj gniazdo",
+                "target": "meet"
+              },
+              {
+                "label": "Zbuduj brief",
+                "target": "hero-chat"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "generatedAt": "2026-09-01T15:39:42.215Z"
+}

@@ -1,0 +1,500 @@
+{
+  "schemaVersion": 1,
+  "language": "hu",
+  "regionKey": null,
+  "sourceRevision": "b403368b522c83332476945d763c1cdb9c3211e7fa0204db9923ea107dbb96a8",
+  "landingPage": {
+    "headline": "Egy megfelelő bevezető, amely megfelel.",
+    "subheadline": "Privát vevő és eladó bemutatkozása, egyszerre csak egy ember által lektorált javaslat.",
+    "ctaLabel": "Beszélj a Nesttel",
+    "secondaryCtaLabel": "Hogyan működik",
+    "heroCharacterImage": "/landing-pages/nest/nest-character-meet-compact-high-wings-transparent.png",
+    "seoImage": {
+      "src": "/landing-pages/nest/og.jpg",
+      "alt": "Nest, egy magánlakás-bevezető útmutató, meleg belső térben, egy gondos bevezetés szavakkal"
+    },
+    "header": {
+      "brandMark": "image",
+      "logoImageUrl": "/landing-pages/nest/nest-keyround-logo.svg"
+    },
+    "design": {
+      "variant": "home-introductions",
+      "defaultThemeMode": "light",
+      "theme": {
+        "palette": "emerald",
+        "primaryColor": "emerald",
+        "secondaryColor": "stone",
+        "accentColor": "orange",
+        "fontFamily": "inter"
+      },
+      "brand": {
+        "presetRevision": 1,
+        "colors": {
+          "light": {
+            "canvas": "#f3efe5",
+            "surface": "#fffaf0",
+            "sidebar": "#173e31",
+            "text": "#18352a",
+            "accent": "#bd623f",
+            "userBubble": "#173e31"
+          },
+          "dark": {
+            "canvas": "#10251e",
+            "surface": "#173129",
+            "sidebar": "#0c1d17",
+            "text": "#f3efe5",
+            "accent": "#e29a7d",
+            "userBubble": "#bd623f"
+          }
+        },
+        "typography": {
+          "body": {
+            "source": "google",
+            "family": "DM Sans"
+          },
+          "display": {
+            "source": "google",
+            "family": "Manrope"
+          },
+          "label": {
+            "source": "google",
+            "family": "DM Sans"
+          }
+        }
+      }
+    },
+    "homeIntroductions": {
+      "header": {
+        "brandLabel": "fészket.",
+        "brandTagline": "Egy gondos bevezetés",
+        "navItems": [
+          {
+            "label": "Hogyan működik",
+            "target": "how-it-works"
+          },
+          {
+            "label": "Magánélet",
+            "target": "privacy"
+          },
+          {
+            "label": "Kezdd itt",
+            "target": "hero-chat"
+          }
+        ],
+        "ctaLabel": "Kérjen bemutatkozást",
+        "mobileCtaLabel": "Indul"
+      },
+      "service": {
+        "activeMode": "event",
+        "announcement": "Most egyezik a második otthoni vásáron, Jaarbeurs Utrecht – március 27. péntek – március 29.",
+        "feeCopy": "Bemutatkozás kérése előtt megosztják a díjat",
+        "disclaimer": "A Nest nem licencelt közvetítő, és nem képviseli egyik felet sem, tárgyalni, értékelni az otthonát, és nem kezelni a tranzakciót. Ha készen áll a továbblépésre, kapcsolatba lépünk egy engedéllyel rendelkező helyi ügynökkel a folyamat befejezéséhez.",
+        "configurations": [
+          {
+            "mode": "event",
+            "label": "Esemény",
+            "actionLabel": "Kilátás",
+            "name": "Második otthoni vásár, Jaarbeurs Utrecht",
+            "location": "Jaarbeurs Utrecht",
+            "dateRange": "Péntek 27–Március 29",
+            "availabilityLabel": "Péntek 27–Március 29. · Jaarbeurs Utrecht"
+          },
+          {
+            "mode": "city",
+            "label": "Város",
+            "actionLabel": "Kilátás",
+            "name": "Nest Amsterdam",
+            "location": "Amszterdam Zuid",
+            "dateRange": "Folyamatos",
+            "availabilityLabel": "mindig helyi bemutatkozások"
+          }
+        ]
+      },
+      "tracks": [
+        {
+          "id": "buying",
+          "label": "veszek",
+          "responseMessage": "Mondd meg az otthont, amiért érdemes lenne elköltözni. Csak azokat a részleteket kérem, amelyekre egy emberi értékelőnek szüksége van, majd visszahozok egy alkalmasnak tartottt.",
+          "composerPlaceholder": "Mondd el a Nestnek, hogy mire van szükséged otthonról…",
+          "processSteps": [
+            {
+              "number": "01",
+              "image": "/landing-pages/nest/nest-how-conversation-human.webp",
+              "alt": "Egy leendő vevő, aki megosztja a magánlakást a Nesttel",
+              "title": "valódi beszélgetést folytatni a Nesttel.",
+              "body": "Beszélje meg, mire van szüksége valójában: költségvetés, kötelező darabok, üzlettörések és időzítés. Az apró részletek is beletartoznak a beszélgetésbe."
+            },
+            {
+              "number": "02",
+              "image": "/landing-pages/nest/nest-how-review-human.webp",
+              "alt": "Nest és egy emberi értékelő, aki gondosan mérlegel egy vevőt és egy otthont",
+              "title": "egyszerre egy ingatlant kap.",
+              "body": "Egy személy minden javaslatot áttekint, mielőtt bármelyik fél látná. Nincs nyilvános katalógus, rangsor vagy végtelen szűrőrács.",
+              "badge": "ember által jóváhagyott"
+            },
+            {
+              "number": "03",
+              "image": "/landing-pages/nest/nest-how-introduction-human.webp",
+              "alt": "A Nest leendő vevőt és lakástulajdonost mutat be közös megegyezés után",
+              "title": "oldja fel együtt a bevezetést.",
+              "body": "Amint mindkét fél elfogadja, a teljes címet, elérhetőségeket és a javasolt megtekintési időt privátban megosztják."
+            }
+          ],
+          "briefFields": [
+            {
+              "key": "area",
+              "label": "előnyben részesített vagy általános terület",
+              "placeholder": "Utrecht régió, Amszterdam Zuid…",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "propertyType",
+              "label": "Ingatlan típusa",
+              "placeholder": "Lakás, családi ház, második otthon…",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "propertyBrief",
+              "label": "Milyennek kell lennie az otthonnak?",
+              "placeholder": "Írja le az otthont és azt, hogy miért számít.",
+              "type": "textarea",
+              "required": true
+            },
+            {
+              "key": "budgetOrPrice",
+              "label": "költségvetési sáv",
+              "placeholder": "Egy privát tartomány elég",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "mustHavesOrHighlights",
+              "label": "kötelező alak",
+              "placeholder": "Világítás, kert, munkaterület, megközelíthetőség…",
+              "type": "textarea",
+              "required": true
+            },
+            {
+              "key": "dealbreakersOrBuyerCriteria",
+              "label": "alku",
+              "placeholder": "Mitől lenne rossz a bevezetés?",
+              "type": "textarea",
+              "required": false
+            },
+            {
+              "key": "timing",
+              "label": "Időzítés",
+              "placeholder": "Mikor állna készen a megtekintésre vagy a költözésre?",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "readiness",
+              "label": "Készenlét",
+              "placeholder": "Felfedezés, jelzáloghitel-kész, készpénzes vevő…",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "privateConstraints",
+              "label": "sajátos korlátok",
+              "placeholder": "Bármi, amit a Nest privátban kell tartani",
+              "type": "textarea",
+              "required": false
+            }
+          ]
+        },
+        {
+          "id": "selling",
+          "label": "Eladom",
+          "responseMessage": "Mondja el, mitől különböztethető meg az otthon, és melyik vevő lenne komolyan. A pontos címet titokban tartom, és visszahozok egy megfontolt bemutatkozást.",
+          "composerPlaceholder": "Mondja el a Nestnek, hogy mi számít az eladásával kapcsolatban…",
+          "processSteps": [
+            {
+              "number": "01",
+              "image": "/landing-pages/nest/nest-how-conversation-human.webp",
+              "alt": "Egy háztulajdonos megosztja a magántulajdont a Nesttel",
+              "title": "valódi beszélgetést folytatni a Nesttel.",
+              "body": "Beszélje meg az ingatlant, az időzítést, a motivációt és azt, hogy mit jelent az Ön számára."
+            },
+            {
+              "number": "02",
+              "image": "/landing-pages/nest/nest-how-review-human.webp",
+              "alt": "Nest és egy emberi bíráló, aki gondosan mérlegel egy eladót és egy minősített vevőt",
+              "title": "Egyszerre egy vevőt kap.",
+              "body": "Egy személy minden javaslatot áttekint, mielőtt bármelyik fél látná. nincs nyilvános kitettség vagy tömeges ügylet.",
+              "badge": "ember által jóváhagyott"
+            },
+            {
+              "number": "03",
+              "image": "/landing-pages/nest/nest-how-introduction-human.webp",
+              "alt": "Nest Bemutatjuk a lakástulajdonost és a leendő vevőt közös megegyezés után",
+              "title": "oldja fel együtt a bevezetést.",
+              "body": "Miután mindkét fél elfogadta, az elérhetőségeket, a pontos címet és a javasolt megtekintési időt privátban megosztják."
+            }
+          ],
+          "briefFields": [
+            {
+              "key": "area",
+              "label": "általános",
+              "placeholder": "Csak környéken vagy széles területen",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "propertyType",
+              "label": "Ingatlan típusa",
+              "placeholder": "Lakás, családi ház, második otthon…",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "propertyBrief",
+              "label": "kellékes tájékoztató",
+              "placeholder": "pontos cím nélkül írja le az ingatlant.",
+              "type": "textarea",
+              "required": true
+            },
+            {
+              "key": "budgetOrPrice",
+              "label": "kér-ár",
+              "placeholder": "Egy privát tartomány elég",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "mustHavesOrHighlights",
+              "label": "Az ingatlan kiemelései",
+              "placeholder": "Mitől megkülönböztethető ez az otthon?",
+              "type": "textarea",
+              "required": true
+            },
+            {
+              "key": "dealbreakersOrBuyerCriteria",
+              "label": "vevői illeszkedés kritériumai",
+              "placeholder": "Mi legyen igaz egy komoly vevőre?",
+              "type": "textarea",
+              "required": false
+            },
+            {
+              "key": "timing",
+              "label": "Időzítés",
+              "placeholder": "Mikor állna készen a megtekintés megszervezésére?",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "readiness",
+              "label": "Készenlét",
+              "placeholder": "Felkészülés, készen áll a privát megtekintésre…",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "privateConstraints",
+              "label": "sajátos korlátok",
+              "placeholder": "Bármi, amit a Nest privátban kell tartani",
+              "type": "textarea",
+              "required": false
+            }
+          ]
+        }
+      ],
+      "hero": {
+        "eyebrow": "Az egyetlen otthon, vagy az egyetlen vevő – nem a listák tekercse.",
+        "headingLines": [
+          "egy minősített bemutatkozás",
+          "Ez belefér, nem ezer",
+          "Szűrnie kell magát."
+        ],
+        "body": "Mondja el a Nestnek, hogy valójában mit keres, vagy mit ad el. A Nest egy egyezést javasol. Mindkét fél igent mond, mielőtt bármit megosztanának.",
+        "backgroundImage": "/landing-pages/nest/nest-hero-interior-clean.png",
+        "backgroundAlt": "Meleg, nyugodt otthoni belső tér",
+        "primaryCtaLabel": "Beszélj a Nesttel",
+        "secondaryCtaLabel": "találkozik fészkel",
+        "privacyLine": "Egyszerre egy meccs. Ember felülvizsgálva. privát, amíg mindkét fél be nem lép.",
+        "characterImage": "/landing-pages/nest/nest-character-meet-compact-high-wings-transparent.png",
+        "characterAlt": "fészek, kezében egy notebook és kulcsok kompakt szárnyakkal",
+        "chat": {
+          "statusLabel": "Online · Emberi felügyelet mellett",
+          "privacyBadge": "Saját",
+          "openingMessage": "Vásárol vagy elad?",
+          "visitorMessage": "veszek",
+          "assistantMessage": "Mondd meg az otthont, amiért érdemes lenne elköltözni. Csak azokat a részleteket kérem, amelyekre egy emberi értékelőnek szüksége van, majd visszahozok egy alkalmasnak tartottt.",
+          "inputPlaceholder": "Mondd el a Nestnek, hogy mire van szükséged otthonról…"
+        },
+        "briefDemo": {
+          "enabled": true,
+          "commandTrigger": "request-introduction",
+          "introHeading": "Az Ön magánházi tájékoztatója",
+          "introBody": "Csak azt ossza meg, amire egy emberi lektornak szüksége van. A pontos címeket és elérhetőségeket itt soha nem kérik.",
+          "chatLabel": "Építsd csevegéssel · 10 fordulat",
+          "voiceLabel": "Build by Voice · 5 perc",
+          "reviewLabel": "áttekintő tájékoztató",
+          "editLabel": "Szerkeszt",
+          "reviewHeading": "Tekintse át privát tájékoztatóját",
+          "reviewBody": "Semmit sem tartanak fenn, keresnek, javasolnak vagy osztanak meg, amíg Ön névtelen.",
+          "submitLabel": "Jelentkezzen be az emberi felülvizsgálathoz",
+          "loginNotice": "Jelentkezzen be, hogy áthelyezze ezt a privát otthoni tájékoztatót a Nest munkaterületére a hitelesített emberi áttekintéshez.",
+          "expiryCopy": "A be nem nyújtott tájékoztatók egy óra múlva lejárnak.",
+          "privacyCopy": "Nincs résztvevői keresés, pontos címmegosztás vagy kapcsolatfelvétel a névtelenül.",
+          "errorCopy": "A Nest nem tudta megmenteni ezt a tájékoztatót. Kérjük, próbálkozzon újra, vagy jelentkezzen be."
+        }
+      },
+      "audience": {
+        "kicker": "Kisebb ajtó tervezésével",
+        "heading": "azoknak, akik készen állnak egy igazi következő lépésre.",
+        "body": "Nincs nyilvános katalógus. Nincs ingatlan hírcsatorna. Nincs szűrőrács. A Nest figyel, egy illeszkedést javasol, és két privát igenre vár.",
+        "forHeading": "ez azért van",
+        "forItems": [
+          "Vásárlók, akik komolyan keresnek és gyorsan tudnak cselekedni.",
+          "Azok az eladók, akik kis számú képzett, előre egyeztetett vevőt részesítenek előnyben a nyílt nyilvános megjelenéssel szemben."
+        ],
+        "notForHeading": "Ez nem arra való",
+        "notForItems": [
+          "Alkalmi látogatók, akik csak azt szeretnék látni, ami a piacon van.",
+          "Bárki, aki köztulajdon-hírcsatornát vagy szűrőrácsot vár.",
+          "Azok az emberek, akik tömeges üzletmenetet keresnek."
+        ]
+      },
+      "privacy": {
+        "kicker": "A magánélet a sorrend",
+        "heading": "A címe mindaddig privát marad, amíg mindketten igent nem mondanak.",
+        "body": "A Nest egy környék méretű területtel kezdődik. A személyazonosság, az elérhetőségek és a pontos cím zárolva marad a javaslat és a kölcsönös beleegyezés szakaszaiban.",
+        "stages": [
+          {
+            "status": "proposed",
+            "label": "javasolt",
+            "title": "általános",
+            "body": "Nem látható személyazonosság vagy pontos hely. mindkét oldal elfogadhat vagy passzolhat."
+          },
+          {
+            "status": "accepted",
+            "label": "mindketten elfogadták",
+            "title": "Mutual yes",
+            "body": "mindkét fél elfogadta. Egy személy befejezi a végső ellenőrzést, mielőtt a részletek kimennének."
+          },
+          {
+            "status": "confirmed",
+            "label": "Megerősített",
+            "title": "Bevezetés megerősítve",
+            "body": "A teljes elérhetőség, a pontos cím és a javasolt időpont mostantól mindkét résztvevő számára elérhető."
+          }
+        ],
+        "proposalLabel": "Javaslat",
+        "proposalAreaLabel": "általános",
+        "proposalArea": "Utrecht, overvecht",
+        "proposalNote": "Nem látható személyazonosság vagy pontos hely. mindkét oldal elfogadhat vagy passzolhat."
+      },
+      "process": {
+        "kicker": "Hogyan működik",
+        "heading": "Egy óvatos sorozat.",
+        "licensedAgentNote": "Egy engedéllyel rendelkező helyi ügynök be van hurkolva, amikor készen áll a továbblépésre."
+      },
+      "proposals": {
+        "kicker": "Hogyan néz ki egy javaslat",
+        "heading": "két oldal. az egyik alkalmasnak tekinthető.",
+        "body": "Ezek a példakártyák egy fészekajánlat formáját mutatják. Soha nem fednek fel személyazonosságot vagy pontos címet a közös megegyezés előtt.",
+        "cards": [
+          {
+            "pairing": "Vevő × ingatlan",
+            "status": "proposed",
+            "heading": "Csendes otthon, zöld kilátások, rugalmas átadás.",
+            "facts": [
+              {
+                "label": "általános",
+                "value": "Utrecht, overvecht"
+              },
+              {
+                "label": "eseménylőhely",
+                "value": "Szombat reggel"
+              }
+            ],
+            "tone": "cream"
+          },
+          {
+            "pairing": "Ingatlan × minősített vevő",
+            "status": "accepted",
+            "heading": "A finanszírozás előkészített, az időzítés összehangolt, a prioritások megértettek.",
+            "facts": [
+              {
+                "label": "vevői összefoglaló",
+                "value": "készen áll az átgondolt előrelépésre"
+              },
+              {
+                "label": "eseménylőhely",
+                "value": "Vasárnap délután"
+              }
+            ],
+            "tone": "terracotta"
+          }
+        ]
+      },
+      "meet": {
+        "kicker": "találkozik fészkel",
+        "heading": "A részletjelző a sarkodban.",
+        "body": "A Nest a nyilvánvaló röviden túl figyel: a reggeli fény, amit szerettél, az időzítés, amit nem tudsz mozgatni, az egyetlen kompromisszum, amely valójában nem kompromisszum. Ezután a Nest visszahoz egy alkalmasnak tartott embert.",
+        "characterImage": "/landing-pages/nest/nest-character-meet-compact-high-wings-transparent.png",
+        "characterAlt": "Ismerje meg a Nestet, kezében egy notebook és kulcsok, amelyekben a felső vállak mögé emelt kompakt szárnyak vannak emelve",
+        "principles": [
+          {
+            "title": "Először hallgat",
+            "body": "beszélgetés, nem mezőfal."
+          },
+          {
+            "title": "egy megfelelőt javasol",
+            "body": "Nincs köztulajdon-hírcsatorna vagy végtelen rács."
+          },
+          {
+            "title": "Két igenre vár",
+            "body": "A személyazonosság és a pontos cím a közös beleegyezésig privát marad."
+          }
+        ],
+        "primaryCtaLabel": "Beszélj a Nesttel",
+        "secondaryCtaLabel": "Hogyan működik"
+      },
+      "footer": {
+        "brandLabel": "fészket.",
+        "tagline": "Egyszerre egy gondos otthoni bemutatkozás.",
+        "disclaimer": "A Nest nem licencelt közvetítő, és nem képviseli egyik felet sem, tárgyalni, értékelni az otthonát, és nem kezelni a tranzakciót. Ha készen áll a továbblépésre, kapcsolatba lépünk egy engedéllyel rendelkező helyi ügynökkel a folyamat befejezéséhez. Not a broker. Does not represent either party. Does not provide valuations. Does not negotiate.",
+        "eventDisclaimer": "A Second Home Fair részletei ehhez a fészek példányosításhoz vannak modellezve, és a jelenlét előtt ellenőrizni kell.",
+        "copyright": "© 2026 Nest",
+        "groups": [
+          {
+            "label": "Felderít",
+            "links": [
+              {
+                "label": "Hogyan működik",
+                "target": "how-it-works"
+              },
+              {
+                "label": "Magánélet",
+                "target": "privacy"
+              },
+              {
+                "label": "javaslat",
+                "target": "proposals"
+              }
+            ]
+          },
+          {
+            "label": "Fészek",
+            "links": [
+              {
+                "label": "találkozik fészkel",
+                "target": "meet"
+              },
+              {
+                "label": "Készíts egy rövidet",
+                "target": "hero-chat"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "generatedAt": "2026-09-01T15:39:42.215Z"
+}

@@ -1,0 +1,500 @@
+{
+  "schemaVersion": 1,
+  "language": "sk",
+  "regionKey": null,
+  "sourceRevision": "b403368b522c83332476945d763c1cdb9c3211e7fa0204db9923ea107dbb96a8",
+  "landingPage": {
+    "headline": "Jeden kvalifikovaný úvod, ktorý sa hodí.",
+    "subheadline": "Predstavenie súkromného kupujúceho a predajcu, jeden návrh posúdený človekom naraz.",
+    "ctaLabel": "Porozprávajte sa s Nest",
+    "secondaryCtaLabel": "Pozrite sa, ako to funguje",
+    "heroCharacterImage": "/landing-pages/nest/nest-character-meet-compact-high-wings-transparent.png",
+    "seoImage": {
+      "src": "/landing-pages/nest/og.jpg",
+      "alt": "Nest, súkromný sprievodca úvodom do domu, v teplom interiéri so slovami jeden opatrný úvod"
+    },
+    "header": {
+      "brandMark": "image",
+      "logoImageUrl": "/landing-pages/nest/nest-keyround-logo.svg"
+    },
+    "design": {
+      "variant": "home-introductions",
+      "defaultThemeMode": "light",
+      "theme": {
+        "palette": "emerald",
+        "primaryColor": "emerald",
+        "secondaryColor": "stone",
+        "accentColor": "orange",
+        "fontFamily": "inter"
+      },
+      "brand": {
+        "presetRevision": 1,
+        "colors": {
+          "light": {
+            "canvas": "#f3efe5",
+            "surface": "#fffaf0",
+            "sidebar": "#173e31",
+            "text": "#18352a",
+            "accent": "#bd623f",
+            "userBubble": "#173e31"
+          },
+          "dark": {
+            "canvas": "#10251e",
+            "surface": "#173129",
+            "sidebar": "#0c1d17",
+            "text": "#f3efe5",
+            "accent": "#e29a7d",
+            "userBubble": "#bd623f"
+          }
+        },
+        "typography": {
+          "body": {
+            "source": "google",
+            "family": "DM Sans"
+          },
+          "display": {
+            "source": "google",
+            "family": "Manrope"
+          },
+          "label": {
+            "source": "google",
+            "family": "DM Sans"
+          }
+        }
+      }
+    },
+    "homeIntroductions": {
+      "header": {
+        "brandLabel": "hniezdo.",
+        "brandTagline": "Jeden opatrný úvod",
+        "navItems": [
+          {
+            "label": "Ako to funguje",
+            "target": "how-it-works"
+          },
+          {
+            "label": "súkromie",
+            "target": "privacy"
+          },
+          {
+            "label": "Začnite tu",
+            "target": "hero-chat"
+          }
+        ],
+        "ctaLabel": "Požiadajte o úvod",
+        "mobileCtaLabel": "spustiť"
+      },
+      "service": {
+        "activeMode": "event",
+        "announcement": "Teraz sa zhoduje na veľtrhu Second Home Fair, Jaarbeurs Utrecht – piatok 27. – nedeľa 29. marca",
+        "feeCopy": "Poplatok zdieľaný pred požiadaním o predstavenie",
+        "disclaimer": "Nest nie je licencované maklérstvo a nezastupuje žiadnu stranu, nevyjednáva, neoceňuje váš domov ani nerieši vašu transakciu. Keď ste pripravení napredovať, spojíme vás s licencovaným miestnym agentom, aby sme dokončili proces.",
+        "configurations": [
+          {
+            "mode": "event",
+            "label": "udalosť",
+            "actionLabel": "hľadisko",
+            "name": "Druhý domáci veľtrh, Jaarbeurs Utrecht",
+            "location": "Jaarbeurs Utrecht",
+            "dateRange": "Pia 27. – nedeľa 29. marca",
+            "availabilityLabel": "Pia 27. – Nedeľa 29. marca · Jaarbeurs Utrecht"
+          },
+          {
+            "mode": "city",
+            "label": "mesto",
+            "actionLabel": "hľadisko",
+            "name": "Nest Amsterdam",
+            "location": "Amsterdam Zuid",
+            "dateRange": "prebiehajúci",
+            "availabilityLabel": "Vždy zapnuté miestne predstavenia"
+          }
+        ]
+      },
+      "tracks": [
+        {
+          "id": "buying",
+          "label": "Kupujem",
+          "responseMessage": "Povedz mi domov, za ktorý by sa oplatilo presťahovať. Poprosím len o podrobnosti, ktoré ľudský recenzent potrebuje, a potom prinesiem späť jednu, ktorá sa považuje za vhodné.",
+          "composerPlaceholder": "Povedzte Nest, čo potrebujete od domova...",
+          "processSteps": [
+            {
+              "number": "01",
+              "image": "/landing-pages/nest/nest-how-conversation-human.webp",
+              "alt": "Potenciálny kupujúci zdieľajúci súkromný dom s Nestom",
+              "title": "Urobte si skutočný rozhovor s Nestom.",
+              "body": "Porozprávajte sa o tom, čo skutočne potrebujete: rozpočet, nevyhnutnosť, prerušovače obchodov a načasovanie. Do rozhovoru patria aj malé detaily."
+            },
+            {
+              "number": "02",
+              "image": "/landing-pages/nest/nest-how-review-human.webp",
+              "alt": "Nest a ľudský recenzent dôkladne zvážil jedného kupujúceho a jedného domu",
+              "title": "prijímať jednu vlastnosť naraz.",
+              "body": "Osoba posúdi každý návrh skôr, ako ho niektorá zo strán uvidí. Žiadny verejný katalóg, hodnotenie alebo nekonečná mriežka filtrov.",
+              "badge": "schválené človekom"
+            },
+            {
+              "number": "03",
+              "image": "/landing-pages/nest/nest-how-introduction-human.webp",
+              "alt": "Nest Predstavujeme potenciálneho kupujúceho a majiteľa domu po vzájomnom súhlase",
+              "title": "Odomknite úvod spolu.",
+              "body": "Keď obe strany prijmú, súkromne zdieľaná úplná adresa, kontaktné údaje a navrhovaný čas sledovania."
+            }
+          ],
+          "briefFields": [
+            {
+              "key": "area",
+              "label": "Preferred or general area",
+              "placeholder": "Región Utrecht, Amsterdam Zuid…",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "propertyType",
+              "label": "typ vlastnosti",
+              "placeholder": "Byt, rodinný dom, druhý domov…",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "propertyBrief",
+              "label": "Aký by mal mať pocit domova?",
+              "placeholder": "Popíšte dom a prečo na tom záleží.",
+              "type": "textarea",
+              "required": true
+            },
+            {
+              "key": "budgetOrPrice",
+              "label": "Budget range",
+              "placeholder": "Stačí súkromný rozsah",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "mustHavesOrHighlights",
+              "label": "nevyhnutnosť",
+              "placeholder": "Svetlo, záhrada, pracovný priestor, dostupnosť…",
+              "type": "textarea",
+              "required": true
+            },
+            {
+              "key": "dealbreakersOrBuyerCriteria",
+              "label": "Dealbreakers",
+              "placeholder": "Čo by urobilo úvod zle?",
+              "type": "textarea",
+              "required": false
+            },
+            {
+              "key": "timing",
+              "label": "načasovanie",
+              "placeholder": "Kedy by ste boli pripravení na prezeranie alebo presťahovanie?",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "readiness",
+              "label": "pripravenosť",
+              "placeholder": "Prieskum, pripravený hypotéka, nákupca hotovosti…",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "privateConstraints",
+              "label": "Súkromné obmedzenia",
+              "placeholder": "Čokoľvek Nest by malo byť v súkromí",
+              "type": "textarea",
+              "required": false
+            }
+          ]
+        },
+        {
+          "id": "selling",
+          "label": "Predám",
+          "responseMessage": "Povedzte mi, čím sa dom odlišuje a ktorý kupujúci by sa vážne hodil. Presnú adresu ponechám súkromnú a prinesiem späť jeden uvážený úvod.",
+          "composerPlaceholder": "Povedzte Nest, čo je dôležité na vašom predaji…",
+          "processSteps": [
+            {
+              "number": "01",
+              "image": "/landing-pages/nest/nest-how-conversation-human.webp",
+              "alt": "Majiteľ domu zdieľajúci súkromnú nehnuteľnosť s Nest",
+              "title": "Urobte si skutočný rozhovor s Nestom.",
+              "body": "Porozprávajte sa o nehnuteľnosti, o svojom načasovaní, motivácii a o tom, čo pre vás znamená kvalifikované."
+            },
+            {
+              "number": "02",
+              "image": "/landing-pages/nest/nest-how-review-human.webp",
+              "alt": "Nest a ľudský recenzent dôkladne zvážil jedného predajcu a jedného kvalifikovaného kupujúceho",
+              "title": "prijímať jedného kupujúceho naraz.",
+              "body": "Osoba posúdi každý návrh skôr, ako ho niektorá zo strán uvidí. Žiadna verejná expozícia alebo hromadný tok obchodov.",
+              "badge": "schválené človekom"
+            },
+            {
+              "number": "03",
+              "image": "/landing-pages/nest/nest-how-introduction-human.webp",
+              "alt": "Nest Predstavujeme majiteľa domu a potenciálneho kupujúceho po vzájomnom súhlase",
+              "title": "Odomknite úvod spolu.",
+              "body": "Keď obe strany prijmú, kontaktné údaje, presná adresa a navrhovaný čas sledovania sú súkromne zdieľané."
+            }
+          ],
+          "briefFields": [
+            {
+              "key": "area",
+              "label": "celková oblasť",
+              "placeholder": "Iba susedská alebo široká oblasť",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "propertyType",
+              "label": "typ vlastnosti",
+              "placeholder": "Byt, rodinný dom, druhý domov…",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "propertyBrief",
+              "label": "majetok",
+              "placeholder": "Opíšte nehnuteľnosť bez presnej adresy.",
+              "type": "textarea",
+              "required": true
+            },
+            {
+              "key": "budgetOrPrice",
+              "label": "požadovaná cena",
+              "placeholder": "Stačí súkromný rozsah",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "mustHavesOrHighlights",
+              "label": "Vlastnosti Highlights",
+              "placeholder": "Čím je tento dom odlišný?",
+              "type": "textarea",
+              "required": true
+            },
+            {
+              "key": "dealbreakersOrBuyerCriteria",
+              "label": "Kritériá prispôsobenia kupujúcim",
+              "placeholder": "Čo by malo platiť o serióznom kupcovi?",
+              "type": "textarea",
+              "required": false
+            },
+            {
+              "key": "timing",
+              "label": "načasovanie",
+              "placeholder": "Kedy by ste boli pripravení dohodnúť si obhliadku?",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "readiness",
+              "label": "pripravenosť",
+              "placeholder": "Príprava, pripravená na súkromné obhliadky…",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "privateConstraints",
+              "label": "Súkromné obmedzenia",
+              "placeholder": "Čokoľvek Nest by malo byť v súkromí",
+              "type": "textarea",
+              "required": false
+            }
+          ]
+        }
+      ],
+      "hero": {
+        "eyebrow": "Jeden dom alebo jeden kupujúci – nie zvitok zoznamov.",
+        "headingLines": [
+          "Jeden kvalifikovaný úvod",
+          "To sa hodí, nie tisíc",
+          "Musíte sa filtrovať."
+        ],
+        "body": "Povedzte Nest, čo vlastne hľadáte alebo čo vlastne predávate. Nest navrhuje jednu zhodu. Obe strany povedia áno predtým, ako sa niečo zdieľa.",
+        "backgroundImage": "/landing-pages/nest/nest-hero-interior-clean.png",
+        "backgroundAlt": "teplý, pokojný domáci interiér",
+        "primaryCtaLabel": "hovoriť s hniezdom",
+        "secondaryCtaLabel": "stretnúť hniezdo",
+        "privacyLine": "Jeden zápas za druhým. Ľudské recenzované. Súkromné, kým sa neprihlásia obe strany.",
+        "characterImage": "/landing-pages/nest/nest-character-meet-compact-high-wings-transparent.png",
+        "characterAlt": "hniezdo drží notebook a kľúče s kompaktnými krídlami",
+        "chat": {
+          "statusLabel": "Online · človek pod dohľadom",
+          "privacyBadge": "súkromný",
+          "openingMessage": "Kupujete alebo predávate?",
+          "visitorMessage": "Kupujem",
+          "assistantMessage": "Povedz mi domov, za ktorý by sa oplatilo presťahovať. Poprosím len o podrobnosti, ktoré ľudský recenzent potrebuje, a potom prinesiem späť jednu, ktorá sa považuje za vhodné.",
+          "inputPlaceholder": "Povedzte Nest, čo potrebujete od domova..."
+        },
+        "briefDemo": {
+          "enabled": true,
+          "commandTrigger": "request-introduction",
+          "introHeading": "Váš súkromný prehľad",
+          "introBody": "Zdieľajte len to, čo ľudský recenzent potrebuje. Presné adresy a kontaktné údaje sa tu nikdy nepožadujú.",
+          "chatLabel": "Zostavte chatom · 10 otáčok",
+          "voiceLabel": "Zostavte hlasom · 5 min",
+          "reviewLabel": "recenzia stručne",
+          "editLabel": "upraviť",
+          "reviewHeading": "Skontrolujte svoj súkromný brief",
+          "reviewBody": "Nič sa neuchováva, nehľadá, navrhuje ani zdieľa, kým ste anonymní.",
+          "submitLabel": "Prihláste sa na kontrolu Human",
+          "loginNotice": "Prihláste sa a presuňte túto súkromnú domácu stručnú informáciu do pracovného priestoru Nest na overenie recenzie človeka.",
+          "expiryCopy": "Neoslané slipy vypršia po jednej hodine.",
+          "privacyCopy": "Žiadne vyhľadávanie účastníkov, zdieľanie s presnou adresou alebo zverejnenie kontaktu, keď je anonymný.",
+          "errorCopy": "Nest nemohol uložiť túto skratku. Skúste to znova alebo sa prihláste."
+        }
+      },
+      "audience": {
+        "kicker": "Podľa návrhu menšie dvere",
+        "heading": "Pre ľudí pripravených na skutočný ďalší krok.",
+        "body": "Žiadny verejný katalóg. Žiadny informačný kanál. Žiadna mriežka filtra. Nest počúva, navrhuje jednu fit a čaká na dva súkromné áno.",
+        "forHeading": "Toto je pre",
+        "forItems": [
+          "Kupujúci, ktorí vážne hľadajú a vedia konať rýchlo.",
+          "Predajcovia, ktorí uprednostňujú malý počet kvalifikovaných, vopred spárovaných kupujúcich pred otvorenou verejnou expozíciou."
+        ],
+        "notForHeading": "Toto nie je pre",
+        "notForItems": [
+          "Príležitostní návštevníci, ktorí chcú vidieť len to, čo je na trhu.",
+          "Každý, kto očakáva informačný kanál alebo mriežku filtrov.",
+          "Ľudia, ktorí hľadajú hromadný tok obchodov."
+        ]
+      },
+      "privacy": {
+        "kicker": "Súkromie je postupnosť",
+        "heading": "Vaša adresa zostane súkromná, kým obaja nepoviete áno.",
+        "body": "Nest začína oblasťou veľkosti okolia. totožnosť, kontaktné údaje a presná adresa zostávajú uzamknuté počas fázy návrhu a vzájomného súhlasu.",
+        "stages": [
+          {
+            "status": "proposed",
+            "label": "navrhovaný",
+            "title": "celková oblasť",
+            "body": "Nie je viditeľná žiadna identita ani presná poloha. Každá strana môže prijať alebo prejsť."
+          },
+          {
+            "status": "accepted",
+            "label": "Obaja prijali",
+            "title": "vzájomné áno",
+            "body": "Obe strany prijali. Osoba dokončí konečné overenie predtým, ako vyjdú podrobnosti."
+          },
+          {
+            "status": "confirmed",
+            "label": "potvrdený",
+            "title": "Úvod potvrdený",
+            "body": "Úplné kontaktné údaje, presná adresa a navrhovaný čas sú teraz k dispozícii obom účastníkom."
+          }
+        ],
+        "proposalLabel": "návrh",
+        "proposalAreaLabel": "celková oblasť",
+        "proposalArea": "Utrecht, Overvecht",
+        "proposalNote": "Nie je viditeľná žiadna identita ani presná poloha. Každá strana môže prijať alebo prejsť."
+      },
+      "process": {
+        "kicker": "Ako to funguje",
+        "heading": "Jedna opatrná sekvencia.",
+        "licensedAgentNote": "Licencovaný lokálny agent je zacyklený, keď ste pripravení posunúť sa vpred."
+      },
+      "proposals": {
+        "kicker": "Ako vyzerá návrh",
+        "heading": "dve strany. jeden považovaný za vhodného.",
+        "body": "Tieto vzorové karty zobrazujú tvar návrhu hniezda. Nikdy neodhalia identitu alebo presnú adresu pred vzájomným súhlasom.",
+        "cards": [
+          {
+            "pairing": "Kupujúci × nehnuteľnosť",
+            "status": "proposed",
+            "heading": "Tichý dom, zelený výhľad, flexibilné odovzdanie.",
+            "facts": [
+              {
+                "label": "celková oblasť",
+                "value": "Utrecht, Overvecht"
+              },
+              {
+                "label": "slot pre udalosti",
+                "value": "Sobotné ráno"
+              }
+            ],
+            "tone": "cream"
+          },
+          {
+            "pairing": "nehnuteľnosť × kvalifikovaný kupujúci",
+            "status": "accepted",
+            "heading": "Pripravené financovanie, načasovanie zosúladené, priority pochopené.",
+            "facts": [
+              {
+                "label": "Buyer summary",
+                "value": "Pripravený posunúť sa vpred premyslene"
+              },
+              {
+                "label": "slot pre udalosti",
+                "value": "V nedeľu popoludní"
+              }
+            ],
+            "tone": "terracotta"
+          }
+        ]
+      },
+      "meet": {
+        "kicker": "stretnúť hniezdo",
+        "heading": "Pozor na detail vo vašom rohu.",
+        "body": "Nest počúva za očividným stručným vyjadrením: ranné svetlo, ktoré ste milovali, načasovanie, na ktorom sa nemôžete pohnúť, jediný kompromis, ktorý v skutočnosti nie je kompromisom. Potom Nest prinesie späť jednu, ktorá sa považuje za vhodnú.",
+        "characterImage": "/landing-pages/nest/nest-character-meet-compact-high-wings-transparent.png",
+        "characterAlt": "Zoznámte sa s hniezdom, držte notebook a kľúče s kompaktnými krídlami zdvihnutými za hornými ramenami",
+        "principles": [
+          {
+            "title": "Najprv počúva",
+            "body": "Rozhovor, nie stena polí."
+          },
+          {
+            "title": "navrhuje jednu fit",
+            "body": "Žiadny informačný kanál alebo nekonečná mriežka."
+          },
+          {
+            "title": "čaká na dve áno",
+            "body": "Identita a presná adresa zostávajú súkromné až do vzájomného súhlasu."
+          }
+        ],
+        "primaryCtaLabel": "Porozprávajte sa s Nest",
+        "secondaryCtaLabel": "Pozrite sa, ako to funguje"
+      },
+      "footer": {
+        "brandLabel": "hniezdo.",
+        "tagline": "Jeden opatrný domáci úvod naraz.",
+        "disclaimer": "Nest nie je licencované maklérstvo a nezastupuje žiadnu stranu, nevyjednáva, neoceňuje váš domov ani nerieši vašu transakciu. Keď ste pripravení napredovať, spojíme vás s licencovaným miestnym agentom, aby sme dokončili proces. Not a broker. Does not represent either party. Does not provide valuations. Does not negotiate.",
+        "eventDisclaimer": "Podrobnosti o veľtrhu druhého domova sú modelované pre túto inštanciu hniezda a mali by byť overené pred návštevou.",
+        "copyright": "© 2026 Nest",
+        "groups": [
+          {
+            "label": "preskúmať",
+            "links": [
+              {
+                "label": "Ako to funguje",
+                "target": "how-it-works"
+              },
+              {
+                "label": "súkromie",
+                "target": "privacy"
+              },
+              {
+                "label": "návrhy",
+                "target": "proposals"
+              }
+            ]
+          },
+          {
+            "label": "zasadiť",
+            "links": [
+              {
+                "label": "stretnúť hniezdo",
+                "target": "meet"
+              },
+              {
+                "label": "Postavte si skratku",
+                "target": "hero-chat"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "generatedAt": "2026-09-01T15:39:42.215Z"
+}

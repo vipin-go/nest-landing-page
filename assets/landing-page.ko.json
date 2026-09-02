@@ -1,0 +1,500 @@
+{
+  "schemaVersion": 1,
+  "language": "ko",
+  "regionKey": null,
+  "sourceRevision": "b403368b522c83332476945d763c1cdb9c3211e7fa0204db9923ea107dbb96a8",
+  "landingPage": {
+    "headline": "적합한 자격을 갖춘 소개.",
+    "subheadline": "개인 구매자 및 판매자 소개, 한 번에 하나의 사람이 검토한 제안.",
+    "ctaLabel": "둥지와 대화하십시오",
+    "secondaryCtaLabel": "작동 방식을 참조하십시오",
+    "heroCharacterImage": "/landing-pages/nest/nest-character-meet-compact-high-wings-transparent.png",
+    "seoImage": {
+      "src": "/landing-pages/nest/og.jpg",
+      "alt": "NEST, PRIVATE HOME-INTRODUCTION GUIDE, ONCEO CUDY INTRODUCTION"
+    },
+    "header": {
+      "brandMark": "image",
+      "logoImageUrl": "/landing-pages/nest/nest-keyround-logo.svg"
+    },
+    "design": {
+      "variant": "home-introductions",
+      "defaultThemeMode": "light",
+      "theme": {
+        "palette": "emerald",
+        "primaryColor": "emerald",
+        "secondaryColor": "stone",
+        "accentColor": "orange",
+        "fontFamily": "inter"
+      },
+      "brand": {
+        "presetRevision": 1,
+        "colors": {
+          "light": {
+            "canvas": "#f3efe5",
+            "surface": "#fffaf0",
+            "sidebar": "#173e31",
+            "text": "#18352a",
+            "accent": "#bd623f",
+            "userBubble": "#173e31"
+          },
+          "dark": {
+            "canvas": "#10251e",
+            "surface": "#173129",
+            "sidebar": "#0c1d17",
+            "text": "#f3efe5",
+            "accent": "#e29a7d",
+            "userBubble": "#bd623f"
+          }
+        },
+        "typography": {
+          "body": {
+            "source": "google",
+            "family": "DM Sans"
+          },
+          "display": {
+            "source": "google",
+            "family": "Manrope"
+          },
+          "label": {
+            "source": "google",
+            "family": "DM Sans"
+          }
+        }
+      }
+    },
+    "homeIntroductions": {
+      "header": {
+        "brandLabel": "둥지.",
+        "brandTagline": "하나의 신중한 소개",
+        "navItems": [
+          {
+            "label": "작동 방식",
+            "target": "how-it-works"
+          },
+          {
+            "label": "은둔",
+            "target": "privacy"
+          },
+          {
+            "label": "여기에서 시작하십시오",
+            "target": "hero-chat"
+          }
+        ],
+        "ctaLabel": "소개를 요청하십시오",
+        "mobileCtaLabel": "스타트"
+      },
+      "service": {
+        "activeMode": "event",
+        "announcement": "이제 Second Home Fair, Jaarbeurs Utrecht에서 매칭 — 3월 27일 – 3월 29일 금요일",
+        "feeCopy": "소개를 요청하기 전에 공유된 수수료",
+        "disclaimer": "Nest는 허가된 중개업체가 아니며 어느 쪽도 당사자, 협상, 집을 소중히 여기거나 거래를 처리하지 않습니다. 앞으로 나아갈 준비가 되면 라이선스가 부여된 로컬 에이전트와 연결하여 프로세스를 완료합니다.",
+        "configurations": [
+          {
+            "mode": "event",
+            "label": "행사",
+            "actionLabel": "전망",
+            "name": "Second Home Fair, Jaarbeurs Utrecht",
+            "location": "자아르부르 위트레흐트",
+            "dateRange": "3월 27일 ~ 3월 29일 금요일",
+            "availabilityLabel": "3월 27일~일 3월 29일 금요일 · Jaarbeurs Utrecht"
+          },
+          {
+            "mode": "city",
+            "label": "시티",
+            "actionLabel": "전망",
+            "name": "둥지 암스테르담",
+            "location": "암스테르담 주이드",
+            "dateRange": "전진",
+            "availabilityLabel": "상시 사용 지역 소개"
+          }
+        ]
+      },
+      "tracks": [
+        {
+          "id": "buying",
+          "label": "나는 구매하고 있습니다",
+          "responseMessage": "이사할 가치가 있는 집을 알려주세요. 인간 리뷰어가 필요로 하는 세부 사항만 묻고 적합하다고 간주되는 것을 다시 가져오겠습니다.",
+          "composerPlaceholder": "집에서 필요한 것을 Nest에게 말하십시오 ...",
+          "processSteps": [
+            {
+              "number": "01",
+              "image": "/landing-pages/nest/nest-how-conversation-human.webp",
+              "alt": "Nest와 개인 주택 브리핑을 공유하는 잠재 구매자",
+              "title": "Nest와 실제 대화를 나누십시오.",
+              "body": "예산, 필수품, 거래 차단기 및 타이밍과 같이 실제로 필요한 것에 대해 이야기하십시오. 작은 세부 사항도 대화에 있습니다."
+            },
+            {
+              "number": "02",
+              "image": "/landing-pages/nest/nest-how-review-human.webp",
+              "alt": "한 명의 구매자와 하나의 주택을 신중하게 고려하는 둥지와 인간 검토자",
+              "title": "한 번에 하나의 재산을 받습니다.",
+              "body": "한 사람은 어느 쪽이든 보기 전에 모든 제안을 검토합니다. 공용 카탈로그, 순위 또는 끝없는 필터 그리드가 없습니다.",
+              "badge": "인간 승인"
+            },
+            {
+              "number": "03",
+              "image": "/landing-pages/nest/nest-how-introduction-human.webp",
+              "alt": "Nest 상호 동의 후 잠재 구매자와 주택 소유자를 소개합니다.",
+              "title": "함께 소개를 잠금 해제하십시오.",
+              "body": "양측이 수락하면 전체 주소, 연락처 정보 및 제안된 시청 시간을 비공개로 공유합니다."
+            }
+          ],
+          "briefFields": [
+            {
+              "key": "area",
+              "label": "선호하는 영역 또는 일반 영역",
+              "placeholder": "위트레흐트 지역, 암스테르담 주드…",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "propertyType",
+              "label": "속성 유형",
+              "placeholder": "아파트, 가족 주택, 세컨드 홈…",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "propertyBrief",
+              "label": "집은 어떤 느낌이 들까요?",
+              "placeholder": "집과 그것이 중요한 이유를 설명하십시오.",
+              "type": "textarea",
+              "required": true
+            },
+            {
+              "key": "budgetOrPrice",
+              "label": "예산 범위",
+              "placeholder": "프라이빗 레인지로 충분합니다",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "mustHavesOrHighlights",
+              "label": "필수품",
+              "placeholder": "빛, 정원, 작업 공간, 접근성…",
+              "type": "textarea",
+              "required": true
+            },
+            {
+              "key": "dealbreakersOrBuyerCriteria",
+              "label": "거래 차단기",
+              "placeholder": "소개가 제대로 맞지 않게 만드는 것은 무엇입니까?",
+              "type": "textarea",
+              "required": false
+            },
+            {
+              "key": "timing",
+              "label": "타이밍",
+              "placeholder": "언제 보거나 움직일 준비가 되셨습니까?",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "readiness",
+              "label": "준비",
+              "placeholder": "탐색, 모기지 준비, 현금 구매자…",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "privateConstraints",
+              "label": "비공개 제약",
+              "placeholder": "Nest는 무엇이든 비공개로 유지해야 합니다",
+              "type": "textarea",
+              "required": false
+            }
+          ]
+        },
+        {
+          "id": "selling",
+          "label": "판매합니다",
+          "responseMessage": "집을 차별화하는 요소와 어떤 구매자가 진지하게 맞는지 알려주세요. 정확한 주소를 비공개로 유지하고 고려된 소개를 다시 가져오겠습니다.",
+          "composerPlaceholder": "귀하의 판매에 대해 중요한 것을 Nest에게 알려주십시오…",
+          "processSteps": [
+            {
+              "number": "01",
+              "image": "/landing-pages/nest/nest-how-conversation-human.webp",
+              "alt": "Nest와 사유 재산 요약을 공유하는 주택 소유자",
+              "title": "Nest와 실제 대화를 나누십시오.",
+              "body": "재산, 타이밍, 동기 및 자격을 갖춘 귀하에게 어떤 의미인지 이야기하십시오."
+            },
+            {
+              "number": "02",
+              "image": "/landing-pages/nest/nest-how-review-human.webp",
+              "alt": "한 명의 판매자와 한 명의 자격을 갖춘 구매자를 신중하게 고려하는 둥지 및 인간 검토자",
+              "title": "한 번에 한 명의 구매자에게 적합합니다.",
+              "body": "한 사람은 어느 쪽이든 보기 전에 모든 제안을 검토합니다. 공개 노출 또는 대량 거래 흐름이 없습니다.",
+              "badge": "인간 승인"
+            },
+            {
+              "number": "03",
+              "image": "/landing-pages/nest/nest-how-introduction-human.webp",
+              "alt": "Nest 상호 동의 후 주택 소유자 및 잠재 구매자를 소개합니다.",
+              "title": "함께 소개를 잠금 해제하십시오.",
+              "body": "양측이 수락하면 연락처, 정확한 주소 및 제안된 시청 시간이 비공개로 공유됩니다."
+            }
+          ],
+          "briefFields": [
+            {
+              "key": "area",
+              "label": "일반 지역",
+              "placeholder": "이웃 또는 넓은 지역만",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "propertyType",
+              "label": "속성 유형",
+              "placeholder": "아파트, 가족 주택, 세컨드 홈…",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "propertyBrief",
+              "label": "재산 개요",
+              "placeholder": "정확한 주소가 없는 부동산을 설명하십시오.",
+              "type": "textarea",
+              "required": true
+            },
+            {
+              "key": "budgetOrPrice",
+              "label": "요구 가격 범위",
+              "placeholder": "프라이빗 레인지로 충분합니다",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "mustHavesOrHighlights",
+              "label": "속성 하이라이트",
+              "placeholder": "이 집을 차별화하는 것은 무엇입니까?",
+              "type": "textarea",
+              "required": true
+            },
+            {
+              "key": "dealbreakersOrBuyerCriteria",
+              "label": "구매자 적합 기준",
+              "placeholder": "진지한 구매자는 무엇을 해야 합니까?",
+              "type": "textarea",
+              "required": false
+            },
+            {
+              "key": "timing",
+              "label": "타이밍",
+              "placeholder": "언제 관람을 준비할 준비가 되셨습니까?",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "readiness",
+              "label": "준비",
+              "placeholder": "비공개 관람 준비, 준비…",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "privateConstraints",
+              "label": "비공개 제약",
+              "placeholder": "Nest는 무엇이든 비공개로 유지해야 합니다",
+              "type": "textarea",
+              "required": false
+            }
+          ]
+        }
+      ],
+      "hero": {
+        "eyebrow": "하나의 집 또는 한 명의 구매자 - 목록의 스크롤이 아닙니다.",
+        "headingLines": [
+          "하나의 자격을 갖춘 소개",
+          "그것은 천이 아니라 적합합니다",
+          "자신을 필터링해야 합니다."
+        ],
+        "body": "Nest가 실제로 무엇을 찾고 있는지 또는 실제로 무엇을 판매하고 있는지 알려주십시오. Nest는 하나의 일치를 제안합니다. 양측은 무엇이든 공유하기 전에 예라고 말합니다.",
+        "backgroundImage": "/landing-pages/nest/nest-hero-interior-clean.png",
+        "backgroundAlt": "따뜻하고 차분한 집 인테리어",
+        "primaryCtaLabel": "둥지와 대화하십시오",
+        "secondaryCtaLabel": "둥지를 만나다",
+        "privacyLine": "한 번에 한 경기. 인간이 검토했습니다. 양측이 옵트인할 때까지 비공개.",
+        "characterImage": "/landing-pages/nest/nest-character-meet-compact-high-wings-transparent.png",
+        "characterAlt": "컴팩트한 날개를 가진 노트북과 키를 들고 있는 둥지",
+        "chat": {
+          "statusLabel": "온라인 · 인간 감독",
+          "privacyBadge": "사사로운",
+          "openingMessage": "당신은 구매 또는 판매?",
+          "visitorMessage": "나는 구매하고 있습니다",
+          "assistantMessage": "이사할 가치가 있는 집을 알려주세요. 인간 리뷰어가 필요로 하는 세부 사항만 묻고 적합하다고 간주되는 것을 다시 가져오겠습니다.",
+          "inputPlaceholder": "집에서 필요한 것을 Nest에게 말하십시오 ..."
+        },
+        "briefDemo": {
+          "enabled": true,
+          "commandTrigger": "request-introduction",
+          "introHeading": "귀하의 개인 주택 개요",
+          "introBody": "인간 리뷰어에게 필요한 것만 공유하십시오. 정확한 주소와 연락처는 여기에서 요청하지 않습니다.",
+          "chatLabel": "채팅으로 구축 · 10턴",
+          "voiceLabel": "음성으로 구축 · 5분",
+          "reviewLabel": "검토 개요",
+          "editLabel": "편집하다",
+          "reviewHeading": "개인 브리핑을 검토하십시오",
+          "reviewBody": "익명인 동안에는 아무 것도 지속, 검색, 제안 또는 공유되지 않습니다.",
+          "submitLabel": "사람 검토를 위해 로그인합니다",
+          "loginNotice": "인증된 휴먼 리뷰를 위해 이 개인 홈 브리프를 Nest 작업 공간으로 옮기려면 로그인하세요.",
+          "expiryCopy": "제출되지 않은 브리프는 1시간 후에 만료됩니다.",
+          "privacyCopy": "참가자 검색, 정확한 주소 공유 또는 익명 동안 연락처 공개가 없습니다.",
+          "errorCopy": "Nest가 이 브리프를 저장할 수 없습니다. 다시 시도하거나 로그인하십시오."
+        }
+      },
+      "audience": {
+        "kicker": "디자인으로 더 작은 문",
+        "heading": "진정한 다음 단계를 준비하는 사람들을 위해.",
+        "body": "공용 카탈로그가 없습니다. 부동산 피드가 없습니다. 필터 그리드가 없습니다. Nest는 듣고, 하나의 Fit을 제안하고, 두 개의 비공개 예를 기다립니다.",
+        "forHeading": "이것은 입니다",
+        "forItems": [
+          "진지하게 찾고 신속하게 행동할 수 있는 구매자.",
+          "공개 공개 노출보다 소수의 자격을 갖춘 사전 일치 구매자를 선호하는 판매자."
+        ],
+        "notForHeading": "이것은 를 위한 것이 아닙니다",
+        "notForItems": [
+          "시장에 있는 것만 보고 싶어하는 캐주얼 방문자.",
+          "공공 재산 피드 또는 필터 그리드를 기대하는 사람.",
+          "대량 거래 흐름을 찾는 사람들."
+        ]
+      },
+      "privacy": {
+        "kicker": "프라이버시는 시퀀스입니다",
+        "heading": "귀하의 주소는 둘 다 예라고 말할 때까지 비공개로 유지됩니다.",
+        "body": "둥지는 이웃 크기의 지역에서 시작됩니다. 신원, 연락처 정보 및 정확한 주소는 제안 및 상호 동의 단계를 통해 잠겨 있습니다.",
+        "stages": [
+          {
+            "status": "proposed",
+            "label": "제안",
+            "title": "일반 지역",
+            "body": "신원이나 정확한 위치가 표시되지 않습니다. 양측은 수락하거나 통과할 수 있습니다."
+          },
+          {
+            "status": "accepted",
+            "label": "둘 다 수락했습니다",
+            "title": "상호 예",
+            "body": "양측 모두 받아들였다. 세부 사항이 나오기 전에 사람이 최종 확인을 완료합니다."
+          },
+          {
+            "status": "confirmed",
+            "label": "확인됨",
+            "title": "소개 확인",
+            "body": "전체 연락처 세부 정보, 정확한 주소 및 제안된 시간은 이제 두 참가자 모두에게 제공됩니다."
+          }
+        ],
+        "proposalLabel": "신청",
+        "proposalAreaLabel": "일반 지역",
+        "proposalArea": "위트레흐트, 오버베히트",
+        "proposalNote": "신원이나 정확한 위치가 표시되지 않습니다. 양측은 수락하거나 통과할 수 있습니다."
+      },
+      "process": {
+        "kicker": "작동 방식",
+        "heading": "하나의 신중한 시퀀스.",
+        "licensedAgentNote": "앞으로 나아갈 준비가 되면 라이선스가 부여된 로컬 에이전트가 반복됩니다."
+      },
+      "proposals": {
+        "kicker": "제안이 어떻게 생겼는지",
+        "heading": "양면. 하나는 적합하다고 간주됩니다.",
+        "body": "이 예제 카드는 둥지 제안의 모양을 보여줍니다. 그들은 상호 동의 전에 신원이나 정확한 주소를 노출하지 않습니다.",
+        "cards": [
+          {
+            "pairing": "구매자 × 재산",
+            "status": "proposed",
+            "heading": "조용한 집, 녹색 전망, 유연한 인계.",
+            "facts": [
+              {
+                "label": "일반 지역",
+                "value": "위트레흐트, 오버베히트"
+              },
+              {
+                "label": "이벤트 슬롯",
+                "value": "토요일 아침"
+              }
+            ],
+            "tone": "cream"
+          },
+          {
+            "pairing": "재산 × 적격 구매자",
+            "status": "accepted",
+            "heading": "자금 준비, 타이밍 조정, 우선 순위 이해.",
+            "facts": [
+              {
+                "label": "구매자 요약",
+                "value": "신중하게 앞으로 나아갈 준비가 되었습니다"
+              },
+              {
+                "label": "이벤트 슬롯",
+                "value": "일요일 오후"
+              }
+            ],
+            "tone": "terracotta"
+          }
+        ]
+      },
+      "meet": {
+        "kicker": "둥지를 만나다",
+        "heading": "당신의 코너에 있는 세부 정보 알림.",
+        "body": "Nest는 당신이 사랑했던 아침 햇살, 움직일 수 없는 타이밍, 실제로 타협이 아닌 한 가지 타협점을 넘어서 경청합니다. 그런 다음 Nest는 적합하다고 간주되는 것을 다시 가져옵니다.",
+        "characterImage": "/landing-pages/nest/nest-character-meet-compact-high-wings-transparent.png",
+        "characterAlt": "어깨 위쪽 어깨 뒤쪽에 컴팩트한 날개가 달린 노트북과 열쇠를 들고 둥지를 만나다",
+        "principles": [
+          {
+            "title": "먼저 듣습니다",
+            "body": "들판의 벽이 아니라 대화."
+          },
+          {
+            "title": "하나의 적합을 제안합니다",
+            "body": "공공 자산 피드 또는 끝없는 그리드가 없습니다."
+          },
+          {
+            "title": "두 가지 예를 기다립니다",
+            "body": "신원과 정확한 주소는 상호 동의할 때까지 비공개로 유지됩니다."
+          }
+        ],
+        "primaryCtaLabel": "둥지와 대화하십시오",
+        "secondaryCtaLabel": "작동 방식을 참조하십시오"
+      },
+      "footer": {
+        "brandLabel": "둥지.",
+        "tagline": "한 번에 하나의 신중한 집 소개.",
+        "disclaimer": "Nest는 허가된 중개업체가 아니며 어느 쪽도 당사자, 협상, 집을 소중히 여기거나 거래를 처리하지 않습니다. 앞으로 나아갈 준비가 되면 라이선스가 부여된 로컬 에이전트와 연결하여 프로세스를 완료합니다. Not a broker. Does not represent either party. Does not provide valuations. Does not negotiate.",
+        "eventDisclaimer": "Second Home Fair Details는 이 둥지 인스턴스화를 위해 모델링되었으며 출석 전에 확인되어야 합니다.",
+        "copyright": "© 2026 둥지",
+        "groups": [
+          {
+            "label": "탐구",
+            "links": [
+              {
+                "label": "작동 방식",
+                "target": "how-it-works"
+              },
+              {
+                "label": "은둔",
+                "target": "privacy"
+              },
+              {
+                "label": "제안",
+                "target": "proposals"
+              }
+            ]
+          },
+          {
+            "label": "둥지",
+            "links": [
+              {
+                "label": "둥지를 만나다",
+                "target": "meet"
+              },
+              {
+                "label": "브리핑을 작성하십시오",
+                "target": "hero-chat"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "generatedAt": "2026-09-01T15:39:42.215Z"
+}

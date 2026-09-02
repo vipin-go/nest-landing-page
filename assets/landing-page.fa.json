@@ -1,0 +1,500 @@
+{
+  "schemaVersion": 1,
+  "language": "fa",
+  "regionKey": null,
+  "sourceRevision": "b403368b522c83332476945d763c1cdb9c3211e7fa0204db9923ea107dbb96a8",
+  "landingPage": {
+    "headline": "یک معرفی واجد شرایط که مناسب باشد.",
+    "subheadline": "معرفی‌های خصوصی خریدار و فروشنده، یک پیشنهاد بررسی‌شده توسط انسان در هر زمان.",
+    "ctaLabel": "با Nest صحبت کنید",
+    "secondaryCtaLabel": "نحوه کار را ببینید",
+    "heroCharacterImage": "/landing-pages/nest/nest-character-meet-compact-high-wings-transparent.png",
+    "seoImage": {
+      "src": "/landing-pages/nest/og.jpg",
+      "alt": "Nest، یک راهنمای خصوصی معرفی خانه، در یک فضای داخلی گرم با کلمات «یک معرفی سنجیده»"
+    },
+    "header": {
+      "brandMark": "image",
+      "logoImageUrl": "/landing-pages/nest/nest-keyround-logo.svg"
+    },
+    "design": {
+      "variant": "home-introductions",
+      "defaultThemeMode": "light",
+      "theme": {
+        "palette": "emerald",
+        "primaryColor": "emerald",
+        "secondaryColor": "stone",
+        "accentColor": "orange",
+        "fontFamily": "inter"
+      },
+      "brand": {
+        "presetRevision": 1,
+        "colors": {
+          "light": {
+            "canvas": "#f3efe5",
+            "surface": "#fffaf0",
+            "sidebar": "#173e31",
+            "text": "#18352a",
+            "accent": "#bd623f",
+            "userBubble": "#173e31"
+          },
+          "dark": {
+            "canvas": "#10251e",
+            "surface": "#173129",
+            "sidebar": "#0c1d17",
+            "text": "#f3efe5",
+            "accent": "#e29a7d",
+            "userBubble": "#bd623f"
+          }
+        },
+        "typography": {
+          "body": {
+            "source": "google",
+            "family": "DM Sans"
+          },
+          "display": {
+            "source": "google",
+            "family": "Manrope"
+          },
+          "label": {
+            "source": "google",
+            "family": "DM Sans"
+          }
+        }
+      }
+    },
+    "homeIntroductions": {
+      "header": {
+        "brandLabel": "Nest.",
+        "brandTagline": "یک معرفی دقیق",
+        "navItems": [
+          {
+            "label": "نحوه کار",
+            "target": "how-it-works"
+          },
+          {
+            "label": "حریم خصوصی",
+            "target": "privacy"
+          },
+          {
+            "label": "از اینجا شروع کنید",
+            "target": "hero-chat"
+          }
+        ],
+        "ctaLabel": "درخواست یک معرفی",
+        "mobileCtaLabel": "شروع"
+      },
+      "service": {
+        "activeMode": "event",
+        "announcement": "اکنون در حال تطبیق در Second Home Fair، Jaarbeurs Utrecht — جمعه ۲۷ تا یکشنبه ۲۹ مارس",
+        "feeCopy": "هزینه قبل از درخواست معرفی به اشتراک گذاشته می‌شود",
+        "disclaimer": "Nest یک واسطه‌گری مجاز نیست و نماینده هیچ‌یک از طرف‌ها نیست، مذاکره نمی‌کند، خانه شما را ارزیابی نمی‌کند، یا معامله شما را مدیریت نمی‌کند. وقتی آماده پیشروی هستید، شما را به یک عامل محلی مجاز متصل می‌کنیم تا فرایند را تکميل کند.",
+        "configurations": [
+          {
+            "mode": "event",
+            "label": "رویداد",
+            "actionLabel": "مشاهده",
+            "name": "Second Home Fair، Jaarbeurs Utrecht",
+            "location": "Jaarbeurs Utrecht",
+            "dateRange": "جمعه ۲۷ تا یکشنبه ۲۹ مارس",
+            "availabilityLabel": "جمعه ۲۷ تا یکشنبه ۲۹ مارس · Jaarbeurs Utrecht"
+          },
+          {
+            "mode": "city",
+            "label": "شهر",
+            "actionLabel": "مشاهده",
+            "name": "Nest آمستردام",
+            "location": "آمستردام زید",
+            "dateRange": "در حال انجام",
+            "availabilityLabel": "معرفی‌های محلی همیشه فعال"
+          }
+        ]
+      },
+      "tracks": [
+        {
+          "id": "buying",
+          "label": "من خریدارم",
+          "responseMessage": "خانه‌ای را به من بگویید که ارزش نقل مکان به آنجا را داشته باشد. فقط جزئیاتی را که یک بررسی‌کننده انسانی نیاز دارد می‌پرسم، و سپس یک تناسب سنجیده را برمی‌گردانم.",
+          "composerPlaceholder": "به Nest بگویید از یک خانه چه نیاز دارید…",
+          "processSteps": [
+            {
+              "number": "01",
+              "image": "/landing-pages/nest/nest-how-conversation-human.webp",
+              "alt": "یک خریدار بالقوه که بریف خانه خصوصی را با Nest به اشتراک می‌گذارد",
+              "title": "یک گفتگوی واقعی با Nest داشته باشید.",
+              "body": "درباره آنچه واقعاً نیاز دارید صحبت کنید: بودجه، موارد ضروری، موارد رد‌کننده، و زمان‌بندی. جزئیات کوچک نیز به این گفتگو تعلق دارند."
+            },
+            {
+              "number": "02",
+              "image": "/landing-pages/nest/nest-how-review-human.webp",
+              "alt": "Nest و یک بررسی‌کننده انسانی در حال بررسی دقیق یک خریدار و یک خانه",
+              "title": "هر بار یک تناسب ملک دریافت کنید.",
+              "body": "یک نفر هر پیشنهاد را قبل از دیده شدن توسط هر طرف بررسی می‌کند. بدون کاتالوگ عمومی، رتبه‌بندی، یا شبکه فیلتر بی‌پایان.",
+              "badge": "تأیید شده توسط انسان"
+            },
+            {
+              "number": "03",
+              "image": "/landing-pages/nest/nest-how-introduction-human.webp",
+              "alt": "Nest در حال معرفی یک خریدار بالقوه و یک مالک خانه پس از رضایت متقابل",
+              "title": "با هم معرفی را باز کنید.",
+              "body": "وقتی هر دو طرف بپذیرند، آدرس کامل، اطلاعات تماس و زمان پیشنهادی بازدید به‌صورت خصوصی به اشتراک گذاشته می‌شود."
+            }
+          ],
+          "briefFields": [
+            {
+              "key": "area",
+              "label": "منطقه ترجیحی یا عمومی",
+              "placeholder": "منطقه اوترخت، آمستردام زید…",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "propertyType",
+              "label": "نوع ملک",
+              "placeholder": "آپارتمان، خانه خانوادگی، خانه دوم…",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "propertyBrief",
+              "label": "خانه باید چه احساسی داشته باشد؟",
+              "placeholder": "خانه و اهمیت آن را توصیف کنید.",
+              "type": "textarea",
+              "required": true
+            },
+            {
+              "key": "budgetOrPrice",
+              "label": "محدوده بودجه",
+              "placeholder": "یک محدوده خصوصی کافی است",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "mustHavesOrHighlights",
+              "label": "موارد ضروری",
+              "placeholder": "نور، باغ، فضای کاری، دسترسی‌پذیری…",
+              "type": "textarea",
+              "required": true
+            },
+            {
+              "key": "dealbreakersOrBuyerCriteria",
+              "label": "موارد رد‌کننده",
+              "placeholder": "چه چیزی معرفی را به تناسب ضعیف تبدیل می‌کند؟",
+              "type": "textarea",
+              "required": false
+            },
+            {
+              "key": "timing",
+              "label": "زمان‌بندی",
+              "placeholder": "چه زمانی برای بازدید یا نقل مکان آماده خواهید بود؟",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "readiness",
+              "label": "آمادگی",
+              "placeholder": "در حال بررسی، آماده وام مسکن، خریدار نقدی…",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "privateConstraints",
+              "label": "محدودیت‌های خصوصی",
+              "placeholder": "هر چیزی که Nest باید خصوصی نگه دارد",
+              "type": "textarea",
+              "required": false
+            }
+          ]
+        },
+        {
+          "id": "selling",
+          "label": "من فروشنده‌ام",
+          "responseMessage": "به من بگویید چه چیزی خانه شما را متمایز می‌کند و کدام خریدار تناسب جدی خواهد بود. آدرس دقیق را خصوصی نگه می‌دارم و یک معرفی سنجیده را برمی‌گردانم.",
+          "composerPlaceholder": "به Nest بگویید درباره فروش شما چه مهم است…",
+          "processSteps": [
+            {
+              "number": "01",
+              "image": "/landing-pages/nest/nest-how-conversation-human.webp",
+              "alt": "یک مالک خانه که بریف ملک خصوصی را با Nest به اشتراک می‌گذارد",
+              "title": "یک گفتگوی واقعی با Nest داشته باشید.",
+              "body": "درباره ملک، زمان‌بندی، انگیزه و معنای واجد شرایط بودن برای شما صحبت کنید."
+            },
+            {
+              "number": "02",
+              "image": "/landing-pages/nest/nest-how-review-human.webp",
+              "alt": "Nest و یک بررسی‌کننده انسانی در حال بررسی دقیق یک فروشنده و یک خریدار واجد شرایط",
+              "title": "هر بار یک تناسب خریدار دریافت کنید.",
+              "body": "یک نفر هر پیشنهاد را قبل از دیده شدن توسط هر طرف بررسی می‌کند. بدون مواجهه عمومی یا جریان معامله انبوه.",
+              "badge": "تأیید شده توسط انسان"
+            },
+            {
+              "number": "03",
+              "image": "/landing-pages/nest/nest-how-introduction-human.webp",
+              "alt": "Nest در حال معرفی یک مالک خانه و یک خریدار بالقوه پس از رضایت متقابل",
+              "title": "با هم معرفی را باز کنید.",
+              "body": "وقتی هر دو طرف بپذیرند، اطلاعات تماس، آدرس دقیق و زمان پیشنهادی بازدید به‌صورت خصوصی به اشتراک گذاشته می‌شود."
+            }
+          ],
+          "briefFields": [
+            {
+              "key": "area",
+              "label": "منطقه عمومی",
+              "placeholder": "فقط محله یا منطقه وسیع",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "propertyType",
+              "label": "نوع ملک",
+              "placeholder": "آپارتمان، خانه خانوادگی، خانه دوم…",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "propertyBrief",
+              "label": "بریف ملک",
+              "placeholder": "ملک را بدون آدرس دقیق توصیف کنید.",
+              "type": "textarea",
+              "required": true
+            },
+            {
+              "key": "budgetOrPrice",
+              "label": "محدوده قیمت درخواستی",
+              "placeholder": "یک محدوده خصوصی کافی است",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "mustHavesOrHighlights",
+              "label": "نکات برجسته ملک",
+              "placeholder": "چه چیزی این خانه را متمایز می‌کند؟",
+              "type": "textarea",
+              "required": true
+            },
+            {
+              "key": "dealbreakersOrBuyerCriteria",
+              "label": "معیارهای تناسب خریدار",
+              "placeholder": "چه چیزی باید در مورد یک خریدار جدی صادق باشد؟",
+              "type": "textarea",
+              "required": false
+            },
+            {
+              "key": "timing",
+              "label": "زمان‌بندی",
+              "placeholder": "چه زمانی برای ترتیب بازدید آماده خواهید بود؟",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "readiness",
+              "label": "آمادگی",
+              "placeholder": "در حال آماده‌سازی، آماده برای بازدیدهای خصوصی…",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "privateConstraints",
+              "label": "محدودیت‌های خصوصی",
+              "placeholder": "هر چیزی که Nest باید خصوصی نگه دارد",
+              "type": "textarea",
+              "required": false
+            }
+          ]
+        }
+      ],
+      "hero": {
+        "eyebrow": "یک خانه، یا یک خریدار — نه یک پیمایش از فهرست‌ها.",
+        "headingLines": [
+          "یک معرفی واجد شرایط",
+          "که مناسب است، نه هزاران",
+          "که باید خودتان فیلتر کنید."
+        ],
+        "body": "به Nest بگویید واقعاً به‌دنبال چه هستید، یا واقعاً چه می‌فروشید. Nest یک تطبیق پیشنهاد می‌دهد. هر دو طرف قبل از به‌اشتراک‌گذاری هر چیز «بله» می‌گویند.",
+        "backgroundImage": "/landing-pages/nest/nest-hero-interior-clean.png",
+        "backgroundAlt": "یک فضای داخلی خانه گرم و آرام",
+        "primaryCtaLabel": "با Nest صحبت کنید",
+        "secondaryCtaLabel": "با Nest آشنا شوید",
+        "privacyLine": "هر بار یک تطبیق. توسط انسان بررسی‌شده. خصوصی تا زمانی که هر دو طرف رضایت دهند.",
+        "characterImage": "/landing-pages/nest/nest-character-meet-compact-high-wings-transparent.png",
+        "characterAlt": "Nest با دفترچه یادداشت و کلید و بال‌های جمع‌شده",
+        "chat": {
+          "statusLabel": "آنلاین · با نظارت انسانی",
+          "privacyBadge": "خصوصی",
+          "openingMessage": "آیا خریدار هستید یا فروشنده؟",
+          "visitorMessage": "من خریدارم",
+          "assistantMessage": "خانه‌ای را به من بگویید که ارزش نقل مکان به آنجا را داشته باشد. فقط جزئیاتی را که یک بررسی‌کننده انسانی نیاز دارد می‌پرسم، و سپس یک تناسب سنجیده را برمی‌گردانم.",
+          "inputPlaceholder": "به Nest بگویید از یک خانه چه نیاز دارید…"
+        },
+        "briefDemo": {
+          "enabled": true,
+          "commandTrigger": "request-introduction",
+          "introHeading": "بریف خانه خصوصی شما",
+          "introBody": "فقط آنچه یک بررسی‌کننده انسانی نیاز دارد را به اشتراک بگذارید. آدرس‌های دقیق و اطلاعات تماس هرگز اینجا درخواست نمی‌شوند.",
+          "chatLabel": "از طریق چت بسازید · ۱۰ مرحله",
+          "voiceLabel": "ساخت با صدا · ۵ دقیقه",
+          "reviewLabel": "بررسی شرح",
+          "editLabel": "ویرایش",
+          "reviewHeading": "بریف خصوصی خود را بررسی کنید",
+          "reviewBody": "تا زمانی که ناشناس هستید، هیچ‌چیز ذخیره، جستجو، پیشنهاد یا به‌اشتراک گذاشته نمی‌شود.",
+          "submitLabel": "برای بررسی انسانی وارد شوید",
+          "loginNotice": "برای انتقال این بریف خانه خصوصی به فضای کاری Nest خود برای بررسی انسانی تأییدشده وارد شوید.",
+          "expiryCopy": "بریف‌های ارسال‌نشده پس از یک ساعت منقضی می‌شوند.",
+          "privacyCopy": "در حالت ناشناس، هیچ جستجوی شرکت‌کننده، به‌اشتراک‌گذاری آدرس دقیق، یا افشای اطلاعات تماس انجام نمی‌شود.",
+          "errorCopy": "Nest نتوانست این بریف را ذخیره کند. لطفاً دوباره تلاش کنید یا وارد شوید."
+        }
+      },
+      "audience": {
+        "kicker": "یک در کوچک‌تر به‌طور عمدی",
+        "heading": "برای افرادی که برای گام بعدی واقعی آماده هستند.",
+        "body": "بدون کاتالوگ عمومی. بدون فید ملک. بدون شبکه فیلتر. Nest گوش می‌دهد، یک تناسب پیشنهاد می‌کند، و منتظر دو «بله» خصوصی می‌ماند.",
+        "forHeading": "این برای",
+        "forItems": [
+          "خریدارانی که جدی به‌دنبال هستند و می‌توانند سریع عمل کنند.",
+          "فروشندگانی که تعداد کمی از خریداران واجد شرایط و پیش‌تطبیق‌یافته را به مواجهه عمومی ترجیح می‌دهند."
+        ],
+        "notForHeading": "این برای نیست",
+        "notForItems": [
+          "بازدیدکنندگان عادی که فقط می‌خواهند ببینند چه چیزی در بازار موجود است.",
+          "هرکسی که انتظار یک فید عمومی از املاک یا یک شبکه از فیلترها را دارد.",
+          "افرادی که به دنبال جریان معاملات عمده هستند."
+        ]
+      },
+      "privacy": {
+        "kicker": "حریم خصوصی توالی است",
+        "heading": "آدرس شما تا زمانی که هر دو نفر نگویند بله، خصوصی می‌ماند.",
+        "body": "Nest با یک محدوده به اندازه یک محله شروع می‌شود. هویت، اطلاعات تماس و آدرس دقیق در مراحل پیشنهاد و رضایت متقابل قفل می‌مانند.",
+        "stages": [
+          {
+            "status": "proposed",
+            "label": "پیشنهاد شده",
+            "title": "منطقه عمومی",
+            "body": "هیچ هویت یا مکان دقیقی قابل مشاهده نیست. هر طرف می‌تواند بپذیرد یا رد کند."
+          },
+          {
+            "status": "accepted",
+            "label": "هر دو پذیرفتند",
+            "title": "بله متقابل",
+            "body": "هر دو طرف پذیرفتند. یک نفر تأیید نهایی را انجام می‌دهد قبل از اینکه جزئیات ارسال شود."
+          },
+          {
+            "status": "confirmed",
+            "label": "تأیید شده",
+            "title": "معرفی تأیید شده",
+            "body": "اطلاعات تماس کامل، آدرس دقیق و زمان پیشنهادی اکنون برای هر دو شرکت‌کننده در دسترس است."
+          }
+        ],
+        "proposalLabel": "پیشنهاد",
+        "proposalAreaLabel": "منطقه عمومی",
+        "proposalArea": "Utrecht, Overvecht",
+        "proposalNote": "هیچ هویت یا مکان دقیقی قابل مشاهده نیست. هر طرف می‌تواند بپذیرد یا رد کند."
+      },
+      "process": {
+        "kicker": "نحوه کار",
+        "heading": "یک توالی محتاطانه.",
+        "licensedAgentNote": "یک نماینده محلی دارای مجوز زمانی که آماده پیشروی هستید وارد می‌شود."
+      },
+      "proposals": {
+        "kicker": "یک پیشنهاد چگونه به نظر می‌رسد",
+        "heading": "دو طرف. یک تناسب سنجیده‌شده.",
+        "body": "این کارت‌های نمونه شکل یک پیشنهاد Nest را نشان می‌دهند. آنها هرگز هویت یا آدرس دقیق را قبل از رضایت متقابل فاش نمی‌کنند.",
+        "cards": [
+          {
+            "pairing": "خریدار × ملک",
+            "status": "proposed",
+            "heading": "خانه آرام، چشم‌انداز سبز، تحویل انعطاف‌پذیر.",
+            "facts": [
+              {
+                "label": "منطقه عمومی",
+                "value": "Utrecht, Overvecht"
+              },
+              {
+                "label": "بلوک رویداد",
+                "value": "شنبه صبح"
+              }
+            ],
+            "tone": "cream"
+          },
+          {
+            "pairing": "ملک × خریدار واجد شرایط",
+            "status": "accepted",
+            "heading": "تأمین مالی آماده، زمان‌بندی هماهنگ، اولویت‌ها درک شده.",
+            "facts": [
+              {
+                "label": "خلاصه خریدار",
+                "value": "آماده پیشروی محتاطانه"
+              },
+              {
+                "label": "بلوک رویداد",
+                "value": "یکشنبه بعدازظهر"
+              }
+            ],
+            "tone": "terracotta"
+          }
+        ]
+      },
+      "meet": {
+        "kicker": "با Nest آشنا شوید",
+        "heading": "نقشه‌کش جزئیات در گوشه شما.",
+        "body": "Nest فراتر از خلاصه آشکار گوش می‌دهد: نور صبحگاهی که دوست داشتید، زمان‌بندی که نمی‌توانید جابجا کنید، تنها компромис که واقعاً компромис نیست. سپس Nest یک تناسب سنجیده‌شده را برمی‌گرداند.",
+        "characterImage": "/landing-pages/nest/nest-character-meet-compact-high-wings-transparent.png",
+        "characterAlt": "با Nest ملاقات کنید، یک دفترچه و کلیدها را در دست دارد با بال‌های فشرده که پشت شانه‌های بالایی بالا آمده‌اند",
+        "principles": [
+          {
+            "title": "ابتدا گوش می‌دهد",
+            "body": "یک گفتگو، نه دیواری از فیلدها."
+          },
+          {
+            "title": "یک تناسب پیشنهاد می‌دهد",
+            "body": "هیچ فید عمومی از املاک یا شبکه بی‌پایان نه."
+          },
+          {
+            "title": "منتظر دو بله می‌ماند",
+            "body": "هویت و آدرس دقیق تا رضایت متقابل خصوصی می‌مانند."
+          }
+        ],
+        "primaryCtaLabel": "با Nest صحبت کنید",
+        "secondaryCtaLabel": "نحوه کار را ببینید"
+      },
+      "footer": {
+        "brandLabel": "Nest.",
+        "tagline": "یک معرفی محتاطانه خانه در هر زمان.",
+        "disclaimer": "Nest یک واسطه‌گری مجاز نیست و نماینده هیچ‌یک از طرف‌ها نیست، مذاکره نمی‌کند، خانه شما را ارزیابی نمی‌کند، یا معامله شما را مدیریت نمی‌کند. وقتی آماده پیشروی هستید، شما را به یک عامل محلی مجاز متصل می‌کنیم تا فرایند را تکميل کند. Not a broker. Does not represent either party. Does not provide valuations. Does not negotiate.",
+        "eventDisclaimer": "جزئیات نمایشگاه خانه دوم برای این نمونه Nest مدل‌سازی شده و باید قبل از حضور تأیید شود.",
+        "copyright": "© 2026 Nest",
+        "groups": [
+          {
+            "label": "کاوش کنید",
+            "links": [
+              {
+                "label": "نحوه کار",
+                "target": "how-it-works"
+              },
+              {
+                "label": "حریم خصوصی",
+                "target": "privacy"
+              },
+              {
+                "label": "پیشنهادها",
+                "target": "proposals"
+              }
+            ]
+          },
+          {
+            "label": "Nest",
+            "links": [
+              {
+                "label": "با Nest آشنا شوید",
+                "target": "meet"
+              },
+              {
+                "label": "یک بریف بسازید",
+                "target": "hero-chat"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "generatedAt": "2026-09-01T15:39:42.215Z"
+}

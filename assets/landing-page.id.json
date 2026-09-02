@@ -1,0 +1,500 @@
+{
+  "schemaVersion": 1,
+  "language": "id",
+  "regionKey": null,
+  "sourceRevision": "b403368b522c83332476945d763c1cdb9c3211e7fa0204db9923ea107dbb96a8",
+  "landingPage": {
+    "headline": "satu pengenalan yang memenuhi syarat yang cocok.",
+    "subheadline": "Perkenalan pembeli dan penjual pribadi, satu proposal yang ditinjau manusia pada satu waktu.",
+    "ctaLabel": "berbicara dengan sarang",
+    "secondaryCtaLabel": "Lihat Cara Kerjanya",
+    "heroCharacterImage": "/landing-pages/nest/nest-character-meet-compact-high-wings-transparent.png",
+    "seoImage": {
+      "src": "/landing-pages/nest/og.jpg",
+      "alt": "Nest, panduan pengenalan rumah pribadi, di interior yang hangat dengan kata-kata satu pengantar yang cermat"
+    },
+    "header": {
+      "brandMark": "image",
+      "logoImageUrl": "/landing-pages/nest/nest-keyround-logo.svg"
+    },
+    "design": {
+      "variant": "home-introductions",
+      "defaultThemeMode": "light",
+      "theme": {
+        "palette": "emerald",
+        "primaryColor": "emerald",
+        "secondaryColor": "stone",
+        "accentColor": "orange",
+        "fontFamily": "inter"
+      },
+      "brand": {
+        "presetRevision": 1,
+        "colors": {
+          "light": {
+            "canvas": "#f3efe5",
+            "surface": "#fffaf0",
+            "sidebar": "#173e31",
+            "text": "#18352a",
+            "accent": "#bd623f",
+            "userBubble": "#173e31"
+          },
+          "dark": {
+            "canvas": "#10251e",
+            "surface": "#173129",
+            "sidebar": "#0c1d17",
+            "text": "#f3efe5",
+            "accent": "#e29a7d",
+            "userBubble": "#bd623f"
+          }
+        },
+        "typography": {
+          "body": {
+            "source": "google",
+            "family": "DM Sans"
+          },
+          "display": {
+            "source": "google",
+            "family": "Manrope"
+          },
+          "label": {
+            "source": "google",
+            "family": "DM Sans"
+          }
+        }
+      }
+    },
+    "homeIntroductions": {
+      "header": {
+        "brandLabel": "sarang.",
+        "brandTagline": "Satu pengenalan yang cermat",
+        "navItems": [
+          {
+            "label": "Bagaimana itu bekerja",
+            "target": "how-it-works"
+          },
+          {
+            "label": "Pribadi",
+            "target": "privacy"
+          },
+          {
+            "label": "Mulai di sini",
+            "target": "hero-chat"
+          }
+        ],
+        "ctaLabel": "meminta perkenalan",
+        "mobileCtaLabel": "Mulai"
+      },
+      "service": {
+        "activeMode": "event",
+        "announcement": "Sekarang cocok di pameran kandang kedua, Jaarbeurs Utrecht — Jum 27–Minggu 29 Mar",
+        "feeCopy": "Biaya dibagikan sebelum Anda meminta perkenalan",
+        "disclaimer": "Nest bukan perantara berlisensi dan tidak mewakili salah satu pihak, bernegosiasi, menghargai rumah Anda, atau menangani transaksi Anda. Saat Anda siap untuk bergerak maju, kami menghubungkan Anda dengan agen lokal berlisensi untuk menyelesaikan prosesnya.",
+        "configurations": [
+          {
+            "mode": "event",
+            "label": "Peristiwa",
+            "actionLabel": "Melihat",
+            "name": "Pameran Rumah Kedua, Jaarbeurs Utrecht",
+            "location": "Jaarbeurs Utrecht",
+            "dateRange": "Jum 27–Minggu 29 Mar",
+            "availabilityLabel": "Jum 27–Minggu 29 Mar · Jaarbeurs Utrecht"
+          },
+          {
+            "mode": "city",
+            "label": "Kota",
+            "actionLabel": "Melihat",
+            "name": "Sarang Amsterdam",
+            "location": "Amsterdam Zuid",
+            "dateRange": "Terus-menerus",
+            "availabilityLabel": "Perkenalan lokal yang selalu aktif"
+          }
+        ]
+      },
+      "tracks": [
+        {
+          "id": "buying",
+          "label": "Saya membeli",
+          "responseMessage": "Katakan padaku rumah yang layak untuk dipindahkan. Saya hanya akan meminta detail yang dibutuhkan oleh peninjau manusia, lalu mengembalikannya yang dianggap fit.",
+          "composerPlaceholder": "Beri tahu Nest apa yang Anda butuhkan dari rumah…",
+          "processSteps": [
+            {
+              "number": "01",
+              "image": "/landing-pages/nest/nest-how-conversation-human.webp",
+              "alt": "Calon pembeli berbagi briefing rumah pribadi dengan Nest",
+              "title": "Lakukan percakapan nyata dengan Nest.",
+              "body": "Bicarakan apa yang sebenarnya Anda butuhkan: anggaran, must-have, dealbreaker, dan waktu. Detail kecil juga termasuk dalam percakapan."
+            },
+            {
+              "number": "02",
+              "image": "/landing-pages/nest/nest-how-review-human.webp",
+              "alt": "sarang dan pengulas manusia dengan hati-hati mempertimbangkan satu pembeli dan satu rumah",
+              "title": "menerima satu properti yang cocok pada satu waktu.",
+              "body": "Seseorang meninjau setiap proposal sebelum kedua belah pihak melihatnya. Tidak ada katalog publik, peringkat, atau kisi filter tak berujung.",
+              "badge": "Disetujui oleh manusia"
+            },
+            {
+              "number": "03",
+              "image": "/landing-pages/nest/nest-how-introduction-human.webp",
+              "alt": "NEST memperkenalkan calon pembeli dan pemilik rumah setelah persetujuan bersama",
+              "title": "Buka kunci perkenalan bersama.",
+              "body": "Setelah kedua belah pihak menerima, alamat lengkap, detail kontak, dan waktu penayangan yang diusulkan dibagikan secara pribadi."
+            }
+          ],
+          "briefFields": [
+            {
+              "key": "area",
+              "label": "Area yang disukai atau umum",
+              "placeholder": "Wilayah Utrecht, Amsterdam Zuid…",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "propertyType",
+              "label": "Tipe Properti",
+              "placeholder": "Apartemen, rumah keluarga, rumah kedua…",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "propertyBrief",
+              "label": "Apa yang harus dirasakan rumah?",
+              "placeholder": "Jelaskan rumah dan mengapa itu penting.",
+              "type": "textarea",
+              "required": true
+            },
+            {
+              "key": "budgetOrPrice",
+              "label": "kisaran anggaran",
+              "placeholder": "Rentang pribadi sudah cukup",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "mustHavesOrHighlights",
+              "label": "yang harus dimiliki",
+              "placeholder": "cahaya, taman, ruang kerja, aksesibilitas…",
+              "type": "textarea",
+              "required": true
+            },
+            {
+              "key": "dealbreakersOrBuyerCriteria",
+              "label": "Dealbreaker",
+              "placeholder": "Apa yang akan membuat pendahuluan tidak cocok?",
+              "type": "textarea",
+              "required": false
+            },
+            {
+              "key": "timing",
+              "label": "Pemilihan waktu",
+              "placeholder": "Kapan Anda akan siap untuk melihat atau bergerak?",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "readiness",
+              "label": "Kesiapan",
+              "placeholder": "Menjelajahi, Hipotek Siap, Pembeli Tunai…",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "privateConstraints",
+              "label": "Kendala pribadi",
+              "placeholder": "Sarang apa pun harus tetap pribadi",
+              "type": "textarea",
+              "required": false
+            }
+          ]
+        },
+        {
+          "id": "selling",
+          "label": "saya jual",
+          "responseMessage": "Beri tahu saya apa yang membuat rumah berbeda dan pembeli mana yang akan sangat cocok. Saya akan merahasiakan alamat yang tepat dan mengembalikan satu pengenalan yang dipertimbangkan.",
+          "composerPlaceholder": "Beri tahu Nest apa yang penting tentang penjualan Anda…",
+          "processSteps": [
+            {
+              "number": "01",
+              "image": "/landing-pages/nest/nest-how-conversation-human.webp",
+              "alt": "Pemilik rumah berbagi brief properti pribadi dengan Nest",
+              "title": "Lakukan percakapan nyata dengan Nest.",
+              "body": "Bicarakan melalui properti, waktu Anda, motivasi, dan apa arti kualifikasi bagi Anda."
+            },
+            {
+              "number": "02",
+              "image": "/landing-pages/nest/nest-how-review-human.webp",
+              "alt": "sarang dan pengulas manusia dengan hati-hati mempertimbangkan satu penjual dan satu pembeli yang memenuhi syarat",
+              "title": "Menerima satu pembeli cocok pada satu waktu.",
+              "body": "Seseorang meninjau setiap proposal sebelum kedua belah pihak melihatnya. Tidak ada paparan publik atau aliran kesepakatan massal.",
+              "badge": "Disetujui oleh manusia"
+            },
+            {
+              "number": "03",
+              "image": "/landing-pages/nest/nest-how-introduction-human.webp",
+              "alt": "NEST memperkenalkan pemilik rumah dan calon pembeli setelah persetujuan bersama",
+              "title": "Buka kunci perkenalan bersama.",
+              "body": "Setelah kedua belah pihak menerima, detail kontak, alamat yang tepat, dan waktu penayangan yang diusulkan dibagikan secara pribadi."
+            }
+          ],
+          "briefFields": [
+            {
+              "key": "area",
+              "label": "daerah umum",
+              "placeholder": "hanya lingkungan atau area luas",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "propertyType",
+              "label": "Tipe Properti",
+              "placeholder": "Apartemen, rumah keluarga, rumah kedua…",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "propertyBrief",
+              "label": "Singkat Properti",
+              "placeholder": "Jelaskan properti tanpa alamat yang tepat.",
+              "type": "textarea",
+              "required": true
+            },
+            {
+              "key": "budgetOrPrice",
+              "label": "kisaran harga bertanya",
+              "placeholder": "Rentang pribadi sudah cukup",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "mustHavesOrHighlights",
+              "label": "Sorotan Properti",
+              "placeholder": "Apa yang membuat rumah ini berbeda?",
+              "type": "textarea",
+              "required": true
+            },
+            {
+              "key": "dealbreakersOrBuyerCriteria",
+              "label": "Kriteria kesesuaian pembeli",
+              "placeholder": "Apa yang harus benar dari pembeli yang serius?",
+              "type": "textarea",
+              "required": false
+            },
+            {
+              "key": "timing",
+              "label": "Pemilihan waktu",
+              "placeholder": "Kapan Anda akan siap untuk mengatur tampilan?",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "readiness",
+              "label": "Kesiapan",
+              "placeholder": "Persiapan, siap untuk dilihat pribadi…",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "privateConstraints",
+              "label": "Kendala pribadi",
+              "placeholder": "Sarang apa pun harus tetap pribadi",
+              "type": "textarea",
+              "required": false
+            }
+          ]
+        }
+      ],
+      "hero": {
+        "eyebrow": "Satu rumah, atau satu pembeli — bukan gulungan daftar.",
+        "headingLines": [
+          "satu pengantar yang memenuhi syarat",
+          "itu cocok, bukan seribu",
+          "Anda harus menyaring diri sendiri."
+        ],
+        "body": "Beri tahu Nest apa yang sebenarnya Anda cari, atau apa yang sebenarnya Anda jual. Nest mengusulkan satu pertandingan. Kedua belah pihak mengatakan ya sebelum apa pun dibagikan.",
+        "backgroundImage": "/landing-pages/nest/nest-hero-interior-clean.png",
+        "backgroundAlt": "Interior rumah yang hangat dan tenang",
+        "primaryCtaLabel": "berbicara dengan sarang",
+        "secondaryCtaLabel": "bertemu sarang",
+        "privacyLine": "satu pertandingan pada satu waktu. ditinjau oleh manusia. pribadi sampai kedua belah pihak ikut serta.",
+        "characterImage": "/landing-pages/nest/nest-character-meet-compact-high-wings-transparent.png",
+        "characterAlt": "Sarang memegang notebook dan kunci dengan sayap kompak",
+        "chat": {
+          "statusLabel": "Online · Manusia diawasi",
+          "privacyBadge": "Pribadi",
+          "openingMessage": "Apakah Anda membeli atau menjual?",
+          "visitorMessage": "Saya membeli",
+          "assistantMessage": "Katakan padaku rumah yang layak untuk dipindahkan. Saya hanya akan meminta detail yang dibutuhkan oleh peninjau manusia, lalu mengembalikannya yang dianggap fit.",
+          "inputPlaceholder": "Beri tahu Nest apa yang Anda butuhkan dari rumah…"
+        },
+        "briefDemo": {
+          "enabled": true,
+          "commandTrigger": "request-introduction",
+          "introHeading": "Brief Home Private Anda",
+          "introBody": "Bagikan hanya apa yang dibutuhkan oleh pengulas manusia. Alamat dan detail kontak yang tepat tidak pernah diminta di sini.",
+          "chatLabel": "Bangun dengan obrolan · 10 putaran",
+          "voiceLabel": "Bangun dengan suara · 5 menit",
+          "reviewLabel": "Tinjau singkat",
+          "editLabel": "Memimpin redaksi",
+          "reviewHeading": "Tinjau brief pribadi Anda",
+          "reviewBody": "Tidak ada yang bertahan, dicari, diusulkan, atau dibagikan saat Anda anonim.",
+          "submitLabel": "Masuk untuk peninjauan manusia",
+          "loginNotice": "Masuk untuk memindahkan brief rumah pribadi ini ke ruang kerja sarang Anda untuk ulasan manusia yang diautentikasi.",
+          "expiryCopy": "Celana dalam yang tidak terkirim kedaluwarsa setelah satu jam.",
+          "privacyCopy": "Tidak ada pencarian peserta, berbagi alamat yang tepat, atau pengungkapan kontak saat anonim.",
+          "errorCopy": "Nest tidak dapat menyimpan brief ini. Silakan coba lagi atau masuk."
+        }
+      },
+      "audience": {
+        "kicker": "Pintu yang lebih kecil dengan desain",
+        "heading": "Untuk orang-orang yang siap untuk langkah nyata selanjutnya.",
+        "body": "Tidak ada katalog publik. Tidak ada feed properti. Tidak ada kisi filter. Nest mendengarkan, mengusulkan satu fit, dan menunggu dua ya pribadi.",
+        "forHeading": "Ini untuk",
+        "forItems": [
+          "Pembeli yang serius mencari dan dapat bertindak cepat.",
+          "Penjual yang lebih memilih sejumlah kecil pembeli yang memenuhi syarat dan pra-cocok daripada paparan publik terbuka."
+        ],
+        "notForHeading": "Ini bukan untuk",
+        "notForItems": [
+          "Pengunjung biasa yang hanya ingin melihat apa yang ada di pasaran.",
+          "Siapa pun yang mengharapkan umpan properti publik atau kisi filter.",
+          "Orang yang mencari aliran kesepakatan massal."
+        ]
+      },
+      "privacy": {
+        "kicker": "Privasi adalah urutannya",
+        "heading": "Alamat Anda tetap pribadi sampai Anda berdua mengatakan ya.",
+        "body": "Sarang dimulai dengan area seukuran lingkungan. Identitas, detail kontak, dan alamat yang tepat tetap terkunci melalui proposal dan tahapan persetujuan bersama.",
+        "stages": [
+          {
+            "status": "proposed",
+            "label": "diusulkan",
+            "title": "daerah umum",
+            "body": "Tidak ada identitas atau lokasi pasti yang terlihat. setiap pihak dapat menerima atau lulus."
+          },
+          {
+            "status": "accepted",
+            "label": "Keduanya diterima",
+            "title": "Saling Ya",
+            "body": "kedua belah pihak diterima. Seseorang menyelesaikan verifikasi akhir sebelum detailnya keluar."
+          },
+          {
+            "status": "confirmed",
+            "label": "Yg tdk dpt diubah-ubah",
+            "title": "Pendahuluan Dikonfirmasi",
+            "body": "Rincian kontak lengkap, alamat yang tepat, dan waktu yang diusulkan sekarang tersedia untuk kedua peserta."
+          }
+        ],
+        "proposalLabel": "Usul",
+        "proposalAreaLabel": "daerah umum",
+        "proposalArea": "Utrecht, Overvecht",
+        "proposalNote": "Tidak ada identitas atau lokasi pasti yang terlihat. setiap pihak dapat menerima atau lulus."
+      },
+      "process": {
+        "kicker": "Bagaimana itu bekerja",
+        "heading": "satu urutan yang hati-hati.",
+        "licensedAgentNote": "Agen lokal berlisensi dilingkarkan saat Anda siap untuk bergerak maju."
+      },
+      "proposals": {
+        "kicker": "Seperti apa proposal itu?",
+        "heading": "dua sisi. satu dianggap cocok.",
+        "body": "Kartu contoh ini menunjukkan bentuk proposal sarang. Mereka tidak pernah mengekspos identitas atau alamat yang tepat sebelum persetujuan bersama.",
+        "cards": [
+          {
+            "pairing": "Pembeli × Properti",
+            "status": "proposed",
+            "heading": "Rumah tenang, pandangan hijau, serah terima fleksibel.",
+            "facts": [
+              {
+                "label": "daerah umum",
+                "value": "Utrecht, Overvecht"
+              },
+              {
+                "label": "Slot acara",
+                "value": "Sabtu pagi"
+              }
+            ],
+            "tone": "cream"
+          },
+          {
+            "pairing": "Properti × Pembeli yang memenuhi syarat",
+            "status": "accepted",
+            "heading": "Pendanaan disiapkan, waktu selaras, prioritas dipahami.",
+            "facts": [
+              {
+                "label": "Ringkasan Pembeli",
+                "value": "Siap untuk maju dengan bijaksana"
+              },
+              {
+                "label": "Slot acara",
+                "value": "Minggu siang"
+              }
+            ],
+            "tone": "terracotta"
+          }
+        ]
+      },
+      "meet": {
+        "kicker": "bertemu sarang",
+        "heading": "pencetus detail di sudut Anda.",
+        "body": "Nest mendengarkan di luar brief yang jelas: cahaya pagi yang Anda sukai, waktu yang tidak dapat Anda gerakkan, satu kompromi yang sebenarnya bukan kompromi. Kemudian sarang membawa kembali satu yang dianggap fit.",
+        "characterImage": "/landing-pages/nest/nest-character-meet-compact-high-wings-transparent.png",
+        "characterAlt": "Temui sarang, pegang buku catatan dan kunci dengan sayap kompak terangkat di belakang bahu atas",
+        "principles": [
+          {
+            "title": "Mendengarkan dulu",
+            "body": "Percakapan, bukan dinding ladang."
+          },
+          {
+            "title": "Mengusulkan satu kecocokan",
+            "body": "Tidak ada feed properti publik atau grid tak berujung."
+          },
+          {
+            "title": "menunggu dua ya",
+            "body": "Identitas dan alamat yang tepat tetap pribadi sampai persetujuan bersama."
+          }
+        ],
+        "primaryCtaLabel": "berbicara dengan sarang",
+        "secondaryCtaLabel": "Lihat Cara Kerjanya"
+      },
+      "footer": {
+        "brandLabel": "sarang.",
+        "tagline": "Satu perkenalan rumah yang hati-hati pada satu waktu.",
+        "disclaimer": "Nest bukan perantara berlisensi dan tidak mewakili salah satu pihak, bernegosiasi, menghargai rumah Anda, atau menangani transaksi Anda. Saat Anda siap untuk bergerak maju, kami menghubungkan Anda dengan agen lokal berlisensi untuk menyelesaikan prosesnya. Not a broker. Does not represent either party. Does not provide valuations. Does not negotiate.",
+        "eventDisclaimer": "Detail rumah kedua dimodelkan untuk instantiasi sarang ini dan harus diverifikasi sebelum kehadiran.",
+        "copyright": "© 2026 Sarang",
+        "groups": [
+          {
+            "label": "Menjelajah",
+            "links": [
+              {
+                "label": "Bagaimana itu bekerja",
+                "target": "how-it-works"
+              },
+              {
+                "label": "Pribadi",
+                "target": "privacy"
+              },
+              {
+                "label": "Usulan",
+                "target": "proposals"
+              }
+            ]
+          },
+          {
+            "label": "Sarang",
+            "links": [
+              {
+                "label": "bertemu sarang",
+                "target": "meet"
+              },
+              {
+                "label": "Membangun Singkat",
+                "target": "hero-chat"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "generatedAt": "2026-09-01T15:39:42.215Z"
+}

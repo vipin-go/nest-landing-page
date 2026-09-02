@@ -1,0 +1,500 @@
+{
+  "schemaVersion": 1,
+  "language": "lt",
+  "regionKey": null,
+  "sourceRevision": "b403368b522c83332476945d763c1cdb9c3211e7fa0204db9923ea107dbb96a8",
+  "landingPage": {
+    "headline": "Viena kvalifikuota įžanga, kuri tinka.",
+    "subheadline": "Privataus pirkėjo ir pardavėjo pristatymai, vienu metu peržiūrėtas pasiūlymas.",
+    "ctaLabel": "Pasikalbėkite su Nest",
+    "secondaryCtaLabel": "Pažiūrėkite, kaip tai veikia",
+    "heroCharacterImage": "/landing-pages/nest/nest-character-meet-compact-high-wings-transparent.png",
+    "seoImage": {
+      "src": "/landing-pages/nest/og.jpg",
+      "alt": "Nest, privatus namų pristatymo vadovas, šiltame interjere su žodžiais vienas kruopštus įvadas"
+    },
+    "header": {
+      "brandMark": "image",
+      "logoImageUrl": "/landing-pages/nest/nest-keyround-logo.svg"
+    },
+    "design": {
+      "variant": "home-introductions",
+      "defaultThemeMode": "light",
+      "theme": {
+        "palette": "emerald",
+        "primaryColor": "emerald",
+        "secondaryColor": "stone",
+        "accentColor": "orange",
+        "fontFamily": "inter"
+      },
+      "brand": {
+        "presetRevision": 1,
+        "colors": {
+          "light": {
+            "canvas": "#f3efe5",
+            "surface": "#fffaf0",
+            "sidebar": "#173e31",
+            "text": "#18352a",
+            "accent": "#bd623f",
+            "userBubble": "#173e31"
+          },
+          "dark": {
+            "canvas": "#10251e",
+            "surface": "#173129",
+            "sidebar": "#0c1d17",
+            "text": "#f3efe5",
+            "accent": "#e29a7d",
+            "userBubble": "#bd623f"
+          }
+        },
+        "typography": {
+          "body": {
+            "source": "google",
+            "family": "DM Sans"
+          },
+          "display": {
+            "source": "google",
+            "family": "Manrope"
+          },
+          "label": {
+            "source": "google",
+            "family": "DM Sans"
+          }
+        }
+      }
+    },
+    "homeIntroductions": {
+      "header": {
+        "brandLabel": "Lizdas.",
+        "brandTagline": "Viena atsargi įžanga",
+        "navItems": [
+          {
+            "label": "Kaip tai veikia",
+            "target": "how-it-works"
+          },
+          {
+            "label": "Slaptumas",
+            "target": "privacy"
+          },
+          {
+            "label": "Pradėkite čia",
+            "target": "hero-chat"
+          }
+        ],
+        "ctaLabel": "Prašyti įvado",
+        "mobileCtaLabel": "Pradėti"
+      },
+      "service": {
+        "activeMode": "event",
+        "announcement": "Dabar rungtyniauja antrųjų namų mugėje, Jaarbeurs Utrecht – penktadienis 27–sekmadienis kovo 29 d.",
+        "feeCopy": "Mokestis bendrinamas prieš paprašant įžangos",
+        "disclaimer": "„Nest“ nėra licencijuotas tarpininkavimas ir neatstovauja nė vienai šaliai, derasi, neįvertina jūsų namų ar tvarko jūsų sandorį. Kai būsite pasiruošę judėti į priekį, sujungsime jus su licencijuotu vietiniu agentu, kad užbaigtumėte procesą.",
+        "configurations": [
+          {
+            "mode": "event",
+            "label": "Įvykis",
+            "actionLabel": "Peržiūrėti",
+            "name": "Antrųjų namų mugė, Jaarbeurs Utrecht",
+            "location": "Jaarbeurs Utrecht",
+            "dateRange": "Penktadienis 27–sekmadienis kovo 29 d",
+            "availabilityLabel": "Penktadienis 27–sekmadienis kovo 29 d. · Jaarbeurs Utrecht"
+          },
+          {
+            "mode": "city",
+            "label": "Miestas",
+            "actionLabel": "Peržiūrėti",
+            "name": "Lizdas Amsterdamas",
+            "location": "Amsterdamas Zuid",
+            "dateRange": "Tebevykstantis",
+            "availabilityLabel": "Visada įjungtos vietinės įžangos"
+          }
+        ]
+      },
+      "tracks": [
+        {
+          "id": "buying",
+          "label": "Aš perku",
+          "responseMessage": "Pasakyk man namus, dėl kurių būtų verta persikelti. Paprašysiu tik tos detalės, kurios reikia žmogaus apžvalgininkui, tada sugrąžinsiu vieną, kuri laikoma tinkama.",
+          "composerPlaceholder": "Pasakykite „Nest“, ko jums reikia iš namų…",
+          "processSteps": [
+            {
+              "number": "01",
+              "image": "/landing-pages/nest/nest-how-conversation-human.webp",
+              "alt": "Būsimas pirkėjas dalijasi privačių namų trumpute su „Nest“.",
+              "title": "Turėkite tikrą pokalbį su „Nest“.",
+              "body": "Pakalbėkite apie tai, ko jums iš tikrųjų reikia: biudžetą, būtinus dalykus, sandorių nutraukėjus ir laiką. Pokalbiui taip pat priklauso mažos detalės."
+            },
+            {
+              "number": "02",
+              "image": "/landing-pages/nest/nest-how-review-human.webp",
+              "alt": "lizdas ir žmogiškasis apžvalgininkas, atidžiai apsvarstęs vieną pirkėją ir vieną namą",
+              "title": "Gaukite vieną turtą vienu metu.",
+              "body": "Asmuo peržiūri kiekvieną pasiūlymą, kol bet kuri pusė jo nepamatys. Nėra viešo katalogo, reitingo ar begalinio filtro tinklelio.",
+              "badge": "Žmogaus patvirtintas"
+            },
+            {
+              "number": "03",
+              "image": "/landing-pages/nest/nest-how-introduction-human.webp",
+              "alt": "„Nest“ pristato būsimą pirkėją ir būsto savininką po abipusio sutarimo",
+              "title": "Atrakinkite įvadą kartu.",
+              "body": "Kai abi pusės sutinka, visas adresas, kontaktiniai duomenys ir siūlomas žiūrėjimo laikas dalijamasi privačiai."
+            }
+          ],
+          "briefFields": [
+            {
+              "key": "area",
+              "label": "Pageidautina arba bendra sritis",
+              "placeholder": "Utrechto regionas, Amsterdamas Zuid…",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "propertyType",
+              "label": "Nuosavybės tipas",
+              "placeholder": "Butas, šeimos namai, antrieji namai…",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "propertyBrief",
+              "label": "Kaip turėtų jaustis namai?",
+              "placeholder": "Apibūdinkite namus ir kodėl tai svarbu.",
+              "type": "textarea",
+              "required": true
+            },
+            {
+              "key": "budgetOrPrice",
+              "label": "Biudžeto diapazonas",
+              "placeholder": "Užtenka privataus asortimento",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "mustHavesOrHighlights",
+              "label": "Privalomi dalykai",
+              "placeholder": "Šviesa, sodas, darbo vieta, prieinamumas…",
+              "type": "textarea",
+              "required": true
+            },
+            {
+              "key": "dealbreakersOrBuyerCriteria",
+              "label": "Dealbreakers",
+              "placeholder": "Dėl ko įžanga būtų prastai prigludusi?",
+              "type": "textarea",
+              "required": false
+            },
+            {
+              "key": "timing",
+              "label": "Chronometražas",
+              "placeholder": "Kada būtumėte pasiruošę žiūrėti ar persikelti?",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "readiness",
+              "label": "Pasirengimas",
+              "placeholder": "Tyrinėja, paruošta hipoteka, pirkėjas grynaisiais…",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "privateConstraints",
+              "label": "Privatūs apribojimai",
+              "placeholder": "Viskas, kas lizdas turi likti privatus",
+              "type": "textarea",
+              "required": false
+            }
+          ]
+        },
+        {
+          "id": "selling",
+          "label": "Parduodu",
+          "responseMessage": "Pasakykite man, kuo namas išsiskiria ir kuris pirkėjas būtų rimtas. Tikslų adresą laikysiu privačiu ir grąžinsiu vieną įžangą.",
+          "composerPlaceholder": "Pasakykite „Nest“, kas svarbu jūsų pardavimui…",
+          "processSteps": [
+            {
+              "number": "01",
+              "image": "/landing-pages/nest/nest-how-conversation-human.webp",
+              "alt": "Namo savininkas dalijasi privačios nuosavybės trumpute su „Nest“.",
+              "title": "Turėkite tikrą pokalbį su „Nest“.",
+              "body": "Pakalbėkite apie turtą, laiką, motyvaciją ir tai, ką jums reiškia kvalifikuota."
+            },
+            {
+              "number": "02",
+              "image": "/landing-pages/nest/nest-how-review-human.webp",
+              "alt": "lizdas ir žmogiškasis apžvalgininkas, atidžiai apsvarstęs vieną pardavėją ir vieną kvalifikuotą pirkėją",
+              "title": "Gaukite vieną pirkėją vienu metu.",
+              "body": "Asmuo peržiūri kiekvieną pasiūlymą, kol bet kuri pusė jo nepamatys. Jokio viešo poveikio ar masinio sandorio srauto.",
+              "badge": "Žmogaus patvirtintas"
+            },
+            {
+              "number": "03",
+              "image": "/landing-pages/nest/nest-how-introduction-human.webp",
+              "alt": "„Nest“ pristato namo savininką ir būsimą pirkėją po abipusio sutarimo",
+              "title": "Atrakinkite įvadą kartu.",
+              "body": "Kai abi pusės sutinka, kontaktiniai duomenys, tikslus adresas ir siūlomas peržiūros laikas dalijami privačiai."
+            }
+          ],
+          "briefFields": [
+            {
+              "key": "area",
+              "label": "Bendroji sritis",
+              "placeholder": "Tik kaimynystėje arba plataus masto",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "propertyType",
+              "label": "Nuosavybės tipas",
+              "placeholder": "Butas, šeimos namai, antrieji namai…",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "propertyBrief",
+              "label": "Turto trumpas",
+              "placeholder": "Apibūdinkite turtą be tikslaus adreso.",
+              "type": "textarea",
+              "required": true
+            },
+            {
+              "key": "budgetOrPrice",
+              "label": "Prašymo kainos diapazonas",
+              "placeholder": "Užtenka privataus asortimento",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "mustHavesOrHighlights",
+              "label": "Nuosavybės akcentai",
+              "placeholder": "Kuo šie namai išsiskiria?",
+              "type": "textarea",
+              "required": true
+            },
+            {
+              "key": "dealbreakersOrBuyerCriteria",
+              "label": "Pirkėjo tinkamumo kriterijai",
+              "placeholder": "Kas turėtų būti tiesa apie rimtą pirkėją?",
+              "type": "textarea",
+              "required": false
+            },
+            {
+              "key": "timing",
+              "label": "Chronometražas",
+              "placeholder": "Kada būtumėte pasiruošę surengti peržiūrą?",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "readiness",
+              "label": "Pasirengimas",
+              "placeholder": "Pasiruošimas, pasiruošęs privačioms peržiūroms…",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "privateConstraints",
+              "label": "Privatūs apribojimai",
+              "placeholder": "Viskas, kas lizdas turi likti privatus",
+              "type": "textarea",
+              "required": false
+            }
+          ]
+        }
+      ],
+      "hero": {
+        "eyebrow": "Vienas namas arba vienas pirkėjas – ne sąrašų slinktis.",
+        "headingLines": [
+          "Viena kvalifikuota įžanga",
+          "Tai tinka, ne tūkstantis",
+          "Jūs turite filtruoti save."
+        ],
+        "body": "Pasakykite „Nest“, ko iš tikrųjų ieškote arba ką iš tikrųjų parduodate. Nest siūlo vieną degtuką. Abi pusės sako „taip“, kol kas nors nepasidalijama.",
+        "backgroundImage": "/landing-pages/nest/nest-hero-interior-clean.png",
+        "backgroundAlt": "Šiltas, ramus namų interjeras",
+        "primaryCtaLabel": "Kalbėkitės su lizdu",
+        "secondaryCtaLabel": "Susipažinkite su lizdu",
+        "privacyLine": "Vienos rungtynės vienu metu. Žmogus peržiūrėtas. Privatus, kol abi pusės pasirinks.",
+        "characterImage": "/landing-pages/nest/nest-character-meet-compact-high-wings-transparent.png",
+        "characterAlt": "Nest holding a notebook and keys with compact wings",
+        "chat": {
+          "statusLabel": "Internete · Žmogus prižiūrimas",
+          "privacyBadge": "Privatus",
+          "openingMessage": "Perkate ar parduodate?",
+          "visitorMessage": "Aš perku",
+          "assistantMessage": "Pasakyk man namus, dėl kurių būtų verta persikelti. Paprašysiu tik tos detalės, kurios reikia žmogaus apžvalgininkui, tada sugrąžinsiu vieną, kuri laikoma tinkama.",
+          "inputPlaceholder": "Pasakykite „Nest“, ko jums reikia iš namų…"
+        },
+        "briefDemo": {
+          "enabled": true,
+          "commandTrigger": "request-introduction",
+          "introHeading": "Jūsų privataus namo trumpinys",
+          "introBody": "Pasidalykite tik tuo, ko reikia žmogaus apžvalgininkui. Tikslių adresų ir kontaktinių duomenų čia niekada neprašoma.",
+          "chatLabel": "Sukurkite per pokalbį · 10 apsisukimų",
+          "voiceLabel": "Sukurkite balsu · 5 min",
+          "reviewLabel": "Apžvalgos trumpas",
+          "editLabel": "Redaguoti",
+          "reviewHeading": "Peržiūrėkite savo privačią trumpą informaciją",
+          "reviewBody": "Kol esate anonimas, niekas nėra nuolatinis, ieškomas, siūlomas ar bendrinamas.",
+          "submitLabel": "Prisijunkite prie žmonių peržiūros",
+          "loginNotice": "Prisijunkite, kad perkeltumėte šią privačių namų trumpąją informaciją į savo lizdo darbo vietą, kad galėtumėte peržiūrėti autentifikuotą žmogų.",
+          "expiryCopy": "Nepateiktos trumpikės baigiasi po vienos valandos.",
+          "privacyCopy": "Jokios dalyvio paieškos, tikslaus adreso bendrinimo ar kontaktų atskleidimo anoniminiu būdu.",
+          "errorCopy": "Nest negalėjo išsaugoti šios trumpos informacijos. Bandykite dar kartą arba prisijunkite."
+        }
+      },
+      "audience": {
+        "kicker": "Mažesnės durys pagal dizainą",
+        "heading": "Žmonėms, pasiruošusiems tikram kitam žingsniui.",
+        "body": "Nėra viešo katalogo. Nėra nuosavybės pašarų. Nėra filtrų tinklelio. Nest klausosi, pasiūlo vieną tinkamumą ir laukia dviejų privačių „taip“.",
+        "forHeading": "Tai skirta",
+        "forItems": [
+          "Pirkėjai, kurie rimtai ieško ir gali greitai veikti.",
+          "Pardavėjai, kurie teikia pirmenybę nedideliam skaičiui kvalifikuotų, iš anksto suderintų pirkėjų, o ne atvirą viešumą."
+        ],
+        "notForHeading": "Tai ne už",
+        "notForItems": [
+          "atsitiktiniai lankytojai, kurie nori tik pamatyti, kas yra rinkoje.",
+          "Visi, kurie tikisi viešosios nuosavybės tiekimo arba filtrų tinklelio.",
+          "Žmonės, ieškantys masinių sandorių srauto."
+        ]
+      },
+      "privacy": {
+        "kicker": "Privatumas yra seka",
+        "heading": "Jūsų adresas lieka privatus, kol abu nepasakysite „taip“.",
+        "body": "Lizdas prasideda nuo kaimynystės dydžio ploto. Tapatybė, kontaktiniai duomenys ir tikslus adresas lieka užrakinti pasiūlymo ir abipusio sutikimo etapuose.",
+        "stages": [
+          {
+            "status": "proposed",
+            "label": "Siūloma",
+            "title": "Bendroji sritis",
+            "body": "Nematyti tapatybės ar tikslios vietos. Kiekviena pusė gali priimti arba perduoti."
+          },
+          {
+            "status": "accepted",
+            "label": "Abu priėmė",
+            "title": "Abipusis Taip",
+            "body": "Abi pusės sutiko. Asmuo užbaigia galutinį patikrinimą prieš išsklaidant detales."
+          },
+          {
+            "status": "confirmed",
+            "label": "Chroniškas",
+            "title": "Įvadas Patvirtinta",
+            "body": "Visi kontaktiniai duomenys, tikslus adresas ir siūlomas laikas dabar yra prieinami abiem dalyviams."
+          }
+        ],
+        "proposalLabel": "Pasiūlymas",
+        "proposalAreaLabel": "Bendroji sritis",
+        "proposalArea": "Utrechtas, Overvechtas",
+        "proposalNote": "Nematyti tapatybės ar tikslios vietos. Kiekviena pusė gali priimti arba perduoti."
+      },
+      "process": {
+        "kicker": "Kaip tai veikia",
+        "heading": "Viena atsargi seka.",
+        "licensedAgentNote": "Licencijuotas vietinis agentas įjungiamas, kai esate pasirengęs judėti į priekį."
+      },
+      "proposals": {
+        "kicker": "Kaip atrodo pasiūlymas",
+        "heading": "Dvi pusės. vienas laikomas tinkamu.",
+        "body": "Šiose pavyzdinėse kortelėse parodyta lizdo pasiūlymo forma. Jie niekada neatskleidžia tapatybės ar tikslaus adreso prieš abipusį sutikimą.",
+        "cards": [
+          {
+            "pairing": "Pirkėjas × Turtas",
+            "status": "proposed",
+            "heading": "Ramus namai, žalias vaizdas, lankstus perdavimas.",
+            "facts": [
+              {
+                "label": "Bendroji sritis",
+                "value": "Utrechtas, Overvechtas"
+              },
+              {
+                "label": "Įvykio lizdas",
+                "value": "Šeštadienio rytas"
+              }
+            ],
+            "tone": "cream"
+          },
+          {
+            "pairing": "Turtas × kvalifikuotas pirkėjas",
+            "status": "accepted",
+            "heading": "Finansavimas paruoštas, laikas suderintas, prioritetai suprasti.",
+            "facts": [
+              {
+                "label": "Pirkėjo santrauka",
+                "value": "Pasiruošę apgalvotai judėti į priekį"
+              },
+              {
+                "label": "Įvykio lizdas",
+                "value": "Sekmadienio popietė"
+              }
+            ],
+            "tone": "terracotta"
+          }
+        ]
+      },
+      "meet": {
+        "kicker": "Susipažinkite su lizdu",
+        "heading": "Detalių pastebėjimas jūsų kampe.",
+        "body": "„Nest“ klausosi ne tik akivaizdžios informacijos: ryto šviesa, kurią mylėjote, laikas, kurio negalite pajudėti, vienas kompromisas, kuris iš tikrųjų nėra kompromisas. Tada „Nest“ sugrąžina vieną, kuri laikoma tinkama.",
+        "characterImage": "/landing-pages/nest/nest-character-meet-compact-high-wings-transparent.png",
+        "characterAlt": "Susipažinkite su lizdu, laikydami užrašų knygelę ir raktus su kompaktiškais sparnais, pakeltais už viršutinių pečių",
+        "principles": [
+          {
+            "title": "Pirmiausia klausosi",
+            "body": "Pokalbis, o ne laukų siena."
+          },
+          {
+            "title": "Siūlo vieną tinkamumą",
+            "body": "Jokio viešosios nuosavybės pašaro ar begalinio tinklo."
+          },
+          {
+            "title": "laukia dviejų taip",
+            "body": "Tapatybė ir tikslus adresas lieka privatūs iki abipusio sutikimo."
+          }
+        ],
+        "primaryCtaLabel": "Pasikalbėkite su Nest",
+        "secondaryCtaLabel": "Pažiūrėkite, kaip tai veikia"
+      },
+      "footer": {
+        "brandLabel": "Lizdas.",
+        "tagline": "Vienas rūpestingas įvadas į namus vienu metu.",
+        "disclaimer": "„Nest“ nėra licencijuotas tarpininkavimas ir neatstovauja nė vienai šaliai, derasi, neįvertina jūsų namų ar tvarko jūsų sandorį. Kai būsite pasiruošę judėti į priekį, sujungsime jus su licencijuotu vietiniu agentu, kad užbaigtumėte procesą. Not a broker. Does not represent either party. Does not provide valuations. Does not negotiate.",
+        "eventDisclaimer": "Antrųjų namų mugės detalės yra sumodeliuotos šiam lizdo egzemplioriui ir turėtų būti patikrintos prieš atvykstant.",
+        "copyright": "© 2026 Nest",
+        "groups": [
+          {
+            "label": "Ištirti",
+            "links": [
+              {
+                "label": "Kaip tai veikia",
+                "target": "how-it-works"
+              },
+              {
+                "label": "Slaptumas",
+                "target": "privacy"
+              },
+              {
+                "label": "Pasiūlymai",
+                "target": "proposals"
+              }
+            ]
+          },
+          {
+            "label": "Lizdas",
+            "links": [
+              {
+                "label": "Susipažinkite su lizdu",
+                "target": "meet"
+              },
+              {
+                "label": "Sukurkite trumpą",
+                "target": "hero-chat"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "generatedAt": "2026-09-01T15:39:42.215Z"
+}

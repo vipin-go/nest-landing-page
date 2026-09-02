@@ -1,0 +1,500 @@
+{
+  "schemaVersion": 1,
+  "language": "ja",
+  "regionKey": null,
+  "sourceRevision": "b403368b522c83332476945d763c1cdb9c3211e7fa0204db9923ea107dbb96a8",
+  "landingPage": {
+    "headline": "適合する 1 つの適格な紹介。",
+    "subheadline": "個人の買い手と売り手の紹介、一度に 1 つの人間がレビューした提案。",
+    "ctaLabel": "ネストと話してください",
+    "secondaryCtaLabel": "それがどのように機能するかをご覧ください",
+    "heroCharacterImage": "/landing-pages/nest/nest-character-meet-compact-high-wings-transparent.png",
+    "seoImage": {
+      "src": "/landing-pages/nest/og.jpg",
+      "alt": "プライベート ホーム イントロダクション ガイドである Nest の温かみのあるインテリアで、注意深いイントロダクション"
+    },
+    "header": {
+      "brandMark": "image",
+      "logoImageUrl": "/landing-pages/nest/nest-keyround-logo.svg"
+    },
+    "design": {
+      "variant": "home-introductions",
+      "defaultThemeMode": "light",
+      "theme": {
+        "palette": "emerald",
+        "primaryColor": "emerald",
+        "secondaryColor": "stone",
+        "accentColor": "orange",
+        "fontFamily": "inter"
+      },
+      "brand": {
+        "presetRevision": 1,
+        "colors": {
+          "light": {
+            "canvas": "#f3efe5",
+            "surface": "#fffaf0",
+            "sidebar": "#173e31",
+            "text": "#18352a",
+            "accent": "#bd623f",
+            "userBubble": "#173e31"
+          },
+          "dark": {
+            "canvas": "#10251e",
+            "surface": "#173129",
+            "sidebar": "#0c1d17",
+            "text": "#f3efe5",
+            "accent": "#e29a7d",
+            "userBubble": "#bd623f"
+          }
+        },
+        "typography": {
+          "body": {
+            "source": "google",
+            "family": "DM Sans"
+          },
+          "display": {
+            "source": "google",
+            "family": "Manrope"
+          },
+          "label": {
+            "source": "google",
+            "family": "DM Sans"
+          }
+        }
+      }
+    },
+    "homeIntroductions": {
+      "header": {
+        "brandLabel": "巣。",
+        "brandTagline": "1 つの慎重な紹介",
+        "navItems": [
+          {
+            "label": "使い方",
+            "target": "how-it-works"
+          },
+          {
+            "label": "プライバシー",
+            "target": "privacy"
+          },
+          {
+            "label": "ここで始める",
+            "target": "hero-chat"
+          }
+        ],
+        "ctaLabel": "紹介をリクエストします",
+        "mobileCtaLabel": "開始"
+      },
+      "service": {
+        "activeMode": "event",
+        "announcement": "現在、2 番目のホーム フェアでマッチングされています。Jaarbeurs Utrecht — 金曜日 27 ～ 3 月 29 日 3 月",
+        "feeCopy": "紹介をリクエストする前に料金を分担します",
+        "disclaimer": "Nest は認可された証券会社ではなく、どちらの当事者も、交渉し、家を評価し、取引を処理するものではありません。 前進する準備ができたら、ライセンスを取得したローカル エージェントに接続してプロセスを完了します。",
+        "configurations": [
+          {
+            "mode": "event",
+            "label": "出来事",
+            "actionLabel": "意見",
+            "name": "第 2 ホーム フェア、Jaarbeurs Utrecht",
+            "location": "Jaarbeurs ユトレヒト",
+            "dateRange": "3 月 27 日から 3 月 29 日までの金曜",
+            "availabilityLabel": "3 月 27 日から 3 月 29 日 (金) · Jaarbeurs ユトレヒト"
+          },
+          {
+            "mode": "city",
+            "label": "シティ",
+            "actionLabel": "意見",
+            "name": "アムステルダムの巣",
+            "location": "アムステルダム ズイド",
+            "dateRange": "進行中",
+            "availabilityLabel": "常時接続のローカル紹介"
+          }
+        ]
+      },
+      "tracks": [
+        {
+          "id": "buying",
+          "label": "買います",
+          "responseMessage": "引っ越す価値のある家を教えてください。 人間のレビュアーが必要とする詳細だけを尋ね、次に適切と思われる 1 つを元に戻します。",
+          "composerPlaceholder": "家から必要なものを Nest に伝えます…",
+          "processSteps": [
+            {
+              "number": "01",
+              "image": "/landing-pages/nest/nest-how-conversation-human.webp",
+              "alt": "購入希望者が Nest とプライベート ホーム ブリーフを共有する",
+              "title": "Nest と本当の会話をしましょう。",
+              "body": "予算、必需品、取引ブレーカー、タイミングなど、実際に必要なものについて話し合います。 細かいことも会話に含まれています。"
+            },
+            {
+              "number": "02",
+              "image": "/landing-pages/nest/nest-how-review-human.webp",
+              "alt": "1 人の購入者と 1 つの家を慎重に検討する Nest と人間のレビュアー",
+              "title": "一度に 1 つのプロパティを受け取ります。",
+              "body": "人は、どちらの側にも見られる前に、すべての提案をレビューします。 パブリック カタログ、ランキング、または無限のフィルター グリッドはありません。",
+              "badge": "人間承認"
+            },
+            {
+              "number": "03",
+              "image": "/landing-pages/nest/nest-how-introduction-human.webp",
+              "alt": "Nest は、相互の同意を得て、見込み客と住宅所有者を紹介します",
+              "title": "一緒にイントロダクションを解除します。",
+              "body": "双方が同意すると、完全な住所、連絡先の詳細、および提案された視聴時間が非公開で共有されます。"
+            }
+          ],
+          "briefFields": [
+            {
+              "key": "area",
+              "label": "優先エリアまたは一般エリア",
+              "placeholder": "ユトレヒト地域、アムステルダム ツイド…",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "propertyType",
+              "label": "プロパティ タイプ",
+              "placeholder": "アパート、家族の家、セカンドホーム…",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "propertyBrief",
+              "label": "家はどのように感じるべきですか？",
+              "placeholder": "家とその理由を説明してください。",
+              "type": "textarea",
+              "required": true
+            },
+            {
+              "key": "budgetOrPrice",
+              "label": "予算範囲",
+              "placeholder": "プライベート レンジで十分です",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "mustHavesOrHighlights",
+              "label": "必需品",
+              "placeholder": "光、庭、ワークスペース、アクセシビリティ…",
+              "type": "textarea",
+              "required": true
+            },
+            {
+              "key": "dealbreakersOrBuyerCriteria",
+              "label": "ディールブレイカーズ",
+              "placeholder": "導入がうまくいかない理由は何でしょうか?",
+              "type": "textarea",
+              "required": false
+            },
+            {
+              "key": "timing",
+              "label": "タイミング",
+              "placeholder": "いつ表示または移動する準備ができていますか?",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "readiness",
+              "label": "覚悟",
+              "placeholder": "調査、住宅ローンの準備、現金購入者…",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "privateConstraints",
+              "label": "プライベートな制約",
+              "placeholder": "Nest はすべて非公開にする必要があります",
+              "type": "textarea",
+              "required": false
+            }
+          ]
+        },
+        {
+          "id": "selling",
+          "label": "売っています",
+          "responseMessage": "家の特徴と、どのバイヤーが真面目かを教えてください。 正確な住所を非公開にして、紹介を検討した 1 つを元に戻します。",
+          "composerPlaceholder": "あなたの販売について何が重要かを Nest に伝えてください…",
+          "processSteps": [
+            {
+              "number": "01",
+              "image": "/landing-pages/nest/nest-how-conversation-human.webp",
+              "alt": "Nest と私有財産の概要を共有する住宅所有者",
+              "title": "Nest と本当の会話をしましょう。",
+              "body": "プロパティ、あなたのタイミング、モチベーション、そしてあなたにとって何を意味するのかを話し合ってください。"
+            },
+            {
+              "number": "02",
+              "image": "/landing-pages/nest/nest-how-review-human.webp",
+              "alt": "Nest and a human reviewer carefully considering one seller and one qualified buyer",
+              "title": "一度に 1 人の購入者を受け取ります。",
+              "body": "人は、どちらの側にも見られる前に、すべての提案をレビューします。 公的暴露や一括取引の流れはありません。",
+              "badge": "人間承認"
+            },
+            {
+              "number": "03",
+              "image": "/landing-pages/nest/nest-how-introduction-human.webp",
+              "alt": "相互の同意を得て、Nest が住宅所有者と見込み客を紹介する",
+              "title": "一緒にイントロダクションを解除します。",
+              "body": "双方が受け入れたら、連絡先の詳細、正確な住所、提案された視聴時間を非公開で共有します。"
+            }
+          ],
+          "briefFields": [
+            {
+              "key": "area",
+              "label": "一般エリア",
+              "placeholder": "近隣または広いエリアのみ",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "propertyType",
+              "label": "プロパティ タイプ",
+              "placeholder": "アパート、家族の家、セカンドホーム…",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "propertyBrief",
+              "label": "プロパティブリーフ",
+              "placeholder": "正確な住所のない物件を説明してください。",
+              "type": "textarea",
+              "required": true
+            },
+            {
+              "key": "budgetOrPrice",
+              "label": "要求価格範囲",
+              "placeholder": "プライベート レンジで十分です",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "mustHavesOrHighlights",
+              "label": "プロパティのハイライト",
+              "placeholder": "この家の違いは何ですか？",
+              "type": "textarea",
+              "required": true
+            },
+            {
+              "key": "dealbreakersOrBuyerCriteria",
+              "label": "バイヤーフィット基準",
+              "placeholder": "真面目なバイヤーは何が正しいはずですか?",
+              "type": "textarea",
+              "required": false
+            },
+            {
+              "key": "timing",
+              "label": "タイミング",
+              "placeholder": "いつ視聴を手配する準備ができていますか?",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "readiness",
+              "label": "覚悟",
+              "placeholder": "プライベート ビューイングの準備が整いました…",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "privateConstraints",
+              "label": "プライベートな制約",
+              "placeholder": "Nest はすべて非公開にする必要があります",
+              "type": "textarea",
+              "required": false
+            }
+          ]
+        }
+      ],
+      "hero": {
+        "eyebrow": "1 つの家、または 1 つの購入者 — リストの巻物ではありません。",
+        "headingLines": [
+          "1 つの適格な紹介",
+          "それは当てはまり、千ではありません",
+          "自分自身をフィルタリングする必要があります。"
+        ],
+        "body": "あなたが実際に探しているもの、または実際に売っているものを Nest に伝えます。 Nest は 1 つの一致を提案します。 どちらの側も、何かが共有される前に「はい」と答えます。",
+        "backgroundImage": "/landing-pages/nest/nest-hero-interior-clean.png",
+        "backgroundAlt": "暖かく穏やかな家のインテリア",
+        "primaryCtaLabel": "ネストと話してください",
+        "secondaryCtaLabel": "ネストに会います",
+        "privacyLine": "一度に 1 試合。 人間のレビュー。 双方がオプトインするまでプライベート。",
+        "characterImage": "/landing-pages/nest/nest-character-meet-compact-high-wings-transparent.png",
+        "characterAlt": "コンパクトな翼のノートと鍵を持っている巣",
+        "chat": {
+          "statusLabel": "オンライン · 人間が監視する",
+          "privacyBadge": "民間",
+          "openingMessage": "売買していますか？",
+          "visitorMessage": "買います",
+          "assistantMessage": "引っ越す価値のある家を教えてください。 人間のレビュアーが必要とする詳細だけを尋ね、次に適切と思われる 1 つを元に戻します。",
+          "inputPlaceholder": "家から必要なものを Nest に伝えます…"
+        },
+        "briefDemo": {
+          "enabled": true,
+          "commandTrigger": "request-introduction",
+          "introHeading": "あなたのプライベートホームブリーフ",
+          "introBody": "人間のレビュアーが必要とするものだけを共有してください。 正確な住所と連絡先の詳細は、ここでは要求されません。",
+          "chatLabel": "チャットでビルド · 10 ターン",
+          "voiceLabel": "音声 · 5 分で構築します",
+          "reviewLabel": "ブリーフを確認します",
+          "editLabel": "エディット",
+          "reviewHeading": "プライベート ブリーフを確認してください",
+          "reviewBody": "あなたが匿名である間は、何も永続化、検索、提案、または共有されません。",
+          "submitLabel": "ヒューマン レビューにサインインします",
+          "loginNotice": "サインインして、このプライベート ホーム ブリーフを Nest ワークスペースに移動して、認証済みの人間のレビューを行います。",
+          "expiryCopy": "送信されていないブリーフは 1 時間後に期限切れになります。",
+          "privacyCopy": "匿名の場合、参加者の検索、正確な住所の共有、連絡先の開示はありません。",
+          "errorCopy": "Nest はこのブリーフを保存できませんでした。 再試行するか、サインインしてください。"
+        }
+      },
+      "audience": {
+        "kicker": "デザインによる小さなドア",
+        "heading": "真の次のステップの準備ができている人々のために。",
+        "body": "公開カタログはありません。 プロパティ フィードはありません。 フィルター グリッドはありません。 Nest は耳を傾け、1 つのフィットを提案し、2 つのプライベートな yes を待ちます。",
+        "forHeading": "これは 用です",
+        "forItems": [
+          "真剣に探していて、すぐに行動できるバイヤー。",
+          "オープンな公開エクスポージャーよりも、少数の資格のある、事前に一致した購入者を好む売り手。"
+        ],
+        "notForHeading": "これは 用ではありません",
+        "notForItems": [
+          "市場に出回っているものだけを見たいカジュアルな訪問者。",
+          "パブリック プロパティ フィードまたはフィルターのグリッドを期待している人。",
+          "一括取引を探している人。"
+        ]
+      },
+      "privacy": {
+        "kicker": "プライバシーはシーケンスです",
+        "heading": "あなたの住所は、あなたの両方が「はい」と言うまで非公開のままです。",
+        "body": "Nest は近隣サイズのエリアから始まります。 アイデンティティ、連絡先の詳細、正確な住所は、提案と相互同意の段階を通じてロックされたままです。",
+        "stages": [
+          {
+            "status": "proposed",
+            "label": "提案されています",
+            "title": "一般エリア",
+            "body": "アイデンティティや正確な場所は表示されません。 どちらの側も受け入れるか、または合格できます。"
+          },
+          {
+            "status": "accepted",
+            "label": "どちらも受け入れました",
+            "title": "はい、相互です",
+            "body": "どちらの側も受け入れました。 詳細が明らかになる前に、人が最終的な確認を完了します。"
+          },
+          {
+            "status": "confirmed",
+            "label": "確認済み",
+            "title": "導入確認済み",
+            "body": "完全な連絡先の詳細、正確な住所、および提案された時間は、両方の参加者が利用できるようになりました。"
+          }
+        ],
+        "proposalLabel": "提案",
+        "proposalAreaLabel": "一般エリア",
+        "proposalArea": "ユトレヒト、オーバーベヒト",
+        "proposalNote": "アイデンティティや正確な場所は表示されません。 どちらの側も受け入れるか、または合格できます。"
+      },
+      "process": {
+        "kicker": "使い方",
+        "heading": "1 つの慎重なシーケンス。",
+        "licensedAgentNote": "ライセンスを取得したローカル エージェントは、前に進む準備ができたらループインします。"
+      },
+      "proposals": {
+        "kicker": "提案はどのように見えるか",
+        "heading": "二面。 One considered fit.",
+        "body": "これらのサンプル カードは、ネスト プロポーザルの形を示しています。 相互の同意の前に身元や正確な住所を公開することは決してありません。",
+        "cards": [
+          {
+            "pairing": "バイヤー×物件",
+            "status": "proposed",
+            "heading": "静かな家、緑の展望、柔軟な引き継ぎ。",
+            "facts": [
+              {
+                "label": "一般エリア",
+                "value": "ユトレヒト、オーバーベヒト"
+              },
+              {
+                "label": "イベントスロット",
+                "value": "土曜日の朝"
+              }
+            ],
+            "tone": "cream"
+          },
+          {
+            "pairing": "物件×資格のあるバイヤー",
+            "status": "accepted",
+            "heading": "資金調達の準備、タイミング調整、優先順位の理解。",
+            "facts": [
+              {
+                "label": "バイヤーの概要",
+                "value": "思慮深く前進する準備ができています"
+              },
+              {
+                "label": "イベントスロット",
+                "value": "日曜の午後"
+              }
+            ],
+            "tone": "terracotta"
+          }
+        ]
+      },
+      "meet": {
+        "kicker": "ネストに会います",
+        "heading": "あなたのコーナーにある詳細通知者。",
+        "body": "Nest は、明白なブリーフを超えて耳を傾けます。あなたが愛した朝の光、動くことができないタイミング、実際には妥協ではない唯一の妥協点です。 次に、Nest は、適合していると考えられるものを取り戻します。",
+        "characterImage": "/landing-pages/nest/nest-character-meet-compact-high-wings-transparent.png",
+        "characterAlt": "首の後ろにコンパクトな翼を持ち上げた手帳と鍵を持って、巣に会う",
+        "principles": [
+          {
+            "title": "最初に聞きます",
+            "body": "野原の壁ではなく、会話。"
+          },
+          {
+            "title": "1 つのフィットを提案します",
+            "body": "パブリック プロパティ フィードまたはエンドレス グリッドはありません。"
+          },
+          {
+            "title": "はい、2 つ待ちます",
+            "body": "アイデンティティと正確な住所は、相互の同意があるまで非公開のままです"
+          }
+        ],
+        "primaryCtaLabel": "ネストと話してください",
+        "secondaryCtaLabel": "それがどのように機能するかをご覧ください"
+      },
+      "footer": {
+        "brandLabel": "巣。",
+        "tagline": "一度に 1 つの慎重な家の紹介。",
+        "disclaimer": "Nest は認可された証券会社ではなく、どちらの当事者も、交渉し、家を評価し、取引を処理するものではありません。 前進する準備ができたら、ライセンスを取得したローカル エージェントに接続してプロセスを完了します。 Not a broker. Does not represent either party. Does not provide valuations. Does not negotiate.",
+        "eventDisclaimer": "2 番目のホーム フェアの詳細は、この Nest インスタンス化のためにモデル化されており、出席前に確認する必要があります。",
+        "copyright": "© 2026 ネスト",
+        "groups": [
+          {
+            "label": "探る",
+            "links": [
+              {
+                "label": "使い方",
+                "target": "how-it-works"
+              },
+              {
+                "label": "プライバシー",
+                "target": "privacy"
+              },
+              {
+                "label": "提案",
+                "target": "proposals"
+              }
+            ]
+          },
+          {
+            "label": "ネスト",
+            "links": [
+              {
+                "label": "ネストに会います",
+                "target": "meet"
+              },
+              {
+                "label": "簡単に作成します",
+                "target": "hero-chat"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "generatedAt": "2026-09-01T15:39:42.215Z"
+}

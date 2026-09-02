@@ -1,0 +1,500 @@
+{
+  "schemaVersion": 1,
+  "language": "fi",
+  "regionKey": null,
+  "sourceRevision": "b403368b522c83332476945d763c1cdb9c3211e7fa0204db9923ea107dbb96a8",
+  "landingPage": {
+    "headline": "Yksi pätevä esittely, joka sopii.",
+    "subheadline": "Yksityisen ostajan ja myyjän esittelyt, yksi ihmisen arvioima ehdotus kerrallaan.",
+    "ctaLabel": "Puhu Nestille",
+    "secondaryCtaLabel": "Katso kuinka se toimii",
+    "heroCharacterImage": "/landing-pages/nest/nest-character-meet-compact-high-wings-transparent.png",
+    "seoImage": {
+      "src": "/landing-pages/nest/og.jpg",
+      "alt": "pesä, yksityinen kodin esittelyopas, lämpimässä sisustuksessa sanoilla yksi huolellinen johdanto"
+    },
+    "header": {
+      "brandMark": "image",
+      "logoImageUrl": "/landing-pages/nest/nest-keyround-logo.svg"
+    },
+    "design": {
+      "variant": "home-introductions",
+      "defaultThemeMode": "light",
+      "theme": {
+        "palette": "emerald",
+        "primaryColor": "emerald",
+        "secondaryColor": "stone",
+        "accentColor": "orange",
+        "fontFamily": "inter"
+      },
+      "brand": {
+        "presetRevision": 1,
+        "colors": {
+          "light": {
+            "canvas": "#f3efe5",
+            "surface": "#fffaf0",
+            "sidebar": "#173e31",
+            "text": "#18352a",
+            "accent": "#bd623f",
+            "userBubble": "#173e31"
+          },
+          "dark": {
+            "canvas": "#10251e",
+            "surface": "#173129",
+            "sidebar": "#0c1d17",
+            "text": "#f3efe5",
+            "accent": "#e29a7d",
+            "userBubble": "#bd623f"
+          }
+        },
+        "typography": {
+          "body": {
+            "source": "google",
+            "family": "DM Sans"
+          },
+          "display": {
+            "source": "google",
+            "family": "Manrope"
+          },
+          "label": {
+            "source": "google",
+            "family": "DM Sans"
+          }
+        }
+      }
+    },
+    "homeIntroductions": {
+      "header": {
+        "brandLabel": "pesä.",
+        "brandTagline": "Yksi huolellinen esittely",
+        "navItems": [
+          {
+            "label": "Kuinka se toimii",
+            "target": "how-it-works"
+          },
+          {
+            "label": "Yksityisyys",
+            "target": "privacy"
+          },
+          {
+            "label": "aloita tästä",
+            "target": "hero-chat"
+          }
+        ],
+        "ctaLabel": "Pyydä esittely",
+        "mobileCtaLabel": "Aloittaa"
+      },
+      "service": {
+        "activeMode": "event",
+        "announcement": "Nyt ottelu toisen kotimessuilla, Jaarbeurs Utrecht – pe 27–su 29. maaliskuuta",
+        "feeCopy": "Jaettu maksu ennen esittelyn pyytämistä",
+        "disclaimer": "Nest ei ole lisensoitu välitys, eikä se edusta kumpaakaan osapuolta, neuvottele, arvosta kotiasi tai käsittele tapahtumaasi. Kun olet valmis siirtymään eteenpäin, yhdistämme sinut lisensoituun paikalliseen agenttiin prosessin suorittamiseksi.",
+        "configurations": [
+          {
+            "mode": "event",
+            "label": "Tapahtuma",
+            "actionLabel": "Näkymä",
+            "name": "Toinen kotimessu, Jaarbeurs Utrecht",
+            "location": "Jaarbeurs Utrecht",
+            "dateRange": "pe 27-su 29.3",
+            "availabilityLabel": "pe 27–su 29. maaliskuuta · Jaarbeurs Utrecht"
+          },
+          {
+            "mode": "city",
+            "label": "Kaupunki",
+            "actionLabel": "Näkymä",
+            "name": "amsterdami",
+            "location": "Amsterdam Zuid",
+            "dateRange": "Jatkuva",
+            "availabilityLabel": "aina päällä paikallisia esittelyjä"
+          }
+        ]
+      },
+      "tracks": [
+        {
+          "id": "buying",
+          "label": "olen ostamassa",
+          "responseMessage": "Kerro minulle koti, johon kannattaa muuttaa. Pyydän vain yksityiskohtia, joita ihmisarvostelija tarvitsee, ja tuon sitten takaisin sopivaksi katsotun.",
+          "composerPlaceholder": "Kerro Nestille mitä tarvitset kotoa…",
+          "processSteps": [
+            {
+              "number": "01",
+              "image": "/landing-pages/nest/nest-how-conversation-human.webp",
+              "alt": "Mahdollinen ostaja jakaa yksityisen kodin esittelyn Nestin kanssa",
+              "title": "Keskustele todellista Nestin kanssa.",
+              "body": "Keskustele siitä, mitä todella tarvitset: budjettia, pakollisia asioita, kaupan katkaisijoita ja ajoitusta. Pienet yksityiskohdat kuuluvat myös keskusteluun."
+            },
+            {
+              "number": "02",
+              "image": "/landing-pages/nest/nest-how-review-human.webp",
+              "alt": "pesä ja ihmisarvostelija harkitsevat huolellisesti yhtä ostajaa ja yhtä kotia",
+              "title": "saada yksi omaisuus kerrallaan.",
+              "body": "Henkilö tarkistaa jokaisen ehdotuksen ennen kuin jompikumpi osapuoli näkee sen. Ei julkista luetteloa, sijoitusta tai loputonta suodatinruudukkoa.",
+              "badge": "ihmishyväksytty"
+            },
+            {
+              "number": "03",
+              "image": "/landing-pages/nest/nest-how-introduction-human.webp",
+              "alt": "Nest esittelee mahdollisen ostajan ja asunnonomistajan yhteisen suostumuksen jälkeen",
+              "title": "Avaa esittely yhdessä.",
+              "body": "Kun molemmat osapuolet hyväksyvät, täydelliset osoitteet, yhteystiedot ja ehdotettu katseluaika jaetaan yksityisesti."
+            }
+          ],
+          "briefFields": [
+            {
+              "key": "area",
+              "label": "Suositeltu tai yleinen alue",
+              "placeholder": "Utrechtin alue, Amsterdam Zuid…",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "propertyType",
+              "label": "omaisuus",
+              "placeholder": "Asunto, perheen koti, toinen koti…",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "propertyBrief",
+              "label": "Miltä kodin pitäisi tuntua?",
+              "placeholder": "Kuvaile kotia ja miksi sillä on merkitystä.",
+              "type": "textarea",
+              "required": true
+            },
+            {
+              "key": "budgetOrPrice",
+              "label": "budjettialue",
+              "placeholder": "Yksityinen kantama riittää",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "mustHavesOrHighlights",
+              "label": "pakko-",
+              "placeholder": "Valo, puutarha, työtila, saavutettavuus…",
+              "type": "textarea",
+              "required": true
+            },
+            {
+              "key": "dealbreakersOrBuyerCriteria",
+              "label": "kaupat",
+              "placeholder": "Mikä tekisi esittelystä huonon sopivuuden?",
+              "type": "textarea",
+              "required": false
+            },
+            {
+              "key": "timing",
+              "label": "Ajoitus",
+              "placeholder": "Milloin olisit valmis katsomaan tai muuttamaan?",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "readiness",
+              "label": "Valmius",
+              "placeholder": "Tutkiminen, asuntolainavalmis, käteisostaja…",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "privateConstraints",
+              "label": "yksityiset rajoitukset",
+              "placeholder": "kaiken pesän pitäisi pitää yksityisenä",
+              "type": "textarea",
+              "required": false
+            }
+          ]
+        },
+        {
+          "id": "selling",
+          "label": "Minä myyn",
+          "responseMessage": "Kerro minulle, mikä tekee kodista erottuvan ja mikä ostaja sopisi vakavasti. Pidän tarkan osoitteen yksityisenä ja tuon takaisin yhden harkitun esittelyn.",
+          "composerPlaceholder": "Kerro Nestille, mikä on alennusmyynnissäsi…",
+          "processSteps": [
+            {
+              "number": "01",
+              "image": "/landing-pages/nest/nest-how-conversation-human.webp",
+              "alt": "Asunnonomistaja jakaa yksityisen kiinteistön Nestin kanssa",
+              "title": "Keskustele todellista Nestin kanssa.",
+              "body": "Keskustele omaisuuden, ajoituksestasi, motivaatiostasi ja siitä, mitä pätevyys sinulle merkitsee."
+            },
+            {
+              "number": "02",
+              "image": "/landing-pages/nest/nest-how-review-human.webp",
+              "alt": "pesä ja ihmisarvostelija harkitsevat huolellisesti yhtä myyjää ja yhtä pätevää ostajaa",
+              "title": "saada yksi ostajakohtaus kerrallaan.",
+              "body": "Henkilö tarkistaa jokaisen ehdotuksen ennen kuin jompikumpi osapuoli näkee sen. Ei julkista julkisuutta tai joukkokauppaa.",
+              "badge": "ihmishyväksytty"
+            },
+            {
+              "number": "03",
+              "image": "/landing-pages/nest/nest-how-introduction-human.webp",
+              "alt": "Nest esittelee asunnonomistajan ja mahdollisen ostajan yhteisen suostumuksen jälkeen",
+              "title": "Avaa esittely yhdessä.",
+              "body": "Kun molemmat osapuolet hyväksyvät, yhteystiedot, tarkka osoite ja ehdotettu katseluaika jaetaan yksityisesti."
+            }
+          ],
+          "briefFields": [
+            {
+              "key": "area",
+              "label": "yleisalue",
+              "placeholder": "Vain naapurustossa tai laajalla alueella",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "propertyType",
+              "label": "omaisuus",
+              "placeholder": "Asunto, perheen koti, toinen koti…",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "propertyBrief",
+              "label": "kiinteistön lyhyt",
+              "placeholder": "kuvaile omaisuutta ilman tarkkaa osoitetta.",
+              "type": "textarea",
+              "required": true
+            },
+            {
+              "key": "budgetOrPrice",
+              "label": "kysynnän vaihteluväli",
+              "placeholder": "Yksityinen kantama riittää",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "mustHavesOrHighlights",
+              "label": "Kiinteistön kohokohdat",
+              "placeholder": "Mikä tekee tästä kodista erottuvan?",
+              "type": "textarea",
+              "required": true
+            },
+            {
+              "key": "dealbreakersOrBuyerCriteria",
+              "label": "Ostajan sopivuuskriteerit",
+              "placeholder": "Mitä vakavan ostajan pitäisi pitää paikkansa?",
+              "type": "textarea",
+              "required": false
+            },
+            {
+              "key": "timing",
+              "label": "Ajoitus",
+              "placeholder": "Milloin olisit valmis järjestämään katselun?",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "readiness",
+              "label": "Valmius",
+              "placeholder": "Valmistautuminen, valmis yksityiseen katseluun…",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "privateConstraints",
+              "label": "yksityiset rajoitukset",
+              "placeholder": "kaiken pesän pitäisi pitää yksityisenä",
+              "type": "textarea",
+              "required": false
+            }
+          ]
+        }
+      ],
+      "hero": {
+        "eyebrow": "Yksi koti tai yksi ostaja – ei listausten rullaa.",
+        "headingLines": [
+          "Yksi pätevä esittely",
+          "Se sopii, ei tuhat",
+          "Sinun täytyy suodattaa itsesi."
+        ],
+        "body": "Kerro Nestille, mitä todella etsit tai mitä todella myyt. Nest ehdottaa yhtä ottelua. Molemmat osapuolet sanovat kyllä ennen kuin mitään jaetaan.",
+        "backgroundImage": "/landing-pages/nest/nest-hero-interior-clean.png",
+        "backgroundAlt": "Lämmin, rauhallinen kodin sisustus",
+        "primaryCtaLabel": "jutella pesän kanssa",
+        "secondaryCtaLabel": "tavata pesä",
+        "privacyLine": "yksi ottelu kerrallaan. ihminen arvosteltu. Yksityinen, kunnes molemmat osapuolet osallistuvat.",
+        "characterImage": "/landing-pages/nest/nest-character-meet-compact-high-wings-transparent.png",
+        "characterAlt": "Pesä, jossa on muistivihko ja avaimet, joissa on kompaktit siivet",
+        "chat": {
+          "statusLabel": "Online · Ihmisen valvonnassa",
+          "privacyBadge": "Yksityinen",
+          "openingMessage": "Ostatko vai myytkö?",
+          "visitorMessage": "olen ostamassa",
+          "assistantMessage": "Kerro minulle koti, johon kannattaa muuttaa. Pyydän vain yksityiskohtia, joita ihmisarvostelija tarvitsee, ja tuon sitten takaisin sopivaksi katsotun.",
+          "inputPlaceholder": "Kerro Nestille mitä tarvitset kotoa…"
+        },
+        "briefDemo": {
+          "enabled": true,
+          "commandTrigger": "request-introduction",
+          "introHeading": "Yksityinen kotiesittely",
+          "introBody": "Jaa vain se, mitä ihmisarvostelija tarvitsee. Tarkkoja osoitteita ja yhteystietoja täällä ei koskaan pyydetä.",
+          "chatLabel": "Rakenna chatilla · 10 kierrosta",
+          "voiceLabel": "Rakenna äänellä · 5 min",
+          "reviewLabel": "Tarkista tiedote",
+          "editLabel": "Muokata",
+          "reviewHeading": "Tarkista yksityinen ohjeesi",
+          "reviewBody": "Mitään ei säilytetä, etsitään, ehdotetaan tai jaetaan, kun olet anonyymi.",
+          "submitLabel": "Kirjaudu sisään ihmisarvosteluun",
+          "loginNotice": "Kirjaudu sisään siirtääksesi tämän yksityisen kodin esittelyn Nest-työtilaan saadaksesi todennetun ihmisarvostelun.",
+          "expiryCopy": "Lähettämättömät tiedotteet vanhenevat tunnin kuluttua.",
+          "privacyCopy": "Ei osallistujien hakua, tarkan osoitteen jakamista tai yhteystietojen paljastamista anonyyminä.",
+          "errorCopy": "Nest ei voinut tallentaa tätä ohjetta. Yritä uudelleen tai kirjaudu sisään."
+        }
+      },
+      "audience": {
+        "kicker": "Suunnittelun mukaan pienempi ovi",
+        "heading": "Ihmisille, jotka ovat valmiita todelliseen seuraavaan vaiheeseen.",
+        "body": "Ei julkista luetteloa. Ei omaisuussyötettä. Ei suodatinverkkoa. Nest kuuntelee, ehdottaa yhtä sopivaa ja odottaa kahta yksityistä kyllä.",
+        "forHeading": "tämä on tarkoitettu",
+        "forItems": [
+          "Ostajat, jotka etsivät vakavasti ja voivat toimia nopeasti.",
+          "Myyjät, jotka suosivat pientä määrää päteviä, valmiiksi sovitettuja ostajia avoimen julkisuuden sijaan."
+        ],
+        "notForHeading": "Tämä ei ole tarkoitettu",
+        "notForItems": [
+          "Satunnaisia vierailijoita, jotka haluavat vain nähdä, mitä markkinoilla on.",
+          "Jokainen, joka odottaa julkista omaisuuden syötettä tai suodatinverkkoa.",
+          "Ihmiset, jotka etsivät massakaupan kulkua."
+        ]
+      },
+      "privacy": {
+        "kicker": "Yksityisyys on järjestys",
+        "heading": "Osoitteesi pysyy yksityisenä, kunnes sanotte kyllä.",
+        "body": "Pesä alkaa naapuruston kokoisesta alueesta. henkilöllisyys, yhteystiedot ja tarkka osoite pysyvät lukittuina ehdotuksen ja keskinäisen suostumuksen kautta.",
+        "stages": [
+          {
+            "status": "proposed",
+            "label": "ehdotettu",
+            "title": "yleisalue",
+            "body": "henkilöllisyyttä tai tarkkaa sijaintia ei näy. kumpikin osapuoli voi hyväksyä tai ohittaa."
+          },
+          {
+            "status": "accepted",
+            "label": "molemmat hyväksytty",
+            "title": "keskinäinen kyllä",
+            "body": "molemmat osapuolet hyväksyttiin. Henkilö suorittaa lopullisen tarkistuksen ennen kuin tiedot menevät ulos."
+          },
+          {
+            "status": "confirmed",
+            "label": "Piintynyt",
+            "title": "Johdanto Vahvistettu",
+            "body": "Täydelliset yhteystiedot, tarkka osoite ja ehdotettu aika ovat nyt molempien osallistujien käytettävissä."
+          }
+        ],
+        "proposalLabel": "Ehdotus",
+        "proposalAreaLabel": "yleisalue",
+        "proposalArea": "Utrecht, Overvecht",
+        "proposalNote": "henkilöllisyyttä tai tarkkaa sijaintia ei näy. kumpikin osapuoli voi hyväksyä tai ohittaa."
+      },
+      "process": {
+        "kicker": "Kuinka se toimii",
+        "heading": "yksi huolellinen sarja.",
+        "licensedAgentNote": "Lisensoitu paikallinen agentti on silmukassa, kun olet valmis siirtymään eteenpäin."
+      },
+      "proposals": {
+        "kicker": "Miltä ehdotus näyttää",
+        "heading": "kaksi puolta. yksi katsottiin sopivaksi.",
+        "body": "Nämä esimerkkikortit näyttävät pesäehdotuksen muodon. He eivät koskaan paljasta henkilöllisyyttä tai tarkkaa osoitetta ennen yhteistä suostumusta.",
+        "cards": [
+          {
+            "pairing": "Ostaja × Kiinteistö",
+            "status": "proposed",
+            "heading": "Rauhallinen koti, vihreä ulkoasu, joustava luovutus.",
+            "facts": [
+              {
+                "label": "yleisalue",
+                "value": "Utrecht, Overvecht"
+              },
+              {
+                "label": "Tapahtumapaikka",
+                "value": "Lauantaiaamu"
+              }
+            ],
+            "tone": "cream"
+          },
+          {
+            "pairing": "Kiinteistö × pätevä ostaja",
+            "status": "accepted",
+            "heading": "Rahoitus valmis, ajoitus kohdistettu, prioriteetit ymmärretty.",
+            "facts": [
+              {
+                "label": "Ostajan yhteenveto",
+                "value": "valmis etenemään harkiten"
+              },
+              {
+                "label": "Tapahtumapaikka",
+                "value": "Sunnuntai iltapäivä"
+              }
+            ],
+            "tone": "terracotta"
+          }
+        ]
+      },
+      "meet": {
+        "kicker": "tavata pesä",
+        "heading": "Yksityiskohtainen ilmoitus nurkassasi.",
+        "body": "Nest kuuntelee ilmeisen ohjeen ulkopuolella: Aamuvalo, jota rakastit, ajoitus, jota et voi liikkua, yksi kompromissi, joka ei ole varsinainen kompromissi. Sitten Nest tuo takaisin sopivaksi katsotun.",
+        "characterImage": "/landing-pages/nest/nest-character-meet-compact-high-wings-transparent.png",
+        "characterAlt": "Tapaa Nest, pitelemällä muistikirjaa ja avaimet kompaktit siivet kohotettuina olkapäiden takana",
+        "principles": [
+          {
+            "title": "Kuuntelee ensin",
+            "body": "keskustelu, ei peltojen muuri."
+          },
+          {
+            "title": "ehdottaa yhtä sopivuutta",
+            "body": "Ei julkista omaisuuden syötettä tai loputonta verkkoa."
+          },
+          {
+            "title": "odottaa kahta kyllä",
+            "body": "henkilöllisyys ja tarkka osoite pysyvät yksityisinä yhteisymmärrykseen asti."
+          }
+        ],
+        "primaryCtaLabel": "Puhu Nestille",
+        "secondaryCtaLabel": "Katso kuinka se toimii"
+      },
+      "footer": {
+        "brandLabel": "pesä.",
+        "tagline": "Yksi huolellinen kotiesittely kerrallaan.",
+        "disclaimer": "Nest ei ole lisensoitu välitys, eikä se edusta kumpaakaan osapuolta, neuvottele, arvosta kotiasi tai käsittele tapahtumaasi. Kun olet valmis siirtymään eteenpäin, yhdistämme sinut lisensoituun paikalliseen agenttiin prosessin suorittamiseksi. Not a broker. Does not represent either party. Does not provide valuations. Does not negotiate.",
+        "eventDisclaimer": "Toisen kodin messujen yksityiskohdat on mallinnettu tätä pesän ilmentymistä varten, ja ne tulee tarkistaa ennen osallistumista.",
+        "copyright": "© 2026 Nest",
+        "groups": [
+          {
+            "label": "Tutkia",
+            "links": [
+              {
+                "label": "Kuinka se toimii",
+                "target": "how-it-works"
+              },
+              {
+                "label": "Yksityisyys",
+                "target": "privacy"
+              },
+              {
+                "label": "ehdotukset",
+                "target": "proposals"
+              }
+            ]
+          },
+          {
+            "label": "Pesä",
+            "links": [
+              {
+                "label": "tavata pesä",
+                "target": "meet"
+              },
+              {
+                "label": "rakentaa lyhyt",
+                "target": "hero-chat"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "generatedAt": "2026-09-01T15:39:42.215Z"
+}

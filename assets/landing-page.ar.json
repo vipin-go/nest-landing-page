@@ -1,0 +1,500 @@
+{
+  "schemaVersion": 1,
+  "language": "ar",
+  "regionKey": null,
+  "sourceRevision": "b403368b522c83332476945d763c1cdb9c3211e7fa0204db9923ea107dbb96a8",
+  "landingPage": {
+    "headline": "مقدمة مؤهلة واحدة تناسبها.",
+    "subheadline": "مقدمات خاصة للمشتري والبائع ، اقتراح واحد تمت مراجعته من قبل الإنسان في كل مرة.",
+    "ctaLabel": "تحدث إلى Nest",
+    "secondaryCtaLabel": "انظر كيف يعمل",
+    "heroCharacterImage": "/landing-pages/nest/nest-character-meet-compact-high-wings-transparent.png",
+    "seoImage": {
+      "src": "/landing-pages/nest/og.jpg",
+      "alt": "Nest ، دليل مقدمة منزل خاص ، في الداخل الدافئ مع الكلمات مقدمة دقيقة واحدة"
+    },
+    "header": {
+      "brandMark": "image",
+      "logoImageUrl": "/landing-pages/nest/nest-keyround-logo.svg"
+    },
+    "design": {
+      "variant": "home-introductions",
+      "defaultThemeMode": "light",
+      "theme": {
+        "palette": "emerald",
+        "primaryColor": "emerald",
+        "secondaryColor": "stone",
+        "accentColor": "orange",
+        "fontFamily": "inter"
+      },
+      "brand": {
+        "presetRevision": 1,
+        "colors": {
+          "light": {
+            "canvas": "#f3efe5",
+            "surface": "#fffaf0",
+            "sidebar": "#173e31",
+            "text": "#18352a",
+            "accent": "#bd623f",
+            "userBubble": "#173e31"
+          },
+          "dark": {
+            "canvas": "#10251e",
+            "surface": "#173129",
+            "sidebar": "#0c1d17",
+            "text": "#f3efe5",
+            "accent": "#e29a7d",
+            "userBubble": "#bd623f"
+          }
+        },
+        "typography": {
+          "body": {
+            "source": "google",
+            "family": "DM Sans"
+          },
+          "display": {
+            "source": "google",
+            "family": "Manrope"
+          },
+          "label": {
+            "source": "google",
+            "family": "DM Sans"
+          }
+        }
+      }
+    },
+    "homeIntroductions": {
+      "header": {
+        "brandLabel": "عش.",
+        "brandTagline": "مقدمة دقيقة واحدة",
+        "navItems": [
+          {
+            "label": "كيف يعمل",
+            "target": "how-it-works"
+          },
+          {
+            "label": "خصوصية",
+            "target": "privacy"
+          },
+          {
+            "label": "أبدأ هنا",
+            "target": "hero-chat"
+          }
+        ],
+        "ctaLabel": "طلب مقدمة",
+        "mobileCtaLabel": "بداية"
+      },
+      "service": {
+        "activeMode": "event",
+        "announcement": "مطابقة الآن في Second Home Fair ، Jaarbeurs Utrecht - الجمعة 27 - 29 مارس",
+        "feeCopy": "تمت مشاركة الرسوم قبل طلب مقدمة",
+        "disclaimer": "NEST ليست شركة وساطة مرخصة ولا تمثل أيًا من الطرفين أو تتفاوض أو تقدر قيمة منزلك أو تتعامل مع معاملتك. عندما تكون مستعدًا للمضي قدمًا ، نوصلك بوكيل محلي مرخص لإكمال العملية.",
+        "configurations": [
+          {
+            "mode": "event",
+            "label": "حدث",
+            "actionLabel": "رأي",
+            "name": "معرض المنزل الثاني، جاربورس أوترخت",
+            "location": "Jaarbeurs Utrecht",
+            "dateRange": "الجمعة 27 - الأحد 29 مارس",
+            "availabilityLabel": "الجمعة 27 - الأحد 29 مارس · Jaarbeurs Utrecht"
+          },
+          {
+            "mode": "city",
+            "label": "مدينة",
+            "actionLabel": "رأي",
+            "name": "عش أمستردام",
+            "location": "أمستردام زويد",
+            "dateRange": "جاري التنفيذ",
+            "availabilityLabel": "دائما على المقدمات المحلية"
+          }
+        ]
+      },
+      "tracks": [
+        {
+          "id": "buying",
+          "label": "أنا أشتري",
+          "responseMessage": "قل لي المنزل الذي يستحق الانتقال من أجله. سأطلب فقط التفاصيل التي يحتاجها المراجع البشري ، ثم أعيد واحدة تعتبر مناسبة.",
+          "composerPlaceholder": "أخبر Nest بما تحتاجه من المنزل ...",
+          "processSteps": [
+            {
+              "number": "01",
+              "image": "/landing-pages/nest/nest-how-conversation-human.webp",
+              "alt": "مشتري محتمل يتقاسم ملخصًا منزليًا خاصًا مع Nest",
+              "title": "إجراء محادثة حقيقية مع Nest.",
+              "body": "تحدث من خلال ما تحتاجه بالفعل: الميزانية ، والضروريات ، وكسر الصفقات ، والتوقيت. التفاصيل الصغيرة تنتمي إلى المحادثة أيضًا."
+            },
+            {
+              "number": "02",
+              "image": "/landing-pages/nest/nest-how-review-human.webp",
+              "alt": "Nest ومراجع بشري يفكران بعناية في مشتر واحد ومنزل واحد",
+              "title": "الحصول على عقار واحد مناسب في وقت واحد.",
+              "body": "يقوم الشخص بمراجعة كل اقتراح قبل أن يراه أي من الجانبين. لا يوجد كتالوج عام أو ترتيب أو شبكة تصفية لا نهاية لها.",
+              "badge": "معتمد من الإنسان"
+            },
+            {
+              "number": "03",
+              "image": "/landing-pages/nest/nest-how-introduction-human.webp",
+              "alt": "Nest تقديم مشتري محتمل وصاحب منزل بعد الموافقة المتبادلة",
+              "title": "افتح المقدمة معًا.",
+              "body": "بمجرد قبول كلا الجانبين ، تتم مشاركة العنوان الكامل وتفاصيل الاتصال ووقت المشاهدة المقترح بشكل خاص."
+            }
+          ],
+          "briefFields": [
+            {
+              "key": "area",
+              "label": "المنطقة المفضلة أو العامة",
+              "placeholder": "منطقة أوتريخت، أمستردام زويد…",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "propertyType",
+              "label": "نوع العقار",
+              "placeholder": "شقق، منزل عائلي، منزل ثاني…",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "propertyBrief",
+              "label": "كيف يجب أن يشعر المنزل؟",
+              "placeholder": "وصف المنزل وسبب أهميته.",
+              "type": "textarea",
+              "required": true
+            },
+            {
+              "key": "budgetOrPrice",
+              "label": "نطاق الميزانية",
+              "placeholder": "النطاق الخاص يكفي",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "mustHavesOrHighlights",
+              "label": "يجب أن يكون",
+              "placeholder": "إضاءة، حديقة، مساحة عمل، إمكانية الوصول…",
+              "type": "textarea",
+              "required": true
+            },
+            {
+              "key": "dealbreakersOrBuyerCriteria",
+              "label": "كسر الصفقات",
+              "placeholder": "ما الذي يجعل المقدمة غير مناسبة؟",
+              "type": "textarea",
+              "required": false
+            },
+            {
+              "key": "timing",
+              "label": "توقيت",
+              "placeholder": "متى تكون مستعدًا للعرض أو الانتقال؟",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "readiness",
+              "label": "استعداد",
+              "placeholder": "استكشاف ، رهن عقاري جاهز ، مشتري نقدي ...",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "privateConstraints",
+              "label": "القيود الخاصة",
+              "placeholder": "أي شيء يجب أن يحتفظ به Nest",
+              "type": "textarea",
+              "required": false
+            }
+          ]
+        },
+        {
+          "id": "selling",
+          "label": "أنا أبيع",
+          "responseMessage": "أخبرني ما الذي يجعل المنزل مميزًا وأي المشتري سيكون مناسبًا بشكل خطير. سأبقي العنوان الدقيق خاصًا وأعيد مقدمة واحدة مدروسة.",
+          "composerPlaceholder": "أخبر Nest ما يهم في بيعك ...",
+          "processSteps": [
+            {
+              "number": "01",
+              "image": "/landing-pages/nest/nest-how-conversation-human.webp",
+              "alt": "صاحب منزل يتقاسم موجز ملكية خاصة مع Nest",
+              "title": "إجراء محادثة حقيقية مع Nest.",
+              "body": "تحدث من خلال العقار ، وتوقيتك ، ودوافعك ، وما تعنيه المؤهلات بالنسبة لك."
+            },
+            {
+              "number": "02",
+              "image": "/landing-pages/nest/nest-how-review-human.webp",
+              "alt": "Nest ومراجع بشري يفكر بعناية في بائع واحد ومشتري مؤهل",
+              "title": "احصل على مشتر واحد مناسب في وقت واحد.",
+              "body": "يقوم الشخص بمراجعة كل اقتراح قبل أن يراه أي من الجانبين. لا يوجد تعرض عام أو تدفق صفقات بالجملة.",
+              "badge": "معتمد من الإنسان"
+            },
+            {
+              "number": "03",
+              "image": "/landing-pages/nest/nest-how-introduction-human.webp",
+              "alt": "Nest تقديم صاحب منزل ومشتري محتمل بعد الموافقة المتبادلة",
+              "title": "افتح المقدمة معًا.",
+              "body": "بمجرد قبول كلا الجانبين ، تتم مشاركة تفاصيل الاتصال والعنوان الدقيق ووقت المشاهدة المقترح بشكل خاص."
+            }
+          ],
+          "briefFields": [
+            {
+              "key": "area",
+              "label": "منطقة عامة",
+              "placeholder": "حي أو منطقة واسعة فقط",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "propertyType",
+              "label": "نوع العقار",
+              "placeholder": "شقق، منزل عائلي، منزل ثاني…",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "propertyBrief",
+              "label": "موجز الملكية",
+              "placeholder": "وصف العقار بدون عنوان محدد.",
+              "type": "textarea",
+              "required": true
+            },
+            {
+              "key": "budgetOrPrice",
+              "label": "نطاق السعر المطلوب",
+              "placeholder": "النطاق الخاص يكفي",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "mustHavesOrHighlights",
+              "label": "يسلط الضوء على الممتلكات",
+              "placeholder": "ما الذي يجعل هذا المنزل مميزًا؟",
+              "type": "textarea",
+              "required": true
+            },
+            {
+              "key": "dealbreakersOrBuyerCriteria",
+              "label": "معايير تناسب المشتري",
+              "placeholder": "ما الذي يجب أن يكون صحيحًا بالنسبة للمشتري الجاد؟",
+              "type": "textarea",
+              "required": false
+            },
+            {
+              "key": "timing",
+              "label": "توقيت",
+              "placeholder": "متى ستكون مستعدًا لترتيب المشاهدة؟",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "readiness",
+              "label": "استعداد",
+              "placeholder": "الاستعداد والاستعداد للمشاهدات الخاصة ...",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "privateConstraints",
+              "label": "القيود الخاصة",
+              "placeholder": "أي شيء يجب أن يحتفظ به Nest",
+              "type": "textarea",
+              "required": false
+            }
+          ]
+        }
+      ],
+      "hero": {
+        "eyebrow": "المنزل الواحد ، أو المشتري الوحيد - وليس لفافة من القوائم.",
+        "headingLines": [
+          "مقدمة مؤهلة واحدة",
+          "هذا يناسب ، لا ألف",
+          "عليك أن ترشح نفسك."
+        ],
+        "body": "أخبر Nest بما تبحث عنه بالفعل ، أو ما تبيعه بالفعل. يقترح Nest مباراة واحدة. كلا الجانبين يقول نعم قبل مشاركة أي شيء.",
+        "backgroundImage": "/landing-pages/nest/nest-hero-interior-clean.png",
+        "backgroundAlt": "منزل داخلي دافئ وهادئ",
+        "primaryCtaLabel": "تحدث مع العش",
+        "secondaryCtaLabel": "لقاء العش",
+        "privacyLine": "مباراة واحدة في كل مرة. استعراض الإنسان. خاص حتى يدخل كلا الجانبين.",
+        "characterImage": "/landing-pages/nest/nest-character-meet-compact-high-wings-transparent.png",
+        "characterAlt": "عش يحمل دفتر ملاحظات ومفاتيح بأجنحة مدمجة",
+        "chat": {
+          "statusLabel": "على الانترنت · اشراف بشري",
+          "privacyBadge": "خاص",
+          "openingMessage": "هل تشتري أم تبيع؟",
+          "visitorMessage": "أنا أشتري",
+          "assistantMessage": "قل لي المنزل الذي يستحق الانتقال من أجله. سأطلب فقط التفاصيل التي يحتاجها المراجع البشري ، ثم أعيد واحدة تعتبر مناسبة.",
+          "inputPlaceholder": "أخبر Nest بما تحتاجه من المنزل ..."
+        },
+        "briefDemo": {
+          "enabled": true,
+          "commandTrigger": "request-introduction",
+          "introHeading": "موجز منزلك الخاص",
+          "introBody": "شارك فقط ما يحتاجه المراجع البشري. لا يتم طلب العناوين الدقيقة وتفاصيل الاتصال هنا.",
+          "chatLabel": "بناء عن طريق الدردشة · 10 لفات",
+          "voiceLabel": "بناء بالصوت · 5 دقائق",
+          "reviewLabel": "استعراض موجز",
+          "editLabel": "عد للطبع",
+          "reviewHeading": "راجع موجزك الخاص",
+          "reviewBody": "لا يوجد شيء مستمر أو بحث أو اقتراح أو مشاركة عندما تكون مجهول الهوية.",
+          "submitLabel": "تسجيل الدخول للمراجعة البشرية",
+          "loginNotice": "قم بتسجيل الدخول لنقل هذا الموجز الخاص بالمنزل الخاص إلى مساحة عمل Nest الخاصة بك للحصول على مراجعة بشرية مصادقة.",
+          "expiryCopy": "تنتهي صلاحية الملخصات التي لم يتم تقديمها بعد ساعة واحدة.",
+          "privacyCopy": "لا يوجد بحث مشارك أو مشاركة دقيقة للعناوين أو الإفصاح عن جهات الاتصال أثناء الكشف عن هويتك.",
+          "errorCopy": "تعذر على Nest حفظ هذا الموجز. الرجاء إعادة المحاولة أو تسجيل الدخول."
+        }
+      },
+      "audience": {
+        "kicker": "باب أصغر حسب التصميم",
+        "heading": "للأشخاص المستعدين لخطوة تالية حقيقية.",
+        "body": "لا يوجد كتالوج عام. لا يوجد تغذية خاصية. لا توجد شبكة تصفية. يستمع Nest ويقترح ملاءمة واحدة وينتظر نعمتين خاصتين.",
+        "forHeading": "هذا ل",
+        "forItems": [
+          "المشترون الذين يبحثون بجدية ويمكنهم التصرف بسرعة.",
+          "البائعون الذين يفضلون عددًا صغيرًا من المشترين المؤهلين والمطابقين مسبقًا على التعرض العام المفتوح."
+        ],
+        "notForHeading": "هذا ليس ل",
+        "notForItems": [
+          "الزوار العاديون الذين يريدون فقط رؤية ما هو موجود في السوق.",
+          "أي شخص يتوقع خلاصة ممتلكات عامة أو شبكة من المرشحات.",
+          "الناس يبحثون عن تدفق الصفقات بالجملة."
+        ]
+      },
+      "privacy": {
+        "kicker": "الخصوصية هي التسلسل",
+        "heading": "يبقى عنوانك خاصًا حتى يقول كلاكما نعم.",
+        "body": "يبدأ Nest بمنطقة بحجم الحي. تظل الهوية وتفاصيل الاتصال والعنوان الدقيق مغلقًا من خلال الاقتراح ومراحل الموافقة المتبادلة.",
+        "stages": [
+          {
+            "status": "proposed",
+            "label": "مقترح",
+            "title": "منطقة عامة",
+            "body": "لا توجد هوية أو موقع محدد مرئي. يمكن لكل جانب القبول أو المرور."
+          },
+          {
+            "status": "accepted",
+            "label": "كلاهما مقبول",
+            "title": "نعم متبادل",
+            "body": "وافق الطرفان. يكمل الشخص التحقق النهائي قبل خروج التفاصيل."
+          },
+          {
+            "status": "confirmed",
+            "label": "مؤكد",
+            "title": "تم تأكيد المقدمة",
+            "body": "تفاصيل الاتصال الكاملة والعنوان الدقيق والوقت المقترح متاحة الآن لكلا المشاركين."
+          }
+        ],
+        "proposalLabel": "اقتراح",
+        "proposalAreaLabel": "منطقة عامة",
+        "proposalArea": "أوتريخت ، أوفرفيشت",
+        "proposalNote": "لا توجد هوية أو موقع محدد مرئي. يمكن لكل جانب القبول أو المرور."
+      },
+      "process": {
+        "kicker": "كيف يعمل",
+        "heading": "تسلسل دقيق واحد.",
+        "licensedAgentNote": "يتم تكرار الوكيل المحلي المرخص عندما تكون مستعدًا للمضي قدمًا."
+      },
+      "proposals": {
+        "kicker": "كيف يبدو الاقتراح",
+        "heading": "جانبان. يعتبر واحد مناسب.",
+        "body": "تُظهر بطاقات الأمثلة هذه شكل اقتراح Nest. لا يكشفون أبدًا عن هوية أو عنوان دقيق قبل الموافقة المتبادلة.",
+        "cards": [
+          {
+            "pairing": "المشتري × العقار",
+            "status": "proposed",
+            "heading": "منزل هادئ ، نظرة خضراء ، تسليم مرن.",
+            "facts": [
+              {
+                "label": "منطقة عامة",
+                "value": "أوتريخت ، أوفرفيشت"
+              },
+              {
+                "label": "فتحة الحدث",
+                "value": "صباح السبت"
+              }
+            ],
+            "tone": "cream"
+          },
+          {
+            "pairing": "عقار × مشتري مؤهل",
+            "status": "accepted",
+            "heading": "التمويل المعد ، والمواءمة بالتوقيت ، وفهم الأولويات.",
+            "facts": [
+              {
+                "label": "ملخص المشتري",
+                "value": "على استعداد للمضي قدمًا بشكل مدروس"
+              },
+              {
+                "label": "فتحة الحدث",
+                "value": "بعد ظهر الأحد"
+              }
+            ],
+            "tone": "terracotta"
+          }
+        ]
+      },
+      "meet": {
+        "kicker": "لقاء العش",
+        "heading": "التفاصيل في ركنك.",
+        "body": "يستمع Nest إلى ما وراء الملخص الواضح: ضوء الصباح الذي أحببته ، والتوقيت الذي لا يمكنك تحريكه ، والتسوية الوحيدة التي ليست حلاً وسطًا حقًا. ثم يعيد Nest واحدًا يعتبر مناسبًا.",
+        "characterImage": "/landing-pages/nest/nest-character-meet-compact-high-wings-transparent.png",
+        "characterAlt": "قابل العش ، ممسكًا بدفتر ملاحظات ومفاتيح ذات أجنحة مدمجة مرفوعة خلف الكتفين العلويين",
+        "principles": [
+          {
+            "title": "يستمع أولا",
+            "body": "محادثة وليس جدار من الحقول."
+          },
+          {
+            "title": "يقترح تناسب واحد",
+            "body": "لا يوجد تغذية للممتلكات العامة أو شبكة لا نهاية لها."
+          },
+          {
+            "title": "ينتظر نعمتين",
+            "body": "الهوية والعنوان الدقيق يظلان خاصين حتى الموافقة المتبادلة."
+          }
+        ],
+        "primaryCtaLabel": "تحدث إلى Nest",
+        "secondaryCtaLabel": "انظر كيف يعمل"
+      },
+      "footer": {
+        "brandLabel": "عش.",
+        "tagline": "مقدمة واحدة دقيقة في المنزل في كل مرة.",
+        "disclaimer": "NEST ليست شركة وساطة مرخصة ولا تمثل أيًا من الطرفين أو تتفاوض أو تقدر قيمة منزلك أو تتعامل مع معاملتك. عندما تكون مستعدًا للمضي قدمًا ، نوصلك بوكيل محلي مرخص لإكمال العملية. Not a broker. Does not represent either party. Does not provide valuations. Does not negotiate.",
+        "eventDisclaimer": "تم تصميم تفاصيل معرض المنزل الثاني لهذا إنشاء مثيل Nest ويجب التحقق منه قبل الحضور.",
+        "copyright": "© 2026 Nest",
+        "groups": [
+          {
+            "label": "استكشف",
+            "links": [
+              {
+                "label": "كيف يعمل",
+                "target": "how-it-works"
+              },
+              {
+                "label": "خصوصية",
+                "target": "privacy"
+              },
+              {
+                "label": "اقتراحات",
+                "target": "proposals"
+              }
+            ]
+          },
+          {
+            "label": "عش",
+            "links": [
+              {
+                "label": "لقاء العش",
+                "target": "meet"
+              },
+              {
+                "label": "بناء موجز",
+                "target": "hero-chat"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "generatedAt": "2026-09-01T15:39:42.215Z"
+}

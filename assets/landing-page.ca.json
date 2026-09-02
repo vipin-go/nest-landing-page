@@ -1,0 +1,500 @@
+{
+  "schemaVersion": 1,
+  "language": "ca",
+  "regionKey": null,
+  "sourceRevision": "b403368b522c83332476945d763c1cdb9c3211e7fa0204db9923ea107dbb96a8",
+  "landingPage": {
+    "headline": "Una presentació qualificada que encaixa.",
+    "subheadline": "Presentacions privades entre comprador i venedor, una proposta revisada per humans alhora.",
+    "ctaLabel": "Parla amb Nest",
+    "secondaryCtaLabel": "Mira com funciona",
+    "heroCharacterImage": "/landing-pages/nest/nest-character-meet-compact-high-wings-transparent.png",
+    "seoImage": {
+      "src": "/landing-pages/nest/og.jpg",
+      "alt": "Nest, una guia privada de presentacions de llars, en un interior càlid amb les paraules \"Una presentació acurada\""
+    },
+    "header": {
+      "brandMark": "image",
+      "logoImageUrl": "/landing-pages/nest/nest-keyround-logo.svg"
+    },
+    "design": {
+      "variant": "home-introductions",
+      "defaultThemeMode": "light",
+      "theme": {
+        "palette": "emerald",
+        "primaryColor": "emerald",
+        "secondaryColor": "stone",
+        "accentColor": "orange",
+        "fontFamily": "inter"
+      },
+      "brand": {
+        "presetRevision": 1,
+        "colors": {
+          "light": {
+            "canvas": "#f3efe5",
+            "surface": "#fffaf0",
+            "sidebar": "#173e31",
+            "text": "#18352a",
+            "accent": "#bd623f",
+            "userBubble": "#173e31"
+          },
+          "dark": {
+            "canvas": "#10251e",
+            "surface": "#173129",
+            "sidebar": "#0c1d17",
+            "text": "#f3efe5",
+            "accent": "#e29a7d",
+            "userBubble": "#bd623f"
+          }
+        },
+        "typography": {
+          "body": {
+            "source": "google",
+            "family": "DM Sans"
+          },
+          "display": {
+            "source": "google",
+            "family": "Manrope"
+          },
+          "label": {
+            "source": "google",
+            "family": "DM Sans"
+          }
+        }
+      }
+    },
+    "homeIntroductions": {
+      "header": {
+        "brandLabel": "Nest.",
+        "brandTagline": "Una presentació acurada",
+        "navItems": [
+          {
+            "label": "Com funciona",
+            "target": "how-it-works"
+          },
+          {
+            "label": "Privadesa",
+            "target": "privacy"
+          },
+          {
+            "label": "Comença aquí",
+            "target": "hero-chat"
+          }
+        ],
+        "ctaLabel": "Sol·licita una presentació",
+        "mobileCtaLabel": "Comença"
+      },
+      "service": {
+        "activeMode": "event",
+        "announcement": "Ara mateix fent coincidències a Second Home Fair, Jaarbeurs Utrecht — dv. 27–dg. 29 març",
+        "feeCopy": "La quota es comparteix abans de sol·licitar una presentació",
+        "disclaimer": "Nest no és una corretja llicenciada i no representa cap de les parts, no negocia, no valora la teva llar ni gestiona la teva transacció. Quan estiguis preparat per avançar, et connectem amb un agent local llicenciat per completar el procés.",
+        "configurations": [
+          {
+            "mode": "event",
+            "label": "Esdeveniment",
+            "actionLabel": "Veure",
+            "name": "Second Home Fair, Jaarbeurs Utrecht",
+            "location": "Jaarbeurs Utrecht",
+            "dateRange": "Dv. 27–dg. 29 març",
+            "availabilityLabel": "Dv. 27–dg. 29 març · Jaarbeurs Utrecht"
+          },
+          {
+            "mode": "city",
+            "label": "Ciutat",
+            "actionLabel": "Veure",
+            "name": "Nest Amsterdam",
+            "location": "Amsterdam Zuid",
+            "dateRange": "En curs",
+            "availabilityLabel": "Presentacions locals sempre actives"
+          }
+        ]
+      },
+      "tracks": [
+        {
+          "id": "buying",
+          "label": "Estic comprant",
+          "responseMessage": "Digues-me la llar que valdria la pena traslladar-s'hi. Només preguntaré pels detalls que necessita un revisor humà i després portaré un encaix considerat.",
+          "composerPlaceholder": "Digues a Nest què necessites d'una llar…",
+          "processSteps": [
+            {
+              "number": "01",
+              "image": "/landing-pages/nest/nest-how-conversation-human.webp",
+              "alt": "Un comprador potencial compartint un breu privat de la llar amb Nest",
+              "title": "Tingues una conversa real amb Nest.",
+              "body": "Parlau sobre el que realment necessites: pressupost, elements essencials, factors de ruptura i calendari. Els petits detalls també pertanyen a la conversa."
+            },
+            {
+              "number": "02",
+              "image": "/landing-pages/nest/nest-how-review-human.webp",
+              "alt": "Nest i un revisor humà considerant acuradament un comprador i una llar",
+              "title": "Rep un encaix de propietat alhora.",
+              "body": "Una persona revisa cada proposta abans que la vegi qualsevol de les parts. Sense catàleg públic, classificació ni una graella de filtres interminable.",
+              "badge": "Aprovat per humans"
+            },
+            {
+              "number": "03",
+              "image": "/landing-pages/nest/nest-how-introduction-human.webp",
+              "alt": "Nest presentant un comprador potencial i un propietari després del consentiment mutu",
+              "title": "Desbloqueu la presentació junts.",
+              "body": "Un cop ambdues parts accepten, l'adreça completa, les dades de contacte i l'hora de visita proposada es comparteixen privadament."
+            }
+          ],
+          "briefFields": [
+            {
+              "key": "area",
+              "label": "Zona preferida o general",
+              "placeholder": "Zona d'Utrecht, Amsterdam Zuid…",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "propertyType",
+              "label": "Tipus de propietat",
+              "placeholder": "Pis, casa familiar, segona residència…",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "propertyBrief",
+              "label": "Com hauria de ser la llar?",
+              "placeholder": "Descriu la llar i per què importa.",
+              "type": "textarea",
+              "required": true
+            },
+            {
+              "key": "budgetOrPrice",
+              "label": "Interval de pressupost",
+              "placeholder": "Un interval privat és suficient",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "mustHavesOrHighlights",
+              "label": "Elements essencials",
+              "placeholder": "Llum, jardí, espai de treball, accessibilitat…",
+              "type": "textarea",
+              "required": true
+            },
+            {
+              "key": "dealbreakersOrBuyerCriteria",
+              "label": "Factors de ruptura",
+              "placeholder": "Què faria que la presentació fos un mal encaix?",
+              "type": "textarea",
+              "required": false
+            },
+            {
+              "key": "timing",
+              "label": "Calendari",
+              "placeholder": "Quan estaries preparat per veure o traslladar-te?",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "readiness",
+              "label": "Preparació",
+              "placeholder": "Explorant, preparat per a la hipoteca, comprador en efectiu…",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "privateConstraints",
+              "label": "Restriccions privades",
+              "placeholder": "Qualsevol cosa que Nest hagi de mantenir privada",
+              "type": "textarea",
+              "required": false
+            }
+          ]
+        },
+        {
+          "id": "selling",
+          "label": "Estic venent",
+          "responseMessage": "Digues-me què fa que la llar sigui distinta i quin comprador seria un encaix seriós. Mantindré l'adreça exacta en privat i portaré una presentació considerada.",
+          "composerPlaceholder": "Digues a Nest què importa sobre la teva venda…",
+          "processSteps": [
+            {
+              "number": "01",
+              "image": "/landing-pages/nest/nest-how-conversation-human.webp",
+              "alt": "Un propietari compartint un breu privat de propietat amb Nest",
+              "title": "Tingues una conversa real amb Nest.",
+              "body": "Parlau sobre la propietat, el teu calendari, la motivació i què significa per a tu estar qualificat."
+            },
+            {
+              "number": "02",
+              "image": "/landing-pages/nest/nest-how-review-human.webp",
+              "alt": "Nest i un revisor humà considerant acuradament un venedor i un comprador qualificat",
+              "title": "Rep un encaix de comprador alhora.",
+              "body": "Una persona revisa cada proposta abans que la vegi qualsevol de les parts. Sense exposició pública ni flux d'operacions massiu.",
+              "badge": "Aprovat per humans"
+            },
+            {
+              "number": "03",
+              "image": "/landing-pages/nest/nest-how-introduction-human.webp",
+              "alt": "Nest presentant un propietari i un comprador potencial després del consentiment mutu",
+              "title": "Desbloqueu la presentació junts.",
+              "body": "Un cop ambdues parts accepten, les dades de contacte, l'adreça exacta i l'hora de visita proposada es comparteixen privadament."
+            }
+          ],
+          "briefFields": [
+            {
+              "key": "area",
+              "label": "Zona general",
+              "placeholder": "Només barri o àrea àmplia",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "propertyType",
+              "label": "Tipus de propietat",
+              "placeholder": "Pis, casa familiar, segona residència…",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "propertyBrief",
+              "label": "Breu de propietat",
+              "placeholder": "Descriu la propietat sense una adreça exacta.",
+              "type": "textarea",
+              "required": true
+            },
+            {
+              "key": "budgetOrPrice",
+              "label": "Interval de preu sol·licitat",
+              "placeholder": "Un interval privat és suficient",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "mustHavesOrHighlights",
+              "label": "Característiques destacades de la propietat",
+              "placeholder": "Què fa que aquesta llar sigui distinta?",
+              "type": "textarea",
+              "required": true
+            },
+            {
+              "key": "dealbreakersOrBuyerCriteria",
+              "label": "Criteris d'encaix del comprador",
+              "placeholder": "Què hauria de ser cert sobre un comprador seriós?",
+              "type": "textarea",
+              "required": false
+            },
+            {
+              "key": "timing",
+              "label": "Calendari",
+              "placeholder": "Quan estaries preparat per organitzar una visita?",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "readiness",
+              "label": "Preparació",
+              "placeholder": "Preparant, preparat per a visites privades…",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "privateConstraints",
+              "label": "Restriccions privades",
+              "placeholder": "Qualsevol cosa que Nest hagi de mantenir privada",
+              "type": "textarea",
+              "required": false
+            }
+          ]
+        }
+      ],
+      "hero": {
+        "eyebrow": "Una sola llar, o un sol comprador — no un desplaçament interminable d'anuncis.",
+        "headingLines": [
+          "Una presentació qualificada",
+          "que encaixa, no milers",
+          "que hagis de filtrar tu mateix."
+        ],
+        "body": "Digues a Nest què busques realment, o què vens realment. Nest proposa un encaix. Ambdues parts diuen sí abans que es comparteixi res.",
+        "backgroundImage": "/landing-pages/nest/nest-hero-interior-clean.png",
+        "backgroundAlt": "Un interior de llar càlid i tranquil",
+        "primaryCtaLabel": "Parla amb Nest",
+        "secondaryCtaLabel": "Coneix Nest",
+        "privacyLine": "Un encaix alhora. Revisat per humans. Privat fins que ambdues parts hi optin.",
+        "characterImage": "/landing-pages/nest/nest-character-meet-compact-high-wings-transparent.png",
+        "characterAlt": "Nest aguantant una llibreta i claus amb ales compactes",
+        "chat": {
+          "statusLabel": "En línia · supervisat per humans",
+          "privacyBadge": "Privat",
+          "openingMessage": "Estàs comprant o venent?",
+          "visitorMessage": "Estic comprant",
+          "assistantMessage": "Digues-me la llar que valdria la pena traslladar-s'hi. Només preguntaré pels detalls que necessita un revisor humà i després portaré un encaix considerat.",
+          "inputPlaceholder": "Digues a Nest què necessites d'una llar…"
+        },
+        "briefDemo": {
+          "enabled": true,
+          "commandTrigger": "request-introduction",
+          "introHeading": "El teu breu privat de la llar",
+          "introBody": "Comparteix només el que necessita un revisor humà. Les adreces exactes i les dades de contacte mai no es demanen aquí.",
+          "chatLabel": "Construeix per xat · 10 torns",
+          "voiceLabel": "Construeix amb veu · 5 min",
+          "reviewLabel": "Revisa el breu",
+          "editLabel": "Edita",
+          "reviewHeading": "Revisa el teu breu privat",
+          "reviewBody": "No es desa, cerca, proposa ni comparteix res mentre siguis anònim.",
+          "submitLabel": "Inicia sessió per a la revisió humana",
+          "loginNotice": "Inicia sessió per moure aquest breu privat de la llar al teu espai de treball de Nest per a la revisió humana autenticada.",
+          "expiryCopy": "Els breus no enviats caduquen al cap d'una hora.",
+          "privacyCopy": "No es fa cap cerca de participants, es comparteix cap adreça exacta ni es revela cap dada de contacte mentre siguis anònim.",
+          "errorCopy": "Nest no ha pogut desar aquest breu. Torna-ho a provar o inicia sessió."
+        }
+      },
+      "audience": {
+        "kicker": "Una porta més petita per disseny",
+        "heading": "Per a persones preparades per a un pas següent real.",
+        "body": "Sense catàleg públic. Sense feed de propietats. Sense graella de filtres. Nest escolta, proposa un encaix i espera dos sí privats.",
+        "forHeading": "Això és per a",
+        "forItems": [
+          "Compradors que busquen seriosament i poden actuar ràpidament.",
+          "Venedors que prefereixen un petit nombre de compradors qualificats i preapariats a l'exposició pública oberta."
+        ],
+        "notForHeading": "Això no és per a",
+        "notForItems": [
+          "Visitants casuals que només volen veure què hi ha al mercat.",
+          "Qualsevol que esperi un canal d'immobles o una graella de filtres.",
+          "Persones que busquen flux d'ofertes massives."
+        ]
+      },
+      "privacy": {
+        "kicker": "La privadesa és la seqüència",
+        "heading": "La teva adreça es manté privada fins que ambdós dieu que sí.",
+        "body": "Nest comença amb una àrea de la mida d'un barri. La identitat, els detalls de contacte i l'adreça exacta romanen bloquejats durant les fases de proposta i consentiment mutu.",
+        "stages": [
+          {
+            "status": "proposed",
+            "label": "Proposat",
+            "title": "Zona general",
+            "body": "No es mostra cap identitat ni ubicació exacta. Cada banda pot acceptar o passar."
+          },
+          {
+            "status": "accepted",
+            "label": "Tots dos acceptats",
+            "title": "Sí mutu",
+            "body": "Ambdós costats van acceptar. Una persona completa la verificació final abans que es transmetin els detalls."
+          },
+          {
+            "status": "confirmed",
+            "label": "Confirmat",
+            "title": "Introducció confirmada",
+            "body": "Els detalls de contacte complets, l'adreça exacta i l'hora proposada ara estan disponibles per a tots dos participants."
+          }
+        ],
+        "proposalLabel": "Proposta",
+        "proposalAreaLabel": "Zona general",
+        "proposalArea": "Utrecht, Overvecht",
+        "proposalNote": "No es mostra cap identitat ni ubicació exacta. Cada banda pot acceptar o passar."
+      },
+      "process": {
+        "kicker": "Com funciona",
+        "heading": "Una seqüència curosa.",
+        "licensedAgentNote": "Un agent local autoritzat s'afegeix quan esteu preparats per avançar."
+      },
+      "proposals": {
+        "kicker": "Com és una proposta",
+        "heading": "Dos costats. Un ajust considerat.",
+        "body": "Aquestes targetes d'exemple mostren la forma d'una proposta de Nest. Mai no exposen una identitat o adreça exacta abans del consentiment mutu.",
+        "cards": [
+          {
+            "pairing": "Comprador × Propietat",
+            "status": "proposed",
+            "heading": "Llar tranquil·la, vista verda, lliurament flexible.",
+            "facts": [
+              {
+                "label": "Zona general",
+                "value": "Utrecht, Overvecht"
+              },
+              {
+                "label": "Horari de l'esdeveniment",
+                "value": "Dissabte al matí"
+              }
+            ],
+            "tone": "cream"
+          },
+          {
+            "pairing": "Propietat × Comprador qualificat",
+            "status": "accepted",
+            "heading": "Finançament preparat, horari alineat, prioritats enteses.",
+            "facts": [
+              {
+                "label": "Resum de l comprador",
+                "value": "Preparat per avançar amb cura"
+              },
+              {
+                "label": "Horari de l'esdeveniment",
+                "value": "Diumenge a la tarda"
+              }
+            ],
+            "tone": "terracotta"
+          }
+        ]
+      },
+      "meet": {
+        "kicker": "Coneix Nest",
+        "heading": "L'apuntador de detalls al teu costat.",
+        "body": "Nest escolta més enllà del briefing obvi: la llum del matí que us agradava, el moment que no podeu moure, l'únic compromís que realment no és un compromís. Llavors Nest retorna un ajust considerat.",
+        "characterImage": "/landing-pages/nest/nest-character-meet-compact-high-wings-transparent.png",
+        "characterAlt": "Coneixeu en Nest, portant una llibreta i claus amb les ales compactes alçades darrere les espatlles superiors",
+        "principles": [
+          {
+            "title": "Escolta primer",
+            "body": "Una conversa, no un mur de camps."
+          },
+          {
+            "title": "Proposa un ajust",
+            "body": "Sense canal immobiliari ni graella interminable."
+          },
+          {
+            "title": "Espera dos sí",
+            "body": "La identitat i l'adreça exacta romanen privades fins al consentiment mutu."
+          }
+        ],
+        "primaryCtaLabel": "Parla amb Nest",
+        "secondaryCtaLabel": "Mira com funciona"
+      },
+      "footer": {
+        "brandLabel": "Nest.",
+        "tagline": "Una introducció acurada a la llar cada cop.",
+        "disclaimer": "Nest no és una corretja llicenciada i no representa cap de les parts, no negocia, no valora la teva llar ni gestiona la teva transacció. Quan estiguis preparat per avançar, et connectem amb un agent local llicenciat per completar el procés. Not a broker. Does not represent either party. Does not provide valuations. Does not negotiate.",
+        "eventDisclaimer": "Els detalls de la Fira del Segon Habitatge es modelen per a aquesta instància de Nest i s'han de verificar abans d'assistir.",
+        "copyright": "© 2026 Nest",
+        "groups": [
+          {
+            "label": "Exploreu",
+            "links": [
+              {
+                "label": "Com funciona",
+                "target": "how-it-works"
+              },
+              {
+                "label": "Privadesa",
+                "target": "privacy"
+              },
+              {
+                "label": "Propostes",
+                "target": "proposals"
+              }
+            ]
+          },
+          {
+            "label": "Nest",
+            "links": [
+              {
+                "label": "Coneix Nest",
+                "target": "meet"
+              },
+              {
+                "label": "Construeix un breu",
+                "target": "hero-chat"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "generatedAt": "2026-09-01T15:39:42.215Z"
+}

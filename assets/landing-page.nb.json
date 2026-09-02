@@ -1,0 +1,500 @@
+{
+  "schemaVersion": 1,
+  "language": "nb",
+  "regionKey": null,
+  "sourceRevision": "b403368b522c83332476945d763c1cdb9c3211e7fa0204db9923ea107dbb96a8",
+  "landingPage": {
+    "headline": "En kvalifisert introduksjon som passer.",
+    "subheadline": "Private kjøper og selger introduksjoner, ett menneskegjennomgått forslag om gangen.",
+    "ctaLabel": "Snakk med Nest",
+    "secondaryCtaLabel": "Se hvordan det fungerer",
+    "heroCharacterImage": "/landing-pages/nest/nest-character-meet-compact-high-wings-transparent.png",
+    "seoImage": {
+      "src": "/landing-pages/nest/og.jpg",
+      "alt": "Nest, en privat introduksjonsguide for hjemmet, i et varmt interiør med ordene en nøye introduksjon"
+    },
+    "header": {
+      "brandMark": "image",
+      "logoImageUrl": "/landing-pages/nest/nest-keyround-logo.svg"
+    },
+    "design": {
+      "variant": "home-introductions",
+      "defaultThemeMode": "light",
+      "theme": {
+        "palette": "emerald",
+        "primaryColor": "emerald",
+        "secondaryColor": "stone",
+        "accentColor": "orange",
+        "fontFamily": "inter"
+      },
+      "brand": {
+        "presetRevision": 1,
+        "colors": {
+          "light": {
+            "canvas": "#f3efe5",
+            "surface": "#fffaf0",
+            "sidebar": "#173e31",
+            "text": "#18352a",
+            "accent": "#bd623f",
+            "userBubble": "#173e31"
+          },
+          "dark": {
+            "canvas": "#10251e",
+            "surface": "#173129",
+            "sidebar": "#0c1d17",
+            "text": "#f3efe5",
+            "accent": "#e29a7d",
+            "userBubble": "#bd623f"
+          }
+        },
+        "typography": {
+          "body": {
+            "source": "google",
+            "family": "DM Sans"
+          },
+          "display": {
+            "source": "google",
+            "family": "Manrope"
+          },
+          "label": {
+            "source": "google",
+            "family": "DM Sans"
+          }
+        }
+      }
+    },
+    "homeIntroductions": {
+      "header": {
+        "brandLabel": "reir.",
+        "brandTagline": "En forsiktig introduksjon",
+        "navItems": [
+          {
+            "label": "Hvordan det fungerer",
+            "target": "how-it-works"
+          },
+          {
+            "label": "Privatliv",
+            "target": "privacy"
+          },
+          {
+            "label": "Start her",
+            "target": "hero-chat"
+          }
+        ],
+        "ctaLabel": "be om en introduksjon",
+        "mobileCtaLabel": "Start"
+      },
+      "service": {
+        "activeMode": "event",
+        "announcement": "Nå matcher på Second Home Fair, Jaarbeurs Utrecht — fre 27–søn 29. mars",
+        "feeCopy": "Gebyr delt før du ber om en introduksjon",
+        "disclaimer": "Nest er ikke et lisensiert meglerhus og representerer ikke noen av partene, forhandler, verdsetter hjemmet ditt eller håndterer transaksjonen din. Når du er klar til å gå videre, kobler vi deg til en lisensiert lokal agent for å fullføre prosessen.",
+        "configurations": [
+          {
+            "mode": "event",
+            "label": "Hendelse",
+            "actionLabel": "Utsikt",
+            "name": "Second Home Fair, Jaarbeurs Utrecht",
+            "location": "Jaarbeurs Utrecht",
+            "dateRange": "Fre 27–søn 29 mars",
+            "availabilityLabel": "Fre 27–søn 29. mars · Jaarbeurs Utrecht"
+          },
+          {
+            "mode": "city",
+            "label": "By",
+            "actionLabel": "Utsikt",
+            "name": "Nest Amsterdam",
+            "location": "Amsterdam Zuid",
+            "dateRange": "Pågående",
+            "availabilityLabel": "Alltid-på lokale introduksjoner"
+          }
+        ]
+      },
+      "tracks": [
+        {
+          "id": "buying",
+          "label": "Jeg kjøper",
+          "responseMessage": "Fortell meg hjemmet det er verdt å flytte til. Jeg vil bare be om detaljene en menneskelig anmelder trenger, og deretter bringe tilbake en som anses som passende.",
+          "composerPlaceholder": "Fortell Nest hva du trenger fra et hjem...",
+          "processSteps": [
+            {
+              "number": "01",
+              "image": "/landing-pages/nest/nest-how-conversation-human.webp",
+              "alt": "En potensiell kjøper som deler en privat hjemmebrief med Nest",
+              "title": "Ha en skikkelig samtale med Nest.",
+              "body": "Snakk gjennom det du faktisk trenger: budsjett, must-haves, dealbreakers og timing. De små detaljene hører også hjemme i samtalen."
+            },
+            {
+              "number": "02",
+              "image": "/landing-pages/nest/nest-how-review-human.webp",
+              "alt": "Nest og en menneskelig anmelder vurderer nøye én kjøper og ett hjem",
+              "title": "motta én eiendom som passer om gangen.",
+              "body": "En person vurderer hvert forslag før hver side ser det. Ingen offentlig katalog, rangering eller endeløst filternett.",
+              "badge": "Menneskegodkjent"
+            },
+            {
+              "number": "03",
+              "image": "/landing-pages/nest/nest-how-introduction-human.webp",
+              "alt": "Nest introduserer en potensiell kjøper og huseier etter gjensidig samtykke",
+              "title": "Lås opp introduksjonen sammen.",
+              "body": "Når begge sider godtar, deles hele adressen, kontaktdetaljer og foreslått visningstid privat."
+            }
+          ],
+          "briefFields": [
+            {
+              "key": "area",
+              "label": "foretrukket eller generelt område",
+              "placeholder": "Utrecht-regionen, Amsterdam Zuid...",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "propertyType",
+              "label": "Eiendomstype",
+              "placeholder": "Leilighet, familiehjem, andre hjem...",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "propertyBrief",
+              "label": "Hvordan skal hjemmet føles?",
+              "placeholder": "Beskriv hjemmet og hvorfor det betyr noe.",
+              "type": "textarea",
+              "required": true
+            },
+            {
+              "key": "budgetOrPrice",
+              "label": "Budsjettområde",
+              "placeholder": "Et privat utvalg er nok",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "mustHavesOrHighlights",
+              "label": "must-haves",
+              "placeholder": "Lys, hage, arbeidsplass, tilgjengelighet...",
+              "type": "textarea",
+              "required": true
+            },
+            {
+              "key": "dealbreakersOrBuyerCriteria",
+              "label": "Dealbreakers",
+              "placeholder": "Hva ville gjøre introduksjonen dårlig?",
+              "type": "textarea",
+              "required": false
+            },
+            {
+              "key": "timing",
+              "label": "timing",
+              "placeholder": "Når ville du være klar til å se eller flytte?",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "readiness",
+              "label": "beredskap",
+              "placeholder": "Utforsking, boliglånsklar, kontantkjøper...",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "privateConstraints",
+              "label": "Private begrensninger",
+              "placeholder": "Alt Nest skal holde seg privat",
+              "type": "textarea",
+              "required": false
+            }
+          ]
+        },
+        {
+          "id": "selling",
+          "label": "Jeg selger",
+          "responseMessage": "Fortell meg hva som gjør boligen distinkt og hvilken kjøper som passer seriøst. Jeg vil holde den nøyaktige adressen privat og bringe tilbake en vurdert introduksjon.",
+          "composerPlaceholder": "Fortell Nest hva som betyr noe med salget ditt...",
+          "processSteps": [
+            {
+              "number": "01",
+              "image": "/landing-pages/nest/nest-how-conversation-human.webp",
+              "alt": "En huseier som deler en privat eiendomsbrief med Nest",
+              "title": "Ha en skikkelig samtale med Nest.",
+              "body": "Snakk gjennom eiendommen, timingen din, motivasjonen og hva kvalifisert betyr for deg."
+            },
+            {
+              "number": "02",
+              "image": "/landing-pages/nest/nest-how-review-human.webp",
+              "alt": "Nest og en menneskelig anmelder vurderer nøye én selger og én kvalifisert kjøper",
+              "title": "Motta én kjøper som passer om gangen.",
+              "body": "En person vurderer hvert forslag før hver side ser det. ingen offentlig eksponering eller bulkavtaleflyt.",
+              "badge": "Menneskegodkjent"
+            },
+            {
+              "number": "03",
+              "image": "/landing-pages/nest/nest-how-introduction-human.webp",
+              "alt": "Nest introduserer en huseier og potensiell kjøper etter gjensidig samtykke",
+              "title": "Lås opp introduksjonen sammen.",
+              "body": "Når begge sider godtar, deles kontaktinformasjon, den nøyaktige adressen og foreslått visningstid privat."
+            }
+          ],
+          "briefFields": [
+            {
+              "key": "area",
+              "label": "Generelt område",
+              "placeholder": "kun nabolag eller bredt område",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "propertyType",
+              "label": "Eiendomstype",
+              "placeholder": "Leilighet, familiehjem, andre hjem...",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "propertyBrief",
+              "label": "Eiendomskort",
+              "placeholder": "Beskriv eiendommen uten eksakt adresse.",
+              "type": "textarea",
+              "required": true
+            },
+            {
+              "key": "budgetOrPrice",
+              "label": "Prisklasse",
+              "placeholder": "Et privat utvalg er nok",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "mustHavesOrHighlights",
+              "label": "Eiendomshøydepunkter",
+              "placeholder": "Hva gjør dette hjemmet distinkt?",
+              "type": "textarea",
+              "required": true
+            },
+            {
+              "key": "dealbreakersOrBuyerCriteria",
+              "label": "Kjøpertilpasningskriterier",
+              "placeholder": "Hva bør være sant for en seriøs kjøper?",
+              "type": "textarea",
+              "required": false
+            },
+            {
+              "key": "timing",
+              "label": "timing",
+              "placeholder": "Når vil du være klar til å arrangere en visning?",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "readiness",
+              "label": "beredskap",
+              "placeholder": "Forbereder, klar for privat visning...",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "privateConstraints",
+              "label": "Private begrensninger",
+              "placeholder": "Alt Nest skal holde seg privat",
+              "type": "textarea",
+              "required": false
+            }
+          ]
+        }
+      ],
+      "hero": {
+        "eyebrow": "Den ene boligen, eller den ene kjøperen - ikke en rulle med oppføringer.",
+        "headingLines": [
+          "Én kvalifisert introduksjon",
+          "Det passer, ikke tusen",
+          "Du må filtrere deg selv."
+        ],
+        "body": "Fortell Nest hva du faktisk leter etter, eller hva du faktisk selger. Nest foreslår en fyrstikk. Begge sider sier ja før noe deles.",
+        "backgroundImage": "/landing-pages/nest/nest-hero-interior-clean.png",
+        "backgroundAlt": "Et varmt, rolig hjemmeinteriør",
+        "primaryCtaLabel": "Snakk med Nest",
+        "secondaryCtaLabel": "Møt Nest",
+        "privacyLine": "en kamp om gangen. menneskelig gjennomgått. Privat til begge sider melder seg på.",
+        "characterImage": "/landing-pages/nest/nest-character-meet-compact-high-wings-transparent.png",
+        "characterAlt": "Nest holder en notatbok og nøkler med kompakte vinger",
+        "chat": {
+          "statusLabel": "Online · Human Supervised",
+          "privacyBadge": "Privat",
+          "openingMessage": "Kjøper eller selger du?",
+          "visitorMessage": "Jeg kjøper",
+          "assistantMessage": "Fortell meg hjemmet det er verdt å flytte til. Jeg vil bare be om detaljene en menneskelig anmelder trenger, og deretter bringe tilbake en som anses som passende.",
+          "inputPlaceholder": "Fortell Nest hva du trenger fra et hjem..."
+        },
+        "briefDemo": {
+          "enabled": true,
+          "commandTrigger": "request-introduction",
+          "introHeading": "Ditt private hjem kort",
+          "introBody": "Del bare det en menneskelig anmelder trenger. Nøyaktige adresser og kontaktinformasjon etterspørres aldri her.",
+          "chatLabel": "Bygg av chat · 10 omganger",
+          "voiceLabel": "Bygg med stemme · 5 min",
+          "reviewLabel": "Gjennomgangskort",
+          "editLabel": "Redigere",
+          "reviewHeading": "Gjennomgå din private brief",
+          "reviewBody": "Ingenting blir bevart, søkt, foreslått eller delt mens du er anonym.",
+          "submitLabel": "Logg på for menneskelig vurdering",
+          "loginNotice": "Logg på for å flytte denne private hjemmebriefen inn i Nest-arbeidsområdet ditt for autentisert menneskelig gjennomgang.",
+          "expiryCopy": "Uinnsendte truser utløper etter en time.",
+          "privacyCopy": "Ingen deltakersøk, eksakt adressedeling eller kontaktavsløring mens du er anonym.",
+          "errorCopy": "Nest kunne ikke lagre denne oppgaven. Vennligst prøv på nytt eller logg på."
+        }
+      },
+      "audience": {
+        "kicker": "en mindre dør etter design",
+        "heading": "For folk som er klare for et ekte neste steg.",
+        "body": "Ingen offentlig katalog. Ingen eiendomsfeed. Ingen filtergitter. Nest lytter, foreslår ett anfall, og venter på to private ja.",
+        "forHeading": "dette er for",
+        "forItems": [
+          "Kjøpere som ser seriøst og kan handle raskt.",
+          "Selgere som foretrekker et lite antall kvalifiserte, forhåndsmatchede kjøpere fremfor åpen offentlig eksponering."
+        ],
+        "notForHeading": "Dette er ikke for",
+        "notForItems": [
+          "Tilfeldige besøkende som kun vil se hva som er på markedet.",
+          "Alle som forventer en offentlig eiendomsfeed eller et rutenett av filtre.",
+          "Folk som leter etter bulkavtaleflyt."
+        ]
+      },
+      "privacy": {
+        "kicker": "Personvern er sekvensen",
+        "heading": "Adressen din forblir privat til dere begge sier ja.",
+        "body": "Nest starter med et område på størrelse med nabolaget. Identitet, kontaktinformasjon og den nøyaktige adressen forblir låst gjennom forslaget og stadiene med gjensidig samtykke.",
+        "stages": [
+          {
+            "status": "proposed",
+            "label": "foreslått",
+            "title": "Generelt område",
+            "body": "Ingen identitet eller eksakt plassering er synlig. Hver side kan godta eller bestå."
+          },
+          {
+            "status": "accepted",
+            "label": "begge akseptert",
+            "title": "Gjensidig ja",
+            "body": "Begge sider aksepterte. En person fullfører den endelige verifiseringen før detaljer går ut."
+          },
+          {
+            "status": "confirmed",
+            "label": "bekreftet",
+            "title": "Introduksjon bekreftet",
+            "body": "Full kontaktinformasjon, den nøyaktige adressen og den foreslåtte tiden er nå tilgjengelig for begge deltakerne."
+          }
+        ],
+        "proposalLabel": "Forslag",
+        "proposalAreaLabel": "Generelt område",
+        "proposalArea": "Utrecht, Overvecht",
+        "proposalNote": "Ingen identitet eller eksakt plassering er synlig. Hver side kan godta eller bestå."
+      },
+      "process": {
+        "kicker": "Hvordan det fungerer",
+        "heading": "en forsiktig sekvens.",
+        "licensedAgentNote": "En lisensiert lokal agent er sløyfet inn når du er klar til å gå videre."
+      },
+      "proposals": {
+        "kicker": "Hvordan et forslag ser ut",
+        "heading": "to sider. en ansett som passende.",
+        "body": "Disse eksempelkortene viser formen på et reirforslag. De avslører aldri en identitet eller eksakt adresse før gjensidig samtykke.",
+        "cards": [
+          {
+            "pairing": "Kjøper × eiendom",
+            "status": "proposed",
+            "heading": "Stille hjem, grønt utsikt, fleksibel overlevering.",
+            "facts": [
+              {
+                "label": "Generelt område",
+                "value": "Utrecht, Overvecht"
+              },
+              {
+                "label": "hendelsesplass",
+                "value": "Lørdag morgen"
+              }
+            ],
+            "tone": "cream"
+          },
+          {
+            "pairing": "Eiendom × Kvalifisert kjøper",
+            "status": "accepted",
+            "heading": "Finansiering utarbeidet, timing på linje, prioriteringer forstått.",
+            "facts": [
+              {
+                "label": "Kjøpersammendrag",
+                "value": "klar til å gå ettertenksomt videre"
+              },
+              {
+                "label": "hendelsesplass",
+                "value": "Søndag ettermiddag"
+              }
+            ],
+            "tone": "terracotta"
+          }
+        ]
+      },
+      "meet": {
+        "kicker": "Møt Nest",
+        "heading": "Detalj-notisøren i hjørnet ditt.",
+        "body": "Nest lytter utover det åpenbare kort: morgenlyset du elsket, timingen du ikke kan flytte, det ene kompromisset som egentlig ikke er et kompromiss. Så bringer Nest tilbake en ansett som passende.",
+        "characterImage": "/landing-pages/nest/nest-character-meet-compact-high-wings-transparent.png",
+        "characterAlt": "Møt Nest, hold en notatbok og nøkler med kompakte vinger hevet bak de øvre skuldrene",
+        "principles": [
+          {
+            "title": "Hører først",
+            "body": "En samtale, ikke en vegg av felt."
+          },
+          {
+            "title": "foreslår en passform",
+            "body": "Ingen offentlig eiendomsfeed eller endeløst rutenett."
+          },
+          {
+            "title": "venter på to ja",
+            "body": "Identitet og eksakt adresse forbli privat inntil gjensidig samtykke."
+          }
+        ],
+        "primaryCtaLabel": "Snakk med Nest",
+        "secondaryCtaLabel": "Se hvordan det fungerer"
+      },
+      "footer": {
+        "brandLabel": "reir.",
+        "tagline": "En forsiktig hjemmeintroduksjon om gangen.",
+        "disclaimer": "Nest er ikke et lisensiert meglerhus og representerer ikke noen av partene, forhandler, verdsetter hjemmet ditt eller håndterer transaksjonen din. Når du er klar til å gå videre, kobler vi deg til en lisensiert lokal agent for å fullføre prosessen. Not a broker. Does not represent either party. Does not provide valuations. Does not negotiate.",
+        "eventDisclaimer": "Detaljerte detaljer om andre hjem er modellert for denne reir-instansieringen og bør verifiseres før oppmøte.",
+        "copyright": "© 2026 Nest",
+        "groups": [
+          {
+            "label": "Utforske",
+            "links": [
+              {
+                "label": "Hvordan det fungerer",
+                "target": "how-it-works"
+              },
+              {
+                "label": "Privatliv",
+                "target": "privacy"
+              },
+              {
+                "label": "Forslag",
+                "target": "proposals"
+              }
+            ]
+          },
+          {
+            "label": "Rede",
+            "links": [
+              {
+                "label": "Møt Nest",
+                "target": "meet"
+              },
+              {
+                "label": "Bygg en brief",
+                "target": "hero-chat"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "generatedAt": "2026-09-01T15:39:42.215Z"
+}

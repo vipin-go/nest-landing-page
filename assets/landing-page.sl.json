@@ -1,0 +1,500 @@
+{
+  "schemaVersion": 1,
+  "language": "sl",
+  "regionKey": null,
+  "sourceRevision": "b403368b522c83332476945d763c1cdb9c3211e7fa0204db9923ea107dbb96a8",
+  "landingPage": {
+    "headline": "En kvalificiran uvod, ki ustreza.",
+    "subheadline": "Predstavitev zasebnega kupca in prodajalca, en predlog, ki ga je človek pregledal naenkrat.",
+    "ctaLabel": "Pogovorite se z Nestom",
+    "secondaryCtaLabel": "Poglejte, kako deluje",
+    "heroCharacterImage": "/landing-pages/nest/nest-character-meet-compact-high-wings-transparent.png",
+    "seoImage": {
+      "src": "/landing-pages/nest/og.jpg",
+      "alt": "Nest, zasebni vodnik za uvedbo doma, v topli notranjosti z besedami en skrben uvod"
+    },
+    "header": {
+      "brandMark": "image",
+      "logoImageUrl": "/landing-pages/nest/nest-keyround-logo.svg"
+    },
+    "design": {
+      "variant": "home-introductions",
+      "defaultThemeMode": "light",
+      "theme": {
+        "palette": "emerald",
+        "primaryColor": "emerald",
+        "secondaryColor": "stone",
+        "accentColor": "orange",
+        "fontFamily": "inter"
+      },
+      "brand": {
+        "presetRevision": 1,
+        "colors": {
+          "light": {
+            "canvas": "#f3efe5",
+            "surface": "#fffaf0",
+            "sidebar": "#173e31",
+            "text": "#18352a",
+            "accent": "#bd623f",
+            "userBubble": "#173e31"
+          },
+          "dark": {
+            "canvas": "#10251e",
+            "surface": "#173129",
+            "sidebar": "#0c1d17",
+            "text": "#f3efe5",
+            "accent": "#e29a7d",
+            "userBubble": "#bd623f"
+          }
+        },
+        "typography": {
+          "body": {
+            "source": "google",
+            "family": "DM Sans"
+          },
+          "display": {
+            "source": "google",
+            "family": "Manrope"
+          },
+          "label": {
+            "source": "google",
+            "family": "DM Sans"
+          }
+        }
+      }
+    },
+    "homeIntroductions": {
+      "header": {
+        "brandLabel": "gnezdo.",
+        "brandTagline": "En skrben uvod",
+        "navItems": [
+          {
+            "label": "Kako deluje",
+            "target": "how-it-works"
+          },
+          {
+            "label": "Zasebnost",
+            "target": "privacy"
+          },
+          {
+            "label": "Začnite tukaj",
+            "target": "hero-chat"
+          }
+        ],
+        "ctaLabel": "Zahtevajte uvod",
+        "mobileCtaLabel": "Začetek"
+      },
+      "service": {
+        "activeMode": "event",
+        "announcement": "Zdaj se ujema na drugem domačem sejmu, Jaarbeurs Utrecht – pet, 27.–ned 29. marec",
+        "feeCopy": "Pristojbina v skupni rabi, preden zahtevate predstavitev",
+        "disclaimer": "Nest ni licenčno posredništvo in ne predstavlja nobene stranke, se ne pogaja, ne ceni vašega doma ali upravlja vaše transakcije. Ko ste pripravljeni na naprej, vas povežemo z licenciranim lokalnim agentom, da dokončate postopek.",
+        "configurations": [
+          {
+            "mode": "event",
+            "label": "Dogodek",
+            "actionLabel": "Pogled",
+            "name": "Drugi domači sejem, Jaarbeurs Utrecht",
+            "location": "Jaarbeurs Utrecht",
+            "dateRange": "Pet 27. ned 29. marec",
+            "availabilityLabel": "Pet 27–ned 29. mar · Jaarbeurs Utrecht"
+          },
+          {
+            "mode": "city",
+            "label": "Mesto",
+            "actionLabel": "Pogled",
+            "name": "Nest Amsterdam",
+            "location": "Amsterdam Zuid",
+            "dateRange": "V teku",
+            "availabilityLabel": "Vedno vklopljeni lokalni uvodi"
+          }
+        ]
+      },
+      "tracks": [
+        {
+          "id": "buying",
+          "label": "jaz kupujem",
+          "responseMessage": "Povej mi dom, za katerega bi se bilo vredno preseliti. Prosil bom samo za podrobnosti, ki jih potrebuje človeški recenzent, nato pa se vrnem, ki se zdijo primerni.",
+          "composerPlaceholder": "Povejte Nestu, kaj potrebujete od doma ...",
+          "processSteps": [
+            {
+              "number": "01",
+              "image": "/landing-pages/nest/nest-how-conversation-human.webp",
+              "alt": "Potencialni kupec, ki si deli zasebni dom z Nestom",
+              "title": "Imejte pravi pogovor z Nestom.",
+              "body": "Pogovorite se o tem, kaj dejansko potrebujete: proračun, obveznost, kršitve dogovorov in čas. V pogovor sodijo tudi majhne podrobnosti."
+            },
+            {
+              "number": "02",
+              "image": "/landing-pages/nest/nest-how-review-human.webp",
+              "alt": "Nest in človeški recenzent, ki skrbno razmišljata o enem kupcu in enem domu",
+              "title": "prejmete eno lastnost, ki ustreza naenkrat.",
+              "body": "Oseba pregleda vsak predlog, preden ga katera koli stran vidi. Brez javnega kataloga, razvrščanja ali neskončne filtrirne mreže.",
+              "badge": "Človeško odobreno"
+            },
+            {
+              "number": "03",
+              "image": "/landing-pages/nest/nest-how-introduction-human.webp",
+              "alt": "Nest predstavlja potencialnega kupca in lastnika stanovanja po medsebojnem soglasju",
+              "title": "Skupaj odklenite uvod.",
+              "body": "Ko obe strani sprejmeta, se polni naslov, kontaktni podatki in predlagani čas ogleda delijo zasebno."
+            }
+          ],
+          "briefFields": [
+            {
+              "key": "area",
+              "label": "Prednostno ali splošno območje",
+              "placeholder": "Regija Utrecht, Amsterdam Zuid…",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "propertyType",
+              "label": "Vrsta lastnosti",
+              "placeholder": "Apartma, družinski dom, drugi dom…",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "propertyBrief",
+              "label": "Kakšen bi moral biti dom?",
+              "placeholder": "Opišite dom in zakaj je pomemben.",
+              "type": "textarea",
+              "required": true
+            },
+            {
+              "key": "budgetOrPrice",
+              "label": "Razpon proračuna",
+              "placeholder": "Zasebni obseg je dovolj",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "mustHavesOrHighlights",
+              "label": "Obvezno imeti",
+              "placeholder": "Svetloba, vrt, delovni prostor, dostopnost…",
+              "type": "textarea",
+              "required": true
+            },
+            {
+              "key": "dealbreakersOrBuyerCriteria",
+              "label": "Dealbreakers",
+              "placeholder": "Kaj bi naredilo uvedbo slabo?",
+              "type": "textarea",
+              "required": false
+            },
+            {
+              "key": "timing",
+              "label": "Čas",
+              "placeholder": "Kdaj bi bili pripravljeni za ogled ali selitev?",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "readiness",
+              "label": "Pripravljenost",
+              "placeholder": "Raziskovanje, hipotekarna pripravljena, kupec gotovine ...",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "privateConstraints",
+              "label": "Zasebne omejitve",
+              "placeholder": "Vse, kar gnezdo, mora biti zasebno",
+              "type": "textarea",
+              "required": false
+            }
+          ]
+        },
+        {
+          "id": "selling",
+          "label": "prodam",
+          "responseMessage": "Povejte mi, zakaj je dom razločen in kateri kupec bi bil resno primeren. Natančen naslov bom ohranil zaseben in vrnil enega obravnavanega uvoda.",
+          "composerPlaceholder": "Povejte Nestu, kaj je pomembno pri vaši prodaji ...",
+          "processSteps": [
+            {
+              "number": "01",
+              "image": "/landing-pages/nest/nest-how-conversation-human.webp",
+              "alt": "Lastnik stanovanja, ki si deli zasebno lastnino z Nestom",
+              "title": "Imejte pravi pogovor z Nestom.",
+              "body": "Pogovorite se o nepremičnini, svojem času, motivaciji in o tem, kaj vam pomeni kvalificirana."
+            },
+            {
+              "number": "02",
+              "image": "/landing-pages/nest/nest-how-review-human.webp",
+              "alt": "Nest in človeški recenzent, ki skrbno upošteva enega prodajalca in enega kvalificiranega kupca",
+              "title": "Prejmite enega kupca naenkrat.",
+              "body": "Oseba pregleda vsak predlog, preden ga katera koli stran vidi. Brez javne izpostavljenosti ali množičnega posla.",
+              "badge": "Človeško odobreno"
+            },
+            {
+              "number": "03",
+              "image": "/landing-pages/nest/nest-how-introduction-human.webp",
+              "alt": "Nest Predstavitev lastnika stanovanja in bodočega kupca po medsebojnem soglasju",
+              "title": "Skupaj odklenite uvod.",
+              "body": "Ko obe strani sprejmeta, se kontaktni podatki, točen naslov in predlagani čas ogleda delijo zasebno."
+            }
+          ],
+          "briefFields": [
+            {
+              "key": "area",
+              "label": "Splošno območje",
+              "placeholder": "Samo soseska ali široka površina",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "propertyType",
+              "label": "Vrsta lastnosti",
+              "placeholder": "Apartma, družinski dom, drugi dom…",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "propertyBrief",
+              "label": "Povzetek nepremičnin",
+              "placeholder": "Opišite nepremičnino brez natančnega naslova.",
+              "type": "textarea",
+              "required": true
+            },
+            {
+              "key": "budgetOrPrice",
+              "label": "Razpon povpraševalne cene",
+              "placeholder": "Zasebni obseg je dovolj",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "mustHavesOrHighlights",
+              "label": "Poudarki lastnosti",
+              "placeholder": "Po čem se ta dom razlikuje?",
+              "type": "textarea",
+              "required": true
+            },
+            {
+              "key": "dealbreakersOrBuyerCriteria",
+              "label": "Merila za kupca",
+              "placeholder": "Kaj bi moralo veljati za resnega kupca?",
+              "type": "textarea",
+              "required": false
+            },
+            {
+              "key": "timing",
+              "label": "Čas",
+              "placeholder": "Kdaj bi se lahko dogovorili za ogled?",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "readiness",
+              "label": "Pripravljenost",
+              "placeholder": "Priprava, pripravljena na zasebne oglede…",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "privateConstraints",
+              "label": "Zasebne omejitve",
+              "placeholder": "Vse, kar gnezdo, mora biti zasebno",
+              "type": "textarea",
+              "required": false
+            }
+          ]
+        }
+      ],
+      "hero": {
+        "eyebrow": "En dom ali en kupec - ne zvitek seznamov.",
+        "headingLines": [
+          "En kvalificiran uvod",
+          "To ustreza, ne tisoč",
+          "Morate se filtrirati."
+        ],
+        "body": "Povejte Nestu, kaj dejansko iščete ali kaj dejansko prodajate. Nest predlaga eno tekmo. Obe strani rečeta da, preden se karkoli deli.",
+        "backgroundImage": "/landing-pages/nest/nest-hero-interior-clean.png",
+        "backgroundAlt": "Topla, mirna domača notranjost",
+        "primaryCtaLabel": "Pogovorite se z Nestom",
+        "secondaryCtaLabel": "Spoznajte Nest",
+        "privacyLine": "Ena tekma naenkrat. človek pregledan. Zasebno, dokler se obe strani ne odločita.",
+        "characterImage": "/landing-pages/nest/nest-character-meet-compact-high-wings-transparent.png",
+        "characterAlt": "Gnez s kompaktnimi krili drži zvezek in tipke",
+        "chat": {
+          "statusLabel": "Na spletu · Človeško nadzorovano",
+          "privacyBadge": "Zaseben",
+          "openingMessage": "Ali kupujete ali prodajate?",
+          "visitorMessage": "jaz kupujem",
+          "assistantMessage": "Povej mi dom, za katerega bi se bilo vredno preseliti. Prosil bom samo za podrobnosti, ki jih potrebuje človeški recenzent, nato pa se vrnem, ki se zdijo primerni.",
+          "inputPlaceholder": "Povejte Nestu, kaj potrebujete od doma ..."
+        },
+        "briefDemo": {
+          "enabled": true,
+          "commandTrigger": "request-introduction",
+          "introHeading": "Vaš zasebni dom",
+          "introBody": "Delite samo tisto, kar potrebuje človeški recenzent. Natančni naslovi in kontaktni podatki se tukaj nikoli ne zahtevajo.",
+          "chatLabel": "Gradite s klepetom · 10 zavojev",
+          "voiceLabel": "Gradite z glasom · 5 min",
+          "reviewLabel": "Povzetek pregleda",
+          "editLabel": "Urejanje",
+          "reviewHeading": "Preglejte svoj zasebni zapis",
+          "reviewBody": "Nič se ne vztraja, išče, predlaga ali deli, medtem ko ste anonimni.",
+          "submitLabel": "Prijavite se za človeški pregled",
+          "loginNotice": "Prijavite se, če želite premakniti ta zasebni dom v svoj delovni prostor Nest za Authenticated Human Review.",
+          "expiryCopy": "Neoddane kratkih hlač potečejo po eni uri.",
+          "privacyCopy": "Brez iskanja udeležencev, skupne rabe naslova ali razkritja stika, medtem ko je anonimno.",
+          "errorCopy": "Nest tega poročila ni mogel shraniti. Prosimo, poskusite znova ali se prijavite."
+        }
+      },
+      "audience": {
+        "kicker": "Po zasnovi manjša vrata",
+        "heading": "Za ljudi, ki so pripravljeni na pravi naslednji korak.",
+        "body": "Brez javnega kataloga. Brez vira lastnine. Brez filtrske mreže. Nest posluša, predlaga eno prileganje in čaka na dva zasebna da.",
+        "forHeading": "To je za",
+        "forItems": [
+          "Kupci, ki resno iščejo in lahko hitro ukrepajo.",
+          "Prodajalci, ki imajo raje majhno število kvalificiranih, vnaprej usklajenih kupcev kot odprto javno izpostavljenost."
+        ],
+        "notForHeading": "To ni za",
+        "notForItems": [
+          "Občasni obiskovalci, ki želijo videti le tisto, kar je na trgu.",
+          "Vsakdo, ki pričakuje vir javne lastnine ali mrežo filtrov.",
+          "Ljudje, ki iščejo tok v razsutem stanju."
+        ]
+      },
+      "privacy": {
+        "kicker": "Zasebnost je zaporedje",
+        "heading": "Vaš naslov ostane zaseben, dokler oba ne rečeta da.",
+        "body": "Gnezdo se začne z območjem v velikosti soseske. Identiteta, kontaktni podatki in natančen naslov ostanejo zaklenjeni skozi faze predloga in vzajemnega soglasja.",
+        "stages": [
+          {
+            "status": "proposed",
+            "label": "Predlagano",
+            "title": "Splošno območje",
+            "body": "Nobena identiteta ali natančna lokacija ni vidna. Vsaka stran lahko sprejme ali sprejme."
+          },
+          {
+            "status": "accepted",
+            "label": "Oba sprejeta",
+            "title": "Vzajemno da",
+            "body": "Obe strani sta bili sprejeti. Oseba dokonča končno preverjanje, preden se podrobnosti izidejo."
+          },
+          {
+            "status": "confirmed",
+            "label": "potrjeno",
+            "title": "Uvod potrjen",
+            "body": "Popolni kontaktni podatki, točen naslov in predlagani čas so zdaj na voljo obema udeležencema."
+          }
+        ],
+        "proposalLabel": "Predlog",
+        "proposalAreaLabel": "Splošno območje",
+        "proposalArea": "Utrecht, Overvecht",
+        "proposalNote": "Nobena identiteta ali natančna lokacija ni vidna. Vsaka stran lahko sprejme ali sprejme."
+      },
+      "process": {
+        "kicker": "Kako deluje",
+        "heading": "Eno skrbno zaporedje.",
+        "licensedAgentNote": "Ko ste pripravljeni na nadaljevanje, je priložen licencirani lokalni agent."
+      },
+      "proposals": {
+        "kicker": "Kako izgleda predlog",
+        "heading": "Dve strani. Eden se je štel za primernega.",
+        "body": "Te vzorčne kartice prikazujejo obliko predloga gnezda. Nikoli ne razkrijejo identitete ali natančnega naslova pred medsebojno soglasjem.",
+        "cards": [
+          {
+            "pairing": "Kupec × nepremičnina",
+            "status": "proposed",
+            "heading": "Miren dom, zeleni izgled, prilagodljiva predaja.",
+            "facts": [
+              {
+                "label": "Splošno območje",
+                "value": "Utrecht, Overvecht"
+              },
+              {
+                "label": "Reža za dogodek",
+                "value": "Sobotno jutro"
+              }
+            ],
+            "tone": "cream"
+          },
+          {
+            "pairing": "Nepremičnina",
+            "status": "accepted",
+            "heading": "Pripravljeno financiranje, časovno usklajen, prednostne naloge razumljene.",
+            "facts": [
+              {
+                "label": "Povzetek kupca",
+                "value": "Pripravljen za premišljeno napredovanje"
+              },
+              {
+                "label": "Reža za dogodek",
+                "value": "Nedeljsko popoldne"
+              }
+            ],
+            "tone": "terracotta"
+          }
+        ]
+      },
+      "meet": {
+        "kicker": "Spoznajte Nest",
+        "heading": "Detajli v vašem kotu.",
+        "body": "Nest posluša onkraj očitnega poročila: jutranja svetloba, ki ste jo imeli radi, čas, ki ga ne morete premakniti, en kompromis, ki v resnici ni kompromis. Potem Nest vrne enega, ki se mu zdi primeren.",
+        "characterImage": "/landing-pages/nest/nest-character-meet-compact-high-wings-transparent.png",
+        "characterAlt": "Spoznajte gnezdo, držite zvezek in tipke s kompaktnimi krili, dvignjenimi za zgornjimi rameni",
+        "principles": [
+          {
+            "title": "najprej posluša",
+            "body": "Pogovor, ne zid polj."
+          },
+          {
+            "title": "predlaga eno prileganje",
+            "body": "Brez vira javne lastnine ali neskončne mreže."
+          },
+          {
+            "title": "Čaka na dva da",
+            "body": "Identity and exact address stay private until mutual consent."
+          }
+        ],
+        "primaryCtaLabel": "Pogovorite se z Nestom",
+        "secondaryCtaLabel": "Poglejte, kako deluje"
+      },
+      "footer": {
+        "brandLabel": "gnezdo.",
+        "tagline": "En previden dom naenkrat.",
+        "disclaimer": "Nest ni licenčno posredništvo in ne predstavlja nobene stranke, se ne pogaja, ne ceni vašega doma ali upravlja vaše transakcije. Ko ste pripravljeni na naprej, vas povežemo z licenciranim lokalnim agentom, da dokončate postopek. Not a broker. Does not represent either party. Does not provide valuations. Does not negotiate.",
+        "eventDisclaimer": "Podrobnosti drugega domačega sejma so modelirane za to instantacijo gnezda in jih je treba preveriti pred udeležbo.",
+        "copyright": "© 2026 Gnezdo",
+        "groups": [
+          {
+            "label": "Raziskovati",
+            "links": [
+              {
+                "label": "Kako deluje",
+                "target": "how-it-works"
+              },
+              {
+                "label": "Zasebnost",
+                "target": "privacy"
+              },
+              {
+                "label": "Predlogi",
+                "target": "proposals"
+              }
+            ]
+          },
+          {
+            "label": "Gnezdo",
+            "links": [
+              {
+                "label": "Spoznajte Nest",
+                "target": "meet"
+              },
+              {
+                "label": "Sestavite kratko",
+                "target": "hero-chat"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "generatedAt": "2026-09-01T15:39:42.215Z"
+}

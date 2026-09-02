@@ -1,0 +1,500 @@
+{
+  "schemaVersion": 1,
+  "language": "he",
+  "regionKey": null,
+  "sourceRevision": "b403368b522c83332476945d763c1cdb9c3211e7fa0204db9923ea107dbb96a8",
+  "landingPage": {
+    "headline": "מבוא מוסמך אחד שמתאים.",
+    "subheadline": "היכרות עם קונים ומוכרים פרטיים, הצעה אחת שנבדקה על ידי אדם בכל פעם.",
+    "ctaLabel": "דבר עם Nest",
+    "secondaryCtaLabel": "תראה איך זה עובד",
+    "heroCharacterImage": "/landing-pages/nest/nest-character-meet-compact-high-wings-transparent.png",
+    "seoImage": {
+      "src": "/landing-pages/nest/og.jpg",
+      "alt": "Nest, מדריך היכרות פרטי לבית, בפנים חמים עם המילים הקדמה אחת זהירה"
+    },
+    "header": {
+      "brandMark": "image",
+      "logoImageUrl": "/landing-pages/nest/nest-keyround-logo.svg"
+    },
+    "design": {
+      "variant": "home-introductions",
+      "defaultThemeMode": "light",
+      "theme": {
+        "palette": "emerald",
+        "primaryColor": "emerald",
+        "secondaryColor": "stone",
+        "accentColor": "orange",
+        "fontFamily": "inter"
+      },
+      "brand": {
+        "presetRevision": 1,
+        "colors": {
+          "light": {
+            "canvas": "#f3efe5",
+            "surface": "#fffaf0",
+            "sidebar": "#173e31",
+            "text": "#18352a",
+            "accent": "#bd623f",
+            "userBubble": "#173e31"
+          },
+          "dark": {
+            "canvas": "#10251e",
+            "surface": "#173129",
+            "sidebar": "#0c1d17",
+            "text": "#f3efe5",
+            "accent": "#e29a7d",
+            "userBubble": "#bd623f"
+          }
+        },
+        "typography": {
+          "body": {
+            "source": "google",
+            "family": "DM Sans"
+          },
+          "display": {
+            "source": "google",
+            "family": "Manrope"
+          },
+          "label": {
+            "source": "google",
+            "family": "DM Sans"
+          }
+        }
+      }
+    },
+    "homeIntroductions": {
+      "header": {
+        "brandLabel": "קן.",
+        "brandTagline": "הקדמה אחת זהירה",
+        "navItems": [
+          {
+            "label": "איך זה עובד",
+            "target": "how-it-works"
+          },
+          {
+            "label": "פְּרָטִיוּת",
+            "target": "privacy"
+          },
+          {
+            "label": "התחל כאן",
+            "target": "hero-chat"
+          }
+        ],
+        "ctaLabel": "בקש מבוא",
+        "mobileCtaLabel": "הַתחָלָה"
+      },
+      "service": {
+        "activeMode": "event",
+        "announcement": "כעת תואם ביריד הבית השני, Jaarbeurs Utrecht - שישי 27-ראשון 29 במרץ",
+        "feeCopy": "עמלה משותפת לפני שאתה מבקש היכרות",
+        "disclaimer": "Nest אינה תיווך מורשה ואינה מייצגת אף אחד מהצדדים, מנהלת משא ומתן, מעריכה את הבית שלך או מטפלת בעסקה שלך. כאשר אתה מוכן להתקדם, אנו מחברים אותך עם סוכן מקומי מורשה כדי להשלים את התהליך.",
+        "configurations": [
+          {
+            "mode": "event",
+            "label": "מִקרֶה",
+            "actionLabel": "נוֹף",
+            "name": "יריד בית שני, Jaarbeurs Utrecht",
+            "location": "Jaarbeurs Utrecht",
+            "dateRange": "שישי 27-ראשון 29 במרץ",
+            "availabilityLabel": "שישי 27–ראשון 29 במרץ · Jaarbeurs Utrecht"
+          },
+          {
+            "mode": "city",
+            "label": "עִיר",
+            "actionLabel": "נוֹף",
+            "name": "קן אמסטרדם",
+            "location": "אמסטרדם זויד",
+            "dateRange": "מתמשך",
+            "availabilityLabel": "היכרות מקומית תמידית"
+          }
+        ]
+      },
+      "tracks": [
+        {
+          "id": "buying",
+          "label": "אני קונה",
+          "responseMessage": "תגיד לי בשביל הבית ששווה לעבור בשבילו. אבקש רק את הפרטים שמבקר אנושי צריך, ואז אחזיר אחד שנחשב מתאים.",
+          "composerPlaceholder": "ספר ל-Nest מה אתה צריך מבית...",
+          "processSteps": [
+            {
+              "number": "01",
+              "image": "/landing-pages/nest/nest-how-conversation-human.webp",
+              "alt": "קונה פוטנציאלי חולק תדריך בית פרטי עם Nest",
+              "title": "לנהל שיחה אמיתית עם Nest.",
+              "body": "דברו על מה שאתם באמת צריכים: תקציב, חובה, פורצי עסקאות ותזמון. גם הפרטים הקטנים שייכים לשיחה."
+            },
+            {
+              "number": "02",
+              "image": "/landing-pages/nest/nest-how-review-human.webp",
+              "alt": "קן ומבקר אנושי שוקלים בקפידה קונה אחד ובית אחד",
+              "title": "קבל נכס אחד בהתאמה בכל פעם.",
+              "body": "אדם בוחן כל הצעה לפני ששני הצדדים יראו אותה. אין קטלוג ציבורי, דירוג או רשת סינון אינסופית.",
+              "badge": "אדם מאושר"
+            },
+            {
+              "number": "03",
+              "image": "/landing-pages/nest/nest-how-introduction-human.webp",
+              "alt": "Nest מציגה קונה פוטנציאלי ובעל בית לאחר הסכמה הדדית",
+              "title": "פתח את המבוא ביחד.",
+              "body": "לאחר ששני הצדדים מקבלים, הכתובת המלאה, פרטי הקשר וזמן הצפייה המוצע משותפים באופן פרטי."
+            }
+          ],
+          "briefFields": [
+            {
+              "key": "area",
+              "label": "אזור מועדף או כללי",
+              "placeholder": "אזור אוטרכט, אמסטרדם זויד...",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "propertyType",
+              "label": "סוג נכס",
+              "placeholder": "דירה, בית משפחה, בית שני...",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "propertyBrief",
+              "label": "איך הבית צריך להרגיש?",
+              "placeholder": "תאר את הבית ולמה זה חשוב.",
+              "type": "textarea",
+              "required": true
+            },
+            {
+              "key": "budgetOrPrice",
+              "label": "טווח תקציב",
+              "placeholder": "מספיק טווח פרטי",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "mustHavesOrHighlights",
+              "label": "פריטי חובה",
+              "placeholder": "אור, גינה, סביבת עבודה, נגישות...",
+              "type": "textarea",
+              "required": true
+            },
+            {
+              "key": "dealbreakersOrBuyerCriteria",
+              "label": "שוברי עסקאות",
+              "placeholder": "מה יהפוך את ההקדמה להתאמה גרועה?",
+              "type": "textarea",
+              "required": false
+            },
+            {
+              "key": "timing",
+              "label": "תִזמוּן",
+              "placeholder": "מתי תהיה מוכן לצפות או לזוז?",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "readiness",
+              "label": "נְכוֹנוּת",
+              "placeholder": "חקר, מוכן למשכנתא, קונה במזומן...",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "privateConstraints",
+              "label": "אילוצים פרטיים",
+              "placeholder": "כל דבר Nest צריך לשמור על פרטיות",
+              "type": "textarea",
+              "required": false
+            }
+          ]
+        },
+        {
+          "id": "selling",
+          "label": "אני מוכר",
+          "responseMessage": "ספר לי מה מייחד את הבית ואיזה קונה יתאים ברצינות. אני אשמור את הכתובת המדויקת פרטית ואחזיר מבוא שנחשב אחד.",
+          "composerPlaceholder": "ספר ל-Nest מה חשוב לגבי המכירה שלך...",
+          "processSteps": [
+            {
+              "number": "01",
+              "image": "/landing-pages/nest/nest-how-conversation-human.webp",
+              "alt": "בעל בית חולק תקציר נכס פרטי עם Nest",
+              "title": "לנהל שיחה אמיתית עם Nest.",
+              "body": "שוחח על הנכס, העיתוי שלך, המוטיבציה ומה המשמעות של הסמכה עבורך."
+            },
+            {
+              "number": "02",
+              "image": "/landing-pages/nest/nest-how-review-human.webp",
+              "alt": "Nest ומבקר אנושי שוקלים בקפידה מוכר אחד וקונה מוסמך אחד",
+              "title": "קבל קונה אחד בכל פעם.",
+              "body": "אדם בוחן כל הצעה לפני ששני הצדדים יראו אותה. אין חשיפה ציבורית או זרימת עסקה בכמות גדולה.",
+              "badge": "אדם מאושר"
+            },
+            {
+              "number": "03",
+              "image": "/landing-pages/nest/nest-how-introduction-human.webp",
+              "alt": "Nest מציגה בעל בית וקונה פוטנציאלי לאחר הסכמה הדדית",
+              "title": "פתח את המבוא ביחד.",
+              "body": "לאחר ששני הצדדים מקבלים, פרטי הקשר, הכתובת המדויקת וזמן הצפייה המוצע משותפים באופן פרטי."
+            }
+          ],
+          "briefFields": [
+            {
+              "key": "area",
+              "label": "אזור כללי",
+              "placeholder": "שכונה או אזור רחב בלבד",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "propertyType",
+              "label": "סוג נכס",
+              "placeholder": "דירה, בית משפחה, בית שני...",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "propertyBrief",
+              "label": "תקציר נכס",
+              "placeholder": "תאר את הנכס ללא כתובת מדויקת.",
+              "type": "textarea",
+              "required": true
+            },
+            {
+              "key": "budgetOrPrice",
+              "label": "טווח מחירים שואל",
+              "placeholder": "מספיק טווח פרטי",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "mustHavesOrHighlights",
+              "label": "דגשים בנכס",
+              "placeholder": "מה מייחד את הבית הזה?",
+              "type": "textarea",
+              "required": true
+            },
+            {
+              "key": "dealbreakersOrBuyerCriteria",
+              "label": "קריטריונים להתאמה לקונה",
+              "placeholder": "מה צריך להיות נכון לגבי קונה רציני?",
+              "type": "textarea",
+              "required": false
+            },
+            {
+              "key": "timing",
+              "label": "תִזמוּן",
+              "placeholder": "מתי תהיו מוכנים לארגן צפייה?",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "readiness",
+              "label": "נְכוֹנוּת",
+              "placeholder": "מתכוננים, מוכנים לצפייה פרטית...",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "privateConstraints",
+              "label": "אילוצים פרטיים",
+              "placeholder": "כל דבר Nest צריך לשמור על פרטיות",
+              "type": "textarea",
+              "required": false
+            }
+          ]
+        }
+      ],
+      "hero": {
+        "eyebrow": "הבית האחד, או הקונה האחד - לא מגילה של רישומים.",
+        "headingLines": [
+          "מבוא מוסמך אחד",
+          "שמתאים, לא אלף",
+          "אתה צריך לסנן את עצמך."
+        ],
+        "body": "ספר ל-Nest מה אתה בעצם מחפש, או מה אתה באמת מוכר. Nest מציע התאמה אחת. שני הצדדים אומרים כן לפני שמשהו משותף.",
+        "backgroundImage": "/landing-pages/nest/nest-hero-interior-clean.png",
+        "backgroundAlt": "פנים בית חם ורגוע",
+        "primaryCtaLabel": "לדבר עם Nest",
+        "secondaryCtaLabel": "הכירו את Nest",
+        "privacyLine": "משחק אחד בכל פעם. אדם נבדק. פרטי עד ששני הצדדים יצטרפו.",
+        "characterImage": "/landing-pages/nest/nest-character-meet-compact-high-wings-transparent.png",
+        "characterAlt": "קן מחזיק מחברת ומפתחות עם כנפיים קומפקטיות",
+        "chat": {
+          "statusLabel": "מקוון · בפיקוח אנושי",
+          "privacyBadge": "פְּרָטִי",
+          "openingMessage": "האם אתה קונה או מוכר?",
+          "visitorMessage": "אני קונה",
+          "assistantMessage": "תגיד לי בשביל הבית ששווה לעבור בשבילו. אבקש רק את הפרטים שמבקר אנושי צריך, ואז אחזיר אחד שנחשב מתאים.",
+          "inputPlaceholder": "ספר ל-Nest מה אתה צריך מבית..."
+        },
+        "briefDemo": {
+          "enabled": true,
+          "commandTrigger": "request-introduction",
+          "introHeading": "תקציר הבית הפרטי שלך",
+          "introBody": "שתף רק את מה שמבקר אנושי צריך. כתובות מדויקות ופרטי התקשרות לעולם אינם מתבקשים כאן.",
+          "chatLabel": "בנייה בצ'אט · 10 סיבובים",
+          "voiceLabel": "בנייה בקול · 5 דקות",
+          "reviewLabel": "תקציר סקירה",
+          "editLabel": "לַעֲרוֹך",
+          "reviewHeading": "עיין בתקציר הפרטי שלך",
+          "reviewBody": "שום דבר לא נמשך, חיפוש, הוצע או משותף בזמן שאתה אנונימי.",
+          "submitLabel": "היכנס לביקורת אנושית",
+          "loginNotice": "היכנס כדי להעביר את תקציר הבית הפרטי הזה לתוך סביבת העבודה של Nest שלך לסקירה אנושית מאומתת.",
+          "expiryCopy": "תקצירים שלא הוגשו יפוג לאחר שעה.",
+          "privacyCopy": "אין חיפוש משתתפים, שיתוף כתובות מדויקות או חשיפת אנשי קשר בזמן אנונימי.",
+          "errorCopy": "נס לא הצליח לשמור את התקציר הזה. אנא נסה שוב או היכנס."
+        }
+      },
+      "audience": {
+        "kicker": "דלת קטנה יותר בעיצוב",
+        "heading": "לאנשים מוכנים לשלב הבא האמיתי.",
+        "body": "אין קטלוג ציבורי. אין הזנת נכסים. אין רשת מסנן. Nest מקשיבה, מציעה התאמה אחת ומחכה לשני כן פרטיים.",
+        "forHeading": "זה עבור",
+        "forItems": [
+          "קונים שמחפשים ברצינות ויכולים לפעול במהירות.",
+          "מוכרים המעדיפים מספר קטן של קונים מוסמכים ותואמים מראש על פני חשיפה ציבורית פתוחה."
+        ],
+        "notForHeading": "זה לא בשביל",
+        "notForItems": [
+          "מבקרים מזדמנים שרוצים רק לראות מה יש בשוק.",
+          "כל מי שמצפה להזנת רכוש ציבורי או לרשת של מסננים.",
+          "אנשים שמחפשים זרימת עסקה בכמות גדולה."
+        ]
+      },
+      "privacy": {
+        "kicker": "פרטיות היא הרצף",
+        "heading": "הכתובת שלך נשארת פרטית עד ששניכם אומרים כן.",
+        "body": "Nest מתחיל עם אזור בגודל שכונה. זהות, פרטי התקשרות והכתובת המדויקת נשארים נעולים בשלבי ההצעה ושלבי ההסכמה ההדדית.",
+        "stages": [
+          {
+            "status": "proposed",
+            "label": "מוּצָע",
+            "title": "אזור כללי",
+            "body": "אין זהות או מיקום מדויק גלוי. כל צד יכול לקבל או לעבור."
+          },
+          {
+            "status": "accepted",
+            "label": "שניהם התקבלו",
+            "title": "הדדי כן",
+            "body": "שני הצדדים התקבלו. אדם מסיים את האימות הסופי לפני יציאת הפרטים."
+          },
+          {
+            "status": "confirmed",
+            "label": "מְאוּשָׁר",
+            "title": "מבוא אושר",
+            "body": "פרטי התקשרות מלאים, הכתובת המדויקת והזמן המוצע זמינים כעת לשני המשתתפים."
+          }
+        ],
+        "proposalLabel": "הצעת נישואין",
+        "proposalAreaLabel": "אזור כללי",
+        "proposalArea": "אוטרכט, אוברבכט",
+        "proposalNote": "אין זהות או מיקום מדויק גלוי. כל צד יכול לקבל או לעבור."
+      },
+      "process": {
+        "kicker": "איך זה עובד",
+        "heading": "רצף זהיר אחד.",
+        "licensedAgentNote": "סוכן מקומי מורשה נכנס בלולאה כאשר אתה מוכן להתקדם."
+      },
+      "proposals": {
+        "kicker": "איך נראית הצעה",
+        "heading": "שני צדדים. אחד נחשב לנכון.",
+        "body": "קלפים לדוגמה אלה מציגים את הצורה של הצעת Nest. הם לעולם לא חושפים זהות או כתובת מדויקת לפני הסכמה הדדית.",
+        "cards": [
+          {
+            "pairing": "קונה × נכס",
+            "status": "proposed",
+            "heading": "בית שקט, השקפה ירוקה, מסירה גמישה.",
+            "facts": [
+              {
+                "label": "אזור כללי",
+                "value": "אוטרכט, אוברבכט"
+              },
+              {
+                "label": "משבצת אירועים",
+                "value": "שבת בבוקר"
+              }
+            ],
+            "tone": "cream"
+          },
+          {
+            "pairing": "נכס × קונה מוסמך",
+            "status": "accepted",
+            "heading": "מימון מוכן, מיושר עיתוי, סדרי עדיפויות מובנים.",
+            "facts": [
+              {
+                "label": "סיכום קונה",
+                "value": "מוכן להתקדם מתוך מחשבה"
+              },
+              {
+                "label": "משבצת אירועים",
+                "value": "יום ראשון אחר הצהריים"
+              }
+            ],
+            "tone": "terracotta"
+          }
+        ]
+      },
+      "meet": {
+        "kicker": "הכירו את Nest",
+        "heading": "הפרט-הבחין יותר בפינה שלך.",
+        "body": "Nest מקשיבה מעבר לבריף הברור: אור הבוקר שאהבת, התזמון שאתה לא יכול לזוז, הפשרה האחת שהיא לא באמת פשרה. ואז Nest מחזיר אחד נחשב לנכון.",
+        "characterImage": "/landing-pages/nest/nest-character-meet-compact-high-wings-transparent.png",
+        "characterAlt": "הכירו את Nest, מחזיקים מחברת ומפתחות עם כנפיים קומפקטיות מורמות מאחורי הכתפיים העליונות",
+        "principles": [
+          {
+            "title": "מקשיב ראשון",
+            "body": "שיחה, לא חומה של שדות."
+          },
+          {
+            "title": "מציע התאמה אחת",
+            "body": "אין הזנת רכוש ציבורי או רשת אינסופית."
+          },
+          {
+            "title": "מחכה לשניים כן",
+            "body": "זהות וכתובת מדויקת נשארים פרטיים עד להסכמה הדדית."
+          }
+        ],
+        "primaryCtaLabel": "דבר עם Nest",
+        "secondaryCtaLabel": "תראה איך זה עובד"
+      },
+      "footer": {
+        "brandLabel": "קן.",
+        "tagline": "הקדמה ביתית זהירה בכל פעם.",
+        "disclaimer": "Nest אינה תיווך מורשה ואינה מייצגת אף אחד מהצדדים, מנהלת משא ומתן, מעריכה את הבית שלך או מטפלת בעסקה שלך. כאשר אתה מוכן להתקדם, אנו מחברים אותך עם סוכן מקומי מורשה כדי להשלים את התהליך. Not a broker. Does not represent either party. Does not provide valuations. Does not negotiate.",
+        "eventDisclaimer": "פרטי יריד הבית השני מעוצבים עבור מופע הקן הזה ויש לאמתם לפני הנוכחות.",
+        "copyright": "© 2026 Nest",
+        "groups": [
+          {
+            "label": "לַחקוֹר",
+            "links": [
+              {
+                "label": "איך זה עובד",
+                "target": "how-it-works"
+              },
+              {
+                "label": "פְּרָטִיוּת",
+                "target": "privacy"
+              },
+              {
+                "label": "הצעות",
+                "target": "proposals"
+              }
+            ]
+          },
+          {
+            "label": "קֵן",
+            "links": [
+              {
+                "label": "הכירו את Nest",
+                "target": "meet"
+              },
+              {
+                "label": "בנה בריף",
+                "target": "hero-chat"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "generatedAt": "2026-09-01T15:39:42.215Z"
+}

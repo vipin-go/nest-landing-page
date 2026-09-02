@@ -1,0 +1,500 @@
+{
+  "schemaVersion": 1,
+  "language": "pt",
+  "regionKey": null,
+  "sourceRevision": "b403368b522c83332476945d763c1cdb9c3211e7fa0204db9923ea107dbb96a8",
+  "landingPage": {
+    "headline": "Uma introdução qualificada que se encaixa.",
+    "subheadline": "Introduções de comprador privado e vendedor, uma proposta revisada por humanos por vez.",
+    "ctaLabel": "Fale com o Nest",
+    "secondaryCtaLabel": "Veja como funciona",
+    "heroCharacterImage": "/landing-pages/nest/nest-character-meet-compact-high-wings-transparent.png",
+    "seoImage": {
+      "src": "/landing-pages/nest/og.jpg",
+      "alt": "Nest, um guia particular de apresentação de casa, em um interior quente com as palavras uma introdução cuidadosa"
+    },
+    "header": {
+      "brandMark": "image",
+      "logoImageUrl": "/landing-pages/nest/nest-keyround-logo.svg"
+    },
+    "design": {
+      "variant": "home-introductions",
+      "defaultThemeMode": "light",
+      "theme": {
+        "palette": "emerald",
+        "primaryColor": "emerald",
+        "secondaryColor": "stone",
+        "accentColor": "orange",
+        "fontFamily": "inter"
+      },
+      "brand": {
+        "presetRevision": 1,
+        "colors": {
+          "light": {
+            "canvas": "#f3efe5",
+            "surface": "#fffaf0",
+            "sidebar": "#173e31",
+            "text": "#18352a",
+            "accent": "#bd623f",
+            "userBubble": "#173e31"
+          },
+          "dark": {
+            "canvas": "#10251e",
+            "surface": "#173129",
+            "sidebar": "#0c1d17",
+            "text": "#f3efe5",
+            "accent": "#e29a7d",
+            "userBubble": "#bd623f"
+          }
+        },
+        "typography": {
+          "body": {
+            "source": "google",
+            "family": "DM Sans"
+          },
+          "display": {
+            "source": "google",
+            "family": "Manrope"
+          },
+          "label": {
+            "source": "google",
+            "family": "DM Sans"
+          }
+        }
+      }
+    },
+    "homeIntroductions": {
+      "header": {
+        "brandLabel": "ninho.",
+        "brandTagline": "Uma introdução cuidadosa",
+        "navItems": [
+          {
+            "label": "Como funciona",
+            "target": "how-it-works"
+          },
+          {
+            "label": "Privacidade",
+            "target": "privacy"
+          },
+          {
+            "label": "Começa aqui",
+            "target": "hero-chat"
+          }
+        ],
+        "ctaLabel": "Solicite uma introdução",
+        "mobileCtaLabel": "Começar"
+      },
+      "service": {
+        "activeMode": "event",
+        "announcement": "Agora igualando na segunda feira em casa, Jaarbeurs Utrecht — Sex 27–Sun 29 Mar",
+        "feeCopy": "Taxa compartilhada antes de solicitar uma introdução",
+        "disclaimer": "A Nest não é uma corretora licenciada e não representa nenhuma das partes, negocia, valoriza sua casa ou lida com sua transação. Quando você estiver pronto para seguir em frente, conectamos você a um agente local licenciado para concluir o processo.",
+        "configurations": [
+          {
+            "mode": "event",
+            "label": "Evento",
+            "actionLabel": "Visão",
+            "name": "Segunda Feira em Casa, Jaarbeurs Utrecht",
+            "location": "Jaarbeurs Utrecht",
+            "dateRange": "Sex 27 a Dom 29 Mar",
+            "availabilityLabel": "Sex 27–Dom 29 Mar · Jaarbeurs Utrecht"
+          },
+          {
+            "mode": "city",
+            "label": "Cidade",
+            "actionLabel": "Visão",
+            "name": "Ninho de Amsterdã",
+            "location": "Amsterdam Zuid",
+            "dateRange": "Contínuo",
+            "availabilityLabel": "Introduções locais sempre ativas"
+          }
+        ]
+      },
+      "tracks": [
+        {
+          "id": "buying",
+          "label": "estou comprando",
+          "responseMessage": "Diga-me a casa pela qual valeria a pena se mudar. Vou pedir apenas os detalhes que um revisor humano precisa e, em seguida, trazer de volta um considerado adequado.",
+          "composerPlaceholder": "Diga ao Nest o que você precisa de uma casa...",
+          "processSteps": [
+            {
+              "number": "01",
+              "image": "/landing-pages/nest/nest-how-conversation-human.webp",
+              "alt": "Um comprador em potencial compartilhando um briefing privado com a Nest",
+              "title": "Tenha uma conversa real com o Nest.",
+              "body": "Fale sobre o que você realmente precisa: orçamento, itens obrigatórios, dealbreakers e timing. Os pequenos detalhes também pertencem à conversa."
+            },
+            {
+              "number": "02",
+              "image": "/landing-pages/nest/nest-how-review-human.webp",
+              "alt": "Nest e um revisor humano considerando cuidadosamente um comprador e uma casa",
+              "title": "Receba um ajuste de propriedade por vez.",
+              "body": "Uma pessoa analisa todas as propostas antes de cada lado vê-la. Nenhum catálogo público, classificação ou grade de filtro sem fim.",
+              "badge": "Humano aprovado"
+            },
+            {
+              "number": "03",
+              "image": "/landing-pages/nest/nest-how-introduction-human.webp",
+              "alt": "Nest Apresentando um potencial comprador e proprietário após o consentimento mútuo",
+              "title": "Desbloqueie a introdução juntos.",
+              "body": "Depois que ambos os lados aceitam, o endereço completo, os detalhes de contato e o tempo de visualização proposto são compartilhados em particular."
+            }
+          ],
+          "briefFields": [
+            {
+              "key": "area",
+              "label": "Área preferida ou geral",
+              "placeholder": "Região de Utrecht, Amsterdã Zuid…",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "propertyType",
+              "label": "Tipo de propriedade",
+              "placeholder": "Apartamento, casa de família, segunda casa…",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "propertyBrief",
+              "label": "Como deve se sentir a casa?",
+              "placeholder": "Descreva a casa e por que ela é importante.",
+              "type": "textarea",
+              "required": true
+            },
+            {
+              "key": "budgetOrPrice",
+              "label": "Faixa de orçamento",
+              "placeholder": "Um intervalo privado é suficiente",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "mustHavesOrHighlights",
+              "label": "Must-haves",
+              "placeholder": "Luz, jardim, espaço de trabalho, acessibilidade…",
+              "type": "textarea",
+              "required": true
+            },
+            {
+              "key": "dealbreakersOrBuyerCriteria",
+              "label": "Dealbreakers",
+              "placeholder": "O que tornaria a introdução um ajuste ruim?",
+              "type": "textarea",
+              "required": false
+            },
+            {
+              "key": "timing",
+              "label": "Momento",
+              "placeholder": "Quando você estaria pronto para ver ou se mudar?",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "readiness",
+              "label": "Prontidão",
+              "placeholder": "Explorando, comprando hipotecas, comprador de dinheiro…",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "privateConstraints",
+              "label": "Restrições privadas",
+              "placeholder": "Qualquer coisa Nest deve manter privada",
+              "type": "textarea",
+              "required": false
+            }
+          ]
+        },
+        {
+          "id": "selling",
+          "label": "estou vendendo",
+          "responseMessage": "Diga-me o que torna a casa distinta e qual comprador seria um ajuste sério. Vou manter o endereço exato privado e trazer de volta uma introdução considerada.",
+          "composerPlaceholder": "Diga ao Nest o que importa sobre sua venda...",
+          "processSteps": [
+            {
+              "number": "01",
+              "image": "/landing-pages/nest/nest-how-conversation-human.webp",
+              "alt": "Um proprietário compartilhando um briefing de propriedade privada com a Nest",
+              "title": "Tenha uma conversa real com o Nest.",
+              "body": "Converse sobre a propriedade, seu momento, motivação e quais são os meios qualificados para você."
+            },
+            {
+              "number": "02",
+              "image": "/landing-pages/nest/nest-how-review-human.webp",
+              "alt": "Nest e um revisor humano considerando cuidadosamente um vendedor e um comprador qualificado",
+              "title": "Receba um ajuste de comprador por vez.",
+              "body": "Uma pessoa analisa todas as propostas antes de cada lado vê-la. Nenhuma exposição pública ou fluxo de negócios em massa.",
+              "badge": "Humano aprovado"
+            },
+            {
+              "number": "03",
+              "image": "/landing-pages/nest/nest-how-introduction-human.webp",
+              "alt": "Nest Apresentando um proprietário e um comprador em potencial após o consentimento mútuo",
+              "title": "Desbloqueie a introdução juntos.",
+              "body": "Depois que ambos os lados aceitam, os detalhes de contato, o endereço exato e o tempo de visualização proposto são compartilhados em particular."
+            }
+          ],
+          "briefFields": [
+            {
+              "key": "area",
+              "label": "Área geral",
+              "placeholder": "bairro ou apenas área ampla",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "propertyType",
+              "label": "Tipo de propriedade",
+              "placeholder": "Apartamento, casa de família, segunda casa…",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "propertyBrief",
+              "label": "Resumo da propriedade",
+              "placeholder": "Descreva a propriedade sem um endereço exato.",
+              "type": "textarea",
+              "required": true
+            },
+            {
+              "key": "budgetOrPrice",
+              "label": "Faixa de preço pedido",
+              "placeholder": "Um intervalo privado é suficiente",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "mustHavesOrHighlights",
+              "label": "Destaques da propriedade",
+              "placeholder": "O que torna esta casa distinta?",
+              "type": "textarea",
+              "required": true
+            },
+            {
+              "key": "dealbreakersOrBuyerCriteria",
+              "label": "Critérios de ajuste do comprador",
+              "placeholder": "O que deve ser verdade para um comprador sério?",
+              "type": "textarea",
+              "required": false
+            },
+            {
+              "key": "timing",
+              "label": "Momento",
+              "placeholder": "Quando você estaria pronto para marcar uma visualização?",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "readiness",
+              "label": "Prontidão",
+              "placeholder": "Preparando-se, pronto para visualizações privadas…",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "privateConstraints",
+              "label": "Restrições privadas",
+              "placeholder": "Qualquer coisa Nest deve manter privada",
+              "type": "textarea",
+              "required": false
+            }
+          ]
+        }
+      ],
+      "hero": {
+        "eyebrow": "A única casa, ou um comprador – não um rolo de listas.",
+        "headingLines": [
+          "Uma introdução qualificada",
+          "que se encaixa, não mil",
+          "Você tem que se filtrar."
+        ],
+        "body": "Diga ao Nest o que você realmente está procurando ou o que realmente está vendendo. Nest propõe uma partida. Ambos os lados dizem sim antes de qualquer coisa ser compartilhada.",
+        "backgroundImage": "/landing-pages/nest/nest-hero-interior-clean.png",
+        "backgroundAlt": "Um interior acolhedor e calmo",
+        "primaryCtaLabel": "Fale com o Nest",
+        "secondaryCtaLabel": "Conheça o ninho",
+        "privacyLine": "uma partida de cada vez. Humano revisado. Privado até que ambos os lados optem.",
+        "characterImage": "/landing-pages/nest/nest-character-meet-compact-high-wings-transparent.png",
+        "characterAlt": "Ninho segurando um notebook e chaves com asas compactas",
+        "chat": {
+          "statusLabel": "Online · Humano supervisionado",
+          "privacyBadge": "Privado",
+          "openingMessage": "Você está comprando ou vendendo?",
+          "visitorMessage": "estou comprando",
+          "assistantMessage": "Diga-me a casa pela qual valeria a pena se mudar. Vou pedir apenas os detalhes que um revisor humano precisa e, em seguida, trazer de volta um considerado adequado.",
+          "inputPlaceholder": "Diga ao Nest o que você precisa de uma casa..."
+        },
+        "briefDemo": {
+          "enabled": true,
+          "commandTrigger": "request-introduction",
+          "introHeading": "seu briefing de casa particular",
+          "introBody": "Compartilhe apenas o que um revisor humano precisa. Endereços exatos e detalhes de contato nunca são solicitados aqui.",
+          "chatLabel": "Construir pelo chat · 10 turnos",
+          "voiceLabel": "Construir por voz · 5 min",
+          "reviewLabel": "Resumo da revisão",
+          "editLabel": "Editar",
+          "reviewHeading": "Revise seu resumo privado",
+          "reviewBody": "Nada é persistido, pesquisado, proposto ou compartilhado enquanto você é anônimo.",
+          "submitLabel": "Faça login para revisão humana",
+          "loginNotice": "Faça login para mover este resumo particular para o seu espaço de trabalho Nest para obter uma revisão humana autenticada.",
+          "expiryCopy": "Os resumos não enviados expiram após uma hora.",
+          "privacyCopy": "Nenhuma pesquisa de participantes, compartilhamento exato de endereços ou divulgação de contatos enquanto anônimos.",
+          "errorCopy": "O Nest não conseguiu salvar este resumo. Por favor, tente novamente ou faça login."
+        }
+      },
+      "audience": {
+        "kicker": "Uma porta menor por design",
+        "heading": "Para pessoas prontas para um próximo passo real.",
+        "body": "Nenhum catálogo público. Nenhum feed de propriedade. Nenhuma grade de filtro. O Nest escuta, propõe um ajuste e aguarda dois sims privados.",
+        "forHeading": "Isto é para",
+        "forItems": [
+          "Compradores que procuram seriamente e podem agir rapidamente.",
+          "Vendedores que preferem um pequeno número de compradores qualificados e pré-combinados à exposição pública aberta."
+        ],
+        "notForHeading": "isso não é para",
+        "notForItems": [
+          "Visitantes casuais que só querem ver o que está no mercado.",
+          "Qualquer pessoa que espere um feed de propriedade pública ou uma grade de filtros.",
+          "Pessoas que procuram fluxo de negócios em massa."
+        ]
+      },
+      "privacy": {
+        "kicker": "Privacidade é a sequência",
+        "heading": "Seu endereço permanece privado até que ambos digam sim.",
+        "body": "O Nest começa com uma área do tamanho de um bairro. A identidade, os detalhes de contato e o endereço exato ficam bloqueados na proposta e nos estágios de consentimento mútuo.",
+        "stages": [
+          {
+            "status": "proposed",
+            "label": "Proposto",
+            "title": "Área geral",
+            "body": "Nenhuma identidade ou localização exata é visível. Cada lado pode aceitar ou passar."
+          },
+          {
+            "status": "accepted",
+            "label": "Ambos aceitaram",
+            "title": "mútuo sim",
+            "body": "Ambos os lados aceitaram. Uma pessoa conclui a verificação final antes que os detalhes saiam."
+          },
+          {
+            "status": "confirmed",
+            "label": "Confirmado",
+            "title": "Introdução confirmada",
+            "body": "Os detalhes de contato completos, o endereço exato e o horário proposto estão agora disponíveis para ambos os participantes."
+          }
+        ],
+        "proposalLabel": "Proposta",
+        "proposalAreaLabel": "Área geral",
+        "proposalArea": "Utrecht, Overvecht",
+        "proposalNote": "Nenhuma identidade ou localização exata é visível. Cada lado pode aceitar ou passar."
+      },
+      "process": {
+        "kicker": "Como funciona",
+        "heading": "Uma seqüência cuidadosa.",
+        "licensedAgentNote": "Um agente local licenciado é conectado quando você está pronto para seguir em frente."
+      },
+      "proposals": {
+        "kicker": "Como é uma proposta",
+        "heading": "dois lados. Um considerado adequado.",
+        "body": "Esses cartões de exemplo mostram a forma de uma proposta do Nest. Eles nunca expõem uma identidade ou endereço exato antes do consentimento mútuo.",
+        "cards": [
+          {
+            "pairing": "Comprador × propriedade",
+            "status": "proposed",
+            "heading": "Casa tranquila, perspectiva verde, handover flexível.",
+            "facts": [
+              {
+                "label": "Área geral",
+                "value": "Utrecht, Overvecht"
+              },
+              {
+                "label": "slot para eventos",
+                "value": "Sábado de manhã"
+              }
+            ],
+            "tone": "cream"
+          },
+          {
+            "pairing": "Propriedade × Comprador qualificado",
+            "status": "accepted",
+            "heading": "O financiamento preparado, alinhado com o tempo, as prioridades são compreendidas.",
+            "facts": [
+              {
+                "label": "Resumo do comprador",
+                "value": "Pronto para avançar cuidadosamente"
+              },
+              {
+                "label": "slot para eventos",
+                "value": "Tarde de domingo"
+              }
+            ],
+            "tone": "terracotta"
+          }
+        ]
+      },
+      "meet": {
+        "kicker": "Conheça o ninho",
+        "heading": "O notador de detalhes em seu canto.",
+        "body": "Nest escuta além do briefing óbvio: a luz da manhã que você amou, o tempo que você não pode mover, o único compromisso que não é realmente um compromisso. Em seguida, o Nest traz de volta um considerado ajuste.",
+        "characterImage": "/landing-pages/nest/nest-character-meet-compact-high-wings-transparent.png",
+        "characterAlt": "Encontre o ninho, segurando um notebook e as chaves com asas compactas levantadas atrás dos ombros superiores",
+        "principles": [
+          {
+            "title": "ouve primeiro",
+            "body": "Uma conversa, não uma parede de campos."
+          },
+          {
+            "title": "Propõe um ajuste",
+            "body": "Nenhum feed de propriedade pública ou grade sem fim."
+          },
+          {
+            "title": "espera dois sim",
+            "body": "A identidade e o endereço exato permanecem privados até o consentimento mútuo."
+          }
+        ],
+        "primaryCtaLabel": "Fale com o Nest",
+        "secondaryCtaLabel": "Veja como funciona"
+      },
+      "footer": {
+        "brandLabel": "ninho.",
+        "tagline": "Uma introdução cuidadosa em casa de cada vez.",
+        "disclaimer": "A Nest não é uma corretora licenciada e não representa nenhuma das partes, negocia, valoriza sua casa ou lida com sua transação. Quando você estiver pronto para seguir em frente, conectamos você a um agente local licenciado para concluir o processo. Not a broker. Does not represent either party. Does not provide valuations. Does not negotiate.",
+        "eventDisclaimer": "Os detalhes da segunda casa da segunda casa são modelados para esta instanciação do Nest e devem ser verificados antes da presença.",
+        "copyright": "© 2026 Nest",
+        "groups": [
+          {
+            "label": "Explorar",
+            "links": [
+              {
+                "label": "Como funciona",
+                "target": "how-it-works"
+              },
+              {
+                "label": "Privacidade",
+                "target": "privacy"
+              },
+              {
+                "label": "propostas",
+                "target": "proposals"
+              }
+            ]
+          },
+          {
+            "label": "Ninho",
+            "links": [
+              {
+                "label": "Conheça o ninho",
+                "target": "meet"
+              },
+              {
+                "label": "Construa um breve",
+                "target": "hero-chat"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "generatedAt": "2026-09-01T15:39:42.215Z"
+}

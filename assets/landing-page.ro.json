@@ -1,0 +1,500 @@
+{
+  "schemaVersion": 1,
+  "language": "ro",
+  "regionKey": null,
+  "sourceRevision": "b403368b522c83332476945d763c1cdb9c3211e7fa0204db9923ea107dbb96a8",
+  "landingPage": {
+    "headline": "O introducere calificată care se potrivește.",
+    "subheadline": "Introduceri private pentru cumpărători și vânzători, o propunere revizuită de oameni la un moment dat.",
+    "ctaLabel": "Vorbește cu Nest",
+    "secondaryCtaLabel": "Vezi cum funcționează",
+    "heroCharacterImage": "/landing-pages/nest/nest-character-meet-compact-high-wings-transparent.png",
+    "seoImage": {
+      "src": "/landing-pages/nest/og.jpg",
+      "alt": "Nest, un ghid privat de introducere a casei, într-un interior cald cu cuvintele O introducere atentă"
+    },
+    "header": {
+      "brandMark": "image",
+      "logoImageUrl": "/landing-pages/nest/nest-keyround-logo.svg"
+    },
+    "design": {
+      "variant": "home-introductions",
+      "defaultThemeMode": "light",
+      "theme": {
+        "palette": "emerald",
+        "primaryColor": "emerald",
+        "secondaryColor": "stone",
+        "accentColor": "orange",
+        "fontFamily": "inter"
+      },
+      "brand": {
+        "presetRevision": 1,
+        "colors": {
+          "light": {
+            "canvas": "#f3efe5",
+            "surface": "#fffaf0",
+            "sidebar": "#173e31",
+            "text": "#18352a",
+            "accent": "#bd623f",
+            "userBubble": "#173e31"
+          },
+          "dark": {
+            "canvas": "#10251e",
+            "surface": "#173129",
+            "sidebar": "#0c1d17",
+            "text": "#f3efe5",
+            "accent": "#e29a7d",
+            "userBubble": "#bd623f"
+          }
+        },
+        "typography": {
+          "body": {
+            "source": "google",
+            "family": "DM Sans"
+          },
+          "display": {
+            "source": "google",
+            "family": "Manrope"
+          },
+          "label": {
+            "source": "google",
+            "family": "DM Sans"
+          }
+        }
+      }
+    },
+    "homeIntroductions": {
+      "header": {
+        "brandLabel": "cuib.",
+        "brandTagline": "O introducere atentă",
+        "navItems": [
+          {
+            "label": "Cum functioneaza",
+            "target": "how-it-works"
+          },
+          {
+            "label": "Intimitate",
+            "target": "privacy"
+          },
+          {
+            "label": "începe aici",
+            "target": "hero-chat"
+          }
+        ],
+        "ctaLabel": "solicitați o introducere",
+        "mobileCtaLabel": "A porni"
+      },
+      "service": {
+        "activeMode": "event",
+        "announcement": "acum se potrivește la a doua casă târg, Jaarbeurs Utrecht — vineri 27–duminică 29 martie",
+        "feeCopy": "Taxa partajată înainte de a solicita o prezentare",
+        "disclaimer": "Nest nu este o agenție de brokeraj autorizată și nu reprezintă nicio parte, negociază, prețuiește casa și nu se ocupă de tranzacția dvs. Când sunteți gata să mergeți mai departe, vă conectăm cu un agent local autorizat pentru a finaliza procesul.",
+        "configurations": [
+          {
+            "mode": "event",
+            "label": "Eveniment",
+            "actionLabel": "Vedere",
+            "name": "a doua casă târg, jaarbeurs utrecht",
+            "location": "Jaarbeurs Utrecht",
+            "dateRange": "Vineri 27–Dum 29 Mar",
+            "availabilityLabel": "Vineri 27–Dum 29 Mar · Jaarbeurs Utrecht"
+          },
+          {
+            "mode": "city",
+            "label": "Oraș",
+            "actionLabel": "Vedere",
+            "name": "Cuib Amsterdam",
+            "location": "Amsterdam Zuid",
+            "dateRange": "In desfasurare",
+            "availabilityLabel": "Introduceri locale mereu pe"
+          }
+        ]
+      },
+      "tracks": [
+        {
+          "id": "buying",
+          "label": "Eu cumpăr",
+          "responseMessage": "Spune-mi casa pentru care ar merita să te muți. Voi cere doar detaliile de care are nevoie un recenzent uman, apoi voi aduce înapoi unul considerat potrivit.",
+          "composerPlaceholder": "Spune-i lui Nest ce ai nevoie dintr-o casă...",
+          "processSteps": [
+            {
+              "number": "01",
+              "image": "/landing-pages/nest/nest-how-conversation-human.webp",
+              "alt": "Un potențial cumpărător care împarte un brief privat acasă cu Nest",
+              "title": "Aveți o conversație reală cu Nest.",
+              "body": "Discutați despre ceea ce aveți nevoie de fapt: buget, elemente obligatorii, dealbreakers și timp. Detaliile mici aparțin și conversației."
+            },
+            {
+              "number": "02",
+              "image": "/landing-pages/nest/nest-how-review-human.webp",
+              "alt": "cuib și un recenzent uman luând în considerare cu atenție un cumpărător și o casă",
+              "title": "primiți o proprietate potrivită la un moment dat.",
+              "body": "O persoană examinează fiecare propunere înainte ca ambele părți să o vadă. Fără catalog public, clasament sau grilă de filtre fără sfârșit.",
+              "badge": "aprobat de om"
+            },
+            {
+              "number": "03",
+              "image": "/landing-pages/nest/nest-how-introduction-human.webp",
+              "alt": "Nest Vă prezentăm un potențial cumpărător și un proprietar de casă după consimțământul reciproc",
+              "title": "Deblocați introducerea împreună.",
+              "body": "Odată ce ambele părți acceptă, adresa completă, detaliile de contact și timpul de vizionare propus sunt partajate în mod privat."
+            }
+          ],
+          "briefFields": [
+            {
+              "key": "area",
+              "label": "zona preferată sau generală",
+              "placeholder": "Regiunea Utrecht, Amsterdam Zuid...",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "propertyType",
+              "label": "Tip de proprietate",
+              "placeholder": "Apartament, casă de familie, a doua casă...",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "propertyBrief",
+              "label": "Cum ar trebui să se simtă casa?",
+              "placeholder": "Descrieți casa și de ce contează.",
+              "type": "textarea",
+              "required": true
+            },
+            {
+              "key": "budgetOrPrice",
+              "label": "Gama bugetară",
+              "placeholder": "O gamă privată este suficientă",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "mustHavesOrHighlights",
+              "label": "must-haves",
+              "placeholder": "Lumină, grădină, spațiu de lucru, accesibilitate...",
+              "type": "textarea",
+              "required": true
+            },
+            {
+              "key": "dealbreakersOrBuyerCriteria",
+              "label": "Dealbreakers",
+              "placeholder": "Ce ar face introducerea unei potriviri slabe?",
+              "type": "textarea",
+              "required": false
+            },
+            {
+              "key": "timing",
+              "label": "Sincronizare",
+              "placeholder": "Când ați fi gata să vedeți sau să vă mutați?",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "readiness",
+              "label": "Promptitudine",
+              "placeholder": "Explorează, gata de credit ipotecar, cumpărător în numerar...",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "privateConstraints",
+              "label": "Constrângeri private",
+              "placeholder": "Orice cuib ar trebui să păstreze privat",
+              "type": "textarea",
+              "required": false
+            }
+          ]
+        },
+        {
+          "id": "selling",
+          "label": "eu vand",
+          "responseMessage": "Spune-mi ce face casa distinctă și care cumpărător ar fi o potrivire serioasă. Voi păstra adresa exactă privată și voi aduce înapoi o introducere considerată.",
+          "composerPlaceholder": "Spune-i lui Nest ce contează despre vânzarea ta...",
+          "processSteps": [
+            {
+              "number": "01",
+              "image": "/landing-pages/nest/nest-how-conversation-human.webp",
+              "alt": "Un proprietar care împarte un brief de proprietate privată cu Nest",
+              "title": "Aveți o conversație reală cu Nest.",
+              "body": "Vorbește despre proprietate, despre momentul tău, motivația și ce înseamnă calificat pentru tine."
+            },
+            {
+              "number": "02",
+              "image": "/landing-pages/nest/nest-how-review-human.webp",
+              "alt": "Nest și un recenzent uman luând în considerare cu atenție un vânzător și un cumpărător calificat",
+              "title": "primiți un cumpărător potrivit la un moment dat.",
+              "body": "O persoană examinează fiecare propunere înainte ca ambele părți să o vadă. Fără expunere publică sau flux de tranzacții în vrac.",
+              "badge": "aprobat de om"
+            },
+            {
+              "number": "03",
+              "image": "/landing-pages/nest/nest-how-introduction-human.webp",
+              "alt": "Nest Vă prezentăm un proprietar de casă și un potențial cumpărător după consimțământul reciproc",
+              "title": "Deblocați introducerea împreună.",
+              "body": "Odată ce ambele părți acceptă, detaliile de contact, adresa exactă și timpul de vizionare propus sunt partajate în mod privat."
+            }
+          ],
+          "briefFields": [
+            {
+              "key": "area",
+              "label": "Zona generală",
+              "placeholder": "numai cartier sau zonă largă",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "propertyType",
+              "label": "Tip de proprietate",
+              "placeholder": "Apartament, casă de familie, a doua casă...",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "propertyBrief",
+              "label": "Brief de proprietate",
+              "placeholder": "Descrieți proprietatea fără o adresă exactă.",
+              "type": "textarea",
+              "required": true
+            },
+            {
+              "key": "budgetOrPrice",
+              "label": "Intervalul de preț de cerere",
+              "placeholder": "O gamă privată este suficientă",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "mustHavesOrHighlights",
+              "label": "Repere ale proprietății",
+              "placeholder": "Ce face această casă distinctă?",
+              "type": "textarea",
+              "required": true
+            },
+            {
+              "key": "dealbreakersOrBuyerCriteria",
+              "label": "Criteriile de ajustare a cumpărătorului",
+              "placeholder": "Ce ar trebui să fie adevărat despre un cumpărător serios?",
+              "type": "textarea",
+              "required": false
+            },
+            {
+              "key": "timing",
+              "label": "Sincronizare",
+              "placeholder": "Când ați fi gata să aranjați o vizionare?",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "readiness",
+              "label": "Promptitudine",
+              "placeholder": "Pregătire, gata pentru vizionări private...",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "privateConstraints",
+              "label": "Constrângeri private",
+              "placeholder": "Orice cuib ar trebui să păstreze privat",
+              "type": "textarea",
+              "required": false
+            }
+          ]
+        }
+      ],
+      "hero": {
+        "eyebrow": "Singura casă sau singurul cumpărător - nu un sul de listări.",
+        "headingLines": [
+          "O introducere calificată",
+          "care se potrivește, nu o mie",
+          "Trebuie să te filtrezi."
+        ],
+        "body": "Spune-i lui Nest ce cauți de fapt sau ce vinzi de fapt. Nest propune un meci. Ambele părți spun da înainte ca ceva să fie împărtășit.",
+        "backgroundImage": "/landing-pages/nest/nest-hero-interior-clean.png",
+        "backgroundAlt": "Un interior cald, calm",
+        "primaryCtaLabel": "Vorbește cu Nest",
+        "secondaryCtaLabel": "Faceți cunoștință cu Nest",
+        "privacyLine": "câte un meci. om revizuit. privat până când ambele părți se înscriu.",
+        "characterImage": "/landing-pages/nest/nest-character-meet-compact-high-wings-transparent.png",
+        "characterAlt": "Cuib ținând un caiet și chei cu aripi compacte",
+        "chat": {
+          "statusLabel": "Online · Uman supravegheat",
+          "privacyBadge": "Privat",
+          "openingMessage": "cumperi sau vinzi?",
+          "visitorMessage": "Eu cumpăr",
+          "assistantMessage": "Spune-mi casa pentru care ar merita să te muți. Voi cere doar detaliile de care are nevoie un recenzent uman, apoi voi aduce înapoi unul considerat potrivit.",
+          "inputPlaceholder": "Spune-i lui Nest ce ai nevoie dintr-o casă..."
+        },
+        "briefDemo": {
+          "enabled": true,
+          "commandTrigger": "request-introduction",
+          "introHeading": "Rezumatul dvs. de acasă privat",
+          "introBody": "Împărtășiți doar ceea ce are nevoie un recenzent uman. Adresele exacte și detaliile de contact nu sunt niciodată solicitate aici.",
+          "chatLabel": "Construiți prin chat · 10 ture",
+          "voiceLabel": "Build by Voice · 5 min",
+          "reviewLabel": "Rezumat de revizuire",
+          "editLabel": "Edita",
+          "reviewHeading": "Review your private brief",
+          "reviewBody": "Nimic nu este persistat, căutat, propus sau distribuit în timp ce sunteți anonim.",
+          "submitLabel": "Conectați-vă pentru revizuirea umană",
+          "loginNotice": "Conectați-vă pentru a muta acest brief privat acasă în spațiul dvs. de lucru Nest pentru o revizuire umană autentificată.",
+          "expiryCopy": "Briefurile netrimise expiră după o oră.",
+          "privacyCopy": "Nicio căutare a participanților, partajarea adresei exacte sau dezvăluirea contactului în timp ce este anonim.",
+          "errorCopy": "Nest nu a putut salva acest brief. Vă rugăm să reîncercați sau să vă conectați."
+        }
+      },
+      "audience": {
+        "kicker": "o uşă mai mică prin proiectare",
+        "heading": "Pentru oamenii pregătiți pentru un adevărat pas următor.",
+        "body": "Fără catalog public. Fără alimentare cu proprietăți. Fără grilă de filtrare. Nest ascultă, propune o potrivire și așteaptă două da private.",
+        "forHeading": "Asta este pentru",
+        "forItems": [
+          "Cumpărători care caută serios și pot acționa rapid.",
+          "Vânzători care preferă un număr mic de cumpărători calificați, pre-potriviți decât expunerea publică deschisă."
+        ],
+        "notForHeading": "Aceasta nu este pentru",
+        "notForItems": [
+          "Vizitatori ocazionali care doresc doar să vadă ce este pe piață.",
+          "Oricine se așteaptă la un flux de proprietate publică sau o grilă de filtre.",
+          "Oameni care caută flux de tranzacții în vrac."
+        ]
+      },
+      "privacy": {
+        "kicker": "Intimitatea este secvența",
+        "heading": "Adresa dvs. rămâne privată până când amândoi spuneți da.",
+        "body": "Nest începe cu o zonă de dimensiunea unui cartier. Identitatea, detaliile de contact și adresa exactă rămân blocate prin etapele de propunere și de consimțământ reciproc.",
+        "stages": [
+          {
+            "status": "proposed",
+            "label": "propus",
+            "title": "Zona generală",
+            "body": "Nu este vizibilă nicio identitate sau locație exactă. Fiecare parte poate accepta sau trece."
+          },
+          {
+            "status": "accepted",
+            "label": "Ambele au acceptat",
+            "title": "Da reciproc",
+            "body": "Ambele părți au acceptat. O persoană completează verificarea finală înainte de a se stinge detaliile."
+          },
+          {
+            "status": "confirmed",
+            "label": "Confirmat",
+            "title": "Introducere confirmată",
+            "body": "Detaliile complete de contact, adresa exactă și ora propusă sunt acum disponibile pentru ambii participanți."
+          }
+        ],
+        "proposalLabel": "Propunere",
+        "proposalAreaLabel": "Zona generală",
+        "proposalArea": "Utrecht, Overvecht",
+        "proposalNote": "Nu este vizibilă nicio identitate sau locație exactă. Fiecare parte poate accepta sau trece."
+      },
+      "process": {
+        "kicker": "Cum functioneaza",
+        "heading": "o secvență atentă.",
+        "licensedAgentNote": "Un agent local autorizat este introdus în buclă atunci când sunteți gata să mergeți mai departe."
+      },
+      "proposals": {
+        "kicker": "Cum arată o propunere",
+        "heading": "două laturi. unul considerat potrivit.",
+        "body": "Aceste exemple de carduri arată forma unei propuneri de cuib. Nu expun niciodată o identitate sau o adresă exactă înainte de consimțământul reciproc.",
+        "cards": [
+          {
+            "pairing": "Cumpărător × Proprietate",
+            "status": "proposed",
+            "heading": "Casă liniștită, perspectivă verde, predare flexibilă.",
+            "facts": [
+              {
+                "label": "Zona generală",
+                "value": "Utrecht, Overvecht"
+              },
+              {
+                "label": "slotul evenimentului",
+                "value": "Sambata dimineata"
+              }
+            ],
+            "tone": "cream"
+          },
+          {
+            "pairing": "Proprietate × Cumpărător calificat",
+            "status": "accepted",
+            "heading": "finanțare pregătită, timp aliniat, priorități înțelese.",
+            "facts": [
+              {
+                "label": "Rezumatul cumpărătorului",
+                "value": "gata să avanseze gânditor"
+              },
+              {
+                "label": "slotul evenimentului",
+                "value": "Duminică după-amiază"
+              }
+            ],
+            "tone": "terracotta"
+          }
+        ]
+      },
+      "meet": {
+        "kicker": "Faceți cunoștință cu Nest",
+        "heading": "Observatorul de detalii din colțul tău.",
+        "body": "Nest ascultă dincolo de brief-ul evident: lumina dimineții pe care ai iubit-o, momentul în care nu te poți mișca, singurul compromis care nu este cu adevărat un compromis. Apoi Nest aduce înapoi unul considerat potrivit.",
+        "characterImage": "/landing-pages/nest/nest-character-meet-compact-high-wings-transparent.png",
+        "characterAlt": "Faceți cunoștință cu cuibul, ținând în mână un caiet și chei cu aripi compacte ridicate în spatele umerilor de sus",
+        "principles": [
+          {
+            "title": "ascultă primul",
+            "body": "O conversație, nu un zid de câmpuri."
+          },
+          {
+            "title": "propune o potrivire",
+            "body": "Fără flux de proprietate publică sau rețea nesfârșită."
+          },
+          {
+            "title": "așteaptă două da",
+            "body": "Identitatea și adresa exactă rămân private până la consimțământul reciproc."
+          }
+        ],
+        "primaryCtaLabel": "Vorbește cu Nest",
+        "secondaryCtaLabel": "Vezi cum funcționează"
+      },
+      "footer": {
+        "brandLabel": "cuib.",
+        "tagline": "O introducere atentă acasă la un moment dat.",
+        "disclaimer": "Nest nu este o agenție de brokeraj autorizată și nu reprezintă nicio parte, negociază, prețuiește casa și nu se ocupă de tranzacția dvs. Când sunteți gata să mergeți mai departe, vă conectăm cu un agent local autorizat pentru a finaliza procesul. Not a broker. Does not represent either party. Does not provide valuations. Does not negotiate.",
+        "eventDisclaimer": "Detaliile de a doua casă sunt modelate pentru această instanțiere a cuibului și ar trebui verificate înainte de participare.",
+        "copyright": "© 2026 Nest",
+        "groups": [
+          {
+            "label": "Explora",
+            "links": [
+              {
+                "label": "Cum functioneaza",
+                "target": "how-it-works"
+              },
+              {
+                "label": "Intimitate",
+                "target": "privacy"
+              },
+              {
+                "label": "propuneri",
+                "target": "proposals"
+              }
+            ]
+          },
+          {
+            "label": "Cuib",
+            "links": [
+              {
+                "label": "Faceți cunoștință cu Nest",
+                "target": "meet"
+              },
+              {
+                "label": "Construiți un brief",
+                "target": "hero-chat"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "generatedAt": "2026-09-01T15:39:42.215Z"
+}

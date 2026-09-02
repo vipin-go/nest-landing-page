@@ -1,12 +1,13 @@
 #!/usr/bin/env node
 const fs = require('fs');
+const nodePath = require('path');
 
 const ALLOWED_ICONS = new Set([
   'heart', 'shield-check', 'sparkles', 'chat', 'users', 'lock', 'check', 'star',
   'search', 'lightbulb', 'user-plus', 'calendar', 'question-mark', 'envelope',
 ]);
 const ALLOWED_ROLES = new Set(['user', 'assistant']);
-const ALLOWED_DESIGN_VARIANTS = new Set(['default', 'signature', 'banking', 'form-operations', 'cinematic-campaigns', 'recruiting-operations', 'grocery-twin', 'event-introductions', 'home-introductions']);
+const ALLOWED_DESIGN_VARIANTS = new Set(['default', 'signature', 'banking', 'form-operations', 'logistics-portal', 'cinematic-campaigns', 'recruiting-operations', 'grocery-twin', 'event-introductions', 'home-introductions']);
 const ALLOWED_BRAND_MARKS = new Set(['heart', 'image', 'initial']);
 const ALLOWED_NAV_TARGETS = new Set([
   'meet', 'about', 'capabilities', 'use-cases', 'trust',
@@ -15,6 +16,7 @@ const ALLOWED_NAV_TARGETS = new Set([
 const GROCERY_TARGETS = new Set(['top', 'product', 'mobile', 'stories', 'features', 'about', 'contact', 'hero-chat']);
 const EVENT_INTRODUCTION_TARGETS = new Set(['top', 'about', 'how-it-works', 'pairings', 'faqs', 'waitlist', 'closing', 'hero-chat']);
 const HOME_INTRODUCTION_TARGETS = new Set(['top', 'audience', 'privacy', 'how-it-works', 'proposals', 'meet', 'hero-chat']);
+const LOGISTICS_PORTAL_TARGETS = new Set(['top', 'edge', 'control', 'workflows', 'pilot', 'simulation']);
 const ALLOWED_PALETTES = new Set(['coral', 'ocean', 'forest', 'purple', 'slate', 'research', 'maroon', 'stone', 'emerald', 'custom']);
 const ALLOWED_THEME_COLORS = new Set(['purple', 'indigo', 'blue', 'green', 'orange', 'pink', 'red', 'teal', 'gray', 'slate', 'maroon', 'stone', 'emerald']);
 const ALLOWED_THEME_MODES = new Set(['light', 'dark']);
@@ -25,6 +27,10 @@ const BRAND_COLOR_KEYS = ['canvas', 'surface', 'sidebar', 'text', 'accent', 'use
 const EMAIL = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 const IMAGE_EXTENSION = /\.(?:avif|gif|jpe?g|png|svg|webp)(?:[?#]|$)/i;
 const SAFE_APP_IMAGE_PATH = /^\/(?:assets|landing-pages)\/[a-z0-9][a-z0-9/_-]*\.(?:avif|gif|jpe?g|png|svg|webp)(?:[?#]|$)/i;
+const REGION_KEY = /^[a-z0-9][a-z0-9-]{0,63}$/;
+const COUNTRY_CODE = /^[A-Z]{2}$/;
+const SOURCE_REVISION = /^[a-f0-9]{64}$/;
+const LANGUAGE_CODES = new Set('aa ab ae af ak am an ar as av ay az ba be bg bh bi bm bn bo br bs ca ce ch co cr cs cu cv cy da de dv dz ee el en eo es et eu fa ff fi fj fo fr fy ga gd gl gn gu gv ha he hi ho hr ht hu hy hz ia id ie ig ii ik io is it iu ja jv ka kg ki kj kk kl km kn ko kr ks ku kv kw ky la lb lg li ln lo lt lu lv mg mh mi mk ml mn mr ms mt my na nb nd ne ng nl nn no nr nv ny oc oj om or os pa pi pl ps pt qu rm rn ro ru rw sa sc sd se sg sh si sk sl sm sn so sq sr ss st su sv sw ta te tg th ti tk tl tn to tr ts tt tw ty ug uk ur uz ve vi vo wa wo xh yi yo za zh zu'.split(' '));
 
 function fail(message) {
   throw new Error(message);
@@ -59,7 +65,7 @@ function contrastRatio(first, second) {
 
 function assertNoEmoji(value, path = 'landingPage') {
   if (typeof value === 'string') {
-    if (/\p{Extended_Pictographic}/u.test(value) && !path.endsWith('.footer.copyright')) {
+    if (/\p{Extended_Pictographic}/u.test(value.replace(/↔/g, '')) && !path.endsWith('.footer.copyright')) {
       fail(`${path} must not contain emoji; use a supported icon key instead`);
     }
     return;
@@ -179,6 +185,67 @@ function validateFormOperations(landingPage) {
       fail(`${path} must be a direct HTTPS image URL with a supported image extension`);
     }
   }
+}
+
+function validateLogisticsPortal(landingPage) {
+  const root = landingPage.logisticsPortal;
+  if (!root || typeof root !== 'object' || Array.isArray(root)) fail('landingPage.logisticsPortal is required when design.variant is "logistics-portal"');
+  const get = (path) => path.split('.').reduce((value, key) => value && typeof value === 'object' ? value[key] : undefined, root);
+  const requireString = (path) => { const value = get(path); if (typeof value !== 'string' || !value.trim()) fail(`landingPage.logisticsPortal.${path} is required`); };
+  [
+    'header.brandLabel', 'header.brandSuffix', 'header.logoImage', 'header.ctaLabel', 'hero.eyebrow', 'hero.heading',
+    'hero.accentHeading', 'hero.body', 'hero.primaryCtaLabel', 'hero.secondaryCtaLabel', 'hero.characterImage',
+    'hero.characterAlt', 'hero.chat.roleLabel', 'hero.chat.statusLabel', 'hero.chat.openingMessage', 'hero.chat.inputPlaceholder',
+    'hero.rehearsal.commandTrigger', 'hero.rehearsal.sandboxLabel', 'hero.rehearsal.restartLabel', 'hero.rehearsal.demoNote',
+    'hero.rehearsal.reviewHeading', 'hero.rehearsal.reviewBody', 'hero.rehearsal.reviewLabel', 'hero.rehearsal.approveLabel',
+    'hero.rehearsal.escalateLabel', 'hero.rehearsal.approvedKicker', 'hero.rehearsal.approvedBody',
+    'hero.rehearsal.escalatedKicker', 'hero.rehearsal.escalatedTitle', 'hero.rehearsal.escalatedBody',
+    'hero.rehearsal.continueLabel', 'hero.rehearsal.loginNotice', 'edge.number', 'edge.kicker', 'edge.heading',
+    'edge.accentHeading', 'edge.body', 'edge.governedLabel', 'edge.boundaryLabel', 'edge.operatorTitle',
+    'edge.operatorBody', 'edge.externalLabel', 'platform.eyebrow', 'platform.heading', 'platform.accentHeading',
+    'platform.body', 'platform.portalLabel', 'platform.checkpointLabel', 'process.number', 'process.eyebrow',
+    'process.heading', 'process.body', 'process.failClosedTitle', 'process.failClosedBody', 'process.failClosedLabel',
+    'workflows.number', 'workflows.kicker', 'workflows.heading', 'workflows.accentHeading', 'workflows.body',
+    'workflows.moreLabel', 'pilot.eyebrow', 'pilot.heading', 'pilot.body', 'pilot.ctaLabel', 'pilot.email',
+    'pilot.emailSubject', 'footer.brandLabel', 'footer.brandSuffix', 'footer.tagline', 'footer.copyright',
+  ].forEach(requireString);
+  const exact = {
+    'header.navItems': 3, 'hero.proofItems': 3, 'hero.chat.suggestions': 3, 'hero.rehearsal.workflowTabs': 2,
+    'hero.rehearsal.samples': 2, 'hero.rehearsal.intakeSteps': 4, 'hero.rehearsal.approvedChecks': 3,
+    'edge.governedSystems': 4, 'edge.portals': 2, 'edge.comparison': 2, 'edge.capabilities': 4,
+    'platform.fields': 3, 'platform.points': 4, 'process.steps': 6, 'workflows.primary': 2,
+    'workflows.more': 4, 'pilot.steps': 3,
+  };
+  Object.entries(exact).forEach(([path, count]) => { if (!Array.isArray(get(path)) || get(path).length !== count) fail(`landingPage.logisticsPortal.${path} must contain exactly ${count} items`); });
+  get('header.navItems').forEach((item, index) => { if (!LOGISTICS_PORTAL_TARGETS.has(item?.target)) fail(`landingPage.logisticsPortal.header.navItems[${index}].target must be a registered Logistics Portal target`); });
+  if (get('hero.rehearsal.enabled') !== true) fail('landingPage.logisticsPortal.hero.rehearsal.enabled must be true');
+  if (!/^\/?[a-z0-9][a-z0-9-]{0,63}$/.test(get('hero.rehearsal.commandTrigger'))) fail('landingPage.logisticsPortal.hero.rehearsal.commandTrigger must be a registered slash command trigger');
+  [['header.logoImage', get('header.logoImage')], ['hero.characterImage', get('hero.characterImage')], ['hero.portraitImage', get('hero.portraitImage')]].forEach(([path, value]) => { if (path === 'hero.portraitImage' && value === undefined) return; if (!isDirectImageSource(value)) fail(`landingPage.logisticsPortal.${path} must be a direct HTTPS or bundled application image URL`); });
+  get('hero.rehearsal.workflowTabs').forEach((item, index) => { if (!['customs', 'carrier'].includes(item?.id)) fail(`landingPage.logisticsPortal.hero.rehearsal.workflowTabs[${index}].id must be customs or carrier`); });
+  get('hero.rehearsal.samples').forEach((item, index) => {
+    if (!['customs', 'carrier'].includes(item?.id)) fail(`landingPage.logisticsPortal.hero.rehearsal.samples[${index}].id must be customs or carrier`);
+    if (!Array.isArray(item?.exceptions) || item.exceptions.length !== 3) fail(`landingPage.logisticsPortal.hero.rehearsal.samples[${index}].exceptions must contain exactly 3 items`);
+    if (item?.fields !== undefined) {
+      if (!Array.isArray(item.fields) || item.fields.length !== 5) fail(`landingPage.logisticsPortal.hero.rehearsal.samples[${index}].fields must contain exactly 5 items`);
+      item.fields.forEach((field, fieldIndex) => {
+        if (typeof field?.label !== 'string' || !field.label.trim() || typeof field?.value !== 'string' || !field.value.trim()) fail(`landingPage.logisticsPortal.hero.rehearsal.samples[${index}].fields[${fieldIndex}] requires label and value`);
+        if (!['verified', 'review'].includes(field?.state)) fail(`landingPage.logisticsPortal.hero.rehearsal.samples[${index}].fields[${fieldIndex}].state must be verified or review`);
+      });
+    }
+    ['runReference', 'title', 'lane', 'source', 'destination', 'mapped', 'receipt'].forEach((key) => {
+      if (typeof item?.[key] !== 'string' || !item[key].trim()) fail(`landingPage.logisticsPortal.hero.rehearsal.samples[${index}].${key} is required`);
+    });
+  });
+  get('hero.rehearsal.intakeSteps').forEach((item, index) => { if (!['done', 'warning', 'pending'].includes(item?.state)) fail(`landingPage.logisticsPortal.hero.rehearsal.intakeSteps[${index}].state is unsupported`); });
+  get('platform.fields').forEach((item, index) => { if (!['verified', 'review'].includes(item?.status)) fail(`landingPage.logisticsPortal.platform.fields[${index}].status is unsupported`); });
+  if (!EMAIL.test(get('pilot.email'))) fail('landingPage.logisticsPortal.pilot.email must be valid');
+  const forbidden = new Set(['component', 'componentName', 'javascript', 'script', 'css', 'tailwind', 'route', 'query', 'html']);
+  const inspect = (value, path) => {
+    if (Array.isArray(value)) return value.forEach((item, index) => inspect(item, `${path}[${index}]`));
+    if (!value || typeof value !== 'object') return;
+    Object.entries(value).forEach(([key, item]) => { if (forbidden.has(key)) fail(`${path}.${key} is executable or presentation code and is not allowed`); inspect(item, `${path}.${key}`); });
+  };
+  inspect(root, 'landingPage.logisticsPortal');
 }
 
 function validateGroceryTwin(landingPage) {
@@ -394,7 +461,7 @@ function validateEventIntroductions(landingPage) {
     'footer.disclaimer', 'footer.copyright',
   ].forEach(requireString);
   [
-    ['header.navItems', 5], ['tracks', 3], ['hero.chat.suggestedPrompts', 3], ['hero.briefDemo.fields', 9],
+    ['header.navItems', 4], ['tracks', 3], ['hero.chat.suggestedPrompts', 3], ['hero.briefDemo.fields', 9],
     ['about.images', 3], ['about.principles', 3], ['process.steps', 4], ['pairing.images', 2],
     ['pairing.criteria', 3], ['pairing.cards', 3], ['faq.items', 6], ['footer.groups', 2],
   ].forEach(([path, count]) => requireExact(path, count));
@@ -544,6 +611,19 @@ function validateCaptureCommand(landingPage, chatConfigPath) {
   }
 }
 
+function validateLogisticsPortalCommand(landingPage, chatConfigPath) {
+  const demo = landingPage?.logisticsPortal?.hero?.rehearsal;
+  if (demo?.enabled !== true || !chatConfigPath) return;
+  const chatConfig = JSON.parse(fs.readFileSync(chatConfigPath, 'utf8'));
+  const commands = chatConfig?.publishedConfig?.agentTopology?.slashCommands;
+  if (!Array.isArray(commands)) fail(`${chatConfigPath} must define publishedConfig.agentTopology.slashCommands for Logistics Portal`);
+  const trigger = String(demo.commandTrigger || '').trim().replace(/^\/+/, '').toLowerCase();
+  const command = commands.find((item) => item?.enabled !== false && String(item?.trigger || '').trim().replace(/^\/+/, '').toLowerCase() === trigger);
+  if (!command || command.execution?.type !== 'operator_action') fail(`landingPage.logisticsPortal.hero.rehearsal.commandTrigger must reference an enabled operator_action command in ${chatConfigPath}`);
+  const workflowKey = String(command.execution?.workflowRef?.resourceKey || command.execution?.resourceKey || '');
+  if (workflowKey && workflowKey !== 'workflow.emil.rehearse-filing') fail('The Emil rehearsal command must reference workflow.emil.rehearse-filing');
+}
+
 function validateCinematicCommand(landingPage, chatConfigPath) {
   const demo = landingPage?.cinematicCampaigns?.hero?.guidedDemo;
   if (demo?.enabled !== true || !chatConfigPath) return;
@@ -617,17 +697,85 @@ function validateHomeIntroductionCommand(landingPage, chatConfigPath) {
   if (!command || command.execution?.type !== 'operator_action') fail(`landingPage.homeIntroductions.hero.briefDemo.commandTrigger must reference an enabled operator_action command in ${chatConfigPath}`);
 }
 
-function validate(filePath, chatConfigPath) {
-  const parsed = JSON.parse(fs.readFileSync(filePath, 'utf8'));
-
-  if (parsed.schemaVersion !== 2) fail('schemaVersion must be 2');
-  if (!parsed.resourceKey || !String(parsed.resourceKey).trim()) fail('resourceKey is required');
-  if (parsed.runtimeDataPolicy !== 'definitions_only') fail('runtimeDataPolicy must be "definitions_only"');
-
-  const landingPage = parsed.landingPage;
+function validateLandingPageModel(landingPage, chatConfigPath, definitionFilePath) {
   if (!landingPage || typeof landingPage !== 'object') fail('landingPage object is required');
   if (!landingPage.headline || !String(landingPage.headline).trim()) fail('landingPage.headline is required');
   assertNoEmoji(landingPage);
+
+  if (landingPage.localization !== undefined) {
+    const localization = landingPage.localization;
+    if (!localization || typeof localization !== 'object' || Array.isArray(localization)) fail('landingPage.localization must be an object');
+    if (localization.translation !== undefined) {
+      const translation = localization.translation;
+      if (!translation || typeof translation !== 'object' || Array.isArray(translation)) fail('landingPage.localization.translation must be an object');
+      if (typeof translation.enabled !== 'boolean') fail('landingPage.localization.translation.enabled must be a boolean');
+      if (!LANGUAGE_CODES.has(translation.sourceLanguage || '')) fail('landingPage.localization.translation.sourceLanguage must come from the shared language catalogue');
+      if (!LANGUAGE_CODES.has(translation.defaultLanguage || '')) fail('landingPage.localization.translation.defaultLanguage must come from the shared language catalogue');
+      if (translation.autoDetectCountryLanguage !== undefined && typeof translation.autoDetectCountryLanguage !== 'boolean') fail('landingPage.localization.translation.autoDetectCountryLanguage must be a boolean');
+      if (translation.generatedTranslations !== undefined) {
+        if (!Array.isArray(translation.generatedTranslations)) fail('landingPage.localization.translation.generatedTranslations must be an array');
+        const generatedKeys = new Set();
+        const configuredRegionKeys = new Set(Array.isArray(localization.regionalPages) ? localization.regionalPages.map((region) => region?.key).filter(Boolean) : []);
+        translation.generatedTranslations.forEach((generated, generatedIndex) => {
+          const path = `landingPage.localization.translation.generatedTranslations[${generatedIndex}]`;
+          if (!generated || typeof generated !== 'object' || Array.isArray(generated)) fail(`${path} must be an object`);
+          if (!LANGUAGE_CODES.has(generated.language || '')) fail(`${path}.language must come from the shared language catalogue`);
+          if (generated.regionKey !== undefined && generated.regionKey !== null && !REGION_KEY.test(generated.regionKey)) fail(`${path}.regionKey must be a regional key or null`);
+          if (generated.regionKey && !configuredRegionKeys.has(generated.regionKey)) fail(`${path}.regionKey must reference an existing regional page`);
+          const generatedKey = `${generated.regionKey || ''}:${generated.language}`;
+          if (generatedKeys.has(generatedKey)) fail(`${path} duplicates a generated region/language pair`);
+          generatedKeys.add(generatedKey);
+          if (!SOURCE_REVISION.test(generated.sourceRevision || '')) fail(`${path}.sourceRevision must be a SHA-256 revision`);
+          const hasInlinePage = Boolean(generated.page && typeof generated.page === 'object' && !Array.isArray(generated.page));
+          const hasAssetPath = generated.assetPath !== undefined;
+          const expectedAssetPath = `assets/landing-page${generated.regionKey ? `.${generated.regionKey}` : ''}.${String(generated.language || '').toLowerCase()}.json`;
+          if (hasInlinePage && hasAssetPath) fail(`${path} must use either an inline legacy page or one language asset, not both`);
+          if (hasAssetPath && generated.assetPath !== expectedAssetPath) fail(`${path}.assetPath must be ${expectedAssetPath}`);
+          if (!hasInlinePage && !hasAssetPath) fail(`${path} must include a language asset path`);
+          if (hasInlinePage && generated.page.localization !== undefined) fail(`${path}.page.localization is not allowed`);
+          if (hasInlinePage && generated.chatEmbedConfig !== undefined && (!generated.chatEmbedConfig || typeof generated.chatEmbedConfig !== 'object' || Array.isArray(generated.chatEmbedConfig))) fail(`${path}.chatEmbedConfig must be an object`);
+          if (generated.generatedAt !== undefined && (typeof generated.generatedAt !== 'string' || Number.isNaN(Date.parse(generated.generatedAt)))) fail(`${path}.generatedAt must be an ISO date string`);
+          if (hasInlinePage) validateLandingPageModel(generated.page, chatConfigPath, definitionFilePath);
+          if (hasAssetPath && definitionFilePath) {
+            const assetFilePath = nodePath.join(nodePath.resolve(nodePath.dirname(definitionFilePath), '..'), generated.assetPath);
+            if (!fs.existsSync(assetFilePath)) fail(`${path}.assetPath does not exist: ${generated.assetPath}`);
+            const asset = JSON.parse(fs.readFileSync(assetFilePath, 'utf8'));
+            if (asset.schemaVersion !== 1) fail(`${generated.assetPath}.schemaVersion must be 1`);
+            if (asset.language !== generated.language || (asset.regionKey || null) !== (generated.regionKey || null) || asset.sourceRevision !== generated.sourceRevision) {
+              fail(`${generated.assetPath} metadata must match ${path}`);
+            }
+            if (!asset.landingPage || typeof asset.landingPage !== 'object' || Array.isArray(asset.landingPage)) fail(`${generated.assetPath}.landingPage must be a complete page object`);
+            if (asset.landingPage.localization !== undefined) fail(`${generated.assetPath}.landingPage.localization is not allowed`);
+            if (asset.chatEmbedConfig !== undefined && (!asset.chatEmbedConfig || typeof asset.chatEmbedConfig !== 'object' || Array.isArray(asset.chatEmbedConfig))) fail(`${generated.assetPath}.chatEmbedConfig must be an object`);
+            validateLandingPageModel(asset.landingPage, chatConfigPath, definitionFilePath);
+          }
+        });
+      }
+    }
+    if (localization.regionalPages !== undefined) {
+      if (!Array.isArray(localization.regionalPages)) fail('landingPage.localization.regionalPages must be an array');
+      const regionKeys = new Set();
+      const countryCodes = new Set();
+      localization.regionalPages.forEach((region, regionIndex) => {
+        const path = `landingPage.localization.regionalPages[${regionIndex}]`;
+        if (!region || typeof region !== 'object' || Array.isArray(region)) fail(`${path} must be an object`);
+        if (!REGION_KEY.test(region.key || '') || regionKeys.has(region.key)) fail(`${path}.key must be a unique lowercase key containing letters, numbers, and hyphens`);
+        regionKeys.add(region.key);
+        if (!region.label || !String(region.label).trim()) fail(`${path}.label is required`);
+        if (!Array.isArray(region.countryCodes) || region.countryCodes.length === 0) fail(`${path}.countryCodes must contain at least one country`);
+        const localCountries = new Set();
+        region.countryCodes.forEach((countryCode, countryIndex) => {
+          if (!COUNTRY_CODE.test(countryCode) || localCountries.has(countryCode) || countryCodes.has(countryCode)) fail(`${path}.countryCodes[${countryIndex}] must be a unique uppercase ISO country code`);
+          localCountries.add(countryCode);
+          countryCodes.add(countryCode);
+        });
+        if (!LANGUAGE_CODES.has(region.defaultLanguage || '')) fail(`${path}.defaultLanguage must come from the shared language catalogue`);
+        if (!region.page || typeof region.page !== 'object' || Array.isArray(region.page)) fail(`${path}.page must be a complete landing page object`);
+        if (region.page.localization !== undefined) fail(`${path}.page.localization is not allowed; regional pages cannot recursively localize`);
+        validateLandingPageModel(region.page, chatConfigPath, definitionFilePath);
+      });
+    }
+  }
 
   if (landingPage.design !== undefined) {
     const design = landingPage.design;
@@ -705,6 +853,7 @@ function validate(filePath, chatConfigPath) {
     }
   }
   if (landingPage.design?.variant === 'form-operations') validateFormOperations(landingPage);
+  if (landingPage.design?.variant === 'logistics-portal') validateLogisticsPortal(landingPage);
   if (landingPage.design?.variant === 'cinematic-campaigns') validateCinematicCampaigns(landingPage);
   if (landingPage.design?.variant === 'recruiting-operations') validateRecruitingOperations(landingPage);
   if (landingPage.design?.variant === 'grocery-twin') validateGroceryTwin(landingPage);
@@ -1122,11 +1271,21 @@ function validate(filePath, chatConfigPath) {
     }
   }
   validateCaptureCommand(landingPage, chatConfigPath);
+  validateLogisticsPortalCommand(landingPage, chatConfigPath);
   validateCinematicCommand(landingPage, chatConfigPath);
   validateRecruitingCommand(landingPage, chatConfigPath);
   validateGroceryCommand(landingPage, chatConfigPath);
   validateEventIntroductionCommand(landingPage, chatConfigPath);
   validateHomeIntroductionCommand(landingPage, chatConfigPath);
+}
+
+function validate(filePath, chatConfigPath) {
+  const parsed = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+
+  if (parsed.schemaVersion !== 2) fail('schemaVersion must be 2');
+  if (!parsed.resourceKey || !String(parsed.resourceKey).trim()) fail('resourceKey is required');
+  if (parsed.runtimeDataPolicy !== 'definitions_only') fail('runtimeDataPolicy must be "definitions_only"');
+  validateLandingPageModel(parsed.landingPage, chatConfigPath, filePath);
 }
 
 const filePath = process.argv[2] || 'assets/landing-page.json';

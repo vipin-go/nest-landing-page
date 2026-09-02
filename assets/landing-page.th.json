@@ -1,0 +1,500 @@
+{
+  "schemaVersion": 1,
+  "language": "th",
+  "regionKey": null,
+  "sourceRevision": "b403368b522c83332476945d763c1cdb9c3211e7fa0204db9923ea107dbb96a8",
+  "landingPage": {
+    "headline": "บทนำที่ผ่านการรับรองหนึ่งรายการที่เหมาะสม",
+    "subheadline": "บทนำของผู้ซื้อและผู้ขายส่วนตัว ข้อเสนอที่มนุษย์ตรวจสอบได้ครั้งละหนึ่งข้อ",
+    "ctaLabel": "คุยกับรัง",
+    "secondaryCtaLabel": "ดูว่ามันทำงานอย่างไร",
+    "heroCharacterImage": "/landing-pages/nest/nest-character-meet-compact-high-wings-transparent.png",
+    "seoImage": {
+      "src": "/landing-pages/nest/og.jpg",
+      "alt": "Nest คู่มือแนะนำบ้านส่วนตัว ในการตกแต่งภายในที่อบอุ่นด้วยคำว่า บทนำอย่างระมัดระวัง"
+    },
+    "header": {
+      "brandMark": "image",
+      "logoImageUrl": "/landing-pages/nest/nest-keyround-logo.svg"
+    },
+    "design": {
+      "variant": "home-introductions",
+      "defaultThemeMode": "light",
+      "theme": {
+        "palette": "emerald",
+        "primaryColor": "emerald",
+        "secondaryColor": "stone",
+        "accentColor": "orange",
+        "fontFamily": "inter"
+      },
+      "brand": {
+        "presetRevision": 1,
+        "colors": {
+          "light": {
+            "canvas": "#f3efe5",
+            "surface": "#fffaf0",
+            "sidebar": "#173e31",
+            "text": "#18352a",
+            "accent": "#bd623f",
+            "userBubble": "#173e31"
+          },
+          "dark": {
+            "canvas": "#10251e",
+            "surface": "#173129",
+            "sidebar": "#0c1d17",
+            "text": "#f3efe5",
+            "accent": "#e29a7d",
+            "userBubble": "#bd623f"
+          }
+        },
+        "typography": {
+          "body": {
+            "source": "google",
+            "family": "DM Sans"
+          },
+          "display": {
+            "source": "google",
+            "family": "Manrope"
+          },
+          "label": {
+            "source": "google",
+            "family": "DM Sans"
+          }
+        }
+      }
+    },
+    "homeIntroductions": {
+      "header": {
+        "brandLabel": "รัง",
+        "brandTagline": "บทนำอย่างระมัดระวัง",
+        "navItems": [
+          {
+            "label": "มันทำงานอย่างไร",
+            "target": "how-it-works"
+          },
+          {
+            "label": "ความสงบ",
+            "target": "privacy"
+          },
+          {
+            "label": "เริ่มที่นี่",
+            "target": "hero-chat"
+          }
+        ],
+        "ctaLabel": "ขอบทนำ",
+        "mobileCtaLabel": "การเริ่มต้น"
+      },
+      "service": {
+        "activeMode": "event",
+        "announcement": "ตอนนี้จับคู่ที่ Second Home Fair, Jaarbeurs Utrecht — ศุกร์ที่ 27 – อา. 29 มี.ค.",
+        "feeCopy": "ค่าธรรมเนียมที่แบ่งปันก่อนที่คุณจะขอบทนำ",
+        "disclaimer": "Nest ไม่ใช่นายหน้าที่มีใบอนุญาตและไม่ได้เป็นตัวแทนของฝ่ายใดฝ่ายหนึ่ง เจรจา ให้คุณค่ากับบ้านของคุณ หรือจัดการธุรกรรมของคุณ เมื่อคุณพร้อมที่จะก้าวไปข้างหน้า เราจะเชื่อมโยงคุณกับตัวแทนท้องถิ่นที่ได้รับใบอนุญาตเพื่อดำเนินการให้เสร็จสิ้น",
+        "configurations": [
+          {
+            "mode": "event",
+            "label": "เหตุการณ์",
+            "actionLabel": "ดู",
+            "name": "บ้านหลังที่สอง, Jaarbeurs Utrecht",
+            "location": "Jaarbeurs Utrecht",
+            "dateRange": "ศ. 27-อาทิตย์ 29 มี.ค",
+            "availabilityLabel": "ศ. 27–อาทิตย์ 29 มี.ค. · Jaarbeurs Utrecht"
+          },
+          {
+            "mode": "city",
+            "label": "เมือง",
+            "actionLabel": "ดู",
+            "name": "รังอัมสเตอร์ดัม",
+            "location": "อัมสเตอร์ดัม ซุด",
+            "dateRange": "ต่อเนื่อง",
+            "availabilityLabel": "แนะนำตัวเสมอ"
+          }
+        ]
+      },
+      "tracks": [
+        {
+          "id": "buying",
+          "label": "ฉันกำลังซื้อ",
+          "responseMessage": "บอกฉันทีว่าควรย้ายบ้านที่ควรค่าแก่การย้าย ฉันจะถามเฉพาะรายละเอียดที่ผู้ตรวจสอบมนุษย์ต้องการ จากนั้นจึงนำข้อมูลที่เหมาะสมกลับมา",
+          "composerPlaceholder": "บอก Nest ว่าคุณต้องการอะไรจากบ้าน...",
+          "processSteps": [
+            {
+              "number": "01",
+              "image": "/landing-pages/nest/nest-how-conversation-human.webp",
+              "alt": "ผู้ซื้อที่คาดหวังแบ่งปันบรีฟบ้านส่วนตัวกับ Nest",
+              "title": "สนทนาจริงกับเนสท์",
+              "body": "พูดคุยถึงสิ่งที่คุณต้องการจริงๆ: งบประมาณ สิ่งที่ต้องมี ตัวแบ่งดีล และเวลา รายละเอียดเล็ก ๆ น้อย ๆ อยู่ในการสนทนาด้วย"
+            },
+            {
+              "number": "02",
+              "image": "/landing-pages/nest/nest-how-review-human.webp",
+              "alt": "Nest และนักวิจารณ์ที่เป็นมนุษย์โดยพิจารณาจากผู้ซื้อหนึ่งรายและบ้านหนึ่งหลังอย่างรอบคอบ",
+              "title": "รับพร็อพเพอร์ตี้หนึ่งครั้งในแต่ละครั้ง",
+              "body": "บุคคลตรวจสอบทุกข้อเสนอก่อนที่ทั้งสองฝ่ายจะเห็น ไม่มีแคตตาล็อกสาธารณะ การจัดอันดับ หรือตารางตัวกรองที่ไม่มีที่สิ้นสุด",
+              "badge": "มนุษย์ได้รับการอนุมัติ"
+            },
+            {
+              "number": "03",
+              "image": "/landing-pages/nest/nest-how-introduction-human.webp",
+              "alt": "Nest แนะนำผู้ซื้อและเจ้าของบ้านที่คาดหวังหลังจากได้รับความยินยอมร่วมกัน",
+              "title": "ปลดล็อกการแนะนำตัวพร้อมกัน",
+              "body": "เมื่อทั้งสองฝ่ายยอมรับ ที่อยู่แบบเต็ม รายละเอียดการติดต่อ และเวลาในการดูที่เสนอจะถูกแชร์เป็นการส่วนตัว"
+            }
+          ],
+          "briefFields": [
+            {
+              "key": "area",
+              "label": "พื้นที่ที่ต้องการหรือทั่วไป",
+              "placeholder": "ภูมิภาค Utrecht, อัมสเตอร์ดัม ซุด…",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "propertyType",
+              "label": "ประเภทอสังหาริมทรัพย์",
+              "placeholder": "อพาร์ทเม้นท์, บ้านสำหรับครอบครัว, บ้านหลังที่สอง…",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "propertyBrief",
+              "label": "บ้านควรรู้สึกอย่างไร?",
+              "placeholder": "อธิบายบ้านและเหตุใดจึงสำคัญ",
+              "type": "textarea",
+              "required": true
+            },
+            {
+              "key": "budgetOrPrice",
+              "label": "ช่วงงบประมาณ",
+              "placeholder": "ช่วงส่วนตัวก็พอ",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "mustHavesOrHighlights",
+              "label": "สิ่งที่ขาด",
+              "placeholder": "แสง, สวน, พื้นที่ทำงาน, การเข้าถึง…",
+              "type": "textarea",
+              "required": true
+            },
+            {
+              "key": "dealbreakersOrBuyerCriteria",
+              "label": "ดีลเลอร์เบรกเกอร์",
+              "placeholder": "อะไรจะทำให้การแนะนำตัวไม่เหมาะสม?",
+              "type": "textarea",
+              "required": false
+            },
+            {
+              "key": "timing",
+              "label": "การจับเวลา",
+              "placeholder": "เมื่อไหร่ที่คุณพร้อมที่จะดูหรือย้าย?",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "readiness",
+              "label": "ความพร้อม",
+              "placeholder": "สำรวจ, สินเชื่อที่อยู่อาศัย, ผู้ซื้อเงินสด…",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "privateConstraints",
+              "label": "ข้อจำกัดส่วนตัว",
+              "placeholder": "รังอะไรก็ควรเก็บไว้เป็นส่วนตัว",
+              "type": "textarea",
+              "required": false
+            }
+          ]
+        },
+        {
+          "id": "selling",
+          "label": "ฉันกำลังขาย",
+          "responseMessage": "บอกฉันว่าอะไรทำให้บ้านแตกต่างและผู้ซื้อรายใดจะเหมาะสมอย่างยิ่ง ฉันจะเก็บที่อยู่ที่แน่นอนไว้เป็นส่วนตัวและนำข้อมูลแนะนำที่พิจารณามาหนึ่งรายการกลับมา",
+          "composerPlaceholder": "บอก Nest ว่าอะไรเกี่ยวกับการขายของคุณ...",
+          "processSteps": [
+            {
+              "number": "01",
+              "image": "/landing-pages/nest/nest-how-conversation-human.webp",
+              "alt": "เจ้าของบ้านแบ่งปันบทสรุปทรัพย์สินส่วนตัวกับ Nest",
+              "title": "สนทนาจริงกับเนสท์",
+              "body": "พูดคุยผ่านทรัพย์สิน จังหวะเวลา แรงจูงใจ และความหมายที่มีคุณสมบัติเหมาะสมสำหรับคุณ"
+            },
+            {
+              "number": "02",
+              "image": "/landing-pages/nest/nest-how-review-human.webp",
+              "alt": "Nest และผู้ตรวจสอบที่เป็นมนุษย์โดยพิจารณาจากผู้ขายหนึ่งรายและผู้ซื้อที่มีคุณสมบัติเหมาะสมหนึ่งราย",
+              "title": "รับผู้ซื้อหนึ่งคนในแต่ละครั้ง",
+              "body": "บุคคลตรวจสอบทุกข้อเสนอก่อนที่ทั้งสองฝ่ายจะเห็น ไม่มีการเปิดเผยต่อสาธารณะหรือการไหลของข้อตกลงจำนวนมาก",
+              "badge": "มนุษย์ได้รับการอนุมัติ"
+            },
+            {
+              "number": "03",
+              "image": "/landing-pages/nest/nest-how-introduction-human.webp",
+              "alt": "Nest แนะนำเจ้าของบ้านและผู้ซื้อที่คาดหวังหลังจากได้รับความยินยอมร่วมกัน",
+              "title": "ปลดล็อกการแนะนำตัวพร้อมกัน",
+              "body": "เมื่อทั้งสองฝ่ายยอมรับ รายละเอียดการติดต่อ ที่อยู่ที่แน่นอน และเวลาในการดูที่เสนอจะถูกแชร์เป็นการส่วนตัว"
+            }
+          ],
+          "briefFields": [
+            {
+              "key": "area",
+              "label": "พื้นที่ทั่วไป",
+              "placeholder": "พื้นที่ใกล้เคียงหรือพื้นที่กว้างเท่านั้น",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "propertyType",
+              "label": "ประเภทอสังหาริมทรัพย์",
+              "placeholder": "อพาร์ทเม้นท์, บ้านสำหรับครอบครัว, บ้านหลังที่สอง…",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "propertyBrief",
+              "label": "สรุปคุณสมบัติ",
+              "placeholder": "อธิบายคุณสมบัติโดยไม่มีที่อยู่ที่แน่นอน",
+              "type": "textarea",
+              "required": true
+            },
+            {
+              "key": "budgetOrPrice",
+              "label": "ช่วงราคาถาม",
+              "placeholder": "ช่วงส่วนตัวก็พอ",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "mustHavesOrHighlights",
+              "label": "จุดเด่นของทรัพย์สิน",
+              "placeholder": "อะไรทำให้บ้านหลังนี้แตกต่าง?",
+              "type": "textarea",
+              "required": true
+            },
+            {
+              "key": "dealbreakersOrBuyerCriteria",
+              "label": "เกณฑ์ผู้ซื้อ-พอดี",
+              "placeholder": "ผู้ซื้อที่จริงจังควรเป็นจริงอย่างไร?",
+              "type": "textarea",
+              "required": false
+            },
+            {
+              "key": "timing",
+              "label": "การจับเวลา",
+              "placeholder": "เมื่อไหร่ที่คุณพร้อมที่จะจัดให้มีการดู?",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "readiness",
+              "label": "ความพร้อม",
+              "placeholder": "เตรียมรับชมส่วนตัว...",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "privateConstraints",
+              "label": "ข้อจำกัดส่วนตัว",
+              "placeholder": "รังอะไรก็ควรเก็บไว้เป็นส่วนตัว",
+              "type": "textarea",
+              "required": false
+            }
+          ]
+        }
+      ],
+      "hero": {
+        "eyebrow": "บ้านเดียวหรือผู้ซื้อรายเดียว - ไม่ใช่ม้วนรายชื่อ",
+        "headingLines": [
+          "บทนำที่มีคุณสมบัติเหมาะสม",
+          "ที่พอดีไม่ใช่พัน",
+          "คุณต้องกรองตัวเอง"
+        ],
+        "body": "บอก Nest ว่าคุณกำลังมองหาอะไรจริงๆ หรือสิ่งที่คุณขายจริงๆ เนสท์เสนอหนึ่งนัด ทั้งสองฝ่ายตอบว่าใช่ก่อนที่จะมีการแบ่งปันอะไร",
+        "backgroundImage": "/landing-pages/nest/nest-hero-interior-clean.png",
+        "backgroundAlt": "การตกแต่งภายในบ้านที่อบอุ่นและสงบ",
+        "primaryCtaLabel": "คุยกับรัง",
+        "secondaryCtaLabel": "พบกับรัง",
+        "privacyLine": "หนึ่งนัดต่อครั้ง มนุษย์ได้รับการตรวจสอบ ส่วนตัวจนกว่าทั้งสองฝ่ายจะเลือกใช้",
+        "characterImage": "/landing-pages/nest/nest-character-meet-compact-high-wings-transparent.png",
+        "characterAlt": "รังถือโน๊ตบุ๊คและกุญแจพร้อมปีกขนาดกะทัดรัด",
+        "chat": {
+          "statusLabel": "ออนไลน์ · ดูแลมนุษย์",
+          "privacyBadge": "เอกชน",
+          "openingMessage": "คุณกำลังซื้อหรือขาย?",
+          "visitorMessage": "ฉันกำลังซื้อ",
+          "assistantMessage": "บอกฉันทีว่าควรย้ายบ้านที่ควรค่าแก่การย้าย ฉันจะถามเฉพาะรายละเอียดที่ผู้ตรวจสอบมนุษย์ต้องการ จากนั้นจึงนำข้อมูลที่เหมาะสมกลับมา",
+          "inputPlaceholder": "บอก Nest ว่าคุณต้องการอะไรจากบ้าน..."
+        },
+        "briefDemo": {
+          "enabled": true,
+          "commandTrigger": "request-introduction",
+          "introHeading": "สรุปบ้านส่วนตัวของคุณ",
+          "introBody": "แบ่งปันเฉพาะสิ่งที่ผู้วิจารณ์มนุษย์ต้องการเท่านั้น ไม่เคยขอที่อยู่ที่แน่นอนและรายละเอียดการติดต่อที่นี่",
+          "chatLabel": "สร้างโดยการแชท · 10 เทิร์น",
+          "voiceLabel": "สร้างด้วยเสียง · 5 นาที",
+          "reviewLabel": "สรุปรีวิว",
+          "editLabel": "แก้ไข้",
+          "reviewHeading": "ตรวจสอบบรีฟส่วนตัวของคุณ",
+          "reviewBody": "ไม่มีสิ่งใดคงอยู่ ค้นหา เสนอ หรือแบ่งปันในขณะที่คุณไม่เปิดเผยตัว",
+          "submitLabel": "ลงชื่อเข้าใช้สำหรับรีวิวของมนุษย์",
+          "loginNotice": "ลงชื่อเข้าใช้เพื่อย้ายบทสรุปบ้านส่วนตัวนี้ไปยังพื้นที่ทำงานรังของคุณสำหรับการตรวจสอบโดยมนุษย์ที่ผ่านการรับรองความถูกต้อง",
+          "expiryCopy": "กางเกงในที่ไม่ได้ส่งจะหมดอายุหลังจากผ่านไปหนึ่งชั่วโมง",
+          "privacyCopy": "ไม่มีการค้นหาผู้เข้าร่วม การแชร์ที่อยู่ที่ถูกต้อง หรือการเปิดเผยข้อมูลติดต่อในขณะที่ไม่ระบุชื่อ",
+          "errorCopy": "Nest ไม่สามารถบันทึกบทสรุปนี้ได้ โปรดลองอีกครั้งหรือลงชื่อเข้าใช้"
+        }
+      },
+      "audience": {
+        "kicker": "ประตูที่เล็กลงโดยการออกแบบ",
+        "heading": "สำหรับคนที่พร้อมสำหรับขั้นตอนต่อไปที่แท้จริง",
+        "body": "ไม่มีแคตตาล็อกสาธารณะ ไม่มีฟีดทรัพย์สิน ไม่มีตารางตัวกรอง Nest ฟัง เสนอหนึ่งพอดี และรอใช่ส่วนตัวสองใช่",
+        "forHeading": "นี่สำหรับ",
+        "forItems": [
+          "ผู้ซื้อที่กำลังมองหาอย่างจริงจังและสามารถดำเนินการได้อย่างรวดเร็ว",
+          "ผู้ขายที่ชอบผู้ซื้อที่มีคุณสมบัติเหมาะสมและจับคู่ล่วงหน้าจำนวนเล็กน้อยมากกว่าการเปิดเผยต่อสาธารณะ"
+        ],
+        "notForHeading": "นี่ไม่ใช่สำหรับ",
+        "notForItems": [
+          "ผู้เข้าชมทั่วไปที่ต้องการดูว่ามีอะไรอยู่ในตลาดเท่านั้น",
+          "ใครก็ตามที่คาดหวังฟีดทรัพย์สินสาธารณะหรือตัวกรองตาราง",
+          "ผู้ที่กำลังมองหาการไหลของข้อตกลงจำนวนมาก"
+        ]
+      },
+      "privacy": {
+        "kicker": "ความเป็นส่วนตัวคือลำดับ",
+        "heading": "ที่อยู่ของคุณยังคงเป็นส่วนตัวจนกว่าคุณทั้งคู่จะตอบว่าใช่",
+        "body": "รังเริ่มต้นด้วยพื้นที่ขนาดใกล้เคียง ข้อมูลประจำตัว รายละเอียดการติดต่อ และที่อยู่ที่แน่นอนจะล็อกผ่านข้อเสนอและขั้นตอนการยินยอมร่วมกัน",
+        "stages": [
+          {
+            "status": "proposed",
+            "label": "ที่เสนอ",
+            "title": "พื้นที่ทั่วไป",
+            "body": "ไม่พบข้อมูลประจำตัวหรือตำแหน่งที่แน่นอน แต่ละฝ่ายสามารถยอมรับหรือผ่านได้"
+          },
+          {
+            "status": "accepted",
+            "label": "ยอมรับทั้งคู่",
+            "title": "ใช่",
+            "body": "ทั้งสองฝ่ายยอมรับ บุคคลจะเสร็จสิ้นการยืนยันขั้นสุดท้ายก่อนที่รายละเอียดจะดับลง"
+          },
+          {
+            "status": "confirmed",
+            "label": "ยืนยันแล้ว",
+            "title": "บทนำได้รับการยืนยัน",
+            "body": "รายละเอียดการติดต่อแบบเต็ม ที่อยู่ที่แน่นอน และเวลาที่เสนอมีให้สำหรับผู้เข้าร่วมทั้งสองแล้ว"
+          }
+        ],
+        "proposalLabel": "การขอแต่งงาน",
+        "proposalAreaLabel": "พื้นที่ทั่วไป",
+        "proposalArea": "Utrecht, Overvecht",
+        "proposalNote": "ไม่พบข้อมูลประจำตัวหรือตำแหน่งที่แน่นอน แต่ละฝ่ายสามารถยอมรับหรือผ่านได้"
+      },
+      "process": {
+        "kicker": "มันทำงานอย่างไร",
+        "heading": "หนึ่งลำดับที่ระมัดระวัง",
+        "licensedAgentNote": "ตัวแทนท้องถิ่นที่ได้รับใบอนุญาตจะวนซ้ำเมื่อคุณพร้อมที่จะก้าวไปข้างหน้า"
+      },
+      "proposals": {
+        "kicker": "ข้อเสนอหน้าตาเป็นอย่างไร",
+        "heading": "สองด้าน หนึ่งถือว่าเหมาะสม",
+        "body": "การ์ดตัวอย่างเหล่านี้แสดงรูปร่างของข้อเสนอรัง พวกเขาไม่เคยเปิดเผยตัวตนหรือที่อยู่ที่แน่นอนก่อนที่จะยินยอมร่วมกัน",
+        "cards": [
+          {
+            "pairing": "ผู้ซื้อ × ทรัพย์สิน",
+            "status": "proposed",
+            "heading": "บ้านที่เงียบสงบ มุมมองสีเขียว การส่งมอบที่ยืดหยุ่น",
+            "facts": [
+              {
+                "label": "พื้นที่ทั่วไป",
+                "value": "Utrecht, Overvecht"
+              },
+              {
+                "label": "ช่องเหตุการณ์",
+                "value": "เช้าวันเสาร์"
+              }
+            ],
+            "tone": "cream"
+          },
+          {
+            "pairing": "ทรัพย์สิน × ผู้ซื้อที่ผ่านการรับรอง",
+            "status": "accepted",
+            "heading": "เตรียมเงินทุน จัดเวลา จัดลำดับความสำคัญ เข้าใจ",
+            "facts": [
+              {
+                "label": "สรุปผู้ซื้อ",
+                "value": "พร้อมเดินหน้าอย่างครุ่นคิด"
+              },
+              {
+                "label": "ช่องเหตุการณ์",
+                "value": "บ่ายวันอาทิตย์"
+              }
+            ],
+            "tone": "terracotta"
+          }
+        ]
+      },
+      "meet": {
+        "kicker": "พบกับรัง",
+        "heading": "ผู้แจ้งรายละเอียดในมุมของคุณ",
+        "body": "Nest ฟัง Beyond the Oblient Brief: แสงยามเช้าที่คุณรัก เวลาที่คุณไม่สามารถเคลื่อนไหวได้ การประนีประนอมที่ไม่ประนีประนอมจริงๆ จากนั้น Nest จะนำอันหนึ่งกลับมาซึ่งถือว่าพอดี",
+        "characterImage": "/landing-pages/nest/nest-character-meet-compact-high-wings-transparent.png",
+        "characterAlt": "พบกับ Nest ถือโน้ตบุ๊คและกุญแจที่มีปีกขนาดกะทัดรัดยกขึ้นหลังไหล่บน",
+        "principles": [
+          {
+            "title": "ฟังก่อน",
+            "body": "การสนทนา ไม่ใช่กำแพงของทุ่งนา"
+          },
+          {
+            "title": "เสนอหนึ่งพอดี",
+            "body": "ไม่มีฟีดทรัพย์สินสาธารณะหรือกริดที่ไม่มีที่สิ้นสุด"
+          },
+          {
+            "title": "รอสองใช่",
+            "body": "ข้อมูลประจำตัวและที่อยู่ที่แน่นอนจะเป็นส่วนตัวจนกว่าจะได้รับความยินยอมร่วมกัน"
+          }
+        ],
+        "primaryCtaLabel": "คุยกับรัง",
+        "secondaryCtaLabel": "ดูว่ามันทำงานอย่างไร"
+      },
+      "footer": {
+        "brandLabel": "รัง",
+        "tagline": "การแนะนำบ้านอย่างระมัดระวังทีละครั้ง",
+        "disclaimer": "Nest ไม่ใช่นายหน้าที่มีใบอนุญาตและไม่ได้เป็นตัวแทนของฝ่ายใดฝ่ายหนึ่ง เจรจา ให้คุณค่ากับบ้านของคุณ หรือจัดการธุรกรรมของคุณ เมื่อคุณพร้อมที่จะก้าวไปข้างหน้า เราจะเชื่อมโยงคุณกับตัวแทนท้องถิ่นที่ได้รับใบอนุญาตเพื่อดำเนินการให้เสร็จสิ้น Not a broker. Does not represent either party. Does not provide valuations. Does not negotiate.",
+        "eventDisclaimer": "Second Home Fair รายละเอียดเป็นแบบจำลองสำหรับการสร้างอินสแตนซ์ Nest นี้และควรได้รับการตรวจสอบก่อนเข้าร่วม",
+        "copyright": "© 2026 รัง",
+        "groups": [
+          {
+            "label": "สำรวจตรวจ",
+            "links": [
+              {
+                "label": "มันทำงานอย่างไร",
+                "target": "how-it-works"
+              },
+              {
+                "label": "ความสงบ",
+                "target": "privacy"
+              },
+              {
+                "label": "ข้อเสนอ",
+                "target": "proposals"
+              }
+            ]
+          },
+          {
+            "label": "รัง",
+            "links": [
+              {
+                "label": "พบกับรัง",
+                "target": "meet"
+              },
+              {
+                "label": "สร้างบทสรุป",
+                "target": "hero-chat"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "generatedAt": "2026-09-01T15:39:42.215Z"
+}

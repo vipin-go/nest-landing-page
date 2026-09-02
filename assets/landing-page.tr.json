@@ -1,0 +1,500 @@
+{
+  "schemaVersion": 1,
+  "language": "tr",
+  "regionKey": null,
+  "sourceRevision": "b403368b522c83332476945d763c1cdb9c3211e7fa0204db9923ea107dbb96a8",
+  "landingPage": {
+    "headline": "Uygun bir nitelikli tanıtım.",
+    "subheadline": "Özel alıcı ve satıcı tanıtımları, her seferinde bir insan tarafından gözden geçirilmiş bir teklif.",
+    "ctaLabel": "Yuva ile konuş",
+    "secondaryCtaLabel": "Nasıl çalıştığını görün",
+    "heroCharacterImage": "/landing-pages/nest/nest-character-meet-compact-high-wings-transparent.png",
+    "seoImage": {
+      "src": "/landing-pages/nest/og.jpg",
+      "alt": "Nest, özel bir ev-giriş rehberi, bir dikkatli giriş kelimeleri ile sıcak bir iç mekanda"
+    },
+    "header": {
+      "brandMark": "image",
+      "logoImageUrl": "/landing-pages/nest/nest-keyround-logo.svg"
+    },
+    "design": {
+      "variant": "home-introductions",
+      "defaultThemeMode": "light",
+      "theme": {
+        "palette": "emerald",
+        "primaryColor": "emerald",
+        "secondaryColor": "stone",
+        "accentColor": "orange",
+        "fontFamily": "inter"
+      },
+      "brand": {
+        "presetRevision": 1,
+        "colors": {
+          "light": {
+            "canvas": "#f3efe5",
+            "surface": "#fffaf0",
+            "sidebar": "#173e31",
+            "text": "#18352a",
+            "accent": "#bd623f",
+            "userBubble": "#173e31"
+          },
+          "dark": {
+            "canvas": "#10251e",
+            "surface": "#173129",
+            "sidebar": "#0c1d17",
+            "text": "#f3efe5",
+            "accent": "#e29a7d",
+            "userBubble": "#bd623f"
+          }
+        },
+        "typography": {
+          "body": {
+            "source": "google",
+            "family": "DM Sans"
+          },
+          "display": {
+            "source": "google",
+            "family": "Manrope"
+          },
+          "label": {
+            "source": "google",
+            "family": "DM Sans"
+          }
+        }
+      }
+    },
+    "homeIntroductions": {
+      "header": {
+        "brandLabel": "yuva.",
+        "brandTagline": "Bir dikkatli giriş",
+        "navItems": [
+          {
+            "label": "Nasıl çalışır",
+            "target": "how-it-works"
+          },
+          {
+            "label": "Gizlilik",
+            "target": "privacy"
+          },
+          {
+            "label": "buradan başla",
+            "target": "hero-chat"
+          }
+        ],
+        "ctaLabel": "Tanıtım İsteyin",
+        "mobileCtaLabel": "Başlangıç"
+      },
+      "service": {
+        "activeMode": "event",
+        "announcement": "Şimdi ikinci ev fuarında eşleşiyor, Jaarbeurs Utrecht - Cum 27–Paz 29 Mart",
+        "feeCopy": "Tanıtım talebinde bulunmadan önce paylaşılan ücret",
+        "disclaimer": "Nest, lisanslı bir aracı kurum değildir ve her iki tarafı da temsil etmez, müzakere etmez, evinize değer vermez veya işleminizi yürütmez. İlerlemeye hazır olduğunuzda, süreci tamamlamak için sizi lisanslı bir yerel temsilciye bağlarız.",
+        "configurations": [
+          {
+            "mode": "event",
+            "label": "Olay",
+            "actionLabel": "Görmek",
+            "name": "İkinci ev fuarı, Jaarbeurs Utrecht",
+            "location": "Jaarbeurs Utrecht",
+            "dateRange": "Cum 27-Paz 29 Mart",
+            "availabilityLabel": "Cum 27-Paz 29 Mart · Jaarbeurs Utrecht"
+          },
+          {
+            "mode": "city",
+            "label": "Şehir",
+            "actionLabel": "Görmek",
+            "name": "yuva amsterdam",
+            "location": "Amsterdam Zuid",
+            "dateRange": "devamlı",
+            "availabilityLabel": "Her Zaman Açık Yerel Tanıtımlar"
+          }
+        ]
+      },
+      "tracks": [
+        {
+          "id": "buying",
+          "label": "satın alıyorum",
+          "responseMessage": "Bana taşınmaya değecek evi söyle. Sadece bir insan gözden geçirenin ihtiyaç duyduğu ayrıntıları soracağım, sonra uygun olduğu düşünülen birini geri getireceğim.",
+          "composerPlaceholder": "Nest'e bir evden neye ihtiyacınız olduğunu söyleyin…",
+          "processSteps": [
+            {
+              "number": "01",
+              "image": "/landing-pages/nest/nest-how-conversation-human.webp",
+              "alt": "Nest ile özel bir ev brifingini paylaşan potansiyel bir alıcı",
+              "title": "Nest ile gerçek bir konuşma yapın.",
+              "body": "Gerçekten ihtiyacınız olanı konuşun: bütçe, olmazsa olmazlar, anlaşmaları bozanlar ve zamanlama. Küçük detaylar da sohbete aittir."
+            },
+            {
+              "number": "02",
+              "image": "/landing-pages/nest/nest-how-review-human.webp",
+              "alt": "Nest ve bir insan gözden geçiren, bir alıcı ve bir ev",
+              "title": "Bir seferde bir mülk uygun alın.",
+              "body": "Bir kişi her teklifi görmeden önce her teklifi gözden geçirir. Genel katalog, sıralama veya sonsuz filtre ızgarası yok.",
+              "badge": "insan onaylı"
+            },
+            {
+              "number": "03",
+              "image": "/landing-pages/nest/nest-how-introduction-human.webp",
+              "alt": "Karşılıklı rızadan sonra olası bir alıcı ve ev sahibini tanıtan yuva",
+              "title": "Girişin kilidini birlikte açın.",
+              "body": "Her iki taraf da kabul ettiğinde, tam adres, iletişim bilgileri ve önerilen görüntüleme süresi özel olarak paylaşılır."
+            }
+          ],
+          "briefFields": [
+            {
+              "key": "area",
+              "label": "tercih edilen veya genel alan",
+              "placeholder": "Utrecht bölgesi, Amsterdam Zuid…",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "propertyType",
+              "label": "Özellik Türü",
+              "placeholder": "Daire, aile evi, ikinci ev…",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "propertyBrief",
+              "label": "Ev nasıl hissetmeli?",
+              "placeholder": "Evi ve neden önemli olduğunu açıklayın.",
+              "type": "textarea",
+              "required": true
+            },
+            {
+              "key": "budgetOrPrice",
+              "label": "Bütçe aralığı",
+              "placeholder": "Özel bir aralık yeterli",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "mustHavesOrHighlights",
+              "label": "Olması Gerekenler",
+              "placeholder": "Işık, bahçe, çalışma alanı, erişilebilirlik…",
+              "type": "textarea",
+              "required": true
+            },
+            {
+              "key": "dealbreakersOrBuyerCriteria",
+              "label": "anlaşma yapanlar",
+              "placeholder": "Girişi zayıf bir uyum haline getiren nedir?",
+              "type": "textarea",
+              "required": false
+            },
+            {
+              "key": "timing",
+              "label": "Zamanlama",
+              "placeholder": "Ne zaman görüntülemeye veya taşınmaya hazır olurdunuz?",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "readiness",
+              "label": "Hazır olma",
+              "placeholder": "Keşfetmek, İpotek Hazır, Nakit Alıcı…",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "privateConstraints",
+              "label": "Özel kısıtlamalar",
+              "placeholder": "Nest her şey gizli tutmalı",
+              "type": "textarea",
+              "required": false
+            }
+          ]
+        },
+        {
+          "id": "selling",
+          "label": "satıyorum",
+          "responseMessage": "Bana evi neyin farklı kıldığını ve hangi alıcının ciddi bir uyum olacağını söyleyin. Tam adresi gizli tutacağım ve dikkate alınan bir girişi geri getireceğim.",
+          "composerPlaceholder": "Nest'e satışınızla ilgili neyin önemli olduğunu söyleyin…",
+          "processSteps": [
+            {
+              "number": "01",
+              "image": "/landing-pages/nest/nest-how-conversation-human.webp",
+              "alt": "Nest ile Özel Mülkiyet Özetini Paylaşan Bir Ev Sahibi",
+              "title": "Nest ile gerçek bir konuşma yapın.",
+              "body": "Mülk, zamanlama, motivasyon ve nitelikli sizin için ne anlama geldiği hakkında konuşun."
+            },
+            {
+              "number": "02",
+              "image": "/landing-pages/nest/nest-how-review-human.webp",
+              "alt": "bir satıcı ve bir nitelikli alıcıyı dikkatlice düşünen yuva ve bir insan gözden geçiren",
+              "title": "Bir seferde bir alıcı uygun alın.",
+              "body": "Bir kişi her teklifi görmeden önce her teklifi gözden geçirir. Kamuya açık veya toplu anlaşma akışı yok.",
+              "badge": "insan onaylı"
+            },
+            {
+              "number": "03",
+              "image": "/landing-pages/nest/nest-how-introduction-human.webp",
+              "alt": "Karşılıklı rızadan sonra bir ev sahibi ve potansiyel alıcıyı tanıtan yuva",
+              "title": "Girişin kilidini birlikte açın.",
+              "body": "Her iki taraf da kabul ettiğinde, iletişim bilgileri, tam adres ve önerilen görüntüleme süresi özel olarak paylaşılır."
+            }
+          ],
+          "briefFields": [
+            {
+              "key": "area",
+              "label": "genel alan",
+              "placeholder": "sadece mahalle veya geniş alan",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "propertyType",
+              "label": "Özellik Türü",
+              "placeholder": "Daire, aile evi, ikinci ev…",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "propertyBrief",
+              "label": "emlâk özeti",
+              "placeholder": "Mülkü tam bir adres olmadan tanımlayın.",
+              "type": "textarea",
+              "required": true
+            },
+            {
+              "key": "budgetOrPrice",
+              "label": "İstek-fiyat aralığı",
+              "placeholder": "Özel bir aralık yeterli",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "mustHavesOrHighlights",
+              "label": "Özellik Öne Çıkan",
+              "placeholder": "Bu evi farklı kılan nedir?",
+              "type": "textarea",
+              "required": true
+            },
+            {
+              "key": "dealbreakersOrBuyerCriteria",
+              "label": "Alıcıya uygun kriterler",
+              "placeholder": "Ciddi bir alıcı için ne doğru olmalı?",
+              "type": "textarea",
+              "required": false
+            },
+            {
+              "key": "timing",
+              "label": "Zamanlama",
+              "placeholder": "Bir görüntüleme ayarlamaya ne zaman hazır olurdunuz?",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "readiness",
+              "label": "Hazır olma",
+              "placeholder": "Hazırlanıyor, özel izlemeye hazır…",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "privateConstraints",
+              "label": "Özel kısıtlamalar",
+              "placeholder": "Nest her şey gizli tutmalı",
+              "type": "textarea",
+              "required": false
+            }
+          ]
+        }
+      ],
+      "hero": {
+        "eyebrow": "Tek ev veya tek alıcı - bir liste kaydırma değil.",
+        "headingLines": [
+          "Nitelikli bir giriş",
+          "Bin değil",
+          "Kendini filtrelemelisin."
+        ],
+        "body": "Nest'e gerçekte ne aradığınızı veya gerçekte ne sattığınızı söyleyin. Nest bir eşleşme önerir. Her iki taraf da bir şey paylaşılmadan önce evet diyor.",
+        "backgroundImage": "/landing-pages/nest/nest-hero-interior-clean.png",
+        "backgroundAlt": "Sıcak, sakin bir ev iç",
+        "primaryCtaLabel": "yuva ile konuş",
+        "secondaryCtaLabel": "TANIMI yuva",
+        "privacyLine": "her seferinde bir maç. İnsan gözden geçirildi. Her iki taraf da devreye girene kadar özel.",
+        "characterImage": "/landing-pages/nest/nest-character-meet-compact-high-wings-transparent.png",
+        "characterAlt": "Bir defter ve kompakt kanatlı anahtarlar tutan yuva",
+        "chat": {
+          "statusLabel": "çevrimiçi · insan denetimli",
+          "privacyBadge": "Özel",
+          "openingMessage": "Alıyor musunuz yoksa satıyor musunuz?",
+          "visitorMessage": "satın alıyorum",
+          "assistantMessage": "Bana taşınmaya değecek evi söyle. Sadece bir insan gözden geçirenin ihtiyaç duyduğu ayrıntıları soracağım, sonra uygun olduğu düşünülen birini geri getireceğim.",
+          "inputPlaceholder": "Nest'e bir evden neye ihtiyacınız olduğunu söyleyin…"
+        },
+        "briefDemo": {
+          "enabled": true,
+          "commandTrigger": "request-introduction",
+          "introHeading": "Özel Ev Özetiniz",
+          "introBody": "Yalnızca bir insan yorumcunun ihtiyaç duyduğu şeyi paylaşın. Tam adresler ve iletişim bilgileri burada asla istenmez.",
+          "chatLabel": "Sohbetle Oluştur · 10 Dönüş",
+          "voiceLabel": "Sesle Yapım · 5 dk",
+          "reviewLabel": "Özetle Özet",
+          "editLabel": "Yayına hazırlamak",
+          "reviewHeading": "Özel Özetinizi İnceleyin",
+          "reviewBody": "Anonim olduğunuzda hiçbir şey kalıcı, aranmaz, önerilmez veya paylaşılmaz.",
+          "submitLabel": "İnsan İncelemesi İçin Oturum Aç",
+          "loginNotice": "Kimliği doğrulanmış insan incelemesi için bu özel ev brifingini yuva çalışma alanınıza taşımak için oturum açın.",
+          "expiryCopy": "Gönderilmeyen özetler bir saat sonra sona erer.",
+          "privacyCopy": "Anonim iken katılımcı araması, kesin adres paylaşımı veya kişi ifşası yok.",
+          "errorCopy": "Nest bu özeti kaydedemedi. Lütfen yeniden deneyin veya oturum açın."
+        }
+      },
+      "audience": {
+        "kicker": "Tasarım gereği daha küçük bir kapı",
+        "heading": "Gerçek bir sonraki adıma hazır insanlar için.",
+        "body": "Genel katalog yok. Mülkiyet beslemesi yok. Filtre ızgarası yok. Nest dinler, bir uyum önerir ve iki özel evet bekler.",
+        "forHeading": "Onun için",
+        "forItems": [
+          "Ciddi bir şekilde arayan ve hızlı hareket edebilen alıcılar.",
+          "Açık kamuya açık maruz kalma yerine az sayıda nitelikli, önceden eşleştirilmiş alıcıyı tercih eden satıcılar."
+        ],
+        "notForHeading": "bu için değil",
+        "notForItems": [
+          "Sadece piyasada ne olduğunu görmek isteyen sıradan ziyaretçiler.",
+          "Herkese açık bir mülk beslemesi veya bir filtre ızgarası bekleyen herkes.",
+          "Toplu anlaşma akışı arayan insanlar."
+        ]
+      },
+      "privacy": {
+        "kicker": "Gizlilik sıradır",
+        "heading": "İkiniz de evet diyene kadar adresiniz gizli kalır.",
+        "body": "Nest, mahalle büyüklüğünde bir alanla başlar. Kimlik, iletişim bilgileri ve tam adres, teklif ve karşılıklı rıza aşamaları aracılığıyla kilitli kalır.",
+        "stages": [
+          {
+            "status": "proposed",
+            "label": "önerilen",
+            "title": "genel alan",
+            "body": "Kimlik veya tam konum görünmüyor. Her taraf kabul edebilir veya geçebilir."
+          },
+          {
+            "status": "accepted",
+            "label": "ikisi de kabul edildi",
+            "title": "karşılıklı evet",
+            "body": "Her iki taraf da kabul etti. Bir kişi, ayrıntılar ortaya çıkmadan önce son doğrulamayı tamamlar."
+          },
+          {
+            "status": "confirmed",
+            "label": "Onaylı",
+            "title": "Giriş Onaylandı",
+            "body": "Tam iletişim bilgileri, tam adres ve önerilen süre artık her iki katılımcı için de kullanılabilir."
+          }
+        ],
+        "proposalLabel": "Teklif",
+        "proposalAreaLabel": "genel alan",
+        "proposalArea": "utrecht, overvecht",
+        "proposalNote": "Kimlik veya tam konum görünmüyor. Her taraf kabul edebilir veya geçebilir."
+      },
+      "process": {
+        "kicker": "Nasıl çalışır",
+        "heading": "dikkatli bir sıra.",
+        "licensedAgentNote": "İlerlemeye hazır olduğunuzda lisanslı bir yerel aracı döngüye girer."
+      },
+      "proposals": {
+        "kicker": "bir teklif neye benziyor",
+        "heading": "İki taraf. biri uygun kabul edildi.",
+        "body": "Bu örnek kartlar, bir yuva teklifinin şeklini gösterir. Karşılıklı rızadan önce asla bir kimlik veya kesin adres ifşa etmezler.",
+        "cards": [
+          {
+            "pairing": "Alıcı × Mülk",
+            "status": "proposed",
+            "heading": "Sessiz ev, yeşil görünüm, esnek geçiş.",
+            "facts": [
+              {
+                "label": "genel alan",
+                "value": "utrecht, overvecht"
+              },
+              {
+                "label": "Etkinlik yuvası",
+                "value": "Cumartesi sabahı"
+              }
+            ],
+            "tone": "cream"
+          },
+          {
+            "pairing": "Property × Qualified buyer",
+            "status": "accepted",
+            "heading": "Finansman hazırlandı, zamanlama hizalandı, öncelikler anlaşıldı.",
+            "facts": [
+              {
+                "label": "Alıcı Özeti",
+                "value": "düşünceli bir şekilde ilerlemeye hazır"
+              },
+              {
+                "label": "Etkinlik yuvası",
+                "value": "Pazar öğleden sonra"
+              }
+            ],
+            "tone": "terracotta"
+          }
+        ]
+      },
+      "meet": {
+        "kicker": "TANIMI yuva",
+        "heading": "Köşenizdeki detay-bildirici.",
+        "body": "Nest bariz özetin ötesinde dinler: sevdiğiniz sabah ışığı, hareket edemediğiniz zamanlama, gerçekten bir uzlaşma olmayan tek uzlaşma. Sonra Nest, uygun olduğu düşünülen birini geri getirir.",
+        "characterImage": "/landing-pages/nest/nest-character-meet-compact-high-wings-transparent.png",
+        "characterAlt": "Nest ile tanışın, bir defter ve üst omuzların arkasında kompakt kanatlı anahtarlar bulunan bir defter ve anahtarlar tutun",
+        "principles": [
+          {
+            "title": "önce dinler",
+            "body": "Bir konuşma, bir alan duvarı değil."
+          },
+          {
+            "title": "bir uygun önerir",
+            "body": "Kamu mülkü beslemesi veya sonsuz ızgara yok."
+          },
+          {
+            "title": "iki evet bekler",
+            "body": "Kimlik ve kesin adres, karşılıklı rızaya kadar gizli kalır."
+          }
+        ],
+        "primaryCtaLabel": "Yuva ile konuş",
+        "secondaryCtaLabel": "Nasıl çalıştığını görün"
+      },
+      "footer": {
+        "brandLabel": "yuva.",
+        "tagline": "Her seferinde bir dikkatli ev tanıtımı.",
+        "disclaimer": "Nest, lisanslı bir aracı kurum değildir ve her iki tarafı da temsil etmez, müzakere etmez, evinize değer vermez veya işleminizi yürütmez. İlerlemeye hazır olduğunuzda, süreci tamamlamak için sizi lisanslı bir yerel temsilciye bağlarız. Not a broker. Does not represent either party. Does not provide valuations. Does not negotiate.",
+        "eventDisclaimer": "İkinci ev fuarı detayları bu yuva örneği için modellenmiştir ve katılımdan önce doğrulanmalıdır.",
+        "copyright": "© 2026 Yuva",
+        "groups": [
+          {
+            "label": "Keşfetmek",
+            "links": [
+              {
+                "label": "Nasıl çalışır",
+                "target": "how-it-works"
+              },
+              {
+                "label": "Gizlilik",
+                "target": "privacy"
+              },
+              {
+                "label": "evlenme teklifleri",
+                "target": "proposals"
+              }
+            ]
+          },
+          {
+            "label": "Yuva",
+            "links": [
+              {
+                "label": "TANIMI yuva",
+                "target": "meet"
+              },
+              {
+                "label": "Özet Oluştur",
+                "target": "hero-chat"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "generatedAt": "2026-09-01T15:39:42.215Z"
+}

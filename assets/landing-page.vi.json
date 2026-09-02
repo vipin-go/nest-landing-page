@@ -1,0 +1,500 @@
+{
+  "schemaVersion": 1,
+  "language": "vi",
+  "regionKey": null,
+  "sourceRevision": "b403368b522c83332476945d763c1cdb9c3211e7fa0204db9923ea107dbb96a8",
+  "landingPage": {
+    "headline": "Một lời giới thiệu đủ điều kiện phù hợp.",
+    "subheadline": "Giới thiệu người mua và người bán tư nhân, một đề xuất do con người xem xét tại một thời điểm.",
+    "ctaLabel": "Nói chuyện với Nest",
+    "secondaryCtaLabel": "Xem nó hoạt động như thế nào",
+    "heroCharacterImage": "/landing-pages/nest/nest-character-meet-compact-high-wings-transparent.png",
+    "seoImage": {
+      "src": "/landing-pages/nest/og.jpg",
+      "alt": "Nest, một hướng dẫn giới thiệu nhà riêng, trong một nội thất ấm áp với lời giới thiệu một cách cẩn thận"
+    },
+    "header": {
+      "brandMark": "image",
+      "logoImageUrl": "/landing-pages/nest/nest-keyround-logo.svg"
+    },
+    "design": {
+      "variant": "home-introductions",
+      "defaultThemeMode": "light",
+      "theme": {
+        "palette": "emerald",
+        "primaryColor": "emerald",
+        "secondaryColor": "stone",
+        "accentColor": "orange",
+        "fontFamily": "inter"
+      },
+      "brand": {
+        "presetRevision": 1,
+        "colors": {
+          "light": {
+            "canvas": "#f3efe5",
+            "surface": "#fffaf0",
+            "sidebar": "#173e31",
+            "text": "#18352a",
+            "accent": "#bd623f",
+            "userBubble": "#173e31"
+          },
+          "dark": {
+            "canvas": "#10251e",
+            "surface": "#173129",
+            "sidebar": "#0c1d17",
+            "text": "#f3efe5",
+            "accent": "#e29a7d",
+            "userBubble": "#bd623f"
+          }
+        },
+        "typography": {
+          "body": {
+            "source": "google",
+            "family": "DM Sans"
+          },
+          "display": {
+            "source": "google",
+            "family": "Manrope"
+          },
+          "label": {
+            "source": "google",
+            "family": "DM Sans"
+          }
+        }
+      }
+    },
+    "homeIntroductions": {
+      "header": {
+        "brandLabel": "tổ.",
+        "brandTagline": "Một lời giới thiệu cẩn thận",
+        "navItems": [
+          {
+            "label": "Làm thế nào nó hoạt động",
+            "target": "how-it-works"
+          },
+          {
+            "label": "Riêng tư",
+            "target": "privacy"
+          },
+          {
+            "label": "Bắt đầu ở đây",
+            "target": "hero-chat"
+          }
+        ],
+        "ctaLabel": "yêu cầu giới thiệu",
+        "mobileCtaLabel": "Khởi đầu"
+      },
+      "service": {
+        "activeMode": "event",
+        "announcement": "Hiện đang thi đấu tại Hội chợ hạng hai, Jaarbeurs Utrecht - Thứ Sáu 27 – Chủ nhật 29 tháng 3",
+        "feeCopy": "Phí được chia sẻ trước khi bạn yêu cầu giới thiệu",
+        "disclaimer": "Nest không phải là một công ty môi giới được cấp phép và không đại diện cho một trong hai bên, thương lượng, định giá nhà của bạn hoặc xử lý giao dịch của bạn. Khi bạn sẵn sàng tiếp tục, chúng tôi kết nối bạn với một đại lý địa phương được cấp phép để hoàn tất quy trình.",
+        "configurations": [
+          {
+            "mode": "event",
+            "label": "Sự kiện",
+            "actionLabel": "Phong cảnh",
+            "name": "Hội chợ thứ hai, Jaarbeurs Utrecht",
+            "location": "Jaarbeurs Utrecht",
+            "dateRange": "Thứ sáu 27 – Chủ nhật 29 tháng 3",
+            "availabilityLabel": "Thứ sáu 27 – Chủ nhật 29 tháng 3 · Jaarbeurs Utrecht"
+          },
+          {
+            "mode": "city",
+            "label": "TP",
+            "actionLabel": "Phong cảnh",
+            "name": "tổ Amsterdam",
+            "location": "Amsterdam Zuid",
+            "dateRange": "đang diễn ra",
+            "availabilityLabel": "Giới thiệu luôn địa phương"
+          }
+        ]
+      },
+      "tracks": [
+        {
+          "id": "buying",
+          "label": "Tôi đang mua",
+          "responseMessage": "Hãy cho tôi biết ngôi nhà đáng để chuyển đi. Tôi sẽ chỉ yêu cầu các chi tiết mà người đánh giá cần, sau đó mang về một cái được coi là phù hợp.",
+          "composerPlaceholder": "Nói với Nest những gì bạn cần từ một ngôi nhà…",
+          "processSteps": [
+            {
+              "number": "01",
+              "image": "/landing-pages/nest/nest-how-conversation-human.webp",
+              "alt": "Người mua tiềm năng chia sẻ bản tóm tắt về nhà riêng với Nest",
+              "title": "Có một cuộc trò chuyện thực sự với Nest.",
+              "body": "Nói qua những gì bạn thực sự cần: ngân sách, phải có, người phá vỡ thỏa thuận và thời gian. Các chi tiết nhỏ cũng thuộc về cuộc trò chuyện."
+            },
+            {
+              "number": "02",
+              "image": "/landing-pages/nest/nest-how-review-human.webp",
+              "alt": "tổ và một người đánh giá con người cẩn thận xem xét một người mua và một ngôi nhà",
+              "title": "nhận được một tài sản phù hợp tại một thời điểm.",
+              "body": "Một người xem xét mọi đề xuất trước khi một trong hai bên nhìn thấy nó. Không có danh mục công khai, xếp hạng hoặc lưới lọc vô tận.",
+              "badge": "con người được chấp thuận"
+            },
+            {
+              "number": "03",
+              "image": "/landing-pages/nest/nest-how-introduction-human.webp",
+              "alt": "Nest giới thiệu người mua và chủ nhà tiềm năng sau khi có sự đồng ý của cả hai",
+              "title": "Mở khóa phần giới thiệu cùng nhau.",
+              "body": "Khi cả hai bên đều chấp nhận, địa chỉ đầy đủ, chi tiết liên hệ và thời gian xem đề xuất sẽ được chia sẻ riêng tư."
+            }
+          ],
+          "briefFields": [
+            {
+              "key": "area",
+              "label": "Khu vực ưu tiên hoặc khu vực chung",
+              "placeholder": "Vùng Utrecht, Amsterdam Zuid…",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "propertyType",
+              "label": "Loại tài sản",
+              "placeholder": "Căn hộ chung cư, nhà ở gia đình, nhà thứ hai…",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "propertyBrief",
+              "label": "Ngôi nhà nên cảm thấy như thế nào?",
+              "placeholder": "Mô tả ngôi nhà và lý do tại sao nó quan trọng.",
+              "type": "textarea",
+              "required": true
+            },
+            {
+              "key": "budgetOrPrice",
+              "label": "phạm vi ngân sách",
+              "placeholder": "Một phạm vi riêng là đủ",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "mustHavesOrHighlights",
+              "label": "PHẢI CÓ",
+              "placeholder": "Ánh sáng, sân vườn, không gian làm việc, khả năng tiếp cận…",
+              "type": "textarea",
+              "required": true
+            },
+            {
+              "key": "dealbreakersOrBuyerCriteria",
+              "label": "người phá vỡ thỏa thuận",
+              "placeholder": "Điều gì sẽ làm cho phần giới thiệu trở nên kém phù hợp?",
+              "type": "textarea",
+              "required": false
+            },
+            {
+              "key": "timing",
+              "label": "thời gian",
+              "placeholder": "Khi nào bạn sẵn sàng xem hoặc di chuyển?",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "readiness",
+              "label": "Sẵn sàng",
+              "placeholder": "Khám phá, sẵn sàng thế chấp, người mua tiền mặt…",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "privateConstraints",
+              "label": "Ràng buộc riêng tư",
+              "placeholder": "Bất cứ điều gì tổ nên giữ kín",
+              "type": "textarea",
+              "required": false
+            }
+          ]
+        },
+        {
+          "id": "selling",
+          "label": "Tôi đang bán hàng",
+          "responseMessage": "Hãy cho tôi biết điều gì làm cho ngôi nhà trở nên khác biệt và người mua nào sẽ phù hợp nghiêm túc. Tôi sẽ giữ địa chỉ chính xác ở chế độ riêng tư và mang về một phần giới thiệu đã cân nhắc.",
+          "composerPlaceholder": "Nói với Nest những gì quan trọng về việc bán hàng của bạn…",
+          "processSteps": [
+            {
+              "number": "01",
+              "image": "/landing-pages/nest/nest-how-conversation-human.webp",
+              "alt": "Một chủ nhà chia sẻ một bản tóm tắt tài sản riêng với Nest",
+              "title": "Có một cuộc trò chuyện thực sự với Nest.",
+              "body": "Nói chuyện thông qua tài sản, thời gian, động lực của bạn và những gì đủ điều kiện có ý nghĩa đối với bạn."
+            },
+            {
+              "number": "02",
+              "image": "/landing-pages/nest/nest-how-review-human.webp",
+              "alt": "Nest và một người đánh giá con người cẩn thận xem xét một người bán và một người mua đủ điều kiện",
+              "title": "nhận được một người mua phù hợp tại một thời điểm.",
+              "body": "Một người xem xét mọi đề xuất trước khi một trong hai bên nhìn thấy nó. Không tiếp xúc công khai hoặc luồng giao dịch số lượng lớn.",
+              "badge": "con người được chấp thuận"
+            },
+            {
+              "number": "03",
+              "image": "/landing-pages/nest/nest-how-introduction-human.webp",
+              "alt": "Nest giới thiệu chủ nhà và người mua tiềm năng sau khi có sự đồng ý của cả hai",
+              "title": "Mở khóa phần giới thiệu cùng nhau.",
+              "body": "Khi cả hai bên đều chấp nhận, chi tiết liên hệ, địa chỉ chính xác và thời gian xem đề xuất sẽ được chia sẻ riêng tư."
+            }
+          ],
+          "briefFields": [
+            {
+              "key": "area",
+              "label": "Khu vực chung",
+              "placeholder": "Chỉ khu vực lân cận hoặc khu vực rộng",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "propertyType",
+              "label": "Loại tài sản",
+              "placeholder": "Căn hộ chung cư, nhà ở gia đình, nhà thứ hai…",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "propertyBrief",
+              "label": "Tóm tắt tài sản",
+              "placeholder": "mô tả tài sản mà không có địa chỉ chính xác.",
+              "type": "textarea",
+              "required": true
+            },
+            {
+              "key": "budgetOrPrice",
+              "label": "Phạm vi giá yêu cầu",
+              "placeholder": "Một phạm vi riêng là đủ",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "mustHavesOrHighlights",
+              "label": "Điểm nổi bật của tài sản",
+              "placeholder": "Điều gì làm cho ngôi nhà này trở nên khác biệt?",
+              "type": "textarea",
+              "required": true
+            },
+            {
+              "key": "dealbreakersOrBuyerCriteria",
+              "label": "Tiêu chí phù hợp với người mua",
+              "placeholder": "Điều gì nên đúng với một người mua nghiêm túc?",
+              "type": "textarea",
+              "required": false
+            },
+            {
+              "key": "timing",
+              "label": "thời gian",
+              "placeholder": "Khi nào bạn sẵn sàng sắp xếp một buổi xem?",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "readiness",
+              "label": "Sẵn sàng",
+              "placeholder": "Chuẩn bị, sẵn sàng cho các buổi xem riêng…",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "privateConstraints",
+              "label": "Ràng buộc riêng tư",
+              "placeholder": "Bất cứ điều gì tổ nên giữ kín",
+              "type": "textarea",
+              "required": false
+            }
+          ]
+        }
+      ],
+      "hero": {
+        "eyebrow": "một ngôi nhà, hoặc một người mua - không phải là một cuộn danh sách.",
+        "headingLines": [
+          "Một giới thiệu đủ điều kiện",
+          "điều đó phù hợp, không phải một nghìn",
+          "bạn phải tự lọc."
+        ],
+        "body": "Nói với Nest những gì bạn thực sự đang tìm kiếm, hoặc những gì bạn thực sự đang bán. Nest đề xuất một trận đấu. Cả hai bên đều nói có trước khi bất cứ điều gì được chia sẻ.",
+        "backgroundImage": "/landing-pages/nest/nest-hero-interior-clean.png",
+        "backgroundAlt": "Nội thất ấm cúng, ấm cúng",
+        "primaryCtaLabel": "Nói chuyện với Nest",
+        "secondaryCtaLabel": "gặp tổ",
+        "privacyLine": "một trận đấu tại một thời điểm. con người được xem xét. Riêng tư cho đến khi cả hai bên chọn tham gia.",
+        "characterImage": "/landing-pages/nest/nest-character-meet-compact-high-wings-transparent.png",
+        "characterAlt": "Nest cầm một cuốn sổ và chìa khóa có cánh nhỏ gọn",
+        "chat": {
+          "statusLabel": "Trực tuyến · Người giám sát",
+          "privacyBadge": "Riêng tư",
+          "openingMessage": "Bạn đang mua hay bán?",
+          "visitorMessage": "Tôi đang mua",
+          "assistantMessage": "Hãy cho tôi biết ngôi nhà đáng để chuyển đi. Tôi sẽ chỉ yêu cầu các chi tiết mà người đánh giá cần, sau đó mang về một cái được coi là phù hợp.",
+          "inputPlaceholder": "Nói với Nest những gì bạn cần từ một ngôi nhà…"
+        },
+        "briefDemo": {
+          "enabled": true,
+          "commandTrigger": "request-introduction",
+          "introHeading": "Trang chủ riêng của bạn",
+          "introBody": "Chỉ chia sẻ những gì một người đánh giá con người cần. Địa chỉ chính xác và chi tiết liên hệ không bao giờ được yêu cầu ở đây.",
+          "chatLabel": "xây dựng bằng cách trò chuyện · 10 lượt",
+          "voiceLabel": "Xây dựng bằng giọng nói · 5 phút",
+          "reviewLabel": "Đánh giá ngắn gọn",
+          "editLabel": "Chỉnh sửa",
+          "reviewHeading": "Xem lại bản tóm tắt riêng tư của bạn",
+          "reviewBody": "Không có gì được duy trì, tìm kiếm, đề xuất hoặc chia sẻ trong khi bạn ẩn danh.",
+          "submitLabel": "Đăng nhập để đánh giá con người",
+          "loginNotice": "Đăng nhập để chuyển bản tóm tắt nhà riêng này vào không gian làm việc Nest của bạn để được xác thực đánh giá con người.",
+          "expiryCopy": "Tóm tắt chưa gửi hết hạn sau một giờ.",
+          "privacyCopy": "Không tìm kiếm người tham gia, chia sẻ địa chỉ chính xác hoặc tiết lộ liên hệ khi ẩn danh.",
+          "errorCopy": "Nest không thể lưu bản tóm tắt này. Vui lòng thử lại hoặc đăng nhập."
+        }
+      },
+      "audience": {
+        "kicker": "một cánh cửa nhỏ hơn theo thiết kế",
+        "heading": "cho mọi người sẵn sàng cho một bước tiếp theo thực sự.",
+        "body": "Không có danh mục công khai. Không có nguồn cấp dữ liệu tài sản. Không có lưới lọc. Nest lắng nghe, đề xuất một sự phù hợp và chờ hai đồng ý riêng tư.",
+        "forHeading": "cái này dành cho",
+        "forItems": [
+          "Người mua đang nghiêm túc nhìn và có thể hành động nhanh chóng.",
+          "Người bán thích một số lượng nhỏ người mua đủ điều kiện, đã khớp trước hơn là tiếp xúc công khai."
+        ],
+        "notForHeading": "cái này không dành cho",
+        "notForItems": [
+          "Những du khách bình thường chỉ muốn xem những gì trên thị trường.",
+          "bất kỳ ai mong đợi nguồn cấp dữ liệu công cộng hoặc lưới bộ lọc.",
+          "Những người đang tìm kiếm luồng giao dịch số lượng lớn."
+        ]
+      },
+      "privacy": {
+        "kicker": "Quyền riêng tư là trình tự",
+        "heading": "Địa chỉ của bạn vẫn ở chế độ riêng tư cho đến khi cả hai đều nói có.",
+        "body": "Nest bắt đầu với một khu vực có quy mô khu vực lân cận. Danh tính, chi tiết liên hệ và địa chỉ chính xác được khóa thông qua đề xuất và các giai đoạn đồng ý.",
+        "stages": [
+          {
+            "status": "proposed",
+            "label": "Đề xuất",
+            "title": "Khu vực chung",
+            "body": "Không có danh tính hoặc vị trí chính xác được hiển thị. Mỗi bên có thể chấp nhận hoặc vượt qua."
+          },
+          {
+            "status": "accepted",
+            "label": "Cả hai đều chấp nhận",
+            "title": "lẫn nhau Có",
+            "body": "Cả hai bên đều chấp nhận. Một người hoàn thành xác minh cuối cùng trước khi chi tiết được đưa ra."
+          },
+          {
+            "status": "confirmed",
+            "label": "xác nhận",
+            "title": "Giới thiệu đã xác nhận",
+            "body": "Chi tiết liên hệ đầy đủ, địa chỉ chính xác và thời gian đề xuất hiện có sẵn cho cả hai người tham gia."
+          }
+        ],
+        "proposalLabel": "Đề nghị",
+        "proposalAreaLabel": "Khu vực chung",
+        "proposalArea": "Utrecht, Overvecht",
+        "proposalNote": "Không có danh tính hoặc vị trí chính xác được hiển thị. Mỗi bên có thể chấp nhận hoặc vượt qua."
+      },
+      "process": {
+        "kicker": "Làm thế nào nó hoạt động",
+        "heading": "một trình tự cẩn thận.",
+        "licensedAgentNote": "Một đại lý địa phương được cấp phép được chuyển đến khi bạn sẵn sàng tiếp tục."
+      },
+      "proposals": {
+        "kicker": "Một đề xuất trông như thế nào",
+        "heading": "hai mặt. một được coi là phù hợp.",
+        "body": "Những thẻ ví dụ này cho thấy hình dạng của một đề xuất tổ. Họ không bao giờ tiết lộ danh tính hoặc địa chỉ chính xác trước khi có sự đồng ý của cả hai.",
+        "cards": [
+          {
+            "pairing": "Người mua × Tài sản",
+            "status": "proposed",
+            "heading": "Nhà yên tĩnh, triển vọng xanh, bàn giao linh hoạt.",
+            "facts": [
+              {
+                "label": "Khu vực chung",
+                "value": "Utrecht, Overvecht"
+              },
+              {
+                "label": "Vị trí sự kiện",
+                "value": "Sáng thứ Bảy"
+              }
+            ],
+            "tone": "cream"
+          },
+          {
+            "pairing": "Bất động sản × Người mua đủ điều kiện",
+            "status": "accepted",
+            "heading": "Nguồn vốn được chuẩn bị, thời gian phù hợp, các ưu tiên được hiểu.",
+            "facts": [
+              {
+                "label": "Tóm tắt người mua",
+                "value": "Sẵn sàng tiến về phía trước một cách chu đáo"
+              },
+              {
+                "label": "Vị trí sự kiện",
+                "value": "Chiều chủ nhật"
+              }
+            ],
+            "tone": "terracotta"
+          }
+        ]
+      },
+      "meet": {
+        "kicker": "gặp tổ",
+        "heading": "thông báo chi tiết trong góc của bạn.",
+        "body": "Nest lắng nghe ngoài những điều rõ ràng: ánh sáng ban mai bạn yêu thích, thời gian bạn không thể di chuyển, một thỏa hiệp không thực sự là một sự thỏa hiệp. Sau đó, Nest mang về một cái được coi là phù hợp.",
+        "characterImage": "/landing-pages/nest/nest-character-meet-compact-high-wings-transparent.png",
+        "characterAlt": "Gặp tổ, cầm một cuốn sổ và chìa khóa có đôi cánh nhỏ gọn phía sau vai trên",
+        "principles": [
+          {
+            "title": "nghe trước",
+            "body": "Một cuộc trò chuyện, không phải là một bức tường của cánh đồng."
+          },
+          {
+            "title": "đề xuất một sự phù hợp",
+            "body": "Không có nguồn cấp dữ liệu công cộng hoặc lưới vô tận."
+          },
+          {
+            "title": "đợi hai đồng ý",
+            "body": "Danh tính và địa chỉ chính xác ở riêng tư cho đến khi có sự đồng ý của cả hai."
+          }
+        ],
+        "primaryCtaLabel": "Nói chuyện với Nest",
+        "secondaryCtaLabel": "Xem nó hoạt động như thế nào"
+      },
+      "footer": {
+        "brandLabel": "tổ.",
+        "tagline": "Một giới thiệu nhà cẩn thận tại một thời điểm.",
+        "disclaimer": "Nest không phải là một công ty môi giới được cấp phép và không đại diện cho một trong hai bên, thương lượng, định giá nhà của bạn hoặc xử lý giao dịch của bạn. Khi bạn sẵn sàng tiếp tục, chúng tôi kết nối bạn với một đại lý địa phương được cấp phép để hoàn tất quy trình. Not a broker. Does not represent either party. Does not provide valuations. Does not negotiate.",
+        "eventDisclaimer": "Chi tiết Hội chợ Nhà thứ hai được mô hình hóa cho việc khởi tạo tổ này và cần được xác minh trước khi tham dự.",
+        "copyright": "© 2026 Nest",
+        "groups": [
+          {
+            "label": "Khám phá",
+            "links": [
+              {
+                "label": "Làm thế nào nó hoạt động",
+                "target": "how-it-works"
+              },
+              {
+                "label": "Riêng tư",
+                "target": "privacy"
+              },
+              {
+                "label": "Đề xuất",
+                "target": "proposals"
+              }
+            ]
+          },
+          {
+            "label": "tổ",
+            "links": [
+              {
+                "label": "gặp tổ",
+                "target": "meet"
+              },
+              {
+                "label": "xây dựng một bản tóm tắt",
+                "target": "hero-chat"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "generatedAt": "2026-09-01T15:39:42.215Z"
+}

@@ -1,0 +1,500 @@
+{
+  "schemaVersion": 1,
+  "language": "sv",
+  "regionKey": null,
+  "sourceRevision": "b403368b522c83332476945d763c1cdb9c3211e7fa0204db9923ea107dbb96a8",
+  "landingPage": {
+    "headline": "En kvalificerad introduktion som passar.",
+    "subheadline": "Privat köpare och säljare Introduktioner, ett människogranskat förslag i taget.",
+    "ctaLabel": "Prata med Nest",
+    "secondaryCtaLabel": "Se hur det fungerar",
+    "heroCharacterImage": "/landing-pages/nest/nest-character-meet-compact-high-wings-transparent.png",
+    "seoImage": {
+      "src": "/landing-pages/nest/og.jpg",
+      "alt": "Nest, en privat hemintroduktionsguide, i en varm interiör med orden en noggrann introduktion"
+    },
+    "header": {
+      "brandMark": "image",
+      "logoImageUrl": "/landing-pages/nest/nest-keyround-logo.svg"
+    },
+    "design": {
+      "variant": "home-introductions",
+      "defaultThemeMode": "light",
+      "theme": {
+        "palette": "emerald",
+        "primaryColor": "emerald",
+        "secondaryColor": "stone",
+        "accentColor": "orange",
+        "fontFamily": "inter"
+      },
+      "brand": {
+        "presetRevision": 1,
+        "colors": {
+          "light": {
+            "canvas": "#f3efe5",
+            "surface": "#fffaf0",
+            "sidebar": "#173e31",
+            "text": "#18352a",
+            "accent": "#bd623f",
+            "userBubble": "#173e31"
+          },
+          "dark": {
+            "canvas": "#10251e",
+            "surface": "#173129",
+            "sidebar": "#0c1d17",
+            "text": "#f3efe5",
+            "accent": "#e29a7d",
+            "userBubble": "#bd623f"
+          }
+        },
+        "typography": {
+          "body": {
+            "source": "google",
+            "family": "DM Sans"
+          },
+          "display": {
+            "source": "google",
+            "family": "Manrope"
+          },
+          "label": {
+            "source": "google",
+            "family": "DM Sans"
+          }
+        }
+      }
+    },
+    "homeIntroductions": {
+      "header": {
+        "brandLabel": "bo.",
+        "brandTagline": "En noggrann introduktion",
+        "navItems": [
+          {
+            "label": "Hur det fungerar",
+            "target": "how-it-works"
+          },
+          {
+            "label": "Privatliv",
+            "target": "privacy"
+          },
+          {
+            "label": "Börja här",
+            "target": "hero-chat"
+          }
+        ],
+        "ctaLabel": "Begär en introduktion",
+        "mobileCtaLabel": "Start"
+      },
+      "service": {
+        "activeMode": "event",
+        "announcement": "Matchar nu på andra hemmamässa, Jaarbeurs Utrecht — fre 27–sön 29 mars",
+        "feeCopy": "Avgift delas innan du begär en introduktion",
+        "disclaimer": "Nest är inte en licensierad mäklare och representerar inte någon av parterna, förhandlar, värdesätter ditt hem eller hanterar din transaktion. När du är redo att gå vidare kopplar vi dig till en licensierad lokal agent för att slutföra processen.",
+        "configurations": [
+          {
+            "mode": "event",
+            "label": "Händelse",
+            "actionLabel": "Se",
+            "name": "Andra hemmamässan, Jaarbeurs Utrecht",
+            "location": "Jaarbeurs Utrecht",
+            "dateRange": "Fre 27–sön 29 mars",
+            "availabilityLabel": "Fre 27–Sön 29 Mar · Jaarbeurs Utrecht"
+          },
+          {
+            "mode": "city",
+            "label": "Stad",
+            "actionLabel": "Se",
+            "name": "Bo Amsterdam",
+            "location": "Amsterdam Zuid",
+            "dateRange": "Pågående",
+            "availabilityLabel": "Alltid på lokala introduktioner"
+          }
+        ]
+      },
+      "tracks": [
+        {
+          "id": "buying",
+          "label": "Jag köper",
+          "responseMessage": "Berätta för mig hemmet som skulle vara värt att flytta för. Jag ber bara om de detaljer som en mänsklig recensent behöver, och sedan ta tillbaka en som anses lämplig.",
+          "composerPlaceholder": "Berätta för Nest vad du behöver från ett hem...",
+          "processSteps": [
+            {
+              "number": "01",
+              "image": "/landing-pages/nest/nest-how-conversation-human.webp",
+              "alt": "En potentiell köpare som delar en privat hembrief med Nest",
+              "title": "Ha ett riktigt samtal med Nest.",
+              "body": "Prata igenom vad du faktiskt behöver: budget, måsten, dealbreakers och timing. De små detaljerna hör också hemma i samtalet."
+            },
+            {
+              "number": "02",
+              "image": "/landing-pages/nest/nest-how-review-human.webp",
+              "alt": "bo och en mänsklig recensent överväger noggrant en köpare och ett hem",
+              "title": "få en egendom som passar i taget.",
+              "body": "En person granskar varje förslag innan någondera sidan ser det. Ingen offentlig katalog, rankning eller oändligt filterrutnät.",
+              "badge": "människogodkänd"
+            },
+            {
+              "number": "03",
+              "image": "/landing-pages/nest/nest-how-introduction-human.webp",
+              "alt": "Nest introducerar en potentiell köpare och husägare efter ömsesidigt samtycke",
+              "title": "Lås upp introduktionen tillsammans.",
+              "body": "När båda sidor accepterar, delas den fullständiga adressen, kontaktuppgifterna och den föreslagna visningstiden privat."
+            }
+          ],
+          "briefFields": [
+            {
+              "key": "area",
+              "label": "föredraget eller allmänt område",
+              "placeholder": "Utrecht-regionen, Amsterdam Zuid...",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "propertyType",
+              "label": "Egendomstyp",
+              "placeholder": "Lägenhet, familjehem, andra hem...",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "propertyBrief",
+              "label": "Hur ska hemmet kännas?",
+              "placeholder": "Beskriv hemmet och varför det är viktigt.",
+              "type": "textarea",
+              "required": true
+            },
+            {
+              "key": "budgetOrPrice",
+              "label": "budgetintervall",
+              "placeholder": "Det räcker med ett privat utbud",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "mustHavesOrHighlights",
+              "label": "måsten",
+              "placeholder": "Ljus, trädgård, arbetsyta, tillgänglighet...",
+              "type": "textarea",
+              "required": true
+            },
+            {
+              "key": "dealbreakersOrBuyerCriteria",
+              "label": "dealbreakers",
+              "placeholder": "Vad skulle göra introduktionen till en dålig passform?",
+              "type": "textarea",
+              "required": false
+            },
+            {
+              "key": "timing",
+              "label": "tidtagning",
+              "placeholder": "När skulle du vara redo att se eller flytta?",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "readiness",
+              "label": "Beredskap",
+              "placeholder": "Utforska, inteckning redo, kontantköpare...",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "privateConstraints",
+              "label": "Privata begränsningar",
+              "placeholder": "Allt bo bör hålla sig privat",
+              "type": "textarea",
+              "required": false
+            }
+          ]
+        },
+        {
+          "id": "selling",
+          "label": "Jag säljer",
+          "responseMessage": "Berätta för mig vad som gör hemmet distinkt och vilken köpare som skulle passa seriöst. Jag kommer att hålla den exakta adressen privat och ta tillbaka en övervägd introduktion.",
+          "composerPlaceholder": "Berätta för Nest vad som är viktigt med din försäljning...",
+          "processSteps": [
+            {
+              "number": "01",
+              "image": "/landing-pages/nest/nest-how-conversation-human.webp",
+              "alt": "En husägare som delar en privat fastighetsbrief med Nest",
+              "title": "Ha ett riktigt samtal med Nest.",
+              "body": "Prata igenom fastigheten, din timing, motivation och vad kvalificerat betyder för dig."
+            },
+            {
+              "number": "02",
+              "image": "/landing-pages/nest/nest-how-review-human.webp",
+              "alt": "Nest och en mänsklig granskare överväger noggrant en säljare och en kvalificerad köpare",
+              "title": "Få en köpare som passar i taget.",
+              "body": "En person granskar varje förslag innan någondera sidan ser det. Ingen offentlig exponering eller bulkaffärsflöde.",
+              "badge": "människogodkänd"
+            },
+            {
+              "number": "03",
+              "image": "/landing-pages/nest/nest-how-introduction-human.webp",
+              "alt": "Nest introducerar en husägare och blivande köpare efter ömsesidigt samtycke",
+              "title": "Lås upp introduktionen tillsammans.",
+              "body": "När båda sidor accepterar, delas kontaktuppgifter, den exakta adressen och den föreslagna visningstiden privat."
+            }
+          ],
+          "briefFields": [
+            {
+              "key": "area",
+              "label": "storstadsområde",
+              "placeholder": "endast grannskap eller brett område",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "propertyType",
+              "label": "Egendomstyp",
+              "placeholder": "Lägenhet, familjehem, andra hem...",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "propertyBrief",
+              "label": "egendomskort",
+              "placeholder": "Beskriv fastigheten utan exakt adress.",
+              "type": "textarea",
+              "required": true
+            },
+            {
+              "key": "budgetOrPrice",
+              "label": "begärt prisklass",
+              "placeholder": "Det räcker med ett privat utbud",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "mustHavesOrHighlights",
+              "label": "Egendomshöjdpunkter",
+              "placeholder": "Vad gör detta hem distinkt?",
+              "type": "textarea",
+              "required": true
+            },
+            {
+              "key": "dealbreakersOrBuyerCriteria",
+              "label": "Kriterier för köparpassning",
+              "placeholder": "Vad ska vara sant för en seriös köpare?",
+              "type": "textarea",
+              "required": false
+            },
+            {
+              "key": "timing",
+              "label": "tidtagning",
+              "placeholder": "När skulle du vara redo att ordna en visning?",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "readiness",
+              "label": "Beredskap",
+              "placeholder": "Förbereder, redo för privata visningar...",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "privateConstraints",
+              "label": "Privata begränsningar",
+              "placeholder": "Allt bo bör hålla sig privat",
+              "type": "textarea",
+              "required": false
+            }
+          ]
+        }
+      ],
+      "hero": {
+        "eyebrow": "Det ena hemmet, eller den ena köparen - inte en bokrulle med listor.",
+        "headingLines": [
+          "En kvalificerad introduktion",
+          "som passar, inte tusen",
+          "Du måste filtrera dig själv."
+        ],
+        "body": "Berätta för Nest vad du faktiskt letar efter, eller vad du faktiskt säljer. Nest föreslår en match. Båda sidor säger ja innan något delas.",
+        "backgroundImage": "/landing-pages/nest/nest-hero-interior-clean.png",
+        "backgroundAlt": "En varm, lugn heminredning",
+        "primaryCtaLabel": "Prata med Nest",
+        "secondaryCtaLabel": "Möt Nest",
+        "privacyLine": "En match i taget. Människan granskad. Privat tills båda sidor väljer att delta.",
+        "characterImage": "/landing-pages/nest/nest-character-meet-compact-high-wings-transparent.png",
+        "characterAlt": "Bo som håller en anteckningsbok och nycklar med kompakta vingar",
+        "chat": {
+          "statusLabel": "Online · Människoövervakad",
+          "privacyBadge": "Privat",
+          "openingMessage": "Köper eller säljer du?",
+          "visitorMessage": "Jag köper",
+          "assistantMessage": "Berätta för mig hemmet som skulle vara värt att flytta för. Jag ber bara om de detaljer som en mänsklig recensent behöver, och sedan ta tillbaka en som anses lämplig.",
+          "inputPlaceholder": "Berätta för Nest vad du behöver från ett hem..."
+        },
+        "briefDemo": {
+          "enabled": true,
+          "commandTrigger": "request-introduction",
+          "introHeading": "Ditt privata hem Kort",
+          "introBody": "Dela bara vad en mänsklig granskare behöver. Exakta adresser och kontaktuppgifter efterfrågas aldrig här.",
+          "chatLabel": "Bygg genom chatt · 10 varv",
+          "voiceLabel": "Bygg efter röst · 5 min",
+          "reviewLabel": "recensionskort",
+          "editLabel": "Redigera",
+          "reviewHeading": "Granska din privata brief",
+          "reviewBody": "Ingenting kvarstår, söks, föreslås eller delas medan du är anonym.",
+          "submitLabel": "Logga in för Human Review",
+          "loginNotice": "Logga in för att flytta denna privata hemuppgift till din Nest-arbetsyta för autentiserad mänsklig granskning.",
+          "expiryCopy": "Oinlämnade trosor löper ut efter en timme.",
+          "privacyCopy": "Ingen deltagaresökning, exakt adressdelning eller kontaktavslöjande när du är anonym.",
+          "errorCopy": "Nest kunde inte rädda detta kort. Försök igen eller logga in."
+        }
+      },
+      "audience": {
+        "kicker": "en mindre dörr designad",
+        "heading": "För människor redo för ett riktigt nästa steg.",
+        "body": "Ingen offentlig katalog. Inget fastighetsflöde. Inget filternät. Nest lyssnar, föreslår en passform och väntar på två privata ja.",
+        "forHeading": "Detta är för",
+        "forItems": [
+          "Köpare som ser seriöst ut och kan agera snabbt.",
+          "Säljare som föredrar ett litet antal kvalificerade, förmatchade köpare framför öppen offentlig exponering."
+        ],
+        "notForHeading": "Detta är inte för",
+        "notForItems": [
+          "Tillfälliga besökare som bara vill se vad som finns på marknaden.",
+          "Alla som förväntar sig ett flöde för allmän egendom eller ett rutnät med filter.",
+          "Människor som letar efter bulkaffärsflöde."
+        ]
+      },
+      "privacy": {
+        "kicker": "Sekretess är sekvensen",
+        "heading": "Din adress förblir privat tills ni båda säger ja.",
+        "body": "Boet börjar med ett områdesstort område. Identitet, kontaktuppgifter och den exakta adressen förblir låsta genom förslaget och ömsesidigt samtycke.",
+        "stages": [
+          {
+            "status": "proposed",
+            "label": "Föreslagen",
+            "title": "storstadsområde",
+            "body": "Ingen identitet eller exakt plats är synlig. Varje sida kan acceptera eller passera."
+          },
+          {
+            "status": "accepted",
+            "label": "Båda accepterade",
+            "title": "Stämmigt Ja",
+            "body": "Båda sidor accepterade. En person slutför den slutliga verifieringen innan detaljerna går ut."
+          },
+          {
+            "status": "confirmed",
+            "label": "bekräftad",
+            "title": "Inledning bekräftad",
+            "body": "Fullständiga kontaktuppgifter, den exakta adressen och den föreslagna tiden är nu tillgängliga för båda deltagarna."
+          }
+        ],
+        "proposalLabel": "Förslag",
+        "proposalAreaLabel": "storstadsområde",
+        "proposalArea": "Utrecht, Overvecht",
+        "proposalNote": "Ingen identitet eller exakt plats är synlig. Varje sida kan acceptera eller passera."
+      },
+      "process": {
+        "kicker": "Hur det fungerar",
+        "heading": "En noggrann sekvens.",
+        "licensedAgentNote": "En licensierad lokal agent slingras in när du är redo att gå vidare."
+      },
+      "proposals": {
+        "kicker": "Hur ett förslag ser ut",
+        "heading": "två sidor. En ansågs lämplig.",
+        "body": "Dessa exempelkort visar formen på ett boförslag. De avslöjar aldrig en identitet eller exakt adress före ömsesidigt samtycke.",
+        "cards": [
+          {
+            "pairing": "Köpare × Egendom",
+            "status": "proposed",
+            "heading": "Lugnt hem, grön utsikt, flexibel överlämning.",
+            "facts": [
+              {
+                "label": "storstadsområde",
+                "value": "Utrecht, Overvecht"
+              },
+              {
+                "label": "evenemangsplats",
+                "value": "Lördag morgon"
+              }
+            ],
+            "tone": "cream"
+          },
+          {
+            "pairing": "Fastighet × kvalificerad köpare",
+            "status": "accepted",
+            "heading": "Finansiering förberedd, tidsjusterad, prioriteringar förstås.",
+            "facts": [
+              {
+                "label": "Köparsammanfattning",
+                "value": "redo att gå framåt eftertänksamt"
+              },
+              {
+                "label": "evenemangsplats",
+                "value": "Söndag eftermiddag"
+              }
+            ],
+            "tone": "terracotta"
+          }
+        ]
+      },
+      "meet": {
+        "kicker": "Möt Nest",
+        "heading": "Detaljen-notikern i ditt hörn.",
+        "body": "Nest lyssnar bortom det uppenbara kortet: morgonljuset du älskade, timingen du inte kan röra dig, den enda kompromissen som egentligen inte är en kompromiss. Sedan tar Nest tillbaka en ansedd passform.",
+        "characterImage": "/landing-pages/nest/nest-character-meet-compact-high-wings-transparent.png",
+        "characterAlt": "Möt Nest, håller i en anteckningsbok och nycklar med kompakta vingar upphöjda bakom de övre axlarna",
+        "principles": [
+          {
+            "title": "Lyssnar först",
+            "body": "En konversation, inte en vägg av fält."
+          },
+          {
+            "title": "föreslår en passform",
+            "body": "Inget flöde för offentlig egendom eller oändligt rutnät."
+          },
+          {
+            "title": "Väntar på två ja",
+            "body": "Identitet och exakt adress förblir privat tills ömsesidigt samtycke."
+          }
+        ],
+        "primaryCtaLabel": "Prata med Nest",
+        "secondaryCtaLabel": "Se hur det fungerar"
+      },
+      "footer": {
+        "brandLabel": "bo.",
+        "tagline": "En noggrann hemintroduktion i taget.",
+        "disclaimer": "Nest är inte en licensierad mäklare och representerar inte någon av parterna, förhandlar, värdesätter ditt hem eller hanterar din transaktion. När du är redo att gå vidare kopplar vi dig till en licensierad lokal agent för att slutföra processen. Not a broker. Does not represent either party. Does not provide valuations. Does not negotiate.",
+        "eventDisclaimer": "Andra hemmässa detaljer är modellerade för denna boinstansering och bör verifieras innan närvaro.",
+        "copyright": "© 2026 Nest",
+        "groups": [
+          {
+            "label": "Utforska",
+            "links": [
+              {
+                "label": "Hur det fungerar",
+                "target": "how-it-works"
+              },
+              {
+                "label": "Privatliv",
+                "target": "privacy"
+              },
+              {
+                "label": "förslag",
+                "target": "proposals"
+              }
+            ]
+          },
+          {
+            "label": "Näste",
+            "links": [
+              {
+                "label": "Möt Nest",
+                "target": "meet"
+              },
+              {
+                "label": "Bygg en kort",
+                "target": "hero-chat"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "generatedAt": "2026-09-01T15:39:42.215Z"
+}

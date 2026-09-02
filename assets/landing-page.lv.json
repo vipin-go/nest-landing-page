@@ -1,0 +1,500 @@
+{
+  "schemaVersion": 1,
+  "language": "lv",
+  "regionKey": null,
+  "sourceRevision": "b403368b522c83332476945d763c1cdb9c3211e7fa0204db9923ea107dbb96a8",
+  "landingPage": {
+    "headline": "Viena kvalificēta iepazīstināšana, kas atbilst.",
+    "subheadline": "Privātas pircēja un pārdevēja iepazīstināšanas, viens cilvēka pārskatīts piedāvājums vienlaikus.",
+    "ctaLabel": "Runājiet ar Nest",
+    "secondaryCtaLabel": "Skatiet, kā tas darbojas",
+    "heroCharacterImage": "/landing-pages/nest/nest-character-meet-compact-high-wings-transparent.png",
+    "seoImage": {
+      "src": "/landing-pages/nest/og.jpg",
+      "alt": "Nest, privāts mājas iepazīstināšanas gids, siltā interjerā ar vārdiem “Viena rūpīga iepazīstināšana”"
+    },
+    "header": {
+      "brandMark": "image",
+      "logoImageUrl": "/landing-pages/nest/nest-keyround-logo.svg"
+    },
+    "design": {
+      "variant": "home-introductions",
+      "defaultThemeMode": "light",
+      "theme": {
+        "palette": "emerald",
+        "primaryColor": "emerald",
+        "secondaryColor": "stone",
+        "accentColor": "orange",
+        "fontFamily": "inter"
+      },
+      "brand": {
+        "presetRevision": 1,
+        "colors": {
+          "light": {
+            "canvas": "#f3efe5",
+            "surface": "#fffaf0",
+            "sidebar": "#173e31",
+            "text": "#18352a",
+            "accent": "#bd623f",
+            "userBubble": "#173e31"
+          },
+          "dark": {
+            "canvas": "#10251e",
+            "surface": "#173129",
+            "sidebar": "#0c1d17",
+            "text": "#f3efe5",
+            "accent": "#e29a7d",
+            "userBubble": "#bd623f"
+          }
+        },
+        "typography": {
+          "body": {
+            "source": "google",
+            "family": "DM Sans"
+          },
+          "display": {
+            "source": "google",
+            "family": "Manrope"
+          },
+          "label": {
+            "source": "google",
+            "family": "DM Sans"
+          }
+        }
+      }
+    },
+    "homeIntroductions": {
+      "header": {
+        "brandLabel": "Nest.",
+        "brandTagline": "Viena rūpīga iepazīstināšana",
+        "navItems": [
+          {
+            "label": "Kā tas darbojas",
+            "target": "how-it-works"
+          },
+          {
+            "label": "Privātums",
+            "target": "privacy"
+          },
+          {
+            "label": "Sāciet šeit",
+            "target": "hero-chat"
+          }
+        ],
+        "ctaLabel": "Pieprasīt iepazīstināšanu",
+        "mobileCtaLabel": "Sākt"
+      },
+      "service": {
+        "activeMode": "event",
+        "announcement": "Pašlaik notiek saderināšana Second Home Fair, Jaarbeurs Utrecht — piektd. 27.–svētd. 29. marts",
+        "feeCopy": "Maksa tiek paziņota pirms iepazīstināšanas pieprasīšanas",
+        "disclaimer": "Nest nav licencēts brokerkila un nepārstāv nevienu pusi, neattecas uz sarunām, nenovērtē jūsu mājokli vai pārvalda jūsu darījumu. Kad esat gatavs virzīties uz priekšu, mēs jūs savienojam ar licencētu vietējo aģentu procesa pabeigšanai.",
+        "configurations": [
+          {
+            "mode": "event",
+            "label": "Pasākums",
+            "actionLabel": "Skatīt",
+            "name": "Second Home Fair, Jaarbeurs Utrecht",
+            "location": "Jaarbeurs Utrecht",
+            "dateRange": "Piektd. 27.–svētd. 29. marts",
+            "availabilityLabel": "Piektd. 27.–svētd. 29. marts · Jaarbeurs Utrecht"
+          },
+          {
+            "mode": "city",
+            "label": "Pilsēta",
+            "actionLabel": "Skatīt",
+            "name": "Nest Amsterdam",
+            "location": "Amsterdam Zuid",
+            "dateRange": "Notiekošs",
+            "availabilityLabel": "Vienmēr aktīvas vietējās iepazīstināšanas"
+          }
+        ]
+      },
+      "tracks": [
+        {
+          "id": "buying",
+          "label": "Es pērku",
+          "responseMessage": "Pastāstiet man mājokli, kura dēļ būtu vērts pārcelties. Jautāšu tikai to detaļas, kas cilvēka recenzentam ir vajadzīgas, un tad atgriezīšu vienu pārdomātu atbilstību.",
+          "composerPlaceholder": "Pastāstiet Nest, kas jums no mājokļa ir vajadzīgs…",
+          "processSteps": [
+            {
+              "number": "01",
+              "image": "/landing-pages/nest/nest-how-conversation-human.webp",
+              "alt": "Potenciāls pircējs dalās privātā mājokļa aprakstā ar Nest",
+              "title": "Runājiet ar Nest patiesībā.",
+              "body": "Pārrunājiet, kas jums patiešām ir vajadzīgs: budžets, obligātās prasības, nepārvaramie šķēršļi un laika grafiks. Sīkās detaļas arī pieder pie sarunas."
+            },
+            {
+              "number": "02",
+              "image": "/landing-pages/nest/nest-how-review-human.webp",
+              "alt": "Nest un cilvēks recenzents uzmanīgi izvērtē vienu pircēju un vienu mājokli",
+              "title": "Saņemiet vienu īpašuma atbilstību vienlaikus.",
+              "body": "Katra piedāvājumu pirms jebkuras puses redzēšanas pārskata viena persona. Bez publiska kataloga, reitinga vai bezgalīga filtra režģa.",
+              "badge": "Cilvēka apstiprināts"
+            },
+            {
+              "number": "03",
+              "image": "/landing-pages/nest/nest-how-introduction-human.webp",
+              "alt": "Nest iepazīstina potenciālu pircēju un mājas īpašnieku pēc savstarpējas piekrišanas",
+              "title": "Atbloķējiet iepazīstināšanu kopā.",
+              "body": "Kad abas puses piekrīt, pilnā adrese, kontaktinformācija un piedāvātais apskates laiks tiek kopīgoti privāti."
+            }
+          ],
+          "briefFields": [
+            {
+              "key": "area",
+              "label": "Vēlamais vai vispārīgais rajons",
+              "placeholder": "Utrehtas reģions, Amsterdam Zuid…",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "propertyType",
+              "label": "Īpašuma veids",
+              "placeholder": "Dzīvoklis, ģimenes māja, otrā māja…",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "propertyBrief",
+              "label": "Kādai jābūt mājokļa sajūtai?",
+              "placeholder": "Aprakstiet mājokli un kāpēc tas ir svarīgi.",
+              "type": "textarea",
+              "required": true
+            },
+            {
+              "key": "budgetOrPrice",
+              "label": "Budžeta diapazons",
+              "placeholder": "Privāts diapazons ir pietiekams",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "mustHavesOrHighlights",
+              "label": "Obligātās prasības",
+              "placeholder": "Gaisma, dārzs, darba vieta, pieejamība…",
+              "type": "textarea",
+              "required": true
+            },
+            {
+              "key": "dealbreakersOrBuyerCriteria",
+              "label": "Nepārvaramie šķēršļi",
+              "placeholder": "Kas padarītu iepazīstināšanu par vāju atbilstību?",
+              "type": "textarea",
+              "required": false
+            },
+            {
+              "key": "timing",
+              "label": "Laika grafiks",
+              "placeholder": "Kad jūs būtu gatavs apskatei vai pārcelšanai?",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "readiness",
+              "label": "Gatavība",
+              "placeholder": "Izpēte, hipotēkas gatavība, skaidras naudas pircējs…",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "privateConstraints",
+              "label": "Privāti ierobežojumi",
+              "placeholder": "Jebkas, kas Nest būjtu jāpatur privāti",
+              "type": "textarea",
+              "required": false
+            }
+          ]
+        },
+        {
+          "id": "selling",
+          "label": "Es pārdevu",
+          "responseMessage": "Pastāstiet man, kas padara mājokli īpašu un kurš pircējs būtu nopietna atbilstība. Precīzo adresi turēšu privātu un atgriezīšu vienu pārdomātu iepazīstināšanu.",
+          "composerPlaceholder": "Pastāstiet Nest, kas jūsu pārdošanā ir svarīgs…",
+          "processSteps": [
+            {
+              "number": "01",
+              "image": "/landing-pages/nest/nest-how-conversation-human.webp",
+              "alt": "Mājas īpašnieks dalās privātā īpašuma aprakstā ar Nest",
+              "title": "Runājiet ar Nest patiesībā.",
+              "body": "Pārrunājiet īpašumu, jūsu laika grafiku, motivāciju un to, ko jums nozīmē kvalificēts."
+            },
+            {
+              "number": "02",
+              "image": "/landing-pages/nest/nest-how-review-human.webp",
+              "alt": "Nest un cilvēks recenzents uzmanīgi izvērtē vienu pārdevēju un vienu kvalificētu pircēju",
+              "title": "Saņemiet vienu pircēja atbilstību vienlaikus.",
+              "body": "Katra piedāvājumu pirms jebkuras puses redzēšanas pārskata viena persona. Bez publiskas iedarbības vai lielapjoma darījumu plūsmas.",
+              "badge": "Cilvēka apstiprināts"
+            },
+            {
+              "number": "03",
+              "image": "/landing-pages/nest/nest-how-introduction-human.webp",
+              "alt": "Nest iepazīstina mājas īpašnieku un potenciālu pircēju pēc savstarpējas piekrišanas",
+              "title": "Atbloķējiet iepazīstināšanu kopā.",
+              "body": "Kad abas puses piekrīt, kontaktinformācija, precīzā adrese un piedāvātais apskates laiks tiek kopīgoti privāti."
+            }
+          ],
+          "briefFields": [
+            {
+              "key": "area",
+              "label": "Vispārīgais rajons",
+              "placeholder": "Tikai apkaimi vai plašs rajons",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "propertyType",
+              "label": "Īpašuma veids",
+              "placeholder": "Dzīvoklis, ģimenes māja, otrā māja…",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "propertyBrief",
+              "label": "Īpašuma apraksts",
+              "placeholder": "Aprakstiet īpašumu bez precīzas adreses.",
+              "type": "textarea",
+              "required": true
+            },
+            {
+              "key": "budgetOrPrice",
+              "label": "Prasītās cãas diapazons",
+              "placeholder": "Privāts diapazons ir pietiekams",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "mustHavesOrHighlights",
+              "label": "Īpašuma izcilākās iezīmes",
+              "placeholder": "Kas padara šo mājokli īpašu?",
+              "type": "textarea",
+              "required": true
+            },
+            {
+              "key": "dealbreakersOrBuyerCriteria",
+              "label": "Pircēja atbilstības kritēriji",
+              "placeholder": "Kam būtu jābūt patiesam par nopietnu pircēju?",
+              "type": "textarea",
+              "required": false
+            },
+            {
+              "key": "timing",
+              "label": "Laika grafiks",
+              "placeholder": "Kad jūs būtu gatavs organizēt apskati?",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "readiness",
+              "label": "Gatavība",
+              "placeholder": "Sagatavošanās, gatavs privātām apskatēm…",
+              "type": "text",
+              "required": true
+            },
+            {
+              "key": "privateConstraints",
+              "label": "Privāti ierobežojumi",
+              "placeholder": "Jebkas, kas Nest būjtu jāpatur privāti",
+              "type": "textarea",
+              "required": false
+            }
+          ]
+        }
+      ],
+      "hero": {
+        "eyebrow": "Viens mājoklis vai viens pircējs – ne bezgalīgs sludinājumu saraksts.",
+        "headingLines": [
+          "Viena kvalificēta iepazīstināšana",
+          "kas atbilst, ne tūkstošiem",
+          "kas jums pašam jāfiltrē."
+        ],
+        "body": "Pastāstiet Nest, ko jūs patiešām meklējat vai ko patiešām pārdodat. Nest piedāvā vienu atbilstību. Abas puses saka “jā” pirms jebkādas kopīgošanas.",
+        "backgroundImage": "/landing-pages/nest/nest-hero-interior-clean.png",
+        "backgroundAlt": "Silts, mierīgs mājokļa interjers",
+        "primaryCtaLabel": "Runājiet ar Nest",
+        "secondaryCtaLabel": "Iepazīstiet Nest",
+        "privacyLine": "Viena atbilstība vienlaikus. Cilvēka pārskatīta. Privāta līdz abas puses piekrīt.",
+        "characterImage": "/landing-pages/nest/nest-character-meet-compact-high-wings-transparent.png",
+        "characterAlt": "Nest tur kladi un atslēgas ar cieši salocītiem spārniem",
+        "chat": {
+          "statusLabel": "Tiešsaistē · cilvēka uzraudzībā",
+          "privacyBadge": "Privāts",
+          "openingMessage": "Vai jūs pērkat vai pārdodat?",
+          "visitorMessage": "Es pērku",
+          "assistantMessage": "Pastāstiet man mājokli, kura dēļ būtu vērts pārcelties. Jautāšu tikai to detaļas, kas cilvēka recenzentam ir vajadzīgas, un tad atgriezīšu vienu pārdomātu atbilstību.",
+          "inputPlaceholder": "Pastāstiet Nest, kas jums no mājokļa ir vajadzīgs…"
+        },
+        "briefDemo": {
+          "enabled": true,
+          "commandTrigger": "request-introduction",
+          "introHeading": "Jūsu privātais mājokļa apraksts",
+          "introBody": "Kopīgojiet tikai to, kas cilvēka recenzentam ir vajadzīgs. Precīzas adreses un kontaktinformācika šeit nekad netiek pieprasīta.",
+          "chatLabel": "Veidojiet ar tērzēšanu · 10 gājieni",
+          "voiceLabel": "Izveidot ar balsi · 5 min",
+          "reviewLabel": "Pārskatīt kopsavilkumu",
+          "editLabel": "Rediģēt",
+          "reviewHeading": "Pārskatiet savu privāto aprakstu",
+          "reviewBody": "Nekas netiek saglabāts, meklēts, piedāvāts vai kopīgots, kamēr esat anonīms.",
+          "submitLabel": "Piesakieties cilvēka pārskatīšanai",
+          "loginNotice": "Piesakieties, lai pārvietotu šo privāto mājokļa aprakstu savā Nest darbvietā autentificētai cilvēka pārskatīšanai.",
+          "expiryCopy": "Neiesniegti apraksti beidzas pēc vienas stundas.",
+          "privacyCopy": "Anonīmā režīmā nav dalībnieku meklēšanas, precīzas adreses kopīgošanas vai kontaktinformācijas atklāšanas.",
+          "errorCopy": "Nest nevarēja saglabāt šo aprakstu. Lūdzu, mēģiniet vēlreiz vai piesakieties."
+        }
+      },
+      "audience": {
+        "kicker": "Mazākas durvis pēc nodoma",
+        "heading": "Cilvēkiem, kas gatavi īstam nākamajam solim.",
+        "body": "Bez publiska kataloga. Bez īpašumu plūsmas. Bez filtra režģa. Nest klausās, piedāvā vienu atbilstību un gaida divas privātas “jā”.",
+        "forHeading": "Šis ir paredzēts",
+        "forItems": [
+          "Pircēji, kas nopietni meklē un var rīkoties ātri.",
+          "Pārdevēji, kas dod priekšroku nelielam skaitam kvalificētu, iepriekš saderinātu pircēju, nevis atklātai publiskai iedarbībai."
+        ],
+        "notForHeading": "Šis nav paredzēts",
+        "notForItems": [
+          "Gadījuma apmeklētāji, kuri vēlas tikai redzēt, kas ir pieejams tirgū.",
+          "Ikdienas lietotāji, kas sagaida publisku īpašumu plūsmu vai filtru režģi.",
+          "Cilvēki, kas meklē liela mēroga darījumu plūsmu."
+        ]
+      },
+      "privacy": {
+        "kicker": "Privātums ir secība",
+        "heading": "Jūsu adrese paliek privāta, līdz abi sakāt jā.",
+        "body": "Nest sākas ar rajona lieluma apgabalu. Identitāte, kontaktinformācija un precīza adrese paliek slēgtas priekšlikuma un abpusējas piekrišanas posmos.",
+        "stages": [
+          {
+            "status": "proposed",
+            "label": "Ierosināts",
+            "title": "Vispārīgais rajons",
+            "body": "Neviena identitāte vai precīza atrašanās vieta nav redzama. Katra puse var pieņemt vai atteikt."
+          },
+          {
+            "status": "accepted",
+            "label": "Abi pieņēma",
+            "title": "Abpusējs jā",
+            "body": "Abas puses pieņēma. Persona veic galīgo verifikāciju pirms detaljas tiek nosūtītas."
+          },
+          {
+            "status": "confirmed",
+            "label": "Apstiprināts",
+            "title": "Ievads apstiprināts",
+            "body": "Pilna kontaktinformācija, precīza adrese un piedāvātais laiks tagad ir pieejami abiem dalībniekiem."
+          }
+        ],
+        "proposalLabel": "Piedāvājums",
+        "proposalAreaLabel": "Vispārīgais rajons",
+        "proposalArea": "Utrecht, Overvecht",
+        "proposalNote": "Neviena identitāte vai precīza atrašanās vieta nav redzama. Katra puse var pieņemt vai atteikt."
+      },
+      "process": {
+        "kicker": "Kā tas darbojas",
+        "heading": "Viena rūpīga secība.",
+        "licensedAgentNote": "Licencēts vietējais aģents tiek piesaistīts, kad esat gatavs turpināt."
+      },
+      "proposals": {
+        "kicker": "Kā izskatās piedāvājums",
+        "heading": "Divas puses. Viens rūpīgi izvēlēts atbilstības variants.",
+        "body": "Šīs parauga kartes parāda Nest piedāvājuma formu. Tās nekad neatklāj identitāti vai precīzu adresi pirms abpusējas piekrišanas.",
+        "cards": [
+          {
+            "pairing": "Pircējs × Īpašums",
+            "status": "proposed",
+            "heading": "Mierīgs mājoklis, zaļš skats, elastīga nodošana.",
+            "facts": [
+              {
+                "label": "Vispārīgais rajons",
+                "value": "Utrecht, Overvecht"
+              },
+              {
+                "label": "Pasākuma laiks",
+                "value": "Sestdiena no rīta"
+              }
+            ],
+            "tone": "cream"
+          },
+          {
+            "pairing": "Īpašums × Kvalificēts pircējs",
+            "status": "accepted",
+            "heading": "Finansējums sagatavots, laiks saskaņots, prioritātes saprastas.",
+            "facts": [
+              {
+                "label": "Pircēja kopsavilkums",
+                "value": "Gatavs rūpīgi turpināt"
+              },
+              {
+                "label": "Pasākuma laiks",
+                "value": "Svētdiena pēcpusdienā"
+              }
+            ],
+            "tone": "terracotta"
+          }
+        ]
+      },
+      "meet": {
+        "kicker": "Iepazīstiet Nest",
+        "heading": "Detalizētājs jūsu stūrī.",
+        "body": "Nest klausās tālāk par acīmredzamo: rīta gaisma, kas jums patika, laiks, ko nevarat mainīt, vienīgais kompromiss, kas patiesībā nav kompromiss. Tad Nest atgriež vienu rūpīgi izvēlētu atbilstību.",
+        "characterImage": "/landing-pages/nest/nest-character-meet-compact-high-wings-transparent.png",
+        "characterAlt": "Iepazīstieties ar Nest, kurš tur piezīmju grāmatiņu un atslēgas, kam sakļauti spārni pacelti aiz augšējiem pleciem",
+        "principles": [
+          {
+            "title": "Vispirms klausās",
+            "body": "Saruna, nevis lauku siena."
+          },
+          {
+            "title": "Ierosina vienu atbilstību",
+            "body": "Nav publiskas īpašumu plūsmas vai bezgalīga režģa."
+          },
+          {
+            "title": "Gaida divus jā",
+            "body": "Identitāte un precīza adrese paliek privāta līdz abpusējai piekrišanai."
+          }
+        ],
+        "primaryCtaLabel": "Runājiet ar Nest",
+        "secondaryCtaLabel": "Skatiet, kā tas darbojas"
+      },
+      "footer": {
+        "brandLabel": "Nest.",
+        "tagline": "Viens rūpīgs mājokļa ievads vienlaikus.",
+        "disclaimer": "Nest nav licencēts brokerkila un nepārstāv nevienu pusi, neattecas uz sarunām, nenovērtē jūsu mājokli vai pārvalda jūsu darījumu. Kad esat gatavs virzīties uz priekšu, mēs jūs savienojam ar licencētu vietējo aģentu procesa pabeigšanai. Not a broker. Does not represent either party. Does not provide valuations. Does not negotiate.",
+        "eventDisclaimer": "Otrās mājas izstādes detaļas ir modelētas šai Nest instancei un pirms apmeklējuma jāpārbauda.",
+        "copyright": "© 2026 Nest",
+        "groups": [
+          {
+            "label": "Izpētiet",
+            "links": [
+              {
+                "label": "Kā tas darbojas",
+                "target": "how-it-works"
+              },
+              {
+                "label": "Privātums",
+                "target": "privacy"
+              },
+              {
+                "label": "Piedāvājumi",
+                "target": "proposals"
+              }
+            ]
+          },
+          {
+            "label": "Nest",
+            "links": [
+              {
+                "label": "Iepazīstiet Nest",
+                "target": "meet"
+              },
+              {
+                "label": "Izveidojiet aprakstu",
+                "target": "hero-chat"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "generatedAt": "2026-09-01T15:39:42.215Z"
+}
