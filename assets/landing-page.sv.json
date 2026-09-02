@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "language": "sv",
   "regionKey": null,
-  "sourceRevision": "b403368b522c83332476945d763c1cdb9c3211e7fa0204db9923ea107dbb96a8",
+  "sourceRevision": "63b918e3c521a2fc39d0818278cbcc50e23d8f0ca6d8276054406a62c82f9f7e",
   "landingPage": {
     "headline": "En kvalificerad introduktion som passar.",
     "subheadline": "Privat köpare och säljare Introduktioner, ett människogranskat förslag i taget.",
@@ -10,8 +10,8 @@
     "secondaryCtaLabel": "Se hur det fungerar",
     "heroCharacterImage": "/landing-pages/nest/nest-character-meet-compact-high-wings-transparent.png",
     "seoImage": {
-      "src": "/landing-pages/nest/og.jpg",
-      "alt": "Nest, en privat hemintroduktionsguide, i en varm interiör med orden en noggrann introduktion"
+      "src": "/landing-pages/nest/og.png",
+      "alt": "Nest — En noggrann hemintroduktion i taget"
     },
     "header": {
       "brandMark": "image",

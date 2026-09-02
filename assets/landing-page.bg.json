@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "language": "bg",
   "regionKey": null,
-  "sourceRevision": "b403368b522c83332476945d763c1cdb9c3211e7fa0204db9923ea107dbb96a8",
+  "sourceRevision": "63b918e3c521a2fc39d0818278cbcc50e23d8f0ca6d8276054406a62c82f9f7e",
   "landingPage": {
     "headline": "Едно квалифицирано въведение, което отговаря.",
     "subheadline": "Представяне на частен купувач и продавач, едно по едно предложение за хора.",
@@ -10,8 +10,8 @@
     "secondaryCtaLabel": "Вижте как работи",
     "heroCharacterImage": "/landing-pages/nest/nest-character-meet-compact-high-wings-transparent.png",
     "seoImage": {
-      "src": "/landing-pages/nest/og.jpg",
-      "alt": "Nest, частно ръководство за въвеждане на дома, в топъл интериор с думите едно внимателно въведение"
+      "src": "/landing-pages/nest/og.png",
+      "alt": "Nest — Едно внимателно домашно представяне наведнъж"
     },
     "header": {
       "brandMark": "image",

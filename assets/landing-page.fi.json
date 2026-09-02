@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "language": "fi",
   "regionKey": null,
-  "sourceRevision": "b403368b522c83332476945d763c1cdb9c3211e7fa0204db9923ea107dbb96a8",
+  "sourceRevision": "63b918e3c521a2fc39d0818278cbcc50e23d8f0ca6d8276054406a62c82f9f7e",
   "landingPage": {
     "headline": "Yksi pätevä esittely, joka sopii.",
     "subheadline": "Yksityisen ostajan ja myyjän esittelyt, yksi ihmisen arvioima ehdotus kerrallaan.",
@@ -10,8 +10,8 @@
     "secondaryCtaLabel": "Katso kuinka se toimii",
     "heroCharacterImage": "/landing-pages/nest/nest-character-meet-compact-high-wings-transparent.png",
     "seoImage": {
-      "src": "/landing-pages/nest/og.jpg",
-      "alt": "pesä, yksityinen kodin esittelyopas, lämpimässä sisustuksessa sanoilla yksi huolellinen johdanto"
+      "src": "/landing-pages/nest/og.png",
+      "alt": "Nest — Yksi huolellinen kotiesittely kerrallaan"
     },
     "header": {
       "brandMark": "image",

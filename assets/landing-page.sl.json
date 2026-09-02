@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "language": "sl",
   "regionKey": null,
-  "sourceRevision": "b403368b522c83332476945d763c1cdb9c3211e7fa0204db9923ea107dbb96a8",
+  "sourceRevision": "63b918e3c521a2fc39d0818278cbcc50e23d8f0ca6d8276054406a62c82f9f7e",
   "landingPage": {
     "headline": "En kvalificiran uvod, ki ustreza.",
     "subheadline": "Predstavitev zasebnega kupca in prodajalca, en predlog, ki ga je človek pregledal naenkrat.",
@@ -10,8 +10,8 @@
     "secondaryCtaLabel": "Poglejte, kako deluje",
     "heroCharacterImage": "/landing-pages/nest/nest-character-meet-compact-high-wings-transparent.png",
     "seoImage": {
-      "src": "/landing-pages/nest/og.jpg",
-      "alt": "Nest, zasebni vodnik za uvedbo doma, v topli notranjosti z besedami en skrben uvod"
+      "src": "/landing-pages/nest/og.png",
+      "alt": "Nest — En previden dom naenkrat"
     },
     "header": {
       "brandMark": "image",

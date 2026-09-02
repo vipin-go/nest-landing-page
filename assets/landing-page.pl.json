@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "language": "pl",
   "regionKey": null,
-  "sourceRevision": "b403368b522c83332476945d763c1cdb9c3211e7fa0204db9923ea107dbb96a8",
+  "sourceRevision": "63b918e3c521a2fc39d0818278cbcc50e23d8f0ca6d8276054406a62c82f9f7e",
   "landingPage": {
     "headline": "Jedno kwalifikowane wprowadzenie, które pasuje.",
     "subheadline": "Wprowadzenie nabywców prywatnych i sprzedawców, jedna recenzowana przez człowieka propozycja na raz.",
@@ -10,8 +10,8 @@
     "secondaryCtaLabel": "Zobacz jak to działa",
     "heroCharacterImage": "/landing-pages/nest/nest-character-meet-compact-high-wings-transparent.png",
     "seoImage": {
-      "src": "/landing-pages/nest/og.jpg",
-      "alt": "Nest , prywatny przewodnik do domu, w ciepłym wnętrzu ze słowami One ostrożne wprowadzenie"
+      "src": "/landing-pages/nest/og.png",
+      "alt": "Nest — Jedno staranne wprowadzenie do domu na raz"
     },
     "header": {
       "brandMark": "image",

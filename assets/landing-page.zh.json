@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "language": "zh",
   "regionKey": null,
-  "sourceRevision": "b403368b522c83332476945d763c1cdb9c3211e7fa0204db9923ea107dbb96a8",
+  "sourceRevision": "63b918e3c521a2fc39d0818278cbcc50e23d8f0ca6d8276054406a62c82f9f7e",
   "landingPage": {
     "headline": "一份合格的介绍，适合。",
     "subheadline": "私人买卖双方介绍，一次人工审查的提案。",
@@ -10,8 +10,8 @@
     "secondaryCtaLabel": "看看它是如何工作的",
     "heroCharacterImage": "/landing-pages/nest/nest-character-meet-compact-high-wings-transparent.png",
     "seoImage": {
-      "src": "/landing-pages/nest/og.jpg",
-      "alt": "Nest，一个私人家庭介绍指南，在一个温暖的室内，用一个仔细的介绍"
+      "src": "/landing-pages/nest/og.png",
+      "alt": "Nest — 一次仔细的家庭介绍。"
     },
     "header": {
       "brandMark": "image",

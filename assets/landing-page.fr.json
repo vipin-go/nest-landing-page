@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "language": "fr",
   "regionKey": null,
-  "sourceRevision": "b403368b522c83332476945d763c1cdb9c3211e7fa0204db9923ea107dbb96a8",
+  "sourceRevision": "63b918e3c521a2fc39d0818278cbcc50e23d8f0ca6d8276054406a62c82f9f7e",
   "landingPage": {
     "headline": "Une introduction qualifiée qui convient.",
     "subheadline": "Présentation des acheteurs et des vendeurs privés, une proposition révisée par l'homme à la fois.",
@@ -10,8 +10,8 @@
     "secondaryCtaLabel": "Voyez comment ça marche",
     "heroCharacterImage": "/landing-pages/nest/nest-character-meet-compact-high-wings-transparent.png",
     "seoImage": {
-      "src": "/landing-pages/nest/og.jpg",
-      "alt": "Nest, un guide de présentation de la maison privée, dans un intérieur chaleureux avec les mots One Introduction attentive"
+      "src": "/landing-pages/nest/og.png",
+      "alt": "Nest — Une introduction soigneuse à la fois à la fois"
     },
     "header": {
       "brandMark": "image",

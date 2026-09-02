@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "language": "it",
   "regionKey": null,
-  "sourceRevision": "b403368b522c83332476945d763c1cdb9c3211e7fa0204db9923ea107dbb96a8",
+  "sourceRevision": "63b918e3c521a2fc39d0818278cbcc50e23d8f0ca6d8276054406a62c82f9f7e",
   "landingPage": {
     "headline": "Un'introduzione qualificata che si adatta.",
     "subheadline": "Presentazioni di acquirenti e venditori privati, una proposta recensita dall'uomo alla volta.",
@@ -10,8 +10,8 @@
     "secondaryCtaLabel": "Guarda come funziona",
     "heroCharacterImage": "/landing-pages/nest/nest-character-meet-compact-high-wings-transparent.png",
     "seoImage": {
-      "src": "/landing-pages/nest/og.jpg",
-      "alt": "Nest, una guida di introduzione a casa privata, in un interno caldo con le parole un'attenta introduzione"
+      "src": "/landing-pages/nest/og.png",
+      "alt": "Nest — Un'attenta introduzione a casa alla volta"
     },
     "header": {
       "brandMark": "image",

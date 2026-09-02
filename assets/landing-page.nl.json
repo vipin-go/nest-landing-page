@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "language": "nl",
   "regionKey": null,
-  "sourceRevision": "b403368b522c83332476945d763c1cdb9c3211e7fa0204db9923ea107dbb96a8",
+  "sourceRevision": "63b918e3c521a2fc39d0818278cbcc50e23d8f0ca6d8276054406a62c82f9f7e",
   "landingPage": {
     "headline": "Een gekwalificeerde introductie die past.",
     "subheadline": "Particuliere kopers en verkopersintroducties, één door de mens beoordeeld voorstel tegelijk.",
@@ -10,8 +10,8 @@
     "secondaryCtaLabel": "Kijk hoe het werkt",
     "heroCharacterImage": "/landing-pages/nest/nest-character-meet-compact-high-wings-transparent.png",
     "seoImage": {
-      "src": "/landing-pages/nest/og.jpg",
-      "alt": "Nest, een privégids voor huisintroductie, in een warm interieur met de woorden een zorgvuldige introductie"
+      "src": "/landing-pages/nest/og.png",
+      "alt": "Nest — één zorgvuldige thuisintroductie tegelijk"
     },
     "header": {
       "brandMark": "image",
