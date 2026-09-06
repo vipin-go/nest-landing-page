@@ -11,7 +11,7 @@
     "heroCharacterImage": "/landing-pages/nest/nest-character-meet-compact-high-wings-transparent.png",
     "seoImage": {
       "src": "/landing-pages/nest/og.png",
-      "alt": "Nest — Viens rūpīgs mājokļa ievads vienlaikus"
+      "alt": "Nest: Viens rūpīgs mājokļa ievads vienlaikus"
     },
     "header": {
       "brandMark": "image",
@@ -86,7 +86,7 @@
       },
       "service": {
         "activeMode": "event",
-        "announcement": "Pašlaik notiek saderināšana Second Home Fair, Jaarbeurs Utrecht — piektd. 27.–svētd. 29. marts",
+        "announcement": "Pašlaik notiek saderināšana Second Home Fair, Jaarbeurs Utrecht, piektd. 27.–svētd. 29. marts",
         "feeCopy": "Maksa tiek paziņota pirms iepazīstināšanas pieprasīšanas",
         "disclaimer": "Nest nav licencēts brokerkila un nepārstāv nevienu pusi, neattecas uz sarunām, nenovērtē jūsu mājokli vai pārvalda jūsu darījumu. Kad esat gatavs virzīties uz priekšu, mēs jūs savienojam ar licencētu vietējo aģentu procesa pabeigšanai.",
         "configurations": [

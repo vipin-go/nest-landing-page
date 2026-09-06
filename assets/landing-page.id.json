@@ -11,7 +11,7 @@
     "heroCharacterImage": "/landing-pages/nest/nest-character-meet-compact-high-wings-transparent.png",
     "seoImage": {
       "src": "/landing-pages/nest/og.png",
-      "alt": "Nest — Satu perkenalan rumah yang hati-hati pada satu waktu"
+      "alt": "Nest: Satu perkenalan rumah yang hati-hati pada satu waktu"
     },
     "header": {
       "brandMark": "image",
@@ -86,7 +86,7 @@
       },
       "service": {
         "activeMode": "event",
-        "announcement": "Sekarang cocok di pameran kandang kedua, Jaarbeurs Utrecht — Jum 27–Minggu 29 Mar",
+        "announcement": "Sekarang cocok di pameran kandang kedua, Jaarbeurs Utrecht. Jum 27–Minggu 29 Mar",
         "feeCopy": "Biaya dibagikan sebelum Anda meminta perkenalan",
         "disclaimer": "Nest bukan perantara berlisensi dan tidak mewakili salah satu pihak, bernegosiasi, menghargai rumah Anda, atau menangani transaksi Anda. Saat Anda siap untuk bergerak maju, kami menghubungkan Anda dengan agen lokal berlisensi untuk menyelesaikan prosesnya.",
         "configurations": [
@@ -303,7 +303,7 @@
         }
       ],
       "hero": {
-        "eyebrow": "Satu rumah, atau satu pembeli — bukan gulungan daftar.",
+        "eyebrow": "Satu rumah, atau satu pembeli: bukan gulungan daftar.",
         "headingLines": [
           "satu pengantar yang memenuhi syarat",
           "itu cocok, bukan seribu",

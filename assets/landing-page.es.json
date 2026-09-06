@@ -11,7 +11,7 @@
     "heroCharacterImage": "/landing-pages/nest/nest-character-meet-compact-high-wings-transparent.png",
     "seoImage": {
       "src": "/landing-pages/nest/og.png",
-      "alt": "Nest — Una cuidadosa introducción a casa a la vez"
+      "alt": "Nest: Una cuidadosa introducción a casa a la vez"
     },
     "header": {
       "brandMark": "image",
@@ -86,7 +86,7 @@
       },
       "service": {
         "activeMode": "event",
-        "announcement": "Ahora igualando en Second Home Fair, Jaarbeurs Utrecht — Vie 27–Dm 29 Mar",
+        "announcement": "Ahora igualando en Second Home Fair, Jaarbeurs Utrecht. Vie 27–Dm 29 Mar",
         "feeCopy": "Tarifa compartida antes de solicitar una introducción",
         "disclaimer": "Nest no es una agencia de corretaje con licencia y no representa a ninguna de las partes, negocia, valora su casa o maneja su transacción. Cuando esté listo para seguir adelante, lo conectamos con un agente local con licencia para completar el proceso.",
         "configurations": [

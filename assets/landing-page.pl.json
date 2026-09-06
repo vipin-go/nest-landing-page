@@ -11,7 +11,7 @@
     "heroCharacterImage": "/landing-pages/nest/nest-character-meet-compact-high-wings-transparent.png",
     "seoImage": {
       "src": "/landing-pages/nest/og.png",
-      "alt": "Nest — Jedno staranne wprowadzenie do domu na raz"
+      "alt": "Nest: Jedno staranne wprowadzenie do domu na raz"
     },
     "header": {
       "brandMark": "image",
@@ -86,7 +86,7 @@
       },
       "service": {
         "activeMode": "event",
-        "announcement": "Teraz dopasowanie na Second Home Fair, Jaarbeurs Utrecht — pt 27-nie 29 marca",
+        "announcement": "Teraz dopasowanie na Second Home Fair, Jaarbeurs Utrecht, pt 27-nie 29 marca",
         "feeCopy": "Opłata udostępniona przed poproszeniem o wprowadzenie",
         "disclaimer": "Nest nie jest licencjonowanym pośrednikiem i nie reprezentuje żadnej ze stron, negocjuje, nie ceni swojego domu ani nie obsługuje transakcji. Gdy jesteś gotowy, aby przejść do przodu, połączymy Cię z licencjonowanym agentem lokalnym, aby zakończyć proces.",
         "configurations": [
@@ -303,7 +303,7 @@
         }
       ],
       "hero": {
-        "eyebrow": "Jeden dom lub jeden kupujący — a nie zwój ofert.",
+        "eyebrow": "Jeden dom lub jeden kupujący: a nie zwój ofert.",
         "headingLines": [
           "Jedno kwalifikowane wprowadzenie",
           "To pasuje, nie tysiąc",

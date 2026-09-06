@@ -11,7 +11,7 @@
     "heroCharacterImage": "/landing-pages/nest/nest-character-meet-compact-high-wings-transparent.png",
     "seoImage": {
       "src": "/landing-pages/nest/og.png",
-      "alt": "Nest — 한 번에 하나의 신중한 집 소개"
+      "alt": "Nest: 한 번에 하나의 신중한 집 소개"
     },
     "header": {
       "brandMark": "image",
@@ -86,7 +86,7 @@
       },
       "service": {
         "activeMode": "event",
-        "announcement": "이제 Second Home Fair, Jaarbeurs Utrecht에서 매칭 — 3월 27일 – 3월 29일 금요일",
+        "announcement": "이제 Second Home Fair, Jaarbeurs Utrecht에서 매칭, 3월 27일 – 3월 29일 금요일",
         "feeCopy": "소개를 요청하기 전에 공유된 수수료",
         "disclaimer": "Nest는 허가된 중개업체가 아니며 어느 쪽도 당사자, 협상, 집을 소중히 여기거나 거래를 처리하지 않습니다. 앞으로 나아갈 준비가 되면 라이선스가 부여된 로컬 에이전트와 연결하여 프로세스를 완료합니다.",
         "configurations": [

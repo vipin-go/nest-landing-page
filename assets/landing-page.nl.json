@@ -11,7 +11,7 @@
     "heroCharacterImage": "/landing-pages/nest/nest-character-meet-compact-high-wings-transparent.png",
     "seoImage": {
       "src": "/landing-pages/nest/og.png",
-      "alt": "Nest — één zorgvuldige thuisintroductie tegelijk"
+      "alt": "Nest: één zorgvuldige thuisintroductie tegelijk"
     },
     "header": {
       "brandMark": "image",
@@ -86,7 +86,7 @@
       },
       "service": {
         "activeMode": "event",
-        "announcement": "Nu matchen op Second Home Fair, Jaarbeurs Utrecht — vr 27–zo 29 mrt",
+        "announcement": "Nu matchen op Second Home Fair, Jaarbeurs Utrecht, vr 27–zo 29 mrt",
         "feeCopy": "Vergoeding gedeeld voordat u een introductie aanvraagt",
         "disclaimer": "Nest is geen gelicentieerde makelaardij en vertegenwoordigt geen van beide partijen, onderhandelt, waardeert uw huis of handelt uw transactie af. Wanneer u klaar bent om verder te gaan, verbinden we u met een gelicentieerde lokale agent om het proces te voltooien.",
         "configurations": [

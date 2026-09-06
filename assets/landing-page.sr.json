@@ -11,7 +11,7 @@
     "heroCharacterImage": "/landing-pages/nest/nest-character-meet-compact-high-wings-transparent.png",
     "seoImage": {
       "src": "/landing-pages/nest/og.png",
-      "alt": "Nest — Пажљиво упознавање са домом у исто време"
+      "alt": "Nest: Пажљиво упознавање са домом у исто време"
     },
     "header": {
       "brandMark": "image",
@@ -86,7 +86,7 @@
       },
       "service": {
         "activeMode": "event",
-        "announcement": "Trenutno se uparujemo na Second Home Fair, Jaarbeurs Utrecht — pet 27–ned 29. mart",
+        "announcement": "Trenutno se uparujemo na Second Home Fair, Jaarbeurs Utrecht, pet 27–ned 29. mart",
         "feeCopy": "Naknada se deli pre nego što zatražite upoznavanje",
         "disclaimer": "Nest nije licencirana brokerska kuća i ne predstavlja ni jednu stranu, ne pregovara, ne procenjuje vašu kuću niti vodi vašu transakciju. Kada budete spremni da krenete napred, povezaćemo vas sa licenciranim lokalnim agentom da završi proces.",
         "configurations": [
@@ -303,7 +303,7 @@
         }
       ],
       "hero": {
-        "eyebrow": "Jedna kuća, ili jedan kupac — ne beskonačan spisak oglasa.",
+        "eyebrow": "Jedna kuća, ili jedan kupac: ne beskonačan spisak oglasa.",
         "headingLines": [
           "Jedno kvalifikovano upoznavanje",
           "koje odgovara, ne hiljade",

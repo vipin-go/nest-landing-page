@@ -11,7 +11,7 @@
     "heroCharacterImage": "/landing-pages/nest/nest-character-meet-compact-high-wings-transparent.png",
     "seoImage": {
       "src": "/landing-pages/nest/og.png",
-      "alt": "Nest — การแนะนำบ้านอย่างระมัดระวังทีละครั้ง"
+      "alt": "Nest: การแนะนำบ้านอย่างระมัดระวังทีละครั้ง"
     },
     "header": {
       "brandMark": "image",
@@ -86,7 +86,7 @@
       },
       "service": {
         "activeMode": "event",
-        "announcement": "ตอนนี้จับคู่ที่ Second Home Fair, Jaarbeurs Utrecht — ศุกร์ที่ 27 – อา. 29 มี.ค.",
+        "announcement": "ตอนนี้จับคู่ที่ Second Home Fair, Jaarbeurs Utrecht, ศุกร์ที่ 27 – อา. 29 มี.ค.",
         "feeCopy": "ค่าธรรมเนียมที่แบ่งปันก่อนที่คุณจะขอบทนำ",
         "disclaimer": "Nest ไม่ใช่นายหน้าที่มีใบอนุญาตและไม่ได้เป็นตัวแทนของฝ่ายใดฝ่ายหนึ่ง เจรจา ให้คุณค่ากับบ้านของคุณ หรือจัดการธุรกรรมของคุณ เมื่อคุณพร้อมที่จะก้าวไปข้างหน้า เราจะเชื่อมโยงคุณกับตัวแทนท้องถิ่นที่ได้รับใบอนุญาตเพื่อดำเนินการให้เสร็จสิ้น",
         "configurations": [

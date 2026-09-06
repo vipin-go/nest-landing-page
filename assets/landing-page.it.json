@@ -11,7 +11,7 @@
     "heroCharacterImage": "/landing-pages/nest/nest-character-meet-compact-high-wings-transparent.png",
     "seoImage": {
       "src": "/landing-pages/nest/og.png",
-      "alt": "Nest — Un'attenta introduzione a casa alla volta"
+      "alt": "Nest: Un'attenta introduzione a casa alla volta"
     },
     "header": {
       "brandMark": "image",
@@ -86,7 +86,7 @@
       },
       "service": {
         "activeMode": "event",
-        "announcement": "Ora abbinato alla seconda casa fiera, Jaarbeurs Utrecht — ven 27–dom 29 marzo",
+        "announcement": "Ora abbinato alla seconda casa fiera, Jaarbeurs Utrecht, ven 27–dom 29 marzo",
         "feeCopy": "Tariffa condivisa prima di richiedere un'introduzione",
         "disclaimer": "Nest non è un broker con licenza e non rappresenta nessuna delle parti, negozia, valuta la tua casa o gestisce la tua transazione. Quando sei pronto per andare avanti, ti colleghiamo con un agente locale autorizzato per completare il processo.",
         "configurations": [

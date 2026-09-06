@@ -11,7 +11,7 @@
     "heroCharacterImage": "/landing-pages/nest/nest-character-meet-compact-high-wings-transparent.png",
     "seoImage": {
       "src": "/landing-pages/nest/og.png",
-      "alt": "Nest — Jedan po jedan pažljiv kućni uvod"
+      "alt": "Nest: Jedan po jedan pažljiv kućni uvod"
     },
     "header": {
       "brandMark": "image",
@@ -86,7 +86,7 @@
       },
       "service": {
         "activeMode": "event",
-        "announcement": "Sada se podudara na drugom domaćem sajmu, Jaarbeurs Utrecht — pet 27. – ned 29. ožujka",
+        "announcement": "Sada se podudara na drugom domaćem sajmu, Jaarbeurs Utrecht, pet 27. – ned 29. ožujka",
         "feeCopy": "Naknada podijeljena prije nego što zatražite uvod",
         "disclaimer": "Nest nije licencirana posrednička kuća i ne predstavlja niti jednu stranu, pregovara, ne cijeni vaš dom ili ne upravlja vašom transakcijom. Kada budete spremni krenuti naprijed, povezujemo vas s licenciranim lokalnim agentom kako bismo dovršili proces.",
         "configurations": [

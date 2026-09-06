@@ -11,7 +11,7 @@
     "heroCharacterImage": "/landing-pages/nest/nest-character-meet-compact-high-wings-transparent.png",
     "seoImage": {
       "src": "/landing-pages/nest/og.png",
-      "alt": "Nest — Eine sorgfältige Heimeinführung zu einer Zeit"
+      "alt": "Nest: Eine sorgfältige Heimeinführung zu einer Zeit"
     },
     "header": {
       "brandMark": "image",
@@ -86,7 +86,7 @@
       },
       "service": {
         "activeMode": "event",
-        "announcement": "Jetzt passend zur zweiten Heimmesse, Jaarbeurs Utrecht — Fr 27–So 29 Mr.",
+        "announcement": "Jetzt passend zur zweiten Heimmesse, Jaarbeurs Utrecht. Fr 27–So 29 Mr.",
         "feeCopy": "Gebühr wird geteilt, bevor Sie eine Einführung anfordern",
         "disclaimer": "Nest ist kein lizenzierter Makler und vertritt keine Partei, verhandelt, schätzt Ihr Zuhause oder verarbeitet Ihre Transaktion. Wenn Sie bereit sind, vorwärts zu kommen, verbinden wir Sie mit einem lizenzierten lokalen Agenten, um den Vorgang abzuschließen.",
         "configurations": [

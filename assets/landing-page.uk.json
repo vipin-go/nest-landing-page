@@ -11,7 +11,7 @@
     "heroCharacterImage": "/landing-pages/nest/nest-character-meet-compact-high-wings-transparent.png",
     "seoImage": {
       "src": "/landing-pages/nest/og.png",
-      "alt": "Nest — Одне ретельне знайомство з домом за раз"
+      "alt": "Nest: Одне ретельне знайомство з домом за раз"
     },
     "header": {
       "brandMark": "image",
@@ -86,7 +86,7 @@
       },
       "service": {
         "activeMode": "event",
-        "announcement": "Зараз збігається на другому домашньому ярмарку, Jaarbeurs Utrecht — пт, 27 – нд, 29 березня",
+        "announcement": "Зараз збігається на другому домашньому ярмарку, Jaarbeurs Utrecht, пт, 27 – нд, 29 березня",
         "feeCopy": "Fee shared before you request an introduction",
         "disclaimer": "Nest не є ліцензованим брокером і не представляє жодну зі сторін, не домовляється, не цінує ваш будинок або не займається вашою транзакцією. Коли ви будете готові рухатися вперед, ми зв’яжемо вас із ліцензованим місцевим агентом для завершення процесу.",
         "configurations": [

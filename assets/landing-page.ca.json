@@ -11,7 +11,7 @@
     "heroCharacterImage": "/landing-pages/nest/nest-character-meet-compact-high-wings-transparent.png",
     "seoImage": {
       "src": "/landing-pages/nest/og.png",
-      "alt": "Nest — Una introducció acurada a la llar cada cop"
+      "alt": "Nest: Una introducció acurada a la llar cada cop"
     },
     "header": {
       "brandMark": "image",
@@ -86,7 +86,7 @@
       },
       "service": {
         "activeMode": "event",
-        "announcement": "Ara mateix fent coincidències a Second Home Fair, Jaarbeurs Utrecht — dv. 27–dg. 29 març",
+        "announcement": "Ara mateix fent coincidències a Second Home Fair, Jaarbeurs Utrecht, dv. 27–dg. 29 març",
         "feeCopy": "La quota es comparteix abans de sol·licitar una presentació",
         "disclaimer": "Nest no és una corretja llicenciada i no representa cap de les parts, no negocia, no valora la teva llar ni gestiona la teva transacció. Quan estiguis preparat per avançar, et connectem amb un agent local llicenciat per completar el procés.",
         "configurations": [
@@ -303,7 +303,7 @@
         }
       ],
       "hero": {
-        "eyebrow": "Una sola llar, o un sol comprador — no un desplaçament interminable d'anuncis.",
+        "eyebrow": "Una sola llar, o un sol comprador: no un desplaçament interminable d'anuncis.",
         "headingLines": [
           "Una presentació qualificada",
           "que encaixa, no milers",

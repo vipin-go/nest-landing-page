@@ -11,7 +11,7 @@
     "heroCharacterImage": "/landing-pages/nest/nest-character-meet-compact-high-wings-transparent.png",
     "seoImage": {
       "src": "/landing-pages/nest/og.png",
-      "alt": "Nest — Uma introdução cuidadosa em casa de cada vez"
+      "alt": "Nest: Uma introdução cuidadosa em casa de cada vez"
     },
     "header": {
       "brandMark": "image",
@@ -86,7 +86,7 @@
       },
       "service": {
         "activeMode": "event",
-        "announcement": "Agora igualando na segunda feira em casa, Jaarbeurs Utrecht — Sex 27–Sun 29 Mar",
+        "announcement": "Agora igualando na segunda feira em casa, Jaarbeurs Utrecht. Sex 27–Sun 29 Mar",
         "feeCopy": "Taxa compartilhada antes de solicitar uma introdução",
         "disclaimer": "A Nest não é uma corretora licenciada e não representa nenhuma das partes, negocia, valoriza sua casa ou lida com sua transação. Quando você estiver pronto para seguir em frente, conectamos você a um agente local licenciado para concluir o processo.",
         "configurations": [

@@ -11,7 +11,7 @@
     "heroCharacterImage": "/landing-pages/nest/nest-character-meet-compact-high-wings-transparent.png",
     "seoImage": {
       "src": "/landing-pages/nest/og.png",
-      "alt": "Nest — یک معرفی محتاطانه خانه در هر زمان"
+      "alt": "Nest: یک معرفی محتاطانه خانه در هر زمان"
     },
     "header": {
       "brandMark": "image",
@@ -86,7 +86,7 @@
       },
       "service": {
         "activeMode": "event",
-        "announcement": "اکنون در حال تطبیق در Second Home Fair، Jaarbeurs Utrecht — جمعه ۲۷ تا یکشنبه ۲۹ مارس",
+        "announcement": "اکنون در حال تطبیق در Second Home Fair، Jaarbeurs Utrecht, جمعه ۲۷ تا یکشنبه ۲۹ مارس",
         "feeCopy": "هزینه قبل از درخواست معرفی به اشتراک گذاشته می‌شود",
         "disclaimer": "Nest یک واسطه‌گری مجاز نیست و نماینده هیچ‌یک از طرف‌ها نیست، مذاکره نمی‌کند، خانه شما را ارزیابی نمی‌کند، یا معامله شما را مدیریت نمی‌کند. وقتی آماده پیشروی هستید، شما را به یک عامل محلی مجاز متصل می‌کنیم تا فرایند را تکميل کند.",
         "configurations": [
@@ -303,7 +303,7 @@
         }
       ],
       "hero": {
-        "eyebrow": "یک خانه، یا یک خریدار — نه یک پیمایش از فهرست‌ها.",
+        "eyebrow": "یک خانه، یا یک خریدار: نه یک پیمایش از فهرست‌ها.",
         "headingLines": [
           "یک معرفی واجد شرایط",
           "که مناسب است، نه هزاران",

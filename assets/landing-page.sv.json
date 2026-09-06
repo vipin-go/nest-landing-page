@@ -11,7 +11,7 @@
     "heroCharacterImage": "/landing-pages/nest/nest-character-meet-compact-high-wings-transparent.png",
     "seoImage": {
       "src": "/landing-pages/nest/og.png",
-      "alt": "Nest — En noggrann hemintroduktion i taget"
+      "alt": "Nest: En noggrann hemintroduktion i taget"
     },
     "header": {
       "brandMark": "image",
@@ -86,7 +86,7 @@
       },
       "service": {
         "activeMode": "event",
-        "announcement": "Matchar nu på andra hemmamässa, Jaarbeurs Utrecht — fre 27–sön 29 mars",
+        "announcement": "Matchar nu på andra hemmamässa, Jaarbeurs Utrecht, fre 27–sön 29 mars",
         "feeCopy": "Avgift delas innan du begär en introduktion",
         "disclaimer": "Nest är inte en licensierad mäklare och representerar inte någon av parterna, förhandlar, värdesätter ditt hem eller hanterar din transaktion. När du är redo att gå vidare kopplar vi dig till en licensierad lokal agent för att slutföra processen.",
         "configurations": [

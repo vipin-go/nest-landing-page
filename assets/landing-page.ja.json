@@ -11,7 +11,7 @@
     "heroCharacterImage": "/landing-pages/nest/nest-character-meet-compact-high-wings-transparent.png",
     "seoImage": {
       "src": "/landing-pages/nest/og.png",
-      "alt": "Nest — 一度に 1 つの慎重な家の紹介。"
+      "alt": "Nest: 一度に 1 つの慎重な家の紹介。"
     },
     "header": {
       "brandMark": "image",
@@ -86,7 +86,7 @@
       },
       "service": {
         "activeMode": "event",
-        "announcement": "現在、2 番目のホーム フェアでマッチングされています。Jaarbeurs Utrecht — 金曜日 27 ～ 3 月 29 日 3 月",
+        "announcement": "現在、2 番目のホーム フェアでマッチングされています。Jaarbeurs Utrecht, 金曜日 27 ～ 3 月 29 日 3 月",
         "feeCopy": "紹介をリクエストする前に料金を分担します",
         "disclaimer": "Nest は認可された証券会社ではなく、どちらの当事者も、交渉し、家を評価し、取引を処理するものではありません。 前進する準備ができたら、ライセンスを取得したローカル エージェントに接続してプロセスを完了します。",
         "configurations": [
@@ -303,7 +303,7 @@
         }
       ],
       "hero": {
-        "eyebrow": "1 つの家、または 1 つの購入者 — リストの巻物ではありません。",
+        "eyebrow": "1 つの家、または 1 つの購入者: リストの巻物ではありません。",
         "headingLines": [
           "1 つの適格な紹介",
           "それは当てはまり、千ではありません",

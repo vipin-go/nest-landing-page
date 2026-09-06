@@ -11,7 +11,7 @@
     "heroCharacterImage": "/landing-pages/nest/nest-character-meet-compact-high-wings-transparent.png",
     "seoImage": {
       "src": "/landing-pages/nest/og.png",
-      "alt": "Nest — 一次仔细的家庭介绍。"
+      "alt": "Nest: 一次仔细的家庭介绍。"
     },
     "header": {
       "brandMark": "image",
@@ -86,7 +86,7 @@
       },
       "service": {
         "activeMode": "event",
-        "announcement": "现在在第二家博览会上匹配，Jaarbeurs Utrecht — 周五 27 日至 3 月 29 日星期日",
+        "announcement": "现在在第二家博览会上匹配，Jaarbeurs Utrecht: 周五 27 日至 3 月 29 日星期日",
         "feeCopy": "申请介绍前分摊的费用",
         "disclaimer": "Nest 不是持牌经纪商，不代表任何一方、谈判、评估您的房屋或处理您的交易。 当您准备好继续前进时，我们会将您与许可的本地代理联系起来以完成该过程。",
         "configurations": [
@@ -303,7 +303,7 @@
         }
       ],
       "hero": {
-        "eyebrow": "一个家，或一位买家——而不是一卷房源。",
+        "eyebrow": "一个家，或一位买家，而不是一卷房源。",
         "headingLines": [
           "一份合格的介绍",
           "适合，不是一千",

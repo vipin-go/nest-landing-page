@@ -11,7 +11,7 @@
     "heroCharacterImage": "/landing-pages/nest/nest-character-meet-compact-high-wings-transparent.png",
     "seoImage": {
       "src": "/landing-pages/nest/og.png",
-      "alt": "Nest — Едно внимателно домашно представяне наведнъж"
+      "alt": "Nest: Едно внимателно домашно представяне наведнъж"
     },
     "header": {
       "brandMark": "image",
@@ -86,7 +86,7 @@
       },
       "service": {
         "activeMode": "event",
-        "announcement": "Сега съвпадащ на Втори домашен панаир, Jaarbeurs Utrecht — пт, 27 – нд, 29 март",
+        "announcement": "Сега съвпадащ на Втори домашен панаир, Jaarbeurs Utrecht, пт, 27 – нд, 29 март",
         "feeCopy": "Таксата е споделена, преди да поискате въведение",
         "disclaimer": "Nest не е лицензирана брокерска компания и не представлява нито една от страните, не договаря, оценява дома ви или не обработва вашата транзакция. Когато сте готови да продължите напред, ние ви свързваме с лицензиран локален агент, за да завършим процеса.",
         "configurations": [

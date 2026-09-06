@@ -11,7 +11,7 @@
     "heroCharacterImage": "/landing-pages/nest/nest-character-meet-compact-high-wings-transparent.png",
     "seoImage": {
       "src": "/landing-pages/nest/og.png",
-      "alt": "Nest — O introducere atentă acasă la un moment dat"
+      "alt": "Nest: O introducere atentă acasă la un moment dat"
     },
     "header": {
       "brandMark": "image",
@@ -86,7 +86,7 @@
       },
       "service": {
         "activeMode": "event",
-        "announcement": "acum se potrivește la a doua casă târg, Jaarbeurs Utrecht — vineri 27–duminică 29 martie",
+        "announcement": "acum se potrivește la a doua casă târg, Jaarbeurs Utrecht, vineri 27–duminică 29 martie",
         "feeCopy": "Taxa partajată înainte de a solicita o prezentare",
         "disclaimer": "Nest nu este o agenție de brokeraj autorizată și nu reprezintă nicio parte, negociază, prețuiește casa și nu se ocupă de tranzacția dvs. Când sunteți gata să mergeți mai departe, vă conectăm cu un agent local autorizat pentru a finaliza procesul.",
         "configurations": [
