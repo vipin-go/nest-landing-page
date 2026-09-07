@@ -80,10 +80,10 @@
             "target": "hero-chat"
           }
         ],
-        "ctaLabel": "Request an introduction",
+        "ctaLabel": "Meet Nest",
         "mobileCtaLabel": "Start",
-        "editionLabel": "Buyers",
-        "secondaryEditionLabel": "Sellers"
+        "editionLabel": "Buying",
+        "secondaryEditionLabel": "Selling"
       },
       "service": {
         "activeMode": "event",
@@ -310,7 +310,260 @@
               "type": "textarea",
               "required": false
             }
-          ]
+          ],
+          "roiCalculator": {
+            "methodologyVersion": 2,
+            "enabled": true,
+            "kicker": "Business impact",
+            "heading": "ROI Calculator",
+            "subheading": "Start with your seller-intake capacity. Then decide what it's worth.",
+            "disclaimer": "A scenario built from your assumptions about intake and review time, not observed results. Nest's matching, proposals, and introductions always stay human-reviewed — this models the conversational intake work only.",
+            "currency": "EUR",
+            "locale": "en-GB",
+            "inputs": [],
+            "metrics": [],
+            "businessImpact": {
+              "defaults": {
+                "volume": 16,
+                "minutes": 25,
+                "automation": 55,
+                "review": 10
+              },
+              "copy": {
+                "navLabel": "ROI",
+                "workloadStep": "Your workload",
+                "costStep": "Operating cost",
+                "valueStep": "Use the capacity",
+                "workloadIntro": "Model brief preparation and reviewed introductions—not property sales, commissions or guaranteed matches.",
+                "costIntro": "Include the costs needed to run this workload. These are your estimates, not a Gabriel quote.",
+                "valueIntro": "What will you do with the returned hours? Select only outcomes you expect to realize.",
+                "sampleNotice": "Illustrative workload · not observed results",
+                "monthly": "Monthly",
+                "yearly": "Yearly",
+                "next": "Continue",
+                "back": "Back",
+                "reset": "Reset assumptions",
+                "summary": "Your modeled impact",
+                "volume": "Work units modeled",
+                "grossHours": "Repetitive work reduced",
+                "capacity": "Net capacity returned",
+                "retained": "Capacity kept available",
+                "hours": "hours",
+                "days": "days",
+                "percent": "%",
+                "minutes": "minutes",
+                "reviewMode": "Who handles the review?",
+                "teamReview": "Existing team",
+                "paidReview": "Additional paid reviewer",
+                "reviewNote": "Existing-team review uses returned capacity. Additional paid review is included in operating cost, not deducted again from team capacity.",
+                "totalMode": "Monthly budget",
+                "itemizedMode": "Cost breakdown",
+                "budgetNote": "The budget must include models/media, tools, infrastructure, Gabriel fees, and any additional paid review. Do not include unchanged payroll as new spending.",
+                "itemizedNote": "Enter zero for a cost that does not apply. Additional paid review is calculated from review hours and its actual rate.",
+                "paidReviewCost": "Additional paid review cost",
+                "allInCost": "Operating cost",
+                "missing": "Add your assumptions",
+                "cashValue": "Cash spending avoided",
+                "contribution": "Expected contribution",
+                "expectedLoss": "Expected loss reduction",
+                "riskValue": "Uncertain risk value included",
+                "economicValue": "Modeled economic value",
+                "netBenefit": "Net modeled benefit",
+                "multiple": "Economic return multiple",
+                "notApplicable": "Not applicable",
+                "annual": "Annual view",
+                "annualNote": "The same monthly assumptions, without growth or compounding. Hiring savings last only for the entered period.",
+                "method": "How this is calculated",
+                "burdenHeading": "Repetitive work reduced",
+                "opportunityHeading": "Capacity for higher-value work",
+                "methodBody": "Operating burden removed (negative productivity) returns capacity. Higher-value work (potential positive productivity) creates economic value only if that capacity is used. Hours alone are not cash savings.",
+                "formulaLabel": "Economic value ÷ operating cost = economic return multiple. Net benefit subtracts operating cost once.",
+                "allocationNote": "Returned hours are capacity, not automatic savings. Only the portions you assign to actual spending reductions or additional contribution receive a monetary value.",
+                "overlapLabel": "These benefits are distinct; I have excluded costs and losses already counted elsewhere.",
+                "overlapNote": "Error and risk estimates exclude labor savings and the same incident must not appear in both categories. Contribution excludes AI costs, which are deducted separately.",
+                "hiringLabel": "This hire was genuinely planned and the allocated capacity can cover the work.",
+                "reviewedLabel": "I have reviewed my outcomes; unselected outcomes have no financial value in this estimate.",
+                "cycleResult": "Cycle-time improvement",
+                "throughputResult": "Additional work supported by capacity and demand",
+                "assumptionsIncomplete": "Complete the selected assumptions to calculate financial value.",
+                "allocationError": "Allocated hours exceed the net capacity available. Reduce the allocations.",
+                "reviewError": "Review takes more time than the work reduced. No positive capacity is available at these assumptions.",
+                "cashError": "Avoided spending cannot exceed current spending or have positive value with no hours allocated.",
+                "hiringError": "Allocated capacity must cover the planned hire hours. Confirm the planned hire and its duration.",
+                "riskError": "The after probability cannot exceed the before probability for a loss-reduction estimate.",
+                "overlapError": "Confirm the benefits do not overlap before including them in the financial result.",
+                "boundsError": "Use values within the displayed limits.",
+                "rangeLabel": "Adjust value",
+                "noCurrencyChange": "Language changes formatting, not your currency or assumptions."
+              },
+              "fields": {
+                "volume": {
+                  "label": "Seller briefs collected each month",
+                  "help": "Private intake conversations Nest runs before a listing brief is ready for human review."
+                },
+                "minutes": {
+                  "label": "Minutes to collect one seller brief today",
+                  "help": "Hands-on staff time for a phone or form intake before using Nest, not elapsed calendar time."
+                },
+                "automation": {
+                  "label": "Share of that intake conversation Nest now handles",
+                  "help": "Nest's conversational brief-builder, not the matching decision — every proposal is still reviewed by a person before either side sees it."
+                },
+                "review": {
+                  "label": "Minutes a reviewer spends confirming each brief",
+                  "help": "Time for a person to confirm the listing brief is complete and ready to become matchable — this step is never automated."
+                },
+                "budget": {
+                  "label": "Estimated monthly operating budget",
+                  "help": "Include all models/media, tools, infrastructure, Gabriel fees and additional paid review."
+                },
+                "model_cost": {
+                  "label": "Models and media generation",
+                  "help": "Your monthly estimate, including images or video where applicable."
+                },
+                "tools_cost": {
+                  "label": "Tools and integrations",
+                  "help": "Browser sessions, connectors and other metered services."
+                },
+                "infrastructure_cost": {
+                  "label": "Infrastructure",
+                  "help": "Incremental hosting, storage and compute for this workload."
+                },
+                "platform_cost": {
+                  "label": "Gabriel fees",
+                  "help": "Use your agreed fee or your own budget assumption; this is not a price quote."
+                },
+                "review_rate": {
+                  "label": "Additional paid review per hour",
+                  "help": "Actual extra reviewer spending, not the salary of an unchanged employee."
+                },
+                "cash_hours": {
+                  "label": "Hours that remove paid work",
+                  "help": "Allocate only work whose overtime, contractor or processing spend will actually stop."
+                },
+                "cash_baseline": {
+                  "label": "Current monthly spending on that work",
+                  "help": "The cash budget from which the reduction will come."
+                },
+                "cash_avoided": {
+                  "label": "Monthly spending you would stop",
+                  "help": "One explicit amount, not hours multiplied by salary; exclude any planned-hire saving entered separately."
+                },
+                "higher_value_hours": {
+                  "label": "Hours used for higher-value work",
+                  "help": "Hours you can realistically redirect, not the entire capacity by default."
+                },
+                "contribution_rate": {
+                  "label": "Incremental contribution per hour",
+                  "help": "Revenue less incremental delivery costs, excluding AI costs counted separately. Not salary or gross revenue."
+                },
+                "throughput_hours": {
+                  "label": "Hours used for additional volume",
+                  "help": "This allocation cannot also be used for advisory work or spending reductions."
+                },
+                "extra_minutes": {
+                  "label": "Team minutes per additional unit",
+                  "help": "The remaining human effort, including review, needed to deliver one more unit."
+                },
+                "demand": {
+                  "label": "Additional units with expected demand",
+                  "help": "Capacity alone is not demand. Enter the extra monthly work you expect to take on."
+                },
+                "unit_margin": {
+                  "label": "Contribution per additional unit",
+                  "help": "Incremental revenue less delivery costs; AI operating costs are deducted separately."
+                },
+                "hiring_hours": {
+                  "label": "Hours covering the planned hire",
+                  "help": "Allocate capacity to specific planned work, not a generic full-time-equivalent estimate."
+                },
+                "planned_hours": {
+                  "label": "Monthly hours the planned hire would cover",
+                  "help": "The allocated capacity must cover this entire workload."
+                },
+                "hire_cost": {
+                  "label": "Monthly hire cost actually deferred",
+                  "help": "Use the cost of a genuinely planned hire, not the salary of someone already employed."
+                },
+                "hire_months": {
+                  "label": "Months that hire is deferred",
+                  "help": "One to twelve months; the annual estimate stops counting savings after this period."
+                },
+                "incidents": {
+                  "label": "Expected avoided errors per month",
+                  "help": "Use your baseline and expected reduction. Exclude incidents also counted as risk reduction."
+                },
+                "incident_cost": {
+                  "label": "Incremental cost per error",
+                  "help": "Exclude labor, refunds or other losses already included elsewhere."
+                },
+                "probability_before": {
+                  "label": "Monthly loss probability before",
+                  "help": "Your estimate, not a guaranteed risk assessment."
+                },
+                "probability_after": {
+                  "label": "Monthly loss probability after",
+                  "help": "Use the same event and monthly time horizon as the baseline."
+                },
+                "loss": {
+                  "label": "Loss exposure for that event",
+                  "help": "Exclude error incidents and spending already counted. This is uncertain expected value, not cash saved."
+                },
+                "days_before": {
+                  "label": "Cycle time before, in days",
+                  "help": "Elapsed time from start to completion, separate from hands-on effort."
+                },
+                "days_after": {
+                  "label": "Cycle time after, in days",
+                  "help": "Shown as an operational change only, without an assumed monetary value."
+                }
+              },
+              "burden": [
+                "Phone or form intake for every seller inquiry",
+                "Re-asking for pricing, condition, and highlights",
+                "Chasing incomplete listing briefs before they're reviewable"
+              ],
+              "opportunity": [
+                "More time for listing strategy and qualified viewings",
+                "Faster turnaround from listing brief to a reviewed brief",
+                "Less repetitive intake work per seller"
+              ],
+              "outcomes": [
+                {
+                  "id": "higher_value",
+                  "label": "Spend time on listing strategy, not intake",
+                  "help": "Use part of the returned capacity for higher-value work like pricing strategy and qualified viewings, not repeat data collection."
+                },
+                {
+                  "id": "cash",
+                  "label": "Reduce paid intake support",
+                  "help": "Reduce overtime or contractor spend on manual seller-brief intake — not unchanged salaries."
+                }
+              ]
+            },
+            "cta": {
+              "primaryLabel": "Talk with Nest",
+              "secondaryLabel": "See how it works",
+              "primaryTarget": "meet",
+              "privacyNote": "Your data stays private. Hours are capacity. Financial amounts are modeled estimates, not observed results.",
+              "secondaryTarget": "how-it-works"
+            },
+            "currencyCopy": {
+              "native": "Amounts in {currency}.",
+              "loading": "Checking the local currency. Amounts remain in {currency} until a rate is available.",
+              "unavailable": "A current local exchange rate is unavailable. Amounts remain in {currency}.",
+              "converted": "Amounts converted from {base} to {currency} using the reference rate dated {date}.",
+              "basis": "Currency conversion is not local cost research. Enter your own local costs and contribution assumptions. Language changes do not change amounts."
+            },
+            "costCopy": {
+              "breakdown": "How the all-in AI cost is built",
+              "perUnit": "{amount} per work unit (average)",
+              "budgetOnly": "This is your total budget. Switch to Cost breakdown to itemize it; no split has been assumed.",
+              "benefitNotice": "Modeled benefits, not charges. Crossed-out amounts are spending you expect to avoid, not discounts on the AI bill.",
+              "remainder": "Other included operating costs",
+              "allocation": "Returned hours are capacity, not automatic savings. Only the portions you assign to actual spending reductions or additional contribution receive a monetary value."
+            }
+          }
         }
       ],
       "hero": {
@@ -818,18 +1071,18 @@
       "enabled": true,
       "kicker": "Business impact",
       "heading": "ROI Calculator",
-      "subheading": "Start with capacity. Then decide what it could be worth.",
-      "disclaimer": "A scenario built from your assumptions, not observed results or guaranteed savings. Returned hours are capacity, not an automatic payroll reduction.",
+      "subheading": "Start with your buyer-intake capacity. Then decide what it's worth.",
+      "disclaimer": "A scenario built from your assumptions about intake and review time, not observed results. Nest's matching, proposals, and introductions always stay human-reviewed — this models the conversational intake work only.",
       "currency": "EUR",
       "locale": "en-GB",
       "inputs": [],
       "metrics": [],
       "businessImpact": {
         "defaults": {
-          "volume": 12,
-          "minutes": 120,
-          "automation": 50,
-          "review": 15
+          "volume": 24,
+          "minutes": 20,
+          "automation": 55,
+          "review": 8
         },
         "copy": {
           "navLabel": "ROI",
@@ -900,20 +1153,20 @@
         },
         "fields": {
           "volume": {
-            "label": "Buyer or seller briefs each month",
-            "help": "Use a typical month, not a best-case peak."
+            "label": "Buyer briefs collected each month",
+            "help": "Private intake conversations Nest runs before a brief is ready for human review."
           },
           "minutes": {
-            "label": "Hands-on minutes per unit today",
-            "help": "Active work time, excluding waiting and elapsed calendar time."
+            "label": "Minutes to collect one buyer brief today",
+            "help": "Hands-on staff time for a phone or form intake before using Nest, not elapsed calendar time."
           },
           "automation": {
-            "label": "Share of that work reduced",
-            "help": "An illustrative assumption to validate in a pilot, not a performance promise."
+            "label": "Share of that intake conversation Nest now handles",
+            "help": "Nest's conversational brief-builder, not the matching decision — every proposal is still reviewed by a person before either side sees it."
           },
           "review": {
-            "label": "Review minutes per unit",
-            "help": "Human checking still needed after automation."
+            "label": "Minutes a reviewer spends confirming each brief",
+            "help": "Time for a person to confirm the brief is complete and ready to become matchable — this step is never automated."
           },
           "budget": {
             "label": "Estimated monthly operating budget",
@@ -1021,38 +1274,25 @@
           }
         },
         "burden": [
-          "Buyer and seller brief preparation",
-          "Repeated matching and coordination"
+          "Phone or form intake for every buyer inquiry",
+          "Re-asking for budget, must-haves, and timing",
+          "Chasing incomplete buyer briefs before they're reviewable"
         ],
         "opportunity": [
-          "More human-reviewed introductions",
-          "Time to understand client needs"
+          "More time for qualified viewings and closings",
+          "Faster turnaround from inquiry to a reviewed brief",
+          "Less repetitive intake work per buyer"
         ],
         "outcomes": [
           {
             "id": "higher_value",
-            "label": "Do higher-value work",
-            "help": "Use part of the capacity for work with incremental contribution."
-          },
-          {
-            "id": "throughput",
-            "label": "Handle more volume",
-            "help": "Match available capacity with actual expected demand."
+            "label": "Spend time on qualified viewings, not intake",
+            "help": "Use part of the returned capacity for higher-value work like qualified viewings and closings, not repeat data collection."
           },
           {
             "id": "cash",
-            "label": "Stop actual spending",
-            "help": "Reduce overtime, contractors or paid processing—not unchanged salaries."
-          },
-          {
-            "id": "hiring",
-            "label": "Defer a planned hire",
-            "help": "Cover a specific, genuinely planned workload for a stated period."
-          },
-          {
-            "id": "cycle_time",
-            "label": "Finish sooner",
-            "help": "Show elapsed days improved without automatically attaching a monetary value."
+            "label": "Reduce paid intake support",
+            "help": "Reduce overtime or contractor spend on manual buyer-brief intake — not unchanged salaries."
           }
         ]
       },
