@@ -690,11 +690,11 @@
         "methodologyVersion": 2,
         "reference": "references/business-impact.md",
         "navLabelSource": "businessImpact.copy.navLabel",
-        "presentation": "three_steps_live_summary",
+        "presentation": "persona_tabs_live_summary",
         "steps": [
           "workload",
-          "operating_cost",
-          "capacity_use"
+          "token_usage",
+          "value"
         ],
         "requiredFields": [
           "heading",
@@ -710,7 +710,15 @@
           "fields",
           "outcomes",
           "burden",
-          "opportunity"
+          "opportunity",
+          "usagePackages",
+          "tabs",
+          "hero",
+          "selected",
+          "confirmations",
+          "defaultPackage",
+          "reviewMode",
+          "costMode"
         ],
         "workloadDefaultFields": [
           "volume",
@@ -718,6 +726,7 @@
           "automation",
           "review"
         ],
+        "tokenField": "tokens_per_output",
         "outcomeIds": [
           "cash",
           "higher_value",
@@ -727,7 +736,11 @@
           "risk",
           "cycle_time"
         ],
-        "financialDefaults": false,
+        "financialDefaults": true,
+        "usagePackages": [
+          "base",
+          "medium"
+        ],
         "authoredFormulas": false,
         "compatibilityArrays": {
           "inputs": [],
