@@ -234,11 +234,11 @@
             "metrics": [],
             "businessImpact": {
               "defaults": {
-                "volume": 24,
+                "volume": 1,
                 "minutes": 20,
                 "automation": 100,
                 "review": 8,
-                "accepted_rate": 25,
+                "accepted_rate": 100,
                 "tokens_per_output": 12000,
                 "model_cost": 0,
                 "tools_cost": 0,
@@ -333,6 +333,10 @@
                 "accepted_rate": {
                   "label": "Share becoming qualified briefs",
                   "help": "A modeled qualification rate. Replace it with observed funnel data after a pilot."
+                },
+                "attendance_rate": {
+                  "label": "Expected attendance rate",
+                  "help": "Modeled share of accepted meetings expected to happen. Replace this with verified event records after a pilot."
                 },
                 "minutes": {
                   "label": "Minutes to qualify one buyer brief today",
@@ -477,7 +481,7 @@
               ],
               "usagePackages": {
                 "base": {
-                  "volume": 12,
+                  "volume": 1,
                   "tokensPerOutput": 12000,
                   "platform_cost": 450,
                   "minutes": 20,
@@ -490,7 +494,7 @@
                   "contribution_rate": 0
                 },
                 "medium": {
-                  "volume": 24,
+                  "volume": 1,
                   "tokensPerOutput": 12000,
                   "platform_cost": 750,
                   "minutes": 20,
@@ -717,11 +721,11 @@
             "metrics": [],
             "businessImpact": {
               "defaults": {
-                "volume": 16,
+                "volume": 1,
                 "minutes": 25,
                 "automation": 100,
                 "review": 10,
-                "accepted_rate": 25,
+                "accepted_rate": 100,
                 "tokens_per_output": 12000,
                 "model_cost": 0,
                 "tools_cost": 0,
@@ -816,6 +820,10 @@
                 "accepted_rate": {
                   "label": "Share becoming qualified briefs",
                   "help": "A modeled qualification rate. Replace it with observed funnel data after a pilot."
+                },
+                "attendance_rate": {
+                  "label": "Expected attendance rate",
+                  "help": "Modeled share of accepted meetings expected to happen. Replace this with verified event records after a pilot."
                 },
                 "minutes": {
                   "label": "Minutes to qualify one seller brief today",
@@ -960,7 +968,7 @@
               ],
               "usagePackages": {
                 "base": {
-                  "volume": 8,
+                  "volume": 1,
                   "tokensPerOutput": 12000,
                   "platform_cost": 450,
                   "minutes": 25,
@@ -973,7 +981,7 @@
                   "contribution_rate": 0
                 },
                 "medium": {
-                  "volume": 16,
+                  "volume": 1,
                   "tokensPerOutput": 12000,
                   "platform_cost": 750,
                   "minutes": 25,
@@ -1272,7 +1280,7 @@
           {
             "language": "es",
             "regionKey": null,
-            "sourceRevision": "4b0efcee6f6b3c4a8fbf6a84641981c356138eaf102de39ae4f334612797dcdc",
+            "sourceRevision": "5a12a82822b09d9de55313529d086c1dc121fa035bbb0b311ce8fce19585ed57",
             "assetPath": "assets/landing-page.es.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-01T15:39:42.215Z"
@@ -1280,7 +1288,7 @@
           {
             "language": "de",
             "regionKey": null,
-            "sourceRevision": "4b0efcee6f6b3c4a8fbf6a84641981c356138eaf102de39ae4f334612797dcdc",
+            "sourceRevision": "5a12a82822b09d9de55313529d086c1dc121fa035bbb0b311ce8fce19585ed57",
             "assetPath": "assets/landing-page.de.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-01T15:39:42.215Z"
@@ -1288,7 +1296,7 @@
           {
             "language": "ja",
             "regionKey": null,
-            "sourceRevision": "4b0efcee6f6b3c4a8fbf6a84641981c356138eaf102de39ae4f334612797dcdc",
+            "sourceRevision": "5a12a82822b09d9de55313529d086c1dc121fa035bbb0b311ce8fce19585ed57",
             "assetPath": "assets/landing-page.ja.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-01T15:39:42.215Z"
@@ -1296,7 +1304,7 @@
           {
             "language": "fr",
             "regionKey": null,
-            "sourceRevision": "4b0efcee6f6b3c4a8fbf6a84641981c356138eaf102de39ae4f334612797dcdc",
+            "sourceRevision": "5a12a82822b09d9de55313529d086c1dc121fa035bbb0b311ce8fce19585ed57",
             "assetPath": "assets/landing-page.fr.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-01T15:39:42.215Z"
@@ -1304,7 +1312,7 @@
           {
             "language": "pt",
             "regionKey": null,
-            "sourceRevision": "4b0efcee6f6b3c4a8fbf6a84641981c356138eaf102de39ae4f334612797dcdc",
+            "sourceRevision": "5a12a82822b09d9de55313529d086c1dc121fa035bbb0b311ce8fce19585ed57",
             "assetPath": "assets/landing-page.pt.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-01T15:39:42.215Z"
@@ -1312,7 +1320,7 @@
           {
             "language": "ru",
             "regionKey": null,
-            "sourceRevision": "4b0efcee6f6b3c4a8fbf6a84641981c356138eaf102de39ae4f334612797dcdc",
+            "sourceRevision": "5a12a82822b09d9de55313529d086c1dc121fa035bbb0b311ce8fce19585ed57",
             "assetPath": "assets/landing-page.ru.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-01T15:39:42.215Z"
@@ -1320,7 +1328,7 @@
           {
             "language": "it",
             "regionKey": null,
-            "sourceRevision": "4b0efcee6f6b3c4a8fbf6a84641981c356138eaf102de39ae4f334612797dcdc",
+            "sourceRevision": "5a12a82822b09d9de55313529d086c1dc121fa035bbb0b311ce8fce19585ed57",
             "assetPath": "assets/landing-page.it.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-01T15:39:42.215Z"
@@ -1328,7 +1336,7 @@
           {
             "language": "nl",
             "regionKey": null,
-            "sourceRevision": "4b0efcee6f6b3c4a8fbf6a84641981c356138eaf102de39ae4f334612797dcdc",
+            "sourceRevision": "5a12a82822b09d9de55313529d086c1dc121fa035bbb0b311ce8fce19585ed57",
             "assetPath": "assets/landing-page.nl.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-01T15:39:42.215Z"
@@ -1336,7 +1344,7 @@
           {
             "language": "pl",
             "regionKey": null,
-            "sourceRevision": "4b0efcee6f6b3c4a8fbf6a84641981c356138eaf102de39ae4f334612797dcdc",
+            "sourceRevision": "5a12a82822b09d9de55313529d086c1dc121fa035bbb0b311ce8fce19585ed57",
             "assetPath": "assets/landing-page.pl.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-01T15:39:42.215Z"
@@ -1344,7 +1352,7 @@
           {
             "language": "tr",
             "regionKey": null,
-            "sourceRevision": "4b0efcee6f6b3c4a8fbf6a84641981c356138eaf102de39ae4f334612797dcdc",
+            "sourceRevision": "5a12a82822b09d9de55313529d086c1dc121fa035bbb0b311ce8fce19585ed57",
             "assetPath": "assets/landing-page.tr.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-01T15:39:42.215Z"
@@ -1352,7 +1360,7 @@
           {
             "language": "zh",
             "regionKey": null,
-            "sourceRevision": "4b0efcee6f6b3c4a8fbf6a84641981c356138eaf102de39ae4f334612797dcdc",
+            "sourceRevision": "5a12a82822b09d9de55313529d086c1dc121fa035bbb0b311ce8fce19585ed57",
             "assetPath": "assets/landing-page.zh.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-01T15:39:42.215Z"
@@ -1360,7 +1368,7 @@
           {
             "language": "fa",
             "regionKey": null,
-            "sourceRevision": "4b0efcee6f6b3c4a8fbf6a84641981c356138eaf102de39ae4f334612797dcdc",
+            "sourceRevision": "5a12a82822b09d9de55313529d086c1dc121fa035bbb0b311ce8fce19585ed57",
             "assetPath": "assets/landing-page.fa.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-01T15:39:42.215Z"
@@ -1368,7 +1376,7 @@
           {
             "language": "vi",
             "regionKey": null,
-            "sourceRevision": "4b0efcee6f6b3c4a8fbf6a84641981c356138eaf102de39ae4f334612797dcdc",
+            "sourceRevision": "5a12a82822b09d9de55313529d086c1dc121fa035bbb0b311ce8fce19585ed57",
             "assetPath": "assets/landing-page.vi.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-01T15:39:42.215Z"
@@ -1376,7 +1384,7 @@
           {
             "language": "cs",
             "regionKey": null,
-            "sourceRevision": "4b0efcee6f6b3c4a8fbf6a84641981c356138eaf102de39ae4f334612797dcdc",
+            "sourceRevision": "5a12a82822b09d9de55313529d086c1dc121fa035bbb0b311ce8fce19585ed57",
             "assetPath": "assets/landing-page.cs.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-01T15:39:42.215Z"
@@ -1384,7 +1392,7 @@
           {
             "language": "id",
             "regionKey": null,
-            "sourceRevision": "4b0efcee6f6b3c4a8fbf6a84641981c356138eaf102de39ae4f334612797dcdc",
+            "sourceRevision": "5a12a82822b09d9de55313529d086c1dc121fa035bbb0b311ce8fce19585ed57",
             "assetPath": "assets/landing-page.id.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-01T15:39:42.215Z"
@@ -1392,7 +1400,7 @@
           {
             "language": "ko",
             "regionKey": null,
-            "sourceRevision": "4b0efcee6f6b3c4a8fbf6a84641981c356138eaf102de39ae4f334612797dcdc",
+            "sourceRevision": "5a12a82822b09d9de55313529d086c1dc121fa035bbb0b311ce8fce19585ed57",
             "assetPath": "assets/landing-page.ko.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-01T15:39:42.215Z"
@@ -1400,7 +1408,7 @@
           {
             "language": "uk",
             "regionKey": null,
-            "sourceRevision": "4b0efcee6f6b3c4a8fbf6a84641981c356138eaf102de39ae4f334612797dcdc",
+            "sourceRevision": "5a12a82822b09d9de55313529d086c1dc121fa035bbb0b311ce8fce19585ed57",
             "assetPath": "assets/landing-page.uk.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-01T15:39:42.215Z"
@@ -1408,7 +1416,7 @@
           {
             "language": "hu",
             "regionKey": null,
-            "sourceRevision": "4b0efcee6f6b3c4a8fbf6a84641981c356138eaf102de39ae4f334612797dcdc",
+            "sourceRevision": "5a12a82822b09d9de55313529d086c1dc121fa035bbb0b311ce8fce19585ed57",
             "assetPath": "assets/landing-page.hu.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-01T15:39:42.215Z"
@@ -1416,7 +1424,7 @@
           {
             "language": "ar",
             "regionKey": null,
-            "sourceRevision": "4b0efcee6f6b3c4a8fbf6a84641981c356138eaf102de39ae4f334612797dcdc",
+            "sourceRevision": "5a12a82822b09d9de55313529d086c1dc121fa035bbb0b311ce8fce19585ed57",
             "assetPath": "assets/landing-page.ar.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-01T15:39:42.215Z"
@@ -1424,7 +1432,7 @@
           {
             "language": "sv",
             "regionKey": null,
-            "sourceRevision": "4b0efcee6f6b3c4a8fbf6a84641981c356138eaf102de39ae4f334612797dcdc",
+            "sourceRevision": "5a12a82822b09d9de55313529d086c1dc121fa035bbb0b311ce8fce19585ed57",
             "assetPath": "assets/landing-page.sv.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-01T15:39:42.215Z"
@@ -1432,7 +1440,7 @@
           {
             "language": "ro",
             "regionKey": null,
-            "sourceRevision": "4b0efcee6f6b3c4a8fbf6a84641981c356138eaf102de39ae4f334612797dcdc",
+            "sourceRevision": "5a12a82822b09d9de55313529d086c1dc121fa035bbb0b311ce8fce19585ed57",
             "assetPath": "assets/landing-page.ro.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-01T15:39:42.215Z"
@@ -1440,7 +1448,7 @@
           {
             "language": "el",
             "regionKey": null,
-            "sourceRevision": "4b0efcee6f6b3c4a8fbf6a84641981c356138eaf102de39ae4f334612797dcdc",
+            "sourceRevision": "5a12a82822b09d9de55313529d086c1dc121fa035bbb0b311ce8fce19585ed57",
             "assetPath": "assets/landing-page.el.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-01T15:39:42.215Z"
@@ -1448,7 +1456,7 @@
           {
             "language": "da",
             "regionKey": null,
-            "sourceRevision": "4b0efcee6f6b3c4a8fbf6a84641981c356138eaf102de39ae4f334612797dcdc",
+            "sourceRevision": "5a12a82822b09d9de55313529d086c1dc121fa035bbb0b311ce8fce19585ed57",
             "assetPath": "assets/landing-page.da.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-01T15:39:42.215Z"
@@ -1456,7 +1464,7 @@
           {
             "language": "fi",
             "regionKey": null,
-            "sourceRevision": "4b0efcee6f6b3c4a8fbf6a84641981c356138eaf102de39ae4f334612797dcdc",
+            "sourceRevision": "5a12a82822b09d9de55313529d086c1dc121fa035bbb0b311ce8fce19585ed57",
             "assetPath": "assets/landing-page.fi.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-01T15:39:42.215Z"
@@ -1464,7 +1472,7 @@
           {
             "language": "he",
             "regionKey": null,
-            "sourceRevision": "4b0efcee6f6b3c4a8fbf6a84641981c356138eaf102de39ae4f334612797dcdc",
+            "sourceRevision": "5a12a82822b09d9de55313529d086c1dc121fa035bbb0b311ce8fce19585ed57",
             "assetPath": "assets/landing-page.he.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-01T15:39:42.215Z"
@@ -1472,7 +1480,7 @@
           {
             "language": "sk",
             "regionKey": null,
-            "sourceRevision": "4b0efcee6f6b3c4a8fbf6a84641981c356138eaf102de39ae4f334612797dcdc",
+            "sourceRevision": "5a12a82822b09d9de55313529d086c1dc121fa035bbb0b311ce8fce19585ed57",
             "assetPath": "assets/landing-page.sk.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-01T15:39:42.215Z"
@@ -1480,7 +1488,7 @@
           {
             "language": "th",
             "regionKey": null,
-            "sourceRevision": "4b0efcee6f6b3c4a8fbf6a84641981c356138eaf102de39ae4f334612797dcdc",
+            "sourceRevision": "5a12a82822b09d9de55313529d086c1dc121fa035bbb0b311ce8fce19585ed57",
             "assetPath": "assets/landing-page.th.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-01T15:39:42.215Z"
@@ -1488,7 +1496,7 @@
           {
             "language": "bg",
             "regionKey": null,
-            "sourceRevision": "4b0efcee6f6b3c4a8fbf6a84641981c356138eaf102de39ae4f334612797dcdc",
+            "sourceRevision": "5a12a82822b09d9de55313529d086c1dc121fa035bbb0b311ce8fce19585ed57",
             "assetPath": "assets/landing-page.bg.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-01T15:39:42.215Z"
@@ -1496,7 +1504,7 @@
           {
             "language": "hr",
             "regionKey": null,
-            "sourceRevision": "4b0efcee6f6b3c4a8fbf6a84641981c356138eaf102de39ae4f334612797dcdc",
+            "sourceRevision": "5a12a82822b09d9de55313529d086c1dc121fa035bbb0b311ce8fce19585ed57",
             "assetPath": "assets/landing-page.hr.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-01T15:39:42.215Z"
@@ -1504,7 +1512,7 @@
           {
             "language": "nb",
             "regionKey": null,
-            "sourceRevision": "4b0efcee6f6b3c4a8fbf6a84641981c356138eaf102de39ae4f334612797dcdc",
+            "sourceRevision": "5a12a82822b09d9de55313529d086c1dc121fa035bbb0b311ce8fce19585ed57",
             "assetPath": "assets/landing-page.nb.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-01T15:39:42.215Z"
@@ -1512,7 +1520,7 @@
           {
             "language": "lt",
             "regionKey": null,
-            "sourceRevision": "4b0efcee6f6b3c4a8fbf6a84641981c356138eaf102de39ae4f334612797dcdc",
+            "sourceRevision": "5a12a82822b09d9de55313529d086c1dc121fa035bbb0b311ce8fce19585ed57",
             "assetPath": "assets/landing-page.lt.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-01T15:39:42.215Z"
@@ -1520,7 +1528,7 @@
           {
             "language": "sr",
             "regionKey": null,
-            "sourceRevision": "4b0efcee6f6b3c4a8fbf6a84641981c356138eaf102de39ae4f334612797dcdc",
+            "sourceRevision": "5a12a82822b09d9de55313529d086c1dc121fa035bbb0b311ce8fce19585ed57",
             "assetPath": "assets/landing-page.sr.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-01T15:39:42.215Z"
@@ -1528,7 +1536,7 @@
           {
             "language": "sl",
             "regionKey": null,
-            "sourceRevision": "4b0efcee6f6b3c4a8fbf6a84641981c356138eaf102de39ae4f334612797dcdc",
+            "sourceRevision": "5a12a82822b09d9de55313529d086c1dc121fa035bbb0b311ce8fce19585ed57",
             "assetPath": "assets/landing-page.sl.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-01T15:39:42.215Z"
@@ -1536,7 +1544,7 @@
           {
             "language": "ca",
             "regionKey": null,
-            "sourceRevision": "4b0efcee6f6b3c4a8fbf6a84641981c356138eaf102de39ae4f334612797dcdc",
+            "sourceRevision": "5a12a82822b09d9de55313529d086c1dc121fa035bbb0b311ce8fce19585ed57",
             "assetPath": "assets/landing-page.ca.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-01T15:39:42.215Z"
@@ -1544,7 +1552,7 @@
           {
             "language": "et",
             "regionKey": null,
-            "sourceRevision": "4b0efcee6f6b3c4a8fbf6a84641981c356138eaf102de39ae4f334612797dcdc",
+            "sourceRevision": "5a12a82822b09d9de55313529d086c1dc121fa035bbb0b311ce8fce19585ed57",
             "assetPath": "assets/landing-page.et.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-01T15:39:42.215Z"
@@ -1552,7 +1560,7 @@
           {
             "language": "no",
             "regionKey": null,
-            "sourceRevision": "4b0efcee6f6b3c4a8fbf6a84641981c356138eaf102de39ae4f334612797dcdc",
+            "sourceRevision": "5a12a82822b09d9de55313529d086c1dc121fa035bbb0b311ce8fce19585ed57",
             "assetPath": "assets/landing-page.no.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-01T15:39:42.215Z"
@@ -1560,7 +1568,7 @@
           {
             "language": "lv",
             "regionKey": null,
-            "sourceRevision": "4b0efcee6f6b3c4a8fbf6a84641981c356138eaf102de39ae4f334612797dcdc",
+            "sourceRevision": "5a12a82822b09d9de55313529d086c1dc121fa035bbb0b311ce8fce19585ed57",
             "assetPath": "assets/landing-page.lv.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-01T15:39:42.215Z"
@@ -1597,11 +1605,11 @@
       "metrics": [],
       "businessImpact": {
         "defaults": {
-          "volume": 24,
+          "volume": 1,
           "minutes": 20,
           "automation": 100,
           "review": 8,
-          "accepted_rate": 25,
+          "accepted_rate": 100,
           "tokens_per_output": 12000,
           "model_cost": 0,
           "tools_cost": 0,
@@ -1696,6 +1704,10 @@
           "accepted_rate": {
             "label": "Share becoming qualified briefs",
             "help": "A modeled qualification rate. Replace it with observed funnel data after a pilot."
+          },
+          "attendance_rate": {
+            "label": "Expected attendance rate",
+            "help": "Modeled share of accepted meetings expected to happen. Replace this with verified event records after a pilot."
           },
           "minutes": {
             "label": "Minutes to qualify one buyer brief today",
@@ -1840,7 +1852,7 @@
         ],
         "usagePackages": {
           "base": {
-            "volume": 12,
+            "volume": 1,
             "tokensPerOutput": 12000,
             "platform_cost": 450,
             "minutes": 20,
@@ -1853,7 +1865,7 @@
             "contribution_rate": 0
           },
           "medium": {
-            "volume": 24,
+            "volume": 1,
             "tokensPerOutput": 12000,
             "platform_cost": 750,
             "minutes": 20,

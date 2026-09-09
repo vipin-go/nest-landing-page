@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "language": "pt",
   "regionKey": null,
-  "sourceRevision": "4b0efcee6f6b3c4a8fbf6a84641981c356138eaf102de39ae4f334612797dcdc",
+  "sourceRevision": "5a12a82822b09d9de55313529d086c1dc121fa035bbb0b311ce8fce19585ed57",
   "landingPage": {
     "headline": "Uma introdução qualificada que se encaixa.",
     "subheadline": "Introduções de comprador privado e vendedor, uma proposta revisada por humanos por vez.",
@@ -233,11 +233,11 @@
             "metrics": [],
             "businessImpact": {
               "defaults": {
-                "volume": 24,
+                "volume": 1,
                 "minutes": 20,
                 "automation": 100,
                 "review": 8,
-                "accepted_rate": 25,
+                "accepted_rate": 100,
                 "tokens_per_output": 12000,
                 "model_cost": 0,
                 "tools_cost": 0,
@@ -332,6 +332,10 @@
                 "accepted_rate": {
                   "label": "Share becoming qualified briefs",
                   "help": "A modeled qualification rate. Replace it with observed funnel data after a pilot."
+                },
+                "attendance_rate": {
+                  "label": "Expected attendance rate",
+                  "help": "Modeled share of accepted meetings expected to happen. Replace this with verified event records after a pilot."
                 },
                 "minutes": {
                   "label": "Minutes to qualify one buyer brief today",
@@ -476,7 +480,7 @@
               ],
               "usagePackages": {
                 "base": {
-                  "volume": 12,
+                  "volume": 1,
                   "tokensPerOutput": 12000,
                   "platform_cost": 450,
                   "minutes": 20,
@@ -489,7 +493,7 @@
                   "contribution_rate": 0
                 },
                 "medium": {
-                  "volume": 24,
+                  "volume": 1,
                   "tokensPerOutput": 12000,
                   "platform_cost": 750,
                   "minutes": 20,
@@ -706,11 +710,11 @@
             "metrics": [],
             "businessImpact": {
               "defaults": {
-                "volume": 16,
+                "volume": 1,
                 "minutes": 25,
                 "automation": 100,
                 "review": 10,
-                "accepted_rate": 25,
+                "accepted_rate": 100,
                 "tokens_per_output": 12000,
                 "model_cost": 0,
                 "tools_cost": 0,
@@ -805,6 +809,10 @@
                 "accepted_rate": {
                   "label": "Share becoming qualified briefs",
                   "help": "A modeled qualification rate. Replace it with observed funnel data after a pilot."
+                },
+                "attendance_rate": {
+                  "label": "Expected attendance rate",
+                  "help": "Modeled share of accepted meetings expected to happen. Replace this with verified event records after a pilot."
                 },
                 "minutes": {
                   "label": "Minutes to qualify one seller brief today",
@@ -949,7 +957,7 @@
               ],
               "usagePackages": {
                 "base": {
-                  "volume": 8,
+                  "volume": 1,
                   "tokensPerOutput": 12000,
                   "platform_cost": 450,
                   "minutes": 25,
@@ -962,7 +970,7 @@
                   "contribution_rate": 0
                 },
                 "medium": {
-                  "volume": 16,
+                  "volume": 1,
                   "tokensPerOutput": 12000,
                   "platform_cost": 750,
                   "minutes": 25,
@@ -1279,11 +1287,11 @@
       "metrics": [],
       "businessImpact": {
         "defaults": {
-          "volume": 24,
+          "volume": 1,
           "minutes": 20,
           "automation": 100,
           "review": 8,
-          "accepted_rate": 25,
+          "accepted_rate": 100,
           "tokens_per_output": 12000,
           "model_cost": 0,
           "tools_cost": 0,
@@ -1378,6 +1386,10 @@
           "accepted_rate": {
             "label": "Share becoming qualified briefs",
             "help": "A modeled qualification rate. Replace it with observed funnel data after a pilot."
+          },
+          "attendance_rate": {
+            "label": "Expected attendance rate",
+            "help": "Modeled share of accepted meetings expected to happen. Replace this with verified event records after a pilot."
           },
           "minutes": {
             "label": "Minutes to qualify one buyer brief today",
@@ -1522,7 +1534,7 @@
         ],
         "usagePackages": {
           "base": {
-            "volume": 12,
+            "volume": 1,
             "tokensPerOutput": 12000,
             "platform_cost": 450,
             "minutes": 20,
@@ -1535,7 +1547,7 @@
             "contribution_rate": 0
           },
           "medium": {
-            "volume": 24,
+            "volume": 1,
             "tokensPerOutput": 12000,
             "platform_cost": 750,
             "minutes": 20,
@@ -2510,6 +2522,28 @@
         "help"
       ],
       "sourceHash": "fd2016cfdb34405a547f905e62f803a08f4104304bae6ca9996063692f696d5b"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "fields",
+        "attendance_rate",
+        "label"
+      ],
+      "sourceHash": "5bd0a69e139ca817fa379a3199bfb60aa79162688b5bf69ab63f222d94009ece"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "fields",
+        "attendance_rate",
+        "help"
+      ],
+      "sourceHash": "6d642dbc90d83a7597e4d27c689bf20e6186d4a54377aabfa110ba67749df3f5"
     },
     {
       "path": [
@@ -5351,6 +5385,34 @@
         "help"
       ],
       "sourceHash": "fd2016cfdb34405a547f905e62f803a08f4104304bae6ca9996063692f696d5b"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "businessImpact",
+        "fields",
+        "attendance_rate",
+        "label"
+      ],
+      "sourceHash": "5bd0a69e139ca817fa379a3199bfb60aa79162688b5bf69ab63f222d94009ece"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "businessImpact",
+        "fields",
+        "attendance_rate",
+        "help"
+      ],
+      "sourceHash": "6d642dbc90d83a7597e4d27c689bf20e6186d4a54377aabfa110ba67749df3f5"
     },
     {
       "path": [
@@ -8267,6 +8329,34 @@
         "help"
       ],
       "sourceHash": "fd2016cfdb34405a547f905e62f803a08f4104304bae6ca9996063692f696d5b"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "businessImpact",
+        "fields",
+        "attendance_rate",
+        "label"
+      ],
+      "sourceHash": "5bd0a69e139ca817fa379a3199bfb60aa79162688b5bf69ab63f222d94009ece"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "businessImpact",
+        "fields",
+        "attendance_rate",
+        "help"
+      ],
+      "sourceHash": "6d642dbc90d83a7597e4d27c689bf20e6186d4a54377aabfa110ba67749df3f5"
     },
     {
       "path": [

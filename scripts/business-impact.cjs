@@ -48,6 +48,7 @@ var IMPACT_OUTCOMES = ["cash", "higher_value", "throughput", "hiring", "error", 
 var IMPACT_FIELDS = {
   volume: [0, 1e6, 1],
   accepted_rate: [0, 100, 1],
+  attendance_rate: [0, 100, 1],
   minutes: [0, 1e4, 1],
   automation: [0, 100, 1],
   review: [0, 1e4, 1],
@@ -406,7 +407,7 @@ function validateBusinessImpact(value, path = "landingPage.roiCalculator") {
     if (typeof n !== "number" || !Number.isFinite(n) || n < IMPACT_FIELDS[field][0] || n > IMPACT_FIELDS[field][1]) fail(p, "Value is outside the supported range.");
   };
   if (!record(value)) return [{ path, message: "Expected a calculator object." }];
-  keys(value, ["methodologyVersion", "enabled", "heading", "subheading", "kicker", "disclaimer", "currency", "currencyCopy", "costCopy", "locale", "inputs", "metrics", "businessImpact", "cta"], path);
+  keys(value, ["methodologyVersion", "enabled", "heading", "subheading", "kicker", "disclaimer", "currency", "currencyCopy", "costCopy", "locale", "periodToggle", "inputs", "metrics", "businessImpact", "cta"], path);
   issues.push(...validateRoiCurrencyCopy(value.currencyCopy, `${path}.currencyCopy`));
   issues.push(...validateRoiCostCopy(value.costCopy, `${path}.costCopy`));
   if (value.methodologyVersion !== 2) fail(`${path}.methodologyVersion`, "Supported methodology version is 2.");
