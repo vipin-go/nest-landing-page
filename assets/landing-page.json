@@ -211,8 +211,8 @@
             "enabled": true,
             "kicker": "Business impact",
             "heading": "ROI Calculator",
-            "subheading": "Start with your buyer brief capacity. A typical month is already filled.",
-            "disclaimer": "A scenario built from typical buyer brief usage, not property sales, commissions or guaranteed matches. Nest's matching stays human-reviewed.",
+            "subheading": "Model a licensed second-home agent or brokerage using Nest for qualified, human-reviewed introductions in one local market.",
+            "disclaimer": "A modeled operating scenario with zero validated paid demand. Nest qualifies and coordinates consented introductions; it does not represent parties, value property, negotiate, earn commissions or guarantee a transaction.",
             "currency": "EUR",
             "currencyCopy": {
               "native": "Amounts in {currency}.",
@@ -236,8 +236,9 @@
               "defaults": {
                 "volume": 24,
                 "minutes": 20,
-                "automation": 55,
+                "automation": 100,
                 "review": 8,
+                "accepted_rate": 25,
                 "tokens_per_output": 12000,
                 "model_cost": 0,
                 "tools_cost": 0,
@@ -245,18 +246,16 @@
                 "platform_cost": 1500,
                 "higher_value_hours": 0,
                 "contribution_rate": 0,
-                "cash_hours": 1.2,
-                "cash_baseline": 2880,
-                "cash_avoided": 2160
+                "customer_price": 750
               },
               "copy": {
                 "navLabel": "ROI",
-                "workloadStep": "Briefs",
-                "costStep": "Token usage",
-                "valueStep": "Reviewer time",
-                "workloadIntro": "Model brief preparation and reviewed introductions—not property sales, commissions or guaranteed matches.",
-                "costIntro": "Typical token consumption and the platform fee are prefilled for an average user. Edit them if your usage differs.",
-                "valueIntro": "This is the modeled output and capacity for that typical usage. Edit the assumptions if they do not match your work.",
+                "workloadStep": "Introduction funnel",
+                "costStep": "AI operating cost",
+                "valueStep": "Capacity and evidence",
+                "workloadIntro": "Model second-home leads, qualification and human review—not property sales, commissions or guaranteed matches.",
+                "costIntro": "Token, model, tool, infrastructure, platform and reviewer costs are delivery assumptions. Nest price is a separate unvalidated hypothesis.",
+                "valueIntro": "Capacity is not revenue. Enter observed contribution only after a real agent or brokerage uses and pays for the service.",
                 "sampleNotice": "Typical usage · not observed results",
                 "monthly": "Monthly",
                 "yearly": "Yearly",
@@ -264,9 +263,9 @@
                 "back": "Back",
                 "reset": "Reset assumptions",
                 "summary": "Your modeled impact",
-                "volume": "Briefs modeled",
+                "volume": "Leads modeled",
                 "grossHours": "Repetitive work reduced",
-                "capacity": "Intake hours returned",
+                "capacity": "Reviewer capacity returned",
                 "retained": "Capacity kept available",
                 "hours": "hours",
                 "days": "days",
@@ -294,9 +293,12 @@
                 "contribution": "Expected contribution",
                 "expectedLoss": "Expected loss reduction",
                 "riskValue": "Uncertain risk value included",
-                "economicValue": "Modeled economic value",
-                "netBenefit": "Net modeled benefit",
-                "multiple": "Economic return multiple",
+                "economicValue": "Modeled contribution",
+                "netBenefit": "Modeled benefit after Nest price",
+                "multiple": "Internal delivery multiple",
+                "customerBenefit": "Modeled agent benefit",
+                "customerRoi": "Modeled customer ROI",
+                "payback": "Customer payback period",
                 "notApplicable": "Not applicable",
                 "annual": "Annual view",
                 "annualNote": "The same monthly assumptions, without growth or compounding. Hiring savings last only for the entered period.",
@@ -304,7 +306,7 @@
                 "burdenHeading": "Repetitive work reduced",
                 "opportunityHeading": "Capacity for higher-value work",
                 "methodBody": "Operating burden removed (negative productivity) returns capacity. Higher-value work (potential positive productivity) creates economic value only if that capacity is used. Hours alone are not cash savings. Token cost uses a modeled input/output mix, not a provider quote.",
-                "formulaLabel": "Economic value ÷ operating cost = economic return multiple. Net benefit subtracts operating cost once.",
+                "formulaLabel": "Qualified briefs = leads × qualification rate. Delivery cost includes modeled token, model, tool, infrastructure, platform and human-review cost. Customer ROI remains unavailable until benefit and price are supported by evidence.",
                 "allocationNote": "Each hour can be allocated once. Unallocated hours remain capacity, with no monetary value.",
                 "overlapLabel": "These benefits are distinct; I have excluded costs and losses already counted elsewhere.",
                 "overlapNote": "Error and risk estimates exclude labor savings and the same incident must not appear in both categories. Contribution excludes AI costs, which are deducted separately.",
@@ -325,32 +327,40 @@
               },
               "fields": {
                 "volume": {
-                  "label": "Buyer briefs collected each month",
-                  "help": "Count buyer briefs you would actually review, not every enquiry."
+                  "label": "Leads or briefs entering the desk each month",
+                  "help": "Count inbound second-home enquiries in the selected market, not property transactions."
+                },
+                "accepted_rate": {
+                  "label": "Share becoming qualified briefs",
+                  "help": "A modeled qualification rate. Replace it with observed funnel data after a pilot."
                 },
                 "minutes": {
-                  "label": "Minutes to collect one buyer brief today",
-                  "help": "Active conversation time, not elapsed days on a listing."
+                  "label": "Minutes to qualify one buyer brief today",
+                  "help": "Active intake and qualification time, excluding elapsed days and property-search time."
                 },
                 "automation": {
-                  "label": "Share of that intake conversation Nest handles",
-                  "help": "Illustrative share of the conversation, not a match rate."
+                  "label": "Share of that work reduced",
+                  "help": "An illustrative assumption to validate in a pilot, not a performance promise."
                 },
                 "review": {
                   "label": "Minutes a reviewer spends confirming each brief",
                   "help": "Human review still required before either side sees a proposal."
                 },
+                "cycles_per_unit": {
+                  "label": "Cycles per unit each month",
+                  "help": "How many recurring order, review or processing cycles each unit runs in a typical month."
+                },
                 "tokens_per_output": {
-                  "label": "Tokens per buyer brief",
-                  "help": "Modeled tokens to run one intake conversation into a reviewable brief."
+                  "label": "Tokens per qualified buyer brief",
+                  "help": "Modeled input and output tokens for one reviewable brief; provider usage must replace this hypothesis."
                 },
                 "budget": {
                   "label": "Estimated monthly operating budget",
                   "help": "Include token usage, models/media, tools, infrastructure, Gabriel fees and additional paid review."
                 },
                 "model_cost": {
-                  "label": "Extra models and media",
-                  "help": "Only image, video or other generation charged separately from token usage. Enter zero if none."
+                  "label": "Additional model or media cost",
+                  "help": "Enter separately billed models or media. Leave zero when included in the token envelope."
                 },
                 "tools_cost": {
                   "label": "Tools and integrations",
@@ -361,8 +371,16 @@
                   "help": "Incremental hosting, storage and compute for this workload. Enter zero if none."
                 },
                 "platform_cost": {
-                  "label": "Gabriel platform fee",
-                  "help": "Typical monthly access for this usage package. This is a modeled assumption, not a price quote."
+                  "label": "Other delivery and support cost",
+                  "help": "Modeled hosting, storage, monitoring and support cost, separate from the customer price."
+                },
+                "customer_price": {
+                  "label": "Proposed monthly Nest price",
+                  "help": "Editable agent/brokerage pricing hypothesis. It is not validated revenue and must be tested in a paid pilot."
+                },
+                "personal_value_per_hour": {
+                  "label": "Optional value you assign to an hour",
+                  "help": "An optional personal comparison only. This is not salary, wages or guaranteed cash savings."
                 },
                 "review_rate": {
                   "label": "Additional paid review per hour",
@@ -377,16 +395,16 @@
                   "help": "The cash budget from which the reduction will come."
                 },
                 "cash_avoided": {
-                  "label": "Monthly contractor intake spend you would stop",
-                  "help": "An explicit overflow cost, not hours multiplied by an agent salary and not a commission."
+                  "label": "Monthly spending you would stop",
+                  "help": "One explicit amount, not hours multiplied by salary; exclude any planned-hire saving entered separately."
                 },
                 "higher_value_hours": {
-                  "label": "Hours used for higher-value work",
-                  "help": "Hours you can realistically redirect, not the entire capacity by default."
+                  "label": "Hours agents can use for real conversations",
+                  "help": "Only capacity with observed demand receives an economic value."
                 },
                 "contribution_rate": {
-                  "label": "Incremental contribution per hour",
-                  "help": "Revenue less incremental delivery costs, excluding AI costs counted separately. Not salary or gross revenue."
+                  "label": "Incremental contribution per agent hour",
+                  "help": "Contribution from additional work, excluding property value, commissions and costs already counted."
                 },
                 "throughput_hours": {
                   "label": "Hours used for additional volume",
@@ -454,48 +472,42 @@
                 "Repeated matching and coordination"
               ],
               "opportunity": [
-                "More human-reviewed introductions",
-                "Time to understand client needs"
+                "More qualified, human-reviewed introductions",
+                "Time for agent conversations and client needs"
               ],
               "usagePackages": {
                 "base": {
                   "volume": 12,
                   "tokensPerOutput": 12000,
-                  "platform_cost": 990,
+                  "platform_cost": 450,
                   "minutes": 20,
-                  "automation": 55,
+                  "automation": 100,
                   "review": 8,
                   "model_cost": 0,
                   "tools_cost": 0,
                   "infrastructure_cost": 0,
                   "higher_value_hours": 0,
-                  "contribution_rate": 0,
-                  "cash_hours": 0.6,
-                  "cash_baseline": 1440,
-                  "cash_avoided": 1080
+                  "contribution_rate": 0
                 },
                 "medium": {
                   "volume": 24,
                   "tokensPerOutput": 12000,
-                  "platform_cost": 1500,
+                  "platform_cost": 750,
                   "minutes": 20,
-                  "automation": 55,
+                  "automation": 100,
                   "review": 8,
                   "model_cost": 0,
                   "tools_cost": 0,
                   "infrastructure_cost": 0,
                   "higher_value_hours": 0,
-                  "contribution_rate": 0,
-                  "cash_hours": 1.2,
-                  "cash_baseline": 2880,
-                  "cash_avoided": 2160
+                  "contribution_rate": 0
                 }
               },
               "defaultPackage": "medium",
               "costMode": "itemized",
               "reviewMode": "team",
               "selected": [
-                "cash"
+                "higher_value"
               ],
               "confirmations": {
                 "overlap": true,
@@ -505,49 +517,64 @@
               },
               "hero": {
                 "kind": "volume",
-                "label": "Human-reviewed buyer briefs ready to match"
+                "label": "Qualified briefs entering review"
               },
               "outcomes": [
                 {
-                  "id": "cash",
-                  "label": "Stop paid intake overflow",
-                  "help": "Count contractor or overtime intake spend that actually stops. Not a property commission."
+                  "id": "higher_value",
+                  "label": "Keep agents on conversations",
+                  "help": "Enter only capacity that can be redirected to real agent or brokerage work; do not treat property value or commission as Nest revenue."
                 }
               ],
               "tabs": [
                 {
-                  "id": "briefs",
-                  "label": "Briefs",
-                  "intro": "How many buyer briefs a typical desk collects, and the reviewer pass still required.",
+                  "id": "funnel",
+                  "label": "Introduction funnel",
+                  "intro": "Model leads entering the agent or brokerage desk, qualification, and human review.",
                   "fields": [
                     "volume",
-                    "minutes",
-                    "automation",
+                    "accepted_rate",
                     "review"
-                  ],
-                  "showPackage": true,
-                  "showReview": true
-                },
-                {
-                  "id": "tokens",
-                  "label": "Token usage",
-                  "intro": "Tokens to collect one buyer brief, plus the Gabriel fee.",
-                  "fields": [
-                    "tokens_per_output",
-                    "platform_cost",
-                    "tools_cost"
                   ],
                   "showPackage": true
                 },
                 {
-                  "id": "reviewer",
-                  "label": "Reviewer time",
-                  "intro": "Contractor intake spend that can actually stop. This is not a commission on a sale.",
-                  "fields": [],
+                  "id": "costs",
+                  "label": "AI operating cost",
+                  "intro": "Keep model, token, tool, infrastructure, platform and reviewer costs separate from the proposed customer price.",
+                  "fields": [
+                    "tokens_per_output",
+                    "model_cost",
+                    "tools_cost",
+                    "infrastructure_cost",
+                    "platform_cost",
+                    "customer_price"
+                  ],
+                  "showPackage": true
+                },
+                {
+                  "id": "capacity",
+                  "label": "Capacity and evidence",
+                  "intro": "Returned capacity is not revenue. Financial results remain insufficient until a payer, price and delivery evidence are recorded.",
+                  "fields": [
+                    "higher_value_hours",
+                    "contribution_rate"
+                  ],
                   "showPackage": true,
                   "showOutcomes": true
                 }
-              ]
+              ],
+              "pricing": {
+                "basis": "fixed",
+                "annualPrice": 9000,
+                "label": "Proposed Nest monthly price",
+                "help": "A €750/month working hypothesis for a qualified-introduction pilot. Treat as unvalidated until an agent or brokerage pays."
+              },
+              "presentation": {
+                "financial": "optional",
+                "showCustomerEconomics": true,
+                "hideEconomicMultiple": true
+              }
             },
             "cta": {
               "primaryLabel": "Talk with Nest",
@@ -667,8 +694,8 @@
             "enabled": true,
             "kicker": "Business impact",
             "heading": "ROI Calculator",
-            "subheading": "Start with your seller brief capacity. A typical month is already filled.",
-            "disclaimer": "A scenario built from typical seller brief usage, not property sales, commissions or guaranteed matches. Nest's matching stays human-reviewed.",
+            "subheading": "Model a licensed second-home agent or brokerage using Nest for qualified, human-reviewed introductions in one local market.",
+            "disclaimer": "A modeled operating scenario with zero validated paid demand. Nest qualifies and coordinates consented introductions; it does not represent parties, value property, negotiate, earn commissions or guarantee a transaction.",
             "currency": "EUR",
             "currencyCopy": {
               "native": "Amounts in {currency}.",
@@ -692,8 +719,9 @@
               "defaults": {
                 "volume": 16,
                 "minutes": 25,
-                "automation": 55,
+                "automation": 100,
                 "review": 10,
+                "accepted_rate": 25,
                 "tokens_per_output": 12000,
                 "model_cost": 0,
                 "tools_cost": 0,
@@ -701,18 +729,16 @@
                 "platform_cost": 1500,
                 "higher_value_hours": 0,
                 "contribution_rate": 0,
-                "cash_hours": 1,
-                "cash_baseline": 1920,
-                "cash_avoided": 1440
+                "customer_price": 750
               },
               "copy": {
                 "navLabel": "ROI",
-                "workloadStep": "Briefs",
-                "costStep": "Token usage",
-                "valueStep": "Reviewer time",
-                "workloadIntro": "Model brief preparation and reviewed introductions—not property sales, commissions or guaranteed matches.",
-                "costIntro": "Typical token consumption and the platform fee are prefilled for an average user. Edit them if your usage differs.",
-                "valueIntro": "This is the modeled output and capacity for that typical usage. Edit the assumptions if they do not match your work.",
+                "workloadStep": "Introduction funnel",
+                "costStep": "AI operating cost",
+                "valueStep": "Capacity and evidence",
+                "workloadIntro": "Model second-home leads, qualification and human review—not property sales, commissions or guaranteed matches.",
+                "costIntro": "Token, model, tool, infrastructure, platform and reviewer costs are delivery assumptions. Nest price is a separate unvalidated hypothesis.",
+                "valueIntro": "Capacity is not revenue. Enter observed contribution only after a real agent or brokerage uses and pays for the service.",
                 "sampleNotice": "Typical usage · not observed results",
                 "monthly": "Monthly",
                 "yearly": "Yearly",
@@ -720,9 +746,9 @@
                 "back": "Back",
                 "reset": "Reset assumptions",
                 "summary": "Your modeled impact",
-                "volume": "Briefs modeled",
+                "volume": "Leads modeled",
                 "grossHours": "Repetitive work reduced",
-                "capacity": "Intake hours returned",
+                "capacity": "Reviewer capacity returned",
                 "retained": "Capacity kept available",
                 "hours": "hours",
                 "days": "days",
@@ -750,9 +776,12 @@
                 "contribution": "Expected contribution",
                 "expectedLoss": "Expected loss reduction",
                 "riskValue": "Uncertain risk value included",
-                "economicValue": "Modeled economic value",
-                "netBenefit": "Net modeled benefit",
-                "multiple": "Economic return multiple",
+                "economicValue": "Modeled contribution",
+                "netBenefit": "Modeled benefit after Nest price",
+                "multiple": "Internal delivery multiple",
+                "customerBenefit": "Modeled agent benefit",
+                "customerRoi": "Modeled customer ROI",
+                "payback": "Customer payback period",
                 "notApplicable": "Not applicable",
                 "annual": "Annual view",
                 "annualNote": "The same monthly assumptions, without growth or compounding. Hiring savings last only for the entered period.",
@@ -760,7 +789,7 @@
                 "burdenHeading": "Repetitive work reduced",
                 "opportunityHeading": "Capacity for higher-value work",
                 "methodBody": "Operating burden removed (negative productivity) returns capacity. Higher-value work (potential positive productivity) creates economic value only if that capacity is used. Hours alone are not cash savings. Token cost uses a modeled input/output mix, not a provider quote.",
-                "formulaLabel": "Economic value ÷ operating cost = economic return multiple. Net benefit subtracts operating cost once.",
+                "formulaLabel": "Qualified briefs = leads × qualification rate. Delivery cost includes modeled token, model, tool, infrastructure, platform and human-review cost. Customer ROI remains unavailable until benefit and price are supported by evidence.",
                 "allocationNote": "Each hour can be allocated once. Unallocated hours remain capacity, with no monetary value.",
                 "overlapLabel": "These benefits are distinct; I have excluded costs and losses already counted elsewhere.",
                 "overlapNote": "Error and risk estimates exclude labor savings and the same incident must not appear in both categories. Contribution excludes AI costs, which are deducted separately.",
@@ -781,32 +810,40 @@
               },
               "fields": {
                 "volume": {
-                  "label": "Seller briefs collected each month",
-                  "help": "Count seller briefs you would actually review, not every enquiry."
+                  "label": "Leads or briefs entering the desk each month",
+                  "help": "Count inbound second-home enquiries in the selected market, not property transactions."
+                },
+                "accepted_rate": {
+                  "label": "Share becoming qualified briefs",
+                  "help": "A modeled qualification rate. Replace it with observed funnel data after a pilot."
                 },
                 "minutes": {
-                  "label": "Minutes to collect one seller brief today",
-                  "help": "Active conversation time, not elapsed days on a listing."
+                  "label": "Minutes to qualify one seller brief today",
+                  "help": "Active intake and qualification time, excluding elapsed days and property-search time."
                 },
                 "automation": {
-                  "label": "Share of that intake conversation Nest handles",
-                  "help": "Illustrative share of the conversation, not a match rate."
+                  "label": "Share of that work reduced",
+                  "help": "An illustrative assumption to validate in a pilot, not a performance promise."
                 },
                 "review": {
                   "label": "Minutes a reviewer spends confirming each brief",
                   "help": "Human review still required before either side sees a proposal."
                 },
+                "cycles_per_unit": {
+                  "label": "Cycles per unit each month",
+                  "help": "How many recurring order, review or processing cycles each unit runs in a typical month."
+                },
                 "tokens_per_output": {
-                  "label": "Tokens per seller brief",
-                  "help": "Modeled tokens to run one intake conversation into a reviewable brief."
+                  "label": "Tokens per qualified seller brief",
+                  "help": "Modeled input and output tokens for one reviewable brief; provider usage must replace this hypothesis."
                 },
                 "budget": {
                   "label": "Estimated monthly operating budget",
                   "help": "Include token usage, models/media, tools, infrastructure, Gabriel fees and additional paid review."
                 },
                 "model_cost": {
-                  "label": "Extra models and media",
-                  "help": "Only image, video or other generation charged separately from token usage. Enter zero if none."
+                  "label": "Additional model or media cost",
+                  "help": "Enter separately billed models or media. Leave zero when included in the token envelope."
                 },
                 "tools_cost": {
                   "label": "Tools and integrations",
@@ -817,8 +854,16 @@
                   "help": "Incremental hosting, storage and compute for this workload. Enter zero if none."
                 },
                 "platform_cost": {
-                  "label": "Gabriel platform fee",
-                  "help": "Typical monthly access for this usage package. This is a modeled assumption, not a price quote."
+                  "label": "Other delivery and support cost",
+                  "help": "Modeled hosting, storage, monitoring and support cost, separate from the customer price."
+                },
+                "customer_price": {
+                  "label": "Proposed monthly Nest price",
+                  "help": "Editable agent/brokerage pricing hypothesis. It is not validated revenue and must be tested in a paid pilot."
+                },
+                "personal_value_per_hour": {
+                  "label": "Optional value you assign to an hour",
+                  "help": "An optional personal comparison only. This is not salary, wages or guaranteed cash savings."
                 },
                 "review_rate": {
                   "label": "Additional paid review per hour",
@@ -833,16 +878,16 @@
                   "help": "The cash budget from which the reduction will come."
                 },
                 "cash_avoided": {
-                  "label": "Monthly contractor intake spend you would stop",
-                  "help": "An explicit overflow cost, not hours multiplied by an agent salary and not a commission."
+                  "label": "Monthly spending you would stop",
+                  "help": "One explicit amount, not hours multiplied by salary; exclude any planned-hire saving entered separately."
                 },
                 "higher_value_hours": {
-                  "label": "Hours used for higher-value work",
-                  "help": "Hours you can realistically redirect, not the entire capacity by default."
+                  "label": "Hours agents can use for real conversations",
+                  "help": "Only capacity with observed demand receives an economic value."
                 },
                 "contribution_rate": {
-                  "label": "Incremental contribution per hour",
-                  "help": "Revenue less incremental delivery costs, excluding AI costs counted separately. Not salary or gross revenue."
+                  "label": "Incremental contribution per agent hour",
+                  "help": "Contribution from additional work, excluding property value, commissions and costs already counted."
                 },
                 "throughput_hours": {
                   "label": "Hours used for additional volume",
@@ -910,48 +955,42 @@
                 "Repeated matching and coordination"
               ],
               "opportunity": [
-                "More human-reviewed introductions",
-                "Time to understand client needs"
+                "More qualified, human-reviewed introductions",
+                "Time for agent conversations and client needs"
               ],
               "usagePackages": {
                 "base": {
                   "volume": 8,
                   "tokensPerOutput": 12000,
-                  "platform_cost": 990,
+                  "platform_cost": 450,
                   "minutes": 25,
-                  "automation": 55,
+                  "automation": 100,
                   "review": 10,
                   "model_cost": 0,
                   "tools_cost": 0,
                   "infrastructure_cost": 0,
                   "higher_value_hours": 0,
-                  "contribution_rate": 0,
-                  "cash_hours": 0.5,
-                  "cash_baseline": 960,
-                  "cash_avoided": 720
+                  "contribution_rate": 0
                 },
                 "medium": {
                   "volume": 16,
                   "tokensPerOutput": 12000,
-                  "platform_cost": 1500,
+                  "platform_cost": 750,
                   "minutes": 25,
-                  "automation": 55,
+                  "automation": 100,
                   "review": 10,
                   "model_cost": 0,
                   "tools_cost": 0,
                   "infrastructure_cost": 0,
                   "higher_value_hours": 0,
-                  "contribution_rate": 0,
-                  "cash_hours": 1,
-                  "cash_baseline": 1920,
-                  "cash_avoided": 1440
+                  "contribution_rate": 0
                 }
               },
               "defaultPackage": "medium",
               "costMode": "itemized",
               "reviewMode": "team",
               "selected": [
-                "cash"
+                "higher_value"
               ],
               "confirmations": {
                 "overlap": true,
@@ -961,49 +1000,64 @@
               },
               "hero": {
                 "kind": "volume",
-                "label": "Human-reviewed seller briefs ready to match"
+                "label": "Qualified briefs entering review"
               },
               "outcomes": [
                 {
-                  "id": "cash",
-                  "label": "Stop paid intake overflow",
-                  "help": "Count contractor or overtime intake spend that actually stops. Not a property commission."
+                  "id": "higher_value",
+                  "label": "Keep agents on conversations",
+                  "help": "Enter only capacity that can be redirected to real agent or brokerage work; do not treat property value or commission as Nest revenue."
                 }
               ],
               "tabs": [
                 {
-                  "id": "briefs",
-                  "label": "Briefs",
-                  "intro": "How many seller briefs a typical desk collects, and the reviewer pass still required.",
+                  "id": "funnel",
+                  "label": "Introduction funnel",
+                  "intro": "Model leads entering the agent or brokerage desk, qualification, and human review.",
                   "fields": [
                     "volume",
-                    "minutes",
-                    "automation",
+                    "accepted_rate",
                     "review"
-                  ],
-                  "showPackage": true,
-                  "showReview": true
-                },
-                {
-                  "id": "tokens",
-                  "label": "Token usage",
-                  "intro": "Tokens to collect one seller brief, plus the Gabriel fee.",
-                  "fields": [
-                    "tokens_per_output",
-                    "platform_cost",
-                    "tools_cost"
                   ],
                   "showPackage": true
                 },
                 {
-                  "id": "reviewer",
-                  "label": "Reviewer time",
-                  "intro": "Contractor intake spend that can actually stop. This is not a commission on a sale.",
-                  "fields": [],
+                  "id": "costs",
+                  "label": "AI operating cost",
+                  "intro": "Keep model, token, tool, infrastructure, platform and reviewer costs separate from the proposed customer price.",
+                  "fields": [
+                    "tokens_per_output",
+                    "model_cost",
+                    "tools_cost",
+                    "infrastructure_cost",
+                    "platform_cost",
+                    "customer_price"
+                  ],
+                  "showPackage": true
+                },
+                {
+                  "id": "capacity",
+                  "label": "Capacity and evidence",
+                  "intro": "Returned capacity is not revenue. Financial results remain insufficient until a payer, price and delivery evidence are recorded.",
+                  "fields": [
+                    "higher_value_hours",
+                    "contribution_rate"
+                  ],
                   "showPackage": true,
                   "showOutcomes": true
                 }
-              ]
+              ],
+              "pricing": {
+                "basis": "fixed",
+                "annualPrice": 9000,
+                "label": "Proposed Nest monthly price",
+                "help": "A €750/month working hypothesis for a qualified-introduction pilot. Treat as unvalidated until an agent or brokerage pays."
+              },
+              "presentation": {
+                "financial": "optional",
+                "showCustomerEconomics": true,
+                "hideEconomicMultiple": true
+              }
             },
             "cta": {
               "primaryLabel": "Talk with Nest",
@@ -1218,7 +1272,7 @@
           {
             "language": "es",
             "regionKey": null,
-            "sourceRevision": "13c315534db5ea4273e1f5c6301c15274cd716fe29525680b9b8f88fa6bdbd93",
+            "sourceRevision": "4b0efcee6f6b3c4a8fbf6a84641981c356138eaf102de39ae4f334612797dcdc",
             "assetPath": "assets/landing-page.es.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-01T15:39:42.215Z"
@@ -1226,7 +1280,7 @@
           {
             "language": "de",
             "regionKey": null,
-            "sourceRevision": "13c315534db5ea4273e1f5c6301c15274cd716fe29525680b9b8f88fa6bdbd93",
+            "sourceRevision": "4b0efcee6f6b3c4a8fbf6a84641981c356138eaf102de39ae4f334612797dcdc",
             "assetPath": "assets/landing-page.de.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-01T15:39:42.215Z"
@@ -1234,7 +1288,7 @@
           {
             "language": "ja",
             "regionKey": null,
-            "sourceRevision": "13c315534db5ea4273e1f5c6301c15274cd716fe29525680b9b8f88fa6bdbd93",
+            "sourceRevision": "4b0efcee6f6b3c4a8fbf6a84641981c356138eaf102de39ae4f334612797dcdc",
             "assetPath": "assets/landing-page.ja.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-01T15:39:42.215Z"
@@ -1242,7 +1296,7 @@
           {
             "language": "fr",
             "regionKey": null,
-            "sourceRevision": "13c315534db5ea4273e1f5c6301c15274cd716fe29525680b9b8f88fa6bdbd93",
+            "sourceRevision": "4b0efcee6f6b3c4a8fbf6a84641981c356138eaf102de39ae4f334612797dcdc",
             "assetPath": "assets/landing-page.fr.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-01T15:39:42.215Z"
@@ -1250,7 +1304,7 @@
           {
             "language": "pt",
             "regionKey": null,
-            "sourceRevision": "13c315534db5ea4273e1f5c6301c15274cd716fe29525680b9b8f88fa6bdbd93",
+            "sourceRevision": "4b0efcee6f6b3c4a8fbf6a84641981c356138eaf102de39ae4f334612797dcdc",
             "assetPath": "assets/landing-page.pt.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-01T15:39:42.215Z"
@@ -1258,7 +1312,7 @@
           {
             "language": "ru",
             "regionKey": null,
-            "sourceRevision": "13c315534db5ea4273e1f5c6301c15274cd716fe29525680b9b8f88fa6bdbd93",
+            "sourceRevision": "4b0efcee6f6b3c4a8fbf6a84641981c356138eaf102de39ae4f334612797dcdc",
             "assetPath": "assets/landing-page.ru.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-01T15:39:42.215Z"
@@ -1266,7 +1320,7 @@
           {
             "language": "it",
             "regionKey": null,
-            "sourceRevision": "13c315534db5ea4273e1f5c6301c15274cd716fe29525680b9b8f88fa6bdbd93",
+            "sourceRevision": "4b0efcee6f6b3c4a8fbf6a84641981c356138eaf102de39ae4f334612797dcdc",
             "assetPath": "assets/landing-page.it.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-01T15:39:42.215Z"
@@ -1274,7 +1328,7 @@
           {
             "language": "nl",
             "regionKey": null,
-            "sourceRevision": "13c315534db5ea4273e1f5c6301c15274cd716fe29525680b9b8f88fa6bdbd93",
+            "sourceRevision": "4b0efcee6f6b3c4a8fbf6a84641981c356138eaf102de39ae4f334612797dcdc",
             "assetPath": "assets/landing-page.nl.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-01T15:39:42.215Z"
@@ -1282,7 +1336,7 @@
           {
             "language": "pl",
             "regionKey": null,
-            "sourceRevision": "13c315534db5ea4273e1f5c6301c15274cd716fe29525680b9b8f88fa6bdbd93",
+            "sourceRevision": "4b0efcee6f6b3c4a8fbf6a84641981c356138eaf102de39ae4f334612797dcdc",
             "assetPath": "assets/landing-page.pl.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-01T15:39:42.215Z"
@@ -1290,7 +1344,7 @@
           {
             "language": "tr",
             "regionKey": null,
-            "sourceRevision": "13c315534db5ea4273e1f5c6301c15274cd716fe29525680b9b8f88fa6bdbd93",
+            "sourceRevision": "4b0efcee6f6b3c4a8fbf6a84641981c356138eaf102de39ae4f334612797dcdc",
             "assetPath": "assets/landing-page.tr.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-01T15:39:42.215Z"
@@ -1298,7 +1352,7 @@
           {
             "language": "zh",
             "regionKey": null,
-            "sourceRevision": "13c315534db5ea4273e1f5c6301c15274cd716fe29525680b9b8f88fa6bdbd93",
+            "sourceRevision": "4b0efcee6f6b3c4a8fbf6a84641981c356138eaf102de39ae4f334612797dcdc",
             "assetPath": "assets/landing-page.zh.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-01T15:39:42.215Z"
@@ -1306,7 +1360,7 @@
           {
             "language": "fa",
             "regionKey": null,
-            "sourceRevision": "13c315534db5ea4273e1f5c6301c15274cd716fe29525680b9b8f88fa6bdbd93",
+            "sourceRevision": "4b0efcee6f6b3c4a8fbf6a84641981c356138eaf102de39ae4f334612797dcdc",
             "assetPath": "assets/landing-page.fa.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-01T15:39:42.215Z"
@@ -1314,7 +1368,7 @@
           {
             "language": "vi",
             "regionKey": null,
-            "sourceRevision": "13c315534db5ea4273e1f5c6301c15274cd716fe29525680b9b8f88fa6bdbd93",
+            "sourceRevision": "4b0efcee6f6b3c4a8fbf6a84641981c356138eaf102de39ae4f334612797dcdc",
             "assetPath": "assets/landing-page.vi.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-01T15:39:42.215Z"
@@ -1322,7 +1376,7 @@
           {
             "language": "cs",
             "regionKey": null,
-            "sourceRevision": "13c315534db5ea4273e1f5c6301c15274cd716fe29525680b9b8f88fa6bdbd93",
+            "sourceRevision": "4b0efcee6f6b3c4a8fbf6a84641981c356138eaf102de39ae4f334612797dcdc",
             "assetPath": "assets/landing-page.cs.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-01T15:39:42.215Z"
@@ -1330,7 +1384,7 @@
           {
             "language": "id",
             "regionKey": null,
-            "sourceRevision": "13c315534db5ea4273e1f5c6301c15274cd716fe29525680b9b8f88fa6bdbd93",
+            "sourceRevision": "4b0efcee6f6b3c4a8fbf6a84641981c356138eaf102de39ae4f334612797dcdc",
             "assetPath": "assets/landing-page.id.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-01T15:39:42.215Z"
@@ -1338,7 +1392,7 @@
           {
             "language": "ko",
             "regionKey": null,
-            "sourceRevision": "13c315534db5ea4273e1f5c6301c15274cd716fe29525680b9b8f88fa6bdbd93",
+            "sourceRevision": "4b0efcee6f6b3c4a8fbf6a84641981c356138eaf102de39ae4f334612797dcdc",
             "assetPath": "assets/landing-page.ko.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-01T15:39:42.215Z"
@@ -1346,7 +1400,7 @@
           {
             "language": "uk",
             "regionKey": null,
-            "sourceRevision": "13c315534db5ea4273e1f5c6301c15274cd716fe29525680b9b8f88fa6bdbd93",
+            "sourceRevision": "4b0efcee6f6b3c4a8fbf6a84641981c356138eaf102de39ae4f334612797dcdc",
             "assetPath": "assets/landing-page.uk.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-01T15:39:42.215Z"
@@ -1354,7 +1408,7 @@
           {
             "language": "hu",
             "regionKey": null,
-            "sourceRevision": "13c315534db5ea4273e1f5c6301c15274cd716fe29525680b9b8f88fa6bdbd93",
+            "sourceRevision": "4b0efcee6f6b3c4a8fbf6a84641981c356138eaf102de39ae4f334612797dcdc",
             "assetPath": "assets/landing-page.hu.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-01T15:39:42.215Z"
@@ -1362,7 +1416,7 @@
           {
             "language": "ar",
             "regionKey": null,
-            "sourceRevision": "13c315534db5ea4273e1f5c6301c15274cd716fe29525680b9b8f88fa6bdbd93",
+            "sourceRevision": "4b0efcee6f6b3c4a8fbf6a84641981c356138eaf102de39ae4f334612797dcdc",
             "assetPath": "assets/landing-page.ar.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-01T15:39:42.215Z"
@@ -1370,7 +1424,7 @@
           {
             "language": "sv",
             "regionKey": null,
-            "sourceRevision": "13c315534db5ea4273e1f5c6301c15274cd716fe29525680b9b8f88fa6bdbd93",
+            "sourceRevision": "4b0efcee6f6b3c4a8fbf6a84641981c356138eaf102de39ae4f334612797dcdc",
             "assetPath": "assets/landing-page.sv.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-01T15:39:42.215Z"
@@ -1378,7 +1432,7 @@
           {
             "language": "ro",
             "regionKey": null,
-            "sourceRevision": "13c315534db5ea4273e1f5c6301c15274cd716fe29525680b9b8f88fa6bdbd93",
+            "sourceRevision": "4b0efcee6f6b3c4a8fbf6a84641981c356138eaf102de39ae4f334612797dcdc",
             "assetPath": "assets/landing-page.ro.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-01T15:39:42.215Z"
@@ -1386,7 +1440,7 @@
           {
             "language": "el",
             "regionKey": null,
-            "sourceRevision": "13c315534db5ea4273e1f5c6301c15274cd716fe29525680b9b8f88fa6bdbd93",
+            "sourceRevision": "4b0efcee6f6b3c4a8fbf6a84641981c356138eaf102de39ae4f334612797dcdc",
             "assetPath": "assets/landing-page.el.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-01T15:39:42.215Z"
@@ -1394,7 +1448,7 @@
           {
             "language": "da",
             "regionKey": null,
-            "sourceRevision": "13c315534db5ea4273e1f5c6301c15274cd716fe29525680b9b8f88fa6bdbd93",
+            "sourceRevision": "4b0efcee6f6b3c4a8fbf6a84641981c356138eaf102de39ae4f334612797dcdc",
             "assetPath": "assets/landing-page.da.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-01T15:39:42.215Z"
@@ -1402,7 +1456,7 @@
           {
             "language": "fi",
             "regionKey": null,
-            "sourceRevision": "13c315534db5ea4273e1f5c6301c15274cd716fe29525680b9b8f88fa6bdbd93",
+            "sourceRevision": "4b0efcee6f6b3c4a8fbf6a84641981c356138eaf102de39ae4f334612797dcdc",
             "assetPath": "assets/landing-page.fi.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-01T15:39:42.215Z"
@@ -1410,7 +1464,7 @@
           {
             "language": "he",
             "regionKey": null,
-            "sourceRevision": "13c315534db5ea4273e1f5c6301c15274cd716fe29525680b9b8f88fa6bdbd93",
+            "sourceRevision": "4b0efcee6f6b3c4a8fbf6a84641981c356138eaf102de39ae4f334612797dcdc",
             "assetPath": "assets/landing-page.he.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-01T15:39:42.215Z"
@@ -1418,7 +1472,7 @@
           {
             "language": "sk",
             "regionKey": null,
-            "sourceRevision": "13c315534db5ea4273e1f5c6301c15274cd716fe29525680b9b8f88fa6bdbd93",
+            "sourceRevision": "4b0efcee6f6b3c4a8fbf6a84641981c356138eaf102de39ae4f334612797dcdc",
             "assetPath": "assets/landing-page.sk.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-01T15:39:42.215Z"
@@ -1426,7 +1480,7 @@
           {
             "language": "th",
             "regionKey": null,
-            "sourceRevision": "13c315534db5ea4273e1f5c6301c15274cd716fe29525680b9b8f88fa6bdbd93",
+            "sourceRevision": "4b0efcee6f6b3c4a8fbf6a84641981c356138eaf102de39ae4f334612797dcdc",
             "assetPath": "assets/landing-page.th.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-01T15:39:42.215Z"
@@ -1434,7 +1488,7 @@
           {
             "language": "bg",
             "regionKey": null,
-            "sourceRevision": "13c315534db5ea4273e1f5c6301c15274cd716fe29525680b9b8f88fa6bdbd93",
+            "sourceRevision": "4b0efcee6f6b3c4a8fbf6a84641981c356138eaf102de39ae4f334612797dcdc",
             "assetPath": "assets/landing-page.bg.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-01T15:39:42.215Z"
@@ -1442,7 +1496,7 @@
           {
             "language": "hr",
             "regionKey": null,
-            "sourceRevision": "13c315534db5ea4273e1f5c6301c15274cd716fe29525680b9b8f88fa6bdbd93",
+            "sourceRevision": "4b0efcee6f6b3c4a8fbf6a84641981c356138eaf102de39ae4f334612797dcdc",
             "assetPath": "assets/landing-page.hr.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-01T15:39:42.215Z"
@@ -1450,7 +1504,7 @@
           {
             "language": "nb",
             "regionKey": null,
-            "sourceRevision": "13c315534db5ea4273e1f5c6301c15274cd716fe29525680b9b8f88fa6bdbd93",
+            "sourceRevision": "4b0efcee6f6b3c4a8fbf6a84641981c356138eaf102de39ae4f334612797dcdc",
             "assetPath": "assets/landing-page.nb.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-01T15:39:42.215Z"
@@ -1458,7 +1512,7 @@
           {
             "language": "lt",
             "regionKey": null,
-            "sourceRevision": "13c315534db5ea4273e1f5c6301c15274cd716fe29525680b9b8f88fa6bdbd93",
+            "sourceRevision": "4b0efcee6f6b3c4a8fbf6a84641981c356138eaf102de39ae4f334612797dcdc",
             "assetPath": "assets/landing-page.lt.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-01T15:39:42.215Z"
@@ -1466,7 +1520,7 @@
           {
             "language": "sr",
             "regionKey": null,
-            "sourceRevision": "13c315534db5ea4273e1f5c6301c15274cd716fe29525680b9b8f88fa6bdbd93",
+            "sourceRevision": "4b0efcee6f6b3c4a8fbf6a84641981c356138eaf102de39ae4f334612797dcdc",
             "assetPath": "assets/landing-page.sr.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-01T15:39:42.215Z"
@@ -1474,7 +1528,7 @@
           {
             "language": "sl",
             "regionKey": null,
-            "sourceRevision": "13c315534db5ea4273e1f5c6301c15274cd716fe29525680b9b8f88fa6bdbd93",
+            "sourceRevision": "4b0efcee6f6b3c4a8fbf6a84641981c356138eaf102de39ae4f334612797dcdc",
             "assetPath": "assets/landing-page.sl.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-01T15:39:42.215Z"
@@ -1482,7 +1536,7 @@
           {
             "language": "ca",
             "regionKey": null,
-            "sourceRevision": "13c315534db5ea4273e1f5c6301c15274cd716fe29525680b9b8f88fa6bdbd93",
+            "sourceRevision": "4b0efcee6f6b3c4a8fbf6a84641981c356138eaf102de39ae4f334612797dcdc",
             "assetPath": "assets/landing-page.ca.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-01T15:39:42.215Z"
@@ -1490,7 +1544,7 @@
           {
             "language": "et",
             "regionKey": null,
-            "sourceRevision": "13c315534db5ea4273e1f5c6301c15274cd716fe29525680b9b8f88fa6bdbd93",
+            "sourceRevision": "4b0efcee6f6b3c4a8fbf6a84641981c356138eaf102de39ae4f334612797dcdc",
             "assetPath": "assets/landing-page.et.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-01T15:39:42.215Z"
@@ -1498,7 +1552,7 @@
           {
             "language": "no",
             "regionKey": null,
-            "sourceRevision": "13c315534db5ea4273e1f5c6301c15274cd716fe29525680b9b8f88fa6bdbd93",
+            "sourceRevision": "4b0efcee6f6b3c4a8fbf6a84641981c356138eaf102de39ae4f334612797dcdc",
             "assetPath": "assets/landing-page.no.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-01T15:39:42.215Z"
@@ -1506,7 +1560,7 @@
           {
             "language": "lv",
             "regionKey": null,
-            "sourceRevision": "13c315534db5ea4273e1f5c6301c15274cd716fe29525680b9b8f88fa6bdbd93",
+            "sourceRevision": "4b0efcee6f6b3c4a8fbf6a84641981c356138eaf102de39ae4f334612797dcdc",
             "assetPath": "assets/landing-page.lv.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-09-01T15:39:42.215Z"
@@ -1520,8 +1574,8 @@
       "enabled": true,
       "kicker": "Business impact",
       "heading": "ROI Calculator",
-      "subheading": "Start with your buyer brief capacity. A typical month is already filled.",
-      "disclaimer": "A scenario built from typical buyer brief usage, not property sales, commissions or guaranteed matches. Nest's matching stays human-reviewed.",
+      "subheading": "Model a licensed second-home agent or brokerage using Nest for qualified, human-reviewed introductions in one local market.",
+      "disclaimer": "A modeled operating scenario with zero validated paid demand. Nest qualifies and coordinates consented introductions; it does not represent parties, value property, negotiate, earn commissions or guarantee a transaction.",
       "currency": "EUR",
       "currencyCopy": {
         "native": "Amounts in {currency}.",
@@ -1545,8 +1599,9 @@
         "defaults": {
           "volume": 24,
           "minutes": 20,
-          "automation": 55,
+          "automation": 100,
           "review": 8,
+          "accepted_rate": 25,
           "tokens_per_output": 12000,
           "model_cost": 0,
           "tools_cost": 0,
@@ -1554,18 +1609,16 @@
           "platform_cost": 1500,
           "higher_value_hours": 0,
           "contribution_rate": 0,
-          "cash_hours": 1.2,
-          "cash_baseline": 2880,
-          "cash_avoided": 2160
+          "customer_price": 750
         },
         "copy": {
           "navLabel": "ROI",
-          "workloadStep": "Briefs",
-          "costStep": "Token usage",
-          "valueStep": "Reviewer time",
-          "workloadIntro": "Model brief preparation and reviewed introductions—not property sales, commissions or guaranteed matches.",
-          "costIntro": "Typical token consumption and the platform fee are prefilled for an average user. Edit them if your usage differs.",
-          "valueIntro": "This is the modeled output and capacity for that typical usage. Edit the assumptions if they do not match your work.",
+          "workloadStep": "Introduction funnel",
+          "costStep": "AI operating cost",
+          "valueStep": "Capacity and evidence",
+          "workloadIntro": "Model second-home leads, qualification and human review—not property sales, commissions or guaranteed matches.",
+          "costIntro": "Token, model, tool, infrastructure, platform and reviewer costs are delivery assumptions. Nest price is a separate unvalidated hypothesis.",
+          "valueIntro": "Capacity is not revenue. Enter observed contribution only after a real agent or brokerage uses and pays for the service.",
           "sampleNotice": "Typical usage · not observed results",
           "monthly": "Monthly",
           "yearly": "Yearly",
@@ -1573,9 +1626,9 @@
           "back": "Back",
           "reset": "Reset assumptions",
           "summary": "Your modeled impact",
-          "volume": "Briefs modeled",
+          "volume": "Leads modeled",
           "grossHours": "Repetitive work reduced",
-          "capacity": "Intake hours returned",
+          "capacity": "Reviewer capacity returned",
           "retained": "Capacity kept available",
           "hours": "hours",
           "days": "days",
@@ -1603,9 +1656,12 @@
           "contribution": "Expected contribution",
           "expectedLoss": "Expected loss reduction",
           "riskValue": "Uncertain risk value included",
-          "economicValue": "Modeled economic value",
-          "netBenefit": "Net modeled benefit",
-          "multiple": "Economic return multiple",
+          "economicValue": "Modeled contribution",
+          "netBenefit": "Modeled benefit after Nest price",
+          "multiple": "Internal delivery multiple",
+          "customerBenefit": "Modeled agent benefit",
+          "customerRoi": "Modeled customer ROI",
+          "payback": "Customer payback period",
           "notApplicable": "Not applicable",
           "annual": "Annual view",
           "annualNote": "The same monthly assumptions, without growth or compounding. Hiring savings last only for the entered period.",
@@ -1613,7 +1669,7 @@
           "burdenHeading": "Repetitive work reduced",
           "opportunityHeading": "Capacity for higher-value work",
           "methodBody": "Operating burden removed (negative productivity) returns capacity. Higher-value work (potential positive productivity) creates economic value only if that capacity is used. Hours alone are not cash savings. Token cost uses a modeled input/output mix, not a provider quote.",
-          "formulaLabel": "Economic value ÷ operating cost = economic return multiple. Net benefit subtracts operating cost once.",
+          "formulaLabel": "Qualified briefs = leads × qualification rate. Delivery cost includes modeled token, model, tool, infrastructure, platform and human-review cost. Customer ROI remains unavailable until benefit and price are supported by evidence.",
           "allocationNote": "Each hour can be allocated once. Unallocated hours remain capacity, with no monetary value.",
           "overlapLabel": "These benefits are distinct; I have excluded costs and losses already counted elsewhere.",
           "overlapNote": "Error and risk estimates exclude labor savings and the same incident must not appear in both categories. Contribution excludes AI costs, which are deducted separately.",
@@ -1634,32 +1690,40 @@
         },
         "fields": {
           "volume": {
-            "label": "Buyer briefs collected each month",
-            "help": "Count buyer briefs you would actually review, not every enquiry."
+            "label": "Leads or briefs entering the desk each month",
+            "help": "Count inbound second-home enquiries in the selected market, not property transactions."
+          },
+          "accepted_rate": {
+            "label": "Share becoming qualified briefs",
+            "help": "A modeled qualification rate. Replace it with observed funnel data after a pilot."
           },
           "minutes": {
-            "label": "Minutes to collect one buyer brief today",
-            "help": "Active conversation time, not elapsed days on a listing."
+            "label": "Minutes to qualify one buyer brief today",
+            "help": "Active intake and qualification time, excluding elapsed days and property-search time."
           },
           "automation": {
-            "label": "Share of that intake conversation Nest handles",
-            "help": "Illustrative share of the conversation, not a match rate."
+            "label": "Share of that work reduced",
+            "help": "An illustrative assumption to validate in a pilot, not a performance promise."
           },
           "review": {
             "label": "Minutes a reviewer spends confirming each brief",
             "help": "Human review still required before either side sees a proposal."
           },
+          "cycles_per_unit": {
+            "label": "Cycles per unit each month",
+            "help": "How many recurring order, review or processing cycles each unit runs in a typical month."
+          },
           "tokens_per_output": {
-            "label": "Tokens per buyer brief",
-            "help": "Modeled tokens to run one intake conversation into a reviewable brief."
+            "label": "Tokens per qualified buyer brief",
+            "help": "Modeled input and output tokens for one reviewable brief; provider usage must replace this hypothesis."
           },
           "budget": {
             "label": "Estimated monthly operating budget",
             "help": "Include token usage, models/media, tools, infrastructure, Gabriel fees and additional paid review."
           },
           "model_cost": {
-            "label": "Extra models and media",
-            "help": "Only image, video or other generation charged separately from token usage. Enter zero if none."
+            "label": "Additional model or media cost",
+            "help": "Enter separately billed models or media. Leave zero when included in the token envelope."
           },
           "tools_cost": {
             "label": "Tools and integrations",
@@ -1670,8 +1734,16 @@
             "help": "Incremental hosting, storage and compute for this workload. Enter zero if none."
           },
           "platform_cost": {
-            "label": "Gabriel platform fee",
-            "help": "Typical monthly access for this usage package. This is a modeled assumption, not a price quote."
+            "label": "Other delivery and support cost",
+            "help": "Modeled hosting, storage, monitoring and support cost, separate from the customer price."
+          },
+          "customer_price": {
+            "label": "Proposed monthly Nest price",
+            "help": "Editable agent/brokerage pricing hypothesis. It is not validated revenue and must be tested in a paid pilot."
+          },
+          "personal_value_per_hour": {
+            "label": "Optional value you assign to an hour",
+            "help": "An optional personal comparison only. This is not salary, wages or guaranteed cash savings."
           },
           "review_rate": {
             "label": "Additional paid review per hour",
@@ -1686,16 +1758,16 @@
             "help": "The cash budget from which the reduction will come."
           },
           "cash_avoided": {
-            "label": "Monthly contractor intake spend you would stop",
-            "help": "An explicit overflow cost, not hours multiplied by an agent salary and not a commission."
+            "label": "Monthly spending you would stop",
+            "help": "One explicit amount, not hours multiplied by salary; exclude any planned-hire saving entered separately."
           },
           "higher_value_hours": {
-            "label": "Hours used for higher-value work",
-            "help": "Hours you can realistically redirect, not the entire capacity by default."
+            "label": "Hours agents can use for real conversations",
+            "help": "Only capacity with observed demand receives an economic value."
           },
           "contribution_rate": {
-            "label": "Incremental contribution per hour",
-            "help": "Revenue less incremental delivery costs, excluding AI costs counted separately. Not salary or gross revenue."
+            "label": "Incremental contribution per agent hour",
+            "help": "Contribution from additional work, excluding property value, commissions and costs already counted."
           },
           "throughput_hours": {
             "label": "Hours used for additional volume",
@@ -1763,48 +1835,42 @@
           "Repeated matching and coordination"
         ],
         "opportunity": [
-          "More human-reviewed introductions",
-          "Time to understand client needs"
+          "More qualified, human-reviewed introductions",
+          "Time for agent conversations and client needs"
         ],
         "usagePackages": {
           "base": {
             "volume": 12,
             "tokensPerOutput": 12000,
-            "platform_cost": 990,
+            "platform_cost": 450,
             "minutes": 20,
-            "automation": 55,
+            "automation": 100,
             "review": 8,
             "model_cost": 0,
             "tools_cost": 0,
             "infrastructure_cost": 0,
             "higher_value_hours": 0,
-            "contribution_rate": 0,
-            "cash_hours": 0.6,
-            "cash_baseline": 1440,
-            "cash_avoided": 1080
+            "contribution_rate": 0
           },
           "medium": {
             "volume": 24,
             "tokensPerOutput": 12000,
-            "platform_cost": 1500,
+            "platform_cost": 750,
             "minutes": 20,
-            "automation": 55,
+            "automation": 100,
             "review": 8,
             "model_cost": 0,
             "tools_cost": 0,
             "infrastructure_cost": 0,
             "higher_value_hours": 0,
-            "contribution_rate": 0,
-            "cash_hours": 1.2,
-            "cash_baseline": 2880,
-            "cash_avoided": 2160
+            "contribution_rate": 0
           }
         },
         "defaultPackage": "medium",
         "costMode": "itemized",
         "reviewMode": "team",
         "selected": [
-          "cash"
+          "higher_value"
         ],
         "confirmations": {
           "overlap": true,
@@ -1814,49 +1880,64 @@
         },
         "hero": {
           "kind": "volume",
-          "label": "Human-reviewed buyer briefs ready to match"
+          "label": "Qualified briefs entering review"
         },
         "outcomes": [
           {
-            "id": "cash",
-            "label": "Stop paid intake overflow",
-            "help": "Count contractor or overtime intake spend that actually stops. Not a property commission."
+            "id": "higher_value",
+            "label": "Keep agents on conversations",
+            "help": "Enter only capacity that can be redirected to real agent or brokerage work; do not treat property value or commission as Nest revenue."
           }
         ],
         "tabs": [
           {
-            "id": "briefs",
-            "label": "Briefs",
-            "intro": "How many buyer briefs a typical desk collects, and the reviewer pass still required.",
+            "id": "funnel",
+            "label": "Introduction funnel",
+            "intro": "Model leads entering the agent or brokerage desk, qualification, and human review.",
             "fields": [
               "volume",
-              "minutes",
-              "automation",
+              "accepted_rate",
               "review"
-            ],
-            "showPackage": true,
-            "showReview": true
-          },
-          {
-            "id": "tokens",
-            "label": "Token usage",
-            "intro": "Tokens to collect one buyer brief, plus the Gabriel fee.",
-            "fields": [
-              "tokens_per_output",
-              "platform_cost",
-              "tools_cost"
             ],
             "showPackage": true
           },
           {
-            "id": "reviewer",
-            "label": "Reviewer time",
-            "intro": "Contractor intake spend that can actually stop. This is not a commission on a sale.",
-            "fields": [],
+            "id": "costs",
+            "label": "AI operating cost",
+            "intro": "Keep model, token, tool, infrastructure, platform and reviewer costs separate from the proposed customer price.",
+            "fields": [
+              "tokens_per_output",
+              "model_cost",
+              "tools_cost",
+              "infrastructure_cost",
+              "platform_cost",
+              "customer_price"
+            ],
+            "showPackage": true
+          },
+          {
+            "id": "capacity",
+            "label": "Capacity and evidence",
+            "intro": "Returned capacity is not revenue. Financial results remain insufficient until a payer, price and delivery evidence are recorded.",
+            "fields": [
+              "higher_value_hours",
+              "contribution_rate"
+            ],
             "showPackage": true,
             "showOutcomes": true
           }
-        ]
+        ],
+        "pricing": {
+          "basis": "fixed",
+          "annualPrice": 9000,
+          "label": "Proposed Nest monthly price",
+          "help": "A €750/month working hypothesis for a qualified-introduction pilot. Treat as unvalidated until an agent or brokerage pays."
+        },
+        "presentation": {
+          "financial": "optional",
+          "showCustomerEconomics": true,
+          "hideEconomicMultiple": true
+        }
       },
       "cta": {
         "primaryLabel": "Talk with Nest",
