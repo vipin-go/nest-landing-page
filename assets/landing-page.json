@@ -5,7 +5,7 @@
   "landingPage": {
     "capabilityPreview": {
       "enabled": true,
-      "commandId": "request-introduction"
+      "commandId": "find-leads"
     },
     "headline": "One qualified introduction that fits.",
     "subheadline": "Private buyer and seller introductions, one human-reviewed proposal at a time.",
