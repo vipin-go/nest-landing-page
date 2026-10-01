@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "language": "zh",
   "regionKey": null,
-  "sourceRevision": "e38bb8570798c46b5f8766ead43d9c6f4648a19d3d096d1d92c424fb5a6774a0",
+  "sourceRevision": "9b00d9081f920764fbd3e5bcdb077a7b34f8b04299a9af6b2aee818670157abf",
   "landingPage": {
     "headline": "一个合适的合格介绍。",
     "subheadline": "私密的买卖双方介绍，一次一个人工审核的提案。",
@@ -65,7 +65,7 @@
     },
     "homeIntroductions": {
       "header": {
-        "brandLabel": "巢。",
+        "brandLabel": "Nest。",
         "brandTagline": "一本细致的介绍",
         "navItems": [
           {
@@ -81,7 +81,7 @@
             "target": "hero-chat"
           }
         ],
-        "ctaLabel": "请求介绍",
+        "ctaLabel": "联系 Nest",
         "mobileCtaLabel": "开始",
         "editionLabel": "购买",
         "secondaryEditionLabel": "出售"
@@ -103,9 +103,9 @@
           },
           {
             "mode": "city",
-            "label": "市",
+            "label": "城市",
             "actionLabel": "视图",
-            "name": "巢阿姆斯特丹",
+            "name": "Nest 阿姆斯特丹",
             "location": "阿姆斯特丹祖伊德",
             "dateRange": "前进",
             "availabilityLabel": "始终在线的本地介绍"
@@ -115,6 +115,7 @@
       "tracks": [
         {
           "id": "buying",
+          "profileModeId": "buyer",
           "label": "我在买",
           "responseMessage": "告诉我值得搬家的家。 我只会询问人类审阅者需要的细节，然后带回一个被认为合适的人。",
           "composerPlaceholder": "告诉 Nest 从家里你需要什么……",
@@ -137,7 +138,7 @@
             {
               "number": "03",
               "image": "/landing-pages/nest/nest-how-introduction-human.webp",
-              "alt": "NEST 在相互同意后引入潜在买家和房主",
+              "alt": "Nest 经双方同意后介绍潜在买家和房主",
               "title": "一起解锁介绍。",
               "body": "一旦双方接受，完整的地址、联系方式和建议的观看时间将私下共享。"
             }
@@ -201,8 +202,8 @@
             },
             {
               "key": "privateConstraints",
-              "label": "私人约束",
-              "placeholder": "任何巢都应该保密",
+              "label": "私人限制",
+              "placeholder": "任何 Nest 的内容都应保密",
               "type": "textarea",
               "required": false
             }
@@ -212,23 +213,23 @@
             "enabled": true,
             "kicker": "Business impact",
             "heading": "ROI Calculator",
-            "subheading": "Model a licensed second-home agent or brokerage using Nest for qualified, human-reviewed introductions in one local market.",
-            "disclaimer": "A modeled operating scenario with zero validated paid demand. Nest qualifies and coordinates consented introductions; it does not represent parties, value property, negotiate, earn commissions or guarantee a transaction.",
+            "subheading": "使用 Nest 为获得许可的第二居所代理或经纪公司建模，在一个当地市场进行合格的、经过人工审核的介绍。",
+            "disclaimer": "已验证付费需求为零的建模操作场景。 Nest 资格和协调同意的介绍；它不代表各方、评估财产、谈判、赚取佣金或保证交易。",
             "currency": "EUR",
             "currencyCopy": {
               "native": "Amounts in {currency}.",
               "loading": "Checking the local currency. Amounts remain in {currency} until a rate is available.",
               "unavailable": "A current local exchange rate is unavailable. Amounts remain in {currency}.",
               "converted": "Amounts converted from {base} to {currency} using the reference rate dated {date}.",
-              "basis": "Currency conversion is not local cost research. Enter your own local costs and contribution assumptions. Language changes do not change amounts."
+              "basis": "货币换算不是本地成本研究。输入您自己的当地成本和贡献假设。语言的变化不会改变数量。"
             },
             "costCopy": {
-              "breakdown": "How the all-in AI cost is built",
+              "breakdown": "人工智能的总体成本是如何构建的",
               "perUnit": "{amount} per work unit (average)",
-              "budgetOnly": "This is your total budget. Switch to Cost breakdown to itemize it; no split has been assumed.",
-              "benefitNotice": "Modeled benefits, not charges. Crossed-out amounts are spending you expect to avoid, not discounts on the AI bill.",
+              "budgetOnly": "这是您的总预算。切换到成本细分以逐项列出；假设没有分裂。",
+              "benefitNotice": "建模福利，而不是收费。划掉的金额是您希望避免的支出，而不是人工智能账单上的折扣。",
               "remainder": "Other included operating costs",
-              "allocation": "Returned hours are capacity, not automatic savings. Only the portions you assign to actual spending reductions or additional contribution receive a monetary value."
+              "allocation": "返回的小时数是容量，而不是自动节省的时间。只有您分配给实际支出减少或额外捐款的部分才会获得货币价值。"
             },
             "locale": "en-GB",
             "inputs": [],
@@ -254,10 +255,10 @@
                 "workloadStep": "Introduction funnel",
                 "costStep": "AI operating cost",
                 "valueStep": "Capacity and evidence",
-                "workloadIntro": "Model second-home leads, qualification and human review—not property sales, commissions or guaranteed matches.",
-                "costIntro": "Token, model, tool, infrastructure, platform and reviewer costs are delivery assumptions. Nest price is a separate unvalidated hypothesis.",
-                "valueIntro": "Capacity is not revenue. Enter observed contribution only after a real agent or brokerage uses and pays for the service.",
-                "sampleNotice": "Typical usage · not observed results",
+                "workloadIntro": "对第二居所线索、资格和人工审核进行建模，而不是房产销售、佣金或保证匹配。",
+                "costIntro": "代币、模型、工具、基础设施、平台和审阅者成本是交付假设。 Nest 价格是一个单独的未经验证的假设。",
+                "valueIntro": "产能不是收入。仅在真实代理人或经纪公司使用并支付服务费用后输入观察到的贡献。",
+                "sampleNotice": "典型用法·未观察到的结果",
                 "monthly": "Monthly",
                 "yearly": "Yearly",
                 "next": "Continue",
@@ -282,11 +283,11 @@
                 "reviewMode": "Who handles the review?",
                 "teamReview": "Existing team",
                 "paidReview": "Additional paid reviewer",
-                "reviewNote": "Existing-team review uses returned capacity. Additional paid review is included in operating cost, not deducted again from team capacity.",
+                "reviewNote": "现有团队审查使用返回的容量。额外的付费审核包含在运营成本中，不会再次从团队能力中扣除。",
                 "totalMode": "Monthly budget",
                 "itemizedMode": "Cost breakdown",
-                "budgetNote": "The budget must include models/media, tools, infrastructure, Gabriel fees and additional paid review. Do not include unchanged payroll as new spending.",
-                "itemizedNote": "Token usage is calculated from volume × tokens per output. Extra media, tools and infrastructure stay at zero unless they apply. Additional paid review is calculated from review hours and its rate.",
+                "budgetNote": "预算必须包括模型/媒体、工具、基础设施、Gabriel 费用和额外的付费审查。不要将不变的工资单计为新支出。",
+                "itemizedNote": "代币使用量是根据每个输出的数量 × 代币数计算得出的。除非适用，否则额外的媒体、工具和基础设施将保持为零。额外付费审阅根据审阅时间及其费率计算。",
                 "paidReviewCost": "Additional paid review cost",
                 "allInCost": "Operating cost",
                 "missing": "Add your assumptions",
@@ -295,193 +296,193 @@
                 "expectedLoss": "Expected loss reduction",
                 "riskValue": "Uncertain risk value included",
                 "economicValue": "Modeled contribution",
-                "netBenefit": "Modeled benefit after Nest price",
+                "netBenefit": "Nest 价格后的建模效益",
                 "multiple": "Internal delivery multiple",
                 "customerBenefit": "Modeled agent benefit",
                 "customerRoi": "Modeled customer ROI",
                 "payback": "Customer payback period",
                 "notApplicable": "Not applicable",
                 "annual": "Annual view",
-                "annualNote": "The same monthly assumptions, without growth or compounding. Hiring savings last only for the entered period.",
+                "annualNote": "相同的每月假设，没有增长或复利。招聘节省仅在输入的期间有效。",
                 "method": "How this is calculated",
                 "burdenHeading": "Repetitive work reduced",
                 "opportunityHeading": "Capacity for higher-value work",
-                "methodBody": "Operating burden removed (negative productivity) returns capacity. Higher-value work (potential positive productivity) creates economic value only if that capacity is used. Hours alone are not cash savings. Token cost uses a modeled input/output mix, not a provider quote.",
-                "formulaLabel": "Qualified briefs = leads × qualification rate. Delivery cost includes modeled token, model, tool, infrastructure, platform and human-review cost. Customer ROI remains unavailable until benefit and price are supported by evidence.",
-                "allocationNote": "Each hour can be allocated once. Unallocated hours remain capacity, with no monetary value.",
-                "overlapLabel": "These benefits are distinct; I have excluded costs and losses already counted elsewhere.",
-                "overlapNote": "Error and risk estimates exclude labor savings and the same incident must not appear in both categories. Contribution excludes AI costs, which are deducted separately.",
-                "hiringLabel": "This hire was genuinely planned and the allocated capacity can cover the work.",
-                "reviewedLabel": "I have reviewed my outcomes; unselected outcomes have no financial value in this estimate.",
+                "methodBody": "运营负担消除（负生产力），恢复产能。只有利用这种能力，更高价值的工作（潜在的积极生产力）才能创造经济价值。仅靠时间并不能节省现金。代币成本使用建模的输入/输出组合，而不是提供商报价。",
+                "formulaLabel": "合格简报=销售线索×合格率。交付成本包括建模代币、模型、工具、基础设施、平台和人工审核成本。在效益和价格得到证据支持之前，客户的投资回报率仍然无法实现。",
+                "allocationNote": "每个小时可以分配一次。未分配的时间仍然是容量，没有货币价值。",
+                "overlapLabel": "这些好处各不相同；我已经排除了其他地方已经计算的成本和损失。",
+                "overlapNote": "错误和风险估计不包括节省的劳动力，并且同一事件不得出现在两个类别中。贡献不包括人工智能成本，人工智能成本需单独扣除。",
+                "hiringLabel": "这次招聘是经过真正计划的，分配的能力可以满足这项工作。",
+                "reviewedLabel": "我已经审查了我的结果；未选择的结果在此估计中没有财务价值。",
                 "cycleResult": "Cycle-time improvement",
-                "throughputResult": "Additional work supported by capacity and demand",
-                "assumptionsIncomplete": "Complete the selected assumptions to calculate financial value.",
-                "allocationError": "Allocated hours exceed the net capacity available. Reduce the allocations.",
-                "reviewError": "Review takes more time than the work reduced. No positive capacity is available at these assumptions.",
-                "cashError": "Avoided spending cannot exceed current spending or have positive value with no hours allocated.",
-                "hiringError": "Allocated capacity must cover the planned hire hours. Confirm the planned hire and its duration.",
-                "riskError": "The after probability cannot exceed the before probability for a loss-reduction estimate.",
-                "overlapError": "Confirm the benefits do not overlap before including them in the financial result.",
-                "boundsError": "Use values within the displayed limits.",
+                "throughputResult": "由能力和需求支持的额外工作",
+                "assumptionsIncomplete": "完成选定的假设以计算财务价值。",
+                "allocationError": "分配的小时数超出了可用的净容量。减少拨款。",
+                "reviewError": "审查所花费的时间比减少的工作量还要多。在这些假设下，没有可用的正容量。",
+                "cashError": "避免的支出不能超过当前支出，或者在没有分配时间的情况下具有正值。",
+                "hiringError": "分配的容量必须覆盖计划的雇用时间。确认计划的雇佣及其持续时间。",
+                "riskError": "对于损失减少估计，事后概率不能超过事前概率。",
+                "overlapError": "在将其纳入财务结果之前，请确认收益不会重叠。",
+                "boundsError": "使用显示限制内的值。",
                 "rangeLabel": "Adjust value",
-                "noCurrencyChange": "Language changes formatting, not your currency or assumptions.",
-                "currentPreparation": "当前准备时长",
-                "reviewHours": "人工审核时长",
-                "reworkHours": "避免或增加的返工时长",
-                "capacityValue": "建模产能值",
-                "acceptedUnits": "已接受单位",
-                "attendedUnits": "已服务单位",
-                "costPerAttended": "每服务单位成本",
+                "noCurrencyChange": "语言改变格式，而不是你的货币或假设。",
+                "currentPreparation": "目前的准备时间",
+                "reviewHours": "人工审核时间",
+                "reworkHours": "避免或增加返工时间",
+                "capacityValue": "建模容量值",
+                "acceptedUnits": "接受单位",
+                "attendedUnits": "参会单位",
+                "costPerAttended": "每参加单位的成本",
                 "benefitCost": "效益成本倍数",
-                "firstYearCost": "第一年成本",
+                "firstYearCost": "第一年费用",
                 "firstYearRoi": "第一年投资回报率",
-                "paybackOutsideTerm": "未在建模期限内收回",
+                "paybackOutsideTerm": "在建模期限内未恢复",
                 "months": "months"
               },
               "fields": {
                 "volume": {
-                  "label": "Leads or briefs entering the desk each month",
-                  "help": "Count inbound second-home enquiries in the selected market, not property transactions."
+                  "label": "每月进入服务台的线索或简报",
+                  "help": "计算所选市场中入境的第二套房查询量，而不是房产交易量。"
                 },
                 "accepted_rate": {
                   "label": "Share becoming qualified briefs",
-                  "help": "A modeled qualification rate. Replace it with observed funnel data after a pilot."
+                  "help": "模拟合格率。将其替换为试点后观察到的漏斗数据。"
                 },
                 "attendance_rate": {
                   "label": "Expected attendance rate",
-                  "help": "Modeled share of accepted meetings expected to happen. Replace this with verified event records after a pilot."
+                  "help": "预计将发生的已接受会议的模拟份额。将其替换为试点后经过验证的事件记录。"
                 },
                 "minutes": {
-                  "label": "Minutes to qualify one buyer brief today",
-                  "help": "Active intake and qualification time, excluding elapsed days and property-search time."
+                  "label": "今天对一位买家简报进行资格审查的分钟",
+                  "help": "积极录取和资格时间，不包括已用天数和财产搜索时间。"
                 },
                 "automation": {
-                  "label": "Share of that work reduced",
-                  "help": "An illustrative assumption to validate in a pilot, not a performance promise."
+                  "label": "该工作的份额减少",
+                  "help": "在试点中验证的说明性假设，而不是性能承诺。"
                 },
                 "review": {
-                  "label": "Minutes a reviewer spends confirming each brief",
-                  "help": "Human review still required before either side sees a proposal."
+                  "label": "审阅者确认每个简报所花费的分钟数",
+                  "help": "在任何一方看到提案之前仍然需要进行人工审查。"
                 },
                 "cycles_per_unit": {
-                  "label": "Cycles per unit each month",
-                  "help": "How many recurring order, review or processing cycles each unit runs in a typical month."
+                  "label": "每月每个单元的周期",
+                  "help": "每个单位在典型月份内运行多少个重复订单、审核或处理周期。"
                 },
                 "tokens_per_output": {
-                  "label": "Tokens per qualified buyer brief",
-                  "help": "Modeled input and output tokens for one reviewable brief; provider usage must replace this hypothesis."
+                  "label": "每个合格买家简介的代币",
+                  "help": "为一份可审阅的摘要建模的输入和输出标记；提供商的使用必须取代这一假设。"
                 },
                 "budget": {
                   "label": "Estimated monthly operating budget",
-                  "help": "Include token usage, models/media, tools, infrastructure, Gabriel fees and additional paid review."
+                  "help": "包括代币使用、模型/媒体、工具、基础设施、Gabriel 费用和额外付费评论。"
                 },
                 "model_cost": {
-                  "label": "Additional model or media cost",
-                  "help": "Enter separately billed models or media. Leave zero when included in the token envelope."
+                  "label": "额外的模型或媒体费用",
+                  "help": "输入单独计费的模型或媒体。包含在令牌信封中时保留零。"
                 },
                 "tools_cost": {
                   "label": "Tools and integrations",
-                  "help": "Browser sessions, connectors and other metered services. Enter zero if none."
+                  "help": "浏览器会话、连接器和其他计量服务。如果没有则输入零。"
                 },
                 "infrastructure_cost": {
                   "label": "Infrastructure",
-                  "help": "Incremental hosting, storage and compute for this workload. Enter zero if none."
+                  "help": "此工作负载的增量托管、存储和计算。如果没有则输入零。"
                 },
                 "platform_cost": {
-                  "label": "Other delivery and support cost",
-                  "help": "Modeled hosting, storage, monitoring and support cost, separate from the customer price."
+                  "label": "其他交付和支持费用",
+                  "help": "建模托管、存储、监控和支持成本，与客户价格分开。"
                 },
                 "customer_price": {
                   "label": "Proposed monthly Nest price",
-                  "help": "Editable agent/brokerage pricing hypothesis. It is not validated revenue and must be tested in a paid pilot."
+                  "help": "可编辑的代理/经纪定价假设。它不是经过验证的收入，必须在付费试点中进行测试。"
                 },
                 "personal_value_per_hour": {
-                  "label": "Optional value you assign to an hour",
-                  "help": "An optional personal comparison only. This is not salary, wages or guaranteed cash savings."
+                  "label": "您分配给一小时的可选值",
+                  "help": "仅作为可选的个人比较。这不是薪水、工资或有保证的现金储蓄。"
                 },
                 "review_rate": {
-                  "label": "Additional paid review per hour",
-                  "help": "Actual extra reviewer spending, not the salary of an unchanged employee."
+                  "label": "每小时额外付费评论",
+                  "help": "实际的额外审稿人支出，而不是不变员工的工资。"
                 },
                 "cash_hours": {
-                  "label": "Hours that remove paid work",
-                  "help": "Allocate only work whose overtime, contractor or processing spend will actually stop."
+                  "label": "消除有偿工作的时间",
+                  "help": "仅分配加班、承包商或加工支出实际上会停止的工作。"
                 },
                 "cash_baseline": {
-                  "label": "Current monthly spending on that work",
-                  "help": "The cash budget from which the reduction will come."
+                  "label": "目前该工作的每月支出",
+                  "help": "减少的现金预算。"
                 },
                 "cash_avoided": {
-                  "label": "Monthly spending you would stop",
-                  "help": "One explicit amount, not hours multiplied by salary; exclude any planned-hire saving entered separately."
+                  "label": "你会停止的每月支出",
+                  "help": "一个明确的金额，而不是工时乘以工资；排除任何单独输入的计划雇用节省。"
                 },
                 "higher_value_hours": {
-                  "label": "Hours agents can use for real conversations",
-                  "help": "Only capacity with observed demand receives an economic value."
+                  "label": "客服人员可用于真实对话的时间",
+                  "help": "只有具有可观察到的需求的容量才具有经济价值。"
                 },
                 "contribution_rate": {
-                  "label": "Incremental contribution per agent hour",
-                  "help": "Contribution from additional work, excluding property value, commissions and costs already counted."
+                  "label": "每个客服人员小时的增量贡献",
+                  "help": "额外工作的贡献，不包括已计算的财产价值、佣金和成本。"
                 },
                 "throughput_hours": {
-                  "label": "Hours used for additional volume",
-                  "help": "This allocation cannot also be used for advisory work or spending reductions."
+                  "label": "用于额外容量的小时数",
+                  "help": "该拨款也不能用于咨询工作或削减支出。"
                 },
                 "extra_minutes": {
-                  "label": "Team minutes per additional unit",
-                  "help": "The remaining human effort, including review, needed to deliver one more unit."
+                  "label": "每增加一个单位的团队分钟数",
+                  "help": "剩余的人力工作（包括审核）需要再交付一个单元。"
                 },
                 "demand": {
-                  "label": "Additional units with expected demand",
-                  "help": "Capacity alone is not demand. Enter the extra monthly work you expect to take on."
+                  "label": "预计需求的额外单位",
+                  "help": "容量本身并不是需求。输入您预计每月承担的额外工作量。"
                 },
                 "unit_margin": {
                   "label": "Contribution per additional unit",
-                  "help": "Incremental revenue less delivery costs; AI operating costs are deducted separately."
+                  "help": "增量收入减去交付成本； AI运营成本单独扣除。"
                 },
                 "hiring_hours": {
-                  "label": "Hours covering the planned hire",
-                  "help": "Allocate capacity to specific planned work, not a generic full-time-equivalent estimate."
+                  "label": "计划雇用的时间",
+                  "help": "将能力分配给具体的计划工作，而不是一般的全职等效估计。"
                 },
                 "planned_hours": {
-                  "label": "Monthly hours the planned hire would cover",
-                  "help": "The allocated capacity must cover this entire workload."
+                  "label": "计划雇用的每月工时",
+                  "help": "分配的容量必须覆盖整个工作负载。"
                 },
                 "hire_cost": {
-                  "label": "Monthly hire cost actually deferred",
-                  "help": "Use the cost of a genuinely planned hire, not the salary of someone already employed."
+                  "label": "实际递延的每月租金费用",
+                  "help": "使用真正计划的雇用成本，而不是已经雇用的人的工资。"
                 },
                 "hire_months": {
-                  "label": "Months that hire is deferred",
-                  "help": "One to twelve months; the annual estimate stops counting savings after this period."
+                  "label": "推迟雇用的月份",
+                  "help": "一到十二个月；在此期间之后，年度估算将停止计算节余。"
                 },
                 "incidents": {
-                  "label": "Expected avoided errors per month",
-                  "help": "Use your baseline and expected reduction. Exclude incidents also counted as risk reduction."
+                  "label": "每月预期避免的错误",
+                  "help": "使用您的基线和预期减少量。排除事件也算作风险降低。"
                 },
                 "incident_cost": {
                   "label": "Incremental cost per error",
-                  "help": "Exclude labor, refunds or other losses already included elsewhere."
+                  "help": "不包括其他地方已包含的人工、退款或其他损失。"
                 },
                 "probability_before": {
                   "label": "Monthly loss probability before",
-                  "help": "Your estimate, not a guaranteed risk assessment."
+                  "help": "您的估计，不是保证的风险评估。"
                 },
                 "probability_after": {
                   "label": "Monthly loss probability after",
-                  "help": "Use the same event and monthly time horizon as the baseline."
+                  "help": "使用相同的事件和每月时间范围作为基线。"
                 },
                 "loss": {
-                  "label": "Loss exposure for that event",
-                  "help": "Exclude error incidents and spending already counted. This is uncertain expected value, not cash saved."
+                  "label": "该事件的损失风险",
+                  "help": "排除错误事件和已计算的支出。这是不确定的预期价值，而不是节省的现金。"
                 },
                 "days_before": {
-                  "label": "Cycle time before, in days",
-                  "help": "Elapsed time from start to completion, separate from hands-on effort."
+                  "label": "之前的周期时间（以天为单位）",
+                  "help": "从开始到完成所花费的时间，与实际操作的努力无关。"
                 },
                 "days_after": {
-                  "label": "Cycle time after, in days",
-                  "help": "Shown as an operational change only, without an assumed monetary value."
+                  "label": "之后的周期时间（以天为单位）",
+                  "help": "仅显示为运营变化，没有假定的货币价值。"
                 }
               },
               "burden": [
@@ -490,7 +491,7 @@
               ],
               "opportunity": [
                 "More qualified, human-reviewed introductions",
-                "Time for agent conversations and client needs"
+                "代理对话和客户需求的时间"
               ],
               "usagePackages": {
                 "base": {
@@ -540,14 +541,14 @@
                 {
                   "id": "higher_value",
                   "label": "Keep agents on conversations",
-                  "help": "Enter only capacity that can be redirected to real agent or brokerage work; do not treat property value or commission as Nest revenue."
+                  "help": "仅输入可以重定向到实际代理或经纪工作的能力；请勿将财产价值或佣金视为 Nest 收入。"
                 }
               ],
               "tabs": [
                 {
                   "id": "funnel",
                   "label": "Introduction funnel",
-                  "intro": "Model leads entering the agent or brokerage desk, qualification, and human review.",
+                  "intro": "模型线索进入代理或经纪柜台、资格审查和人工审核。",
                   "fields": [
                     "volume",
                     "accepted_rate",
@@ -558,7 +559,7 @@
                 {
                   "id": "costs",
                   "label": "AI operating cost",
-                  "intro": "Keep model, token, tool, infrastructure, platform and reviewer costs separate from the proposed customer price.",
+                  "intro": "将模型、代币、工具、基础设施、平台和审核者成本与建议的客户价格分开。",
                   "fields": [
                     "tokens_per_output",
                     "model_cost",
@@ -572,7 +573,7 @@
                 {
                   "id": "capacity",
                   "label": "Capacity and evidence",
-                  "intro": "Returned capacity is not revenue. Financial results remain insufficient until a payer, price and delivery evidence are recorded.",
+                  "intro": "返回的容量不是收入。在付款人、价格和交付证据被记录之前，财务结果仍然不够充分。",
                   "fields": [
                     "higher_value_hours",
                     "contribution_rate"
@@ -585,7 +586,7 @@
                 "basis": "fixed",
                 "annualPrice": 9000,
                 "label": "Proposed Nest monthly price",
-                "help": "A €750/month working hypothesis for a qualified-introduction pilot. Treat as unvalidated until an agent or brokerage pays."
+                "help": "合格引进试点的工作假设为 750 欧元/月。在代理人或经纪公司付款之前，视为未生效。"
               },
               "presentation": {
                 "financial": "optional",
@@ -597,13 +598,14 @@
               "primaryLabel": "Talk with Nest",
               "primaryTarget": "meet",
               "secondaryLabel": "See how it works",
-              "privacyNote": "Your data stays private. Hours are capacity. Financial amounts are modeled estimates, not observed results.",
+              "privacyNote": "您的数据保持私密。小时数即容量。财务金额是模型估计值，而不是观察到的结果。",
               "secondaryTarget": "how-it-works"
             }
           }
         },
         {
           "id": "selling",
+          "profileModeId": "seller",
           "label": "我在卖",
           "responseMessage": "告诉我是什么让房屋与众不同，哪个买家会非常适合。 我将把确切的地址保密，并带回一份经过深思熟虑的介绍。",
           "composerPlaceholder": "告诉 Nest 与您的销售有什么关系……",
@@ -636,7 +638,7 @@
             {
               "number": "03",
               "image": "/landing-pages/nest/nest-how-introduction-human.webp",
-              "alt": "NEST 在相互同意后介绍房主和潜在买家",
+              "alt": "Nest 经双方同意后介绍房主和潜在买家",
               "title": "一起解锁介绍。",
               "body": "一旦双方接受，联系方式、确切地址和建议的观看时间将私下共享。"
             }
@@ -700,8 +702,8 @@
             },
             {
               "key": "privateConstraints",
-              "label": "私人约束",
-              "placeholder": "任何巢都应该保密",
+              "label": "私人限制",
+              "placeholder": "任何 Nest 的内容都应保密",
               "type": "textarea",
               "required": false
             }
@@ -711,23 +713,23 @@
             "enabled": true,
             "kicker": "Business impact",
             "heading": "ROI Calculator",
-            "subheading": "Model a licensed second-home agent or brokerage using Nest for qualified, human-reviewed introductions in one local market.",
-            "disclaimer": "A modeled operating scenario with zero validated paid demand. Nest qualifies and coordinates consented introductions; it does not represent parties, value property, negotiate, earn commissions or guarantee a transaction.",
+            "subheading": "使用 Nest 为获得许可的第二居所代理或经纪公司建模，在一个当地市场进行合格的、经过人工审核的介绍。",
+            "disclaimer": "已验证付费需求为零的建模操作场景。 Nest 资格和协调同意的介绍；它不代表各方、评估财产、谈判、赚取佣金或保证交易。",
             "currency": "EUR",
             "currencyCopy": {
               "native": "Amounts in {currency}.",
               "loading": "Checking the local currency. Amounts remain in {currency} until a rate is available.",
               "unavailable": "A current local exchange rate is unavailable. Amounts remain in {currency}.",
               "converted": "Amounts converted from {base} to {currency} using the reference rate dated {date}.",
-              "basis": "Currency conversion is not local cost research. Enter your own local costs and contribution assumptions. Language changes do not change amounts."
+              "basis": "货币换算不是本地成本研究。输入您自己的当地成本和贡献假设。语言的变化不会改变数量。"
             },
             "costCopy": {
-              "breakdown": "How the all-in AI cost is built",
+              "breakdown": "人工智能的总体成本是如何构建的",
               "perUnit": "{amount} per work unit (average)",
-              "budgetOnly": "This is your total budget. Switch to Cost breakdown to itemize it; no split has been assumed.",
-              "benefitNotice": "Modeled benefits, not charges. Crossed-out amounts are spending you expect to avoid, not discounts on the AI bill.",
+              "budgetOnly": "这是您的总预算。切换到成本细分以逐项列出；假设没有分裂。",
+              "benefitNotice": "建模福利，而不是收费。划掉的金额是您希望避免的支出，而不是人工智能账单上的折扣。",
               "remainder": "Other included operating costs",
-              "allocation": "Returned hours are capacity, not automatic savings. Only the portions you assign to actual spending reductions or additional contribution receive a monetary value."
+              "allocation": "返回的小时数是容量，而不是自动节省的时间。只有您分配给实际支出减少或额外捐款的部分才会获得货币价值。"
             },
             "locale": "en-GB",
             "inputs": [],
@@ -753,10 +755,10 @@
                 "workloadStep": "Introduction funnel",
                 "costStep": "AI operating cost",
                 "valueStep": "Capacity and evidence",
-                "workloadIntro": "Model second-home leads, qualification and human review—not property sales, commissions or guaranteed matches.",
-                "costIntro": "Token, model, tool, infrastructure, platform and reviewer costs are delivery assumptions. Nest price is a separate unvalidated hypothesis.",
-                "valueIntro": "Capacity is not revenue. Enter observed contribution only after a real agent or brokerage uses and pays for the service.",
-                "sampleNotice": "Typical usage · not observed results",
+                "workloadIntro": "对第二居所线索、资格和人工审核进行建模，而不是房产销售、佣金或保证匹配。",
+                "costIntro": "代币、模型、工具、基础设施、平台和审阅者成本是交付假设。 Nest 价格是一个单独的未经验证的假设。",
+                "valueIntro": "产能不是收入。仅在真实代理人或经纪公司使用并支付服务费用后输入观察到的贡献。",
+                "sampleNotice": "典型用法·未观察到的结果",
                 "monthly": "Monthly",
                 "yearly": "Yearly",
                 "next": "Continue",
@@ -781,11 +783,11 @@
                 "reviewMode": "Who handles the review?",
                 "teamReview": "Existing team",
                 "paidReview": "Additional paid reviewer",
-                "reviewNote": "Existing-team review uses returned capacity. Additional paid review is included in operating cost, not deducted again from team capacity.",
+                "reviewNote": "现有团队审查使用返回的容量。额外的付费审核包含在运营成本中，不会再次从团队能力中扣除。",
                 "totalMode": "Monthly budget",
                 "itemizedMode": "Cost breakdown",
-                "budgetNote": "The budget must include models/media, tools, infrastructure, Gabriel fees and additional paid review. Do not include unchanged payroll as new spending.",
-                "itemizedNote": "Token usage is calculated from volume × tokens per output. Extra media, tools and infrastructure stay at zero unless they apply. Additional paid review is calculated from review hours and its rate.",
+                "budgetNote": "预算必须包括模型/媒体、工具、基础设施、Gabriel 费用和额外的付费审查。不要将不变的工资单计为新支出。",
+                "itemizedNote": "代币使用量是根据每个输出的数量 × 代币数计算得出的。除非适用，否则额外的媒体、工具和基础设施将保持为零。额外付费审阅根据审阅时间及其费率计算。",
                 "paidReviewCost": "Additional paid review cost",
                 "allInCost": "Operating cost",
                 "missing": "Add your assumptions",
@@ -794,193 +796,193 @@
                 "expectedLoss": "Expected loss reduction",
                 "riskValue": "Uncertain risk value included",
                 "economicValue": "Modeled contribution",
-                "netBenefit": "Modeled benefit after Nest price",
+                "netBenefit": "Nest 价格后的建模效益",
                 "multiple": "Internal delivery multiple",
                 "customerBenefit": "Modeled agent benefit",
                 "customerRoi": "Modeled customer ROI",
                 "payback": "Customer payback period",
                 "notApplicable": "Not applicable",
                 "annual": "Annual view",
-                "annualNote": "The same monthly assumptions, without growth or compounding. Hiring savings last only for the entered period.",
+                "annualNote": "相同的每月假设，没有增长或复利。招聘节省仅在输入的期间有效。",
                 "method": "How this is calculated",
                 "burdenHeading": "Repetitive work reduced",
                 "opportunityHeading": "Capacity for higher-value work",
-                "methodBody": "Operating burden removed (negative productivity) returns capacity. Higher-value work (potential positive productivity) creates economic value only if that capacity is used. Hours alone are not cash savings. Token cost uses a modeled input/output mix, not a provider quote.",
-                "formulaLabel": "Qualified briefs = leads × qualification rate. Delivery cost includes modeled token, model, tool, infrastructure, platform and human-review cost. Customer ROI remains unavailable until benefit and price are supported by evidence.",
-                "allocationNote": "Each hour can be allocated once. Unallocated hours remain capacity, with no monetary value.",
-                "overlapLabel": "These benefits are distinct; I have excluded costs and losses already counted elsewhere.",
-                "overlapNote": "Error and risk estimates exclude labor savings and the same incident must not appear in both categories. Contribution excludes AI costs, which are deducted separately.",
-                "hiringLabel": "This hire was genuinely planned and the allocated capacity can cover the work.",
-                "reviewedLabel": "I have reviewed my outcomes; unselected outcomes have no financial value in this estimate.",
+                "methodBody": "运营负担消除（负生产力），恢复产能。只有利用这种能力，更高价值的工作（潜在的积极生产力）才能创造经济价值。仅靠时间并不能节省现金。代币成本使用建模的输入/输出组合，而不是提供商报价。",
+                "formulaLabel": "合格简报=销售线索×合格率。交付成本包括建模代币、模型、工具、基础设施、平台和人工审核成本。在效益和价格得到证据支持之前，客户的投资回报率仍然无法实现。",
+                "allocationNote": "每个小时可以分配一次。未分配的时间仍然是容量，没有货币价值。",
+                "overlapLabel": "这些好处各不相同；我已经排除了其他地方已经计算的成本和损失。",
+                "overlapNote": "错误和风险估计不包括节省的劳动力，并且同一事件不得出现在两个类别中。贡献不包括人工智能成本，人工智能成本需单独扣除。",
+                "hiringLabel": "这次招聘是经过真正计划的，分配的能力可以满足这项工作。",
+                "reviewedLabel": "我已经审查了我的结果；未选择的结果在此估计中没有财务价值。",
                 "cycleResult": "Cycle-time improvement",
-                "throughputResult": "Additional work supported by capacity and demand",
-                "assumptionsIncomplete": "Complete the selected assumptions to calculate financial value.",
-                "allocationError": "Allocated hours exceed the net capacity available. Reduce the allocations.",
-                "reviewError": "Review takes more time than the work reduced. No positive capacity is available at these assumptions.",
-                "cashError": "Avoided spending cannot exceed current spending or have positive value with no hours allocated.",
-                "hiringError": "Allocated capacity must cover the planned hire hours. Confirm the planned hire and its duration.",
-                "riskError": "The after probability cannot exceed the before probability for a loss-reduction estimate.",
-                "overlapError": "Confirm the benefits do not overlap before including them in the financial result.",
-                "boundsError": "Use values within the displayed limits.",
+                "throughputResult": "由能力和需求支持的额外工作",
+                "assumptionsIncomplete": "完成选定的假设以计算财务价值。",
+                "allocationError": "分配的小时数超出了可用的净容量。减少拨款。",
+                "reviewError": "审查所花费的时间比减少的工作量还要多。在这些假设下，没有可用的正容量。",
+                "cashError": "避免的支出不能超过当前支出，或者在没有分配时间的情况下具有正值。",
+                "hiringError": "分配的容量必须覆盖计划的雇用时间。确认计划的雇佣及其持续时间。",
+                "riskError": "对于损失减少估计，事后概率不能超过事前概率。",
+                "overlapError": "在将其纳入财务结果之前，请确认收益不会重叠。",
+                "boundsError": "使用显示限制内的值。",
                 "rangeLabel": "Adjust value",
-                "noCurrencyChange": "Language changes formatting, not your currency or assumptions.",
-                "currentPreparation": "当前准备时长",
-                "reviewHours": "人工审核时长",
-                "reworkHours": "避免或增加的返工时长",
-                "capacityValue": "建模产能值",
-                "acceptedUnits": "已接受单位",
-                "attendedUnits": "已服务单位",
-                "costPerAttended": "每服务单位成本",
+                "noCurrencyChange": "语言改变格式，而不是你的货币或假设。",
+                "currentPreparation": "目前的准备时间",
+                "reviewHours": "人工审核时间",
+                "reworkHours": "避免或增加返工时间",
+                "capacityValue": "建模容量值",
+                "acceptedUnits": "接受单位",
+                "attendedUnits": "参会单位",
+                "costPerAttended": "每参加单位的成本",
                 "benefitCost": "效益成本倍数",
-                "firstYearCost": "第一年成本",
+                "firstYearCost": "第一年费用",
                 "firstYearRoi": "第一年投资回报率",
-                "paybackOutsideTerm": "未在建模期限内收回",
+                "paybackOutsideTerm": "在建模期限内未恢复",
                 "months": "months"
               },
               "fields": {
                 "volume": {
-                  "label": "Leads or briefs entering the desk each month",
-                  "help": "Count inbound second-home enquiries in the selected market, not property transactions."
+                  "label": "每月进入服务台的线索或简报",
+                  "help": "计算所选市场中入境的第二套房查询量，而不是房产交易量。"
                 },
                 "accepted_rate": {
                   "label": "Share becoming qualified briefs",
-                  "help": "A modeled qualification rate. Replace it with observed funnel data after a pilot."
+                  "help": "模拟合格率。将其替换为试点后观察到的漏斗数据。"
                 },
                 "attendance_rate": {
                   "label": "Expected attendance rate",
-                  "help": "Modeled share of accepted meetings expected to happen. Replace this with verified event records after a pilot."
+                  "help": "预计将发生的已接受会议的模拟份额。将其替换为试点后经过验证的事件记录。"
                 },
                 "minutes": {
-                  "label": "Minutes to qualify one seller brief today",
-                  "help": "Active intake and qualification time, excluding elapsed days and property-search time."
+                  "label": "今天验证一名卖家简介的分钟数",
+                  "help": "积极录取和资格时间，不包括已用天数和财产搜索时间。"
                 },
                 "automation": {
-                  "label": "Share of that work reduced",
-                  "help": "An illustrative assumption to validate in a pilot, not a performance promise."
+                  "label": "该工作的份额减少",
+                  "help": "在试点中验证的说明性假设，而不是性能承诺。"
                 },
                 "review": {
-                  "label": "Minutes a reviewer spends confirming each brief",
-                  "help": "Human review still required before either side sees a proposal."
+                  "label": "审阅者确认每个简报所花费的分钟数",
+                  "help": "在任何一方看到提案之前仍然需要进行人工审查。"
                 },
                 "cycles_per_unit": {
-                  "label": "Cycles per unit each month",
-                  "help": "How many recurring order, review or processing cycles each unit runs in a typical month."
+                  "label": "每月每个单元的周期",
+                  "help": "每个单位在典型月份内运行多少个重复订单、审核或处理周期。"
                 },
                 "tokens_per_output": {
-                  "label": "Tokens per qualified seller brief",
-                  "help": "Modeled input and output tokens for one reviewable brief; provider usage must replace this hypothesis."
+                  "label": "每个合格卖家简介的代币",
+                  "help": "为一份可审阅的摘要建模的输入和输出标记；提供商的使用必须取代这一假设。"
                 },
                 "budget": {
                   "label": "Estimated monthly operating budget",
-                  "help": "Include token usage, models/media, tools, infrastructure, Gabriel fees and additional paid review."
+                  "help": "包括代币使用、模型/媒体、工具、基础设施、Gabriel 费用和额外付费评论。"
                 },
                 "model_cost": {
-                  "label": "Additional model or media cost",
-                  "help": "Enter separately billed models or media. Leave zero when included in the token envelope."
+                  "label": "额外的模型或媒体费用",
+                  "help": "输入单独计费的模型或媒体。包含在令牌信封中时保留零。"
                 },
                 "tools_cost": {
                   "label": "Tools and integrations",
-                  "help": "Browser sessions, connectors and other metered services. Enter zero if none."
+                  "help": "浏览器会话、连接器和其他计量服务。如果没有则输入零。"
                 },
                 "infrastructure_cost": {
                   "label": "Infrastructure",
-                  "help": "Incremental hosting, storage and compute for this workload. Enter zero if none."
+                  "help": "此工作负载的增量托管、存储和计算。如果没有则输入零。"
                 },
                 "platform_cost": {
-                  "label": "Other delivery and support cost",
-                  "help": "Modeled hosting, storage, monitoring and support cost, separate from the customer price."
+                  "label": "其他交付和支持费用",
+                  "help": "建模托管、存储、监控和支持成本，与客户价格分开。"
                 },
                 "customer_price": {
                   "label": "Proposed monthly Nest price",
-                  "help": "Editable agent/brokerage pricing hypothesis. It is not validated revenue and must be tested in a paid pilot."
+                  "help": "可编辑的代理/经纪定价假设。它不是经过验证的收入，必须在付费试点中进行测试。"
                 },
                 "personal_value_per_hour": {
-                  "label": "Optional value you assign to an hour",
-                  "help": "An optional personal comparison only. This is not salary, wages or guaranteed cash savings."
+                  "label": "您分配给一小时的可选值",
+                  "help": "仅作为可选的个人比较。这不是薪水、工资或有保证的现金储蓄。"
                 },
                 "review_rate": {
-                  "label": "Additional paid review per hour",
-                  "help": "Actual extra reviewer spending, not the salary of an unchanged employee."
+                  "label": "每小时额外付费评论",
+                  "help": "实际的额外审稿人支出，而不是不变员工的工资。"
                 },
                 "cash_hours": {
-                  "label": "Hours that remove paid work",
-                  "help": "Allocate only work whose overtime, contractor or processing spend will actually stop."
+                  "label": "消除有偿工作的时间",
+                  "help": "仅分配加班、承包商或加工支出实际上会停止的工作。"
                 },
                 "cash_baseline": {
-                  "label": "Current monthly spending on that work",
-                  "help": "The cash budget from which the reduction will come."
+                  "label": "目前该工作的每月支出",
+                  "help": "减少的现金预算。"
                 },
                 "cash_avoided": {
-                  "label": "Monthly spending you would stop",
-                  "help": "One explicit amount, not hours multiplied by salary; exclude any planned-hire saving entered separately."
+                  "label": "你会停止的每月支出",
+                  "help": "一个明确的金额，而不是工时乘以工资；排除任何单独输入的计划雇用节省。"
                 },
                 "higher_value_hours": {
-                  "label": "Hours agents can use for real conversations",
-                  "help": "Only capacity with observed demand receives an economic value."
+                  "label": "客服人员可用于真实对话的时间",
+                  "help": "只有具有可观察到的需求的容量才具有经济价值。"
                 },
                 "contribution_rate": {
-                  "label": "Incremental contribution per agent hour",
-                  "help": "Contribution from additional work, excluding property value, commissions and costs already counted."
+                  "label": "每个客服人员小时的增量贡献",
+                  "help": "额外工作的贡献，不包括已计算的财产价值、佣金和成本。"
                 },
                 "throughput_hours": {
-                  "label": "Hours used for additional volume",
-                  "help": "This allocation cannot also be used for advisory work or spending reductions."
+                  "label": "用于额外容量的小时数",
+                  "help": "该拨款也不能用于咨询工作或削减支出。"
                 },
                 "extra_minutes": {
-                  "label": "Team minutes per additional unit",
-                  "help": "The remaining human effort, including review, needed to deliver one more unit."
+                  "label": "每增加一个单位的团队分钟数",
+                  "help": "剩余的人力工作（包括审核）需要再交付一个单元。"
                 },
                 "demand": {
-                  "label": "Additional units with expected demand",
-                  "help": "Capacity alone is not demand. Enter the extra monthly work you expect to take on."
+                  "label": "预计需求的额外单位",
+                  "help": "容量本身并不是需求。输入您预计每月承担的额外工作量。"
                 },
                 "unit_margin": {
                   "label": "Contribution per additional unit",
-                  "help": "Incremental revenue less delivery costs; AI operating costs are deducted separately."
+                  "help": "增量收入减去交付成本； AI运营成本单独扣除。"
                 },
                 "hiring_hours": {
-                  "label": "Hours covering the planned hire",
-                  "help": "Allocate capacity to specific planned work, not a generic full-time-equivalent estimate."
+                  "label": "计划雇用的时间",
+                  "help": "将能力分配给具体的计划工作，而不是一般的全职等效估计。"
                 },
                 "planned_hours": {
-                  "label": "Monthly hours the planned hire would cover",
-                  "help": "The allocated capacity must cover this entire workload."
+                  "label": "计划雇用的每月工时",
+                  "help": "分配的容量必须覆盖整个工作负载。"
                 },
                 "hire_cost": {
-                  "label": "Monthly hire cost actually deferred",
-                  "help": "Use the cost of a genuinely planned hire, not the salary of someone already employed."
+                  "label": "实际递延的每月租金费用",
+                  "help": "使用真正计划的雇用成本，而不是已经雇用的人的工资。"
                 },
                 "hire_months": {
-                  "label": "Months that hire is deferred",
-                  "help": "One to twelve months; the annual estimate stops counting savings after this period."
+                  "label": "推迟雇用的月份",
+                  "help": "一到十二个月；在此期间之后，年度估算将停止计算节余。"
                 },
                 "incidents": {
-                  "label": "Expected avoided errors per month",
-                  "help": "Use your baseline and expected reduction. Exclude incidents also counted as risk reduction."
+                  "label": "每月预期避免的错误",
+                  "help": "使用您的基线和预期减少量。排除事件也算作风险降低。"
                 },
                 "incident_cost": {
                   "label": "Incremental cost per error",
-                  "help": "Exclude labor, refunds or other losses already included elsewhere."
+                  "help": "不包括其他地方已包含的人工、退款或其他损失。"
                 },
                 "probability_before": {
                   "label": "Monthly loss probability before",
-                  "help": "Your estimate, not a guaranteed risk assessment."
+                  "help": "您的估计，不是保证的风险评估。"
                 },
                 "probability_after": {
                   "label": "Monthly loss probability after",
-                  "help": "Use the same event and monthly time horizon as the baseline."
+                  "help": "使用相同的事件和每月时间范围作为基线。"
                 },
                 "loss": {
-                  "label": "Loss exposure for that event",
-                  "help": "Exclude error incidents and spending already counted. This is uncertain expected value, not cash saved."
+                  "label": "该事件的损失风险",
+                  "help": "排除错误事件和已计算的支出。这是不确定的预期价值，而不是节省的现金。"
                 },
                 "days_before": {
-                  "label": "Cycle time before, in days",
-                  "help": "Elapsed time from start to completion, separate from hands-on effort."
+                  "label": "之前的周期时间（以天为单位）",
+                  "help": "从开始到完成所花费的时间，与实际操作的努力无关。"
                 },
                 "days_after": {
-                  "label": "Cycle time after, in days",
-                  "help": "Shown as an operational change only, without an assumed monetary value."
+                  "label": "之后的周期时间（以天为单位）",
+                  "help": "仅显示为运营变化，没有假定的货币价值。"
                 }
               },
               "burden": [
@@ -989,7 +991,7 @@
               ],
               "opportunity": [
                 "More qualified, human-reviewed introductions",
-                "Time for agent conversations and client needs"
+                "代理对话和客户需求的时间"
               ],
               "usagePackages": {
                 "base": {
@@ -1039,14 +1041,19 @@
                 {
                   "id": "higher_value",
                   "label": "Keep agents on conversations",
-                  "help": "Enter only capacity that can be redirected to real agent or brokerage work; do not treat property value or commission as Nest revenue."
+                  "help": "仅输入可以重定向到实际代理或经纪工作的能力；请勿将财产价值或佣金视为 Nest 收入。"
+                },
+                {
+                  "id": "cash",
+                  "label": "减少付费摄入支持",
+                  "help": "减少加班或承包商在手动卖方简介上的支出——而不是不变的工资。"
                 }
               ],
               "tabs": [
                 {
                   "id": "funnel",
                   "label": "Introduction funnel",
-                  "intro": "Model leads entering the agent or brokerage desk, qualification, and human review.",
+                  "intro": "模型线索进入代理或经纪柜台、资格审查和人工审核。",
                   "fields": [
                     "volume",
                     "accepted_rate",
@@ -1057,7 +1064,7 @@
                 {
                   "id": "costs",
                   "label": "AI operating cost",
-                  "intro": "Keep model, token, tool, infrastructure, platform and reviewer costs separate from the proposed customer price.",
+                  "intro": "将模型、代币、工具、基础设施、平台和审核者成本与建议的客户价格分开。",
                   "fields": [
                     "tokens_per_output",
                     "model_cost",
@@ -1071,7 +1078,7 @@
                 {
                   "id": "capacity",
                   "label": "Capacity and evidence",
-                  "intro": "Returned capacity is not revenue. Financial results remain insufficient until a payer, price and delivery evidence are recorded.",
+                  "intro": "返回的容量不是收入。在付款人、价格和交付证据被记录之前，财务结果仍然不够充分。",
                   "fields": [
                     "higher_value_hours",
                     "contribution_rate"
@@ -1084,7 +1091,7 @@
                 "basis": "fixed",
                 "annualPrice": 9000,
                 "label": "Proposed Nest monthly price",
-                "help": "A €750/month working hypothesis for a qualified-introduction pilot. Treat as unvalidated until an agent or brokerage pays."
+                "help": "合格引进试点的工作假设为 750 欧元/月。在代理人或经纪公司付款之前，视为未生效。"
               },
               "presentation": {
                 "financial": "optional",
@@ -1096,7 +1103,7 @@
               "primaryLabel": "Talk with Nest",
               "primaryTarget": "meet",
               "secondaryLabel": "See how it works",
-              "privacyNote": "Your data stays private. Hours are capacity. Financial amounts are modeled estimates, not observed results.",
+              "privacyNote": "您的数据保持私密。小时数即容量。财务金额是模型估计值，而不是观察到的结果。",
               "secondaryTarget": "how-it-works"
             }
           }
@@ -1113,7 +1120,7 @@
         "backgroundImage": "/landing-pages/nest/nest-hero-interior-clean.png",
         "backgroundAlt": "温暖、平静的家居内部",
         "primaryCtaLabel": "Talk with Nest",
-        "secondaryCtaLabel": "请求介绍",
+        "secondaryCtaLabel": "联系 Nest",
         "privacyLine": "一次一场比赛。 人工审核。 私有，直到双方选择加入。",
         "characterImage": "/landing-pages/nest/nest-character-meet-compact-high-wings-transparent.png",
         "characterAlt": "Nest 拿着一个笔记本和紧凑型翅膀的钥匙",
@@ -1132,13 +1139,13 @@
           "introBody": "仅分享人工审阅者需要的内容。 此处绝不会要求确切的地址和联系方式。",
           "chatLabel": "通过聊天构建 · 10 回合",
           "voiceLabel": "通过语音构建 · 5 分钟",
-          "reviewLabel": "回顾简介",
+          "reviewLabel": "审查简介",
           "editLabel": "编辑",
           "reviewHeading": "查看您的私人简报",
           "reviewBody": "在您匿名的情况下，没有任何内容被保留、搜索、提议或共享。",
           "submitLabel": "登录以进行人工审核",
           "loginNotice": "登录以将此私人家庭简介移至您的 Nest 工作区，以进行经过身份验证的人工审核。",
-          "expiryCopy": "未提交的简报在一小时后过期。",
+          "expiryCopy": "未提交的简报将在一小时后过期。",
           "privacyCopy": "匿名时没有参与者搜索、精确地址共享或联系人披露。",
           "errorCopy": "Nest 无法保存这个简报。 请重试或登录。"
         }
@@ -1162,7 +1169,7 @@
       "privacy": {
         "kicker": "隐私是顺序",
         "heading": "在你们都说是之前，您的地址是私密的。",
-        "body": "NEST 以邻里大小的区域开始。 在提案和相互同意的阶段，身份、联系方式和确切地址保持锁定状态。",
+        "body": "Nest 从社区大小的区域开始。在提案和双方同意阶段，身份、联系方式和确切地址保持锁定。",
         "stages": [
           {
             "status": "proposed",
@@ -1233,7 +1240,7 @@
         ]
       },
       "meet": {
-        "kicker": "请求介绍",
+        "kicker": "联系 Nest",
         "heading": "角落里的细节通知器。",
         "body": "Nest 聆听超越明显的简短：您喜爱的晨光，您无法移动的时间，一种妥协，不是真正的妥协。 然后 Nest 带回了一种被认为合适的人。",
         "characterImage": "/landing-pages/nest/nest-character-meet-compact-high-wings-transparent.png",
@@ -1256,11 +1263,11 @@
         "secondaryCtaLabel": "See how it works"
       },
       "footer": {
-        "brandLabel": "巢。",
+        "brandLabel": "Nest。",
         "tagline": "一次仔细的家庭介绍。",
         "disclaimer": "Nest 不是持牌经纪商，不代表任何一方、谈判、评估您的房屋或处理您的交易。 当您准备好继续前进时，我们会将您与许可的本地代理联系起来以完成该过程。 Not a broker. Does not represent either party. Does not provide valuations. Does not negotiate.",
         "eventDisclaimer": "第二个家庭展览详细信息针对此 Nest 实例化进行了建模，应在出席前进行验证。",
-        "copyright": "© 2026 巢",
+        "copyright": "© 2026 Nest",
         "groups": [
           {
             "label": "探索",
@@ -1280,14 +1287,14 @@
             ]
           },
           {
-            "label": "巢",
+            "label": "Nest",
             "links": [
               {
-                "label": "请求介绍",
+                "label": "联系 Nest",
                 "target": "meet"
               },
               {
-                "label": "建立一个简报",
+                "label": "建立一个简介",
                 "target": "hero-chat"
               }
             ]
@@ -1300,23 +1307,23 @@
       "enabled": true,
       "kicker": "Business impact",
       "heading": "ROI Calculator",
-      "subheading": "Model a licensed second-home agent or brokerage using Nest for qualified, human-reviewed introductions in one local market.",
-      "disclaimer": "A modeled operating scenario with zero validated paid demand. Nest qualifies and coordinates consented introductions; it does not represent parties, value property, negotiate, earn commissions or guarantee a transaction.",
+      "subheading": "使用 Nest 为获得许可的第二居所代理或经纪公司建模，在一个当地市场进行合格的、经过人工审核的介绍。",
+      "disclaimer": "已验证付费需求为零的建模操作场景。 Nest 资格和协调同意的介绍；它不代表各方、评估财产、谈判、赚取佣金或保证交易。",
       "currency": "EUR",
       "currencyCopy": {
         "native": "Amounts in {currency}.",
         "loading": "Checking the local currency. Amounts remain in {currency} until a rate is available.",
         "unavailable": "A current local exchange rate is unavailable. Amounts remain in {currency}.",
         "converted": "Amounts converted from {base} to {currency} using the reference rate dated {date}.",
-        "basis": "Currency conversion is not local cost research. Enter your own local costs and contribution assumptions. Language changes do not change amounts."
+        "basis": "货币换算不是本地成本研究。输入您自己的当地成本和贡献假设。语言的变化不会改变数量。"
       },
       "costCopy": {
-        "breakdown": "How the all-in AI cost is built",
+        "breakdown": "人工智能的总体成本是如何构建的",
         "perUnit": "{amount} per work unit (average)",
-        "budgetOnly": "This is your total budget. Switch to Cost breakdown to itemize it; no split has been assumed.",
-        "benefitNotice": "Modeled benefits, not charges. Crossed-out amounts are spending you expect to avoid, not discounts on the AI bill.",
+        "budgetOnly": "这是您的总预算。切换到成本细分以逐项列出；假设没有分裂。",
+        "benefitNotice": "建模福利，而不是收费。划掉的金额是您希望避免的支出，而不是人工智能账单上的折扣。",
         "remainder": "Other included operating costs",
-        "allocation": "Returned hours are capacity, not automatic savings. Only the portions you assign to actual spending reductions or additional contribution receive a monetary value."
+        "allocation": "返回的小时数是容量，而不是自动节省的时间。只有您分配给实际支出减少或额外捐款的部分才会获得货币价值。"
       },
       "locale": "en-GB",
       "inputs": [],
@@ -1342,10 +1349,10 @@
           "workloadStep": "Introduction funnel",
           "costStep": "AI operating cost",
           "valueStep": "Capacity and evidence",
-          "workloadIntro": "Model second-home leads, qualification and human review—not property sales, commissions or guaranteed matches.",
-          "costIntro": "Token, model, tool, infrastructure, platform and reviewer costs are delivery assumptions. Nest price is a separate unvalidated hypothesis.",
-          "valueIntro": "Capacity is not revenue. Enter observed contribution only after a real agent or brokerage uses and pays for the service.",
-          "sampleNotice": "Typical usage · not observed results",
+          "workloadIntro": "对第二居所线索、资格和人工审核进行建模，而不是房产销售、佣金或保证匹配。",
+          "costIntro": "代币、模型、工具、基础设施、平台和审阅者成本是交付假设。 Nest 价格是一个单独的未经验证的假设。",
+          "valueIntro": "产能不是收入。仅在真实代理人或经纪公司使用并支付服务费用后输入观察到的贡献。",
+          "sampleNotice": "典型用法·未观察到的结果",
           "monthly": "Monthly",
           "yearly": "Yearly",
           "next": "Continue",
@@ -1370,11 +1377,11 @@
           "reviewMode": "Who handles the review?",
           "teamReview": "Existing team",
           "paidReview": "Additional paid reviewer",
-          "reviewNote": "Existing-team review uses returned capacity. Additional paid review is included in operating cost, not deducted again from team capacity.",
+          "reviewNote": "现有团队审查使用返回的容量。额外的付费审核包含在运营成本中，不会再次从团队能力中扣除。",
           "totalMode": "Monthly budget",
           "itemizedMode": "Cost breakdown",
-          "budgetNote": "The budget must include models/media, tools, infrastructure, Gabriel fees and additional paid review. Do not include unchanged payroll as new spending.",
-          "itemizedNote": "Token usage is calculated from volume × tokens per output. Extra media, tools and infrastructure stay at zero unless they apply. Additional paid review is calculated from review hours and its rate.",
+          "budgetNote": "预算必须包括模型/媒体、工具、基础设施、Gabriel 费用和额外的付费审查。不要将不变的工资单计为新支出。",
+          "itemizedNote": "代币使用量是根据每个输出的数量 × 代币数计算得出的。除非适用，否则额外的媒体、工具和基础设施将保持为零。额外付费审阅根据审阅时间及其费率计算。",
           "paidReviewCost": "Additional paid review cost",
           "allInCost": "Operating cost",
           "missing": "Add your assumptions",
@@ -1383,193 +1390,193 @@
           "expectedLoss": "Expected loss reduction",
           "riskValue": "Uncertain risk value included",
           "economicValue": "Modeled contribution",
-          "netBenefit": "Modeled benefit after Nest price",
+          "netBenefit": "Nest 价格后的建模效益",
           "multiple": "Internal delivery multiple",
           "customerBenefit": "Modeled agent benefit",
           "customerRoi": "Modeled customer ROI",
           "payback": "Customer payback period",
           "notApplicable": "Not applicable",
           "annual": "Annual view",
-          "annualNote": "The same monthly assumptions, without growth or compounding. Hiring savings last only for the entered period.",
+          "annualNote": "相同的每月假设，没有增长或复利。招聘节省仅在输入的期间有效。",
           "method": "How this is calculated",
           "burdenHeading": "Repetitive work reduced",
           "opportunityHeading": "Capacity for higher-value work",
-          "methodBody": "Operating burden removed (negative productivity) returns capacity. Higher-value work (potential positive productivity) creates economic value only if that capacity is used. Hours alone are not cash savings. Token cost uses a modeled input/output mix, not a provider quote.",
-          "formulaLabel": "Qualified briefs = leads × qualification rate. Delivery cost includes modeled token, model, tool, infrastructure, platform and human-review cost. Customer ROI remains unavailable until benefit and price are supported by evidence.",
-          "allocationNote": "Each hour can be allocated once. Unallocated hours remain capacity, with no monetary value.",
-          "overlapLabel": "These benefits are distinct; I have excluded costs and losses already counted elsewhere.",
-          "overlapNote": "Error and risk estimates exclude labor savings and the same incident must not appear in both categories. Contribution excludes AI costs, which are deducted separately.",
-          "hiringLabel": "This hire was genuinely planned and the allocated capacity can cover the work.",
-          "reviewedLabel": "I have reviewed my outcomes; unselected outcomes have no financial value in this estimate.",
+          "methodBody": "运营负担消除（负生产力），恢复产能。只有利用这种能力，更高价值的工作（潜在的积极生产力）才能创造经济价值。仅靠时间并不能节省现金。代币成本使用建模的输入/输出组合，而不是提供商报价。",
+          "formulaLabel": "合格简报=销售线索×合格率。交付成本包括建模代币、模型、工具、基础设施、平台和人工审核成本。在效益和价格得到证据支持之前，客户的投资回报率仍然无法实现。",
+          "allocationNote": "每个小时可以分配一次。未分配的时间仍然是容量，没有货币价值。",
+          "overlapLabel": "这些好处各不相同；我已经排除了其他地方已经计算的成本和损失。",
+          "overlapNote": "错误和风险估计不包括节省的劳动力，并且同一事件不得出现在两个类别中。贡献不包括人工智能成本，人工智能成本需单独扣除。",
+          "hiringLabel": "这次招聘是经过真正计划的，分配的能力可以满足这项工作。",
+          "reviewedLabel": "我已经审查了我的结果；未选择的结果在此估计中没有财务价值。",
           "cycleResult": "Cycle-time improvement",
-          "throughputResult": "Additional work supported by capacity and demand",
-          "assumptionsIncomplete": "Complete the selected assumptions to calculate financial value.",
-          "allocationError": "Allocated hours exceed the net capacity available. Reduce the allocations.",
-          "reviewError": "Review takes more time than the work reduced. No positive capacity is available at these assumptions.",
-          "cashError": "Avoided spending cannot exceed current spending or have positive value with no hours allocated.",
-          "hiringError": "Allocated capacity must cover the planned hire hours. Confirm the planned hire and its duration.",
-          "riskError": "The after probability cannot exceed the before probability for a loss-reduction estimate.",
-          "overlapError": "Confirm the benefits do not overlap before including them in the financial result.",
-          "boundsError": "Use values within the displayed limits.",
+          "throughputResult": "由能力和需求支持的额外工作",
+          "assumptionsIncomplete": "完成选定的假设以计算财务价值。",
+          "allocationError": "分配的小时数超出了可用的净容量。减少拨款。",
+          "reviewError": "审查所花费的时间比减少的工作量还要多。在这些假设下，没有可用的正容量。",
+          "cashError": "避免的支出不能超过当前支出，或者在没有分配时间的情况下具有正值。",
+          "hiringError": "分配的容量必须覆盖计划的雇用时间。确认计划的雇佣及其持续时间。",
+          "riskError": "对于损失减少估计，事后概率不能超过事前概率。",
+          "overlapError": "在将其纳入财务结果之前，请确认收益不会重叠。",
+          "boundsError": "使用显示限制内的值。",
           "rangeLabel": "Adjust value",
-          "noCurrencyChange": "Language changes formatting, not your currency or assumptions.",
-          "currentPreparation": "当前准备时长",
-          "reviewHours": "人工审核时长",
-          "reworkHours": "避免或增加的返工时长",
-          "capacityValue": "建模产能值",
-          "acceptedUnits": "已接受单位",
-          "attendedUnits": "已服务单位",
-          "costPerAttended": "每服务单位成本",
+          "noCurrencyChange": "语言改变格式，而不是你的货币或假设。",
+          "currentPreparation": "目前的准备时间",
+          "reviewHours": "人工审核时间",
+          "reworkHours": "避免或增加返工时间",
+          "capacityValue": "建模容量值",
+          "acceptedUnits": "接受单位",
+          "attendedUnits": "参会单位",
+          "costPerAttended": "每参加单位的成本",
           "benefitCost": "效益成本倍数",
-          "firstYearCost": "第一年成本",
+          "firstYearCost": "第一年费用",
           "firstYearRoi": "第一年投资回报率",
-          "paybackOutsideTerm": "未在建模期限内收回",
+          "paybackOutsideTerm": "在建模期限内未恢复",
           "months": "months"
         },
         "fields": {
           "volume": {
-            "label": "Leads or briefs entering the desk each month",
-            "help": "Count inbound second-home enquiries in the selected market, not property transactions."
+            "label": "每月进入服务台的线索或简报",
+            "help": "计算所选市场中入境的第二套房查询量，而不是房产交易量。"
           },
           "accepted_rate": {
             "label": "Share becoming qualified briefs",
-            "help": "A modeled qualification rate. Replace it with observed funnel data after a pilot."
+            "help": "模拟合格率。将其替换为试点后观察到的漏斗数据。"
           },
           "attendance_rate": {
             "label": "Expected attendance rate",
-            "help": "Modeled share of accepted meetings expected to happen. Replace this with verified event records after a pilot."
+            "help": "预计将发生的已接受会议的模拟份额。将其替换为试点后经过验证的事件记录。"
           },
           "minutes": {
-            "label": "Minutes to qualify one buyer brief today",
-            "help": "Active intake and qualification time, excluding elapsed days and property-search time."
+            "label": "今天对一位买家简报进行资格审查的分钟",
+            "help": "积极录取和资格时间，不包括已用天数和财产搜索时间。"
           },
           "automation": {
-            "label": "Share of that work reduced",
-            "help": "An illustrative assumption to validate in a pilot, not a performance promise."
+            "label": "该工作的份额减少",
+            "help": "在试点中验证的说明性假设，而不是性能承诺。"
           },
           "review": {
-            "label": "Minutes a reviewer spends confirming each brief",
-            "help": "Human review still required before either side sees a proposal."
+            "label": "审阅者确认每个简报所花费的分钟数",
+            "help": "在任何一方看到提案之前仍然需要进行人工审查。"
           },
           "cycles_per_unit": {
-            "label": "Cycles per unit each month",
-            "help": "How many recurring order, review or processing cycles each unit runs in a typical month."
+            "label": "每月每个单元的周期",
+            "help": "每个单位在典型月份内运行多少个重复订单、审核或处理周期。"
           },
           "tokens_per_output": {
-            "label": "Tokens per qualified buyer brief",
-            "help": "Modeled input and output tokens for one reviewable brief; provider usage must replace this hypothesis."
+            "label": "每个合格买家简介的代币",
+            "help": "为一份可审阅的摘要建模的输入和输出标记；提供商的使用必须取代这一假设。"
           },
           "budget": {
             "label": "Estimated monthly operating budget",
-            "help": "Include token usage, models/media, tools, infrastructure, Gabriel fees and additional paid review."
+            "help": "包括代币使用、模型/媒体、工具、基础设施、Gabriel 费用和额外付费评论。"
           },
           "model_cost": {
-            "label": "Additional model or media cost",
-            "help": "Enter separately billed models or media. Leave zero when included in the token envelope."
+            "label": "额外的模型或媒体费用",
+            "help": "输入单独计费的模型或媒体。包含在令牌信封中时保留零。"
           },
           "tools_cost": {
             "label": "Tools and integrations",
-            "help": "Browser sessions, connectors and other metered services. Enter zero if none."
+            "help": "浏览器会话、连接器和其他计量服务。如果没有则输入零。"
           },
           "infrastructure_cost": {
             "label": "Infrastructure",
-            "help": "Incremental hosting, storage and compute for this workload. Enter zero if none."
+            "help": "此工作负载的增量托管、存储和计算。如果没有则输入零。"
           },
           "platform_cost": {
-            "label": "Other delivery and support cost",
-            "help": "Modeled hosting, storage, monitoring and support cost, separate from the customer price."
+            "label": "其他交付和支持费用",
+            "help": "建模托管、存储、监控和支持成本，与客户价格分开。"
           },
           "customer_price": {
             "label": "Proposed monthly Nest price",
-            "help": "Editable agent/brokerage pricing hypothesis. It is not validated revenue and must be tested in a paid pilot."
+            "help": "可编辑的代理/经纪定价假设。它不是经过验证的收入，必须在付费试点中进行测试。"
           },
           "personal_value_per_hour": {
-            "label": "Optional value you assign to an hour",
-            "help": "An optional personal comparison only. This is not salary, wages or guaranteed cash savings."
+            "label": "您分配给一小时的可选值",
+            "help": "仅作为可选的个人比较。这不是薪水、工资或有保证的现金储蓄。"
           },
           "review_rate": {
-            "label": "Additional paid review per hour",
-            "help": "Actual extra reviewer spending, not the salary of an unchanged employee."
+            "label": "每小时额外付费评论",
+            "help": "实际的额外审稿人支出，而不是不变员工的工资。"
           },
           "cash_hours": {
-            "label": "Hours that remove paid work",
-            "help": "Allocate only work whose overtime, contractor or processing spend will actually stop."
+            "label": "消除有偿工作的时间",
+            "help": "仅分配加班、承包商或加工支出实际上会停止的工作。"
           },
           "cash_baseline": {
-            "label": "Current monthly spending on that work",
-            "help": "The cash budget from which the reduction will come."
+            "label": "目前该工作的每月支出",
+            "help": "减少的现金预算。"
           },
           "cash_avoided": {
-            "label": "Monthly spending you would stop",
-            "help": "One explicit amount, not hours multiplied by salary; exclude any planned-hire saving entered separately."
+            "label": "你会停止的每月支出",
+            "help": "一个明确的金额，而不是工时乘以工资；排除任何单独输入的计划雇用节省。"
           },
           "higher_value_hours": {
-            "label": "Hours agents can use for real conversations",
-            "help": "Only capacity with observed demand receives an economic value."
+            "label": "客服人员可用于真实对话的时间",
+            "help": "只有具有可观察到的需求的容量才具有经济价值。"
           },
           "contribution_rate": {
-            "label": "Incremental contribution per agent hour",
-            "help": "Contribution from additional work, excluding property value, commissions and costs already counted."
+            "label": "每个客服人员小时的增量贡献",
+            "help": "额外工作的贡献，不包括已计算的财产价值、佣金和成本。"
           },
           "throughput_hours": {
-            "label": "Hours used for additional volume",
-            "help": "This allocation cannot also be used for advisory work or spending reductions."
+            "label": "用于额外容量的小时数",
+            "help": "该拨款也不能用于咨询工作或削减支出。"
           },
           "extra_minutes": {
-            "label": "Team minutes per additional unit",
-            "help": "The remaining human effort, including review, needed to deliver one more unit."
+            "label": "每增加一个单位的团队分钟数",
+            "help": "剩余的人力工作（包括审核）需要再交付一个单元。"
           },
           "demand": {
-            "label": "Additional units with expected demand",
-            "help": "Capacity alone is not demand. Enter the extra monthly work you expect to take on."
+            "label": "预计需求的额外单位",
+            "help": "容量本身并不是需求。输入您预计每月承担的额外工作量。"
           },
           "unit_margin": {
             "label": "Contribution per additional unit",
-            "help": "Incremental revenue less delivery costs; AI operating costs are deducted separately."
+            "help": "增量收入减去交付成本； AI运营成本单独扣除。"
           },
           "hiring_hours": {
-            "label": "Hours covering the planned hire",
-            "help": "Allocate capacity to specific planned work, not a generic full-time-equivalent estimate."
+            "label": "计划雇用的时间",
+            "help": "将能力分配给具体的计划工作，而不是一般的全职等效估计。"
           },
           "planned_hours": {
-            "label": "Monthly hours the planned hire would cover",
-            "help": "The allocated capacity must cover this entire workload."
+            "label": "计划雇用的每月工时",
+            "help": "分配的容量必须覆盖整个工作负载。"
           },
           "hire_cost": {
-            "label": "Monthly hire cost actually deferred",
-            "help": "Use the cost of a genuinely planned hire, not the salary of someone already employed."
+            "label": "实际递延的每月租金费用",
+            "help": "使用真正计划的雇用成本，而不是已经雇用的人的工资。"
           },
           "hire_months": {
-            "label": "Months that hire is deferred",
-            "help": "One to twelve months; the annual estimate stops counting savings after this period."
+            "label": "推迟雇用的月份",
+            "help": "一到十二个月；在此期间之后，年度估算将停止计算节余。"
           },
           "incidents": {
-            "label": "Expected avoided errors per month",
-            "help": "Use your baseline and expected reduction. Exclude incidents also counted as risk reduction."
+            "label": "每月预期避免的错误",
+            "help": "使用您的基线和预期减少量。排除事件也算作风险降低。"
           },
           "incident_cost": {
             "label": "Incremental cost per error",
-            "help": "Exclude labor, refunds or other losses already included elsewhere."
+            "help": "不包括其他地方已包含的人工、退款或其他损失。"
           },
           "probability_before": {
             "label": "Monthly loss probability before",
-            "help": "Your estimate, not a guaranteed risk assessment."
+            "help": "您的估计，不是保证的风险评估。"
           },
           "probability_after": {
             "label": "Monthly loss probability after",
-            "help": "Use the same event and monthly time horizon as the baseline."
+            "help": "使用相同的事件和每月时间范围作为基线。"
           },
           "loss": {
-            "label": "Loss exposure for that event",
-            "help": "Exclude error incidents and spending already counted. This is uncertain expected value, not cash saved."
+            "label": "该事件的损失风险",
+            "help": "排除错误事件和已计算的支出。这是不确定的预期价值，而不是节省的现金。"
           },
           "days_before": {
-            "label": "Cycle time before, in days",
-            "help": "Elapsed time from start to completion, separate from hands-on effort."
+            "label": "之前的周期时间（以天为单位）",
+            "help": "从开始到完成所花费的时间，与实际操作的努力无关。"
           },
           "days_after": {
-            "label": "Cycle time after, in days",
-            "help": "Shown as an operational change only, without an assumed monetary value."
+            "label": "之后的周期时间（以天为单位）",
+            "help": "仅显示为运营变化，没有假定的货币价值。"
           }
         },
         "burden": [
@@ -1578,7 +1585,7 @@
         ],
         "opportunity": [
           "More qualified, human-reviewed introductions",
-          "Time for agent conversations and client needs"
+          "代理对话和客户需求的时间"
         ],
         "usagePackages": {
           "base": {
@@ -1628,14 +1635,19 @@
           {
             "id": "higher_value",
             "label": "Keep agents on conversations",
-            "help": "Enter only capacity that can be redirected to real agent or brokerage work; do not treat property value or commission as Nest revenue."
+            "help": "仅输入可以重定向到实际代理或经纪工作的能力；请勿将财产价值或佣金视为 Nest 收入。"
+          },
+          {
+            "id": "cash",
+            "label": "减少付费摄入支持",
+            "help": "减少加班时间或承包商在人工买家简报上的支出——而不是不变的工资。"
           }
         ],
         "tabs": [
           {
             "id": "funnel",
             "label": "Introduction funnel",
-            "intro": "Model leads entering the agent or brokerage desk, qualification, and human review.",
+            "intro": "模型线索进入代理或经纪柜台、资格审查和人工审核。",
             "fields": [
               "volume",
               "accepted_rate",
@@ -1646,7 +1658,7 @@
           {
             "id": "costs",
             "label": "AI operating cost",
-            "intro": "Keep model, token, tool, infrastructure, platform and reviewer costs separate from the proposed customer price.",
+            "intro": "将模型、代币、工具、基础设施、平台和审核者成本与建议的客户价格分开。",
             "fields": [
               "tokens_per_output",
               "model_cost",
@@ -1660,7 +1672,7 @@
           {
             "id": "capacity",
             "label": "Capacity and evidence",
-            "intro": "Returned capacity is not revenue. Financial results remain insufficient until a payer, price and delivery evidence are recorded.",
+            "intro": "返回的容量不是收入。在付款人、价格和交付证据被记录之前，财务结果仍然不够充分。",
             "fields": [
               "higher_value_hours",
               "contribution_rate"
@@ -1673,7 +1685,7 @@
           "basis": "fixed",
           "annualPrice": 9000,
           "label": "Proposed Nest monthly price",
-          "help": "A €750/month working hypothesis for a qualified-introduction pilot. Treat as unvalidated until an agent or brokerage pays."
+          "help": "合格引进试点的工作假设为 750 欧元/月。在代理人或经纪公司付款之前，视为未生效。"
         },
         "presentation": {
           "financial": "optional",
@@ -1685,7 +1697,7 @@
         "primaryLabel": "Talk with Nest",
         "primaryTarget": "meet",
         "secondaryLabel": "See how it works",
-        "privacyNote": "Your data stays private. Hours are capacity. Financial amounts are modeled estimates, not observed results.",
+        "privacyNote": "您的数据保持私密。小时数即容量。财务金额是模型估计值，而不是观察到的结果。",
         "secondaryTarget": "how-it-works"
       }
     }
@@ -1972,6 +1984,16 @@
         "availabilityLabel"
       ],
       "sourceHash": "4ccdf0d88d921c3c0274c16ab665fd021b888edca40c2f1887ca4da4e2e61adc"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "profileModeId"
+      ],
+      "sourceHash": "6dbd0f28d0d97656768b7b4ed96255e67fd11740a44b1c4b575191b06e9e3a35"
     },
     {
       "path": [
@@ -4653,34 +4675,9 @@
         0,
         "roiCalculator",
         "businessImpact",
-        "costMode"
-      ],
-      "sourceHash": "0257609b2e009aa6c788941fbcaeee13877465889a94aaf0444c7d4159ee616c"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        0,
-        "roiCalculator",
-        "businessImpact",
         "reviewMode"
       ],
       "sourceHash": "ca8b22d0db83a22db163b560b3e4e51527e533d31d067b614a0c33c4d2df8432"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        0,
-        "roiCalculator",
-        "businessImpact",
-        "selected",
-        0
-      ],
-      "sourceHash": "c8333158bd18b91a71842cfd38c2d6ddab471bda158b19286d96d4a4ed973ac4"
     },
     {
       "path": [
@@ -4760,51 +4757,6 @@
         "roiCalculator",
         "businessImpact",
         "tabs",
-        0,
-        "fields",
-        0
-      ],
-      "sourceHash": "62d7a6b1211d627650e2bf0c869b69b564e2cd74290ae1dd78ae4b5e20b0cfe7"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        0,
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        0,
-        "fields",
-        1
-      ],
-      "sourceHash": "533c554a619ee86f5b109e6356436592d023fca097b61a42a5769899f3e49ded"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        0,
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        0,
-        "fields",
-        2
-      ],
-      "sourceHash": "c97ace4c8fef2cee8fa0f3c9f52aab18dbd4f42438afe362ffb8f75ce4c04b84"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        0,
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
         1,
         "label"
       ],
@@ -4823,96 +4775,6 @@
         "intro"
       ],
       "sourceHash": "ecb995d2474e26388c933fda1b6a2ac889d6f3629ab1f42fe73e918b2733817f"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        0,
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        1,
-        "fields",
-        0
-      ],
-      "sourceHash": "252b07fa1db64f9ca920817ce39dec8523f46fca171a3dfd2721f7406ad524b3"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        0,
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        1,
-        "fields",
-        1
-      ],
-      "sourceHash": "d1bedf986ff719c3697d5349d0a881f26ca60c944250a6b9d841dbfdd75ec256"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        0,
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        1,
-        "fields",
-        2
-      ],
-      "sourceHash": "d36f8ed71fe4f06ad33653f5b2a02efb6b90532b03694d27b25f01211ee64df5"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        0,
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        1,
-        "fields",
-        3
-      ],
-      "sourceHash": "5ef2621e3c47a6ca8fc7990c6ffa19b229e742540611b01e0f1d253b33808503"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        0,
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        1,
-        "fields",
-        4
-      ],
-      "sourceHash": "ddb2485b111f5d7373d804bdb4010b2590b72ba7b899fd5e11c4e0d5e00fb524"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        0,
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        1,
-        "fields",
-        5
-      ],
-      "sourceHash": "b90c7599f77434bcd2d32958a8557417fb5333b4dbd169ff8c5ee65bbb5008ef"
     },
     {
       "path": [
@@ -4950,49 +4812,6 @@
         0,
         "roiCalculator",
         "businessImpact",
-        "tabs",
-        2,
-        "fields",
-        0
-      ],
-      "sourceHash": "f033d3c123d7de8fa6a1706e2f8dee954bec3ef08f9c5a10de37ab050e4d25ab"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        0,
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        2,
-        "fields",
-        1
-      ],
-      "sourceHash": "b28c91bc16791f680909ec198a45e7c491055b8c4c558da970e1e9bcd2635edc"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        0,
-        "roiCalculator",
-        "businessImpact",
-        "pricing",
-        "basis"
-      ],
-      "sourceHash": "992a93455c71fedd36ac9bbc439952c041cf61445958472af479269b8d873513"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        0,
-        "roiCalculator",
-        "businessImpact",
         "pricing",
         "label"
       ],
@@ -5010,19 +4829,6 @@
         "help"
       ],
       "sourceHash": "aebaed823e7b8d30309648e6c85cfe4d7f6cb7938bdf923f2c68c9b67ff269da"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        0,
-        "roiCalculator",
-        "businessImpact",
-        "presentation",
-        "financial"
-      ],
-      "sourceHash": "ec91fdd9256cb75ae611249b50cb7eb16533f0fa91b86239ec1d439a1ea033b8"
     },
     {
       "path": [
@@ -5059,6 +4865,16 @@
         "privacyNote"
       ],
       "sourceHash": "0e96f5e15977ab0a2a8d684c0d35d7459f3afc862b606046310ae1fbbd4be12b"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "profileModeId"
+      ],
+      "sourceHash": "a4279eae47aaa7417da62434795a011ccb0ec870f7f56646d181b5500a892a9a"
     },
     {
       "path": [
@@ -7809,34 +7625,9 @@
         1,
         "roiCalculator",
         "businessImpact",
-        "costMode"
-      ],
-      "sourceHash": "0257609b2e009aa6c788941fbcaeee13877465889a94aaf0444c7d4159ee616c"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        1,
-        "roiCalculator",
-        "businessImpact",
         "reviewMode"
       ],
       "sourceHash": "ca8b22d0db83a22db163b560b3e4e51527e533d31d067b614a0c33c4d2df8432"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        1,
-        "roiCalculator",
-        "businessImpact",
-        "selected",
-        0
-      ],
-      "sourceHash": "c8333158bd18b91a71842cfd38c2d6ddab471bda158b19286d96d4a4ed973ac4"
     },
     {
       "path": [
@@ -7887,6 +7678,34 @@
         1,
         "roiCalculator",
         "businessImpact",
+        "outcomes",
+        1,
+        "label"
+      ],
+      "sourceHash": "aea4419b254433ce01374056925b89821689edcecc57fcd6988c2abc3f51c102"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "businessImpact",
+        "outcomes",
+        1,
+        "help"
+      ],
+      "sourceHash": "79f050bc25f624be1f08b5c05a4ac923c1c16bcf253e4009d475f35d6a7a6927"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "businessImpact",
         "tabs",
         0,
         "label"
@@ -7906,51 +7725,6 @@
         "intro"
       ],
       "sourceHash": "db6c00c1b6ccac892da8c66e20f05fcc3bf78c2a3b4929b7c5ad4c53ce32e23a"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        1,
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        0,
-        "fields",
-        0
-      ],
-      "sourceHash": "62d7a6b1211d627650e2bf0c869b69b564e2cd74290ae1dd78ae4b5e20b0cfe7"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        1,
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        0,
-        "fields",
-        1
-      ],
-      "sourceHash": "533c554a619ee86f5b109e6356436592d023fca097b61a42a5769899f3e49ded"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        1,
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        0,
-        "fields",
-        2
-      ],
-      "sourceHash": "c97ace4c8fef2cee8fa0f3c9f52aab18dbd4f42438afe362ffb8f75ce4c04b84"
     },
     {
       "path": [
@@ -7989,96 +7763,6 @@
         "roiCalculator",
         "businessImpact",
         "tabs",
-        1,
-        "fields",
-        0
-      ],
-      "sourceHash": "252b07fa1db64f9ca920817ce39dec8523f46fca171a3dfd2721f7406ad524b3"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        1,
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        1,
-        "fields",
-        1
-      ],
-      "sourceHash": "d1bedf986ff719c3697d5349d0a881f26ca60c944250a6b9d841dbfdd75ec256"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        1,
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        1,
-        "fields",
-        2
-      ],
-      "sourceHash": "d36f8ed71fe4f06ad33653f5b2a02efb6b90532b03694d27b25f01211ee64df5"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        1,
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        1,
-        "fields",
-        3
-      ],
-      "sourceHash": "5ef2621e3c47a6ca8fc7990c6ffa19b229e742540611b01e0f1d253b33808503"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        1,
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        1,
-        "fields",
-        4
-      ],
-      "sourceHash": "ddb2485b111f5d7373d804bdb4010b2590b72ba7b899fd5e11c4e0d5e00fb524"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        1,
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        1,
-        "fields",
-        5
-      ],
-      "sourceHash": "b90c7599f77434bcd2d32958a8557417fb5333b4dbd169ff8c5ee65bbb5008ef"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        1,
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
         2,
         "label"
       ],
@@ -8106,49 +7790,6 @@
         1,
         "roiCalculator",
         "businessImpact",
-        "tabs",
-        2,
-        "fields",
-        0
-      ],
-      "sourceHash": "f033d3c123d7de8fa6a1706e2f8dee954bec3ef08f9c5a10de37ab050e4d25ab"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        1,
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        2,
-        "fields",
-        1
-      ],
-      "sourceHash": "b28c91bc16791f680909ec198a45e7c491055b8c4c558da970e1e9bcd2635edc"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        1,
-        "roiCalculator",
-        "businessImpact",
-        "pricing",
-        "basis"
-      ],
-      "sourceHash": "992a93455c71fedd36ac9bbc439952c041cf61445958472af479269b8d873513"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        1,
-        "roiCalculator",
-        "businessImpact",
         "pricing",
         "label"
       ],
@@ -8166,19 +7807,6 @@
         "help"
       ],
       "sourceHash": "aebaed823e7b8d30309648e6c85cfe4d7f6cb7938bdf923f2c68c9b67ff269da"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        1,
-        "roiCalculator",
-        "businessImpact",
-        "presentation",
-        "financial"
-      ],
-      "sourceHash": "ec91fdd9256cb75ae611249b50cb7eb16533f0fa91b86239ec1d439a1ea033b8"
     },
     {
       "path": [
@@ -11002,28 +10630,9 @@
         "landingPage",
         "roiCalculator",
         "businessImpact",
-        "costMode"
-      ],
-      "sourceHash": "0257609b2e009aa6c788941fbcaeee13877465889a94aaf0444c7d4159ee616c"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
         "reviewMode"
       ],
       "sourceHash": "ca8b22d0db83a22db163b560b3e4e51527e533d31d067b614a0c33c4d2df8432"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "selected",
-        0
-      ],
-      "sourceHash": "c8333158bd18b91a71842cfd38c2d6ddab471bda158b19286d96d4a4ed973ac4"
     },
     {
       "path": [
@@ -11062,6 +10671,28 @@
         "landingPage",
         "roiCalculator",
         "businessImpact",
+        "outcomes",
+        1,
+        "label"
+      ],
+      "sourceHash": "aea4419b254433ce01374056925b89821689edcecc57fcd6988c2abc3f51c102"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "outcomes",
+        1,
+        "help"
+      ],
+      "sourceHash": "6070b25168d7d93f6574ee09ea6117accce9c1b93d909efd04ea4406665cee17"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
         "tabs",
         0,
         "label"
@@ -11078,42 +10709,6 @@
         "intro"
       ],
       "sourceHash": "db6c00c1b6ccac892da8c66e20f05fcc3bf78c2a3b4929b7c5ad4c53ce32e23a"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        0,
-        "fields",
-        0
-      ],
-      "sourceHash": "62d7a6b1211d627650e2bf0c869b69b564e2cd74290ae1dd78ae4b5e20b0cfe7"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        0,
-        "fields",
-        1
-      ],
-      "sourceHash": "533c554a619ee86f5b109e6356436592d023fca097b61a42a5769899f3e49ded"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        0,
-        "fields",
-        2
-      ],
-      "sourceHash": "c97ace4c8fef2cee8fa0f3c9f52aab18dbd4f42438afe362ffb8f75ce4c04b84"
     },
     {
       "path": [
@@ -11143,78 +10738,6 @@
         "roiCalculator",
         "businessImpact",
         "tabs",
-        1,
-        "fields",
-        0
-      ],
-      "sourceHash": "252b07fa1db64f9ca920817ce39dec8523f46fca171a3dfd2721f7406ad524b3"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        1,
-        "fields",
-        1
-      ],
-      "sourceHash": "d1bedf986ff719c3697d5349d0a881f26ca60c944250a6b9d841dbfdd75ec256"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        1,
-        "fields",
-        2
-      ],
-      "sourceHash": "d36f8ed71fe4f06ad33653f5b2a02efb6b90532b03694d27b25f01211ee64df5"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        1,
-        "fields",
-        3
-      ],
-      "sourceHash": "5ef2621e3c47a6ca8fc7990c6ffa19b229e742540611b01e0f1d253b33808503"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        1,
-        "fields",
-        4
-      ],
-      "sourceHash": "ddb2485b111f5d7373d804bdb4010b2590b72ba7b899fd5e11c4e0d5e00fb524"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        1,
-        "fields",
-        5
-      ],
-      "sourceHash": "b90c7599f77434bcd2d32958a8557417fb5333b4dbd169ff8c5ee65bbb5008ef"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
         2,
         "label"
       ],
@@ -11236,40 +10759,6 @@
         "landingPage",
         "roiCalculator",
         "businessImpact",
-        "tabs",
-        2,
-        "fields",
-        0
-      ],
-      "sourceHash": "f033d3c123d7de8fa6a1706e2f8dee954bec3ef08f9c5a10de37ab050e4d25ab"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        2,
-        "fields",
-        1
-      ],
-      "sourceHash": "b28c91bc16791f680909ec198a45e7c491055b8c4c558da970e1e9bcd2635edc"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "pricing",
-        "basis"
-      ],
-      "sourceHash": "992a93455c71fedd36ac9bbc439952c041cf61445958472af479269b8d873513"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
         "pricing",
         "label"
       ],
@@ -11284,16 +10773,6 @@
         "help"
       ],
       "sourceHash": "aebaed823e7b8d30309648e6c85cfe4d7f6cb7938bdf923f2c68c9b67ff269da"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "presentation",
-        "financial"
-      ],
-      "sourceHash": "ec91fdd9256cb75ae611249b50cb7eb16533f0fa91b86239ec1d439a1ea033b8"
     },
     {
       "path": [
@@ -11323,5 +10802,5 @@
       "sourceHash": "0e96f5e15977ab0a2a8d684c0d35d7459f3afc862b606046310ae1fbbd4be12b"
     }
   ],
-  "generatedAt": "2026-09-11T04:18:29.310Z"
+  "generatedAt": "2026-10-01T12:38:31.904Z"
 }

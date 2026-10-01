@@ -2,11 +2,11 @@
   "schemaVersion": 2,
   "language": "ko",
   "regionKey": null,
-  "sourceRevision": "e38bb8570798c46b5f8766ead43d9c6f4648a19d3d096d1d92c424fb5a6774a0",
+  "sourceRevision": "9b00d9081f920764fbd3e5bcdb077a7b34f8b04299a9af6b2aee818670157abf",
   "landingPage": {
     "headline": "적합한 한 번의 자격 있는 소개.",
     "subheadline": "사적인 구매자 및 판매자 소개, 한 번에 하나의 인간 검토 제안.",
-    "ctaLabel": "둥지와 대화하십시오",
+    "ctaLabel": "Nest와 대화하세요",
     "secondaryCtaLabel": "See how it works",
     "heroCharacterImage": "/landing-pages/nest/nest-character-meet-compact-high-wings-transparent.png",
     "seoImage": {
@@ -65,7 +65,7 @@
     },
     "homeIntroductions": {
       "header": {
-        "brandLabel": "둥지.",
+        "brandLabel": "Nest.",
         "brandTagline": "하나의 신중한 소개",
         "navItems": [
           {
@@ -81,7 +81,7 @@
             "target": "hero-chat"
           }
         ],
-        "ctaLabel": "소개를 요청하십시오",
+        "ctaLabel": "Nest를 만나보세요",
         "mobileCtaLabel": "스타트",
         "editionLabel": "구매",
         "secondaryEditionLabel": "판매"
@@ -96,7 +96,7 @@
             "mode": "event",
             "label": "행사",
             "actionLabel": "전망",
-            "name": "Second Home Fair, Jaarbeurs Utrecht",
+            "name": "두 번째 주택 박람회, Jaarbeurs Utrecht",
             "location": "자아르부르 위트레흐트",
             "dateRange": "3월 27일 ~ 3월 29일 금요일",
             "availabilityLabel": "3월 27일~일 3월 29일 금요일 · Jaarbeurs Utrecht"
@@ -105,7 +105,7 @@
             "mode": "city",
             "label": "시티",
             "actionLabel": "전망",
-            "name": "둥지 암스테르담",
+            "name": "Nest 암스테르담",
             "location": "암스테르담 주이드",
             "dateRange": "전진",
             "availabilityLabel": "상시 사용 지역 소개"
@@ -115,6 +115,7 @@
       "tracks": [
         {
           "id": "buying",
+          "profileModeId": "buyer",
           "label": "나는 구매하고 있습니다",
           "responseMessage": "이사할 가치가 있는 집을 알려주세요. 인간 리뷰어가 필요로 하는 세부 사항만 묻고 적합하다고 간주되는 것을 다시 가져오겠습니다.",
           "composerPlaceholder": "집에서 필요한 것을 Nest에게 말하십시오 ...",
@@ -129,7 +130,7 @@
             {
               "number": "02",
               "image": "/landing-pages/nest/nest-how-review-human.webp",
-              "alt": "한 명의 구매자와 하나의 주택을 신중하게 고려하는 둥지와 인간 검토자",
+              "alt": "Nest 및 인간 검토자가 구매자 한 명과 주택 한 명을 신중하게 고려합니다.",
               "title": "한 번에 하나의 재산을 받습니다.",
               "body": "한 사람은 어느 쪽이든 보기 전에 모든 제안을 검토합니다. 공용 카탈로그, 순위 또는 끝없는 필터 그리드가 없습니다.",
               "badge": "인간 승인"
@@ -212,23 +213,23 @@
             "enabled": true,
             "kicker": "Business impact",
             "heading": "ROI Calculator",
-            "subheading": "Model a licensed second-home agent or brokerage using Nest for qualified, human-reviewed introductions in one local market.",
-            "disclaimer": "A modeled operating scenario with zero validated paid demand. Nest qualifies and coordinates consented introductions; it does not represent parties, value property, negotiate, earn commissions or guarantee a transaction.",
+            "subheading": "한 지역 시장에서 자격을 갖춘 사람의 검토를 거친 소개를 위해 Nest를 사용하여 허가받은 재택 중개인 또는 중개업체를 모델링합니다.",
+            "disclaimer": "검증된 유료 수요가 없는 모델링된 운영 시나리오. Nest는 동의된 소개를 한정하고 조정합니다. 당사자를 대표하지 않으며, 재산 가치를 평가하고, 협상하고, 수수료를 벌거나 거래를 보장하지 않습니다.",
             "currency": "EUR",
             "currencyCopy": {
               "native": "Amounts in {currency}.",
               "loading": "Checking the local currency. Amounts remain in {currency} until a rate is available.",
               "unavailable": "A current local exchange rate is unavailable. Amounts remain in {currency}.",
               "converted": "Amounts converted from {base} to {currency} using the reference rate dated {date}.",
-              "basis": "Currency conversion is not local cost research. Enter your own local costs and contribution assumptions. Language changes do not change amounts."
+              "basis": "통화 변환은 현지 비용 조사가 아닙니다. 현지 비용과 기여 가정을 입력하세요. 언어를 변경해도 금액은 변경되지 않습니다."
             },
             "costCopy": {
-              "breakdown": "How the all-in AI cost is built",
+              "breakdown": "올인 AI 비용은 어떻게 구성되나요?",
               "perUnit": "{amount} per work unit (average)",
-              "budgetOnly": "This is your total budget. Switch to Cost breakdown to itemize it; no split has been assumed.",
-              "benefitNotice": "Modeled benefits, not charges. Crossed-out amounts are spending you expect to avoid, not discounts on the AI bill.",
+              "budgetOnly": "이것이 귀하의 총 예산입니다. 항목별로 분류하려면 비용 분석으로 전환하세요. 분할이 가정되지 않았습니다.",
+              "benefitNotice": "요금이 아닌 모델링된 혜택입니다. 줄이 그어진 금액은 AI 청구서에 대한 할인이 아니라 피할 것으로 예상되는 지출입니다.",
               "remainder": "Other included operating costs",
-              "allocation": "Returned hours are capacity, not automatic savings. Only the portions you assign to actual spending reductions or additional contribution receive a monetary value."
+              "allocation": "반환된 시간은 자동 절약이 아닌 용량입니다. 실제 지출 절감이나 추가 기여에 할당한 부분만 금전적 가치를 받습니다."
             },
             "locale": "en-GB",
             "inputs": [],
@@ -254,10 +255,10 @@
                 "workloadStep": "Introduction funnel",
                 "costStep": "AI operating cost",
                 "valueStep": "Capacity and evidence",
-                "workloadIntro": "Model second-home leads, qualification and human review—not property sales, commissions or guaranteed matches.",
-                "costIntro": "Token, model, tool, infrastructure, platform and reviewer costs are delivery assumptions. Nest price is a separate unvalidated hypothesis.",
-                "valueIntro": "Capacity is not revenue. Enter observed contribution only after a real agent or brokerage uses and pays for the service.",
-                "sampleNotice": "Typical usage · not observed results",
+                "workloadIntro": "부동산 판매, 커미션 또는 보장된 일치가 아닌 임대 주택 리드, 검증 및 인적 검토를 모델링합니다.",
+                "costIntro": "토큰, 모델, 도구, 인프라, 플랫폼 및 검토자 비용은 배송 가정입니다. Nest 가격은 별도의 검증되지 않은 가설입니다.",
+                "valueIntro": "용량은 수익이 아닙니다. 실제 대리인이나 중개사가 서비스를 사용하고 비용을 지불한 후에만 관찰된 기여도를 입력하세요.",
+                "sampleNotice": "일반적인 사용법 · 관찰되지 않은 결과",
                 "monthly": "Monthly",
                 "yearly": "Yearly",
                 "next": "Continue",
@@ -282,11 +283,11 @@
                 "reviewMode": "Who handles the review?",
                 "teamReview": "Existing team",
                 "paidReview": "Additional paid reviewer",
-                "reviewNote": "Existing-team review uses returned capacity. Additional paid review is included in operating cost, not deducted again from team capacity.",
+                "reviewNote": "기존 팀 검토에서는 반환된 용량을 사용합니다. 추가 유료 리뷰는 운영 비용에 포함되며 팀 용량에서 다시 공제되지 않습니다.",
                 "totalMode": "Monthly budget",
                 "itemizedMode": "Cost breakdown",
-                "budgetNote": "The budget must include models/media, tools, infrastructure, Gabriel fees and additional paid review. Do not include unchanged payroll as new spending.",
-                "itemizedNote": "Token usage is calculated from volume × tokens per output. Extra media, tools and infrastructure stay at zero unless they apply. Additional paid review is calculated from review hours and its rate.",
+                "budgetNote": "예산에는 모델/미디어, 도구, 인프라, Gabriel 수수료 및 추가 유료 리뷰가 포함되어야 합니다. 변경되지 않은 급여를 새로운 지출로 포함하지 마십시오.",
+                "itemizedNote": "토큰 사용량은 출력당 볼륨 × 토큰으로 계산됩니다. 추가 미디어, 도구 및 인프라는 적용되지 않는 한 0으로 유지됩니다. 추가 유료 리뷰는 리뷰 시간과 요율로 계산됩니다.",
                 "paidReviewCost": "Additional paid review cost",
                 "allInCost": "Operating cost",
                 "missing": "Add your assumptions",
@@ -295,36 +296,36 @@
                 "expectedLoss": "Expected loss reduction",
                 "riskValue": "Uncertain risk value included",
                 "economicValue": "Modeled contribution",
-                "netBenefit": "Modeled benefit after Nest price",
+                "netBenefit": "Nest 가격 이후 모델링된 이점",
                 "multiple": "Internal delivery multiple",
                 "customerBenefit": "Modeled agent benefit",
                 "customerRoi": "Modeled customer ROI",
                 "payback": "Customer payback period",
                 "notApplicable": "Not applicable",
                 "annual": "Annual view",
-                "annualNote": "The same monthly assumptions, without growth or compounding. Hiring savings last only for the entered period.",
+                "annualNote": "성장이나 복리 없이 동일한 월별 가정. 채용 비용 절감은 입력한 기간 동안만 지속됩니다.",
                 "method": "How this is calculated",
                 "burdenHeading": "Repetitive work reduced",
                 "opportunityHeading": "Capacity for higher-value work",
-                "methodBody": "Operating burden removed (negative productivity) returns capacity. Higher-value work (potential positive productivity) creates economic value only if that capacity is used. Hours alone are not cash savings. Token cost uses a modeled input/output mix, not a provider quote.",
-                "formulaLabel": "Qualified briefs = leads × qualification rate. Delivery cost includes modeled token, model, tool, infrastructure, platform and human-review cost. Customer ROI remains unavailable until benefit and price are supported by evidence.",
-                "allocationNote": "Each hour can be allocated once. Unallocated hours remain capacity, with no monetary value.",
-                "overlapLabel": "These benefits are distinct; I have excluded costs and losses already counted elsewhere.",
-                "overlapNote": "Error and risk estimates exclude labor savings and the same incident must not appear in both categories. Contribution excludes AI costs, which are deducted separately.",
-                "hiringLabel": "This hire was genuinely planned and the allocated capacity can cover the work.",
-                "reviewedLabel": "I have reviewed my outcomes; unselected outcomes have no financial value in this estimate.",
+                "methodBody": "운영 부담이 제거되어(음의 생산성) 용량을 반환합니다. 더 높은 가치의 작업(잠재적 긍정적 생산성)은 해당 용량이 사용되는 경우에만 경제적 가치를 창출합니다. 시간만으로는 현금을 절약할 수 없습니다. 토큰 비용은 공급자 견적이 아닌 모델링된 입력/출력 혼합을 사용합니다.",
+                "formulaLabel": "적격 브리핑 = 리드 × 적격성 비율. 배송 비용에는 모델링된 토큰, 모델, 도구, 인프라, 플랫폼 및 인적 검토 비용이 포함됩니다. 이점과 가격이 증거로 뒷받침될 때까지 고객 ROI를 확인할 수 없습니다.",
+                "allocationNote": "각 시간은 한 번씩 할당될 수 있습니다. 할당되지 않은 시간은 금전적 가치 없이 용량으로 유지됩니다.",
+                "overlapLabel": "이러한 이점은 뚜렷합니다. 다른 곳에서 이미 계산된 비용과 손실은 제외했습니다.",
+                "overlapNote": "오류 및 위험 추정치는 인건비 절감을 제외하며 동일한 사고가 두 범주 모두에 나타나서는 안 됩니다. 기여금에는 별도로 공제되는 AI 비용이 제외됩니다.",
+                "hiringLabel": "이번 고용은 진정으로 계획된 것이며 할당된 역량으로 작업을 감당할 수 있습니다.",
+                "reviewedLabel": "나는 내 결과를 검토했습니다. 선택되지 않은 결과는 이 추정치에 금전적 가치가 없습니다.",
                 "cycleResult": "Cycle-time improvement",
-                "throughputResult": "Additional work supported by capacity and demand",
-                "assumptionsIncomplete": "Complete the selected assumptions to calculate financial value.",
-                "allocationError": "Allocated hours exceed the net capacity available. Reduce the allocations.",
-                "reviewError": "Review takes more time than the work reduced. No positive capacity is available at these assumptions.",
-                "cashError": "Avoided spending cannot exceed current spending or have positive value with no hours allocated.",
-                "hiringError": "Allocated capacity must cover the planned hire hours. Confirm the planned hire and its duration.",
-                "riskError": "The after probability cannot exceed the before probability for a loss-reduction estimate.",
-                "overlapError": "Confirm the benefits do not overlap before including them in the financial result.",
-                "boundsError": "Use values within the displayed limits.",
+                "throughputResult": "용량 및 수요에 따라 지원되는 추가 작업",
+                "assumptionsIncomplete": "재정적 가치를 계산하려면 선택한 가정을 완료하세요.",
+                "allocationError": "할당된 시간이 사용 가능한 순 용량을 초과합니다. 할당을 줄입니다.",
+                "reviewError": "검토 작업은 줄어든 작업보다 시간이 더 걸립니다. 이러한 가정에서는 양의 용량을 사용할 수 없습니다.",
+                "cashError": "회피된 지출은 현재 지출을 초과할 수 없으며 할당된 시간이 없을 때 양수 값을 가질 수 없습니다.",
+                "hiringError": "할당된 용량은 계획된 고용 시간을 포함해야 합니다. 계획된 고용과 기간을 확인합니다.",
+                "riskError": "이후 확률은 손실 감소 추정에 대한 이전 확률을 초과할 수 없습니다.",
+                "overlapError": "재무 결과에 포함하기 전에 혜택이 중복되지 않는지 확인하세요.",
+                "boundsError": "표시된 한계 내의 값을 사용하십시오.",
                 "rangeLabel": "Adjust value",
-                "noCurrencyChange": "Language changes formatting, not your currency or assumptions.",
+                "noCurrencyChange": "언어는 통화나 가정이 아니라 형식을 변경합니다.",
                 "currentPreparation": "현재 준비 시간",
                 "reviewHours": "휴먼 리뷰 시간",
                 "reworkHours": "재작업 시간을 피하거나 추가했습니다",
@@ -340,148 +341,148 @@
               },
               "fields": {
                 "volume": {
-                  "label": "Leads or briefs entering the desk each month",
-                  "help": "Count inbound second-home enquiries in the selected market, not property transactions."
+                  "label": "매달 책상에 들어오는 리드 또는 브리핑",
+                  "help": "부동산 거래가 아닌 선택한 시장의 인바운드 두 번째 주택 문의를 계산합니다."
                 },
                 "accepted_rate": {
                   "label": "Share becoming qualified briefs",
-                  "help": "A modeled qualification rate. Replace it with observed funnel data after a pilot."
+                  "help": "모델링된 자격률. 파일럿 후에 관찰된 퍼널 데이터로 대체합니다."
                 },
                 "attendance_rate": {
                   "label": "Expected attendance rate",
-                  "help": "Modeled share of accepted meetings expected to happen. Replace this with verified event records after a pilot."
+                  "help": "예상되는 수락된 회의의 점유율을 모델링했습니다. 파일럿 후에 이를 확인된 이벤트 기록으로 바꿉니다."
                 },
                 "minutes": {
-                  "label": "Minutes to qualify one buyer brief today",
-                  "help": "Active intake and qualification time, excluding elapsed days and property-search time."
+                  "label": "오늘 구매자 1인의 자격을 갖추는 데 필요한 시간 브리핑",
+                  "help": "경과 일수 및 자산 검색 시간을 제외한 활성 입학 및 자격 취득 시간입니다."
                 },
                 "automation": {
-                  "label": "Share of that work reduced",
-                  "help": "An illustrative assumption to validate in a pilot, not a performance promise."
+                  "label": "해당 작업의 비율이 감소함",
+                  "help": "성능 약속이 아닌 파일럿에서 검증하기 위한 예시적인 가정입니다."
                 },
                 "review": {
-                  "label": "Minutes a reviewer spends confirming each brief",
-                  "help": "Human review still required before either side sees a proposal."
+                  "label": "검토자가 각 요약을 확인하는 데 소요되는 시간(분)",
+                  "help": "어느 쪽이든 제안서를 보기 전에 여전히 사람의 검토가 필요합니다."
                 },
                 "cycles_per_unit": {
-                  "label": "Cycles per unit each month",
-                  "help": "How many recurring order, review or processing cycles each unit runs in a typical month."
+                  "label": "매월 단위당 주기",
+                  "help": "각 단위가 일반적으로 한 달에 실행하는 반복 주문, 검토 또는 처리 주기 수입니다."
                 },
                 "tokens_per_output": {
-                  "label": "Tokens per qualified buyer brief",
-                  "help": "Modeled input and output tokens for one reviewable brief; provider usage must replace this hypothesis."
+                  "label": "적격 구매자별 토큰 개요",
+                  "help": "하나의 검토 가능한 요약을 위한 모델링된 입력 및 출력 토큰 공급자 사용은 이 가설을 대체해야 합니다."
                 },
                 "budget": {
                   "label": "Estimated monthly operating budget",
-                  "help": "Include token usage, models/media, tools, infrastructure, Gabriel fees and additional paid review."
+                  "help": "토큰 사용, 모델/미디어, 도구, 인프라, Gabriel 수수료 및 추가 유료 리뷰를 포함합니다."
                 },
                 "model_cost": {
-                  "label": "Additional model or media cost",
-                  "help": "Enter separately billed models or media. Leave zero when included in the token envelope."
+                  "label": "추가 모델 또는 미디어 비용",
+                  "help": "별도로 청구되는 모델이나 미디어를 입력하세요. 토큰 봉투에 포함된 경우 0을 그대로 둡니다."
                 },
                 "tools_cost": {
                   "label": "Tools and integrations",
-                  "help": "Browser sessions, connectors and other metered services. Enter zero if none."
+                  "help": "브라우저 세션, 커넥터 및 기타 측정 서비스. 없으면 0을 입력하세요."
                 },
                 "infrastructure_cost": {
                   "label": "Infrastructure",
-                  "help": "Incremental hosting, storage and compute for this workload. Enter zero if none."
+                  "help": "이 워크로드를 위한 증분 호스팅, 스토리지 및 컴퓨팅. 없으면 0을 입력하세요."
                 },
                 "platform_cost": {
-                  "label": "Other delivery and support cost",
-                  "help": "Modeled hosting, storage, monitoring and support cost, separate from the customer price."
+                  "label": "기타 배송 및 지원 비용",
+                  "help": "고객 가격과 별도로 호스팅, 스토리지, 모니터링 및 지원 비용을 모델링했습니다."
                 },
                 "customer_price": {
                   "label": "Proposed monthly Nest price",
-                  "help": "Editable agent/brokerage pricing hypothesis. It is not validated revenue and must be tested in a paid pilot."
+                  "help": "편집 가능한 에이전트/중개 가격 가설. 검증된 수익이 아니며 유료 파일럿에서 테스트해야 합니다."
                 },
                 "personal_value_per_hour": {
-                  "label": "Optional value you assign to an hour",
-                  "help": "An optional personal comparison only. This is not salary, wages or guaranteed cash savings."
+                  "label": "시간에 할당하는 선택적 값",
+                  "help": "선택적인 개인 비교일 뿐입니다. 이는 급여, 임금 또는 보장된 현금 저축이 아닙니다."
                 },
                 "review_rate": {
-                  "label": "Additional paid review per hour",
-                  "help": "Actual extra reviewer spending, not the salary of an unchanged employee."
+                  "label": "시간당 추가 유료 리뷰",
+                  "help": "변경되지 않은 직원의 급여가 아닌 실제 추가 검토자 지출입니다."
                 },
                 "cash_hours": {
-                  "label": "Hours that remove paid work",
-                  "help": "Allocate only work whose overtime, contractor or processing spend will actually stop."
+                  "label": "유급 작업을 제거하는 시간",
+                  "help": "초과 근무, 계약자 또는 처리 비용이 실제로 중단되는 작업만 할당하십시오."
                 },
                 "cash_baseline": {
-                  "label": "Current monthly spending on that work",
-                  "help": "The cash budget from which the reduction will come."
+                  "label": "해당 작업에 대한 현재 월별 지출",
+                  "help": "감소가 발생하는 현금 예산입니다."
                 },
                 "cash_avoided": {
-                  "label": "Monthly spending you would stop",
-                  "help": "One explicit amount, not hours multiplied by salary; exclude any planned-hire saving entered separately."
+                  "label": "월간 지출을 중단할 수 있습니다.",
+                  "help": "시간에 급여를 곱한 것이 아니라 하나의 명시적인 금액입니다. 별도로 입력된 계획된 고용 절감액은 제외됩니다."
                 },
                 "higher_value_hours": {
-                  "label": "Hours agents can use for real conversations",
-                  "help": "Only capacity with observed demand receives an economic value."
+                  "label": "상담원이 실제 대화에 사용할 수 있는 시간",
+                  "help": "관찰된 수요가 있는 용량만이 경제적 가치를 받습니다."
                 },
                 "contribution_rate": {
-                  "label": "Incremental contribution per agent hour",
-                  "help": "Contribution from additional work, excluding property value, commissions and costs already counted."
+                  "label": "상담원 시간당 증분 기여도",
+                  "help": "이미 계산된 부동산 가치, 커미션 및 비용을 제외한 추가 작업으로 인한 기여금입니다."
                 },
                 "throughput_hours": {
-                  "label": "Hours used for additional volume",
-                  "help": "This allocation cannot also be used for advisory work or spending reductions."
+                  "label": "추가 볼륨에 사용된 시간",
+                  "help": "이 할당은 자문 작업이나 지출 절감에도 사용할 수 없습니다."
                 },
                 "extra_minutes": {
-                  "label": "Team minutes per additional unit",
-                  "help": "The remaining human effort, including review, needed to deliver one more unit."
+                  "label": "추가 단위당 팀 시간",
+                  "help": "검토를 포함한 남은 인간의 노력은 하나의 단위를 더 제공하는 데 필요했습니다."
                 },
                 "demand": {
-                  "label": "Additional units with expected demand",
-                  "help": "Capacity alone is not demand. Enter the extra monthly work you expect to take on."
+                  "label": "수요가 예상되는 추가 유닛",
+                  "help": "용량만으로는 수요가 없습니다. 수행할 것으로 예상되는 추가 월별 작업을 입력하세요."
                 },
                 "unit_margin": {
                   "label": "Contribution per additional unit",
-                  "help": "Incremental revenue less delivery costs; AI operating costs are deducted separately."
+                  "help": "배송 비용을 제외한 추가 수익; AI 운영 비용은 별도로 공제됩니다."
                 },
                 "hiring_hours": {
-                  "label": "Hours covering the planned hire",
-                  "help": "Allocate capacity to specific planned work, not a generic full-time-equivalent estimate."
+                  "label": "계획된 고용 시간",
+                  "help": "일반적인 정규직 추정이 아닌 특정 계획 작업에 용량을 할당합니다."
                 },
                 "planned_hours": {
-                  "label": "Monthly hours the planned hire would cover",
-                  "help": "The allocated capacity must cover this entire workload."
+                  "label": "계획된 고용에 포함되는 월별 시간",
+                  "help": "할당된 용량은 이 전체 워크로드를 포괄해야 합니다."
                 },
                 "hire_cost": {
-                  "label": "Monthly hire cost actually deferred",
-                  "help": "Use the cost of a genuinely planned hire, not the salary of someone already employed."
+                  "label": "실제로 월 임대료가 연기되었습니다.",
+                  "help": "이미 고용된 사람의 급여가 아닌 실제로 계획된 고용 비용을 사용하십시오."
                 },
                 "hire_months": {
-                  "label": "Months that hire is deferred",
-                  "help": "One to twelve months; the annual estimate stops counting savings after this period."
+                  "label": "고용이 연기되는 달",
+                  "help": "1~12개월; 이 기간 이후에는 연간 추정치에서 절감액 계산이 중단됩니다."
                 },
                 "incidents": {
-                  "label": "Expected avoided errors per month",
-                  "help": "Use your baseline and expected reduction. Exclude incidents also counted as risk reduction."
+                  "label": "월별 예상 방지 오류",
+                  "help": "기준선과 예상 감소량을 사용하세요. 사고도 위험 감소로 간주하여 제외합니다."
                 },
                 "incident_cost": {
                   "label": "Incremental cost per error",
-                  "help": "Exclude labor, refunds or other losses already included elsewhere."
+                  "help": "다른 곳에 이미 포함된 인건비, 환불 또는 기타 손실은 제외하세요."
                 },
                 "probability_before": {
                   "label": "Monthly loss probability before",
-                  "help": "Your estimate, not a guaranteed risk assessment."
+                  "help": "보장된 위험 평가가 아닌 귀하의 추정치입니다."
                 },
                 "probability_after": {
                   "label": "Monthly loss probability after",
-                  "help": "Use the same event and monthly time horizon as the baseline."
+                  "help": "동일한 이벤트 및 월별 기간을 기준으로 사용합니다."
                 },
                 "loss": {
-                  "label": "Loss exposure for that event",
-                  "help": "Exclude error incidents and spending already counted. This is uncertain expected value, not cash saved."
+                  "label": "해당 이벤트에 대한 손실 노출",
+                  "help": "이미 계산된 오류 사고 및 지출을 제외합니다. 이는 저장된 현금이 아닌 불확실한 기대 가치입니다."
                 },
                 "days_before": {
-                  "label": "Cycle time before, in days",
-                  "help": "Elapsed time from start to completion, separate from hands-on effort."
+                  "label": "이전 주기 시간(일)",
+                  "help": "직접 작업한 작업과 별개로 시작부터 완료까지 경과된 시간입니다."
                 },
                 "days_after": {
-                  "label": "Cycle time after, in days",
-                  "help": "Shown as an operational change only, without an assumed monetary value."
+                  "label": "이후 주기 시간(일)",
+                  "help": "가정된 금전적 가치 없이 운영 변경으로만 표시됩니다."
                 }
               },
               "burden": [
@@ -490,7 +491,7 @@
               ],
               "opportunity": [
                 "More qualified, human-reviewed introductions",
-                "Time for agent conversations and client needs"
+                "상담원과 대화하고 고객의 요구사항을 파악하는 시간"
               ],
               "usagePackages": {
                 "base": {
@@ -540,14 +541,14 @@
                 {
                   "id": "higher_value",
                   "label": "Keep agents on conversations",
-                  "help": "Enter only capacity that can be redirected to real agent or brokerage work; do not treat property value or commission as Nest revenue."
+                  "help": "실제 에이전트나 중개 업무로 전환할 수 있는 용량만 입력하세요. 부동산 가치나 수수료를 Nest 수익으로 취급하지 마세요."
                 }
               ],
               "tabs": [
                 {
                   "id": "funnel",
                   "label": "Introduction funnel",
-                  "intro": "Model leads entering the agent or brokerage desk, qualification, and human review.",
+                  "intro": "대리인 또는 중개 데스크에 진입하는 리드 모델, 자격 및 인적 검토.",
                   "fields": [
                     "volume",
                     "accepted_rate",
@@ -558,7 +559,7 @@
                 {
                   "id": "costs",
                   "label": "AI operating cost",
-                  "intro": "Keep model, token, tool, infrastructure, platform and reviewer costs separate from the proposed customer price.",
+                  "intro": "모델, 토큰, 도구, 인프라, 플랫폼 및 검토자 비용을 제안된 고객 가격과 별도로 유지하세요.",
                   "fields": [
                     "tokens_per_output",
                     "model_cost",
@@ -572,7 +573,7 @@
                 {
                   "id": "capacity",
                   "label": "Capacity and evidence",
-                  "intro": "Returned capacity is not revenue. Financial results remain insufficient until a payer, price and delivery evidence are recorded.",
+                  "intro": "반환된 용량은 수익이 아닙니다. 지불인, 가격 및 배송 증거가 기록될 때까지 재무 결과는 불충분합니다.",
                   "fields": [
                     "higher_value_hours",
                     "contribution_rate"
@@ -585,7 +586,7 @@
                 "basis": "fixed",
                 "annualPrice": 9000,
                 "label": "Proposed Nest monthly price",
-                "help": "A €750/month working hypothesis for a qualified-introduction pilot. Treat as unvalidated until an agent or brokerage pays."
+                "help": "자격을 갖춘 도입 파일럿을 위한 월 €750 작업 가설. 대리인이나 중개인이 비용을 지불할 때까지 검증되지 않은 것으로 간주됩니다."
               },
               "presentation": {
                 "financial": "optional",
@@ -597,13 +598,14 @@
               "primaryLabel": "Talk with Nest",
               "primaryTarget": "meet",
               "secondaryLabel": "See how it works",
-              "privacyNote": "Your data stays private. Hours are capacity. Financial amounts are modeled estimates, not observed results.",
+              "privacyNote": "귀하의 데이터는 비공개로 유지됩니다. 시간은 용량입니다. 재무 금액은 관찰된 결과가 아닌 모델링된 추정치입니다.",
               "secondaryTarget": "how-it-works"
             }
           }
         },
         {
           "id": "selling",
+          "profileModeId": "seller",
           "label": "판매합니다",
           "responseMessage": "집을 차별화하는 요소와 어떤 구매자가 진지하게 맞는지 알려주세요. 정확한 주소를 비공개로 유지하고 고려된 소개를 다시 가져오겠습니다.",
           "composerPlaceholder": "귀하의 판매에 대해 중요한 것을 Nest에게 알려주십시오…",
@@ -628,7 +630,7 @@
             {
               "number": "02",
               "image": "/landing-pages/nest/nest-how-review-human.webp",
-              "alt": "한 명의 판매자와 한 명의 자격을 갖춘 구매자를 신중하게 고려하는 둥지 및 인간 검토자",
+              "alt": "Nest 및 인간 검토자가 판매자 한 명과 적격 구매자 한 명을 신중하게 고려합니다.",
               "title": "한 번에 한 명의 구매자에게 적합합니다.",
               "body": "한 사람은 어느 쪽이든 보기 전에 모든 제안을 검토합니다. 공개 노출 또는 대량 거래 흐름이 없습니다.",
               "badge": "인간 승인"
@@ -711,23 +713,23 @@
             "enabled": true,
             "kicker": "Business impact",
             "heading": "ROI Calculator",
-            "subheading": "Model a licensed second-home agent or brokerage using Nest for qualified, human-reviewed introductions in one local market.",
-            "disclaimer": "A modeled operating scenario with zero validated paid demand. Nest qualifies and coordinates consented introductions; it does not represent parties, value property, negotiate, earn commissions or guarantee a transaction.",
+            "subheading": "한 지역 시장에서 자격을 갖춘 사람의 검토를 거친 소개를 위해 Nest를 사용하여 허가받은 재택 중개인 또는 중개업체를 모델링합니다.",
+            "disclaimer": "검증된 유료 수요가 없는 모델링된 운영 시나리오. Nest는 동의된 소개를 한정하고 조정합니다. 당사자를 대표하지 않으며, 재산 가치를 평가하고, 협상하고, 수수료를 벌거나 거래를 보장하지 않습니다.",
             "currency": "EUR",
             "currencyCopy": {
               "native": "Amounts in {currency}.",
               "loading": "Checking the local currency. Amounts remain in {currency} until a rate is available.",
               "unavailable": "A current local exchange rate is unavailable. Amounts remain in {currency}.",
               "converted": "Amounts converted from {base} to {currency} using the reference rate dated {date}.",
-              "basis": "Currency conversion is not local cost research. Enter your own local costs and contribution assumptions. Language changes do not change amounts."
+              "basis": "통화 변환은 현지 비용 조사가 아닙니다. 현지 비용과 기여 가정을 입력하세요. 언어를 변경해도 금액은 변경되지 않습니다."
             },
             "costCopy": {
-              "breakdown": "How the all-in AI cost is built",
+              "breakdown": "올인 AI 비용은 어떻게 구성되나요?",
               "perUnit": "{amount} per work unit (average)",
-              "budgetOnly": "This is your total budget. Switch to Cost breakdown to itemize it; no split has been assumed.",
-              "benefitNotice": "Modeled benefits, not charges. Crossed-out amounts are spending you expect to avoid, not discounts on the AI bill.",
+              "budgetOnly": "이것이 귀하의 총 예산입니다. 항목별로 분류하려면 비용 분석으로 전환하세요. 분할이 가정되지 않았습니다.",
+              "benefitNotice": "요금이 아닌 모델링된 혜택입니다. 줄이 그어진 금액은 AI 청구서에 대한 할인이 아니라 피할 것으로 예상되는 지출입니다.",
               "remainder": "Other included operating costs",
-              "allocation": "Returned hours are capacity, not automatic savings. Only the portions you assign to actual spending reductions or additional contribution receive a monetary value."
+              "allocation": "반환된 시간은 자동 절약이 아닌 용량입니다. 실제 지출 절감이나 추가 기여에 할당한 부분만 금전적 가치를 받습니다."
             },
             "locale": "en-GB",
             "inputs": [],
@@ -753,10 +755,10 @@
                 "workloadStep": "Introduction funnel",
                 "costStep": "AI operating cost",
                 "valueStep": "Capacity and evidence",
-                "workloadIntro": "Model second-home leads, qualification and human review—not property sales, commissions or guaranteed matches.",
-                "costIntro": "Token, model, tool, infrastructure, platform and reviewer costs are delivery assumptions. Nest price is a separate unvalidated hypothesis.",
-                "valueIntro": "Capacity is not revenue. Enter observed contribution only after a real agent or brokerage uses and pays for the service.",
-                "sampleNotice": "Typical usage · not observed results",
+                "workloadIntro": "부동산 판매, 커미션 또는 보장된 일치가 아닌 임대 주택 리드, 검증 및 인적 검토를 모델링합니다.",
+                "costIntro": "토큰, 모델, 도구, 인프라, 플랫폼 및 검토자 비용은 배송 가정입니다. Nest 가격은 별도의 검증되지 않은 가설입니다.",
+                "valueIntro": "용량은 수익이 아닙니다. 실제 대리인이나 중개사가 서비스를 사용하고 비용을 지불한 후에만 관찰된 기여도를 입력하세요.",
+                "sampleNotice": "일반적인 사용법 · 관찰되지 않은 결과",
                 "monthly": "Monthly",
                 "yearly": "Yearly",
                 "next": "Continue",
@@ -781,11 +783,11 @@
                 "reviewMode": "Who handles the review?",
                 "teamReview": "Existing team",
                 "paidReview": "Additional paid reviewer",
-                "reviewNote": "Existing-team review uses returned capacity. Additional paid review is included in operating cost, not deducted again from team capacity.",
+                "reviewNote": "기존 팀 검토에서는 반환된 용량을 사용합니다. 추가 유료 리뷰는 운영 비용에 포함되며 팀 용량에서 다시 공제되지 않습니다.",
                 "totalMode": "Monthly budget",
                 "itemizedMode": "Cost breakdown",
-                "budgetNote": "The budget must include models/media, tools, infrastructure, Gabriel fees and additional paid review. Do not include unchanged payroll as new spending.",
-                "itemizedNote": "Token usage is calculated from volume × tokens per output. Extra media, tools and infrastructure stay at zero unless they apply. Additional paid review is calculated from review hours and its rate.",
+                "budgetNote": "예산에는 모델/미디어, 도구, 인프라, Gabriel 수수료 및 추가 유료 리뷰가 포함되어야 합니다. 변경되지 않은 급여를 새로운 지출로 포함하지 마십시오.",
+                "itemizedNote": "토큰 사용량은 출력당 볼륨 × 토큰으로 계산됩니다. 추가 미디어, 도구 및 인프라는 적용되지 않는 한 0으로 유지됩니다. 추가 유료 리뷰는 리뷰 시간과 요율로 계산됩니다.",
                 "paidReviewCost": "Additional paid review cost",
                 "allInCost": "Operating cost",
                 "missing": "Add your assumptions",
@@ -794,36 +796,36 @@
                 "expectedLoss": "Expected loss reduction",
                 "riskValue": "Uncertain risk value included",
                 "economicValue": "Modeled contribution",
-                "netBenefit": "Modeled benefit after Nest price",
+                "netBenefit": "Nest 가격 이후 모델링된 이점",
                 "multiple": "Internal delivery multiple",
                 "customerBenefit": "Modeled agent benefit",
                 "customerRoi": "Modeled customer ROI",
                 "payback": "Customer payback period",
                 "notApplicable": "Not applicable",
                 "annual": "Annual view",
-                "annualNote": "The same monthly assumptions, without growth or compounding. Hiring savings last only for the entered period.",
+                "annualNote": "성장이나 복리 없이 동일한 월별 가정. 채용 비용 절감은 입력한 기간 동안만 지속됩니다.",
                 "method": "How this is calculated",
                 "burdenHeading": "Repetitive work reduced",
                 "opportunityHeading": "Capacity for higher-value work",
-                "methodBody": "Operating burden removed (negative productivity) returns capacity. Higher-value work (potential positive productivity) creates economic value only if that capacity is used. Hours alone are not cash savings. Token cost uses a modeled input/output mix, not a provider quote.",
-                "formulaLabel": "Qualified briefs = leads × qualification rate. Delivery cost includes modeled token, model, tool, infrastructure, platform and human-review cost. Customer ROI remains unavailable until benefit and price are supported by evidence.",
-                "allocationNote": "Each hour can be allocated once. Unallocated hours remain capacity, with no monetary value.",
-                "overlapLabel": "These benefits are distinct; I have excluded costs and losses already counted elsewhere.",
-                "overlapNote": "Error and risk estimates exclude labor savings and the same incident must not appear in both categories. Contribution excludes AI costs, which are deducted separately.",
-                "hiringLabel": "This hire was genuinely planned and the allocated capacity can cover the work.",
-                "reviewedLabel": "I have reviewed my outcomes; unselected outcomes have no financial value in this estimate.",
+                "methodBody": "운영 부담이 제거되어(음의 생산성) 용량을 반환합니다. 더 높은 가치의 작업(잠재적 긍정적 생산성)은 해당 용량이 사용되는 경우에만 경제적 가치를 창출합니다. 시간만으로는 현금을 절약할 수 없습니다. 토큰 비용은 공급자 견적이 아닌 모델링된 입력/출력 혼합을 사용합니다.",
+                "formulaLabel": "적격 브리핑 = 리드 × 적격성 비율. 배송 비용에는 모델링된 토큰, 모델, 도구, 인프라, 플랫폼 및 인적 검토 비용이 포함됩니다. 이점과 가격이 증거로 뒷받침될 때까지 고객 ROI를 확인할 수 없습니다.",
+                "allocationNote": "각 시간은 한 번씩 할당될 수 있습니다. 할당되지 않은 시간은 금전적 가치 없이 용량으로 유지됩니다.",
+                "overlapLabel": "이러한 이점은 뚜렷합니다. 다른 곳에서 이미 계산된 비용과 손실은 제외했습니다.",
+                "overlapNote": "오류 및 위험 추정치는 인건비 절감을 제외하며 동일한 사고가 두 범주 모두에 나타나서는 안 됩니다. 기여금에는 별도로 공제되는 AI 비용이 제외됩니다.",
+                "hiringLabel": "이번 고용은 진정으로 계획된 것이며 할당된 역량으로 작업을 감당할 수 있습니다.",
+                "reviewedLabel": "나는 내 결과를 검토했습니다. 선택되지 않은 결과는 이 추정치에 금전적 가치가 없습니다.",
                 "cycleResult": "Cycle-time improvement",
-                "throughputResult": "Additional work supported by capacity and demand",
-                "assumptionsIncomplete": "Complete the selected assumptions to calculate financial value.",
-                "allocationError": "Allocated hours exceed the net capacity available. Reduce the allocations.",
-                "reviewError": "Review takes more time than the work reduced. No positive capacity is available at these assumptions.",
-                "cashError": "Avoided spending cannot exceed current spending or have positive value with no hours allocated.",
-                "hiringError": "Allocated capacity must cover the planned hire hours. Confirm the planned hire and its duration.",
-                "riskError": "The after probability cannot exceed the before probability for a loss-reduction estimate.",
-                "overlapError": "Confirm the benefits do not overlap before including them in the financial result.",
-                "boundsError": "Use values within the displayed limits.",
+                "throughputResult": "용량 및 수요에 따라 지원되는 추가 작업",
+                "assumptionsIncomplete": "재정적 가치를 계산하려면 선택한 가정을 완료하세요.",
+                "allocationError": "할당된 시간이 사용 가능한 순 용량을 초과합니다. 할당을 줄입니다.",
+                "reviewError": "검토 작업은 줄어든 작업보다 시간이 더 걸립니다. 이러한 가정에서는 양의 용량을 사용할 수 없습니다.",
+                "cashError": "회피된 지출은 현재 지출을 초과할 수 없으며 할당된 시간이 없을 때 양수 값을 가질 수 없습니다.",
+                "hiringError": "할당된 용량은 계획된 고용 시간을 포함해야 합니다. 계획된 고용과 기간을 확인합니다.",
+                "riskError": "이후 확률은 손실 감소 추정에 대한 이전 확률을 초과할 수 없습니다.",
+                "overlapError": "재무 결과에 포함하기 전에 혜택이 중복되지 않는지 확인하세요.",
+                "boundsError": "표시된 한계 내의 값을 사용하십시오.",
                 "rangeLabel": "Adjust value",
-                "noCurrencyChange": "Language changes formatting, not your currency or assumptions.",
+                "noCurrencyChange": "언어는 통화나 가정이 아니라 형식을 변경합니다.",
                 "currentPreparation": "현재 준비 시간",
                 "reviewHours": "휴먼 리뷰 시간",
                 "reworkHours": "재작업 시간을 피하거나 추가했습니다",
@@ -839,148 +841,148 @@
               },
               "fields": {
                 "volume": {
-                  "label": "Leads or briefs entering the desk each month",
-                  "help": "Count inbound second-home enquiries in the selected market, not property transactions."
+                  "label": "매달 책상에 들어오는 리드 또는 브리핑",
+                  "help": "부동산 거래가 아닌 선택한 시장의 인바운드 두 번째 주택 문의를 계산합니다."
                 },
                 "accepted_rate": {
                   "label": "Share becoming qualified briefs",
-                  "help": "A modeled qualification rate. Replace it with observed funnel data after a pilot."
+                  "help": "모델링된 자격률. 파일럿 후에 관찰된 퍼널 데이터로 대체합니다."
                 },
                 "attendance_rate": {
                   "label": "Expected attendance rate",
-                  "help": "Modeled share of accepted meetings expected to happen. Replace this with verified event records after a pilot."
+                  "help": "예상되는 수락된 회의의 점유율을 모델링했습니다. 파일럿 후에 이를 확인된 이벤트 기록으로 바꿉니다."
                 },
                 "minutes": {
-                  "label": "Minutes to qualify one seller brief today",
-                  "help": "Active intake and qualification time, excluding elapsed days and property-search time."
+                  "label": "오늘 판매자 브리핑을 확인하는 데 몇 분 남았습니다.",
+                  "help": "경과 일수 및 자산 검색 시간을 제외한 활성 입학 및 자격 취득 시간입니다."
                 },
                 "automation": {
-                  "label": "Share of that work reduced",
-                  "help": "An illustrative assumption to validate in a pilot, not a performance promise."
+                  "label": "해당 작업의 비율이 감소함",
+                  "help": "성능 약속이 아닌 파일럿에서 검증하기 위한 예시적인 가정입니다."
                 },
                 "review": {
-                  "label": "Minutes a reviewer spends confirming each brief",
-                  "help": "Human review still required before either side sees a proposal."
+                  "label": "검토자가 각 요약을 확인하는 데 소요되는 시간(분)",
+                  "help": "어느 쪽이든 제안서를 보기 전에 여전히 사람의 검토가 필요합니다."
                 },
                 "cycles_per_unit": {
-                  "label": "Cycles per unit each month",
-                  "help": "How many recurring order, review or processing cycles each unit runs in a typical month."
+                  "label": "매월 단위당 주기",
+                  "help": "각 단위가 일반적으로 한 달에 실행하는 반복 주문, 검토 또는 처리 주기 수입니다."
                 },
                 "tokens_per_output": {
-                  "label": "Tokens per qualified seller brief",
-                  "help": "Modeled input and output tokens for one reviewable brief; provider usage must replace this hypothesis."
+                  "label": "적격 판매자별 토큰 개요",
+                  "help": "하나의 검토 가능한 요약을 위한 모델링된 입력 및 출력 토큰 공급자 사용은 이 가설을 대체해야 합니다."
                 },
                 "budget": {
                   "label": "Estimated monthly operating budget",
-                  "help": "Include token usage, models/media, tools, infrastructure, Gabriel fees and additional paid review."
+                  "help": "토큰 사용, 모델/미디어, 도구, 인프라, Gabriel 수수료 및 추가 유료 리뷰를 포함합니다."
                 },
                 "model_cost": {
-                  "label": "Additional model or media cost",
-                  "help": "Enter separately billed models or media. Leave zero when included in the token envelope."
+                  "label": "추가 모델 또는 미디어 비용",
+                  "help": "별도로 청구되는 모델이나 미디어를 입력하세요. 토큰 봉투에 포함된 경우 0을 그대로 둡니다."
                 },
                 "tools_cost": {
                   "label": "Tools and integrations",
-                  "help": "Browser sessions, connectors and other metered services. Enter zero if none."
+                  "help": "브라우저 세션, 커넥터 및 기타 측정 서비스. 없으면 0을 입력하세요."
                 },
                 "infrastructure_cost": {
                   "label": "Infrastructure",
-                  "help": "Incremental hosting, storage and compute for this workload. Enter zero if none."
+                  "help": "이 워크로드를 위한 증분 호스팅, 스토리지 및 컴퓨팅. 없으면 0을 입력하세요."
                 },
                 "platform_cost": {
-                  "label": "Other delivery and support cost",
-                  "help": "Modeled hosting, storage, monitoring and support cost, separate from the customer price."
+                  "label": "기타 배송 및 지원 비용",
+                  "help": "고객 가격과 별도로 호스팅, 스토리지, 모니터링 및 지원 비용을 모델링했습니다."
                 },
                 "customer_price": {
                   "label": "Proposed monthly Nest price",
-                  "help": "Editable agent/brokerage pricing hypothesis. It is not validated revenue and must be tested in a paid pilot."
+                  "help": "편집 가능한 에이전트/중개 가격 가설. 검증된 수익이 아니며 유료 파일럿에서 테스트해야 합니다."
                 },
                 "personal_value_per_hour": {
-                  "label": "Optional value you assign to an hour",
-                  "help": "An optional personal comparison only. This is not salary, wages or guaranteed cash savings."
+                  "label": "시간에 할당하는 선택적 값",
+                  "help": "선택적인 개인 비교일 뿐입니다. 이는 급여, 임금 또는 보장된 현금 저축이 아닙니다."
                 },
                 "review_rate": {
-                  "label": "Additional paid review per hour",
-                  "help": "Actual extra reviewer spending, not the salary of an unchanged employee."
+                  "label": "시간당 추가 유료 리뷰",
+                  "help": "변경되지 않은 직원의 급여가 아닌 실제 추가 검토자 지출입니다."
                 },
                 "cash_hours": {
-                  "label": "Hours that remove paid work",
-                  "help": "Allocate only work whose overtime, contractor or processing spend will actually stop."
+                  "label": "유급 작업을 제거하는 시간",
+                  "help": "초과 근무, 계약자 또는 처리 비용이 실제로 중단되는 작업만 할당하십시오."
                 },
                 "cash_baseline": {
-                  "label": "Current monthly spending on that work",
-                  "help": "The cash budget from which the reduction will come."
+                  "label": "해당 작업에 대한 현재 월별 지출",
+                  "help": "감소가 발생하는 현금 예산입니다."
                 },
                 "cash_avoided": {
-                  "label": "Monthly spending you would stop",
-                  "help": "One explicit amount, not hours multiplied by salary; exclude any planned-hire saving entered separately."
+                  "label": "월간 지출을 중단할 수 있습니다.",
+                  "help": "시간에 급여를 곱한 것이 아니라 하나의 명시적인 금액입니다. 별도로 입력된 계획된 고용 절감액은 제외됩니다."
                 },
                 "higher_value_hours": {
-                  "label": "Hours agents can use for real conversations",
-                  "help": "Only capacity with observed demand receives an economic value."
+                  "label": "상담원이 실제 대화에 사용할 수 있는 시간",
+                  "help": "관찰된 수요가 있는 용량만이 경제적 가치를 받습니다."
                 },
                 "contribution_rate": {
-                  "label": "Incremental contribution per agent hour",
-                  "help": "Contribution from additional work, excluding property value, commissions and costs already counted."
+                  "label": "상담원 시간당 증분 기여도",
+                  "help": "이미 계산된 부동산 가치, 커미션 및 비용을 제외한 추가 작업으로 인한 기여금입니다."
                 },
                 "throughput_hours": {
-                  "label": "Hours used for additional volume",
-                  "help": "This allocation cannot also be used for advisory work or spending reductions."
+                  "label": "추가 볼륨에 사용된 시간",
+                  "help": "이 할당은 자문 작업이나 지출 절감에도 사용할 수 없습니다."
                 },
                 "extra_minutes": {
-                  "label": "Team minutes per additional unit",
-                  "help": "The remaining human effort, including review, needed to deliver one more unit."
+                  "label": "추가 단위당 팀 시간",
+                  "help": "검토를 포함한 남은 인간의 노력은 하나의 단위를 더 제공하는 데 필요했습니다."
                 },
                 "demand": {
-                  "label": "Additional units with expected demand",
-                  "help": "Capacity alone is not demand. Enter the extra monthly work you expect to take on."
+                  "label": "수요가 예상되는 추가 유닛",
+                  "help": "용량만으로는 수요가 없습니다. 수행할 것으로 예상되는 추가 월별 작업을 입력하세요."
                 },
                 "unit_margin": {
                   "label": "Contribution per additional unit",
-                  "help": "Incremental revenue less delivery costs; AI operating costs are deducted separately."
+                  "help": "배송 비용을 제외한 추가 수익; AI 운영 비용은 별도로 공제됩니다."
                 },
                 "hiring_hours": {
-                  "label": "Hours covering the planned hire",
-                  "help": "Allocate capacity to specific planned work, not a generic full-time-equivalent estimate."
+                  "label": "계획된 고용 시간",
+                  "help": "일반적인 정규직 추정이 아닌 특정 계획 작업에 용량을 할당합니다."
                 },
                 "planned_hours": {
-                  "label": "Monthly hours the planned hire would cover",
-                  "help": "The allocated capacity must cover this entire workload."
+                  "label": "계획된 고용에 포함되는 월별 시간",
+                  "help": "할당된 용량은 이 전체 워크로드를 포괄해야 합니다."
                 },
                 "hire_cost": {
-                  "label": "Monthly hire cost actually deferred",
-                  "help": "Use the cost of a genuinely planned hire, not the salary of someone already employed."
+                  "label": "실제로 월 임대료가 연기되었습니다.",
+                  "help": "이미 고용된 사람의 급여가 아닌 실제로 계획된 고용 비용을 사용하십시오."
                 },
                 "hire_months": {
-                  "label": "Months that hire is deferred",
-                  "help": "One to twelve months; the annual estimate stops counting savings after this period."
+                  "label": "고용이 연기되는 달",
+                  "help": "1~12개월; 이 기간 이후에는 연간 추정치에서 절감액 계산이 중단됩니다."
                 },
                 "incidents": {
-                  "label": "Expected avoided errors per month",
-                  "help": "Use your baseline and expected reduction. Exclude incidents also counted as risk reduction."
+                  "label": "월별 예상 방지 오류",
+                  "help": "기준선과 예상 감소량을 사용하세요. 사고도 위험 감소로 간주하여 제외합니다."
                 },
                 "incident_cost": {
                   "label": "Incremental cost per error",
-                  "help": "Exclude labor, refunds or other losses already included elsewhere."
+                  "help": "다른 곳에 이미 포함된 인건비, 환불 또는 기타 손실은 제외하세요."
                 },
                 "probability_before": {
                   "label": "Monthly loss probability before",
-                  "help": "Your estimate, not a guaranteed risk assessment."
+                  "help": "보장된 위험 평가가 아닌 귀하의 추정치입니다."
                 },
                 "probability_after": {
                   "label": "Monthly loss probability after",
-                  "help": "Use the same event and monthly time horizon as the baseline."
+                  "help": "동일한 이벤트 및 월별 기간을 기준으로 사용합니다."
                 },
                 "loss": {
-                  "label": "Loss exposure for that event",
-                  "help": "Exclude error incidents and spending already counted. This is uncertain expected value, not cash saved."
+                  "label": "해당 이벤트에 대한 손실 노출",
+                  "help": "이미 계산된 오류 사고 및 지출을 제외합니다. 이는 저장된 현금이 아닌 불확실한 기대 가치입니다."
                 },
                 "days_before": {
-                  "label": "Cycle time before, in days",
-                  "help": "Elapsed time from start to completion, separate from hands-on effort."
+                  "label": "이전 주기 시간(일)",
+                  "help": "직접 작업한 작업과 별개로 시작부터 완료까지 경과된 시간입니다."
                 },
                 "days_after": {
-                  "label": "Cycle time after, in days",
-                  "help": "Shown as an operational change only, without an assumed monetary value."
+                  "label": "이후 주기 시간(일)",
+                  "help": "가정된 금전적 가치 없이 운영 변경으로만 표시됩니다."
                 }
               },
               "burden": [
@@ -989,7 +991,7 @@
               ],
               "opportunity": [
                 "More qualified, human-reviewed introductions",
-                "Time for agent conversations and client needs"
+                "상담원과 대화하고 고객의 요구사항을 파악하는 시간"
               ],
               "usagePackages": {
                 "base": {
@@ -1039,14 +1041,19 @@
                 {
                   "id": "higher_value",
                   "label": "Keep agents on conversations",
-                  "help": "Enter only capacity that can be redirected to real agent or brokerage work; do not treat property value or commission as Nest revenue."
+                  "help": "실제 에이전트나 중개 업무로 전환할 수 있는 용량만 입력하세요. 부동산 가치나 수수료를 Nest 수익으로 취급하지 마세요."
+                },
+                {
+                  "id": "cash",
+                  "label": "유급 섭취 지원 감소",
+                  "help": "초과 근무 시간이나 계약업체의 수동 판매자 투입에 대한 지출을 줄입니다. 급여는 그대로 유지됩니다."
                 }
               ],
               "tabs": [
                 {
                   "id": "funnel",
                   "label": "Introduction funnel",
-                  "intro": "Model leads entering the agent or brokerage desk, qualification, and human review.",
+                  "intro": "대리인 또는 중개 데스크에 진입하는 리드 모델, 자격 및 인적 검토.",
                   "fields": [
                     "volume",
                     "accepted_rate",
@@ -1057,7 +1064,7 @@
                 {
                   "id": "costs",
                   "label": "AI operating cost",
-                  "intro": "Keep model, token, tool, infrastructure, platform and reviewer costs separate from the proposed customer price.",
+                  "intro": "모델, 토큰, 도구, 인프라, 플랫폼 및 검토자 비용을 제안된 고객 가격과 별도로 유지하세요.",
                   "fields": [
                     "tokens_per_output",
                     "model_cost",
@@ -1071,7 +1078,7 @@
                 {
                   "id": "capacity",
                   "label": "Capacity and evidence",
-                  "intro": "Returned capacity is not revenue. Financial results remain insufficient until a payer, price and delivery evidence are recorded.",
+                  "intro": "반환된 용량은 수익이 아닙니다. 지불인, 가격 및 배송 증거가 기록될 때까지 재무 결과는 불충분합니다.",
                   "fields": [
                     "higher_value_hours",
                     "contribution_rate"
@@ -1084,7 +1091,7 @@
                 "basis": "fixed",
                 "annualPrice": 9000,
                 "label": "Proposed Nest monthly price",
-                "help": "A €750/month working hypothesis for a qualified-introduction pilot. Treat as unvalidated until an agent or brokerage pays."
+                "help": "자격을 갖춘 도입 파일럿을 위한 월 €750 작업 가설. 대리인이나 중개인이 비용을 지불할 때까지 검증되지 않은 것으로 간주됩니다."
               },
               "presentation": {
                 "financial": "optional",
@@ -1096,7 +1103,7 @@
               "primaryLabel": "Talk with Nest",
               "primaryTarget": "meet",
               "secondaryLabel": "See how it works",
-              "privacyNote": "Your data stays private. Hours are capacity. Financial amounts are modeled estimates, not observed results.",
+              "privacyNote": "귀하의 데이터는 비공개로 유지됩니다. 시간은 용량입니다. 재무 금액은 관찰된 결과가 아닌 모델링된 추정치입니다.",
               "secondaryTarget": "how-it-works"
             }
           }
@@ -1113,10 +1120,10 @@
         "backgroundImage": "/landing-pages/nest/nest-hero-interior-clean.png",
         "backgroundAlt": "따뜻하고 차분한 집 인테리어",
         "primaryCtaLabel": "Talk with Nest",
-        "secondaryCtaLabel": "소개를 요청하십시오",
+        "secondaryCtaLabel": "Nest를 만나보세요",
         "privacyLine": "한 번에 한 경기. 인간이 검토했습니다. 양측이 옵트인할 때까지 비공개.",
         "characterImage": "/landing-pages/nest/nest-character-meet-compact-high-wings-transparent.png",
-        "characterAlt": "컴팩트한 날개를 가진 노트북과 키를 들고 있는 둥지",
+        "characterAlt": "Nest 콤팩트한 날개로 수첩과 열쇠를 들고 있는 모습",
         "chat": {
           "statusLabel": "온라인 · 인간 감독",
           "privacyBadge": "사사로운",
@@ -1162,7 +1169,7 @@
       "privacy": {
         "kicker": "프라이버시는 시퀀스입니다",
         "heading": "귀하의 주소는 둘 다 예라고 말할 때까지 비공개로 유지됩니다.",
-        "body": "둥지는 이웃 크기의 지역에서 시작됩니다. 신원, 연락처 정보 및 정확한 주소는 제안 및 상호 동의 단계를 통해 잠겨 있습니다.",
+        "body": "Nest는 동네 크기의 지역으로 시작됩니다. 신원, 연락처 세부 정보 및 정확한 주소는 제안 및 상호 동의 단계에서 잠겨 있습니다.",
         "stages": [
           {
             "status": "proposed",
@@ -1196,7 +1203,7 @@
       "proposals": {
         "kicker": "제안이 어떻게 생겼는지",
         "heading": "양면. 하나는 적합하다고 간주됩니다.",
-        "body": "이 예제 카드는 둥지 제안의 모양을 보여줍니다. 그들은 상호 동의 전에 신원이나 정확한 주소를 노출하지 않습니다.",
+        "body": "이 예시 카드는 Nest 제안의 형태를 보여줍니다. 그들은 상호 동의가 있기 전에는 신원이나 정확한 주소를 결코 노출하지 않습니다.",
         "cards": [
           {
             "pairing": "구매자 × 재산",
@@ -1233,11 +1240,11 @@
         ]
       },
       "meet": {
-        "kicker": "소개를 요청하십시오",
+        "kicker": "Nest를 만나보세요",
         "heading": "당신의 코너에 있는 세부 정보 알림.",
         "body": "Nest는 당신이 사랑했던 아침 햇살, 움직일 수 없는 타이밍, 실제로 타협이 아닌 한 가지 타협점을 넘어서 경청합니다. 그런 다음 Nest는 적합하다고 간주되는 것을 다시 가져옵니다.",
         "characterImage": "/landing-pages/nest/nest-character-meet-compact-high-wings-transparent.png",
-        "characterAlt": "어깨 위쪽 어깨 뒤쪽에 컴팩트한 날개가 달린 노트북과 열쇠를 들고 둥지를 만나다",
+        "characterAlt": "Nest를 만나세요. 공책과 열쇠를 들고 어깨 위쪽으로 콤팩트한 날개를 치켜세운 사람입니다.",
         "principles": [
           {
             "title": "먼저 듣습니다",
@@ -1252,15 +1259,15 @@
             "body": "신원과 정확한 주소는 상호 동의할 때까지 비공개로 유지됩니다."
           }
         ],
-        "primaryCtaLabel": "둥지와 대화하십시오",
+        "primaryCtaLabel": "Nest와 대화하세요",
         "secondaryCtaLabel": "See how it works"
       },
       "footer": {
-        "brandLabel": "둥지.",
+        "brandLabel": "Nest.",
         "tagline": "한 번에 하나의 신중한 집 소개.",
         "disclaimer": "Nest는 허가된 중개업체가 아니며 어느 쪽도 당사자, 협상, 집을 소중히 여기거나 거래를 처리하지 않습니다. 앞으로 나아갈 준비가 되면 라이선스가 부여된 로컬 에이전트와 연결하여 프로세스를 완료합니다. Not a broker. Does not represent either party. Does not provide valuations. Does not negotiate.",
-        "eventDisclaimer": "Second Home Fair Details는 이 둥지 인스턴스화를 위해 모델링되었으며 출석 전에 확인되어야 합니다.",
-        "copyright": "© 2026 둥지",
+        "eventDisclaimer": "Second Home Fair 세부사항은 이 Nest 인스턴스화를 위해 모델링되었으며 참석하기 전에 확인되어야 합니다.",
+        "copyright": "© 2026 Nest",
         "groups": [
           {
             "label": "탐구",
@@ -1280,10 +1287,10 @@
             ]
           },
           {
-            "label": "둥지",
+            "label": "Nest",
             "links": [
               {
-                "label": "소개를 요청하십시오",
+                "label": "Nest를 만나보세요",
                 "target": "meet"
               },
               {
@@ -1300,23 +1307,23 @@
       "enabled": true,
       "kicker": "Business impact",
       "heading": "ROI Calculator",
-      "subheading": "Model a licensed second-home agent or brokerage using Nest for qualified, human-reviewed introductions in one local market.",
-      "disclaimer": "A modeled operating scenario with zero validated paid demand. Nest qualifies and coordinates consented introductions; it does not represent parties, value property, negotiate, earn commissions or guarantee a transaction.",
+      "subheading": "한 지역 시장에서 자격을 갖춘 사람의 검토를 거친 소개를 위해 Nest를 사용하여 허가받은 재택 중개인 또는 중개업체를 모델링합니다.",
+      "disclaimer": "검증된 유료 수요가 없는 모델링된 운영 시나리오. Nest는 동의된 소개를 한정하고 조정합니다. 당사자를 대표하지 않으며, 재산 가치를 평가하고, 협상하고, 수수료를 벌거나 거래를 보장하지 않습니다.",
       "currency": "EUR",
       "currencyCopy": {
         "native": "Amounts in {currency}.",
         "loading": "Checking the local currency. Amounts remain in {currency} until a rate is available.",
         "unavailable": "A current local exchange rate is unavailable. Amounts remain in {currency}.",
         "converted": "Amounts converted from {base} to {currency} using the reference rate dated {date}.",
-        "basis": "Currency conversion is not local cost research. Enter your own local costs and contribution assumptions. Language changes do not change amounts."
+        "basis": "통화 변환은 현지 비용 조사가 아닙니다. 현지 비용과 기여 가정을 입력하세요. 언어를 변경해도 금액은 변경되지 않습니다."
       },
       "costCopy": {
-        "breakdown": "How the all-in AI cost is built",
+        "breakdown": "올인 AI 비용은 어떻게 구성되나요?",
         "perUnit": "{amount} per work unit (average)",
-        "budgetOnly": "This is your total budget. Switch to Cost breakdown to itemize it; no split has been assumed.",
-        "benefitNotice": "Modeled benefits, not charges. Crossed-out amounts are spending you expect to avoid, not discounts on the AI bill.",
+        "budgetOnly": "이것이 귀하의 총 예산입니다. 항목별로 분류하려면 비용 분석으로 전환하세요. 분할이 가정되지 않았습니다.",
+        "benefitNotice": "요금이 아닌 모델링된 혜택입니다. 줄이 그어진 금액은 AI 청구서에 대한 할인이 아니라 피할 것으로 예상되는 지출입니다.",
         "remainder": "Other included operating costs",
-        "allocation": "Returned hours are capacity, not automatic savings. Only the portions you assign to actual spending reductions or additional contribution receive a monetary value."
+        "allocation": "반환된 시간은 자동 절약이 아닌 용량입니다. 실제 지출 절감이나 추가 기여에 할당한 부분만 금전적 가치를 받습니다."
       },
       "locale": "en-GB",
       "inputs": [],
@@ -1342,10 +1349,10 @@
           "workloadStep": "Introduction funnel",
           "costStep": "AI operating cost",
           "valueStep": "Capacity and evidence",
-          "workloadIntro": "Model second-home leads, qualification and human review—not property sales, commissions or guaranteed matches.",
-          "costIntro": "Token, model, tool, infrastructure, platform and reviewer costs are delivery assumptions. Nest price is a separate unvalidated hypothesis.",
-          "valueIntro": "Capacity is not revenue. Enter observed contribution only after a real agent or brokerage uses and pays for the service.",
-          "sampleNotice": "Typical usage · not observed results",
+          "workloadIntro": "부동산 판매, 커미션 또는 보장된 일치가 아닌 임대 주택 리드, 검증 및 인적 검토를 모델링합니다.",
+          "costIntro": "토큰, 모델, 도구, 인프라, 플랫폼 및 검토자 비용은 배송 가정입니다. Nest 가격은 별도의 검증되지 않은 가설입니다.",
+          "valueIntro": "용량은 수익이 아닙니다. 실제 대리인이나 중개사가 서비스를 사용하고 비용을 지불한 후에만 관찰된 기여도를 입력하세요.",
+          "sampleNotice": "일반적인 사용법 · 관찰되지 않은 결과",
           "monthly": "Monthly",
           "yearly": "Yearly",
           "next": "Continue",
@@ -1370,11 +1377,11 @@
           "reviewMode": "Who handles the review?",
           "teamReview": "Existing team",
           "paidReview": "Additional paid reviewer",
-          "reviewNote": "Existing-team review uses returned capacity. Additional paid review is included in operating cost, not deducted again from team capacity.",
+          "reviewNote": "기존 팀 검토에서는 반환된 용량을 사용합니다. 추가 유료 리뷰는 운영 비용에 포함되며 팀 용량에서 다시 공제되지 않습니다.",
           "totalMode": "Monthly budget",
           "itemizedMode": "Cost breakdown",
-          "budgetNote": "The budget must include models/media, tools, infrastructure, Gabriel fees and additional paid review. Do not include unchanged payroll as new spending.",
-          "itemizedNote": "Token usage is calculated from volume × tokens per output. Extra media, tools and infrastructure stay at zero unless they apply. Additional paid review is calculated from review hours and its rate.",
+          "budgetNote": "예산에는 모델/미디어, 도구, 인프라, Gabriel 수수료 및 추가 유료 리뷰가 포함되어야 합니다. 변경되지 않은 급여를 새로운 지출로 포함하지 마십시오.",
+          "itemizedNote": "토큰 사용량은 출력당 볼륨 × 토큰으로 계산됩니다. 추가 미디어, 도구 및 인프라는 적용되지 않는 한 0으로 유지됩니다. 추가 유료 리뷰는 리뷰 시간과 요율로 계산됩니다.",
           "paidReviewCost": "Additional paid review cost",
           "allInCost": "Operating cost",
           "missing": "Add your assumptions",
@@ -1383,36 +1390,36 @@
           "expectedLoss": "Expected loss reduction",
           "riskValue": "Uncertain risk value included",
           "economicValue": "Modeled contribution",
-          "netBenefit": "Modeled benefit after Nest price",
+          "netBenefit": "Nest 가격 이후 모델링된 이점",
           "multiple": "Internal delivery multiple",
           "customerBenefit": "Modeled agent benefit",
           "customerRoi": "Modeled customer ROI",
           "payback": "Customer payback period",
           "notApplicable": "Not applicable",
           "annual": "Annual view",
-          "annualNote": "The same monthly assumptions, without growth or compounding. Hiring savings last only for the entered period.",
+          "annualNote": "성장이나 복리 없이 동일한 월별 가정. 채용 비용 절감은 입력한 기간 동안만 지속됩니다.",
           "method": "How this is calculated",
           "burdenHeading": "Repetitive work reduced",
           "opportunityHeading": "Capacity for higher-value work",
-          "methodBody": "Operating burden removed (negative productivity) returns capacity. Higher-value work (potential positive productivity) creates economic value only if that capacity is used. Hours alone are not cash savings. Token cost uses a modeled input/output mix, not a provider quote.",
-          "formulaLabel": "Qualified briefs = leads × qualification rate. Delivery cost includes modeled token, model, tool, infrastructure, platform and human-review cost. Customer ROI remains unavailable until benefit and price are supported by evidence.",
-          "allocationNote": "Each hour can be allocated once. Unallocated hours remain capacity, with no monetary value.",
-          "overlapLabel": "These benefits are distinct; I have excluded costs and losses already counted elsewhere.",
-          "overlapNote": "Error and risk estimates exclude labor savings and the same incident must not appear in both categories. Contribution excludes AI costs, which are deducted separately.",
-          "hiringLabel": "This hire was genuinely planned and the allocated capacity can cover the work.",
-          "reviewedLabel": "I have reviewed my outcomes; unselected outcomes have no financial value in this estimate.",
+          "methodBody": "운영 부담이 제거되어(음의 생산성) 용량을 반환합니다. 더 높은 가치의 작업(잠재적 긍정적 생산성)은 해당 용량이 사용되는 경우에만 경제적 가치를 창출합니다. 시간만으로는 현금을 절약할 수 없습니다. 토큰 비용은 공급자 견적이 아닌 모델링된 입력/출력 혼합을 사용합니다.",
+          "formulaLabel": "적격 브리핑 = 리드 × 적격성 비율. 배송 비용에는 모델링된 토큰, 모델, 도구, 인프라, 플랫폼 및 인적 검토 비용이 포함됩니다. 이점과 가격이 증거로 뒷받침될 때까지 고객 ROI를 확인할 수 없습니다.",
+          "allocationNote": "각 시간은 한 번씩 할당될 수 있습니다. 할당되지 않은 시간은 금전적 가치 없이 용량으로 유지됩니다.",
+          "overlapLabel": "이러한 이점은 뚜렷합니다. 다른 곳에서 이미 계산된 비용과 손실은 제외했습니다.",
+          "overlapNote": "오류 및 위험 추정치는 인건비 절감을 제외하며 동일한 사고가 두 범주 모두에 나타나서는 안 됩니다. 기여금에는 별도로 공제되는 AI 비용이 제외됩니다.",
+          "hiringLabel": "이번 고용은 진정으로 계획된 것이며 할당된 역량으로 작업을 감당할 수 있습니다.",
+          "reviewedLabel": "나는 내 결과를 검토했습니다. 선택되지 않은 결과는 이 추정치에 금전적 가치가 없습니다.",
           "cycleResult": "Cycle-time improvement",
-          "throughputResult": "Additional work supported by capacity and demand",
-          "assumptionsIncomplete": "Complete the selected assumptions to calculate financial value.",
-          "allocationError": "Allocated hours exceed the net capacity available. Reduce the allocations.",
-          "reviewError": "Review takes more time than the work reduced. No positive capacity is available at these assumptions.",
-          "cashError": "Avoided spending cannot exceed current spending or have positive value with no hours allocated.",
-          "hiringError": "Allocated capacity must cover the planned hire hours. Confirm the planned hire and its duration.",
-          "riskError": "The after probability cannot exceed the before probability for a loss-reduction estimate.",
-          "overlapError": "Confirm the benefits do not overlap before including them in the financial result.",
-          "boundsError": "Use values within the displayed limits.",
+          "throughputResult": "용량 및 수요에 따라 지원되는 추가 작업",
+          "assumptionsIncomplete": "재정적 가치를 계산하려면 선택한 가정을 완료하세요.",
+          "allocationError": "할당된 시간이 사용 가능한 순 용량을 초과합니다. 할당을 줄입니다.",
+          "reviewError": "검토 작업은 줄어든 작업보다 시간이 더 걸립니다. 이러한 가정에서는 양의 용량을 사용할 수 없습니다.",
+          "cashError": "회피된 지출은 현재 지출을 초과할 수 없으며 할당된 시간이 없을 때 양수 값을 가질 수 없습니다.",
+          "hiringError": "할당된 용량은 계획된 고용 시간을 포함해야 합니다. 계획된 고용과 기간을 확인합니다.",
+          "riskError": "이후 확률은 손실 감소 추정에 대한 이전 확률을 초과할 수 없습니다.",
+          "overlapError": "재무 결과에 포함하기 전에 혜택이 중복되지 않는지 확인하세요.",
+          "boundsError": "표시된 한계 내의 값을 사용하십시오.",
           "rangeLabel": "Adjust value",
-          "noCurrencyChange": "Language changes formatting, not your currency or assumptions.",
+          "noCurrencyChange": "언어는 통화나 가정이 아니라 형식을 변경합니다.",
           "currentPreparation": "현재 준비 시간",
           "reviewHours": "휴먼 리뷰 시간",
           "reworkHours": "재작업 시간을 피하거나 추가했습니다",
@@ -1428,148 +1435,148 @@
         },
         "fields": {
           "volume": {
-            "label": "Leads or briefs entering the desk each month",
-            "help": "Count inbound second-home enquiries in the selected market, not property transactions."
+            "label": "매달 책상에 들어오는 리드 또는 브리핑",
+            "help": "부동산 거래가 아닌 선택한 시장의 인바운드 두 번째 주택 문의를 계산합니다."
           },
           "accepted_rate": {
             "label": "Share becoming qualified briefs",
-            "help": "A modeled qualification rate. Replace it with observed funnel data after a pilot."
+            "help": "모델링된 자격률. 파일럿 후에 관찰된 퍼널 데이터로 대체합니다."
           },
           "attendance_rate": {
             "label": "Expected attendance rate",
-            "help": "Modeled share of accepted meetings expected to happen. Replace this with verified event records after a pilot."
+            "help": "예상되는 수락된 회의의 점유율을 모델링했습니다. 파일럿 후에 이를 확인된 이벤트 기록으로 바꿉니다."
           },
           "minutes": {
-            "label": "Minutes to qualify one buyer brief today",
-            "help": "Active intake and qualification time, excluding elapsed days and property-search time."
+            "label": "오늘 구매자 1인의 자격을 갖추는 데 필요한 시간 브리핑",
+            "help": "경과 일수 및 자산 검색 시간을 제외한 활성 입학 및 자격 취득 시간입니다."
           },
           "automation": {
-            "label": "Share of that work reduced",
-            "help": "An illustrative assumption to validate in a pilot, not a performance promise."
+            "label": "해당 작업의 비율이 감소함",
+            "help": "성능 약속이 아닌 파일럿에서 검증하기 위한 예시적인 가정입니다."
           },
           "review": {
-            "label": "Minutes a reviewer spends confirming each brief",
-            "help": "Human review still required before either side sees a proposal."
+            "label": "검토자가 각 요약을 확인하는 데 소요되는 시간(분)",
+            "help": "어느 쪽이든 제안서를 보기 전에 여전히 사람의 검토가 필요합니다."
           },
           "cycles_per_unit": {
-            "label": "Cycles per unit each month",
-            "help": "How many recurring order, review or processing cycles each unit runs in a typical month."
+            "label": "매월 단위당 주기",
+            "help": "각 단위가 일반적으로 한 달에 실행하는 반복 주문, 검토 또는 처리 주기 수입니다."
           },
           "tokens_per_output": {
-            "label": "Tokens per qualified buyer brief",
-            "help": "Modeled input and output tokens for one reviewable brief; provider usage must replace this hypothesis."
+            "label": "적격 구매자별 토큰 개요",
+            "help": "하나의 검토 가능한 요약을 위한 모델링된 입력 및 출력 토큰 공급자 사용은 이 가설을 대체해야 합니다."
           },
           "budget": {
             "label": "Estimated monthly operating budget",
-            "help": "Include token usage, models/media, tools, infrastructure, Gabriel fees and additional paid review."
+            "help": "토큰 사용, 모델/미디어, 도구, 인프라, Gabriel 수수료 및 추가 유료 리뷰를 포함합니다."
           },
           "model_cost": {
-            "label": "Additional model or media cost",
-            "help": "Enter separately billed models or media. Leave zero when included in the token envelope."
+            "label": "추가 모델 또는 미디어 비용",
+            "help": "별도로 청구되는 모델이나 미디어를 입력하세요. 토큰 봉투에 포함된 경우 0을 그대로 둡니다."
           },
           "tools_cost": {
             "label": "Tools and integrations",
-            "help": "Browser sessions, connectors and other metered services. Enter zero if none."
+            "help": "브라우저 세션, 커넥터 및 기타 측정 서비스. 없으면 0을 입력하세요."
           },
           "infrastructure_cost": {
             "label": "Infrastructure",
-            "help": "Incremental hosting, storage and compute for this workload. Enter zero if none."
+            "help": "이 워크로드를 위한 증분 호스팅, 스토리지 및 컴퓨팅. 없으면 0을 입력하세요."
           },
           "platform_cost": {
-            "label": "Other delivery and support cost",
-            "help": "Modeled hosting, storage, monitoring and support cost, separate from the customer price."
+            "label": "기타 배송 및 지원 비용",
+            "help": "고객 가격과 별도로 호스팅, 스토리지, 모니터링 및 지원 비용을 모델링했습니다."
           },
           "customer_price": {
             "label": "Proposed monthly Nest price",
-            "help": "Editable agent/brokerage pricing hypothesis. It is not validated revenue and must be tested in a paid pilot."
+            "help": "편집 가능한 에이전트/중개 가격 가설. 검증된 수익이 아니며 유료 파일럿에서 테스트해야 합니다."
           },
           "personal_value_per_hour": {
-            "label": "Optional value you assign to an hour",
-            "help": "An optional personal comparison only. This is not salary, wages or guaranteed cash savings."
+            "label": "시간에 할당하는 선택적 값",
+            "help": "선택적인 개인 비교일 뿐입니다. 이는 급여, 임금 또는 보장된 현금 저축이 아닙니다."
           },
           "review_rate": {
-            "label": "Additional paid review per hour",
-            "help": "Actual extra reviewer spending, not the salary of an unchanged employee."
+            "label": "시간당 추가 유료 리뷰",
+            "help": "변경되지 않은 직원의 급여가 아닌 실제 추가 검토자 지출입니다."
           },
           "cash_hours": {
-            "label": "Hours that remove paid work",
-            "help": "Allocate only work whose overtime, contractor or processing spend will actually stop."
+            "label": "유급 작업을 제거하는 시간",
+            "help": "초과 근무, 계약자 또는 처리 비용이 실제로 중단되는 작업만 할당하십시오."
           },
           "cash_baseline": {
-            "label": "Current monthly spending on that work",
-            "help": "The cash budget from which the reduction will come."
+            "label": "해당 작업에 대한 현재 월별 지출",
+            "help": "감소가 발생하는 현금 예산입니다."
           },
           "cash_avoided": {
-            "label": "Monthly spending you would stop",
-            "help": "One explicit amount, not hours multiplied by salary; exclude any planned-hire saving entered separately."
+            "label": "월간 지출을 중단할 수 있습니다.",
+            "help": "시간에 급여를 곱한 것이 아니라 하나의 명시적인 금액입니다. 별도로 입력된 계획된 고용 절감액은 제외됩니다."
           },
           "higher_value_hours": {
-            "label": "Hours agents can use for real conversations",
-            "help": "Only capacity with observed demand receives an economic value."
+            "label": "상담원이 실제 대화에 사용할 수 있는 시간",
+            "help": "관찰된 수요가 있는 용량만이 경제적 가치를 받습니다."
           },
           "contribution_rate": {
-            "label": "Incremental contribution per agent hour",
-            "help": "Contribution from additional work, excluding property value, commissions and costs already counted."
+            "label": "상담원 시간당 증분 기여도",
+            "help": "이미 계산된 부동산 가치, 커미션 및 비용을 제외한 추가 작업으로 인한 기여금입니다."
           },
           "throughput_hours": {
-            "label": "Hours used for additional volume",
-            "help": "This allocation cannot also be used for advisory work or spending reductions."
+            "label": "추가 볼륨에 사용된 시간",
+            "help": "이 할당은 자문 작업이나 지출 절감에도 사용할 수 없습니다."
           },
           "extra_minutes": {
-            "label": "Team minutes per additional unit",
-            "help": "The remaining human effort, including review, needed to deliver one more unit."
+            "label": "추가 단위당 팀 시간",
+            "help": "검토를 포함한 남은 인간의 노력은 하나의 단위를 더 제공하는 데 필요했습니다."
           },
           "demand": {
-            "label": "Additional units with expected demand",
-            "help": "Capacity alone is not demand. Enter the extra monthly work you expect to take on."
+            "label": "수요가 예상되는 추가 유닛",
+            "help": "용량만으로는 수요가 없습니다. 수행할 것으로 예상되는 추가 월별 작업을 입력하세요."
           },
           "unit_margin": {
             "label": "Contribution per additional unit",
-            "help": "Incremental revenue less delivery costs; AI operating costs are deducted separately."
+            "help": "배송 비용을 제외한 추가 수익; AI 운영 비용은 별도로 공제됩니다."
           },
           "hiring_hours": {
-            "label": "Hours covering the planned hire",
-            "help": "Allocate capacity to specific planned work, not a generic full-time-equivalent estimate."
+            "label": "계획된 고용 시간",
+            "help": "일반적인 정규직 추정이 아닌 특정 계획 작업에 용량을 할당합니다."
           },
           "planned_hours": {
-            "label": "Monthly hours the planned hire would cover",
-            "help": "The allocated capacity must cover this entire workload."
+            "label": "계획된 고용에 포함되는 월별 시간",
+            "help": "할당된 용량은 이 전체 워크로드를 포괄해야 합니다."
           },
           "hire_cost": {
-            "label": "Monthly hire cost actually deferred",
-            "help": "Use the cost of a genuinely planned hire, not the salary of someone already employed."
+            "label": "실제로 월 임대료가 연기되었습니다.",
+            "help": "이미 고용된 사람의 급여가 아닌 실제로 계획된 고용 비용을 사용하십시오."
           },
           "hire_months": {
-            "label": "Months that hire is deferred",
-            "help": "One to twelve months; the annual estimate stops counting savings after this period."
+            "label": "고용이 연기되는 달",
+            "help": "1~12개월; 이 기간 이후에는 연간 추정치에서 절감액 계산이 중단됩니다."
           },
           "incidents": {
-            "label": "Expected avoided errors per month",
-            "help": "Use your baseline and expected reduction. Exclude incidents also counted as risk reduction."
+            "label": "월별 예상 방지 오류",
+            "help": "기준선과 예상 감소량을 사용하세요. 사고도 위험 감소로 간주하여 제외합니다."
           },
           "incident_cost": {
             "label": "Incremental cost per error",
-            "help": "Exclude labor, refunds or other losses already included elsewhere."
+            "help": "다른 곳에 이미 포함된 인건비, 환불 또는 기타 손실은 제외하세요."
           },
           "probability_before": {
             "label": "Monthly loss probability before",
-            "help": "Your estimate, not a guaranteed risk assessment."
+            "help": "보장된 위험 평가가 아닌 귀하의 추정치입니다."
           },
           "probability_after": {
             "label": "Monthly loss probability after",
-            "help": "Use the same event and monthly time horizon as the baseline."
+            "help": "동일한 이벤트 및 월별 기간을 기준으로 사용합니다."
           },
           "loss": {
-            "label": "Loss exposure for that event",
-            "help": "Exclude error incidents and spending already counted. This is uncertain expected value, not cash saved."
+            "label": "해당 이벤트에 대한 손실 노출",
+            "help": "이미 계산된 오류 사고 및 지출을 제외합니다. 이는 저장된 현금이 아닌 불확실한 기대 가치입니다."
           },
           "days_before": {
-            "label": "Cycle time before, in days",
-            "help": "Elapsed time from start to completion, separate from hands-on effort."
+            "label": "이전 주기 시간(일)",
+            "help": "직접 작업한 작업과 별개로 시작부터 완료까지 경과된 시간입니다."
           },
           "days_after": {
-            "label": "Cycle time after, in days",
-            "help": "Shown as an operational change only, without an assumed monetary value."
+            "label": "이후 주기 시간(일)",
+            "help": "가정된 금전적 가치 없이 운영 변경으로만 표시됩니다."
           }
         },
         "burden": [
@@ -1578,7 +1585,7 @@
         ],
         "opportunity": [
           "More qualified, human-reviewed introductions",
-          "Time for agent conversations and client needs"
+          "상담원과 대화하고 고객의 요구사항을 파악하는 시간"
         ],
         "usagePackages": {
           "base": {
@@ -1628,14 +1635,19 @@
           {
             "id": "higher_value",
             "label": "Keep agents on conversations",
-            "help": "Enter only capacity that can be redirected to real agent or brokerage work; do not treat property value or commission as Nest revenue."
+            "help": "실제 에이전트나 중개 업무로 전환할 수 있는 용량만 입력하세요. 부동산 가치나 수수료를 Nest 수익으로 취급하지 마세요."
+          },
+          {
+            "id": "cash",
+            "label": "유급 섭취 지원 감소",
+            "help": "초과 근무 시간이나 계약업체의 수동 구매자 간략 입력에 대한 지출을 줄입니다. 급여는 그대로 유지됩니다."
           }
         ],
         "tabs": [
           {
             "id": "funnel",
             "label": "Introduction funnel",
-            "intro": "Model leads entering the agent or brokerage desk, qualification, and human review.",
+            "intro": "대리인 또는 중개 데스크에 진입하는 리드 모델, 자격 및 인적 검토.",
             "fields": [
               "volume",
               "accepted_rate",
@@ -1646,7 +1658,7 @@
           {
             "id": "costs",
             "label": "AI operating cost",
-            "intro": "Keep model, token, tool, infrastructure, platform and reviewer costs separate from the proposed customer price.",
+            "intro": "모델, 토큰, 도구, 인프라, 플랫폼 및 검토자 비용을 제안된 고객 가격과 별도로 유지하세요.",
             "fields": [
               "tokens_per_output",
               "model_cost",
@@ -1660,7 +1672,7 @@
           {
             "id": "capacity",
             "label": "Capacity and evidence",
-            "intro": "Returned capacity is not revenue. Financial results remain insufficient until a payer, price and delivery evidence are recorded.",
+            "intro": "반환된 용량은 수익이 아닙니다. 지불인, 가격 및 배송 증거가 기록될 때까지 재무 결과는 불충분합니다.",
             "fields": [
               "higher_value_hours",
               "contribution_rate"
@@ -1673,7 +1685,7 @@
           "basis": "fixed",
           "annualPrice": 9000,
           "label": "Proposed Nest monthly price",
-          "help": "A €750/month working hypothesis for a qualified-introduction pilot. Treat as unvalidated until an agent or brokerage pays."
+          "help": "자격을 갖춘 도입 파일럿을 위한 월 €750 작업 가설. 대리인이나 중개인이 비용을 지불할 때까지 검증되지 않은 것으로 간주됩니다."
         },
         "presentation": {
           "financial": "optional",
@@ -1685,7 +1697,7 @@
         "primaryLabel": "Talk with Nest",
         "primaryTarget": "meet",
         "secondaryLabel": "See how it works",
-        "privacyNote": "Your data stays private. Hours are capacity. Financial amounts are modeled estimates, not observed results.",
+        "privacyNote": "귀하의 데이터는 비공개로 유지됩니다. 시간은 용량입니다. 재무 금액은 관찰된 결과가 아닌 모델링된 추정치입니다.",
         "secondaryTarget": "how-it-works"
       }
     }
@@ -1972,6 +1984,16 @@
         "availabilityLabel"
       ],
       "sourceHash": "4ccdf0d88d921c3c0274c16ab665fd021b888edca40c2f1887ca4da4e2e61adc"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "profileModeId"
+      ],
+      "sourceHash": "6dbd0f28d0d97656768b7b4ed96255e67fd11740a44b1c4b575191b06e9e3a35"
     },
     {
       "path": [
@@ -4653,34 +4675,9 @@
         0,
         "roiCalculator",
         "businessImpact",
-        "costMode"
-      ],
-      "sourceHash": "0257609b2e009aa6c788941fbcaeee13877465889a94aaf0444c7d4159ee616c"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        0,
-        "roiCalculator",
-        "businessImpact",
         "reviewMode"
       ],
       "sourceHash": "ca8b22d0db83a22db163b560b3e4e51527e533d31d067b614a0c33c4d2df8432"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        0,
-        "roiCalculator",
-        "businessImpact",
-        "selected",
-        0
-      ],
-      "sourceHash": "c8333158bd18b91a71842cfd38c2d6ddab471bda158b19286d96d4a4ed973ac4"
     },
     {
       "path": [
@@ -4760,51 +4757,6 @@
         "roiCalculator",
         "businessImpact",
         "tabs",
-        0,
-        "fields",
-        0
-      ],
-      "sourceHash": "62d7a6b1211d627650e2bf0c869b69b564e2cd74290ae1dd78ae4b5e20b0cfe7"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        0,
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        0,
-        "fields",
-        1
-      ],
-      "sourceHash": "533c554a619ee86f5b109e6356436592d023fca097b61a42a5769899f3e49ded"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        0,
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        0,
-        "fields",
-        2
-      ],
-      "sourceHash": "c97ace4c8fef2cee8fa0f3c9f52aab18dbd4f42438afe362ffb8f75ce4c04b84"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        0,
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
         1,
         "label"
       ],
@@ -4823,96 +4775,6 @@
         "intro"
       ],
       "sourceHash": "ecb995d2474e26388c933fda1b6a2ac889d6f3629ab1f42fe73e918b2733817f"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        0,
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        1,
-        "fields",
-        0
-      ],
-      "sourceHash": "252b07fa1db64f9ca920817ce39dec8523f46fca171a3dfd2721f7406ad524b3"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        0,
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        1,
-        "fields",
-        1
-      ],
-      "sourceHash": "d1bedf986ff719c3697d5349d0a881f26ca60c944250a6b9d841dbfdd75ec256"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        0,
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        1,
-        "fields",
-        2
-      ],
-      "sourceHash": "d36f8ed71fe4f06ad33653f5b2a02efb6b90532b03694d27b25f01211ee64df5"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        0,
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        1,
-        "fields",
-        3
-      ],
-      "sourceHash": "5ef2621e3c47a6ca8fc7990c6ffa19b229e742540611b01e0f1d253b33808503"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        0,
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        1,
-        "fields",
-        4
-      ],
-      "sourceHash": "ddb2485b111f5d7373d804bdb4010b2590b72ba7b899fd5e11c4e0d5e00fb524"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        0,
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        1,
-        "fields",
-        5
-      ],
-      "sourceHash": "b90c7599f77434bcd2d32958a8557417fb5333b4dbd169ff8c5ee65bbb5008ef"
     },
     {
       "path": [
@@ -4950,49 +4812,6 @@
         0,
         "roiCalculator",
         "businessImpact",
-        "tabs",
-        2,
-        "fields",
-        0
-      ],
-      "sourceHash": "f033d3c123d7de8fa6a1706e2f8dee954bec3ef08f9c5a10de37ab050e4d25ab"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        0,
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        2,
-        "fields",
-        1
-      ],
-      "sourceHash": "b28c91bc16791f680909ec198a45e7c491055b8c4c558da970e1e9bcd2635edc"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        0,
-        "roiCalculator",
-        "businessImpact",
-        "pricing",
-        "basis"
-      ],
-      "sourceHash": "992a93455c71fedd36ac9bbc439952c041cf61445958472af479269b8d873513"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        0,
-        "roiCalculator",
-        "businessImpact",
         "pricing",
         "label"
       ],
@@ -5010,19 +4829,6 @@
         "help"
       ],
       "sourceHash": "aebaed823e7b8d30309648e6c85cfe4d7f6cb7938bdf923f2c68c9b67ff269da"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        0,
-        "roiCalculator",
-        "businessImpact",
-        "presentation",
-        "financial"
-      ],
-      "sourceHash": "ec91fdd9256cb75ae611249b50cb7eb16533f0fa91b86239ec1d439a1ea033b8"
     },
     {
       "path": [
@@ -5059,6 +4865,16 @@
         "privacyNote"
       ],
       "sourceHash": "0e96f5e15977ab0a2a8d684c0d35d7459f3afc862b606046310ae1fbbd4be12b"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "profileModeId"
+      ],
+      "sourceHash": "a4279eae47aaa7417da62434795a011ccb0ec870f7f56646d181b5500a892a9a"
     },
     {
       "path": [
@@ -7809,34 +7625,9 @@
         1,
         "roiCalculator",
         "businessImpact",
-        "costMode"
-      ],
-      "sourceHash": "0257609b2e009aa6c788941fbcaeee13877465889a94aaf0444c7d4159ee616c"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        1,
-        "roiCalculator",
-        "businessImpact",
         "reviewMode"
       ],
       "sourceHash": "ca8b22d0db83a22db163b560b3e4e51527e533d31d067b614a0c33c4d2df8432"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        1,
-        "roiCalculator",
-        "businessImpact",
-        "selected",
-        0
-      ],
-      "sourceHash": "c8333158bd18b91a71842cfd38c2d6ddab471bda158b19286d96d4a4ed973ac4"
     },
     {
       "path": [
@@ -7887,6 +7678,34 @@
         1,
         "roiCalculator",
         "businessImpact",
+        "outcomes",
+        1,
+        "label"
+      ],
+      "sourceHash": "aea4419b254433ce01374056925b89821689edcecc57fcd6988c2abc3f51c102"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "businessImpact",
+        "outcomes",
+        1,
+        "help"
+      ],
+      "sourceHash": "79f050bc25f624be1f08b5c05a4ac923c1c16bcf253e4009d475f35d6a7a6927"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "businessImpact",
         "tabs",
         0,
         "label"
@@ -7906,51 +7725,6 @@
         "intro"
       ],
       "sourceHash": "db6c00c1b6ccac892da8c66e20f05fcc3bf78c2a3b4929b7c5ad4c53ce32e23a"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        1,
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        0,
-        "fields",
-        0
-      ],
-      "sourceHash": "62d7a6b1211d627650e2bf0c869b69b564e2cd74290ae1dd78ae4b5e20b0cfe7"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        1,
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        0,
-        "fields",
-        1
-      ],
-      "sourceHash": "533c554a619ee86f5b109e6356436592d023fca097b61a42a5769899f3e49ded"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        1,
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        0,
-        "fields",
-        2
-      ],
-      "sourceHash": "c97ace4c8fef2cee8fa0f3c9f52aab18dbd4f42438afe362ffb8f75ce4c04b84"
     },
     {
       "path": [
@@ -7989,96 +7763,6 @@
         "roiCalculator",
         "businessImpact",
         "tabs",
-        1,
-        "fields",
-        0
-      ],
-      "sourceHash": "252b07fa1db64f9ca920817ce39dec8523f46fca171a3dfd2721f7406ad524b3"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        1,
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        1,
-        "fields",
-        1
-      ],
-      "sourceHash": "d1bedf986ff719c3697d5349d0a881f26ca60c944250a6b9d841dbfdd75ec256"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        1,
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        1,
-        "fields",
-        2
-      ],
-      "sourceHash": "d36f8ed71fe4f06ad33653f5b2a02efb6b90532b03694d27b25f01211ee64df5"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        1,
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        1,
-        "fields",
-        3
-      ],
-      "sourceHash": "5ef2621e3c47a6ca8fc7990c6ffa19b229e742540611b01e0f1d253b33808503"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        1,
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        1,
-        "fields",
-        4
-      ],
-      "sourceHash": "ddb2485b111f5d7373d804bdb4010b2590b72ba7b899fd5e11c4e0d5e00fb524"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        1,
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        1,
-        "fields",
-        5
-      ],
-      "sourceHash": "b90c7599f77434bcd2d32958a8557417fb5333b4dbd169ff8c5ee65bbb5008ef"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        1,
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
         2,
         "label"
       ],
@@ -8106,49 +7790,6 @@
         1,
         "roiCalculator",
         "businessImpact",
-        "tabs",
-        2,
-        "fields",
-        0
-      ],
-      "sourceHash": "f033d3c123d7de8fa6a1706e2f8dee954bec3ef08f9c5a10de37ab050e4d25ab"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        1,
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        2,
-        "fields",
-        1
-      ],
-      "sourceHash": "b28c91bc16791f680909ec198a45e7c491055b8c4c558da970e1e9bcd2635edc"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        1,
-        "roiCalculator",
-        "businessImpact",
-        "pricing",
-        "basis"
-      ],
-      "sourceHash": "992a93455c71fedd36ac9bbc439952c041cf61445958472af479269b8d873513"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        1,
-        "roiCalculator",
-        "businessImpact",
         "pricing",
         "label"
       ],
@@ -8166,19 +7807,6 @@
         "help"
       ],
       "sourceHash": "aebaed823e7b8d30309648e6c85cfe4d7f6cb7938bdf923f2c68c9b67ff269da"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        1,
-        "roiCalculator",
-        "businessImpact",
-        "presentation",
-        "financial"
-      ],
-      "sourceHash": "ec91fdd9256cb75ae611249b50cb7eb16533f0fa91b86239ec1d439a1ea033b8"
     },
     {
       "path": [
@@ -11002,28 +10630,9 @@
         "landingPage",
         "roiCalculator",
         "businessImpact",
-        "costMode"
-      ],
-      "sourceHash": "0257609b2e009aa6c788941fbcaeee13877465889a94aaf0444c7d4159ee616c"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
         "reviewMode"
       ],
       "sourceHash": "ca8b22d0db83a22db163b560b3e4e51527e533d31d067b614a0c33c4d2df8432"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "selected",
-        0
-      ],
-      "sourceHash": "c8333158bd18b91a71842cfd38c2d6ddab471bda158b19286d96d4a4ed973ac4"
     },
     {
       "path": [
@@ -11062,6 +10671,28 @@
         "landingPage",
         "roiCalculator",
         "businessImpact",
+        "outcomes",
+        1,
+        "label"
+      ],
+      "sourceHash": "aea4419b254433ce01374056925b89821689edcecc57fcd6988c2abc3f51c102"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "outcomes",
+        1,
+        "help"
+      ],
+      "sourceHash": "6070b25168d7d93f6574ee09ea6117accce9c1b93d909efd04ea4406665cee17"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
         "tabs",
         0,
         "label"
@@ -11078,42 +10709,6 @@
         "intro"
       ],
       "sourceHash": "db6c00c1b6ccac892da8c66e20f05fcc3bf78c2a3b4929b7c5ad4c53ce32e23a"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        0,
-        "fields",
-        0
-      ],
-      "sourceHash": "62d7a6b1211d627650e2bf0c869b69b564e2cd74290ae1dd78ae4b5e20b0cfe7"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        0,
-        "fields",
-        1
-      ],
-      "sourceHash": "533c554a619ee86f5b109e6356436592d023fca097b61a42a5769899f3e49ded"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        0,
-        "fields",
-        2
-      ],
-      "sourceHash": "c97ace4c8fef2cee8fa0f3c9f52aab18dbd4f42438afe362ffb8f75ce4c04b84"
     },
     {
       "path": [
@@ -11143,78 +10738,6 @@
         "roiCalculator",
         "businessImpact",
         "tabs",
-        1,
-        "fields",
-        0
-      ],
-      "sourceHash": "252b07fa1db64f9ca920817ce39dec8523f46fca171a3dfd2721f7406ad524b3"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        1,
-        "fields",
-        1
-      ],
-      "sourceHash": "d1bedf986ff719c3697d5349d0a881f26ca60c944250a6b9d841dbfdd75ec256"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        1,
-        "fields",
-        2
-      ],
-      "sourceHash": "d36f8ed71fe4f06ad33653f5b2a02efb6b90532b03694d27b25f01211ee64df5"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        1,
-        "fields",
-        3
-      ],
-      "sourceHash": "5ef2621e3c47a6ca8fc7990c6ffa19b229e742540611b01e0f1d253b33808503"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        1,
-        "fields",
-        4
-      ],
-      "sourceHash": "ddb2485b111f5d7373d804bdb4010b2590b72ba7b899fd5e11c4e0d5e00fb524"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        1,
-        "fields",
-        5
-      ],
-      "sourceHash": "b90c7599f77434bcd2d32958a8557417fb5333b4dbd169ff8c5ee65bbb5008ef"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
         2,
         "label"
       ],
@@ -11236,40 +10759,6 @@
         "landingPage",
         "roiCalculator",
         "businessImpact",
-        "tabs",
-        2,
-        "fields",
-        0
-      ],
-      "sourceHash": "f033d3c123d7de8fa6a1706e2f8dee954bec3ef08f9c5a10de37ab050e4d25ab"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        2,
-        "fields",
-        1
-      ],
-      "sourceHash": "b28c91bc16791f680909ec198a45e7c491055b8c4c558da970e1e9bcd2635edc"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "pricing",
-        "basis"
-      ],
-      "sourceHash": "992a93455c71fedd36ac9bbc439952c041cf61445958472af479269b8d873513"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
         "pricing",
         "label"
       ],
@@ -11284,16 +10773,6 @@
         "help"
       ],
       "sourceHash": "aebaed823e7b8d30309648e6c85cfe4d7f6cb7938bdf923f2c68c9b67ff269da"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "presentation",
-        "financial"
-      ],
-      "sourceHash": "ec91fdd9256cb75ae611249b50cb7eb16533f0fa91b86239ec1d439a1ea033b8"
     },
     {
       "path": [
@@ -11323,5 +10802,5 @@
       "sourceHash": "0e96f5e15977ab0a2a8d684c0d35d7459f3afc862b606046310ae1fbbd4be12b"
     }
   ],
-  "generatedAt": "2026-09-11T04:18:29.310Z"
+  "generatedAt": "2026-10-01T12:38:33.352Z"
 }

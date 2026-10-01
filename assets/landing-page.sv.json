@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "language": "sv",
   "regionKey": null,
-  "sourceRevision": "e38bb8570798c46b5f8766ead43d9c6f4648a19d3d096d1d92c424fb5a6774a0",
+  "sourceRevision": "9b00d9081f920764fbd3e5bcdb077a7b34f8b04299a9af6b2aee818670157abf",
   "landingPage": {
     "headline": "En kvalificerad introduktion som passar.",
     "subheadline": "Privata köpare och säljare introduktioner, ett mänskligt granskat förslag i taget.",
@@ -65,7 +65,7 @@
     },
     "homeIntroductions": {
       "header": {
-        "brandLabel": "bo.",
+        "brandLabel": "Nest.",
         "brandTagline": "En noggrann introduktion",
         "navItems": [
           {
@@ -81,7 +81,7 @@
             "target": "hero-chat"
           }
         ],
-        "ctaLabel": "Begär en introduktion",
+        "ctaLabel": "Möt Nest",
         "mobileCtaLabel": "Start",
         "editionLabel": "Köp",
         "secondaryEditionLabel": "Sälj"
@@ -105,7 +105,7 @@
             "mode": "city",
             "label": "Stad",
             "actionLabel": "Se",
-            "name": "Bo Amsterdam",
+            "name": "Nest Amsterdam",
             "location": "Amsterdam Zuid",
             "dateRange": "Pågående",
             "availabilityLabel": "Alltid på lokala introduktioner"
@@ -115,6 +115,7 @@
       "tracks": [
         {
           "id": "buying",
+          "profileModeId": "buyer",
           "label": "Jag köper",
           "responseMessage": "Berätta för mig hemmet som skulle vara värt att flytta för. Jag ber bara om de detaljer som en mänsklig recensent behöver, och sedan ta tillbaka en som anses lämplig.",
           "composerPlaceholder": "Berätta för Nest vad du behöver från ett hem...",
@@ -129,7 +130,7 @@
             {
               "number": "02",
               "image": "/landing-pages/nest/nest-how-review-human.webp",
-              "alt": "bo och en mänsklig recensent överväger noggrant en köpare och ett hem",
+              "alt": "Nest och en mänsklig granskare som noggrant överväger en köpare och ett hem",
               "title": "få en egendom som passar i taget.",
               "body": "En person granskar varje förslag innan någondera sidan ser det. Ingen offentlig katalog, rankning eller oändligt filterrutnät.",
               "badge": "människogodkänd"
@@ -202,7 +203,7 @@
             {
               "key": "privateConstraints",
               "label": "Privata begränsningar",
-              "placeholder": "Allt bo bör hålla sig privat",
+              "placeholder": "Anything Nest should keep private",
               "type": "textarea",
               "required": false
             }
@@ -212,21 +213,21 @@
             "enabled": true,
             "kicker": "Business impact",
             "heading": "ROI Calculator",
-            "subheading": "Model a licensed second-home agent or brokerage using Nest for qualified, human-reviewed introductions in one local market.",
-            "disclaimer": "A modeled operating scenario with zero validated paid demand. Nest qualifies and coordinates consented introductions; it does not represent parties, value property, negotiate, earn commissions or guarantee a transaction.",
+            "subheading": "Modellera en licensierad andrahandsagent eller mäklarfirma med Nest för kvalificerade, mänskligt granskade introduktioner på en lokal marknad.",
+            "disclaimer": "Ett modellerat driftscenario med noll validerad betald efterfrågan. Nest kvalificerar och koordinerar godkända introduktioner; it does not represent parties, value property, negotiate, earn commissions or guarantee a transaction.",
             "currency": "EUR",
             "currencyCopy": {
               "native": "Amounts in {currency}.",
               "loading": "Checking the local currency. Amounts remain in {currency} until a rate is available.",
               "unavailable": "A current local exchange rate is unavailable. Amounts remain in {currency}.",
               "converted": "Amounts converted from {base} to {currency} using the reference rate dated {date}.",
-              "basis": "Currency conversion is not local cost research. Enter your own local costs and contribution assumptions. Language changes do not change amounts."
+              "basis": "Valutaomvandling är inte lokal kostnadsundersökning. Enter your own local costs and contribution assumptions. Språkändringar ändrar inte mängder."
             },
             "costCopy": {
               "breakdown": "How the all-in AI cost is built",
               "perUnit": "{amount} per work unit (average)",
-              "budgetOnly": "This is your total budget. Switch to Cost breakdown to itemize it; no split has been assumed.",
-              "benefitNotice": "Modeled benefits, not charges. Crossed-out amounts are spending you expect to avoid, not discounts on the AI bill.",
+              "budgetOnly": "Detta är din totala budget. Byt till kostnadsfördelning för att specificera den; ingen splittring har antagits.",
+              "benefitNotice": "Modellerade förmåner, inte avgifter. Överkorsade belopp är utgifter du förväntar dig att undvika, inte rabatter på AI-notan.",
               "remainder": "Other included operating costs",
               "allocation": "Returned hours are capacity, not automatic savings. Only the portions you assign to actual spending reductions or additional contribution receive a monetary value."
             },
@@ -250,14 +251,14 @@
                 "customer_price": 750
               },
               "copy": {
-                "navLabel": "Priser",
+                "navLabel": "Prissättning",
                 "workloadStep": "Introduction funnel",
                 "costStep": "AI operating cost",
                 "valueStep": "Capacity and evidence",
-                "workloadIntro": "Model second-home leads, qualification and human review—not property sales, commissions or guaranteed matches.",
-                "costIntro": "Token, model, tool, infrastructure, platform and reviewer costs are delivery assumptions. Nest price is a separate unvalidated hypothesis.",
-                "valueIntro": "Capacity is not revenue. Enter observed contribution only after a real agent or brokerage uses and pays for the service.",
-                "sampleNotice": "Typical usage · not observed results",
+                "workloadIntro": "Modellera potentiella kunder, kvalifikationer och mänsklig granskning – inte försäljning av fastigheter, provisioner eller garanterade matchningar.",
+                "costIntro": "Token-, modell-, verktygs-, infrastruktur-, plattforms- och granskarkostnader är leveransantaganden. Nest pris är en separat ovaliderad hypotes.",
+                "valueIntro": "Kapacitet är inte intäkt. Ange observerat bidrag först efter att en verklig agent eller mäklare använder och betalar för tjänsten.",
+                "sampleNotice": "Typisk användning · ej observerade resultat",
                 "monthly": "Monthly",
                 "yearly": "Yearly",
                 "next": "Continue",
@@ -282,10 +283,10 @@
                 "reviewMode": "Who handles the review?",
                 "teamReview": "Existing team",
                 "paidReview": "Additional paid reviewer",
-                "reviewNote": "Existing-team review uses returned capacity. Additional paid review is included in operating cost, not deducted again from team capacity.",
+                "reviewNote": "Befintlig teamgranskning använder returnerad kapacitet. Ytterligare betald recension ingår i driftskostnaden, dras inte av igen från teamkapaciteten.",
                 "totalMode": "Monthly budget",
                 "itemizedMode": "Cost breakdown",
-                "budgetNote": "The budget must include models/media, tools, infrastructure, Gabriel fees and additional paid review. Do not include unchanged payroll as new spending.",
+                "budgetNote": "Budgeten ska innehålla modeller/media, verktyg, infrastruktur, Gabriel-arvoden och ytterligare betald recension. Inkludera inte oförändrad löneräkning som nya utgifter.",
                 "itemizedNote": "Token usage is calculated from volume × tokens per output. Extra media, tools and infrastructure stay at zero unless they apply. Additional paid review is calculated from review hours and its rate.",
                 "paidReviewCost": "Additional paid review cost",
                 "allInCost": "Operating cost",
@@ -295,36 +296,36 @@
                 "expectedLoss": "Expected loss reduction",
                 "riskValue": "Uncertain risk value included",
                 "economicValue": "Modeled contribution",
-                "netBenefit": "Modeled benefit after Nest price",
+                "netBenefit": "Modellerad förmån efter Nest pris",
                 "multiple": "Internal delivery multiple",
                 "customerBenefit": "Modeled agent benefit",
                 "customerRoi": "Modeled customer ROI",
                 "payback": "Customer payback period",
                 "notApplicable": "Not applicable",
                 "annual": "Annual view",
-                "annualNote": "The same monthly assumptions, without growth or compounding. Hiring savings last only for the entered period.",
+                "annualNote": "Samma månatliga antaganden, utan tillväxt eller sammansättning. Hiring savings last only for the entered period.",
                 "method": "How this is calculated",
                 "burdenHeading": "Repetitive work reduced",
                 "opportunityHeading": "Capacity for higher-value work",
-                "methodBody": "Operating burden removed (negative productivity) returns capacity. Higher-value work (potential positive productivity) creates economic value only if that capacity is used. Hours alone are not cash savings. Token cost uses a modeled input/output mix, not a provider quote.",
-                "formulaLabel": "Qualified briefs = leads × qualification rate. Delivery cost includes modeled token, model, tool, infrastructure, platform and human-review cost. Customer ROI remains unavailable until benefit and price are supported by evidence.",
-                "allocationNote": "Each hour can be allocated once. Unallocated hours remain capacity, with no monetary value.",
-                "overlapLabel": "These benefits are distinct; I have excluded costs and losses already counted elsewhere.",
-                "overlapNote": "Error and risk estimates exclude labor savings and the same incident must not appear in both categories. Contribution excludes AI costs, which are deducted separately.",
-                "hiringLabel": "This hire was genuinely planned and the allocated capacity can cover the work.",
-                "reviewedLabel": "I have reviewed my outcomes; unselected outcomes have no financial value in this estimate.",
+                "methodBody": "Driftsbördan tas bort (negativ produktivitet) ger tillbaka kapacitet. Arbete med högre värde (potentiell positiv produktivitet) skapar ekonomiskt värde endast om den kapaciteten används. Bara timmar är inte kontantbesparingar. Token cost uses a modeled input/output mix, not a provider quote.",
+                "formulaLabel": "Kvalificerade trosor = leads × kvalificeringsgrad. Leveranskostnaden inkluderar modellerad token, modell, verktyg, infrastruktur, plattform och kostnad för mänsklig granskning. Kundens ROI förblir otillgänglig tills nytta och pris stöds av bevis.",
+                "allocationNote": "Varje timme kan tilldelas en gång. Otilldelade timmar förblir kapacitet, utan pengar.",
+                "overlapLabel": "These benefits are distinct; Jag har exkluderat kostnader och förluster som redan räknats på annat håll.",
+                "overlapNote": "Fel- och riskuppskattningar utesluter arbetsbesparingar och samma incident får inte förekomma i båda kategorierna. Bidraget exkluderar AI-kostnader, som dras av separat.",
+                "hiringLabel": "Denna hyra var genuint planerad och den tilldelade kapaciteten kan täcka arbetet.",
+                "reviewedLabel": "I have reviewed my outcomes; ej valda utfall har inget ekonomiskt värde i denna uppskattning.",
                 "cycleResult": "Cycle-time improvement",
                 "throughputResult": "Additional work supported by capacity and demand",
-                "assumptionsIncomplete": "Complete the selected assumptions to calculate financial value.",
-                "allocationError": "Allocated hours exceed the net capacity available. Reduce the allocations.",
-                "reviewError": "Review takes more time than the work reduced. No positive capacity is available at these assumptions.",
-                "cashError": "Avoided spending cannot exceed current spending or have positive value with no hours allocated.",
-                "hiringError": "Allocated capacity must cover the planned hire hours. Confirm the planned hire and its duration.",
-                "riskError": "The after probability cannot exceed the before probability for a loss-reduction estimate.",
-                "overlapError": "Confirm the benefits do not overlap before including them in the financial result.",
+                "assumptionsIncomplete": "Fyll i de valda antagandena för att beräkna ekonomiskt värde.",
+                "allocationError": "Tilldelade timmar överstiger den tillgängliga nettokapaciteten. Minska anslagen.",
+                "reviewError": "Review takes more time than the work reduced. Ingen positiv kapacitet är tillgänglig vid dessa antaganden.",
+                "cashError": "Undvikda utgifter får inte överstiga nuvarande utgifter eller ha ett positivt värde utan några timmar.",
+                "hiringError": "Tilldelad kapacitet ska täcka de planerade hyrtimmar. Confirm the planned hire and its duration.",
+                "riskError": "Sannolikheten efter kan inte överstiga före-sannolikheten för en förlustreduktionsuppskattning.",
+                "overlapError": "Bekräfta att fördelarna inte överlappar varandra innan du inkluderar dem i det ekonomiska resultatet.",
                 "boundsError": "Use values within the displayed limits.",
                 "rangeLabel": "Adjust value",
-                "noCurrencyChange": "Language changes formatting, not your currency or assumptions.",
+                "noCurrencyChange": "Språket ändrar formateringen, inte din valuta eller dina antaganden.",
                 "currentPreparation": "Aktuella förberedelsetider",
                 "reviewHours": "Human Review Hours",
                 "reworkHours": "undviks eller lagt till omarbetningstider",
@@ -341,15 +342,15 @@
               "fields": {
                 "volume": {
                   "label": "Leads or briefs entering the desk each month",
-                  "help": "Count inbound second-home enquiries in the selected market, not property transactions."
+                  "help": "Räkna inkommande fritidshusförfrågningar på den valda marknaden, inte fastighetstransaktioner."
                 },
                 "accepted_rate": {
                   "label": "Share becoming qualified briefs",
-                  "help": "A modeled qualification rate. Replace it with observed funnel data after a pilot."
+                  "help": "En modellerad kvalifikationsgrad. Replace it with observed funnel data after a pilot."
                 },
                 "attendance_rate": {
                   "label": "Expected attendance rate",
-                  "help": "Modeled share of accepted meetings expected to happen. Replace this with verified event records after a pilot."
+                  "help": "Modeled share of accepted meetings expected to happen. Ersätt detta med verifierade händelseposter efter en pilot."
                 },
                 "minutes": {
                   "label": "Minutes to qualify one buyer brief today",
@@ -360,8 +361,8 @@
                   "help": "An illustrative assumption to validate in a pilot, not a performance promise."
                 },
                 "review": {
-                  "label": "Minutes a reviewer spends confirming each brief",
-                  "help": "Human review still required before either side sees a proposal."
+                  "label": "Minuter en granskare lägger ner på att bekräfta varje kort",
+                  "help": "Mänsklig granskning krävs fortfarande innan någon sida ser ett förslag."
                 },
                 "cycles_per_unit": {
                   "label": "Cycles per unit each month",
@@ -369,11 +370,11 @@
                 },
                 "tokens_per_output": {
                   "label": "Tokens per qualified buyer brief",
-                  "help": "Modeled input and output tokens for one reviewable brief; provider usage must replace this hypothesis."
+                  "help": "Modellerade ingångs- och utmatningssymboler för en granskningsberättelse; leverantörsanvändning måste ersätta denna hypotes."
                 },
                 "budget": {
                   "label": "Estimated monthly operating budget",
-                  "help": "Include token usage, models/media, tools, infrastructure, Gabriel fees and additional paid review."
+                  "help": "Inkludera tokenanvändning, modeller/media, verktyg, infrastruktur, Gabriel-avgifter och ytterligare betald recension."
                 },
                 "model_cost": {
                   "label": "Additional model or media cost",
@@ -381,15 +382,15 @@
                 },
                 "tools_cost": {
                   "label": "Tools and integrations",
-                  "help": "Browser sessions, connectors and other metered services. Enter zero if none."
+                  "help": "Webbläsarsessioner, anslutningar och andra mättjänster. Ange noll om ingen."
                 },
                 "infrastructure_cost": {
                   "label": "Infrastructure",
-                  "help": "Incremental hosting, storage and compute for this workload. Enter zero if none."
+                  "help": "Incremental hosting, storage and compute for this workload. Ange noll om ingen."
                 },
                 "platform_cost": {
-                  "label": "Other delivery and support cost",
-                  "help": "Modeled hosting, storage, monitoring and support cost, separate from the customer price."
+                  "label": "Övriga leverans- och supportkostnader",
+                  "help": "Modellerad hosting, lagring, övervakning och supportkostnad, separat från kundpriset."
                 },
                 "customer_price": {
                   "label": "Proposed monthly Nest price",
@@ -397,14 +398,14 @@
                 },
                 "personal_value_per_hour": {
                   "label": "Optional value you assign to an hour",
-                  "help": "An optional personal comparison only. This is not salary, wages or guaranteed cash savings."
+                  "help": "Endast en valfri personlig jämförelse. This is not salary, wages or guaranteed cash savings."
                 },
                 "review_rate": {
                   "label": "Additional paid review per hour",
-                  "help": "Actual extra reviewer spending, not the salary of an unchanged employee."
+                  "help": "Faktiska extra granskarutgifter, inte lönen för en oförändrad anställd."
                 },
                 "cash_hours": {
-                  "label": "Hours that remove paid work",
+                  "label": "Timmar som tar bort betalt arbete",
                   "help": "Allocate only work whose overtime, contractor or processing spend will actually stop."
                 },
                 "cash_baseline": {
@@ -412,75 +413,75 @@
                   "help": "The cash budget from which the reduction will come."
                 },
                 "cash_avoided": {
-                  "label": "Monthly spending you would stop",
-                  "help": "One explicit amount, not hours multiplied by salary; exclude any planned-hire saving entered separately."
+                  "label": "Månatliga utgifter du skulle sluta",
+                  "help": "Ett uttryckligt belopp, inte timmar multiplicerat med lön; exkludera eventuella planerade hyresbesparingar som anges separat."
                 },
                 "higher_value_hours": {
-                  "label": "Hours agents can use for real conversations",
-                  "help": "Only capacity with observed demand receives an economic value."
+                  "label": "Hours-agenter kan använda för riktiga konversationer",
+                  "help": "Endast kapacitet med observerad efterfrågan får ett ekonomiskt värde."
                 },
                 "contribution_rate": {
                   "label": "Incremental contribution per agent hour",
                   "help": "Contribution from additional work, excluding property value, commissions and costs already counted."
                 },
                 "throughput_hours": {
-                  "label": "Hours used for additional volume",
+                  "label": "Timmar som används för extra volym",
                   "help": "This allocation cannot also be used for advisory work or spending reductions."
                 },
                 "extra_minutes": {
-                  "label": "Team minutes per additional unit",
+                  "label": "Lagminuter per extra enhet",
                   "help": "The remaining human effort, including review, needed to deliver one more unit."
                 },
                 "demand": {
-                  "label": "Additional units with expected demand",
-                  "help": "Capacity alone is not demand. Enter the extra monthly work you expect to take on."
+                  "label": "Ytterligare enheter med förväntad efterfrågan",
+                  "help": "Enbart kapacitet är inte efterfrågan. Enter the extra monthly work you expect to take on."
                 },
                 "unit_margin": {
                   "label": "Contribution per additional unit",
-                  "help": "Incremental revenue less delivery costs; AI operating costs are deducted separately."
+                  "help": "Inkrementella intäkter minus leveranskostnader; Driftskostnader för AI dras av separat."
                 },
                 "hiring_hours": {
-                  "label": "Hours covering the planned hire",
+                  "label": "Timmar som täcker den planerade hyran",
                   "help": "Allocate capacity to specific planned work, not a generic full-time-equivalent estimate."
                 },
                 "planned_hours": {
-                  "label": "Monthly hours the planned hire would cover",
-                  "help": "The allocated capacity must cover this entire workload."
+                  "label": "Månadstimmar som den planerade hyran skulle täcka",
+                  "help": "Den tilldelade kapaciteten måste täcka hela denna arbetsbörda."
                 },
                 "hire_cost": {
-                  "label": "Monthly hire cost actually deferred",
+                  "label": "Månatlig hyra kostnad faktiskt uppskjuten",
                   "help": "Use the cost of a genuinely planned hire, not the salary of someone already employed."
                 },
                 "hire_months": {
-                  "label": "Months that hire is deferred",
-                  "help": "One to twelve months; the annual estimate stops counting savings after this period."
+                  "label": "Månader som hyran skjuts upp",
+                  "help": "En till tolv månader; the annual estimate stops counting savings after this period."
                 },
                 "incidents": {
-                  "label": "Expected avoided errors per month",
-                  "help": "Use your baseline and expected reduction. Exclude incidents also counted as risk reduction."
+                  "label": "Förväntade undvikade fel per månad",
+                  "help": "Använd din baslinje och förväntade minskning. Exkludera incidenter som också räknas som riskminskning."
                 },
                 "incident_cost": {
                   "label": "Incremental cost per error",
-                  "help": "Exclude labor, refunds or other losses already included elsewhere."
+                  "help": "Uteslut arbete, återbetalningar eller andra förluster som redan ingår någon annanstans."
                 },
                 "probability_before": {
                   "label": "Monthly loss probability before",
-                  "help": "Your estimate, not a guaranteed risk assessment."
+                  "help": "Din uppskattning, inte en garanterad riskbedömning."
                 },
                 "probability_after": {
                   "label": "Monthly loss probability after",
                   "help": "Use the same event and monthly time horizon as the baseline."
                 },
                 "loss": {
-                  "label": "Loss exposure for that event",
+                  "label": "Förlustexponering för den händelsen",
                   "help": "Exclude error incidents and spending already counted. This is uncertain expected value, not cash saved."
                 },
                 "days_before": {
-                  "label": "Cycle time before, in days",
-                  "help": "Elapsed time from start to completion, separate from hands-on effort."
+                  "label": "Cykeltid före, i dagar",
+                  "help": "Förfluten tid från start till slutförande, separat från praktisk ansträngning."
                 },
                 "days_after": {
-                  "label": "Cycle time after, in days",
+                  "label": "Cykeltid efter, i dagar",
                   "help": "Shown as an operational change only, without an assumed monetary value."
                 }
               },
@@ -540,7 +541,7 @@
                 {
                   "id": "higher_value",
                   "label": "Keep agents on conversations",
-                  "help": "Enter only capacity that can be redirected to real agent or brokerage work; do not treat property value or commission as Nest revenue."
+                  "help": "Ange endast kapacitet som kan omdirigeras till verkligt agent- eller mäklararbete; do not treat property value or commission as Nest revenue."
                 }
               ],
               "tabs": [
@@ -585,7 +586,7 @@
                 "basis": "fixed",
                 "annualPrice": 9000,
                 "label": "Proposed Nest monthly price",
-                "help": "A €750/month working hypothesis for a qualified-introduction pilot. Treat as unvalidated until an agent or brokerage pays."
+                "help": "En arbetshypotes för 750 €/månad för en kvalificerad introduktionspilot. Behandla som ogiltig tills en agent eller mäklare betalar."
               },
               "presentation": {
                 "financial": "optional",
@@ -597,13 +598,14 @@
               "primaryLabel": "Talk with Nest",
               "primaryTarget": "meet",
               "secondaryLabel": "See how it works",
-              "privacyNote": "Your data stays private. Hours are capacity. Financial amounts are modeled estimates, not observed results.",
+              "privacyNote": "Din data förblir privat. Timmar är kapacitet. Finansiella belopp är modellerade uppskattningar, inte observerade resultat.",
               "secondaryTarget": "how-it-works"
             }
           }
         },
         {
           "id": "selling",
+          "profileModeId": "seller",
           "label": "Jag säljer",
           "responseMessage": "Berätta för mig vad som gör hemmet distinkt och vilken köpare som skulle passa seriöst. Jag kommer att hålla den exakta adressen privat och ta tillbaka en övervägd introduktion.",
           "composerPlaceholder": "Berätta för Nest vad som är viktigt med din försäljning...",
@@ -701,7 +703,7 @@
             {
               "key": "privateConstraints",
               "label": "Privata begränsningar",
-              "placeholder": "Allt bo bör hålla sig privat",
+              "placeholder": "Anything Nest should keep private",
               "type": "textarea",
               "required": false
             }
@@ -711,21 +713,21 @@
             "enabled": true,
             "kicker": "Business impact",
             "heading": "ROI Calculator",
-            "subheading": "Model a licensed second-home agent or brokerage using Nest for qualified, human-reviewed introductions in one local market.",
-            "disclaimer": "A modeled operating scenario with zero validated paid demand. Nest qualifies and coordinates consented introductions; it does not represent parties, value property, negotiate, earn commissions or guarantee a transaction.",
+            "subheading": "Modellera en licensierad andrahandsagent eller mäklarfirma med Nest för kvalificerade, mänskligt granskade introduktioner på en lokal marknad.",
+            "disclaimer": "Ett modellerat driftscenario med noll validerad betald efterfrågan. Nest kvalificerar och koordinerar godkända introduktioner; it does not represent parties, value property, negotiate, earn commissions or guarantee a transaction.",
             "currency": "EUR",
             "currencyCopy": {
               "native": "Amounts in {currency}.",
               "loading": "Checking the local currency. Amounts remain in {currency} until a rate is available.",
               "unavailable": "A current local exchange rate is unavailable. Amounts remain in {currency}.",
               "converted": "Amounts converted from {base} to {currency} using the reference rate dated {date}.",
-              "basis": "Currency conversion is not local cost research. Enter your own local costs and contribution assumptions. Language changes do not change amounts."
+              "basis": "Valutaomvandling är inte lokal kostnadsundersökning. Enter your own local costs and contribution assumptions. Språkändringar ändrar inte mängder."
             },
             "costCopy": {
               "breakdown": "How the all-in AI cost is built",
               "perUnit": "{amount} per work unit (average)",
-              "budgetOnly": "This is your total budget. Switch to Cost breakdown to itemize it; no split has been assumed.",
-              "benefitNotice": "Modeled benefits, not charges. Crossed-out amounts are spending you expect to avoid, not discounts on the AI bill.",
+              "budgetOnly": "Detta är din totala budget. Byt till kostnadsfördelning för att specificera den; ingen splittring har antagits.",
+              "benefitNotice": "Modellerade förmåner, inte avgifter. Överkorsade belopp är utgifter du förväntar dig att undvika, inte rabatter på AI-notan.",
               "remainder": "Other included operating costs",
               "allocation": "Returned hours are capacity, not automatic savings. Only the portions you assign to actual spending reductions or additional contribution receive a monetary value."
             },
@@ -749,14 +751,14 @@
                 "customer_price": 750
               },
               "copy": {
-                "navLabel": "Priser",
+                "navLabel": "Prissättning",
                 "workloadStep": "Introduction funnel",
                 "costStep": "AI operating cost",
                 "valueStep": "Capacity and evidence",
-                "workloadIntro": "Model second-home leads, qualification and human review—not property sales, commissions or guaranteed matches.",
-                "costIntro": "Token, model, tool, infrastructure, platform and reviewer costs are delivery assumptions. Nest price is a separate unvalidated hypothesis.",
-                "valueIntro": "Capacity is not revenue. Enter observed contribution only after a real agent or brokerage uses and pays for the service.",
-                "sampleNotice": "Typical usage · not observed results",
+                "workloadIntro": "Modellera potentiella kunder, kvalifikationer och mänsklig granskning – inte försäljning av fastigheter, provisioner eller garanterade matchningar.",
+                "costIntro": "Token-, modell-, verktygs-, infrastruktur-, plattforms- och granskarkostnader är leveransantaganden. Nest pris är en separat ovaliderad hypotes.",
+                "valueIntro": "Kapacitet är inte intäkt. Ange observerat bidrag först efter att en verklig agent eller mäklare använder och betalar för tjänsten.",
+                "sampleNotice": "Typisk användning · ej observerade resultat",
                 "monthly": "Monthly",
                 "yearly": "Yearly",
                 "next": "Continue",
@@ -781,10 +783,10 @@
                 "reviewMode": "Who handles the review?",
                 "teamReview": "Existing team",
                 "paidReview": "Additional paid reviewer",
-                "reviewNote": "Existing-team review uses returned capacity. Additional paid review is included in operating cost, not deducted again from team capacity.",
+                "reviewNote": "Befintlig teamgranskning använder returnerad kapacitet. Ytterligare betald recension ingår i driftskostnaden, dras inte av igen från teamkapaciteten.",
                 "totalMode": "Monthly budget",
                 "itemizedMode": "Cost breakdown",
-                "budgetNote": "The budget must include models/media, tools, infrastructure, Gabriel fees and additional paid review. Do not include unchanged payroll as new spending.",
+                "budgetNote": "Budgeten ska innehålla modeller/media, verktyg, infrastruktur, Gabriel-arvoden och ytterligare betald recension. Inkludera inte oförändrad löneräkning som nya utgifter.",
                 "itemizedNote": "Token usage is calculated from volume × tokens per output. Extra media, tools and infrastructure stay at zero unless they apply. Additional paid review is calculated from review hours and its rate.",
                 "paidReviewCost": "Additional paid review cost",
                 "allInCost": "Operating cost",
@@ -794,36 +796,36 @@
                 "expectedLoss": "Expected loss reduction",
                 "riskValue": "Uncertain risk value included",
                 "economicValue": "Modeled contribution",
-                "netBenefit": "Modeled benefit after Nest price",
+                "netBenefit": "Modellerad förmån efter Nest pris",
                 "multiple": "Internal delivery multiple",
                 "customerBenefit": "Modeled agent benefit",
                 "customerRoi": "Modeled customer ROI",
                 "payback": "Customer payback period",
                 "notApplicable": "Not applicable",
                 "annual": "Annual view",
-                "annualNote": "The same monthly assumptions, without growth or compounding. Hiring savings last only for the entered period.",
+                "annualNote": "Samma månatliga antaganden, utan tillväxt eller sammansättning. Hiring savings last only for the entered period.",
                 "method": "How this is calculated",
                 "burdenHeading": "Repetitive work reduced",
                 "opportunityHeading": "Capacity for higher-value work",
-                "methodBody": "Operating burden removed (negative productivity) returns capacity. Higher-value work (potential positive productivity) creates economic value only if that capacity is used. Hours alone are not cash savings. Token cost uses a modeled input/output mix, not a provider quote.",
-                "formulaLabel": "Qualified briefs = leads × qualification rate. Delivery cost includes modeled token, model, tool, infrastructure, platform and human-review cost. Customer ROI remains unavailable until benefit and price are supported by evidence.",
-                "allocationNote": "Each hour can be allocated once. Unallocated hours remain capacity, with no monetary value.",
-                "overlapLabel": "These benefits are distinct; I have excluded costs and losses already counted elsewhere.",
-                "overlapNote": "Error and risk estimates exclude labor savings and the same incident must not appear in both categories. Contribution excludes AI costs, which are deducted separately.",
-                "hiringLabel": "This hire was genuinely planned and the allocated capacity can cover the work.",
-                "reviewedLabel": "I have reviewed my outcomes; unselected outcomes have no financial value in this estimate.",
+                "methodBody": "Driftsbördan tas bort (negativ produktivitet) ger tillbaka kapacitet. Arbete med högre värde (potentiell positiv produktivitet) skapar ekonomiskt värde endast om den kapaciteten används. Bara timmar är inte kontantbesparingar. Token cost uses a modeled input/output mix, not a provider quote.",
+                "formulaLabel": "Kvalificerade trosor = leads × kvalificeringsgrad. Leveranskostnaden inkluderar modellerad token, modell, verktyg, infrastruktur, plattform och kostnad för mänsklig granskning. Kundens ROI förblir otillgänglig tills nytta och pris stöds av bevis.",
+                "allocationNote": "Varje timme kan tilldelas en gång. Otilldelade timmar förblir kapacitet, utan pengar.",
+                "overlapLabel": "These benefits are distinct; Jag har exkluderat kostnader och förluster som redan räknats på annat håll.",
+                "overlapNote": "Fel- och riskuppskattningar utesluter arbetsbesparingar och samma incident får inte förekomma i båda kategorierna. Bidraget exkluderar AI-kostnader, som dras av separat.",
+                "hiringLabel": "Denna hyra var genuint planerad och den tilldelade kapaciteten kan täcka arbetet.",
+                "reviewedLabel": "I have reviewed my outcomes; ej valda utfall har inget ekonomiskt värde i denna uppskattning.",
                 "cycleResult": "Cycle-time improvement",
                 "throughputResult": "Additional work supported by capacity and demand",
-                "assumptionsIncomplete": "Complete the selected assumptions to calculate financial value.",
-                "allocationError": "Allocated hours exceed the net capacity available. Reduce the allocations.",
-                "reviewError": "Review takes more time than the work reduced. No positive capacity is available at these assumptions.",
-                "cashError": "Avoided spending cannot exceed current spending or have positive value with no hours allocated.",
-                "hiringError": "Allocated capacity must cover the planned hire hours. Confirm the planned hire and its duration.",
-                "riskError": "The after probability cannot exceed the before probability for a loss-reduction estimate.",
-                "overlapError": "Confirm the benefits do not overlap before including them in the financial result.",
+                "assumptionsIncomplete": "Fyll i de valda antagandena för att beräkna ekonomiskt värde.",
+                "allocationError": "Tilldelade timmar överstiger den tillgängliga nettokapaciteten. Minska anslagen.",
+                "reviewError": "Review takes more time than the work reduced. Ingen positiv kapacitet är tillgänglig vid dessa antaganden.",
+                "cashError": "Undvikda utgifter får inte överstiga nuvarande utgifter eller ha ett positivt värde utan några timmar.",
+                "hiringError": "Tilldelad kapacitet ska täcka de planerade hyrtimmar. Confirm the planned hire and its duration.",
+                "riskError": "Sannolikheten efter kan inte överstiga före-sannolikheten för en förlustreduktionsuppskattning.",
+                "overlapError": "Bekräfta att fördelarna inte överlappar varandra innan du inkluderar dem i det ekonomiska resultatet.",
                 "boundsError": "Use values within the displayed limits.",
                 "rangeLabel": "Adjust value",
-                "noCurrencyChange": "Language changes formatting, not your currency or assumptions.",
+                "noCurrencyChange": "Språket ändrar formateringen, inte din valuta eller dina antaganden.",
                 "currentPreparation": "Aktuella förberedelsetider",
                 "reviewHours": "Human Review Hours",
                 "reworkHours": "undviks eller lagt till omarbetningstider",
@@ -840,18 +842,18 @@
               "fields": {
                 "volume": {
                   "label": "Leads or briefs entering the desk each month",
-                  "help": "Count inbound second-home enquiries in the selected market, not property transactions."
+                  "help": "Räkna inkommande fritidshusförfrågningar på den valda marknaden, inte fastighetstransaktioner."
                 },
                 "accepted_rate": {
                   "label": "Share becoming qualified briefs",
-                  "help": "A modeled qualification rate. Replace it with observed funnel data after a pilot."
+                  "help": "En modellerad kvalifikationsgrad. Replace it with observed funnel data after a pilot."
                 },
                 "attendance_rate": {
                   "label": "Expected attendance rate",
-                  "help": "Modeled share of accepted meetings expected to happen. Replace this with verified event records after a pilot."
+                  "help": "Modeled share of accepted meetings expected to happen. Ersätt detta med verifierade händelseposter efter en pilot."
                 },
                 "minutes": {
-                  "label": "Minutes to qualify one seller brief today",
+                  "label": "Protokoll för att kvalificera en säljare i dag",
                   "help": "Active intake and qualification time, excluding elapsed days and property-search time."
                 },
                 "automation": {
@@ -859,20 +861,20 @@
                   "help": "An illustrative assumption to validate in a pilot, not a performance promise."
                 },
                 "review": {
-                  "label": "Minutes a reviewer spends confirming each brief",
-                  "help": "Human review still required before either side sees a proposal."
+                  "label": "Minuter en granskare lägger ner på att bekräfta varje kort",
+                  "help": "Mänsklig granskning krävs fortfarande innan någon sida ser ett förslag."
                 },
                 "cycles_per_unit": {
                   "label": "Cycles per unit each month",
                   "help": "How many recurring order, review or processing cycles each unit runs in a typical month."
                 },
                 "tokens_per_output": {
-                  "label": "Tokens per qualified seller brief",
-                  "help": "Modeled input and output tokens for one reviewable brief; provider usage must replace this hypothesis."
+                  "label": "Tokens per kvalificerad säljare",
+                  "help": "Modellerade ingångs- och utmatningssymboler för en granskningsberättelse; leverantörsanvändning måste ersätta denna hypotes."
                 },
                 "budget": {
                   "label": "Estimated monthly operating budget",
-                  "help": "Include token usage, models/media, tools, infrastructure, Gabriel fees and additional paid review."
+                  "help": "Inkludera tokenanvändning, modeller/media, verktyg, infrastruktur, Gabriel-avgifter och ytterligare betald recension."
                 },
                 "model_cost": {
                   "label": "Additional model or media cost",
@@ -880,15 +882,15 @@
                 },
                 "tools_cost": {
                   "label": "Tools and integrations",
-                  "help": "Browser sessions, connectors and other metered services. Enter zero if none."
+                  "help": "Webbläsarsessioner, anslutningar och andra mättjänster. Ange noll om ingen."
                 },
                 "infrastructure_cost": {
                   "label": "Infrastructure",
-                  "help": "Incremental hosting, storage and compute for this workload. Enter zero if none."
+                  "help": "Incremental hosting, storage and compute for this workload. Ange noll om ingen."
                 },
                 "platform_cost": {
-                  "label": "Other delivery and support cost",
-                  "help": "Modeled hosting, storage, monitoring and support cost, separate from the customer price."
+                  "label": "Övriga leverans- och supportkostnader",
+                  "help": "Modellerad hosting, lagring, övervakning och supportkostnad, separat från kundpriset."
                 },
                 "customer_price": {
                   "label": "Proposed monthly Nest price",
@@ -896,14 +898,14 @@
                 },
                 "personal_value_per_hour": {
                   "label": "Optional value you assign to an hour",
-                  "help": "An optional personal comparison only. This is not salary, wages or guaranteed cash savings."
+                  "help": "Endast en valfri personlig jämförelse. This is not salary, wages or guaranteed cash savings."
                 },
                 "review_rate": {
                   "label": "Additional paid review per hour",
-                  "help": "Actual extra reviewer spending, not the salary of an unchanged employee."
+                  "help": "Faktiska extra granskarutgifter, inte lönen för en oförändrad anställd."
                 },
                 "cash_hours": {
-                  "label": "Hours that remove paid work",
+                  "label": "Timmar som tar bort betalt arbete",
                   "help": "Allocate only work whose overtime, contractor or processing spend will actually stop."
                 },
                 "cash_baseline": {
@@ -911,75 +913,75 @@
                   "help": "The cash budget from which the reduction will come."
                 },
                 "cash_avoided": {
-                  "label": "Monthly spending you would stop",
-                  "help": "One explicit amount, not hours multiplied by salary; exclude any planned-hire saving entered separately."
+                  "label": "Månatliga utgifter du skulle sluta",
+                  "help": "Ett uttryckligt belopp, inte timmar multiplicerat med lön; exkludera eventuella planerade hyresbesparingar som anges separat."
                 },
                 "higher_value_hours": {
-                  "label": "Hours agents can use for real conversations",
-                  "help": "Only capacity with observed demand receives an economic value."
+                  "label": "Hours-agenter kan använda för riktiga konversationer",
+                  "help": "Endast kapacitet med observerad efterfrågan får ett ekonomiskt värde."
                 },
                 "contribution_rate": {
                   "label": "Incremental contribution per agent hour",
                   "help": "Contribution from additional work, excluding property value, commissions and costs already counted."
                 },
                 "throughput_hours": {
-                  "label": "Hours used for additional volume",
+                  "label": "Timmar som används för extra volym",
                   "help": "This allocation cannot also be used for advisory work or spending reductions."
                 },
                 "extra_minutes": {
-                  "label": "Team minutes per additional unit",
+                  "label": "Lagminuter per extra enhet",
                   "help": "The remaining human effort, including review, needed to deliver one more unit."
                 },
                 "demand": {
-                  "label": "Additional units with expected demand",
-                  "help": "Capacity alone is not demand. Enter the extra monthly work you expect to take on."
+                  "label": "Ytterligare enheter med förväntad efterfrågan",
+                  "help": "Enbart kapacitet är inte efterfrågan. Enter the extra monthly work you expect to take on."
                 },
                 "unit_margin": {
                   "label": "Contribution per additional unit",
-                  "help": "Incremental revenue less delivery costs; AI operating costs are deducted separately."
+                  "help": "Inkrementella intäkter minus leveranskostnader; Driftskostnader för AI dras av separat."
                 },
                 "hiring_hours": {
-                  "label": "Hours covering the planned hire",
+                  "label": "Timmar som täcker den planerade hyran",
                   "help": "Allocate capacity to specific planned work, not a generic full-time-equivalent estimate."
                 },
                 "planned_hours": {
-                  "label": "Monthly hours the planned hire would cover",
-                  "help": "The allocated capacity must cover this entire workload."
+                  "label": "Månadstimmar som den planerade hyran skulle täcka",
+                  "help": "Den tilldelade kapaciteten måste täcka hela denna arbetsbörda."
                 },
                 "hire_cost": {
-                  "label": "Monthly hire cost actually deferred",
+                  "label": "Månatlig hyra kostnad faktiskt uppskjuten",
                   "help": "Use the cost of a genuinely planned hire, not the salary of someone already employed."
                 },
                 "hire_months": {
-                  "label": "Months that hire is deferred",
-                  "help": "One to twelve months; the annual estimate stops counting savings after this period."
+                  "label": "Månader som hyran skjuts upp",
+                  "help": "En till tolv månader; the annual estimate stops counting savings after this period."
                 },
                 "incidents": {
-                  "label": "Expected avoided errors per month",
-                  "help": "Use your baseline and expected reduction. Exclude incidents also counted as risk reduction."
+                  "label": "Förväntade undvikade fel per månad",
+                  "help": "Använd din baslinje och förväntade minskning. Exkludera incidenter som också räknas som riskminskning."
                 },
                 "incident_cost": {
                   "label": "Incremental cost per error",
-                  "help": "Exclude labor, refunds or other losses already included elsewhere."
+                  "help": "Uteslut arbete, återbetalningar eller andra förluster som redan ingår någon annanstans."
                 },
                 "probability_before": {
                   "label": "Monthly loss probability before",
-                  "help": "Your estimate, not a guaranteed risk assessment."
+                  "help": "Din uppskattning, inte en garanterad riskbedömning."
                 },
                 "probability_after": {
                   "label": "Monthly loss probability after",
                   "help": "Use the same event and monthly time horizon as the baseline."
                 },
                 "loss": {
-                  "label": "Loss exposure for that event",
+                  "label": "Förlustexponering för den händelsen",
                   "help": "Exclude error incidents and spending already counted. This is uncertain expected value, not cash saved."
                 },
                 "days_before": {
-                  "label": "Cycle time before, in days",
-                  "help": "Elapsed time from start to completion, separate from hands-on effort."
+                  "label": "Cykeltid före, i dagar",
+                  "help": "Förfluten tid från start till slutförande, separat från praktisk ansträngning."
                 },
                 "days_after": {
-                  "label": "Cycle time after, in days",
+                  "label": "Cykeltid efter, i dagar",
                   "help": "Shown as an operational change only, without an assumed monetary value."
                 }
               },
@@ -1039,7 +1041,12 @@
                 {
                   "id": "higher_value",
                   "label": "Keep agents on conversations",
-                  "help": "Enter only capacity that can be redirected to real agent or brokerage work; do not treat property value or commission as Nest revenue."
+                  "help": "Ange endast kapacitet som kan omdirigeras till verkligt agent- eller mäklararbete; do not treat property value or commission as Nest revenue."
+                },
+                {
+                  "id": "cash",
+                  "label": "Minska betalda intagsstöd",
+                  "help": "Reduce overtime or contractor spend on manual seller-brief intake — not unchanged salaries."
                 }
               ],
               "tabs": [
@@ -1084,7 +1091,7 @@
                 "basis": "fixed",
                 "annualPrice": 9000,
                 "label": "Proposed Nest monthly price",
-                "help": "A €750/month working hypothesis for a qualified-introduction pilot. Treat as unvalidated until an agent or brokerage pays."
+                "help": "En arbetshypotes för 750 €/månad för en kvalificerad introduktionspilot. Behandla som ogiltig tills en agent eller mäklare betalar."
               },
               "presentation": {
                 "financial": "optional",
@@ -1096,7 +1103,7 @@
               "primaryLabel": "Talk with Nest",
               "primaryTarget": "meet",
               "secondaryLabel": "See how it works",
-              "privacyNote": "Your data stays private. Hours are capacity. Financial amounts are modeled estimates, not observed results.",
+              "privacyNote": "Din data förblir privat. Timmar är kapacitet. Finansiella belopp är modellerade uppskattningar, inte observerade resultat.",
               "secondaryTarget": "how-it-works"
             }
           }
@@ -1113,10 +1120,10 @@
         "backgroundImage": "/landing-pages/nest/nest-hero-interior-clean.png",
         "backgroundAlt": "En varm, lugn heminredning",
         "primaryCtaLabel": "Talk with Nest",
-        "secondaryCtaLabel": "Begär en introduktion",
+        "secondaryCtaLabel": "Möt Nest",
         "privacyLine": "En match i taget. Människan granskad. Privat tills båda sidor väljer att delta.",
         "characterImage": "/landing-pages/nest/nest-character-meet-compact-high-wings-transparent.png",
-        "characterAlt": "Bo som håller en anteckningsbok och nycklar med kompakta vingar",
+        "characterAlt": "Nest holding a notebook and keys with compact wings",
         "chat": {
           "statusLabel": "Online · Människoövervakad",
           "privacyBadge": "Privat",
@@ -1162,7 +1169,7 @@
       "privacy": {
         "kicker": "Sekretess är sekvensen",
         "heading": "Din adress förblir privat tills ni båda säger ja.",
-        "body": "Boet börjar med ett områdesstort område. Identitet, kontaktuppgifter och den exakta adressen förblir låsta genom förslaget och ömsesidigt samtycke.",
+        "body": "Nest börjar med ett kvartersstort område. Identitet, kontaktuppgifter och den exakta adressen förblir låsta genom förslaget och ömsesidigt samtycke.",
         "stages": [
           {
             "status": "proposed",
@@ -1196,7 +1203,7 @@
       "proposals": {
         "kicker": "Hur ett förslag ser ut",
         "heading": "två sidor. En ansågs lämplig.",
-        "body": "Dessa exempelkort visar formen på ett boförslag. De avslöjar aldrig en identitet eller exakt adress före ömsesidigt samtycke.",
+        "body": "Dessa exempelkort visar formen av ett Nest förslag. De avslöjar aldrig en identitet eller exakt adress innan ömsesidigt samtycke.",
         "cards": [
           {
             "pairing": "Köpare × Egendom",
@@ -1233,7 +1240,7 @@
         ]
       },
       "meet": {
-        "kicker": "Begär en introduktion",
+        "kicker": "Möt Nest",
         "heading": "Detaljen-notikern i ditt hörn.",
         "body": "Nest lyssnar bortom det uppenbara kortet: morgonljuset du älskade, timingen du inte kan röra dig, den enda kompromissen som egentligen inte är en kompromiss. Sedan tar Nest tillbaka en ansedd passform.",
         "characterImage": "/landing-pages/nest/nest-character-meet-compact-high-wings-transparent.png",
@@ -1256,10 +1263,10 @@
         "secondaryCtaLabel": "See how it works"
       },
       "footer": {
-        "brandLabel": "bo.",
+        "brandLabel": "Nest.",
         "tagline": "En noggrann hemintroduktion i taget.",
         "disclaimer": "Nest är inte en licensierad mäklare och representerar inte någon av parterna, förhandlar, värdesätter ditt hem eller hanterar din transaktion. När du är redo att gå vidare kopplar vi dig till en licensierad lokal agent för att slutföra processen. Not a broker. Does not represent either party. Does not provide valuations. Does not negotiate.",
-        "eventDisclaimer": "Andra hemmässa detaljer är modellerade för denna boinstansering och bör verifieras innan närvaro.",
+        "eventDisclaimer": "Second Home Fair details are modeled for this Nest instantiation and should be verified before attendance.",
         "copyright": "© 2026 Nest",
         "groups": [
           {
@@ -1280,10 +1287,10 @@
             ]
           },
           {
-            "label": "Näste",
+            "label": "Nest",
             "links": [
               {
-                "label": "Begär en introduktion",
+                "label": "Möt Nest",
                 "target": "meet"
               },
               {
@@ -1300,21 +1307,21 @@
       "enabled": true,
       "kicker": "Business impact",
       "heading": "ROI Calculator",
-      "subheading": "Model a licensed second-home agent or brokerage using Nest for qualified, human-reviewed introductions in one local market.",
-      "disclaimer": "A modeled operating scenario with zero validated paid demand. Nest qualifies and coordinates consented introductions; it does not represent parties, value property, negotiate, earn commissions or guarantee a transaction.",
+      "subheading": "Modellera en licensierad andrahandsagent eller mäklarfirma med Nest för kvalificerade, mänskligt granskade introduktioner på en lokal marknad.",
+      "disclaimer": "Ett modellerat driftscenario med noll validerad betald efterfrågan. Nest kvalificerar och koordinerar godkända introduktioner; it does not represent parties, value property, negotiate, earn commissions or guarantee a transaction.",
       "currency": "EUR",
       "currencyCopy": {
         "native": "Amounts in {currency}.",
         "loading": "Checking the local currency. Amounts remain in {currency} until a rate is available.",
         "unavailable": "A current local exchange rate is unavailable. Amounts remain in {currency}.",
         "converted": "Amounts converted from {base} to {currency} using the reference rate dated {date}.",
-        "basis": "Currency conversion is not local cost research. Enter your own local costs and contribution assumptions. Language changes do not change amounts."
+        "basis": "Valutaomvandling är inte lokal kostnadsundersökning. Enter your own local costs and contribution assumptions. Språkändringar ändrar inte mängder."
       },
       "costCopy": {
         "breakdown": "How the all-in AI cost is built",
         "perUnit": "{amount} per work unit (average)",
-        "budgetOnly": "This is your total budget. Switch to Cost breakdown to itemize it; no split has been assumed.",
-        "benefitNotice": "Modeled benefits, not charges. Crossed-out amounts are spending you expect to avoid, not discounts on the AI bill.",
+        "budgetOnly": "Detta är din totala budget. Byt till kostnadsfördelning för att specificera den; ingen splittring har antagits.",
+        "benefitNotice": "Modellerade förmåner, inte avgifter. Överkorsade belopp är utgifter du förväntar dig att undvika, inte rabatter på AI-notan.",
         "remainder": "Other included operating costs",
         "allocation": "Returned hours are capacity, not automatic savings. Only the portions you assign to actual spending reductions or additional contribution receive a monetary value."
       },
@@ -1338,14 +1345,14 @@
           "customer_price": 750
         },
         "copy": {
-          "navLabel": "Priser",
+          "navLabel": "Prissättning",
           "workloadStep": "Introduction funnel",
           "costStep": "AI operating cost",
           "valueStep": "Capacity and evidence",
-          "workloadIntro": "Model second-home leads, qualification and human review—not property sales, commissions or guaranteed matches.",
-          "costIntro": "Token, model, tool, infrastructure, platform and reviewer costs are delivery assumptions. Nest price is a separate unvalidated hypothesis.",
-          "valueIntro": "Capacity is not revenue. Enter observed contribution only after a real agent or brokerage uses and pays for the service.",
-          "sampleNotice": "Typical usage · not observed results",
+          "workloadIntro": "Modellera potentiella kunder, kvalifikationer och mänsklig granskning – inte försäljning av fastigheter, provisioner eller garanterade matchningar.",
+          "costIntro": "Token-, modell-, verktygs-, infrastruktur-, plattforms- och granskarkostnader är leveransantaganden. Nest pris är en separat ovaliderad hypotes.",
+          "valueIntro": "Kapacitet är inte intäkt. Ange observerat bidrag först efter att en verklig agent eller mäklare använder och betalar för tjänsten.",
+          "sampleNotice": "Typisk användning · ej observerade resultat",
           "monthly": "Monthly",
           "yearly": "Yearly",
           "next": "Continue",
@@ -1370,10 +1377,10 @@
           "reviewMode": "Who handles the review?",
           "teamReview": "Existing team",
           "paidReview": "Additional paid reviewer",
-          "reviewNote": "Existing-team review uses returned capacity. Additional paid review is included in operating cost, not deducted again from team capacity.",
+          "reviewNote": "Befintlig teamgranskning använder returnerad kapacitet. Ytterligare betald recension ingår i driftskostnaden, dras inte av igen från teamkapaciteten.",
           "totalMode": "Monthly budget",
           "itemizedMode": "Cost breakdown",
-          "budgetNote": "The budget must include models/media, tools, infrastructure, Gabriel fees and additional paid review. Do not include unchanged payroll as new spending.",
+          "budgetNote": "Budgeten ska innehålla modeller/media, verktyg, infrastruktur, Gabriel-arvoden och ytterligare betald recension. Inkludera inte oförändrad löneräkning som nya utgifter.",
           "itemizedNote": "Token usage is calculated from volume × tokens per output. Extra media, tools and infrastructure stay at zero unless they apply. Additional paid review is calculated from review hours and its rate.",
           "paidReviewCost": "Additional paid review cost",
           "allInCost": "Operating cost",
@@ -1383,36 +1390,36 @@
           "expectedLoss": "Expected loss reduction",
           "riskValue": "Uncertain risk value included",
           "economicValue": "Modeled contribution",
-          "netBenefit": "Modeled benefit after Nest price",
+          "netBenefit": "Modellerad förmån efter Nest pris",
           "multiple": "Internal delivery multiple",
           "customerBenefit": "Modeled agent benefit",
           "customerRoi": "Modeled customer ROI",
           "payback": "Customer payback period",
           "notApplicable": "Not applicable",
           "annual": "Annual view",
-          "annualNote": "The same monthly assumptions, without growth or compounding. Hiring savings last only for the entered period.",
+          "annualNote": "Samma månatliga antaganden, utan tillväxt eller sammansättning. Hiring savings last only for the entered period.",
           "method": "How this is calculated",
           "burdenHeading": "Repetitive work reduced",
           "opportunityHeading": "Capacity for higher-value work",
-          "methodBody": "Operating burden removed (negative productivity) returns capacity. Higher-value work (potential positive productivity) creates economic value only if that capacity is used. Hours alone are not cash savings. Token cost uses a modeled input/output mix, not a provider quote.",
-          "formulaLabel": "Qualified briefs = leads × qualification rate. Delivery cost includes modeled token, model, tool, infrastructure, platform and human-review cost. Customer ROI remains unavailable until benefit and price are supported by evidence.",
-          "allocationNote": "Each hour can be allocated once. Unallocated hours remain capacity, with no monetary value.",
-          "overlapLabel": "These benefits are distinct; I have excluded costs and losses already counted elsewhere.",
-          "overlapNote": "Error and risk estimates exclude labor savings and the same incident must not appear in both categories. Contribution excludes AI costs, which are deducted separately.",
-          "hiringLabel": "This hire was genuinely planned and the allocated capacity can cover the work.",
-          "reviewedLabel": "I have reviewed my outcomes; unselected outcomes have no financial value in this estimate.",
+          "methodBody": "Driftsbördan tas bort (negativ produktivitet) ger tillbaka kapacitet. Arbete med högre värde (potentiell positiv produktivitet) skapar ekonomiskt värde endast om den kapaciteten används. Bara timmar är inte kontantbesparingar. Token cost uses a modeled input/output mix, not a provider quote.",
+          "formulaLabel": "Kvalificerade trosor = leads × kvalificeringsgrad. Leveranskostnaden inkluderar modellerad token, modell, verktyg, infrastruktur, plattform och kostnad för mänsklig granskning. Kundens ROI förblir otillgänglig tills nytta och pris stöds av bevis.",
+          "allocationNote": "Varje timme kan tilldelas en gång. Otilldelade timmar förblir kapacitet, utan pengar.",
+          "overlapLabel": "These benefits are distinct; Jag har exkluderat kostnader och förluster som redan räknats på annat håll.",
+          "overlapNote": "Fel- och riskuppskattningar utesluter arbetsbesparingar och samma incident får inte förekomma i båda kategorierna. Bidraget exkluderar AI-kostnader, som dras av separat.",
+          "hiringLabel": "Denna hyra var genuint planerad och den tilldelade kapaciteten kan täcka arbetet.",
+          "reviewedLabel": "I have reviewed my outcomes; ej valda utfall har inget ekonomiskt värde i denna uppskattning.",
           "cycleResult": "Cycle-time improvement",
           "throughputResult": "Additional work supported by capacity and demand",
-          "assumptionsIncomplete": "Complete the selected assumptions to calculate financial value.",
-          "allocationError": "Allocated hours exceed the net capacity available. Reduce the allocations.",
-          "reviewError": "Review takes more time than the work reduced. No positive capacity is available at these assumptions.",
-          "cashError": "Avoided spending cannot exceed current spending or have positive value with no hours allocated.",
-          "hiringError": "Allocated capacity must cover the planned hire hours. Confirm the planned hire and its duration.",
-          "riskError": "The after probability cannot exceed the before probability for a loss-reduction estimate.",
-          "overlapError": "Confirm the benefits do not overlap before including them in the financial result.",
+          "assumptionsIncomplete": "Fyll i de valda antagandena för att beräkna ekonomiskt värde.",
+          "allocationError": "Tilldelade timmar överstiger den tillgängliga nettokapaciteten. Minska anslagen.",
+          "reviewError": "Review takes more time than the work reduced. Ingen positiv kapacitet är tillgänglig vid dessa antaganden.",
+          "cashError": "Undvikda utgifter får inte överstiga nuvarande utgifter eller ha ett positivt värde utan några timmar.",
+          "hiringError": "Tilldelad kapacitet ska täcka de planerade hyrtimmar. Confirm the planned hire and its duration.",
+          "riskError": "Sannolikheten efter kan inte överstiga före-sannolikheten för en förlustreduktionsuppskattning.",
+          "overlapError": "Bekräfta att fördelarna inte överlappar varandra innan du inkluderar dem i det ekonomiska resultatet.",
           "boundsError": "Use values within the displayed limits.",
           "rangeLabel": "Adjust value",
-          "noCurrencyChange": "Language changes formatting, not your currency or assumptions.",
+          "noCurrencyChange": "Språket ändrar formateringen, inte din valuta eller dina antaganden.",
           "currentPreparation": "Aktuella förberedelsetider",
           "reviewHours": "Human Review Hours",
           "reworkHours": "undviks eller lagt till omarbetningstider",
@@ -1429,15 +1436,15 @@
         "fields": {
           "volume": {
             "label": "Leads or briefs entering the desk each month",
-            "help": "Count inbound second-home enquiries in the selected market, not property transactions."
+            "help": "Räkna inkommande fritidshusförfrågningar på den valda marknaden, inte fastighetstransaktioner."
           },
           "accepted_rate": {
             "label": "Share becoming qualified briefs",
-            "help": "A modeled qualification rate. Replace it with observed funnel data after a pilot."
+            "help": "En modellerad kvalifikationsgrad. Replace it with observed funnel data after a pilot."
           },
           "attendance_rate": {
             "label": "Expected attendance rate",
-            "help": "Modeled share of accepted meetings expected to happen. Replace this with verified event records after a pilot."
+            "help": "Modeled share of accepted meetings expected to happen. Ersätt detta med verifierade händelseposter efter en pilot."
           },
           "minutes": {
             "label": "Minutes to qualify one buyer brief today",
@@ -1448,8 +1455,8 @@
             "help": "An illustrative assumption to validate in a pilot, not a performance promise."
           },
           "review": {
-            "label": "Minutes a reviewer spends confirming each brief",
-            "help": "Human review still required before either side sees a proposal."
+            "label": "Minuter en granskare lägger ner på att bekräfta varje kort",
+            "help": "Mänsklig granskning krävs fortfarande innan någon sida ser ett förslag."
           },
           "cycles_per_unit": {
             "label": "Cycles per unit each month",
@@ -1457,11 +1464,11 @@
           },
           "tokens_per_output": {
             "label": "Tokens per qualified buyer brief",
-            "help": "Modeled input and output tokens for one reviewable brief; provider usage must replace this hypothesis."
+            "help": "Modellerade ingångs- och utmatningssymboler för en granskningsberättelse; leverantörsanvändning måste ersätta denna hypotes."
           },
           "budget": {
             "label": "Estimated monthly operating budget",
-            "help": "Include token usage, models/media, tools, infrastructure, Gabriel fees and additional paid review."
+            "help": "Inkludera tokenanvändning, modeller/media, verktyg, infrastruktur, Gabriel-avgifter och ytterligare betald recension."
           },
           "model_cost": {
             "label": "Additional model or media cost",
@@ -1469,15 +1476,15 @@
           },
           "tools_cost": {
             "label": "Tools and integrations",
-            "help": "Browser sessions, connectors and other metered services. Enter zero if none."
+            "help": "Webbläsarsessioner, anslutningar och andra mättjänster. Ange noll om ingen."
           },
           "infrastructure_cost": {
             "label": "Infrastructure",
-            "help": "Incremental hosting, storage and compute for this workload. Enter zero if none."
+            "help": "Incremental hosting, storage and compute for this workload. Ange noll om ingen."
           },
           "platform_cost": {
-            "label": "Other delivery and support cost",
-            "help": "Modeled hosting, storage, monitoring and support cost, separate from the customer price."
+            "label": "Övriga leverans- och supportkostnader",
+            "help": "Modellerad hosting, lagring, övervakning och supportkostnad, separat från kundpriset."
           },
           "customer_price": {
             "label": "Proposed monthly Nest price",
@@ -1485,14 +1492,14 @@
           },
           "personal_value_per_hour": {
             "label": "Optional value you assign to an hour",
-            "help": "An optional personal comparison only. This is not salary, wages or guaranteed cash savings."
+            "help": "Endast en valfri personlig jämförelse. This is not salary, wages or guaranteed cash savings."
           },
           "review_rate": {
             "label": "Additional paid review per hour",
-            "help": "Actual extra reviewer spending, not the salary of an unchanged employee."
+            "help": "Faktiska extra granskarutgifter, inte lönen för en oförändrad anställd."
           },
           "cash_hours": {
-            "label": "Hours that remove paid work",
+            "label": "Timmar som tar bort betalt arbete",
             "help": "Allocate only work whose overtime, contractor or processing spend will actually stop."
           },
           "cash_baseline": {
@@ -1500,75 +1507,75 @@
             "help": "The cash budget from which the reduction will come."
           },
           "cash_avoided": {
-            "label": "Monthly spending you would stop",
-            "help": "One explicit amount, not hours multiplied by salary; exclude any planned-hire saving entered separately."
+            "label": "Månatliga utgifter du skulle sluta",
+            "help": "Ett uttryckligt belopp, inte timmar multiplicerat med lön; exkludera eventuella planerade hyresbesparingar som anges separat."
           },
           "higher_value_hours": {
-            "label": "Hours agents can use for real conversations",
-            "help": "Only capacity with observed demand receives an economic value."
+            "label": "Hours-agenter kan använda för riktiga konversationer",
+            "help": "Endast kapacitet med observerad efterfrågan får ett ekonomiskt värde."
           },
           "contribution_rate": {
             "label": "Incremental contribution per agent hour",
             "help": "Contribution from additional work, excluding property value, commissions and costs already counted."
           },
           "throughput_hours": {
-            "label": "Hours used for additional volume",
+            "label": "Timmar som används för extra volym",
             "help": "This allocation cannot also be used for advisory work or spending reductions."
           },
           "extra_minutes": {
-            "label": "Team minutes per additional unit",
+            "label": "Lagminuter per extra enhet",
             "help": "The remaining human effort, including review, needed to deliver one more unit."
           },
           "demand": {
-            "label": "Additional units with expected demand",
-            "help": "Capacity alone is not demand. Enter the extra monthly work you expect to take on."
+            "label": "Ytterligare enheter med förväntad efterfrågan",
+            "help": "Enbart kapacitet är inte efterfrågan. Enter the extra monthly work you expect to take on."
           },
           "unit_margin": {
             "label": "Contribution per additional unit",
-            "help": "Incremental revenue less delivery costs; AI operating costs are deducted separately."
+            "help": "Inkrementella intäkter minus leveranskostnader; Driftskostnader för AI dras av separat."
           },
           "hiring_hours": {
-            "label": "Hours covering the planned hire",
+            "label": "Timmar som täcker den planerade hyran",
             "help": "Allocate capacity to specific planned work, not a generic full-time-equivalent estimate."
           },
           "planned_hours": {
-            "label": "Monthly hours the planned hire would cover",
-            "help": "The allocated capacity must cover this entire workload."
+            "label": "Månadstimmar som den planerade hyran skulle täcka",
+            "help": "Den tilldelade kapaciteten måste täcka hela denna arbetsbörda."
           },
           "hire_cost": {
-            "label": "Monthly hire cost actually deferred",
+            "label": "Månatlig hyra kostnad faktiskt uppskjuten",
             "help": "Use the cost of a genuinely planned hire, not the salary of someone already employed."
           },
           "hire_months": {
-            "label": "Months that hire is deferred",
-            "help": "One to twelve months; the annual estimate stops counting savings after this period."
+            "label": "Månader som hyran skjuts upp",
+            "help": "En till tolv månader; the annual estimate stops counting savings after this period."
           },
           "incidents": {
-            "label": "Expected avoided errors per month",
-            "help": "Use your baseline and expected reduction. Exclude incidents also counted as risk reduction."
+            "label": "Förväntade undvikade fel per månad",
+            "help": "Använd din baslinje och förväntade minskning. Exkludera incidenter som också räknas som riskminskning."
           },
           "incident_cost": {
             "label": "Incremental cost per error",
-            "help": "Exclude labor, refunds or other losses already included elsewhere."
+            "help": "Uteslut arbete, återbetalningar eller andra förluster som redan ingår någon annanstans."
           },
           "probability_before": {
             "label": "Monthly loss probability before",
-            "help": "Your estimate, not a guaranteed risk assessment."
+            "help": "Din uppskattning, inte en garanterad riskbedömning."
           },
           "probability_after": {
             "label": "Monthly loss probability after",
             "help": "Use the same event and monthly time horizon as the baseline."
           },
           "loss": {
-            "label": "Loss exposure for that event",
+            "label": "Förlustexponering för den händelsen",
             "help": "Exclude error incidents and spending already counted. This is uncertain expected value, not cash saved."
           },
           "days_before": {
-            "label": "Cycle time before, in days",
-            "help": "Elapsed time from start to completion, separate from hands-on effort."
+            "label": "Cykeltid före, i dagar",
+            "help": "Förfluten tid från start till slutförande, separat från praktisk ansträngning."
           },
           "days_after": {
-            "label": "Cycle time after, in days",
+            "label": "Cykeltid efter, i dagar",
             "help": "Shown as an operational change only, without an assumed monetary value."
           }
         },
@@ -1628,7 +1635,12 @@
           {
             "id": "higher_value",
             "label": "Keep agents on conversations",
-            "help": "Enter only capacity that can be redirected to real agent or brokerage work; do not treat property value or commission as Nest revenue."
+            "help": "Ange endast kapacitet som kan omdirigeras till verkligt agent- eller mäklararbete; do not treat property value or commission as Nest revenue."
+          },
+          {
+            "id": "cash",
+            "label": "Minska betalda intagsstöd",
+            "help": "Minska övertid eller entreprenörsutgifter för manuellt köpkortsintag - inte oförändrade löner."
           }
         ],
         "tabs": [
@@ -1673,7 +1685,7 @@
           "basis": "fixed",
           "annualPrice": 9000,
           "label": "Proposed Nest monthly price",
-          "help": "A €750/month working hypothesis for a qualified-introduction pilot. Treat as unvalidated until an agent or brokerage pays."
+          "help": "En arbetshypotes för 750 €/månad för en kvalificerad introduktionspilot. Behandla som ogiltig tills en agent eller mäklare betalar."
         },
         "presentation": {
           "financial": "optional",
@@ -1685,7 +1697,7 @@
         "primaryLabel": "Talk with Nest",
         "primaryTarget": "meet",
         "secondaryLabel": "See how it works",
-        "privacyNote": "Your data stays private. Hours are capacity. Financial amounts are modeled estimates, not observed results.",
+        "privacyNote": "Din data förblir privat. Timmar är kapacitet. Finansiella belopp är modellerade uppskattningar, inte observerade resultat.",
         "secondaryTarget": "how-it-works"
       }
     }
@@ -1972,6 +1984,16 @@
         "availabilityLabel"
       ],
       "sourceHash": "4ccdf0d88d921c3c0274c16ab665fd021b888edca40c2f1887ca4da4e2e61adc"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "profileModeId"
+      ],
+      "sourceHash": "6dbd0f28d0d97656768b7b4ed96255e67fd11740a44b1c4b575191b06e9e3a35"
     },
     {
       "path": [
@@ -4653,34 +4675,9 @@
         0,
         "roiCalculator",
         "businessImpact",
-        "costMode"
-      ],
-      "sourceHash": "0257609b2e009aa6c788941fbcaeee13877465889a94aaf0444c7d4159ee616c"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        0,
-        "roiCalculator",
-        "businessImpact",
         "reviewMode"
       ],
       "sourceHash": "ca8b22d0db83a22db163b560b3e4e51527e533d31d067b614a0c33c4d2df8432"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        0,
-        "roiCalculator",
-        "businessImpact",
-        "selected",
-        0
-      ],
-      "sourceHash": "c8333158bd18b91a71842cfd38c2d6ddab471bda158b19286d96d4a4ed973ac4"
     },
     {
       "path": [
@@ -4760,51 +4757,6 @@
         "roiCalculator",
         "businessImpact",
         "tabs",
-        0,
-        "fields",
-        0
-      ],
-      "sourceHash": "62d7a6b1211d627650e2bf0c869b69b564e2cd74290ae1dd78ae4b5e20b0cfe7"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        0,
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        0,
-        "fields",
-        1
-      ],
-      "sourceHash": "533c554a619ee86f5b109e6356436592d023fca097b61a42a5769899f3e49ded"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        0,
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        0,
-        "fields",
-        2
-      ],
-      "sourceHash": "c97ace4c8fef2cee8fa0f3c9f52aab18dbd4f42438afe362ffb8f75ce4c04b84"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        0,
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
         1,
         "label"
       ],
@@ -4823,96 +4775,6 @@
         "intro"
       ],
       "sourceHash": "ecb995d2474e26388c933fda1b6a2ac889d6f3629ab1f42fe73e918b2733817f"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        0,
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        1,
-        "fields",
-        0
-      ],
-      "sourceHash": "252b07fa1db64f9ca920817ce39dec8523f46fca171a3dfd2721f7406ad524b3"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        0,
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        1,
-        "fields",
-        1
-      ],
-      "sourceHash": "d1bedf986ff719c3697d5349d0a881f26ca60c944250a6b9d841dbfdd75ec256"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        0,
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        1,
-        "fields",
-        2
-      ],
-      "sourceHash": "d36f8ed71fe4f06ad33653f5b2a02efb6b90532b03694d27b25f01211ee64df5"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        0,
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        1,
-        "fields",
-        3
-      ],
-      "sourceHash": "5ef2621e3c47a6ca8fc7990c6ffa19b229e742540611b01e0f1d253b33808503"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        0,
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        1,
-        "fields",
-        4
-      ],
-      "sourceHash": "ddb2485b111f5d7373d804bdb4010b2590b72ba7b899fd5e11c4e0d5e00fb524"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        0,
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        1,
-        "fields",
-        5
-      ],
-      "sourceHash": "b90c7599f77434bcd2d32958a8557417fb5333b4dbd169ff8c5ee65bbb5008ef"
     },
     {
       "path": [
@@ -4950,49 +4812,6 @@
         0,
         "roiCalculator",
         "businessImpact",
-        "tabs",
-        2,
-        "fields",
-        0
-      ],
-      "sourceHash": "f033d3c123d7de8fa6a1706e2f8dee954bec3ef08f9c5a10de37ab050e4d25ab"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        0,
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        2,
-        "fields",
-        1
-      ],
-      "sourceHash": "b28c91bc16791f680909ec198a45e7c491055b8c4c558da970e1e9bcd2635edc"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        0,
-        "roiCalculator",
-        "businessImpact",
-        "pricing",
-        "basis"
-      ],
-      "sourceHash": "992a93455c71fedd36ac9bbc439952c041cf61445958472af479269b8d873513"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        0,
-        "roiCalculator",
-        "businessImpact",
         "pricing",
         "label"
       ],
@@ -5010,19 +4829,6 @@
         "help"
       ],
       "sourceHash": "aebaed823e7b8d30309648e6c85cfe4d7f6cb7938bdf923f2c68c9b67ff269da"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        0,
-        "roiCalculator",
-        "businessImpact",
-        "presentation",
-        "financial"
-      ],
-      "sourceHash": "ec91fdd9256cb75ae611249b50cb7eb16533f0fa91b86239ec1d439a1ea033b8"
     },
     {
       "path": [
@@ -5059,6 +4865,16 @@
         "privacyNote"
       ],
       "sourceHash": "0e96f5e15977ab0a2a8d684c0d35d7459f3afc862b606046310ae1fbbd4be12b"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "profileModeId"
+      ],
+      "sourceHash": "a4279eae47aaa7417da62434795a011ccb0ec870f7f56646d181b5500a892a9a"
     },
     {
       "path": [
@@ -7809,34 +7625,9 @@
         1,
         "roiCalculator",
         "businessImpact",
-        "costMode"
-      ],
-      "sourceHash": "0257609b2e009aa6c788941fbcaeee13877465889a94aaf0444c7d4159ee616c"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        1,
-        "roiCalculator",
-        "businessImpact",
         "reviewMode"
       ],
       "sourceHash": "ca8b22d0db83a22db163b560b3e4e51527e533d31d067b614a0c33c4d2df8432"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        1,
-        "roiCalculator",
-        "businessImpact",
-        "selected",
-        0
-      ],
-      "sourceHash": "c8333158bd18b91a71842cfd38c2d6ddab471bda158b19286d96d4a4ed973ac4"
     },
     {
       "path": [
@@ -7887,6 +7678,34 @@
         1,
         "roiCalculator",
         "businessImpact",
+        "outcomes",
+        1,
+        "label"
+      ],
+      "sourceHash": "aea4419b254433ce01374056925b89821689edcecc57fcd6988c2abc3f51c102"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "businessImpact",
+        "outcomes",
+        1,
+        "help"
+      ],
+      "sourceHash": "79f050bc25f624be1f08b5c05a4ac923c1c16bcf253e4009d475f35d6a7a6927"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "businessImpact",
         "tabs",
         0,
         "label"
@@ -7906,51 +7725,6 @@
         "intro"
       ],
       "sourceHash": "db6c00c1b6ccac892da8c66e20f05fcc3bf78c2a3b4929b7c5ad4c53ce32e23a"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        1,
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        0,
-        "fields",
-        0
-      ],
-      "sourceHash": "62d7a6b1211d627650e2bf0c869b69b564e2cd74290ae1dd78ae4b5e20b0cfe7"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        1,
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        0,
-        "fields",
-        1
-      ],
-      "sourceHash": "533c554a619ee86f5b109e6356436592d023fca097b61a42a5769899f3e49ded"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        1,
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        0,
-        "fields",
-        2
-      ],
-      "sourceHash": "c97ace4c8fef2cee8fa0f3c9f52aab18dbd4f42438afe362ffb8f75ce4c04b84"
     },
     {
       "path": [
@@ -7989,96 +7763,6 @@
         "roiCalculator",
         "businessImpact",
         "tabs",
-        1,
-        "fields",
-        0
-      ],
-      "sourceHash": "252b07fa1db64f9ca920817ce39dec8523f46fca171a3dfd2721f7406ad524b3"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        1,
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        1,
-        "fields",
-        1
-      ],
-      "sourceHash": "d1bedf986ff719c3697d5349d0a881f26ca60c944250a6b9d841dbfdd75ec256"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        1,
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        1,
-        "fields",
-        2
-      ],
-      "sourceHash": "d36f8ed71fe4f06ad33653f5b2a02efb6b90532b03694d27b25f01211ee64df5"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        1,
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        1,
-        "fields",
-        3
-      ],
-      "sourceHash": "5ef2621e3c47a6ca8fc7990c6ffa19b229e742540611b01e0f1d253b33808503"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        1,
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        1,
-        "fields",
-        4
-      ],
-      "sourceHash": "ddb2485b111f5d7373d804bdb4010b2590b72ba7b899fd5e11c4e0d5e00fb524"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        1,
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        1,
-        "fields",
-        5
-      ],
-      "sourceHash": "b90c7599f77434bcd2d32958a8557417fb5333b4dbd169ff8c5ee65bbb5008ef"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        1,
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
         2,
         "label"
       ],
@@ -8106,49 +7790,6 @@
         1,
         "roiCalculator",
         "businessImpact",
-        "tabs",
-        2,
-        "fields",
-        0
-      ],
-      "sourceHash": "f033d3c123d7de8fa6a1706e2f8dee954bec3ef08f9c5a10de37ab050e4d25ab"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        1,
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        2,
-        "fields",
-        1
-      ],
-      "sourceHash": "b28c91bc16791f680909ec198a45e7c491055b8c4c558da970e1e9bcd2635edc"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        1,
-        "roiCalculator",
-        "businessImpact",
-        "pricing",
-        "basis"
-      ],
-      "sourceHash": "992a93455c71fedd36ac9bbc439952c041cf61445958472af479269b8d873513"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        1,
-        "roiCalculator",
-        "businessImpact",
         "pricing",
         "label"
       ],
@@ -8166,19 +7807,6 @@
         "help"
       ],
       "sourceHash": "aebaed823e7b8d30309648e6c85cfe4d7f6cb7938bdf923f2c68c9b67ff269da"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        1,
-        "roiCalculator",
-        "businessImpact",
-        "presentation",
-        "financial"
-      ],
-      "sourceHash": "ec91fdd9256cb75ae611249b50cb7eb16533f0fa91b86239ec1d439a1ea033b8"
     },
     {
       "path": [
@@ -11002,28 +10630,9 @@
         "landingPage",
         "roiCalculator",
         "businessImpact",
-        "costMode"
-      ],
-      "sourceHash": "0257609b2e009aa6c788941fbcaeee13877465889a94aaf0444c7d4159ee616c"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
         "reviewMode"
       ],
       "sourceHash": "ca8b22d0db83a22db163b560b3e4e51527e533d31d067b614a0c33c4d2df8432"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "selected",
-        0
-      ],
-      "sourceHash": "c8333158bd18b91a71842cfd38c2d6ddab471bda158b19286d96d4a4ed973ac4"
     },
     {
       "path": [
@@ -11062,6 +10671,28 @@
         "landingPage",
         "roiCalculator",
         "businessImpact",
+        "outcomes",
+        1,
+        "label"
+      ],
+      "sourceHash": "aea4419b254433ce01374056925b89821689edcecc57fcd6988c2abc3f51c102"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "outcomes",
+        1,
+        "help"
+      ],
+      "sourceHash": "6070b25168d7d93f6574ee09ea6117accce9c1b93d909efd04ea4406665cee17"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
         "tabs",
         0,
         "label"
@@ -11078,42 +10709,6 @@
         "intro"
       ],
       "sourceHash": "db6c00c1b6ccac892da8c66e20f05fcc3bf78c2a3b4929b7c5ad4c53ce32e23a"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        0,
-        "fields",
-        0
-      ],
-      "sourceHash": "62d7a6b1211d627650e2bf0c869b69b564e2cd74290ae1dd78ae4b5e20b0cfe7"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        0,
-        "fields",
-        1
-      ],
-      "sourceHash": "533c554a619ee86f5b109e6356436592d023fca097b61a42a5769899f3e49ded"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        0,
-        "fields",
-        2
-      ],
-      "sourceHash": "c97ace4c8fef2cee8fa0f3c9f52aab18dbd4f42438afe362ffb8f75ce4c04b84"
     },
     {
       "path": [
@@ -11143,78 +10738,6 @@
         "roiCalculator",
         "businessImpact",
         "tabs",
-        1,
-        "fields",
-        0
-      ],
-      "sourceHash": "252b07fa1db64f9ca920817ce39dec8523f46fca171a3dfd2721f7406ad524b3"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        1,
-        "fields",
-        1
-      ],
-      "sourceHash": "d1bedf986ff719c3697d5349d0a881f26ca60c944250a6b9d841dbfdd75ec256"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        1,
-        "fields",
-        2
-      ],
-      "sourceHash": "d36f8ed71fe4f06ad33653f5b2a02efb6b90532b03694d27b25f01211ee64df5"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        1,
-        "fields",
-        3
-      ],
-      "sourceHash": "5ef2621e3c47a6ca8fc7990c6ffa19b229e742540611b01e0f1d253b33808503"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        1,
-        "fields",
-        4
-      ],
-      "sourceHash": "ddb2485b111f5d7373d804bdb4010b2590b72ba7b899fd5e11c4e0d5e00fb524"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        1,
-        "fields",
-        5
-      ],
-      "sourceHash": "b90c7599f77434bcd2d32958a8557417fb5333b4dbd169ff8c5ee65bbb5008ef"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
         2,
         "label"
       ],
@@ -11236,40 +10759,6 @@
         "landingPage",
         "roiCalculator",
         "businessImpact",
-        "tabs",
-        2,
-        "fields",
-        0
-      ],
-      "sourceHash": "f033d3c123d7de8fa6a1706e2f8dee954bec3ef08f9c5a10de37ab050e4d25ab"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        2,
-        "fields",
-        1
-      ],
-      "sourceHash": "b28c91bc16791f680909ec198a45e7c491055b8c4c558da970e1e9bcd2635edc"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "pricing",
-        "basis"
-      ],
-      "sourceHash": "992a93455c71fedd36ac9bbc439952c041cf61445958472af479269b8d873513"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
         "pricing",
         "label"
       ],
@@ -11284,16 +10773,6 @@
         "help"
       ],
       "sourceHash": "aebaed823e7b8d30309648e6c85cfe4d7f6cb7938bdf923f2c68c9b67ff269da"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "presentation",
-        "financial"
-      ],
-      "sourceHash": "ec91fdd9256cb75ae611249b50cb7eb16533f0fa91b86239ec1d439a1ea033b8"
     },
     {
       "path": [
@@ -11323,5 +10802,5 @@
       "sourceHash": "0e96f5e15977ab0a2a8d684c0d35d7459f3afc862b606046310ae1fbbd4be12b"
     }
   ],
-  "generatedAt": "2026-09-11T04:18:29.310Z"
+  "generatedAt": "2026-10-01T12:38:36.323Z"
 }

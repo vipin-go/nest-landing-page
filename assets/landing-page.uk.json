@@ -2,11 +2,11 @@
   "schemaVersion": 2,
   "language": "uk",
   "regionKey": null,
-  "sourceRevision": "e38bb8570798c46b5f8766ead43d9c6f4648a19d3d096d1d92c424fb5a6774a0",
+  "sourceRevision": "9b00d9081f920764fbd3e5bcdb077a7b34f8b04299a9af6b2aee818670157abf",
   "landingPage": {
     "headline": "Одна кваліфікована рекомендація, яка підходить.",
     "subheadline": "Приватні представлення покупця та продавця, одна пропозиція, перевірена людиною, за раз.",
-    "ctaLabel": "Поговоріть з гніздом",
+    "ctaLabel": "Телефонуйте за номером Nest",
     "secondaryCtaLabel": "See how it works",
     "heroCharacterImage": "/landing-pages/nest/nest-character-meet-compact-high-wings-transparent.png",
     "seoImage": {
@@ -65,7 +65,7 @@
     },
     "homeIntroductions": {
       "header": {
-        "brandLabel": "гніздо.",
+        "brandLabel": "Nest.",
         "brandTagline": "Одне ретельне введення",
         "navItems": [
           {
@@ -81,7 +81,7 @@
             "target": "hero-chat"
           }
         ],
-        "ctaLabel": "Запит на введення",
+        "ctaLabel": "Зустрічайте Nest",
         "mobileCtaLabel": "запуск",
         "editionLabel": "Покупка",
         "secondaryEditionLabel": "Продажа"
@@ -89,7 +89,7 @@
       "service": {
         "activeMode": "event",
         "announcement": "Зараз збігається на другому домашньому ярмарку, Jaarbeurs Utrecht, пт, 27 – нд, 29 березня",
-        "feeCopy": "Fee shared before you request an introduction",
+        "feeCopy": "Комісія ділиться перед тим, як ви подасте запит на знайомство",
         "disclaimer": "Nest не є ліцензованим брокером і не представляє жодну зі сторін, не домовляється, не цінує ваш будинок або не займається вашою транзакцією. Коли ви будете готові рухатися вперед, ми зв’яжемо вас із ліцензованим місцевим агентом для завершення процесу.",
         "configurations": [
           {
@@ -105,7 +105,7 @@
             "mode": "city",
             "label": "місто",
             "actionLabel": "вид",
-            "name": "Гніздо Амстердам",
+            "name": "Nest Амстердам",
             "location": "Амстердам Зуїд",
             "dateRange": "продовжений",
             "availabilityLabel": "Завжди на місцевому знайомстві"
@@ -115,6 +115,7 @@
       "tracks": [
         {
           "id": "buying",
+          "profileModeId": "buyer",
           "label": "Я купую",
           "responseMessage": "Скажи мені будинок, за який варто було б переїхати. Я запитаю лише деталі, які потрібні людині рецензенту, а потім поверну один, який вважається відповідним.",
           "composerPlaceholder": "Розкажіть Nest, що вам потрібно з дому…",
@@ -129,7 +130,7 @@
             {
               "number": "02",
               "image": "/landing-pages/nest/nest-how-review-human.webp",
-              "alt": "Гніздо і людина-рецензент уважно розглядаючи одного покупця та одного будинку",
+              "alt": "Nest та рецензент, який ретельно розглядає одного покупця та один будинок",
               "title": "Отримуйте одну придатність за раз.",
               "body": "Людина переглядає кожну пропозицію, перш ніж побачить її будь-яка сторона. Немає загальнодоступного каталогу, рейтингу чи нескінченної сітки фільтрів.",
               "badge": "Схвалено людиною"
@@ -202,7 +203,7 @@
             {
               "key": "privateConstraints",
               "label": "Приватні обмеження",
-              "placeholder": "Все, що гніздо має бути приватним",
+              "placeholder": "Все, що Nest має залишатися приватним",
               "type": "textarea",
               "required": false
             }
@@ -212,23 +213,23 @@
             "enabled": true,
             "kicker": "Business impact",
             "heading": "ROI Calculator",
-            "subheading": "Model a licensed second-home agent or brokerage using Nest for qualified, human-reviewed introductions in one local market.",
-            "disclaimer": "A modeled operating scenario with zero validated paid demand. Nest qualifies and coordinates consented introductions; it does not represent parties, value property, negotiate, earn commissions or guarantee a transaction.",
+            "subheading": "Зробіть модель ліцензованого агента з вторинного житла або брокерську компанію, використовуючи номер Nest для кваліфікованих, перевірених людьми знайомств на одному місцевому ринку.",
+            "disclaimer": "Змодельований сценарій роботи з нульовим перевіреним платним попитом. Nest кваліфікує та координує знайомства за згодою; він не представляє сторони, не оцінює майно, не веде переговорів, не заробляє комісійних і не гарантує угоду.",
             "currency": "EUR",
             "currencyCopy": {
               "native": "Amounts in {currency}.",
               "loading": "Checking the local currency. Amounts remain in {currency} until a rate is available.",
               "unavailable": "A current local exchange rate is unavailable. Amounts remain in {currency}.",
               "converted": "Amounts converted from {base} to {currency} using the reference rate dated {date}.",
-              "basis": "Currency conversion is not local cost research. Enter your own local costs and contribution assumptions. Language changes do not change amounts."
+              "basis": "Конвертація валют не є дослідженням місцевих витрат. Введіть власні місцеві витрати та припущення щодо внесків. Зміни мови не змінюють суми."
             },
             "costCopy": {
-              "breakdown": "How the all-in AI cost is built",
+              "breakdown": "Як будується загальна вартість AI",
               "perUnit": "{amount} per work unit (average)",
-              "budgetOnly": "This is your total budget. Switch to Cost breakdown to itemize it; no split has been assumed.",
-              "benefitNotice": "Modeled benefits, not charges. Crossed-out amounts are spending you expect to avoid, not discounts on the AI bill.",
+              "budgetOnly": "Це ваш загальний бюджет. Перейдіть до розподілу витрат, щоб деталізувати його; ніякого розколу не передбачається.",
+              "benefitNotice": "Змодельовані переваги, а не збори. Закреслені суми – це витрати, яких ви очікуєте уникнути, а не знижки на рахунок за штучний інтелект.",
               "remainder": "Other included operating costs",
-              "allocation": "Returned hours are capacity, not automatic savings. Only the portions you assign to actual spending reductions or additional contribution receive a monetary value."
+              "allocation": "Повернені години – це потужність, а не автоматичне збереження. Лише ті частини, які ви призначаєте фактичним скороченням витрат або додатковому внеску, отримують грошову оцінку."
             },
             "locale": "en-GB",
             "inputs": [],
@@ -250,14 +251,14 @@
                 "customer_price": 750
               },
               "copy": {
-                "navLabel": "Цінування",
+                "navLabel": "ціна",
                 "workloadStep": "Introduction funnel",
                 "costStep": "AI operating cost",
                 "valueStep": "Capacity and evidence",
-                "workloadIntro": "Model second-home leads, qualification and human review—not property sales, commissions or guaranteed matches.",
-                "costIntro": "Token, model, tool, infrastructure, platform and reviewer costs are delivery assumptions. Nest price is a separate unvalidated hypothesis.",
-                "valueIntro": "Capacity is not revenue. Enter observed contribution only after a real agent or brokerage uses and pays for the service.",
-                "sampleNotice": "Typical usage · not observed results",
+                "workloadIntro": "Моделювання потенційних клієнтів із вторинного житла, кваліфікація та перевірка персоналом, а не продаж нерухомості, комісія чи гарантовані збіги.",
+                "costIntro": "Вартість токена, моделі, інструменту, інфраструктури, платформи та рецензента є припущеннями доставки. Ціна Nest - окрема неперевірена гіпотеза.",
+                "valueIntro": "Потужність – це не дохід. Введіть спостережуваний внесок лише після того, як справжній агент або брокерська компанія скористається послугою та сплатить її.",
+                "sampleNotice": "Типове використання · результати не спостерігаються",
                 "monthly": "Monthly",
                 "yearly": "Yearly",
                 "next": "Continue",
@@ -282,11 +283,11 @@
                 "reviewMode": "Who handles the review?",
                 "teamReview": "Existing team",
                 "paidReview": "Additional paid reviewer",
-                "reviewNote": "Existing-team review uses returned capacity. Additional paid review is included in operating cost, not deducted again from team capacity.",
+                "reviewNote": "Перегляд існуючої команди використовує повернуту ємність. Додатковий оплачуваний огляд включено в експлуатаційні витрати, а не вираховується повторно з можливостей команди.",
                 "totalMode": "Monthly budget",
                 "itemizedMode": "Cost breakdown",
-                "budgetNote": "The budget must include models/media, tools, infrastructure, Gabriel fees and additional paid review. Do not include unchanged payroll as new spending.",
-                "itemizedNote": "Token usage is calculated from volume × tokens per output. Extra media, tools and infrastructure stay at zero unless they apply. Additional paid review is calculated from review hours and its rate.",
+                "budgetNote": "Бюджет має включати моделі/медіа, інструменти, інфраструктуру, гонорари Габріеля та додатковий платний огляд. Не включайте незмінену платіжну відомість як нові витрати.",
+                "itemizedNote": "Використання токенів обчислюється за об’ємом × жетони на вихід. Додаткові засоби масової інформації, інструменти та інфраструктура залишаються нульовими, якщо вони не застосовуються. Додатковий платний огляд розраховується з годин перегляду та його тарифу.",
                 "paidReviewCost": "Additional paid review cost",
                 "allInCost": "Operating cost",
                 "missing": "Add your assumptions",
@@ -295,36 +296,36 @@
                 "expectedLoss": "Expected loss reduction",
                 "riskValue": "Uncertain risk value included",
                 "economicValue": "Modeled contribution",
-                "netBenefit": "Modeled benefit after Nest price",
+                "netBenefit": "Змодельована вигода за ціною Nest",
                 "multiple": "Internal delivery multiple",
                 "customerBenefit": "Modeled agent benefit",
                 "customerRoi": "Modeled customer ROI",
                 "payback": "Customer payback period",
                 "notApplicable": "Not applicable",
                 "annual": "Annual view",
-                "annualNote": "The same monthly assumptions, without growth or compounding. Hiring savings last only for the entered period.",
+                "annualNote": "Ті самі щомісячні припущення, без зростання чи складення. Заощадження від найму зберігаються лише протягом зазначеного періоду.",
                 "method": "How this is calculated",
                 "burdenHeading": "Repetitive work reduced",
                 "opportunityHeading": "Capacity for higher-value work",
-                "methodBody": "Operating burden removed (negative productivity) returns capacity. Higher-value work (potential positive productivity) creates economic value only if that capacity is used. Hours alone are not cash savings. Token cost uses a modeled input/output mix, not a provider quote.",
-                "formulaLabel": "Qualified briefs = leads × qualification rate. Delivery cost includes modeled token, model, tool, infrastructure, platform and human-review cost. Customer ROI remains unavailable until benefit and price are supported by evidence.",
-                "allocationNote": "Each hour can be allocated once. Unallocated hours remain capacity, with no monetary value.",
-                "overlapLabel": "These benefits are distinct; I have excluded costs and losses already counted elsewhere.",
-                "overlapNote": "Error and risk estimates exclude labor savings and the same incident must not appear in both categories. Contribution excludes AI costs, which are deducted separately.",
-                "hiringLabel": "This hire was genuinely planned and the allocated capacity can cover the work.",
-                "reviewedLabel": "I have reviewed my outcomes; unselected outcomes have no financial value in this estimate.",
+                "methodBody": "Усунення операційного тягаря (від'ємна продуктивність) повертає потужність. Робота з вищою вартістю (потенційна позитивна продуктивність) створює економічну цінність, лише якщо використовується цей потенціал. Години самі по собі не є грошовою економією. Вартість токена використовує змодельовану суміш введення/виведення, а не котирування постачальника.",
+                "formulaLabel": "Кваліфіковані рекомендації = потенційні клієнти × рівень кваліфікації. Вартість доставки включає змодельований токен, модель, інструмент, інфраструктуру, платформу та вартість перевірки людиною. Рентабельність інвестицій клієнта залишається недоступною, доки переваги та ціна не будуть підтверджені доказами.",
+                "allocationNote": "Кожна година може бути виділена один раз. Нерозподілені години залишаються ємними, без грошової оцінки.",
+                "overlapLabel": "Ці переваги є відмінними; Я виключив витрати та збитки, уже підраховані в іншому місці.",
+                "overlapNote": "Оцінки помилок і ризиків виключають економію праці, і той самий інцидент не повинен з’являтися в обох категоріях. Внесок не включає витрати на ШІ, які вираховуються окремо.",
+                "hiringLabel": "Цей найм був справді запланований, і виділені потужності можуть покрити роботу.",
+                "reviewedLabel": "Я переглянув свої результати; невибрані результати не мають фінансової цінності в цій оцінці.",
                 "cycleResult": "Cycle-time improvement",
-                "throughputResult": "Additional work supported by capacity and demand",
-                "assumptionsIncomplete": "Complete the selected assumptions to calculate financial value.",
-                "allocationError": "Allocated hours exceed the net capacity available. Reduce the allocations.",
-                "reviewError": "Review takes more time than the work reduced. No positive capacity is available at these assumptions.",
-                "cashError": "Avoided spending cannot exceed current spending or have positive value with no hours allocated.",
-                "hiringError": "Allocated capacity must cover the planned hire hours. Confirm the planned hire and its duration.",
-                "riskError": "The after probability cannot exceed the before probability for a loss-reduction estimate.",
-                "overlapError": "Confirm the benefits do not overlap before including them in the financial result.",
-                "boundsError": "Use values within the displayed limits.",
+                "throughputResult": "Додаткова робота, що підтримується потужністю та попитом",
+                "assumptionsIncomplete": "Заповніть вибрані припущення для розрахунку фінансової вартості.",
+                "allocationError": "Виділені години перевищують доступну чисту потужність. Reduce the allocations.",
+                "reviewError": "Огляд займає більше часу, ніж скорочується робота. За цих припущень немає жодної позитивної здатності.",
+                "cashError": "Уникнені витрати не можуть перевищувати поточні витрати або мати позитивне значення без виділених годин.",
+                "hiringError": "Виділена потужність повинна покривати заплановані години найму. Підтвердьте запланований найм і його тривалість.",
+                "riskError": "Імовірність після не може перевищувати ймовірність до оцінки зменшення втрат.",
+                "overlapError": "Переконайтеся, що переваги не збігаються, перш ніж включити їх у фінансовий результат.",
+                "boundsError": "Використовуйте значення в межах, що відображаються.",
                 "rangeLabel": "Adjust value",
-                "noCurrencyChange": "Language changes formatting, not your currency or assumptions.",
+                "noCurrencyChange": "Мова змінює форматування, а не вашу валюту чи припущення.",
                 "currentPreparation": "Поточні години підготовки",
                 "reviewHours": "Години огляду людини",
                 "reworkHours": "уникнення або додаткове перероблення",
@@ -340,148 +341,148 @@
               },
               "fields": {
                 "volume": {
-                  "label": "Leads or briefs entering the desk each month",
-                  "help": "Count inbound second-home enquiries in the selected market, not property transactions."
+                  "label": "Щомісяця на робочий стіл потрапляють ліди або зведення",
+                  "help": "Підраховуйте вхідні запити щодо вторинного житла на вибраному ринку, а не операції з нерухомістю."
                 },
                 "accepted_rate": {
                   "label": "Share becoming qualified briefs",
-                  "help": "A modeled qualification rate. Replace it with observed funnel data after a pilot."
+                  "help": "Змодельований рівень кваліфікації. Замініть його спостережуваними даними про воронку після пілоту."
                 },
                 "attendance_rate": {
                   "label": "Expected attendance rate",
-                  "help": "Modeled share of accepted meetings expected to happen. Replace this with verified event records after a pilot."
+                  "help": "Змодельована частка прийнятих зустрічей, які очікуються. Замініть це перевіреними записами подій після пілотного проекту."
                 },
                 "minutes": {
-                  "label": "Minutes to qualify one buyer brief today",
-                  "help": "Active intake and qualification time, excluding elapsed days and property-search time."
+                  "label": "Хвилини для кваліфікації одного покупця сьогодні",
+                  "help": "Активний час вступу та кваліфікації, за винятком минулих днів і часу пошуку власності."
                 },
                 "automation": {
-                  "label": "Share of that work reduced",
-                  "help": "An illustrative assumption to validate in a pilot, not a performance promise."
+                  "label": "Частка цієї роботи зменшилася",
+                  "help": "Ілюстративне припущення для перевірки в пілотній версії, а не обіцянка ефективності."
                 },
                 "review": {
-                  "label": "Minutes a reviewer spends confirming each brief",
-                  "help": "Human review still required before either side sees a proposal."
+                  "label": "Хвилини, які рецензент витрачає на підтвердження кожного брифу",
+                  "help": "Перед тим, як будь-яка сторона побачить пропозицію, усе ще потрібно перевірити її персоналом."
                 },
                 "cycles_per_unit": {
-                  "label": "Cycles per unit each month",
-                  "help": "How many recurring order, review or processing cycles each unit runs in a typical month."
+                  "label": "Цикли на одиницю кожного місяця",
+                  "help": "Скільки повторюваних циклів замовлення, перегляду чи обробки кожен підрозділ виконує в типовому місяці."
                 },
                 "tokens_per_output": {
-                  "label": "Tokens per qualified buyer brief",
-                  "help": "Modeled input and output tokens for one reviewable brief; provider usage must replace this hypothesis."
+                  "label": "Жетони за кваліфікований бриф",
+                  "help": "Змодельовані вхідні та вихідні маркери для одного оглядового брифу; використання провайдера має замінити цю гіпотезу."
                 },
                 "budget": {
                   "label": "Estimated monthly operating budget",
-                  "help": "Include token usage, models/media, tools, infrastructure, Gabriel fees and additional paid review."
+                  "help": "Включіть використання токенів, моделі/носії, інструменти, інфраструктуру, комісії Gabriel і додатковий платний огляд."
                 },
                 "model_cost": {
-                  "label": "Additional model or media cost",
-                  "help": "Enter separately billed models or media. Leave zero when included in the token envelope."
+                  "label": "Додаткова вартість моделі або носія",
+                  "help": "Введіть окремо оплачувані моделі або носії. Залиште нуль, якщо включено в конверт жетонів."
                 },
                 "tools_cost": {
                   "label": "Tools and integrations",
-                  "help": "Browser sessions, connectors and other metered services. Enter zero if none."
+                  "help": "Сеанси веб-переглядача, з’єднувачі та інші тарифні служби. Enter zero if none."
                 },
                 "infrastructure_cost": {
                   "label": "Infrastructure",
-                  "help": "Incremental hosting, storage and compute for this workload. Enter zero if none."
+                  "help": "Додатковий хостинг, сховище та обчислення для цього робочого навантаження. Enter zero if none."
                 },
                 "platform_cost": {
-                  "label": "Other delivery and support cost",
-                  "help": "Modeled hosting, storage, monitoring and support cost, separate from the customer price."
+                  "label": "Інші витрати на доставку та підтримку",
+                  "help": "Змодельована вартість хостингу, зберігання, моніторингу та підтримки окремо від ціни клієнта."
                 },
                 "customer_price": {
                   "label": "Proposed monthly Nest price",
-                  "help": "Editable agent/brokerage pricing hypothesis. It is not validated revenue and must be tested in a paid pilot."
+                  "help": "Редагована гіпотеза ціноутворення агента/брокера. Це не перевірений прибуток, і його потрібно протестувати в платному пілотному режимі."
                 },
                 "personal_value_per_hour": {
-                  "label": "Optional value you assign to an hour",
-                  "help": "An optional personal comparison only. This is not salary, wages or guaranteed cash savings."
+                  "label": "Додаткове значення, яке ви призначаєте годині",
+                  "help": "Лише особисте порівняння за бажанням. Це не зарплата, заробітна плата чи гарантовані грошові заощадження."
                 },
                 "review_rate": {
-                  "label": "Additional paid review per hour",
-                  "help": "Actual extra reviewer spending, not the salary of an unchanged employee."
+                  "label": "Додатковий оплачуваний огляд за годину",
+                  "help": "Фактичні додаткові витрати рецензента, а не зарплата незмінного працівника."
                 },
                 "cash_hours": {
-                  "label": "Hours that remove paid work",
-                  "help": "Allocate only work whose overtime, contractor or processing spend will actually stop."
+                  "label": "Години, що знімають оплачувану роботу",
+                  "help": "Виділяйте лише ті роботи, понаднормові, підрядники чи витрати на обробку яких фактично припиниться."
                 },
                 "cash_baseline": {
-                  "label": "Current monthly spending on that work",
-                  "help": "The cash budget from which the reduction will come."
+                  "label": "Поточні місячні витрати на цю роботу",
+                  "help": "Грошовий бюджет, за рахунок якого буде відбуватися скорочення."
                 },
                 "cash_avoided": {
-                  "label": "Monthly spending you would stop",
-                  "help": "One explicit amount, not hours multiplied by salary; exclude any planned-hire saving entered separately."
+                  "label": "Щомісячні витрати ви б припинили",
+                  "help": "Одна чітка сума, а не години, помножені на зарплату; виключити будь-яку економію запланованого найму, введену окремо."
                 },
                 "higher_value_hours": {
-                  "label": "Hours agents can use for real conversations",
-                  "help": "Only capacity with observed demand receives an economic value."
+                  "label": "Години, які агенти можуть використовувати для реальних розмов",
+                  "help": "Лише потужність із спостережуваним попитом отримує економічну цінність."
                 },
                 "contribution_rate": {
-                  "label": "Incremental contribution per agent hour",
-                  "help": "Contribution from additional work, excluding property value, commissions and costs already counted."
+                  "label": "Додатковий внесок за годину агента",
+                  "help": "Внесок від додаткової роботи, без урахування вартості майна, комісійних і витрат."
                 },
                 "throughput_hours": {
-                  "label": "Hours used for additional volume",
-                  "help": "This allocation cannot also be used for advisory work or spending reductions."
+                  "label": "Години, використані для додаткового обсягу",
+                  "help": "Ці асигнування також не можна використовувати для консультаційної роботи чи скорочення витрат."
                 },
                 "extra_minutes": {
-                  "label": "Team minutes per additional unit",
-                  "help": "The remaining human effort, including review, needed to deliver one more unit."
+                  "label": "Командні хвилини на додаткову одиницю",
+                  "help": "Решта людських зусиль, включаючи огляд, знадобилася для доставки ще одного блоку."
                 },
                 "demand": {
-                  "label": "Additional units with expected demand",
-                  "help": "Capacity alone is not demand. Enter the extra monthly work you expect to take on."
+                  "label": "Додаткові одиниці з очікуваним попитом",
+                  "help": "Попитом не є лише потужність. Введіть додаткову місячну роботу, яку ви плануєте виконувати."
                 },
                 "unit_margin": {
                   "label": "Contribution per additional unit",
-                  "help": "Incremental revenue less delivery costs; AI operating costs are deducted separately."
+                  "help": "Додатковий дохід за вирахуванням витрат на доставку; Експлуатаційні витрати AI вираховуються окремо."
                 },
                 "hiring_hours": {
-                  "label": "Hours covering the planned hire",
-                  "help": "Allocate capacity to specific planned work, not a generic full-time-equivalent estimate."
+                  "label": "Години, що покривають запланований найм",
+                  "help": "Розподіл потенціалу на конкретну заплановану роботу, а не на загальну оцінку в еквіваленті повної зайнятості."
                 },
                 "planned_hours": {
-                  "label": "Monthly hours the planned hire would cover",
-                  "help": "The allocated capacity must cover this entire workload."
+                  "label": "Щомісячні години, заплановані на роботу, покриватимуть",
+                  "help": "Виділена потужність повинна покривати все це робоче навантаження."
                 },
                 "hire_cost": {
-                  "label": "Monthly hire cost actually deferred",
-                  "help": "Use the cost of a genuinely planned hire, not the salary of someone already employed."
+                  "label": "Місячна вартість оренди фактично відкладена",
+                  "help": "Використовуйте вартість дійсно запланованого найму, а не зарплату того, хто вже працює."
                 },
                 "hire_months": {
-                  "label": "Months that hire is deferred",
-                  "help": "One to twelve months; the annual estimate stops counting savings after this period."
+                  "label": "Місяці, коли наймання відстрочено",
+                  "help": "Від одного до дванадцяти місяців; річна оцінка припиняє зараховувати заощадження після закінчення цього терміну."
                 },
                 "incidents": {
-                  "label": "Expected avoided errors per month",
-                  "help": "Use your baseline and expected reduction. Exclude incidents also counted as risk reduction."
+                  "label": "Очікувана кількість уникнутих помилок на місяць",
+                  "help": "Використовуйте базову лінію та очікуване скорочення. Виключіть інциденти, які також враховуються як зменшення ризику."
                 },
                 "incident_cost": {
                   "label": "Incremental cost per error",
-                  "help": "Exclude labor, refunds or other losses already included elsewhere."
+                  "help": "Виключіть витрати на оплату праці, відшкодування чи інші втрати, які вже включені в інші місця."
                 },
                 "probability_before": {
                   "label": "Monthly loss probability before",
-                  "help": "Your estimate, not a guaranteed risk assessment."
+                  "help": "Ваша оцінка, а не гарантована оцінка ризику."
                 },
                 "probability_after": {
                   "label": "Monthly loss probability after",
-                  "help": "Use the same event and monthly time horizon as the baseline."
+                  "help": "Використовуйте ту саму подію та місячний часовий горизонт як базову лінію."
                 },
                 "loss": {
-                  "label": "Loss exposure for that event",
-                  "help": "Exclude error incidents and spending already counted. This is uncertain expected value, not cash saved."
+                  "label": "Втрати від цієї події",
+                  "help": "Виключіть випадки помилок і вже підраховані витрати. Це невизначена очікувана вартість, а не заощаджені гроші."
                 },
                 "days_before": {
-                  "label": "Cycle time before, in days",
-                  "help": "Elapsed time from start to completion, separate from hands-on effort."
+                  "label": "Час циклу до, у днях",
+                  "help": "Час, що минув від початку до завершення, окремо від практичних зусиль."
                 },
                 "days_after": {
-                  "label": "Cycle time after, in days",
-                  "help": "Shown as an operational change only, without an assumed monetary value."
+                  "label": "Час циклу після, у днях",
+                  "help": "Показано лише як операційну зміну, без припущеної грошової вартості."
                 }
               },
               "burden": [
@@ -490,7 +491,7 @@
               ],
               "opportunity": [
                 "More qualified, human-reviewed introductions",
-                "Time for agent conversations and client needs"
+                "Час для розмов з агентом і потреб клієнта"
               ],
               "usagePackages": {
                 "base": {
@@ -540,14 +541,14 @@
                 {
                   "id": "higher_value",
                   "label": "Keep agents on conversations",
-                  "help": "Enter only capacity that can be redirected to real agent or brokerage work; do not treat property value or commission as Nest revenue."
+                  "help": "Введіть лише потенціал, який можна перенаправити на реальну агентську або брокерську роботу; не розглядайте вартість майна чи комісію як дохід Nest."
                 }
               ],
               "tabs": [
                 {
                   "id": "funnel",
                   "label": "Introduction funnel",
-                  "intro": "Model leads entering the agent or brokerage desk, qualification, and human review.",
+                  "intro": "Модельні лідери входять до агента або брокерської служби, кваліфікація та перевірка персоналом.",
                   "fields": [
                     "volume",
                     "accepted_rate",
@@ -558,7 +559,7 @@
                 {
                   "id": "costs",
                   "label": "AI operating cost",
-                  "intro": "Keep model, token, tool, infrastructure, platform and reviewer costs separate from the proposed customer price.",
+                  "intro": "Тримайте вартість моделі, маркера, інструменту, інфраструктури, платформи та рецензента окремо від запропонованої ціни клієнта.",
                   "fields": [
                     "tokens_per_output",
                     "model_cost",
@@ -572,7 +573,7 @@
                 {
                   "id": "capacity",
                   "label": "Capacity and evidence",
-                  "intro": "Returned capacity is not revenue. Financial results remain insufficient until a payer, price and delivery evidence are recorded.",
+                  "intro": "Повернена потужність не є доходом. Фінансові результати залишаються недостатніми, доки платник, ціна та докази доставки не будуть зафіксовані.",
                   "fields": [
                     "higher_value_hours",
                     "contribution_rate"
@@ -585,7 +586,7 @@
                 "basis": "fixed",
                 "annualPrice": 9000,
                 "label": "Proposed Nest monthly price",
-                "help": "A €750/month working hypothesis for a qualified-introduction pilot. Treat as unvalidated until an agent or brokerage pays."
+                "help": "Робоча гіпотеза 750 євро на місяць для кваліфікованого вступного пілота. Вважайте непідтвердженим, доки агент або брокер не заплатить."
               },
               "presentation": {
                 "financial": "optional",
@@ -597,13 +598,14 @@
               "primaryLabel": "Talk with Nest",
               "primaryTarget": "meet",
               "secondaryLabel": "See how it works",
-              "privacyNote": "Your data stays private. Hours are capacity. Financial amounts are modeled estimates, not observed results.",
+              "privacyNote": "Ваші дані залишаються конфіденційними. Години - це місткість. Фінансові суми є змодельованими оцінками, а не результатами спостереження.",
               "secondaryTarget": "how-it-works"
             }
           }
         },
         {
           "id": "selling",
+          "profileModeId": "seller",
           "label": "Я продаю",
           "responseMessage": "Скажіть мені, що робить будинок чітким і який покупець буде серйозним. Я збережу точну адресу конфіденційною і поверну одне зважене вступ.",
           "composerPlaceholder": "Розкажіть Nest, що має значення у вашому продажу…",
@@ -628,7 +630,7 @@
             {
               "number": "02",
               "image": "/landing-pages/nest/nest-how-review-human.webp",
-              "alt": "Гніздо і людина-рецензент ретельно розглядає одного продавця та одного кваліфікованого покупця",
+              "alt": "Nest і рецензент, який ретельно розглядає одного продавця та одного кваліфікованого покупця",
               "title": "Отримуйте по одному покупцеві за раз.",
               "body": "Людина переглядає кожну пропозицію, перш ніж побачить її будь-яка сторона. Немає публічного впливу або потоку масової угоди.",
               "badge": "Схвалено людиною"
@@ -701,7 +703,7 @@
             {
               "key": "privateConstraints",
               "label": "Приватні обмеження",
-              "placeholder": "Все, що гніздо має бути приватним",
+              "placeholder": "Все, що Nest має залишатися приватним",
               "type": "textarea",
               "required": false
             }
@@ -711,23 +713,23 @@
             "enabled": true,
             "kicker": "Business impact",
             "heading": "ROI Calculator",
-            "subheading": "Model a licensed second-home agent or brokerage using Nest for qualified, human-reviewed introductions in one local market.",
-            "disclaimer": "A modeled operating scenario with zero validated paid demand. Nest qualifies and coordinates consented introductions; it does not represent parties, value property, negotiate, earn commissions or guarantee a transaction.",
+            "subheading": "Зробіть модель ліцензованого агента з вторинного житла або брокерську компанію, використовуючи номер Nest для кваліфікованих, перевірених людьми знайомств на одному місцевому ринку.",
+            "disclaimer": "Змодельований сценарій роботи з нульовим перевіреним платним попитом. Nest кваліфікує та координує знайомства за згодою; він не представляє сторони, не оцінює майно, не веде переговорів, не заробляє комісійних і не гарантує угоду.",
             "currency": "EUR",
             "currencyCopy": {
               "native": "Amounts in {currency}.",
               "loading": "Checking the local currency. Amounts remain in {currency} until a rate is available.",
               "unavailable": "A current local exchange rate is unavailable. Amounts remain in {currency}.",
               "converted": "Amounts converted from {base} to {currency} using the reference rate dated {date}.",
-              "basis": "Currency conversion is not local cost research. Enter your own local costs and contribution assumptions. Language changes do not change amounts."
+              "basis": "Конвертація валют не є дослідженням місцевих витрат. Введіть власні місцеві витрати та припущення щодо внесків. Зміни мови не змінюють суми."
             },
             "costCopy": {
-              "breakdown": "How the all-in AI cost is built",
+              "breakdown": "Як будується загальна вартість AI",
               "perUnit": "{amount} per work unit (average)",
-              "budgetOnly": "This is your total budget. Switch to Cost breakdown to itemize it; no split has been assumed.",
-              "benefitNotice": "Modeled benefits, not charges. Crossed-out amounts are spending you expect to avoid, not discounts on the AI bill.",
+              "budgetOnly": "Це ваш загальний бюджет. Перейдіть до розподілу витрат, щоб деталізувати його; ніякого розколу не передбачається.",
+              "benefitNotice": "Змодельовані переваги, а не збори. Закреслені суми – це витрати, яких ви очікуєте уникнути, а не знижки на рахунок за штучний інтелект.",
               "remainder": "Other included operating costs",
-              "allocation": "Returned hours are capacity, not automatic savings. Only the portions you assign to actual spending reductions or additional contribution receive a monetary value."
+              "allocation": "Повернені години – це потужність, а не автоматичне збереження. Лише ті частини, які ви призначаєте фактичним скороченням витрат або додатковому внеску, отримують грошову оцінку."
             },
             "locale": "en-GB",
             "inputs": [],
@@ -749,14 +751,14 @@
                 "customer_price": 750
               },
               "copy": {
-                "navLabel": "Цінування",
+                "navLabel": "ціна",
                 "workloadStep": "Introduction funnel",
                 "costStep": "AI operating cost",
                 "valueStep": "Capacity and evidence",
-                "workloadIntro": "Model second-home leads, qualification and human review—not property sales, commissions or guaranteed matches.",
-                "costIntro": "Token, model, tool, infrastructure, platform and reviewer costs are delivery assumptions. Nest price is a separate unvalidated hypothesis.",
-                "valueIntro": "Capacity is not revenue. Enter observed contribution only after a real agent or brokerage uses and pays for the service.",
-                "sampleNotice": "Typical usage · not observed results",
+                "workloadIntro": "Моделювання потенційних клієнтів із вторинного житла, кваліфікація та перевірка персоналом, а не продаж нерухомості, комісія чи гарантовані збіги.",
+                "costIntro": "Вартість токена, моделі, інструменту, інфраструктури, платформи та рецензента є припущеннями доставки. Ціна Nest - окрема неперевірена гіпотеза.",
+                "valueIntro": "Потужність – це не дохід. Введіть спостережуваний внесок лише після того, як справжній агент або брокерська компанія скористається послугою та сплатить її.",
+                "sampleNotice": "Типове використання · результати не спостерігаються",
                 "monthly": "Monthly",
                 "yearly": "Yearly",
                 "next": "Continue",
@@ -781,11 +783,11 @@
                 "reviewMode": "Who handles the review?",
                 "teamReview": "Existing team",
                 "paidReview": "Additional paid reviewer",
-                "reviewNote": "Existing-team review uses returned capacity. Additional paid review is included in operating cost, not deducted again from team capacity.",
+                "reviewNote": "Перегляд існуючої команди використовує повернуту ємність. Додатковий оплачуваний огляд включено в експлуатаційні витрати, а не вираховується повторно з можливостей команди.",
                 "totalMode": "Monthly budget",
                 "itemizedMode": "Cost breakdown",
-                "budgetNote": "The budget must include models/media, tools, infrastructure, Gabriel fees and additional paid review. Do not include unchanged payroll as new spending.",
-                "itemizedNote": "Token usage is calculated from volume × tokens per output. Extra media, tools and infrastructure stay at zero unless they apply. Additional paid review is calculated from review hours and its rate.",
+                "budgetNote": "Бюджет має включати моделі/медіа, інструменти, інфраструктуру, гонорари Габріеля та додатковий платний огляд. Не включайте незмінену платіжну відомість як нові витрати.",
+                "itemizedNote": "Використання токенів обчислюється за об’ємом × жетони на вихід. Додаткові засоби масової інформації, інструменти та інфраструктура залишаються нульовими, якщо вони не застосовуються. Додатковий платний огляд розраховується з годин перегляду та його тарифу.",
                 "paidReviewCost": "Additional paid review cost",
                 "allInCost": "Operating cost",
                 "missing": "Add your assumptions",
@@ -794,36 +796,36 @@
                 "expectedLoss": "Expected loss reduction",
                 "riskValue": "Uncertain risk value included",
                 "economicValue": "Modeled contribution",
-                "netBenefit": "Modeled benefit after Nest price",
+                "netBenefit": "Змодельована вигода за ціною Nest",
                 "multiple": "Internal delivery multiple",
                 "customerBenefit": "Modeled agent benefit",
                 "customerRoi": "Modeled customer ROI",
                 "payback": "Customer payback period",
                 "notApplicable": "Not applicable",
                 "annual": "Annual view",
-                "annualNote": "The same monthly assumptions, without growth or compounding. Hiring savings last only for the entered period.",
+                "annualNote": "Ті самі щомісячні припущення, без зростання чи складення. Заощадження від найму зберігаються лише протягом зазначеного періоду.",
                 "method": "How this is calculated",
                 "burdenHeading": "Repetitive work reduced",
                 "opportunityHeading": "Capacity for higher-value work",
-                "methodBody": "Operating burden removed (negative productivity) returns capacity. Higher-value work (potential positive productivity) creates economic value only if that capacity is used. Hours alone are not cash savings. Token cost uses a modeled input/output mix, not a provider quote.",
-                "formulaLabel": "Qualified briefs = leads × qualification rate. Delivery cost includes modeled token, model, tool, infrastructure, platform and human-review cost. Customer ROI remains unavailable until benefit and price are supported by evidence.",
-                "allocationNote": "Each hour can be allocated once. Unallocated hours remain capacity, with no monetary value.",
-                "overlapLabel": "These benefits are distinct; I have excluded costs and losses already counted elsewhere.",
-                "overlapNote": "Error and risk estimates exclude labor savings and the same incident must not appear in both categories. Contribution excludes AI costs, which are deducted separately.",
-                "hiringLabel": "This hire was genuinely planned and the allocated capacity can cover the work.",
-                "reviewedLabel": "I have reviewed my outcomes; unselected outcomes have no financial value in this estimate.",
+                "methodBody": "Усунення операційного тягаря (від'ємна продуктивність) повертає потужність. Робота з вищою вартістю (потенційна позитивна продуктивність) створює економічну цінність, лише якщо використовується цей потенціал. Години самі по собі не є грошовою економією. Вартість токена використовує змодельовану суміш введення/виведення, а не котирування постачальника.",
+                "formulaLabel": "Кваліфіковані рекомендації = потенційні клієнти × рівень кваліфікації. Вартість доставки включає змодельований токен, модель, інструмент, інфраструктуру, платформу та вартість перевірки людиною. Рентабельність інвестицій клієнта залишається недоступною, доки переваги та ціна не будуть підтверджені доказами.",
+                "allocationNote": "Кожна година може бути виділена один раз. Нерозподілені години залишаються ємними, без грошової оцінки.",
+                "overlapLabel": "Ці переваги є відмінними; Я виключив витрати та збитки, уже підраховані в іншому місці.",
+                "overlapNote": "Оцінки помилок і ризиків виключають економію праці, і той самий інцидент не повинен з’являтися в обох категоріях. Внесок не включає витрати на ШІ, які вираховуються окремо.",
+                "hiringLabel": "Цей найм був справді запланований, і виділені потужності можуть покрити роботу.",
+                "reviewedLabel": "Я переглянув свої результати; невибрані результати не мають фінансової цінності в цій оцінці.",
                 "cycleResult": "Cycle-time improvement",
-                "throughputResult": "Additional work supported by capacity and demand",
-                "assumptionsIncomplete": "Complete the selected assumptions to calculate financial value.",
-                "allocationError": "Allocated hours exceed the net capacity available. Reduce the allocations.",
-                "reviewError": "Review takes more time than the work reduced. No positive capacity is available at these assumptions.",
-                "cashError": "Avoided spending cannot exceed current spending or have positive value with no hours allocated.",
-                "hiringError": "Allocated capacity must cover the planned hire hours. Confirm the planned hire and its duration.",
-                "riskError": "The after probability cannot exceed the before probability for a loss-reduction estimate.",
-                "overlapError": "Confirm the benefits do not overlap before including them in the financial result.",
-                "boundsError": "Use values within the displayed limits.",
+                "throughputResult": "Додаткова робота, що підтримується потужністю та попитом",
+                "assumptionsIncomplete": "Заповніть вибрані припущення для розрахунку фінансової вартості.",
+                "allocationError": "Виділені години перевищують доступну чисту потужність. Reduce the allocations.",
+                "reviewError": "Огляд займає більше часу, ніж скорочується робота. За цих припущень немає жодної позитивної здатності.",
+                "cashError": "Уникнені витрати не можуть перевищувати поточні витрати або мати позитивне значення без виділених годин.",
+                "hiringError": "Виділена потужність повинна покривати заплановані години найму. Підтвердьте запланований найм і його тривалість.",
+                "riskError": "Імовірність після не може перевищувати ймовірність до оцінки зменшення втрат.",
+                "overlapError": "Переконайтеся, що переваги не збігаються, перш ніж включити їх у фінансовий результат.",
+                "boundsError": "Використовуйте значення в межах, що відображаються.",
                 "rangeLabel": "Adjust value",
-                "noCurrencyChange": "Language changes formatting, not your currency or assumptions.",
+                "noCurrencyChange": "Мова змінює форматування, а не вашу валюту чи припущення.",
                 "currentPreparation": "Поточні години підготовки",
                 "reviewHours": "Години огляду людини",
                 "reworkHours": "уникнення або додаткове перероблення",
@@ -839,148 +841,148 @@
               },
               "fields": {
                 "volume": {
-                  "label": "Leads or briefs entering the desk each month",
-                  "help": "Count inbound second-home enquiries in the selected market, not property transactions."
+                  "label": "Щомісяця на робочий стіл потрапляють ліди або зведення",
+                  "help": "Підраховуйте вхідні запити щодо вторинного житла на вибраному ринку, а не операції з нерухомістю."
                 },
                 "accepted_rate": {
                   "label": "Share becoming qualified briefs",
-                  "help": "A modeled qualification rate. Replace it with observed funnel data after a pilot."
+                  "help": "Змодельований рівень кваліфікації. Замініть його спостережуваними даними про воронку після пілоту."
                 },
                 "attendance_rate": {
                   "label": "Expected attendance rate",
-                  "help": "Modeled share of accepted meetings expected to happen. Replace this with verified event records after a pilot."
+                  "help": "Змодельована частка прийнятих зустрічей, які очікуються. Замініть це перевіреними записами подій після пілотного проекту."
                 },
                 "minutes": {
-                  "label": "Minutes to qualify one seller brief today",
-                  "help": "Active intake and qualification time, excluding elapsed days and property-search time."
+                  "label": "Хвилини для кваліфікації одного продавця сьогодні",
+                  "help": "Активний час вступу та кваліфікації, за винятком минулих днів і часу пошуку власності."
                 },
                 "automation": {
-                  "label": "Share of that work reduced",
-                  "help": "An illustrative assumption to validate in a pilot, not a performance promise."
+                  "label": "Частка цієї роботи зменшилася",
+                  "help": "Ілюстративне припущення для перевірки в пілотній версії, а не обіцянка ефективності."
                 },
                 "review": {
-                  "label": "Minutes a reviewer spends confirming each brief",
-                  "help": "Human review still required before either side sees a proposal."
+                  "label": "Хвилини, які рецензент витрачає на підтвердження кожного брифу",
+                  "help": "Перед тим, як будь-яка сторона побачить пропозицію, усе ще потрібно перевірити її персоналом."
                 },
                 "cycles_per_unit": {
-                  "label": "Cycles per unit each month",
-                  "help": "How many recurring order, review or processing cycles each unit runs in a typical month."
+                  "label": "Цикли на одиницю кожного місяця",
+                  "help": "Скільки повторюваних циклів замовлення, перегляду чи обробки кожен підрозділ виконує в типовому місяці."
                 },
                 "tokens_per_output": {
-                  "label": "Tokens per qualified seller brief",
-                  "help": "Modeled input and output tokens for one reviewable brief; provider usage must replace this hypothesis."
+                  "label": "Токени за кваліфікованим продавцем",
+                  "help": "Змодельовані вхідні та вихідні маркери для одного оглядового брифу; використання провайдера має замінити цю гіпотезу."
                 },
                 "budget": {
                   "label": "Estimated monthly operating budget",
-                  "help": "Include token usage, models/media, tools, infrastructure, Gabriel fees and additional paid review."
+                  "help": "Включіть використання токенів, моделі/носії, інструменти, інфраструктуру, комісії Gabriel і додатковий платний огляд."
                 },
                 "model_cost": {
-                  "label": "Additional model or media cost",
-                  "help": "Enter separately billed models or media. Leave zero when included in the token envelope."
+                  "label": "Додаткова вартість моделі або носія",
+                  "help": "Введіть окремо оплачувані моделі або носії. Залиште нуль, якщо включено в конверт жетонів."
                 },
                 "tools_cost": {
                   "label": "Tools and integrations",
-                  "help": "Browser sessions, connectors and other metered services. Enter zero if none."
+                  "help": "Сеанси веб-переглядача, з’єднувачі та інші тарифні служби. Enter zero if none."
                 },
                 "infrastructure_cost": {
                   "label": "Infrastructure",
-                  "help": "Incremental hosting, storage and compute for this workload. Enter zero if none."
+                  "help": "Додатковий хостинг, сховище та обчислення для цього робочого навантаження. Enter zero if none."
                 },
                 "platform_cost": {
-                  "label": "Other delivery and support cost",
-                  "help": "Modeled hosting, storage, monitoring and support cost, separate from the customer price."
+                  "label": "Інші витрати на доставку та підтримку",
+                  "help": "Змодельована вартість хостингу, зберігання, моніторингу та підтримки окремо від ціни клієнта."
                 },
                 "customer_price": {
                   "label": "Proposed monthly Nest price",
-                  "help": "Editable agent/brokerage pricing hypothesis. It is not validated revenue and must be tested in a paid pilot."
+                  "help": "Редагована гіпотеза ціноутворення агента/брокера. Це не перевірений прибуток, і його потрібно протестувати в платному пілотному режимі."
                 },
                 "personal_value_per_hour": {
-                  "label": "Optional value you assign to an hour",
-                  "help": "An optional personal comparison only. This is not salary, wages or guaranteed cash savings."
+                  "label": "Додаткове значення, яке ви призначаєте годині",
+                  "help": "Лише особисте порівняння за бажанням. Це не зарплата, заробітна плата чи гарантовані грошові заощадження."
                 },
                 "review_rate": {
-                  "label": "Additional paid review per hour",
-                  "help": "Actual extra reviewer spending, not the salary of an unchanged employee."
+                  "label": "Додатковий оплачуваний огляд за годину",
+                  "help": "Фактичні додаткові витрати рецензента, а не зарплата незмінного працівника."
                 },
                 "cash_hours": {
-                  "label": "Hours that remove paid work",
-                  "help": "Allocate only work whose overtime, contractor or processing spend will actually stop."
+                  "label": "Години, що знімають оплачувану роботу",
+                  "help": "Виділяйте лише ті роботи, понаднормові, підрядники чи витрати на обробку яких фактично припиниться."
                 },
                 "cash_baseline": {
-                  "label": "Current monthly spending on that work",
-                  "help": "The cash budget from which the reduction will come."
+                  "label": "Поточні місячні витрати на цю роботу",
+                  "help": "Грошовий бюджет, за рахунок якого буде відбуватися скорочення."
                 },
                 "cash_avoided": {
-                  "label": "Monthly spending you would stop",
-                  "help": "One explicit amount, not hours multiplied by salary; exclude any planned-hire saving entered separately."
+                  "label": "Щомісячні витрати ви б припинили",
+                  "help": "Одна чітка сума, а не години, помножені на зарплату; виключити будь-яку економію запланованого найму, введену окремо."
                 },
                 "higher_value_hours": {
-                  "label": "Hours agents can use for real conversations",
-                  "help": "Only capacity with observed demand receives an economic value."
+                  "label": "Години, які агенти можуть використовувати для реальних розмов",
+                  "help": "Лише потужність із спостережуваним попитом отримує економічну цінність."
                 },
                 "contribution_rate": {
-                  "label": "Incremental contribution per agent hour",
-                  "help": "Contribution from additional work, excluding property value, commissions and costs already counted."
+                  "label": "Додатковий внесок за годину агента",
+                  "help": "Внесок від додаткової роботи, без урахування вартості майна, комісійних і витрат."
                 },
                 "throughput_hours": {
-                  "label": "Hours used for additional volume",
-                  "help": "This allocation cannot also be used for advisory work or spending reductions."
+                  "label": "Години, використані для додаткового обсягу",
+                  "help": "Ці асигнування також не можна використовувати для консультаційної роботи чи скорочення витрат."
                 },
                 "extra_minutes": {
-                  "label": "Team minutes per additional unit",
-                  "help": "The remaining human effort, including review, needed to deliver one more unit."
+                  "label": "Командні хвилини на додаткову одиницю",
+                  "help": "Решта людських зусиль, включаючи огляд, знадобилася для доставки ще одного блоку."
                 },
                 "demand": {
-                  "label": "Additional units with expected demand",
-                  "help": "Capacity alone is not demand. Enter the extra monthly work you expect to take on."
+                  "label": "Додаткові одиниці з очікуваним попитом",
+                  "help": "Попитом не є лише потужність. Введіть додаткову місячну роботу, яку ви плануєте виконувати."
                 },
                 "unit_margin": {
                   "label": "Contribution per additional unit",
-                  "help": "Incremental revenue less delivery costs; AI operating costs are deducted separately."
+                  "help": "Додатковий дохід за вирахуванням витрат на доставку; Експлуатаційні витрати AI вираховуються окремо."
                 },
                 "hiring_hours": {
-                  "label": "Hours covering the planned hire",
-                  "help": "Allocate capacity to specific planned work, not a generic full-time-equivalent estimate."
+                  "label": "Години, що покривають запланований найм",
+                  "help": "Розподіл потенціалу на конкретну заплановану роботу, а не на загальну оцінку в еквіваленті повної зайнятості."
                 },
                 "planned_hours": {
-                  "label": "Monthly hours the planned hire would cover",
-                  "help": "The allocated capacity must cover this entire workload."
+                  "label": "Щомісячні години, заплановані на роботу, покриватимуть",
+                  "help": "Виділена потужність повинна покривати все це робоче навантаження."
                 },
                 "hire_cost": {
-                  "label": "Monthly hire cost actually deferred",
-                  "help": "Use the cost of a genuinely planned hire, not the salary of someone already employed."
+                  "label": "Місячна вартість оренди фактично відкладена",
+                  "help": "Використовуйте вартість дійсно запланованого найму, а не зарплату того, хто вже працює."
                 },
                 "hire_months": {
-                  "label": "Months that hire is deferred",
-                  "help": "One to twelve months; the annual estimate stops counting savings after this period."
+                  "label": "Місяці, коли наймання відстрочено",
+                  "help": "Від одного до дванадцяти місяців; річна оцінка припиняє зараховувати заощадження після закінчення цього терміну."
                 },
                 "incidents": {
-                  "label": "Expected avoided errors per month",
-                  "help": "Use your baseline and expected reduction. Exclude incidents also counted as risk reduction."
+                  "label": "Очікувана кількість уникнутих помилок на місяць",
+                  "help": "Використовуйте базову лінію та очікуване скорочення. Виключіть інциденти, які також враховуються як зменшення ризику."
                 },
                 "incident_cost": {
                   "label": "Incremental cost per error",
-                  "help": "Exclude labor, refunds or other losses already included elsewhere."
+                  "help": "Виключіть витрати на оплату праці, відшкодування чи інші втрати, які вже включені в інші місця."
                 },
                 "probability_before": {
                   "label": "Monthly loss probability before",
-                  "help": "Your estimate, not a guaranteed risk assessment."
+                  "help": "Ваша оцінка, а не гарантована оцінка ризику."
                 },
                 "probability_after": {
                   "label": "Monthly loss probability after",
-                  "help": "Use the same event and monthly time horizon as the baseline."
+                  "help": "Використовуйте ту саму подію та місячний часовий горизонт як базову лінію."
                 },
                 "loss": {
-                  "label": "Loss exposure for that event",
-                  "help": "Exclude error incidents and spending already counted. This is uncertain expected value, not cash saved."
+                  "label": "Втрати від цієї події",
+                  "help": "Виключіть випадки помилок і вже підраховані витрати. Це невизначена очікувана вартість, а не заощаджені гроші."
                 },
                 "days_before": {
-                  "label": "Cycle time before, in days",
-                  "help": "Elapsed time from start to completion, separate from hands-on effort."
+                  "label": "Час циклу до, у днях",
+                  "help": "Час, що минув від початку до завершення, окремо від практичних зусиль."
                 },
                 "days_after": {
-                  "label": "Cycle time after, in days",
-                  "help": "Shown as an operational change only, without an assumed monetary value."
+                  "label": "Час циклу після, у днях",
+                  "help": "Показано лише як операційну зміну, без припущеної грошової вартості."
                 }
               },
               "burden": [
@@ -989,7 +991,7 @@
               ],
               "opportunity": [
                 "More qualified, human-reviewed introductions",
-                "Time for agent conversations and client needs"
+                "Час для розмов з агентом і потреб клієнта"
               ],
               "usagePackages": {
                 "base": {
@@ -1039,14 +1041,19 @@
                 {
                   "id": "higher_value",
                   "label": "Keep agents on conversations",
-                  "help": "Enter only capacity that can be redirected to real agent or brokerage work; do not treat property value or commission as Nest revenue."
+                  "help": "Введіть лише потенціал, який можна перенаправити на реальну агентську або брокерську роботу; не розглядайте вартість майна чи комісію як дохід Nest."
+                },
+                {
+                  "id": "cash",
+                  "label": "Зменшити платну підтримку",
+                  "help": "Скоротіть понаднормову роботу або витрати підрядника на ручний прийом продавця — зарплата не зміниться."
                 }
               ],
               "tabs": [
                 {
                   "id": "funnel",
                   "label": "Introduction funnel",
-                  "intro": "Model leads entering the agent or brokerage desk, qualification, and human review.",
+                  "intro": "Модельні лідери входять до агента або брокерської служби, кваліфікація та перевірка персоналом.",
                   "fields": [
                     "volume",
                     "accepted_rate",
@@ -1057,7 +1064,7 @@
                 {
                   "id": "costs",
                   "label": "AI operating cost",
-                  "intro": "Keep model, token, tool, infrastructure, platform and reviewer costs separate from the proposed customer price.",
+                  "intro": "Тримайте вартість моделі, маркера, інструменту, інфраструктури, платформи та рецензента окремо від запропонованої ціни клієнта.",
                   "fields": [
                     "tokens_per_output",
                     "model_cost",
@@ -1071,7 +1078,7 @@
                 {
                   "id": "capacity",
                   "label": "Capacity and evidence",
-                  "intro": "Returned capacity is not revenue. Financial results remain insufficient until a payer, price and delivery evidence are recorded.",
+                  "intro": "Повернена потужність не є доходом. Фінансові результати залишаються недостатніми, доки платник, ціна та докази доставки не будуть зафіксовані.",
                   "fields": [
                     "higher_value_hours",
                     "contribution_rate"
@@ -1084,7 +1091,7 @@
                 "basis": "fixed",
                 "annualPrice": 9000,
                 "label": "Proposed Nest monthly price",
-                "help": "A €750/month working hypothesis for a qualified-introduction pilot. Treat as unvalidated until an agent or brokerage pays."
+                "help": "Робоча гіпотеза 750 євро на місяць для кваліфікованого вступного пілота. Вважайте непідтвердженим, доки агент або брокер не заплатить."
               },
               "presentation": {
                 "financial": "optional",
@@ -1096,7 +1103,7 @@
               "primaryLabel": "Talk with Nest",
               "primaryTarget": "meet",
               "secondaryLabel": "See how it works",
-              "privacyNote": "Your data stays private. Hours are capacity. Financial amounts are modeled estimates, not observed results.",
+              "privacyNote": "Ваші дані залишаються конфіденційними. Години - це місткість. Фінансові суми є змодельованими оцінками, а не результатами спостереження.",
               "secondaryTarget": "how-it-works"
             }
           }
@@ -1113,10 +1120,10 @@
         "backgroundImage": "/landing-pages/nest/nest-hero-interior-clean.png",
         "backgroundAlt": "Теплий, спокійний домашній інтер'єр",
         "primaryCtaLabel": "Talk with Nest",
-        "secondaryCtaLabel": "Запит на введення",
+        "secondaryCtaLabel": "Зустрічайте Nest",
         "privacyLine": "Один матч за раз. Людина рецензувала. Приватний, доки обидві сторони не увійдуть.",
         "characterImage": "/landing-pages/nest/nest-character-meet-compact-high-wings-transparent.png",
-        "characterAlt": "Гніздо тримає блокнот і ключі з компактними крилами",
+        "characterAlt": "Nest тримає блокнот і ключі з компактними крилами",
         "chat": {
           "statusLabel": "Онлайн · Людина під наглядом",
           "privacyBadge": "приватні",
@@ -1162,7 +1169,7 @@
       "privacy": {
         "kicker": "Privacy is the sequence",
         "heading": "Ваша адреса залишається приватною, поки ви обидва не скажете «так».",
-        "body": "Гніздо починається з району розміром з околиці. Особа, контактні дані та точна адреса залишаються заблокованими через етапи пропозиції та взаємної згоди.",
+        "body": "Nest починається з району розміром з мікрорайон. Особистість, контактні дані та точна адреса залишаються заблокованими на етапах пропозиції та взаємної згоди.",
         "stages": [
           {
             "status": "proposed",
@@ -1196,7 +1203,7 @@
       "proposals": {
         "kicker": "Як виглядає пропозиція",
         "heading": "Дві сторони. один вважав за потрібне.",
-        "body": "Ці приклади карт показують форму пропозиції гнізда. Вони ніколи не розкривають особу чи точну адресу перед взаємною згодою.",
+        "body": "Ці приклади карток показують форму пропозиції Nest. Вони ніколи не розголошують особу чи точну адресу без взаємної згоди.",
         "cards": [
           {
             "pairing": "Покупець × нерухомість",
@@ -1233,11 +1240,11 @@
         ]
       },
       "meet": {
-        "kicker": "Запит на введення",
+        "kicker": "Зустрічайте Nest",
         "heading": "Деталі-повідомлення у вашому кутку.",
         "body": "Гніздо слухає за межами очевидного брифу: ранкове світло, яке ви любили, час, який ви не можете рухатися, єдиний компроміс, який насправді не є компромісом. Потім Nest повертає один, який вважається придатним.",
         "characterImage": "/landing-pages/nest/nest-character-meet-compact-high-wings-transparent.png",
-        "characterAlt": "Зустрічайте гніздо, тримаючи блокнот і ключі з компактними крилами, піднятими за верхніми плечами",
+        "characterAlt": "Зустрічайте Nest, тримає блокнот і ключі з компактними крильцями, піднятими за плечі",
         "principles": [
           {
             "title": "Слухає першим",
@@ -1252,15 +1259,15 @@
             "body": "Особа та точна адреса залишаються приватною до взаємної згоди."
           }
         ],
-        "primaryCtaLabel": "Поговоріть з гніздом",
+        "primaryCtaLabel": "Телефонуйте за номером Nest",
         "secondaryCtaLabel": "See how it works"
       },
       "footer": {
-        "brandLabel": "гніздо.",
+        "brandLabel": "Nest.",
         "tagline": "Одне ретельне знайомство з домом за раз.",
         "disclaimer": "Nest не є ліцензованим брокером і не представляє жодну зі сторін, не домовляється, не цінує ваш будинок або не займається вашою транзакцією. Коли ви будете готові рухатися вперед, ми зв’яжемо вас із ліцензованим місцевим агентом для завершення процесу. Not a broker. Does not represent either party. Does not provide valuations. Does not negotiate.",
         "eventDisclaimer": "Деталі другого ярмарку будинку змодельовані для цього екземпляра Nest і повинні бути перевірені перед відвідуванням.",
-        "copyright": "© 2026 Гніздо",
+        "copyright": "© 2026 Nest",
         "groups": [
           {
             "label": "досліджувати",
@@ -1280,10 +1287,10 @@
             ]
           },
           {
-            "label": "гніздо",
+            "label": "Nest",
             "links": [
               {
-                "label": "Запит на введення",
+                "label": "Зустрічайте Nest",
                 "target": "meet"
               },
               {
@@ -1300,23 +1307,23 @@
       "enabled": true,
       "kicker": "Business impact",
       "heading": "ROI Calculator",
-      "subheading": "Model a licensed second-home agent or brokerage using Nest for qualified, human-reviewed introductions in one local market.",
-      "disclaimer": "A modeled operating scenario with zero validated paid demand. Nest qualifies and coordinates consented introductions; it does not represent parties, value property, negotiate, earn commissions or guarantee a transaction.",
+      "subheading": "Зробіть модель ліцензованого агента з вторинного житла або брокерську компанію, використовуючи номер Nest для кваліфікованих, перевірених людьми знайомств на одному місцевому ринку.",
+      "disclaimer": "Змодельований сценарій роботи з нульовим перевіреним платним попитом. Nest кваліфікує та координує знайомства за згодою; він не представляє сторони, не оцінює майно, не веде переговорів, не заробляє комісійних і не гарантує угоду.",
       "currency": "EUR",
       "currencyCopy": {
         "native": "Amounts in {currency}.",
         "loading": "Checking the local currency. Amounts remain in {currency} until a rate is available.",
         "unavailable": "A current local exchange rate is unavailable. Amounts remain in {currency}.",
         "converted": "Amounts converted from {base} to {currency} using the reference rate dated {date}.",
-        "basis": "Currency conversion is not local cost research. Enter your own local costs and contribution assumptions. Language changes do not change amounts."
+        "basis": "Конвертація валют не є дослідженням місцевих витрат. Введіть власні місцеві витрати та припущення щодо внесків. Зміни мови не змінюють суми."
       },
       "costCopy": {
-        "breakdown": "How the all-in AI cost is built",
+        "breakdown": "Як будується загальна вартість AI",
         "perUnit": "{amount} per work unit (average)",
-        "budgetOnly": "This is your total budget. Switch to Cost breakdown to itemize it; no split has been assumed.",
-        "benefitNotice": "Modeled benefits, not charges. Crossed-out amounts are spending you expect to avoid, not discounts on the AI bill.",
+        "budgetOnly": "Це ваш загальний бюджет. Перейдіть до розподілу витрат, щоб деталізувати його; ніякого розколу не передбачається.",
+        "benefitNotice": "Змодельовані переваги, а не збори. Закреслені суми – це витрати, яких ви очікуєте уникнути, а не знижки на рахунок за штучний інтелект.",
         "remainder": "Other included operating costs",
-        "allocation": "Returned hours are capacity, not automatic savings. Only the portions you assign to actual spending reductions or additional contribution receive a monetary value."
+        "allocation": "Повернені години – це потужність, а не автоматичне збереження. Лише ті частини, які ви призначаєте фактичним скороченням витрат або додатковому внеску, отримують грошову оцінку."
       },
       "locale": "en-GB",
       "inputs": [],
@@ -1338,14 +1345,14 @@
           "customer_price": 750
         },
         "copy": {
-          "navLabel": "Цінування",
+          "navLabel": "ціна",
           "workloadStep": "Introduction funnel",
           "costStep": "AI operating cost",
           "valueStep": "Capacity and evidence",
-          "workloadIntro": "Model second-home leads, qualification and human review—not property sales, commissions or guaranteed matches.",
-          "costIntro": "Token, model, tool, infrastructure, platform and reviewer costs are delivery assumptions. Nest price is a separate unvalidated hypothesis.",
-          "valueIntro": "Capacity is not revenue. Enter observed contribution only after a real agent or brokerage uses and pays for the service.",
-          "sampleNotice": "Typical usage · not observed results",
+          "workloadIntro": "Моделювання потенційних клієнтів із вторинного житла, кваліфікація та перевірка персоналом, а не продаж нерухомості, комісія чи гарантовані збіги.",
+          "costIntro": "Вартість токена, моделі, інструменту, інфраструктури, платформи та рецензента є припущеннями доставки. Ціна Nest - окрема неперевірена гіпотеза.",
+          "valueIntro": "Потужність – це не дохід. Введіть спостережуваний внесок лише після того, як справжній агент або брокерська компанія скористається послугою та сплатить її.",
+          "sampleNotice": "Типове використання · результати не спостерігаються",
           "monthly": "Monthly",
           "yearly": "Yearly",
           "next": "Continue",
@@ -1370,11 +1377,11 @@
           "reviewMode": "Who handles the review?",
           "teamReview": "Existing team",
           "paidReview": "Additional paid reviewer",
-          "reviewNote": "Existing-team review uses returned capacity. Additional paid review is included in operating cost, not deducted again from team capacity.",
+          "reviewNote": "Перегляд існуючої команди використовує повернуту ємність. Додатковий оплачуваний огляд включено в експлуатаційні витрати, а не вираховується повторно з можливостей команди.",
           "totalMode": "Monthly budget",
           "itemizedMode": "Cost breakdown",
-          "budgetNote": "The budget must include models/media, tools, infrastructure, Gabriel fees and additional paid review. Do not include unchanged payroll as new spending.",
-          "itemizedNote": "Token usage is calculated from volume × tokens per output. Extra media, tools and infrastructure stay at zero unless they apply. Additional paid review is calculated from review hours and its rate.",
+          "budgetNote": "Бюджет має включати моделі/медіа, інструменти, інфраструктуру, гонорари Габріеля та додатковий платний огляд. Не включайте незмінену платіжну відомість як нові витрати.",
+          "itemizedNote": "Використання токенів обчислюється за об’ємом × жетони на вихід. Додаткові засоби масової інформації, інструменти та інфраструктура залишаються нульовими, якщо вони не застосовуються. Додатковий платний огляд розраховується з годин перегляду та його тарифу.",
           "paidReviewCost": "Additional paid review cost",
           "allInCost": "Operating cost",
           "missing": "Add your assumptions",
@@ -1383,36 +1390,36 @@
           "expectedLoss": "Expected loss reduction",
           "riskValue": "Uncertain risk value included",
           "economicValue": "Modeled contribution",
-          "netBenefit": "Modeled benefit after Nest price",
+          "netBenefit": "Змодельована вигода за ціною Nest",
           "multiple": "Internal delivery multiple",
           "customerBenefit": "Modeled agent benefit",
           "customerRoi": "Modeled customer ROI",
           "payback": "Customer payback period",
           "notApplicable": "Not applicable",
           "annual": "Annual view",
-          "annualNote": "The same monthly assumptions, without growth or compounding. Hiring savings last only for the entered period.",
+          "annualNote": "Ті самі щомісячні припущення, без зростання чи складення. Заощадження від найму зберігаються лише протягом зазначеного періоду.",
           "method": "How this is calculated",
           "burdenHeading": "Repetitive work reduced",
           "opportunityHeading": "Capacity for higher-value work",
-          "methodBody": "Operating burden removed (negative productivity) returns capacity. Higher-value work (potential positive productivity) creates economic value only if that capacity is used. Hours alone are not cash savings. Token cost uses a modeled input/output mix, not a provider quote.",
-          "formulaLabel": "Qualified briefs = leads × qualification rate. Delivery cost includes modeled token, model, tool, infrastructure, platform and human-review cost. Customer ROI remains unavailable until benefit and price are supported by evidence.",
-          "allocationNote": "Each hour can be allocated once. Unallocated hours remain capacity, with no monetary value.",
-          "overlapLabel": "These benefits are distinct; I have excluded costs and losses already counted elsewhere.",
-          "overlapNote": "Error and risk estimates exclude labor savings and the same incident must not appear in both categories. Contribution excludes AI costs, which are deducted separately.",
-          "hiringLabel": "This hire was genuinely planned and the allocated capacity can cover the work.",
-          "reviewedLabel": "I have reviewed my outcomes; unselected outcomes have no financial value in this estimate.",
+          "methodBody": "Усунення операційного тягаря (від'ємна продуктивність) повертає потужність. Робота з вищою вартістю (потенційна позитивна продуктивність) створює економічну цінність, лише якщо використовується цей потенціал. Години самі по собі не є грошовою економією. Вартість токена використовує змодельовану суміш введення/виведення, а не котирування постачальника.",
+          "formulaLabel": "Кваліфіковані рекомендації = потенційні клієнти × рівень кваліфікації. Вартість доставки включає змодельований токен, модель, інструмент, інфраструктуру, платформу та вартість перевірки людиною. Рентабельність інвестицій клієнта залишається недоступною, доки переваги та ціна не будуть підтверджені доказами.",
+          "allocationNote": "Кожна година може бути виділена один раз. Нерозподілені години залишаються ємними, без грошової оцінки.",
+          "overlapLabel": "Ці переваги є відмінними; Я виключив витрати та збитки, уже підраховані в іншому місці.",
+          "overlapNote": "Оцінки помилок і ризиків виключають економію праці, і той самий інцидент не повинен з’являтися в обох категоріях. Внесок не включає витрати на ШІ, які вираховуються окремо.",
+          "hiringLabel": "Цей найм був справді запланований, і виділені потужності можуть покрити роботу.",
+          "reviewedLabel": "Я переглянув свої результати; невибрані результати не мають фінансової цінності в цій оцінці.",
           "cycleResult": "Cycle-time improvement",
-          "throughputResult": "Additional work supported by capacity and demand",
-          "assumptionsIncomplete": "Complete the selected assumptions to calculate financial value.",
-          "allocationError": "Allocated hours exceed the net capacity available. Reduce the allocations.",
-          "reviewError": "Review takes more time than the work reduced. No positive capacity is available at these assumptions.",
-          "cashError": "Avoided spending cannot exceed current spending or have positive value with no hours allocated.",
-          "hiringError": "Allocated capacity must cover the planned hire hours. Confirm the planned hire and its duration.",
-          "riskError": "The after probability cannot exceed the before probability for a loss-reduction estimate.",
-          "overlapError": "Confirm the benefits do not overlap before including them in the financial result.",
-          "boundsError": "Use values within the displayed limits.",
+          "throughputResult": "Додаткова робота, що підтримується потужністю та попитом",
+          "assumptionsIncomplete": "Заповніть вибрані припущення для розрахунку фінансової вартості.",
+          "allocationError": "Виділені години перевищують доступну чисту потужність. Reduce the allocations.",
+          "reviewError": "Огляд займає більше часу, ніж скорочується робота. За цих припущень немає жодної позитивної здатності.",
+          "cashError": "Уникнені витрати не можуть перевищувати поточні витрати або мати позитивне значення без виділених годин.",
+          "hiringError": "Виділена потужність повинна покривати заплановані години найму. Підтвердьте запланований найм і його тривалість.",
+          "riskError": "Імовірність після не може перевищувати ймовірність до оцінки зменшення втрат.",
+          "overlapError": "Переконайтеся, що переваги не збігаються, перш ніж включити їх у фінансовий результат.",
+          "boundsError": "Використовуйте значення в межах, що відображаються.",
           "rangeLabel": "Adjust value",
-          "noCurrencyChange": "Language changes formatting, not your currency or assumptions.",
+          "noCurrencyChange": "Мова змінює форматування, а не вашу валюту чи припущення.",
           "currentPreparation": "Поточні години підготовки",
           "reviewHours": "Години огляду людини",
           "reworkHours": "уникнення або додаткове перероблення",
@@ -1428,148 +1435,148 @@
         },
         "fields": {
           "volume": {
-            "label": "Leads or briefs entering the desk each month",
-            "help": "Count inbound second-home enquiries in the selected market, not property transactions."
+            "label": "Щомісяця на робочий стіл потрапляють ліди або зведення",
+            "help": "Підраховуйте вхідні запити щодо вторинного житла на вибраному ринку, а не операції з нерухомістю."
           },
           "accepted_rate": {
             "label": "Share becoming qualified briefs",
-            "help": "A modeled qualification rate. Replace it with observed funnel data after a pilot."
+            "help": "Змодельований рівень кваліфікації. Замініть його спостережуваними даними про воронку після пілоту."
           },
           "attendance_rate": {
             "label": "Expected attendance rate",
-            "help": "Modeled share of accepted meetings expected to happen. Replace this with verified event records after a pilot."
+            "help": "Змодельована частка прийнятих зустрічей, які очікуються. Замініть це перевіреними записами подій після пілотного проекту."
           },
           "minutes": {
-            "label": "Minutes to qualify one buyer brief today",
-            "help": "Active intake and qualification time, excluding elapsed days and property-search time."
+            "label": "Хвилини для кваліфікації одного покупця сьогодні",
+            "help": "Активний час вступу та кваліфікації, за винятком минулих днів і часу пошуку власності."
           },
           "automation": {
-            "label": "Share of that work reduced",
-            "help": "An illustrative assumption to validate in a pilot, not a performance promise."
+            "label": "Частка цієї роботи зменшилася",
+            "help": "Ілюстративне припущення для перевірки в пілотній версії, а не обіцянка ефективності."
           },
           "review": {
-            "label": "Minutes a reviewer spends confirming each brief",
-            "help": "Human review still required before either side sees a proposal."
+            "label": "Хвилини, які рецензент витрачає на підтвердження кожного брифу",
+            "help": "Перед тим, як будь-яка сторона побачить пропозицію, усе ще потрібно перевірити її персоналом."
           },
           "cycles_per_unit": {
-            "label": "Cycles per unit each month",
-            "help": "How many recurring order, review or processing cycles each unit runs in a typical month."
+            "label": "Цикли на одиницю кожного місяця",
+            "help": "Скільки повторюваних циклів замовлення, перегляду чи обробки кожен підрозділ виконує в типовому місяці."
           },
           "tokens_per_output": {
-            "label": "Tokens per qualified buyer brief",
-            "help": "Modeled input and output tokens for one reviewable brief; provider usage must replace this hypothesis."
+            "label": "Жетони за кваліфікований бриф",
+            "help": "Змодельовані вхідні та вихідні маркери для одного оглядового брифу; використання провайдера має замінити цю гіпотезу."
           },
           "budget": {
             "label": "Estimated monthly operating budget",
-            "help": "Include token usage, models/media, tools, infrastructure, Gabriel fees and additional paid review."
+            "help": "Включіть використання токенів, моделі/носії, інструменти, інфраструктуру, комісії Gabriel і додатковий платний огляд."
           },
           "model_cost": {
-            "label": "Additional model or media cost",
-            "help": "Enter separately billed models or media. Leave zero when included in the token envelope."
+            "label": "Додаткова вартість моделі або носія",
+            "help": "Введіть окремо оплачувані моделі або носії. Залиште нуль, якщо включено в конверт жетонів."
           },
           "tools_cost": {
             "label": "Tools and integrations",
-            "help": "Browser sessions, connectors and other metered services. Enter zero if none."
+            "help": "Сеанси веб-переглядача, з’єднувачі та інші тарифні служби. Enter zero if none."
           },
           "infrastructure_cost": {
             "label": "Infrastructure",
-            "help": "Incremental hosting, storage and compute for this workload. Enter zero if none."
+            "help": "Додатковий хостинг, сховище та обчислення для цього робочого навантаження. Enter zero if none."
           },
           "platform_cost": {
-            "label": "Other delivery and support cost",
-            "help": "Modeled hosting, storage, monitoring and support cost, separate from the customer price."
+            "label": "Інші витрати на доставку та підтримку",
+            "help": "Змодельована вартість хостингу, зберігання, моніторингу та підтримки окремо від ціни клієнта."
           },
           "customer_price": {
             "label": "Proposed monthly Nest price",
-            "help": "Editable agent/brokerage pricing hypothesis. It is not validated revenue and must be tested in a paid pilot."
+            "help": "Редагована гіпотеза ціноутворення агента/брокера. Це не перевірений прибуток, і його потрібно протестувати в платному пілотному режимі."
           },
           "personal_value_per_hour": {
-            "label": "Optional value you assign to an hour",
-            "help": "An optional personal comparison only. This is not salary, wages or guaranteed cash savings."
+            "label": "Додаткове значення, яке ви призначаєте годині",
+            "help": "Лише особисте порівняння за бажанням. Це не зарплата, заробітна плата чи гарантовані грошові заощадження."
           },
           "review_rate": {
-            "label": "Additional paid review per hour",
-            "help": "Actual extra reviewer spending, not the salary of an unchanged employee."
+            "label": "Додатковий оплачуваний огляд за годину",
+            "help": "Фактичні додаткові витрати рецензента, а не зарплата незмінного працівника."
           },
           "cash_hours": {
-            "label": "Hours that remove paid work",
-            "help": "Allocate only work whose overtime, contractor or processing spend will actually stop."
+            "label": "Години, що знімають оплачувану роботу",
+            "help": "Виділяйте лише ті роботи, понаднормові, підрядники чи витрати на обробку яких фактично припиниться."
           },
           "cash_baseline": {
-            "label": "Current monthly spending on that work",
-            "help": "The cash budget from which the reduction will come."
+            "label": "Поточні місячні витрати на цю роботу",
+            "help": "Грошовий бюджет, за рахунок якого буде відбуватися скорочення."
           },
           "cash_avoided": {
-            "label": "Monthly spending you would stop",
-            "help": "One explicit amount, not hours multiplied by salary; exclude any planned-hire saving entered separately."
+            "label": "Щомісячні витрати ви б припинили",
+            "help": "Одна чітка сума, а не години, помножені на зарплату; виключити будь-яку економію запланованого найму, введену окремо."
           },
           "higher_value_hours": {
-            "label": "Hours agents can use for real conversations",
-            "help": "Only capacity with observed demand receives an economic value."
+            "label": "Години, які агенти можуть використовувати для реальних розмов",
+            "help": "Лише потужність із спостережуваним попитом отримує економічну цінність."
           },
           "contribution_rate": {
-            "label": "Incremental contribution per agent hour",
-            "help": "Contribution from additional work, excluding property value, commissions and costs already counted."
+            "label": "Додатковий внесок за годину агента",
+            "help": "Внесок від додаткової роботи, без урахування вартості майна, комісійних і витрат."
           },
           "throughput_hours": {
-            "label": "Hours used for additional volume",
-            "help": "This allocation cannot also be used for advisory work or spending reductions."
+            "label": "Години, використані для додаткового обсягу",
+            "help": "Ці асигнування також не можна використовувати для консультаційної роботи чи скорочення витрат."
           },
           "extra_minutes": {
-            "label": "Team minutes per additional unit",
-            "help": "The remaining human effort, including review, needed to deliver one more unit."
+            "label": "Командні хвилини на додаткову одиницю",
+            "help": "Решта людських зусиль, включаючи огляд, знадобилася для доставки ще одного блоку."
           },
           "demand": {
-            "label": "Additional units with expected demand",
-            "help": "Capacity alone is not demand. Enter the extra monthly work you expect to take on."
+            "label": "Додаткові одиниці з очікуваним попитом",
+            "help": "Попитом не є лише потужність. Введіть додаткову місячну роботу, яку ви плануєте виконувати."
           },
           "unit_margin": {
             "label": "Contribution per additional unit",
-            "help": "Incremental revenue less delivery costs; AI operating costs are deducted separately."
+            "help": "Додатковий дохід за вирахуванням витрат на доставку; Експлуатаційні витрати AI вираховуються окремо."
           },
           "hiring_hours": {
-            "label": "Hours covering the planned hire",
-            "help": "Allocate capacity to specific planned work, not a generic full-time-equivalent estimate."
+            "label": "Години, що покривають запланований найм",
+            "help": "Розподіл потенціалу на конкретну заплановану роботу, а не на загальну оцінку в еквіваленті повної зайнятості."
           },
           "planned_hours": {
-            "label": "Monthly hours the planned hire would cover",
-            "help": "The allocated capacity must cover this entire workload."
+            "label": "Щомісячні години, заплановані на роботу, покриватимуть",
+            "help": "Виділена потужність повинна покривати все це робоче навантаження."
           },
           "hire_cost": {
-            "label": "Monthly hire cost actually deferred",
-            "help": "Use the cost of a genuinely planned hire, not the salary of someone already employed."
+            "label": "Місячна вартість оренди фактично відкладена",
+            "help": "Використовуйте вартість дійсно запланованого найму, а не зарплату того, хто вже працює."
           },
           "hire_months": {
-            "label": "Months that hire is deferred",
-            "help": "One to twelve months; the annual estimate stops counting savings after this period."
+            "label": "Місяці, коли наймання відстрочено",
+            "help": "Від одного до дванадцяти місяців; річна оцінка припиняє зараховувати заощадження після закінчення цього терміну."
           },
           "incidents": {
-            "label": "Expected avoided errors per month",
-            "help": "Use your baseline and expected reduction. Exclude incidents also counted as risk reduction."
+            "label": "Очікувана кількість уникнутих помилок на місяць",
+            "help": "Використовуйте базову лінію та очікуване скорочення. Виключіть інциденти, які також враховуються як зменшення ризику."
           },
           "incident_cost": {
             "label": "Incremental cost per error",
-            "help": "Exclude labor, refunds or other losses already included elsewhere."
+            "help": "Виключіть витрати на оплату праці, відшкодування чи інші втрати, які вже включені в інші місця."
           },
           "probability_before": {
             "label": "Monthly loss probability before",
-            "help": "Your estimate, not a guaranteed risk assessment."
+            "help": "Ваша оцінка, а не гарантована оцінка ризику."
           },
           "probability_after": {
             "label": "Monthly loss probability after",
-            "help": "Use the same event and monthly time horizon as the baseline."
+            "help": "Використовуйте ту саму подію та місячний часовий горизонт як базову лінію."
           },
           "loss": {
-            "label": "Loss exposure for that event",
-            "help": "Exclude error incidents and spending already counted. This is uncertain expected value, not cash saved."
+            "label": "Втрати від цієї події",
+            "help": "Виключіть випадки помилок і вже підраховані витрати. Це невизначена очікувана вартість, а не заощаджені гроші."
           },
           "days_before": {
-            "label": "Cycle time before, in days",
-            "help": "Elapsed time from start to completion, separate from hands-on effort."
+            "label": "Час циклу до, у днях",
+            "help": "Час, що минув від початку до завершення, окремо від практичних зусиль."
           },
           "days_after": {
-            "label": "Cycle time after, in days",
-            "help": "Shown as an operational change only, without an assumed monetary value."
+            "label": "Час циклу після, у днях",
+            "help": "Показано лише як операційну зміну, без припущеної грошової вартості."
           }
         },
         "burden": [
@@ -1578,7 +1585,7 @@
         ],
         "opportunity": [
           "More qualified, human-reviewed introductions",
-          "Time for agent conversations and client needs"
+          "Час для розмов з агентом і потреб клієнта"
         ],
         "usagePackages": {
           "base": {
@@ -1628,14 +1635,19 @@
           {
             "id": "higher_value",
             "label": "Keep agents on conversations",
-            "help": "Enter only capacity that can be redirected to real agent or brokerage work; do not treat property value or commission as Nest revenue."
+            "help": "Введіть лише потенціал, який можна перенаправити на реальну агентську або брокерську роботу; не розглядайте вартість майна чи комісію як дохід Nest."
+          },
+          {
+            "id": "cash",
+            "label": "Зменшити платну підтримку",
+            "help": "Зменште понаднормові або витрати підрядника на ручний прийом покупців — зарплата не зміниться."
           }
         ],
         "tabs": [
           {
             "id": "funnel",
             "label": "Introduction funnel",
-            "intro": "Model leads entering the agent or brokerage desk, qualification, and human review.",
+            "intro": "Модельні лідери входять до агента або брокерської служби, кваліфікація та перевірка персоналом.",
             "fields": [
               "volume",
               "accepted_rate",
@@ -1646,7 +1658,7 @@
           {
             "id": "costs",
             "label": "AI operating cost",
-            "intro": "Keep model, token, tool, infrastructure, platform and reviewer costs separate from the proposed customer price.",
+            "intro": "Тримайте вартість моделі, маркера, інструменту, інфраструктури, платформи та рецензента окремо від запропонованої ціни клієнта.",
             "fields": [
               "tokens_per_output",
               "model_cost",
@@ -1660,7 +1672,7 @@
           {
             "id": "capacity",
             "label": "Capacity and evidence",
-            "intro": "Returned capacity is not revenue. Financial results remain insufficient until a payer, price and delivery evidence are recorded.",
+            "intro": "Повернена потужність не є доходом. Фінансові результати залишаються недостатніми, доки платник, ціна та докази доставки не будуть зафіксовані.",
             "fields": [
               "higher_value_hours",
               "contribution_rate"
@@ -1673,7 +1685,7 @@
           "basis": "fixed",
           "annualPrice": 9000,
           "label": "Proposed Nest monthly price",
-          "help": "A €750/month working hypothesis for a qualified-introduction pilot. Treat as unvalidated until an agent or brokerage pays."
+          "help": "Робоча гіпотеза 750 євро на місяць для кваліфікованого вступного пілота. Вважайте непідтвердженим, доки агент або брокер не заплатить."
         },
         "presentation": {
           "financial": "optional",
@@ -1685,7 +1697,7 @@
         "primaryLabel": "Talk with Nest",
         "primaryTarget": "meet",
         "secondaryLabel": "See how it works",
-        "privacyNote": "Your data stays private. Hours are capacity. Financial amounts are modeled estimates, not observed results.",
+        "privacyNote": "Ваші дані залишаються конфіденційними. Години - це місткість. Фінансові суми є змодельованими оцінками, а не результатами спостереження.",
         "secondaryTarget": "how-it-works"
       }
     }
@@ -1972,6 +1984,16 @@
         "availabilityLabel"
       ],
       "sourceHash": "4ccdf0d88d921c3c0274c16ab665fd021b888edca40c2f1887ca4da4e2e61adc"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "profileModeId"
+      ],
+      "sourceHash": "6dbd0f28d0d97656768b7b4ed96255e67fd11740a44b1c4b575191b06e9e3a35"
     },
     {
       "path": [
@@ -4653,34 +4675,9 @@
         0,
         "roiCalculator",
         "businessImpact",
-        "costMode"
-      ],
-      "sourceHash": "0257609b2e009aa6c788941fbcaeee13877465889a94aaf0444c7d4159ee616c"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        0,
-        "roiCalculator",
-        "businessImpact",
         "reviewMode"
       ],
       "sourceHash": "ca8b22d0db83a22db163b560b3e4e51527e533d31d067b614a0c33c4d2df8432"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        0,
-        "roiCalculator",
-        "businessImpact",
-        "selected",
-        0
-      ],
-      "sourceHash": "c8333158bd18b91a71842cfd38c2d6ddab471bda158b19286d96d4a4ed973ac4"
     },
     {
       "path": [
@@ -4760,51 +4757,6 @@
         "roiCalculator",
         "businessImpact",
         "tabs",
-        0,
-        "fields",
-        0
-      ],
-      "sourceHash": "62d7a6b1211d627650e2bf0c869b69b564e2cd74290ae1dd78ae4b5e20b0cfe7"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        0,
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        0,
-        "fields",
-        1
-      ],
-      "sourceHash": "533c554a619ee86f5b109e6356436592d023fca097b61a42a5769899f3e49ded"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        0,
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        0,
-        "fields",
-        2
-      ],
-      "sourceHash": "c97ace4c8fef2cee8fa0f3c9f52aab18dbd4f42438afe362ffb8f75ce4c04b84"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        0,
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
         1,
         "label"
       ],
@@ -4823,96 +4775,6 @@
         "intro"
       ],
       "sourceHash": "ecb995d2474e26388c933fda1b6a2ac889d6f3629ab1f42fe73e918b2733817f"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        0,
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        1,
-        "fields",
-        0
-      ],
-      "sourceHash": "252b07fa1db64f9ca920817ce39dec8523f46fca171a3dfd2721f7406ad524b3"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        0,
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        1,
-        "fields",
-        1
-      ],
-      "sourceHash": "d1bedf986ff719c3697d5349d0a881f26ca60c944250a6b9d841dbfdd75ec256"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        0,
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        1,
-        "fields",
-        2
-      ],
-      "sourceHash": "d36f8ed71fe4f06ad33653f5b2a02efb6b90532b03694d27b25f01211ee64df5"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        0,
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        1,
-        "fields",
-        3
-      ],
-      "sourceHash": "5ef2621e3c47a6ca8fc7990c6ffa19b229e742540611b01e0f1d253b33808503"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        0,
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        1,
-        "fields",
-        4
-      ],
-      "sourceHash": "ddb2485b111f5d7373d804bdb4010b2590b72ba7b899fd5e11c4e0d5e00fb524"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        0,
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        1,
-        "fields",
-        5
-      ],
-      "sourceHash": "b90c7599f77434bcd2d32958a8557417fb5333b4dbd169ff8c5ee65bbb5008ef"
     },
     {
       "path": [
@@ -4950,49 +4812,6 @@
         0,
         "roiCalculator",
         "businessImpact",
-        "tabs",
-        2,
-        "fields",
-        0
-      ],
-      "sourceHash": "f033d3c123d7de8fa6a1706e2f8dee954bec3ef08f9c5a10de37ab050e4d25ab"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        0,
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        2,
-        "fields",
-        1
-      ],
-      "sourceHash": "b28c91bc16791f680909ec198a45e7c491055b8c4c558da970e1e9bcd2635edc"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        0,
-        "roiCalculator",
-        "businessImpact",
-        "pricing",
-        "basis"
-      ],
-      "sourceHash": "992a93455c71fedd36ac9bbc439952c041cf61445958472af479269b8d873513"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        0,
-        "roiCalculator",
-        "businessImpact",
         "pricing",
         "label"
       ],
@@ -5010,19 +4829,6 @@
         "help"
       ],
       "sourceHash": "aebaed823e7b8d30309648e6c85cfe4d7f6cb7938bdf923f2c68c9b67ff269da"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        0,
-        "roiCalculator",
-        "businessImpact",
-        "presentation",
-        "financial"
-      ],
-      "sourceHash": "ec91fdd9256cb75ae611249b50cb7eb16533f0fa91b86239ec1d439a1ea033b8"
     },
     {
       "path": [
@@ -5059,6 +4865,16 @@
         "privacyNote"
       ],
       "sourceHash": "0e96f5e15977ab0a2a8d684c0d35d7459f3afc862b606046310ae1fbbd4be12b"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "profileModeId"
+      ],
+      "sourceHash": "a4279eae47aaa7417da62434795a011ccb0ec870f7f56646d181b5500a892a9a"
     },
     {
       "path": [
@@ -7809,34 +7625,9 @@
         1,
         "roiCalculator",
         "businessImpact",
-        "costMode"
-      ],
-      "sourceHash": "0257609b2e009aa6c788941fbcaeee13877465889a94aaf0444c7d4159ee616c"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        1,
-        "roiCalculator",
-        "businessImpact",
         "reviewMode"
       ],
       "sourceHash": "ca8b22d0db83a22db163b560b3e4e51527e533d31d067b614a0c33c4d2df8432"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        1,
-        "roiCalculator",
-        "businessImpact",
-        "selected",
-        0
-      ],
-      "sourceHash": "c8333158bd18b91a71842cfd38c2d6ddab471bda158b19286d96d4a4ed973ac4"
     },
     {
       "path": [
@@ -7887,6 +7678,34 @@
         1,
         "roiCalculator",
         "businessImpact",
+        "outcomes",
+        1,
+        "label"
+      ],
+      "sourceHash": "aea4419b254433ce01374056925b89821689edcecc57fcd6988c2abc3f51c102"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "businessImpact",
+        "outcomes",
+        1,
+        "help"
+      ],
+      "sourceHash": "79f050bc25f624be1f08b5c05a4ac923c1c16bcf253e4009d475f35d6a7a6927"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "businessImpact",
         "tabs",
         0,
         "label"
@@ -7906,51 +7725,6 @@
         "intro"
       ],
       "sourceHash": "db6c00c1b6ccac892da8c66e20f05fcc3bf78c2a3b4929b7c5ad4c53ce32e23a"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        1,
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        0,
-        "fields",
-        0
-      ],
-      "sourceHash": "62d7a6b1211d627650e2bf0c869b69b564e2cd74290ae1dd78ae4b5e20b0cfe7"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        1,
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        0,
-        "fields",
-        1
-      ],
-      "sourceHash": "533c554a619ee86f5b109e6356436592d023fca097b61a42a5769899f3e49ded"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        1,
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        0,
-        "fields",
-        2
-      ],
-      "sourceHash": "c97ace4c8fef2cee8fa0f3c9f52aab18dbd4f42438afe362ffb8f75ce4c04b84"
     },
     {
       "path": [
@@ -7989,96 +7763,6 @@
         "roiCalculator",
         "businessImpact",
         "tabs",
-        1,
-        "fields",
-        0
-      ],
-      "sourceHash": "252b07fa1db64f9ca920817ce39dec8523f46fca171a3dfd2721f7406ad524b3"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        1,
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        1,
-        "fields",
-        1
-      ],
-      "sourceHash": "d1bedf986ff719c3697d5349d0a881f26ca60c944250a6b9d841dbfdd75ec256"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        1,
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        1,
-        "fields",
-        2
-      ],
-      "sourceHash": "d36f8ed71fe4f06ad33653f5b2a02efb6b90532b03694d27b25f01211ee64df5"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        1,
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        1,
-        "fields",
-        3
-      ],
-      "sourceHash": "5ef2621e3c47a6ca8fc7990c6ffa19b229e742540611b01e0f1d253b33808503"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        1,
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        1,
-        "fields",
-        4
-      ],
-      "sourceHash": "ddb2485b111f5d7373d804bdb4010b2590b72ba7b899fd5e11c4e0d5e00fb524"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        1,
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        1,
-        "fields",
-        5
-      ],
-      "sourceHash": "b90c7599f77434bcd2d32958a8557417fb5333b4dbd169ff8c5ee65bbb5008ef"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        1,
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
         2,
         "label"
       ],
@@ -8106,49 +7790,6 @@
         1,
         "roiCalculator",
         "businessImpact",
-        "tabs",
-        2,
-        "fields",
-        0
-      ],
-      "sourceHash": "f033d3c123d7de8fa6a1706e2f8dee954bec3ef08f9c5a10de37ab050e4d25ab"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        1,
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        2,
-        "fields",
-        1
-      ],
-      "sourceHash": "b28c91bc16791f680909ec198a45e7c491055b8c4c558da970e1e9bcd2635edc"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        1,
-        "roiCalculator",
-        "businessImpact",
-        "pricing",
-        "basis"
-      ],
-      "sourceHash": "992a93455c71fedd36ac9bbc439952c041cf61445958472af479269b8d873513"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        1,
-        "roiCalculator",
-        "businessImpact",
         "pricing",
         "label"
       ],
@@ -8166,19 +7807,6 @@
         "help"
       ],
       "sourceHash": "aebaed823e7b8d30309648e6c85cfe4d7f6cb7938bdf923f2c68c9b67ff269da"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        1,
-        "roiCalculator",
-        "businessImpact",
-        "presentation",
-        "financial"
-      ],
-      "sourceHash": "ec91fdd9256cb75ae611249b50cb7eb16533f0fa91b86239ec1d439a1ea033b8"
     },
     {
       "path": [
@@ -11002,28 +10630,9 @@
         "landingPage",
         "roiCalculator",
         "businessImpact",
-        "costMode"
-      ],
-      "sourceHash": "0257609b2e009aa6c788941fbcaeee13877465889a94aaf0444c7d4159ee616c"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
         "reviewMode"
       ],
       "sourceHash": "ca8b22d0db83a22db163b560b3e4e51527e533d31d067b614a0c33c4d2df8432"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "selected",
-        0
-      ],
-      "sourceHash": "c8333158bd18b91a71842cfd38c2d6ddab471bda158b19286d96d4a4ed973ac4"
     },
     {
       "path": [
@@ -11062,6 +10671,28 @@
         "landingPage",
         "roiCalculator",
         "businessImpact",
+        "outcomes",
+        1,
+        "label"
+      ],
+      "sourceHash": "aea4419b254433ce01374056925b89821689edcecc57fcd6988c2abc3f51c102"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "outcomes",
+        1,
+        "help"
+      ],
+      "sourceHash": "6070b25168d7d93f6574ee09ea6117accce9c1b93d909efd04ea4406665cee17"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
         "tabs",
         0,
         "label"
@@ -11078,42 +10709,6 @@
         "intro"
       ],
       "sourceHash": "db6c00c1b6ccac892da8c66e20f05fcc3bf78c2a3b4929b7c5ad4c53ce32e23a"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        0,
-        "fields",
-        0
-      ],
-      "sourceHash": "62d7a6b1211d627650e2bf0c869b69b564e2cd74290ae1dd78ae4b5e20b0cfe7"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        0,
-        "fields",
-        1
-      ],
-      "sourceHash": "533c554a619ee86f5b109e6356436592d023fca097b61a42a5769899f3e49ded"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        0,
-        "fields",
-        2
-      ],
-      "sourceHash": "c97ace4c8fef2cee8fa0f3c9f52aab18dbd4f42438afe362ffb8f75ce4c04b84"
     },
     {
       "path": [
@@ -11143,78 +10738,6 @@
         "roiCalculator",
         "businessImpact",
         "tabs",
-        1,
-        "fields",
-        0
-      ],
-      "sourceHash": "252b07fa1db64f9ca920817ce39dec8523f46fca171a3dfd2721f7406ad524b3"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        1,
-        "fields",
-        1
-      ],
-      "sourceHash": "d1bedf986ff719c3697d5349d0a881f26ca60c944250a6b9d841dbfdd75ec256"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        1,
-        "fields",
-        2
-      ],
-      "sourceHash": "d36f8ed71fe4f06ad33653f5b2a02efb6b90532b03694d27b25f01211ee64df5"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        1,
-        "fields",
-        3
-      ],
-      "sourceHash": "5ef2621e3c47a6ca8fc7990c6ffa19b229e742540611b01e0f1d253b33808503"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        1,
-        "fields",
-        4
-      ],
-      "sourceHash": "ddb2485b111f5d7373d804bdb4010b2590b72ba7b899fd5e11c4e0d5e00fb524"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        1,
-        "fields",
-        5
-      ],
-      "sourceHash": "b90c7599f77434bcd2d32958a8557417fb5333b4dbd169ff8c5ee65bbb5008ef"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
         2,
         "label"
       ],
@@ -11236,40 +10759,6 @@
         "landingPage",
         "roiCalculator",
         "businessImpact",
-        "tabs",
-        2,
-        "fields",
-        0
-      ],
-      "sourceHash": "f033d3c123d7de8fa6a1706e2f8dee954bec3ef08f9c5a10de37ab050e4d25ab"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        2,
-        "fields",
-        1
-      ],
-      "sourceHash": "b28c91bc16791f680909ec198a45e7c491055b8c4c558da970e1e9bcd2635edc"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "pricing",
-        "basis"
-      ],
-      "sourceHash": "992a93455c71fedd36ac9bbc439952c041cf61445958472af479269b8d873513"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
         "pricing",
         "label"
       ],
@@ -11284,16 +10773,6 @@
         "help"
       ],
       "sourceHash": "aebaed823e7b8d30309648e6c85cfe4d7f6cb7938bdf923f2c68c9b67ff269da"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "presentation",
-        "financial"
-      ],
-      "sourceHash": "ec91fdd9256cb75ae611249b50cb7eb16533f0fa91b86239ec1d439a1ea033b8"
     },
     {
       "path": [
@@ -11323,5 +10802,5 @@
       "sourceHash": "0e96f5e15977ab0a2a8d684c0d35d7459f3afc862b606046310ae1fbbd4be12b"
     }
   ],
-  "generatedAt": "2026-09-11T04:18:29.310Z"
+  "generatedAt": "2026-10-01T12:38:34.373Z"
 }

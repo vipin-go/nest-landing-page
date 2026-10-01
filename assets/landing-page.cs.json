@@ -2,11 +2,11 @@
   "schemaVersion": 2,
   "language": "cs",
   "regionKey": null,
-  "sourceRevision": "e38bb8570798c46b5f8766ead43d9c6f4648a19d3d096d1d92c424fb5a6774a0",
+  "sourceRevision": "9b00d9081f920764fbd3e5bcdb077a7b34f8b04299a9af6b2aee818670157abf",
   "landingPage": {
     "headline": "Jedna kvalifikovaná představení, která sedí.",
     "subheadline": "Soukromé představení kupců a prodejců, jeden lidsky posouzený návrh najednou.",
-    "ctaLabel": "mluvit s hnízdem",
+    "ctaLabel": "Promluvte si na Nest",
     "secondaryCtaLabel": "See how it works",
     "heroCharacterImage": "/landing-pages/nest/nest-character-meet-compact-high-wings-transparent.png",
     "seoImage": {
@@ -65,7 +65,7 @@
     },
     "homeIntroductions": {
       "header": {
-        "brandLabel": "Hnízdo.",
+        "brandLabel": "Nest.",
         "brandTagline": "Jeden pečlivý úvod",
         "navItems": [
           {
@@ -81,7 +81,7 @@
             "target": "hero-chat"
           }
         ],
-        "ctaLabel": "požádat o úvod",
+        "ctaLabel": "Seznamte se Nest",
         "mobileCtaLabel": "Start",
         "editionLabel": "Nákup",
         "secondaryEditionLabel": "Prodej"
@@ -103,7 +103,7 @@
           },
           {
             "mode": "city",
-            "label": "Město",
+            "label": "město",
             "actionLabel": "Pohled",
             "name": "Nest Amsterdam",
             "location": "Amsterdam Zuid",
@@ -115,6 +115,7 @@
       "tracks": [
         {
           "id": "buying",
+          "profileModeId": "buyer",
           "label": "Kupuji",
           "responseMessage": "Řekni mi domov, kvůli kterému by stálo za to se přestěhovat. Zeptám se pouze na podrobnosti, které lidský recenzent potřebuje, a pak přinesu zpět, který je považován za vhodný.",
           "composerPlaceholder": "Řekněte Nest, co potřebujete z domova…",
@@ -202,7 +203,7 @@
             {
               "key": "privateConstraints",
               "label": "Soukromá omezení",
-              "placeholder": "Cokoli hnízda by mělo zůstat v soukromí",
+              "placeholder": "Cokoli Nest by mělo zůstat soukromé",
               "type": "textarea",
               "required": false
             }
@@ -212,23 +213,23 @@
             "enabled": true,
             "kicker": "Business impact",
             "heading": "ROI Calculator",
-            "subheading": "Model a licensed second-home agent or brokerage using Nest for qualified, human-reviewed introductions in one local market.",
-            "disclaimer": "A modeled operating scenario with zero validated paid demand. Nest qualifies and coordinates consented introductions; it does not represent parties, value property, negotiate, earn commissions or guarantee a transaction.",
+            "subheading": "Modelujte licencovaného agenta nebo makléře z druhého domova pomocí čísla Nest pro kvalifikované, lidmi zkontrolované představení na jednom místním trhu.",
+            "disclaimer": "Modelovaný provozní scénář s nulovou ověřenou placenou poptávkou. Nest kvalifikuje a koordinuje schválené zavedení; nezastupuje strany, neoceňuje majetek, nevyjednává, nevydělává provize ani nezaručuje transakci.",
             "currency": "EUR",
             "currencyCopy": {
               "native": "Amounts in {currency}.",
               "loading": "Checking the local currency. Amounts remain in {currency} until a rate is available.",
               "unavailable": "A current local exchange rate is unavailable. Amounts remain in {currency}.",
               "converted": "Amounts converted from {base} to {currency} using the reference rate dated {date}.",
-              "basis": "Currency conversion is not local cost research. Enter your own local costs and contribution assumptions. Language changes do not change amounts."
+              "basis": "Převod měn není průzkumem místních nákladů. Zadejte své vlastní místní náklady a předpoklady příspěvků. Jazykové změny nemění částky."
             },
             "costCopy": {
-              "breakdown": "How the all-in AI cost is built",
+              "breakdown": "Jak je postavena cena all-in AI",
               "perUnit": "{amount} per work unit (average)",
-              "budgetOnly": "This is your total budget. Switch to Cost breakdown to itemize it; no split has been assumed.",
-              "benefitNotice": "Modeled benefits, not charges. Crossed-out amounts are spending you expect to avoid, not discounts on the AI bill.",
+              "budgetOnly": "Toto je váš celkový rozpočet. Přepněte na Rozdělení nákladů, abyste je mohli rozepsat; žádné rozdělení se nepředpokládalo.",
+              "benefitNotice": "Modelované výhody, nikoli poplatky. Přeškrtnuté částky jsou výdaje, kterým se očekáváte, že se jim vyhnete, nikoli slevy na účtu AI.",
               "remainder": "Other included operating costs",
-              "allocation": "Returned hours are capacity, not automatic savings. Only the portions you assign to actual spending reductions or additional contribution receive a monetary value."
+              "allocation": "Vrácené hodiny představují kapacitu, nikoli automatické úspory. Peněžní hodnotu obdrží pouze části, které přiřadíte skutečným snížením výdajů nebo dodatečnému příspěvku."
             },
             "locale": "en-GB",
             "inputs": [],
@@ -254,10 +255,10 @@
                 "workloadStep": "Introduction funnel",
                 "costStep": "AI operating cost",
                 "valueStep": "Capacity and evidence",
-                "workloadIntro": "Model second-home leads, qualification and human review—not property sales, commissions or guaranteed matches.",
-                "costIntro": "Token, model, tool, infrastructure, platform and reviewer costs are delivery assumptions. Nest price is a separate unvalidated hypothesis.",
-                "valueIntro": "Capacity is not revenue. Enter observed contribution only after a real agent or brokerage uses and pays for the service.",
-                "sampleNotice": "Typical usage · not observed results",
+                "workloadIntro": "Modelujte potenciální zákazníky z druhého domova, kvalifikaci a kontrolu člověkem – nikoli prodeje nemovitostí, provize nebo zaručené shody.",
+                "costIntro": "Náklady na token, model, nástroj, infrastrukturu, platformu a recenzenta jsou předpoklady dodání. Nest cena je samostatná neověřená hypotéza.",
+                "valueIntro": "Kapacita není příjem. Pozorovaný příspěvek zadejte až poté, co službu využije a zaplatí skutečný agent nebo makléř.",
+                "sampleNotice": "Typické použití · nepozorované výsledky",
                 "monthly": "Monthly",
                 "yearly": "Yearly",
                 "next": "Continue",
@@ -282,11 +283,11 @@
                 "reviewMode": "Who handles the review?",
                 "teamReview": "Existing team",
                 "paidReview": "Additional paid reviewer",
-                "reviewNote": "Existing-team review uses returned capacity. Additional paid review is included in operating cost, not deducted again from team capacity.",
+                "reviewNote": "Kontrola stávajícího týmu využívá vrácenou kapacitu. Další placená revize je zahrnuta v provozních nákladech, neodečítá se znovu z kapacity týmu.",
                 "totalMode": "Monthly budget",
                 "itemizedMode": "Cost breakdown",
-                "budgetNote": "The budget must include models/media, tools, infrastructure, Gabriel fees and additional paid review. Do not include unchanged payroll as new spending.",
-                "itemizedNote": "Token usage is calculated from volume × tokens per output. Extra media, tools and infrastructure stay at zero unless they apply. Additional paid review is calculated from review hours and its rate.",
+                "budgetNote": "Rozpočet musí zahrnovat modely/média, nástroje, infrastrukturu, poplatky Gabrielovi a další placenou recenzi. Nezahrnujte nezměněné mzdy jako nové výdaje.",
+                "itemizedNote": "Využití tokenu se vypočítá z objemu × tokenů na výstup. Další média, nástroje a infrastruktura zůstávají na nule, pokud se nepoužijí. Další placená recenze se počítá z hodin recenze a její sazby.",
                 "paidReviewCost": "Additional paid review cost",
                 "allInCost": "Operating cost",
                 "missing": "Add your assumptions",
@@ -295,193 +296,193 @@
                 "expectedLoss": "Expected loss reduction",
                 "riskValue": "Uncertain risk value included",
                 "economicValue": "Modeled contribution",
-                "netBenefit": "Modeled benefit after Nest price",
+                "netBenefit": "Modelovaná výhoda po ceně Nest",
                 "multiple": "Internal delivery multiple",
                 "customerBenefit": "Modeled agent benefit",
                 "customerRoi": "Modeled customer ROI",
                 "payback": "Customer payback period",
                 "notApplicable": "Not applicable",
                 "annual": "Annual view",
-                "annualNote": "The same monthly assumptions, without growth or compounding. Hiring savings last only for the entered period.",
+                "annualNote": "Stejné měsíční předpoklady, bez růstu nebo skládání. Nájemní úspory trvají pouze po zadané období.",
                 "method": "How this is calculated",
                 "burdenHeading": "Repetitive work reduced",
                 "opportunityHeading": "Capacity for higher-value work",
-                "methodBody": "Operating burden removed (negative productivity) returns capacity. Higher-value work (potential positive productivity) creates economic value only if that capacity is used. Hours alone are not cash savings. Token cost uses a modeled input/output mix, not a provider quote.",
-                "formulaLabel": "Qualified briefs = leads × qualification rate. Delivery cost includes modeled token, model, tool, infrastructure, platform and human-review cost. Customer ROI remains unavailable until benefit and price are supported by evidence.",
-                "allocationNote": "Each hour can be allocated once. Unallocated hours remain capacity, with no monetary value.",
-                "overlapLabel": "These benefits are distinct; I have excluded costs and losses already counted elsewhere.",
-                "overlapNote": "Error and risk estimates exclude labor savings and the same incident must not appear in both categories. Contribution excludes AI costs, which are deducted separately.",
-                "hiringLabel": "This hire was genuinely planned and the allocated capacity can cover the work.",
-                "reviewedLabel": "I have reviewed my outcomes; unselected outcomes have no financial value in this estimate.",
+                "methodBody": "Odstraněná provozní zátěž (negativní produktivita) vrací kapacitu. Práce s vyšší hodnotou (potenciální pozitivní produktivita) vytváří ekonomickou hodnotu pouze tehdy, je-li tato kapacita využita. Samotné hodiny nejsou úsporou hotovosti. Cena tokenu používá modelovaný mix vstupů a výstupů, nikoli nabídku poskytovatele.",
+                "formulaLabel": "Kvalifikované slipy = leady × míra kvalifikace. Náklady na doručení zahrnují modelovaný token, model, nástroj, infrastrukturu, platformu a náklady na kontrolu člověkem. Návratnost investic zákazníka zůstává nedostupná, dokud nebude přínos a cena podložena důkazy.",
+                "allocationNote": "Každá hodina může být přidělena jednou. Nepřidělené hodiny zůstávají kapacity, bez peněžní hodnoty.",
+                "overlapLabel": "Tyto výhody jsou odlišné; Náklady a ztráty jsem vyloučil již jinde započítané.",
+                "overlapNote": "Odhady chyb a rizik vylučují úsporu práce a v obou kategoriích se nesmí objevit stejný incident. Příspěvek nezahrnuje náklady na AI, které se odečítají samostatně.",
+                "hiringLabel": "Tento pronájem byl skutečně plánován a přidělená kapacita může pokrýt práci.",
+                "reviewedLabel": "Zkontroloval jsem své výsledky; nevybrané výsledky nemají v tomto odhadu žádnou finanční hodnotu.",
                 "cycleResult": "Cycle-time improvement",
-                "throughputResult": "Additional work supported by capacity and demand",
-                "assumptionsIncomplete": "Complete the selected assumptions to calculate financial value.",
-                "allocationError": "Allocated hours exceed the net capacity available. Reduce the allocations.",
-                "reviewError": "Review takes more time than the work reduced. No positive capacity is available at these assumptions.",
-                "cashError": "Avoided spending cannot exceed current spending or have positive value with no hours allocated.",
-                "hiringError": "Allocated capacity must cover the planned hire hours. Confirm the planned hire and its duration.",
-                "riskError": "The after probability cannot exceed the before probability for a loss-reduction estimate.",
-                "overlapError": "Confirm the benefits do not overlap before including them in the financial result.",
-                "boundsError": "Use values within the displayed limits.",
+                "throughputResult": "Dodatečné práce podporované kapacitou a poptávkou",
+                "assumptionsIncomplete": "Dokončete vybrané předpoklady pro výpočet finanční hodnoty.",
+                "allocationError": "Přidělené hodiny převyšují čistou dostupnou kapacitu. Snižte alokace.",
+                "reviewError": "Kontrola zabere více času, než je práce omezená. Za těchto předpokladů není k dispozici žádná kladná kapacita.",
+                "cashError": "Ušetřené výdaje nemohou překročit aktuální výdaje nebo mít kladnou hodnotu bez přidělených hodin.",
+                "hiringError": "Přidělená kapacita musí pokrýt plánovanou dobu pronájmu. Potvrďte plánovaný pronájem a dobu jeho trvání.",
+                "riskError": "Pravděpodobnost po nemůže překročit pravděpodobnost před pro odhad snížení ztráty.",
+                "overlapError": "Před zahrnutím do finančního výsledku se ujistěte, že se výhody nepřekrývají.",
+                "boundsError": "Použijte hodnoty v rámci zobrazených limitů.",
                 "rangeLabel": "Adjust value",
-                "noCurrencyChange": "Language changes formatting, not your currency or assumptions.",
-                "currentPreparation": "Aktuální doba přípravy",
-                "reviewHours": "Čas lidského přezkumu",
-                "reworkHours": "Přeskočené nebo přidané hodiny přepracování",
+                "noCurrencyChange": "Jazyk se mění formátování, ne vaše měna nebo předpoklady.",
+                "currentPreparation": "Aktuální přípravné hodiny",
+                "reviewHours": "Hodiny kontroly lidmi",
+                "reworkHours": "Vyhněte se nebo přidali pracovní dobu",
                 "capacityValue": "Modelovaná hodnota kapacity",
                 "acceptedUnits": "Přijaté jednotky",
-                "attendedUnits": "Obsloužené jednotky",
-                "costPerAttended": "Náklad na jednotku obslouženou",
-                "benefitCost": "Násobek přínosu k nákladům",
-                "firstYearCost": "Náklad prvního roku",
-                "firstYearRoi": "ROI prvního roku",
-                "paybackOutsideTerm": "Nepřevrácené v rámci modelovaného období",
+                "attendedUnits": "Navštěvované jednotky",
+                "costPerAttended": "Cena za obsluhovanou jednotku",
+                "benefitCost": "Mnohonásobný přínos-náklady",
+                "firstYearCost": "Náklady na první rok",
+                "firstYearRoi": "ROI za první rok",
+                "paybackOutsideTerm": "Nebylo obnoveno v rámci modelovaného termínu",
                 "months": "months"
               },
               "fields": {
                 "volume": {
-                  "label": "Leads or briefs entering the desk each month",
-                  "help": "Count inbound second-home enquiries in the selected market, not property transactions."
+                  "label": "Každý měsíc vstupují na stůl leady nebo slipy",
+                  "help": "Počítejte příchozí poptávky do druhého domova na vybraném trhu, nikoli transakce s nemovitostmi."
                 },
                 "accepted_rate": {
                   "label": "Share becoming qualified briefs",
-                  "help": "A modeled qualification rate. Replace it with observed funnel data after a pilot."
+                  "help": "Modelovaná míra kvalifikace. Nahraďte jej pozorovanými daty trychtýře po pilotáži."
                 },
                 "attendance_rate": {
                   "label": "Expected attendance rate",
-                  "help": "Modeled share of accepted meetings expected to happen. Replace this with verified event records after a pilot."
+                  "help": "Očekávaný modelovaný podíl přijatých schůzek. Nahraďte to ověřenými záznamy událostí po pilotu."
                 },
                 "minutes": {
-                  "label": "Minutes to qualify one buyer brief today",
-                  "help": "Active intake and qualification time, excluding elapsed days and property-search time."
+                  "label": "Minuty na kvalifikaci jednoho dnešního nákupního briefu",
+                  "help": "Doba aktivního příjmu a kvalifikace, kromě uplynulých dnů a doby prohledávání nemovitosti."
                 },
                 "automation": {
-                  "label": "Share of that work reduced",
-                  "help": "An illustrative assumption to validate in a pilot, not a performance promise."
+                  "label": "Podíl této práce snížen",
+                  "help": "Ilustrativní předpoklad k ověření v pilotu, nikoli příslib výkonu."
                 },
                 "review": {
-                  "label": "Minutes a reviewer spends confirming each brief",
-                  "help": "Human review still required before either side sees a proposal."
+                  "label": "Minuty, které recenzent stráví potvrzením každého zadání",
+                  "help": "Než obě strany uvidí návrh, je stále vyžadována kontrola člověkem."
                 },
                 "cycles_per_unit": {
-                  "label": "Cycles per unit each month",
-                  "help": "How many recurring order, review or processing cycles each unit runs in a typical month."
+                  "label": "Cykly na jednotku každý měsíc",
+                  "help": "Kolik opakujících se cyklů objednávek, kontrol nebo zpracování spustí každá jednotka v typickém měsíci."
                 },
                 "tokens_per_output": {
-                  "label": "Tokens per qualified buyer brief",
-                  "help": "Modeled input and output tokens for one reviewable brief; provider usage must replace this hypothesis."
+                  "label": "Tokeny na zadání kvalifikovaného kupujícího",
+                  "help": "Modelované vstupní a výstupní tokeny pro jeden přehledný brief; použití poskytovatele musí tuto hypotézu nahradit."
                 },
                 "budget": {
                   "label": "Estimated monthly operating budget",
-                  "help": "Include token usage, models/media, tools, infrastructure, Gabriel fees and additional paid review."
+                  "help": "Zahrňte použití tokenů, modely/média, nástroje, infrastrukturu, poplatky Gabriel a další placenou recenzi."
                 },
                 "model_cost": {
-                  "label": "Additional model or media cost",
-                  "help": "Enter separately billed models or media. Leave zero when included in the token envelope."
+                  "label": "Dodatečné náklady na model nebo média",
+                  "help": "Zadejte samostatně účtované modely nebo média. Po zahrnutí do obálky tokenu ponechte nulu."
                 },
                 "tools_cost": {
                   "label": "Tools and integrations",
-                  "help": "Browser sessions, connectors and other metered services. Enter zero if none."
+                  "help": "Relace prohlížeče, konektory a další měřené služby. Pokud žádná, zadejte nulu."
                 },
                 "infrastructure_cost": {
                   "label": "Infrastructure",
-                  "help": "Incremental hosting, storage and compute for this workload. Enter zero if none."
+                  "help": "Přírůstkové hostování, úložiště a výpočet pro tuto pracovní zátěž. Pokud žádná, zadejte nulu."
                 },
                 "platform_cost": {
-                  "label": "Other delivery and support cost",
-                  "help": "Modeled hosting, storage, monitoring and support cost, separate from the customer price."
+                  "label": "Další náklady na dopravu a podporu",
+                  "help": "Modelované náklady na hosting, úložiště, monitorování a podporu, oddělené od ceny pro zákazníka."
                 },
                 "customer_price": {
                   "label": "Proposed monthly Nest price",
-                  "help": "Editable agent/brokerage pricing hypothesis. It is not validated revenue and must be tested in a paid pilot."
+                  "help": "Upravitelná hypotéza o ceně agenta/zprostředkovatele. Nejedná se o ověřený příjem a musí být otestován v placeném pilotním programu."
                 },
                 "personal_value_per_hour": {
-                  "label": "Optional value you assign to an hour",
-                  "help": "An optional personal comparison only. This is not salary, wages or guaranteed cash savings."
+                  "label": "Volitelná hodnota, kterou přiřadíte hodině",
+                  "help": "Pouze nepovinné osobní srovnání. Nejedná se o plat, mzdy nebo garantované úspory hotovosti."
                 },
                 "review_rate": {
-                  "label": "Additional paid review per hour",
-                  "help": "Actual extra reviewer spending, not the salary of an unchanged employee."
+                  "label": "Další placená recenze za hodinu",
+                  "help": "Skutečné dodatečné výdaje recenzenta, nikoli plat nezměněného zaměstnance."
                 },
                 "cash_hours": {
-                  "label": "Hours that remove paid work",
-                  "help": "Allocate only work whose overtime, contractor or processing spend will actually stop."
+                  "label": "Hodiny, které odstraňují placenou práci",
+                  "help": "Přidělujte pouze práci, jejíž přesčas, dodavatel nebo výdaje na zpracování se skutečně zastaví."
                 },
                 "cash_baseline": {
-                  "label": "Current monthly spending on that work",
-                  "help": "The cash budget from which the reduction will come."
+                  "label": "Aktuální měsíční výdaje na tuto práci",
+                  "help": "Hotovostní rozpočet, ze kterého bude pocházet snížení."
                 },
                 "cash_avoided": {
-                  "label": "Monthly spending you would stop",
-                  "help": "One explicit amount, not hours multiplied by salary; exclude any planned-hire saving entered separately."
+                  "label": "Měsíční výdaje byste přestali",
+                  "help": "Jedna explicitní částka, nikoli hodiny násobené platem; vyloučit jakékoli úspory plánovaného pronájmu zadané samostatně."
                 },
                 "higher_value_hours": {
-                  "label": "Hours agents can use for real conversations",
-                  "help": "Only capacity with observed demand receives an economic value."
+                  "label": "Hodiny, které mohou agenti využít pro skutečné konverzace",
+                  "help": "Ekonomickou hodnotu získá pouze kapacita s pozorovanou poptávkou."
                 },
                 "contribution_rate": {
-                  "label": "Incremental contribution per agent hour",
-                  "help": "Contribution from additional work, excluding property value, commissions and costs already counted."
+                  "label": "Přírůstkový příspěvek za hodinu agenta",
+                  "help": "Příspěvek z vícepráce, s výjimkou hodnoty nemovitosti, provizí a nákladů již započítaných."
                 },
                 "throughput_hours": {
-                  "label": "Hours used for additional volume",
-                  "help": "This allocation cannot also be used for advisory work or spending reductions."
+                  "label": "Hodiny použité pro další objem",
+                  "help": "Tuto alokaci nelze použít také na poradenskou činnost nebo na snižování výdajů."
                 },
                 "extra_minutes": {
-                  "label": "Team minutes per additional unit",
-                  "help": "The remaining human effort, including review, needed to deliver one more unit."
+                  "label": "Týmové minuty za další jednotku",
+                  "help": "Zbývající lidské úsilí, včetně kontroly, potřebovalo dodat ještě jednu jednotku."
                 },
                 "demand": {
-                  "label": "Additional units with expected demand",
-                  "help": "Capacity alone is not demand. Enter the extra monthly work you expect to take on."
+                  "label": "Další jednotky s očekávanou poptávkou",
+                  "help": "Samotná kapacita není poptávka. Zadejte měsíční práci navíc, kterou očekáváte."
                 },
                 "unit_margin": {
                   "label": "Contribution per additional unit",
-                  "help": "Incremental revenue less delivery costs; AI operating costs are deducted separately."
+                  "help": "Přírůstkový příjem snížený o náklady na doručení; Provozní náklady AI se odečítají samostatně."
                 },
                 "hiring_hours": {
-                  "label": "Hours covering the planned hire",
-                  "help": "Allocate capacity to specific planned work, not a generic full-time-equivalent estimate."
+                  "label": "Hodiny pokrývající plánovaný pronájem",
+                  "help": "Přidělte kapacitu na konkrétní plánovanou práci, nikoli na obecný odhad ekvivalentu plného úvazku."
                 },
                 "planned_hours": {
-                  "label": "Monthly hours the planned hire would cover",
-                  "help": "The allocated capacity must cover this entire workload."
+                  "label": "Měsíční hodiny, které by plánovaný pronájem pokryl",
+                  "help": "Přidělená kapacita musí pokrýt celou tuto zátěž."
                 },
                 "hire_cost": {
-                  "label": "Monthly hire cost actually deferred",
-                  "help": "Use the cost of a genuinely planned hire, not the salary of someone already employed."
+                  "label": "Skutečně odložené měsíční náklady na pronájem",
+                  "help": "Použijte náklady na skutečně plánovaný pronájem, nikoli plat někoho, kdo již pracoval."
                 },
                 "hire_months": {
-                  "label": "Months that hire is deferred",
-                  "help": "One to twelve months; the annual estimate stops counting savings after this period."
+                  "label": "Měsíce, které jsou pronajímány, jsou odloženy",
+                  "help": "Jeden až dvanáct měsíců; roční odhad po uplynutí této doby přestane počítat úspory."
                 },
                 "incidents": {
-                  "label": "Expected avoided errors per month",
-                  "help": "Use your baseline and expected reduction. Exclude incidents also counted as risk reduction."
+                  "label": "Očekávané vyloučené chyby za měsíc",
+                  "help": "Použijte svůj základní a očekávané snížení. Vyloučit incidenty se také počítají jako snížení rizika."
                 },
                 "incident_cost": {
                   "label": "Incremental cost per error",
-                  "help": "Exclude labor, refunds or other losses already included elsewhere."
+                  "help": "Vyloučit práci, náhrady nebo jiné ztráty, které jsou již zahrnuty jinde."
                 },
                 "probability_before": {
                   "label": "Monthly loss probability before",
-                  "help": "Your estimate, not a guaranteed risk assessment."
+                  "help": "Váš odhad, nikoli zaručené posouzení rizik."
                 },
                 "probability_after": {
                   "label": "Monthly loss probability after",
-                  "help": "Use the same event and monthly time horizon as the baseline."
+                  "help": "Použijte stejnou událost a měsíční časový horizont jako výchozí."
                 },
                 "loss": {
-                  "label": "Loss exposure for that event",
-                  "help": "Exclude error incidents and spending already counted. This is uncertain expected value, not cash saved."
+                  "label": "Ztrátová expozice pro tuto událost",
+                  "help": "Vyloučit chybové incidenty a již započítané výdaje. Jedná se o nejistou očekávanou hodnotu, nikoli o ušetřenou hotovost."
                 },
                 "days_before": {
-                  "label": "Cycle time before, in days",
-                  "help": "Elapsed time from start to completion, separate from hands-on effort."
+                  "label": "Doba cyklu předtím, ve dnech",
+                  "help": "Uplynulý čas od začátku do dokončení, oddělený od praktického úsilí."
                 },
                 "days_after": {
-                  "label": "Cycle time after, in days",
-                  "help": "Shown as an operational change only, without an assumed monetary value."
+                  "label": "Doba cyklu po, ve dnech",
+                  "help": "Zobrazeno pouze jako provozní změna, bez předpokládané peněžní hodnoty."
                 }
               },
               "burden": [
@@ -490,7 +491,7 @@
               ],
               "opportunity": [
                 "More qualified, human-reviewed introductions",
-                "Time for agent conversations and client needs"
+                "Čas na rozhovory s agenty a potřeby klientů"
               ],
               "usagePackages": {
                 "base": {
@@ -540,14 +541,14 @@
                 {
                   "id": "higher_value",
                   "label": "Keep agents on conversations",
-                  "help": "Enter only capacity that can be redirected to real agent or brokerage work; do not treat property value or commission as Nest revenue."
+                  "help": "Zadejte pouze kapacitu, kterou lze přesměrovat na skutečného agenta nebo makléřskou práci; nepovažujte hodnotu nemovitosti nebo provizi za příjem Nest."
                 }
               ],
               "tabs": [
                 {
                   "id": "funnel",
                   "label": "Introduction funnel",
-                  "intro": "Model leads entering the agent or brokerage desk, qualification, and human review.",
+                  "intro": "Modelování vedoucích vstupujících na pult agenta nebo makléře, kvalifikaci a kontrolu člověkem.",
                   "fields": [
                     "volume",
                     "accepted_rate",
@@ -558,7 +559,7 @@
                 {
                   "id": "costs",
                   "label": "AI operating cost",
-                  "intro": "Keep model, token, tool, infrastructure, platform and reviewer costs separate from the proposed customer price.",
+                  "intro": "Udržujte náklady na model, token, nástroj, infrastrukturu, platformu a recenzenta oddělené od navrhované ceny pro zákazníka.",
                   "fields": [
                     "tokens_per_output",
                     "model_cost",
@@ -572,7 +573,7 @@
                 {
                   "id": "capacity",
                   "label": "Capacity and evidence",
-                  "intro": "Returned capacity is not revenue. Financial results remain insufficient until a payer, price and delivery evidence are recorded.",
+                  "intro": "Vrácená kapacita není výnosem. Finanční výsledky zůstávají nedostatečné, dokud není zaznamenán plátce, cena a doklady o dodání.",
                   "fields": [
                     "higher_value_hours",
                     "contribution_rate"
@@ -585,7 +586,7 @@
                 "basis": "fixed",
                 "annualPrice": 9000,
                 "label": "Proposed Nest monthly price",
-                "help": "A €750/month working hypothesis for a qualified-introduction pilot. Treat as unvalidated until an agent or brokerage pays."
+                "help": "Pracovní hypotéza 750 EUR/měsíc pro kvalifikovaného zaváděcího pilota. Považujte je za nevalidované, dokud agent nebo makléř nezaplatí."
               },
               "presentation": {
                 "financial": "optional",
@@ -597,13 +598,14 @@
               "primaryLabel": "Talk with Nest",
               "primaryTarget": "meet",
               "secondaryLabel": "See how it works",
-              "privacyNote": "Your data stays private. Hours are capacity. Financial amounts are modeled estimates, not observed results.",
+              "privacyNote": "Vaše data zůstanou soukromá. Hodiny jsou kapacitní. Finanční částky jsou modelované odhady, nikoli pozorované výsledky.",
               "secondaryTarget": "how-it-works"
             }
           }
         },
         {
           "id": "selling",
+          "profileModeId": "seller",
           "label": "Prodávám",
           "responseMessage": "Řekněte mi, čím je dům zřetelný a který kupující by se hodil vážně. Přesnou adresu ponechám soukromou a přinesu zpět jeden zvažovaný úvod.",
           "composerPlaceholder": "Řekněte Nest, na čem záleží na vašem prodeji…",
@@ -701,7 +703,7 @@
             {
               "key": "privateConstraints",
               "label": "Soukromá omezení",
-              "placeholder": "Cokoli hnízda by mělo zůstat v soukromí",
+              "placeholder": "Cokoli Nest by mělo zůstat soukromé",
               "type": "textarea",
               "required": false
             }
@@ -711,23 +713,23 @@
             "enabled": true,
             "kicker": "Business impact",
             "heading": "ROI Calculator",
-            "subheading": "Model a licensed second-home agent or brokerage using Nest for qualified, human-reviewed introductions in one local market.",
-            "disclaimer": "A modeled operating scenario with zero validated paid demand. Nest qualifies and coordinates consented introductions; it does not represent parties, value property, negotiate, earn commissions or guarantee a transaction.",
+            "subheading": "Modelujte licencovaného agenta nebo makléře z druhého domova pomocí čísla Nest pro kvalifikované, lidmi zkontrolované představení na jednom místním trhu.",
+            "disclaimer": "Modelovaný provozní scénář s nulovou ověřenou placenou poptávkou. Nest kvalifikuje a koordinuje schválené zavedení; nezastupuje strany, neoceňuje majetek, nevyjednává, nevydělává provize ani nezaručuje transakci.",
             "currency": "EUR",
             "currencyCopy": {
               "native": "Amounts in {currency}.",
               "loading": "Checking the local currency. Amounts remain in {currency} until a rate is available.",
               "unavailable": "A current local exchange rate is unavailable. Amounts remain in {currency}.",
               "converted": "Amounts converted from {base} to {currency} using the reference rate dated {date}.",
-              "basis": "Currency conversion is not local cost research. Enter your own local costs and contribution assumptions. Language changes do not change amounts."
+              "basis": "Převod měn není průzkumem místních nákladů. Zadejte své vlastní místní náklady a předpoklady příspěvků. Jazykové změny nemění částky."
             },
             "costCopy": {
-              "breakdown": "How the all-in AI cost is built",
+              "breakdown": "Jak je postavena cena all-in AI",
               "perUnit": "{amount} per work unit (average)",
-              "budgetOnly": "This is your total budget. Switch to Cost breakdown to itemize it; no split has been assumed.",
-              "benefitNotice": "Modeled benefits, not charges. Crossed-out amounts are spending you expect to avoid, not discounts on the AI bill.",
+              "budgetOnly": "Toto je váš celkový rozpočet. Přepněte na Rozdělení nákladů, abyste je mohli rozepsat; žádné rozdělení se nepředpokládalo.",
+              "benefitNotice": "Modelované výhody, nikoli poplatky. Přeškrtnuté částky jsou výdaje, kterým se očekáváte, že se jim vyhnete, nikoli slevy na účtu AI.",
               "remainder": "Other included operating costs",
-              "allocation": "Returned hours are capacity, not automatic savings. Only the portions you assign to actual spending reductions or additional contribution receive a monetary value."
+              "allocation": "Vrácené hodiny představují kapacitu, nikoli automatické úspory. Peněžní hodnotu obdrží pouze části, které přiřadíte skutečným snížením výdajů nebo dodatečnému příspěvku."
             },
             "locale": "en-GB",
             "inputs": [],
@@ -753,10 +755,10 @@
                 "workloadStep": "Introduction funnel",
                 "costStep": "AI operating cost",
                 "valueStep": "Capacity and evidence",
-                "workloadIntro": "Model second-home leads, qualification and human review—not property sales, commissions or guaranteed matches.",
-                "costIntro": "Token, model, tool, infrastructure, platform and reviewer costs are delivery assumptions. Nest price is a separate unvalidated hypothesis.",
-                "valueIntro": "Capacity is not revenue. Enter observed contribution only after a real agent or brokerage uses and pays for the service.",
-                "sampleNotice": "Typical usage · not observed results",
+                "workloadIntro": "Modelujte potenciální zákazníky z druhého domova, kvalifikaci a kontrolu člověkem – nikoli prodeje nemovitostí, provize nebo zaručené shody.",
+                "costIntro": "Náklady na token, model, nástroj, infrastrukturu, platformu a recenzenta jsou předpoklady dodání. Nest cena je samostatná neověřená hypotéza.",
+                "valueIntro": "Kapacita není příjem. Pozorovaný příspěvek zadejte až poté, co službu využije a zaplatí skutečný agent nebo makléř.",
+                "sampleNotice": "Typické použití · nepozorované výsledky",
                 "monthly": "Monthly",
                 "yearly": "Yearly",
                 "next": "Continue",
@@ -781,11 +783,11 @@
                 "reviewMode": "Who handles the review?",
                 "teamReview": "Existing team",
                 "paidReview": "Additional paid reviewer",
-                "reviewNote": "Existing-team review uses returned capacity. Additional paid review is included in operating cost, not deducted again from team capacity.",
+                "reviewNote": "Kontrola stávajícího týmu využívá vrácenou kapacitu. Další placená revize je zahrnuta v provozních nákladech, neodečítá se znovu z kapacity týmu.",
                 "totalMode": "Monthly budget",
                 "itemizedMode": "Cost breakdown",
-                "budgetNote": "The budget must include models/media, tools, infrastructure, Gabriel fees and additional paid review. Do not include unchanged payroll as new spending.",
-                "itemizedNote": "Token usage is calculated from volume × tokens per output. Extra media, tools and infrastructure stay at zero unless they apply. Additional paid review is calculated from review hours and its rate.",
+                "budgetNote": "Rozpočet musí zahrnovat modely/média, nástroje, infrastrukturu, poplatky Gabrielovi a další placenou recenzi. Nezahrnujte nezměněné mzdy jako nové výdaje.",
+                "itemizedNote": "Využití tokenu se vypočítá z objemu × tokenů na výstup. Další média, nástroje a infrastruktura zůstávají na nule, pokud se nepoužijí. Další placená recenze se počítá z hodin recenze a její sazby.",
                 "paidReviewCost": "Additional paid review cost",
                 "allInCost": "Operating cost",
                 "missing": "Add your assumptions",
@@ -794,193 +796,193 @@
                 "expectedLoss": "Expected loss reduction",
                 "riskValue": "Uncertain risk value included",
                 "economicValue": "Modeled contribution",
-                "netBenefit": "Modeled benefit after Nest price",
+                "netBenefit": "Modelovaná výhoda po ceně Nest",
                 "multiple": "Internal delivery multiple",
                 "customerBenefit": "Modeled agent benefit",
                 "customerRoi": "Modeled customer ROI",
                 "payback": "Customer payback period",
                 "notApplicable": "Not applicable",
                 "annual": "Annual view",
-                "annualNote": "The same monthly assumptions, without growth or compounding. Hiring savings last only for the entered period.",
+                "annualNote": "Stejné měsíční předpoklady, bez růstu nebo skládání. Nájemní úspory trvají pouze po zadané období.",
                 "method": "How this is calculated",
                 "burdenHeading": "Repetitive work reduced",
                 "opportunityHeading": "Capacity for higher-value work",
-                "methodBody": "Operating burden removed (negative productivity) returns capacity. Higher-value work (potential positive productivity) creates economic value only if that capacity is used. Hours alone are not cash savings. Token cost uses a modeled input/output mix, not a provider quote.",
-                "formulaLabel": "Qualified briefs = leads × qualification rate. Delivery cost includes modeled token, model, tool, infrastructure, platform and human-review cost. Customer ROI remains unavailable until benefit and price are supported by evidence.",
-                "allocationNote": "Each hour can be allocated once. Unallocated hours remain capacity, with no monetary value.",
-                "overlapLabel": "These benefits are distinct; I have excluded costs and losses already counted elsewhere.",
-                "overlapNote": "Error and risk estimates exclude labor savings and the same incident must not appear in both categories. Contribution excludes AI costs, which are deducted separately.",
-                "hiringLabel": "This hire was genuinely planned and the allocated capacity can cover the work.",
-                "reviewedLabel": "I have reviewed my outcomes; unselected outcomes have no financial value in this estimate.",
+                "methodBody": "Odstraněná provozní zátěž (negativní produktivita) vrací kapacitu. Práce s vyšší hodnotou (potenciální pozitivní produktivita) vytváří ekonomickou hodnotu pouze tehdy, je-li tato kapacita využita. Samotné hodiny nejsou úsporou hotovosti. Cena tokenu používá modelovaný mix vstupů a výstupů, nikoli nabídku poskytovatele.",
+                "formulaLabel": "Kvalifikované slipy = leady × míra kvalifikace. Náklady na doručení zahrnují modelovaný token, model, nástroj, infrastrukturu, platformu a náklady na kontrolu člověkem. Návratnost investic zákazníka zůstává nedostupná, dokud nebude přínos a cena podložena důkazy.",
+                "allocationNote": "Každá hodina může být přidělena jednou. Nepřidělené hodiny zůstávají kapacity, bez peněžní hodnoty.",
+                "overlapLabel": "Tyto výhody jsou odlišné; Náklady a ztráty jsem vyloučil již jinde započítané.",
+                "overlapNote": "Odhady chyb a rizik vylučují úsporu práce a v obou kategoriích se nesmí objevit stejný incident. Příspěvek nezahrnuje náklady na AI, které se odečítají samostatně.",
+                "hiringLabel": "Tento pronájem byl skutečně plánován a přidělená kapacita může pokrýt práci.",
+                "reviewedLabel": "Zkontroloval jsem své výsledky; nevybrané výsledky nemají v tomto odhadu žádnou finanční hodnotu.",
                 "cycleResult": "Cycle-time improvement",
-                "throughputResult": "Additional work supported by capacity and demand",
-                "assumptionsIncomplete": "Complete the selected assumptions to calculate financial value.",
-                "allocationError": "Allocated hours exceed the net capacity available. Reduce the allocations.",
-                "reviewError": "Review takes more time than the work reduced. No positive capacity is available at these assumptions.",
-                "cashError": "Avoided spending cannot exceed current spending or have positive value with no hours allocated.",
-                "hiringError": "Allocated capacity must cover the planned hire hours. Confirm the planned hire and its duration.",
-                "riskError": "The after probability cannot exceed the before probability for a loss-reduction estimate.",
-                "overlapError": "Confirm the benefits do not overlap before including them in the financial result.",
-                "boundsError": "Use values within the displayed limits.",
+                "throughputResult": "Dodatečné práce podporované kapacitou a poptávkou",
+                "assumptionsIncomplete": "Dokončete vybrané předpoklady pro výpočet finanční hodnoty.",
+                "allocationError": "Přidělené hodiny převyšují čistou dostupnou kapacitu. Snižte alokace.",
+                "reviewError": "Kontrola zabere více času, než je práce omezená. Za těchto předpokladů není k dispozici žádná kladná kapacita.",
+                "cashError": "Ušetřené výdaje nemohou překročit aktuální výdaje nebo mít kladnou hodnotu bez přidělených hodin.",
+                "hiringError": "Přidělená kapacita musí pokrýt plánovanou dobu pronájmu. Potvrďte plánovaný pronájem a dobu jeho trvání.",
+                "riskError": "Pravděpodobnost po nemůže překročit pravděpodobnost před pro odhad snížení ztráty.",
+                "overlapError": "Před zahrnutím do finančního výsledku se ujistěte, že se výhody nepřekrývají.",
+                "boundsError": "Použijte hodnoty v rámci zobrazených limitů.",
                 "rangeLabel": "Adjust value",
-                "noCurrencyChange": "Language changes formatting, not your currency or assumptions.",
-                "currentPreparation": "Aktuální doba přípravy",
-                "reviewHours": "Čas lidského přezkumu",
-                "reworkHours": "Přeskočené nebo přidané hodiny přepracování",
+                "noCurrencyChange": "Jazyk se mění formátování, ne vaše měna nebo předpoklady.",
+                "currentPreparation": "Aktuální přípravné hodiny",
+                "reviewHours": "Hodiny kontroly lidmi",
+                "reworkHours": "Vyhněte se nebo přidali pracovní dobu",
                 "capacityValue": "Modelovaná hodnota kapacity",
                 "acceptedUnits": "Přijaté jednotky",
-                "attendedUnits": "Obsloužené jednotky",
-                "costPerAttended": "Náklad na jednotku obslouženou",
-                "benefitCost": "Násobek přínosu k nákladům",
-                "firstYearCost": "Náklad prvního roku",
-                "firstYearRoi": "ROI prvního roku",
-                "paybackOutsideTerm": "Nepřevrácené v rámci modelovaného období",
+                "attendedUnits": "Navštěvované jednotky",
+                "costPerAttended": "Cena za obsluhovanou jednotku",
+                "benefitCost": "Mnohonásobný přínos-náklady",
+                "firstYearCost": "Náklady na první rok",
+                "firstYearRoi": "ROI za první rok",
+                "paybackOutsideTerm": "Nebylo obnoveno v rámci modelovaného termínu",
                 "months": "months"
               },
               "fields": {
                 "volume": {
-                  "label": "Leads or briefs entering the desk each month",
-                  "help": "Count inbound second-home enquiries in the selected market, not property transactions."
+                  "label": "Každý měsíc vstupují na stůl leady nebo slipy",
+                  "help": "Počítejte příchozí poptávky do druhého domova na vybraném trhu, nikoli transakce s nemovitostmi."
                 },
                 "accepted_rate": {
                   "label": "Share becoming qualified briefs",
-                  "help": "A modeled qualification rate. Replace it with observed funnel data after a pilot."
+                  "help": "Modelovaná míra kvalifikace. Nahraďte jej pozorovanými daty trychtýře po pilotáži."
                 },
                 "attendance_rate": {
                   "label": "Expected attendance rate",
-                  "help": "Modeled share of accepted meetings expected to happen. Replace this with verified event records after a pilot."
+                  "help": "Očekávaný modelovaný podíl přijatých schůzek. Nahraďte to ověřenými záznamy událostí po pilotu."
                 },
                 "minutes": {
-                  "label": "Minutes to qualify one seller brief today",
-                  "help": "Active intake and qualification time, excluding elapsed days and property-search time."
+                  "label": "Minuty na kvalifikaci jednoho dnešního briefu prodejce",
+                  "help": "Doba aktivního příjmu a kvalifikace, kromě uplynulých dnů a doby prohledávání nemovitosti."
                 },
                 "automation": {
-                  "label": "Share of that work reduced",
-                  "help": "An illustrative assumption to validate in a pilot, not a performance promise."
+                  "label": "Podíl této práce snížen",
+                  "help": "Ilustrativní předpoklad k ověření v pilotu, nikoli příslib výkonu."
                 },
                 "review": {
-                  "label": "Minutes a reviewer spends confirming each brief",
-                  "help": "Human review still required before either side sees a proposal."
+                  "label": "Minuty, které recenzent stráví potvrzením každého zadání",
+                  "help": "Než obě strany uvidí návrh, je stále vyžadována kontrola člověkem."
                 },
                 "cycles_per_unit": {
-                  "label": "Cycles per unit each month",
-                  "help": "How many recurring order, review or processing cycles each unit runs in a typical month."
+                  "label": "Cykly na jednotku každý měsíc",
+                  "help": "Kolik opakujících se cyklů objednávek, kontrol nebo zpracování spustí každá jednotka v typickém měsíci."
                 },
                 "tokens_per_output": {
-                  "label": "Tokens per qualified seller brief",
-                  "help": "Modeled input and output tokens for one reviewable brief; provider usage must replace this hypothesis."
+                  "label": "Tokeny na zadání kvalifikovaného prodejce",
+                  "help": "Modelované vstupní a výstupní tokeny pro jeden přehledný brief; použití poskytovatele musí tuto hypotézu nahradit."
                 },
                 "budget": {
                   "label": "Estimated monthly operating budget",
-                  "help": "Include token usage, models/media, tools, infrastructure, Gabriel fees and additional paid review."
+                  "help": "Zahrňte použití tokenů, modely/média, nástroje, infrastrukturu, poplatky Gabriel a další placenou recenzi."
                 },
                 "model_cost": {
-                  "label": "Additional model or media cost",
-                  "help": "Enter separately billed models or media. Leave zero when included in the token envelope."
+                  "label": "Dodatečné náklady na model nebo média",
+                  "help": "Zadejte samostatně účtované modely nebo média. Po zahrnutí do obálky tokenu ponechte nulu."
                 },
                 "tools_cost": {
                   "label": "Tools and integrations",
-                  "help": "Browser sessions, connectors and other metered services. Enter zero if none."
+                  "help": "Relace prohlížeče, konektory a další měřené služby. Pokud žádná, zadejte nulu."
                 },
                 "infrastructure_cost": {
                   "label": "Infrastructure",
-                  "help": "Incremental hosting, storage and compute for this workload. Enter zero if none."
+                  "help": "Přírůstkové hostování, úložiště a výpočet pro tuto pracovní zátěž. Pokud žádná, zadejte nulu."
                 },
                 "platform_cost": {
-                  "label": "Other delivery and support cost",
-                  "help": "Modeled hosting, storage, monitoring and support cost, separate from the customer price."
+                  "label": "Další náklady na dopravu a podporu",
+                  "help": "Modelované náklady na hosting, úložiště, monitorování a podporu, oddělené od ceny pro zákazníka."
                 },
                 "customer_price": {
                   "label": "Proposed monthly Nest price",
-                  "help": "Editable agent/brokerage pricing hypothesis. It is not validated revenue and must be tested in a paid pilot."
+                  "help": "Upravitelná hypotéza o ceně agenta/zprostředkovatele. Nejedná se o ověřený příjem a musí být otestován v placeném pilotním programu."
                 },
                 "personal_value_per_hour": {
-                  "label": "Optional value you assign to an hour",
-                  "help": "An optional personal comparison only. This is not salary, wages or guaranteed cash savings."
+                  "label": "Volitelná hodnota, kterou přiřadíte hodině",
+                  "help": "Pouze nepovinné osobní srovnání. Nejedná se o plat, mzdy nebo garantované úspory hotovosti."
                 },
                 "review_rate": {
-                  "label": "Additional paid review per hour",
-                  "help": "Actual extra reviewer spending, not the salary of an unchanged employee."
+                  "label": "Další placená recenze za hodinu",
+                  "help": "Skutečné dodatečné výdaje recenzenta, nikoli plat nezměněného zaměstnance."
                 },
                 "cash_hours": {
-                  "label": "Hours that remove paid work",
-                  "help": "Allocate only work whose overtime, contractor or processing spend will actually stop."
+                  "label": "Hodiny, které odstraňují placenou práci",
+                  "help": "Přidělujte pouze práci, jejíž přesčas, dodavatel nebo výdaje na zpracování se skutečně zastaví."
                 },
                 "cash_baseline": {
-                  "label": "Current monthly spending on that work",
-                  "help": "The cash budget from which the reduction will come."
+                  "label": "Aktuální měsíční výdaje na tuto práci",
+                  "help": "Hotovostní rozpočet, ze kterého bude pocházet snížení."
                 },
                 "cash_avoided": {
-                  "label": "Monthly spending you would stop",
-                  "help": "One explicit amount, not hours multiplied by salary; exclude any planned-hire saving entered separately."
+                  "label": "Měsíční výdaje byste přestali",
+                  "help": "Jedna explicitní částka, nikoli hodiny násobené platem; vyloučit jakékoli úspory plánovaného pronájmu zadané samostatně."
                 },
                 "higher_value_hours": {
-                  "label": "Hours agents can use for real conversations",
-                  "help": "Only capacity with observed demand receives an economic value."
+                  "label": "Hodiny, které mohou agenti využít pro skutečné konverzace",
+                  "help": "Ekonomickou hodnotu získá pouze kapacita s pozorovanou poptávkou."
                 },
                 "contribution_rate": {
-                  "label": "Incremental contribution per agent hour",
-                  "help": "Contribution from additional work, excluding property value, commissions and costs already counted."
+                  "label": "Přírůstkový příspěvek za hodinu agenta",
+                  "help": "Příspěvek z vícepráce, s výjimkou hodnoty nemovitosti, provizí a nákladů již započítaných."
                 },
                 "throughput_hours": {
-                  "label": "Hours used for additional volume",
-                  "help": "This allocation cannot also be used for advisory work or spending reductions."
+                  "label": "Hodiny použité pro další objem",
+                  "help": "Tuto alokaci nelze použít také na poradenskou činnost nebo na snižování výdajů."
                 },
                 "extra_minutes": {
-                  "label": "Team minutes per additional unit",
-                  "help": "The remaining human effort, including review, needed to deliver one more unit."
+                  "label": "Týmové minuty za další jednotku",
+                  "help": "Zbývající lidské úsilí, včetně kontroly, potřebovalo dodat ještě jednu jednotku."
                 },
                 "demand": {
-                  "label": "Additional units with expected demand",
-                  "help": "Capacity alone is not demand. Enter the extra monthly work you expect to take on."
+                  "label": "Další jednotky s očekávanou poptávkou",
+                  "help": "Samotná kapacita není poptávka. Zadejte měsíční práci navíc, kterou očekáváte."
                 },
                 "unit_margin": {
                   "label": "Contribution per additional unit",
-                  "help": "Incremental revenue less delivery costs; AI operating costs are deducted separately."
+                  "help": "Přírůstkový příjem snížený o náklady na doručení; Provozní náklady AI se odečítají samostatně."
                 },
                 "hiring_hours": {
-                  "label": "Hours covering the planned hire",
-                  "help": "Allocate capacity to specific planned work, not a generic full-time-equivalent estimate."
+                  "label": "Hodiny pokrývající plánovaný pronájem",
+                  "help": "Přidělte kapacitu na konkrétní plánovanou práci, nikoli na obecný odhad ekvivalentu plného úvazku."
                 },
                 "planned_hours": {
-                  "label": "Monthly hours the planned hire would cover",
-                  "help": "The allocated capacity must cover this entire workload."
+                  "label": "Měsíční hodiny, které by plánovaný pronájem pokryl",
+                  "help": "Přidělená kapacita musí pokrýt celou tuto zátěž."
                 },
                 "hire_cost": {
-                  "label": "Monthly hire cost actually deferred",
-                  "help": "Use the cost of a genuinely planned hire, not the salary of someone already employed."
+                  "label": "Skutečně odložené měsíční náklady na pronájem",
+                  "help": "Použijte náklady na skutečně plánovaný pronájem, nikoli plat někoho, kdo již pracoval."
                 },
                 "hire_months": {
-                  "label": "Months that hire is deferred",
-                  "help": "One to twelve months; the annual estimate stops counting savings after this period."
+                  "label": "Měsíce, které jsou pronajímány, jsou odloženy",
+                  "help": "Jeden až dvanáct měsíců; roční odhad po uplynutí této doby přestane počítat úspory."
                 },
                 "incidents": {
-                  "label": "Expected avoided errors per month",
-                  "help": "Use your baseline and expected reduction. Exclude incidents also counted as risk reduction."
+                  "label": "Očekávané vyloučené chyby za měsíc",
+                  "help": "Použijte svůj základní a očekávané snížení. Vyloučit incidenty se také počítají jako snížení rizika."
                 },
                 "incident_cost": {
                   "label": "Incremental cost per error",
-                  "help": "Exclude labor, refunds or other losses already included elsewhere."
+                  "help": "Vyloučit práci, náhrady nebo jiné ztráty, které jsou již zahrnuty jinde."
                 },
                 "probability_before": {
                   "label": "Monthly loss probability before",
-                  "help": "Your estimate, not a guaranteed risk assessment."
+                  "help": "Váš odhad, nikoli zaručené posouzení rizik."
                 },
                 "probability_after": {
                   "label": "Monthly loss probability after",
-                  "help": "Use the same event and monthly time horizon as the baseline."
+                  "help": "Použijte stejnou událost a měsíční časový horizont jako výchozí."
                 },
                 "loss": {
-                  "label": "Loss exposure for that event",
-                  "help": "Exclude error incidents and spending already counted. This is uncertain expected value, not cash saved."
+                  "label": "Ztrátová expozice pro tuto událost",
+                  "help": "Vyloučit chybové incidenty a již započítané výdaje. Jedná se o nejistou očekávanou hodnotu, nikoli o ušetřenou hotovost."
                 },
                 "days_before": {
-                  "label": "Cycle time before, in days",
-                  "help": "Elapsed time from start to completion, separate from hands-on effort."
+                  "label": "Doba cyklu předtím, ve dnech",
+                  "help": "Uplynulý čas od začátku do dokončení, oddělený od praktického úsilí."
                 },
                 "days_after": {
-                  "label": "Cycle time after, in days",
-                  "help": "Shown as an operational change only, without an assumed monetary value."
+                  "label": "Doba cyklu po, ve dnech",
+                  "help": "Zobrazeno pouze jako provozní změna, bez předpokládané peněžní hodnoty."
                 }
               },
               "burden": [
@@ -989,7 +991,7 @@
               ],
               "opportunity": [
                 "More qualified, human-reviewed introductions",
-                "Time for agent conversations and client needs"
+                "Čas na rozhovory s agenty a potřeby klientů"
               ],
               "usagePackages": {
                 "base": {
@@ -1039,14 +1041,19 @@
                 {
                   "id": "higher_value",
                   "label": "Keep agents on conversations",
-                  "help": "Enter only capacity that can be redirected to real agent or brokerage work; do not treat property value or commission as Nest revenue."
+                  "help": "Zadejte pouze kapacitu, kterou lze přesměrovat na skutečného agenta nebo makléřskou práci; nepovažujte hodnotu nemovitosti nebo provizi za příjem Nest."
+                },
+                {
+                  "id": "cash",
+                  "label": "Snížit placenou podporu příjmu",
+                  "help": "Snižte přesčasy nebo utrácejte dodavatele za manuální příjem krátkých informací od prodejce – nikoli nezměněné platy."
                 }
               ],
               "tabs": [
                 {
                   "id": "funnel",
                   "label": "Introduction funnel",
-                  "intro": "Model leads entering the agent or brokerage desk, qualification, and human review.",
+                  "intro": "Modelování vedoucích vstupujících na pult agenta nebo makléře, kvalifikaci a kontrolu člověkem.",
                   "fields": [
                     "volume",
                     "accepted_rate",
@@ -1057,7 +1064,7 @@
                 {
                   "id": "costs",
                   "label": "AI operating cost",
-                  "intro": "Keep model, token, tool, infrastructure, platform and reviewer costs separate from the proposed customer price.",
+                  "intro": "Udržujte náklady na model, token, nástroj, infrastrukturu, platformu a recenzenta oddělené od navrhované ceny pro zákazníka.",
                   "fields": [
                     "tokens_per_output",
                     "model_cost",
@@ -1071,7 +1078,7 @@
                 {
                   "id": "capacity",
                   "label": "Capacity and evidence",
-                  "intro": "Returned capacity is not revenue. Financial results remain insufficient until a payer, price and delivery evidence are recorded.",
+                  "intro": "Vrácená kapacita není výnosem. Finanční výsledky zůstávají nedostatečné, dokud není zaznamenán plátce, cena a doklady o dodání.",
                   "fields": [
                     "higher_value_hours",
                     "contribution_rate"
@@ -1084,7 +1091,7 @@
                 "basis": "fixed",
                 "annualPrice": 9000,
                 "label": "Proposed Nest monthly price",
-                "help": "A €750/month working hypothesis for a qualified-introduction pilot. Treat as unvalidated until an agent or brokerage pays."
+                "help": "Pracovní hypotéza 750 EUR/měsíc pro kvalifikovaného zaváděcího pilota. Považujte je za nevalidované, dokud agent nebo makléř nezaplatí."
               },
               "presentation": {
                 "financial": "optional",
@@ -1096,7 +1103,7 @@
               "primaryLabel": "Talk with Nest",
               "primaryTarget": "meet",
               "secondaryLabel": "See how it works",
-              "privacyNote": "Your data stays private. Hours are capacity. Financial amounts are modeled estimates, not observed results.",
+              "privacyNote": "Vaše data zůstanou soukromá. Hodiny jsou kapacitní. Finanční částky jsou modelované odhady, nikoli pozorované výsledky.",
               "secondaryTarget": "how-it-works"
             }
           }
@@ -1113,10 +1120,10 @@
         "backgroundImage": "/landing-pages/nest/nest-hero-interior-clean.png",
         "backgroundAlt": "Teplý, klidný domácí interiér",
         "primaryCtaLabel": "Talk with Nest",
-        "secondaryCtaLabel": "požádat o úvod",
+        "secondaryCtaLabel": "Seznamte se Nest",
         "privacyLine": "jeden zápas za druhým. Člověk recenzován. soukromé, dokud se nepřihlásí obě strany.",
         "characterImage": "/landing-pages/nest/nest-character-meet-compact-high-wings-transparent.png",
-        "characterAlt": "hnízdo držící notebook a klíče s kompaktními křídly",
+        "characterAlt": "Nest drží notebook a klíče s kompaktními křídly",
         "chat": {
           "statusLabel": "Online · Lidský dohled",
           "privacyBadge": "Soukromý",
@@ -1132,13 +1139,13 @@
           "introBody": "Sdílejte pouze to, co lidský recenzent potřebuje. Přesné adresy a kontaktní údaje zde nejsou nikdy požadovány.",
           "chatLabel": "Sestavit podle chatu · 10 otáček",
           "voiceLabel": "Sestavení hlasem · 5 min",
-          "reviewLabel": "Zkontrolujte stručný přehled",
-          "editLabel": "Vydat",
+          "reviewLabel": "Stručná recenze",
+          "editLabel": "Upravit",
           "reviewHeading": "Zkontrolujte svůj soukromý brief",
           "reviewBody": "Nic není přetrváváno, vyhledáváno, navrhováno nebo sdíleno, když jste anonymní.",
           "submitLabel": "Přihlaste se pro Human Review",
           "loginNotice": "Přihlaste se a přesuňte tento soukromý domov do svého pracovního prostoru Nest pro ověřenou recenzi člověka.",
-          "expiryCopy": "Platnost neuhrazených slipů vyprší po jedné hodině.",
+          "expiryCopy": "Neodeslané briefy vyprší po jedné hodině.",
           "privacyCopy": "Žádné vyhledávání účastníků, přesné sdílení adresy nebo zveřejnění kontaktu, když je anonymní.",
           "errorCopy": "Nest nemohl uložit tento brief. Zkuste to znovu nebo se přihlaste."
         }
@@ -1196,7 +1203,7 @@
       "proposals": {
         "kicker": "Jak návrh vypadá",
         "heading": "dvě strany. jeden považován za vhodný.",
-        "body": "Tyto příklady karet ukazují tvar návrhu hnízda. Před vzájemným souhlasem nikdy neodhalí identitu nebo přesnou adresu.",
+        "body": "Tyto vzorové karty ukazují tvar nabídky Nest. Nikdy neprozradí identitu nebo přesnou adresu před vzájemným souhlasem.",
         "cards": [
           {
             "pairing": "Kupující × Nemovitost",
@@ -1233,11 +1240,11 @@
         ]
       },
       "meet": {
-        "kicker": "požádat o úvod",
+        "kicker": "Seznamte se Nest",
         "heading": "Detailní upozornění ve vašem rohu.",
         "body": "Nest poslouchá nad rámec zjevného zadání: ranní světlo, které jste milovali, načasování, které se nemůžete pohnout, jediný kompromis, který ve skutečnosti není kompromisem. Pak Nest vrátí jednoho považovaného za vhodného.",
         "characterImage": "/landing-pages/nest/nest-character-meet-compact-high-wings-transparent.png",
-        "characterAlt": "setkat se s hnízdem, držet notebook a klíče s kompaktními křídly zvednutými za horními rameny",
+        "characterAlt": "Seznamte se s Nest, držíte notebook a klíče s kompaktními křídly zvednutými za horními rameny",
         "principles": [
           {
             "title": "Nejprve poslouchá",
@@ -1249,17 +1256,17 @@
           },
           {
             "title": "Čeká na dvě ano",
-            "body": "Identity and exact address stay private until mutual consent."
+            "body": "Totožnost a přesná adresa zůstávají soukromé až do vzájemného souhlasu."
           }
         ],
-        "primaryCtaLabel": "mluvit s hnízdem",
+        "primaryCtaLabel": "Promluvte si na Nest",
         "secondaryCtaLabel": "See how it works"
       },
       "footer": {
-        "brandLabel": "Hnízdo.",
+        "brandLabel": "Nest.",
         "tagline": "Po jednom pečlivém představení domů.",
         "disclaimer": "Nest není licencovaný makléř a nezastupuje ani jednu stranu, vyjednává, neváží si vašeho domova ani nevyřizuje vaši transakci. Až budete připraveni jít vpřed, spojíme vás s licencovaným místním agentem, abyste proces dokončili. Not a broker. Does not represent either party. Does not provide valuations. Does not negotiate.",
-        "eventDisclaimer": "Podrobnosti o druhém domácím veletrhu jsou modelovány pro tuto instanci hnízda a měly by být ověřeny před docházkou.",
+        "eventDisclaimer": "Podrobnosti o Second Home Fair jsou modelovány pro tuto instanci Nest a měly by být ověřeny před účastí.",
         "copyright": "© 2026 Nest",
         "groups": [
           {
@@ -1280,14 +1287,14 @@
             ]
           },
           {
-            "label": "Hnízdo",
+            "label": "Nest",
             "links": [
               {
-                "label": "požádat o úvod",
+                "label": "Seznamte se Nest",
                 "target": "meet"
               },
               {
-                "label": "Vytvořte stručný",
+                "label": "Sestavte brief",
                 "target": "hero-chat"
               }
             ]
@@ -1300,23 +1307,23 @@
       "enabled": true,
       "kicker": "Business impact",
       "heading": "ROI Calculator",
-      "subheading": "Model a licensed second-home agent or brokerage using Nest for qualified, human-reviewed introductions in one local market.",
-      "disclaimer": "A modeled operating scenario with zero validated paid demand. Nest qualifies and coordinates consented introductions; it does not represent parties, value property, negotiate, earn commissions or guarantee a transaction.",
+      "subheading": "Modelujte licencovaného agenta nebo makléře z druhého domova pomocí čísla Nest pro kvalifikované, lidmi zkontrolované představení na jednom místním trhu.",
+      "disclaimer": "Modelovaný provozní scénář s nulovou ověřenou placenou poptávkou. Nest kvalifikuje a koordinuje schválené zavedení; nezastupuje strany, neoceňuje majetek, nevyjednává, nevydělává provize ani nezaručuje transakci.",
       "currency": "EUR",
       "currencyCopy": {
         "native": "Amounts in {currency}.",
         "loading": "Checking the local currency. Amounts remain in {currency} until a rate is available.",
         "unavailable": "A current local exchange rate is unavailable. Amounts remain in {currency}.",
         "converted": "Amounts converted from {base} to {currency} using the reference rate dated {date}.",
-        "basis": "Currency conversion is not local cost research. Enter your own local costs and contribution assumptions. Language changes do not change amounts."
+        "basis": "Převod měn není průzkumem místních nákladů. Zadejte své vlastní místní náklady a předpoklady příspěvků. Jazykové změny nemění částky."
       },
       "costCopy": {
-        "breakdown": "How the all-in AI cost is built",
+        "breakdown": "Jak je postavena cena all-in AI",
         "perUnit": "{amount} per work unit (average)",
-        "budgetOnly": "This is your total budget. Switch to Cost breakdown to itemize it; no split has been assumed.",
-        "benefitNotice": "Modeled benefits, not charges. Crossed-out amounts are spending you expect to avoid, not discounts on the AI bill.",
+        "budgetOnly": "Toto je váš celkový rozpočet. Přepněte na Rozdělení nákladů, abyste je mohli rozepsat; žádné rozdělení se nepředpokládalo.",
+        "benefitNotice": "Modelované výhody, nikoli poplatky. Přeškrtnuté částky jsou výdaje, kterým se očekáváte, že se jim vyhnete, nikoli slevy na účtu AI.",
         "remainder": "Other included operating costs",
-        "allocation": "Returned hours are capacity, not automatic savings. Only the portions you assign to actual spending reductions or additional contribution receive a monetary value."
+        "allocation": "Vrácené hodiny představují kapacitu, nikoli automatické úspory. Peněžní hodnotu obdrží pouze části, které přiřadíte skutečným snížením výdajů nebo dodatečnému příspěvku."
       },
       "locale": "en-GB",
       "inputs": [],
@@ -1342,10 +1349,10 @@
           "workloadStep": "Introduction funnel",
           "costStep": "AI operating cost",
           "valueStep": "Capacity and evidence",
-          "workloadIntro": "Model second-home leads, qualification and human review—not property sales, commissions or guaranteed matches.",
-          "costIntro": "Token, model, tool, infrastructure, platform and reviewer costs are delivery assumptions. Nest price is a separate unvalidated hypothesis.",
-          "valueIntro": "Capacity is not revenue. Enter observed contribution only after a real agent or brokerage uses and pays for the service.",
-          "sampleNotice": "Typical usage · not observed results",
+          "workloadIntro": "Modelujte potenciální zákazníky z druhého domova, kvalifikaci a kontrolu člověkem – nikoli prodeje nemovitostí, provize nebo zaručené shody.",
+          "costIntro": "Náklady na token, model, nástroj, infrastrukturu, platformu a recenzenta jsou předpoklady dodání. Nest cena je samostatná neověřená hypotéza.",
+          "valueIntro": "Kapacita není příjem. Pozorovaný příspěvek zadejte až poté, co službu využije a zaplatí skutečný agent nebo makléř.",
+          "sampleNotice": "Typické použití · nepozorované výsledky",
           "monthly": "Monthly",
           "yearly": "Yearly",
           "next": "Continue",
@@ -1370,11 +1377,11 @@
           "reviewMode": "Who handles the review?",
           "teamReview": "Existing team",
           "paidReview": "Additional paid reviewer",
-          "reviewNote": "Existing-team review uses returned capacity. Additional paid review is included in operating cost, not deducted again from team capacity.",
+          "reviewNote": "Kontrola stávajícího týmu využívá vrácenou kapacitu. Další placená revize je zahrnuta v provozních nákladech, neodečítá se znovu z kapacity týmu.",
           "totalMode": "Monthly budget",
           "itemizedMode": "Cost breakdown",
-          "budgetNote": "The budget must include models/media, tools, infrastructure, Gabriel fees and additional paid review. Do not include unchanged payroll as new spending.",
-          "itemizedNote": "Token usage is calculated from volume × tokens per output. Extra media, tools and infrastructure stay at zero unless they apply. Additional paid review is calculated from review hours and its rate.",
+          "budgetNote": "Rozpočet musí zahrnovat modely/média, nástroje, infrastrukturu, poplatky Gabrielovi a další placenou recenzi. Nezahrnujte nezměněné mzdy jako nové výdaje.",
+          "itemizedNote": "Využití tokenu se vypočítá z objemu × tokenů na výstup. Další média, nástroje a infrastruktura zůstávají na nule, pokud se nepoužijí. Další placená recenze se počítá z hodin recenze a její sazby.",
           "paidReviewCost": "Additional paid review cost",
           "allInCost": "Operating cost",
           "missing": "Add your assumptions",
@@ -1383,193 +1390,193 @@
           "expectedLoss": "Expected loss reduction",
           "riskValue": "Uncertain risk value included",
           "economicValue": "Modeled contribution",
-          "netBenefit": "Modeled benefit after Nest price",
+          "netBenefit": "Modelovaná výhoda po ceně Nest",
           "multiple": "Internal delivery multiple",
           "customerBenefit": "Modeled agent benefit",
           "customerRoi": "Modeled customer ROI",
           "payback": "Customer payback period",
           "notApplicable": "Not applicable",
           "annual": "Annual view",
-          "annualNote": "The same monthly assumptions, without growth or compounding. Hiring savings last only for the entered period.",
+          "annualNote": "Stejné měsíční předpoklady, bez růstu nebo skládání. Nájemní úspory trvají pouze po zadané období.",
           "method": "How this is calculated",
           "burdenHeading": "Repetitive work reduced",
           "opportunityHeading": "Capacity for higher-value work",
-          "methodBody": "Operating burden removed (negative productivity) returns capacity. Higher-value work (potential positive productivity) creates economic value only if that capacity is used. Hours alone are not cash savings. Token cost uses a modeled input/output mix, not a provider quote.",
-          "formulaLabel": "Qualified briefs = leads × qualification rate. Delivery cost includes modeled token, model, tool, infrastructure, platform and human-review cost. Customer ROI remains unavailable until benefit and price are supported by evidence.",
-          "allocationNote": "Each hour can be allocated once. Unallocated hours remain capacity, with no monetary value.",
-          "overlapLabel": "These benefits are distinct; I have excluded costs and losses already counted elsewhere.",
-          "overlapNote": "Error and risk estimates exclude labor savings and the same incident must not appear in both categories. Contribution excludes AI costs, which are deducted separately.",
-          "hiringLabel": "This hire was genuinely planned and the allocated capacity can cover the work.",
-          "reviewedLabel": "I have reviewed my outcomes; unselected outcomes have no financial value in this estimate.",
+          "methodBody": "Odstraněná provozní zátěž (negativní produktivita) vrací kapacitu. Práce s vyšší hodnotou (potenciální pozitivní produktivita) vytváří ekonomickou hodnotu pouze tehdy, je-li tato kapacita využita. Samotné hodiny nejsou úsporou hotovosti. Cena tokenu používá modelovaný mix vstupů a výstupů, nikoli nabídku poskytovatele.",
+          "formulaLabel": "Kvalifikované slipy = leady × míra kvalifikace. Náklady na doručení zahrnují modelovaný token, model, nástroj, infrastrukturu, platformu a náklady na kontrolu člověkem. Návratnost investic zákazníka zůstává nedostupná, dokud nebude přínos a cena podložena důkazy.",
+          "allocationNote": "Každá hodina může být přidělena jednou. Nepřidělené hodiny zůstávají kapacity, bez peněžní hodnoty.",
+          "overlapLabel": "Tyto výhody jsou odlišné; Náklady a ztráty jsem vyloučil již jinde započítané.",
+          "overlapNote": "Odhady chyb a rizik vylučují úsporu práce a v obou kategoriích se nesmí objevit stejný incident. Příspěvek nezahrnuje náklady na AI, které se odečítají samostatně.",
+          "hiringLabel": "Tento pronájem byl skutečně plánován a přidělená kapacita může pokrýt práci.",
+          "reviewedLabel": "Zkontroloval jsem své výsledky; nevybrané výsledky nemají v tomto odhadu žádnou finanční hodnotu.",
           "cycleResult": "Cycle-time improvement",
-          "throughputResult": "Additional work supported by capacity and demand",
-          "assumptionsIncomplete": "Complete the selected assumptions to calculate financial value.",
-          "allocationError": "Allocated hours exceed the net capacity available. Reduce the allocations.",
-          "reviewError": "Review takes more time than the work reduced. No positive capacity is available at these assumptions.",
-          "cashError": "Avoided spending cannot exceed current spending or have positive value with no hours allocated.",
-          "hiringError": "Allocated capacity must cover the planned hire hours. Confirm the planned hire and its duration.",
-          "riskError": "The after probability cannot exceed the before probability for a loss-reduction estimate.",
-          "overlapError": "Confirm the benefits do not overlap before including them in the financial result.",
-          "boundsError": "Use values within the displayed limits.",
+          "throughputResult": "Dodatečné práce podporované kapacitou a poptávkou",
+          "assumptionsIncomplete": "Dokončete vybrané předpoklady pro výpočet finanční hodnoty.",
+          "allocationError": "Přidělené hodiny převyšují čistou dostupnou kapacitu. Snižte alokace.",
+          "reviewError": "Kontrola zabere více času, než je práce omezená. Za těchto předpokladů není k dispozici žádná kladná kapacita.",
+          "cashError": "Ušetřené výdaje nemohou překročit aktuální výdaje nebo mít kladnou hodnotu bez přidělených hodin.",
+          "hiringError": "Přidělená kapacita musí pokrýt plánovanou dobu pronájmu. Potvrďte plánovaný pronájem a dobu jeho trvání.",
+          "riskError": "Pravděpodobnost po nemůže překročit pravděpodobnost před pro odhad snížení ztráty.",
+          "overlapError": "Před zahrnutím do finančního výsledku se ujistěte, že se výhody nepřekrývají.",
+          "boundsError": "Použijte hodnoty v rámci zobrazených limitů.",
           "rangeLabel": "Adjust value",
-          "noCurrencyChange": "Language changes formatting, not your currency or assumptions.",
-          "currentPreparation": "Aktuální doba přípravy",
-          "reviewHours": "Čas lidského přezkumu",
-          "reworkHours": "Přeskočené nebo přidané hodiny přepracování",
+          "noCurrencyChange": "Jazyk se mění formátování, ne vaše měna nebo předpoklady.",
+          "currentPreparation": "Aktuální přípravné hodiny",
+          "reviewHours": "Hodiny kontroly lidmi",
+          "reworkHours": "Vyhněte se nebo přidali pracovní dobu",
           "capacityValue": "Modelovaná hodnota kapacity",
           "acceptedUnits": "Přijaté jednotky",
-          "attendedUnits": "Obsloužené jednotky",
-          "costPerAttended": "Náklad na jednotku obslouženou",
-          "benefitCost": "Násobek přínosu k nákladům",
-          "firstYearCost": "Náklad prvního roku",
-          "firstYearRoi": "ROI prvního roku",
-          "paybackOutsideTerm": "Nepřevrácené v rámci modelovaného období",
+          "attendedUnits": "Navštěvované jednotky",
+          "costPerAttended": "Cena za obsluhovanou jednotku",
+          "benefitCost": "Mnohonásobný přínos-náklady",
+          "firstYearCost": "Náklady na první rok",
+          "firstYearRoi": "ROI za první rok",
+          "paybackOutsideTerm": "Nebylo obnoveno v rámci modelovaného termínu",
           "months": "months"
         },
         "fields": {
           "volume": {
-            "label": "Leads or briefs entering the desk each month",
-            "help": "Count inbound second-home enquiries in the selected market, not property transactions."
+            "label": "Každý měsíc vstupují na stůl leady nebo slipy",
+            "help": "Počítejte příchozí poptávky do druhého domova na vybraném trhu, nikoli transakce s nemovitostmi."
           },
           "accepted_rate": {
             "label": "Share becoming qualified briefs",
-            "help": "A modeled qualification rate. Replace it with observed funnel data after a pilot."
+            "help": "Modelovaná míra kvalifikace. Nahraďte jej pozorovanými daty trychtýře po pilotáži."
           },
           "attendance_rate": {
             "label": "Expected attendance rate",
-            "help": "Modeled share of accepted meetings expected to happen. Replace this with verified event records after a pilot."
+            "help": "Očekávaný modelovaný podíl přijatých schůzek. Nahraďte to ověřenými záznamy událostí po pilotu."
           },
           "minutes": {
-            "label": "Minutes to qualify one buyer brief today",
-            "help": "Active intake and qualification time, excluding elapsed days and property-search time."
+            "label": "Minuty na kvalifikaci jednoho dnešního nákupního briefu",
+            "help": "Doba aktivního příjmu a kvalifikace, kromě uplynulých dnů a doby prohledávání nemovitosti."
           },
           "automation": {
-            "label": "Share of that work reduced",
-            "help": "An illustrative assumption to validate in a pilot, not a performance promise."
+            "label": "Podíl této práce snížen",
+            "help": "Ilustrativní předpoklad k ověření v pilotu, nikoli příslib výkonu."
           },
           "review": {
-            "label": "Minutes a reviewer spends confirming each brief",
-            "help": "Human review still required before either side sees a proposal."
+            "label": "Minuty, které recenzent stráví potvrzením každého zadání",
+            "help": "Než obě strany uvidí návrh, je stále vyžadována kontrola člověkem."
           },
           "cycles_per_unit": {
-            "label": "Cycles per unit each month",
-            "help": "How many recurring order, review or processing cycles each unit runs in a typical month."
+            "label": "Cykly na jednotku každý měsíc",
+            "help": "Kolik opakujících se cyklů objednávek, kontrol nebo zpracování spustí každá jednotka v typickém měsíci."
           },
           "tokens_per_output": {
-            "label": "Tokens per qualified buyer brief",
-            "help": "Modeled input and output tokens for one reviewable brief; provider usage must replace this hypothesis."
+            "label": "Tokeny na zadání kvalifikovaného kupujícího",
+            "help": "Modelované vstupní a výstupní tokeny pro jeden přehledný brief; použití poskytovatele musí tuto hypotézu nahradit."
           },
           "budget": {
             "label": "Estimated monthly operating budget",
-            "help": "Include token usage, models/media, tools, infrastructure, Gabriel fees and additional paid review."
+            "help": "Zahrňte použití tokenů, modely/média, nástroje, infrastrukturu, poplatky Gabriel a další placenou recenzi."
           },
           "model_cost": {
-            "label": "Additional model or media cost",
-            "help": "Enter separately billed models or media. Leave zero when included in the token envelope."
+            "label": "Dodatečné náklady na model nebo média",
+            "help": "Zadejte samostatně účtované modely nebo média. Po zahrnutí do obálky tokenu ponechte nulu."
           },
           "tools_cost": {
             "label": "Tools and integrations",
-            "help": "Browser sessions, connectors and other metered services. Enter zero if none."
+            "help": "Relace prohlížeče, konektory a další měřené služby. Pokud žádná, zadejte nulu."
           },
           "infrastructure_cost": {
             "label": "Infrastructure",
-            "help": "Incremental hosting, storage and compute for this workload. Enter zero if none."
+            "help": "Přírůstkové hostování, úložiště a výpočet pro tuto pracovní zátěž. Pokud žádná, zadejte nulu."
           },
           "platform_cost": {
-            "label": "Other delivery and support cost",
-            "help": "Modeled hosting, storage, monitoring and support cost, separate from the customer price."
+            "label": "Další náklady na dopravu a podporu",
+            "help": "Modelované náklady na hosting, úložiště, monitorování a podporu, oddělené od ceny pro zákazníka."
           },
           "customer_price": {
             "label": "Proposed monthly Nest price",
-            "help": "Editable agent/brokerage pricing hypothesis. It is not validated revenue and must be tested in a paid pilot."
+            "help": "Upravitelná hypotéza o ceně agenta/zprostředkovatele. Nejedná se o ověřený příjem a musí být otestován v placeném pilotním programu."
           },
           "personal_value_per_hour": {
-            "label": "Optional value you assign to an hour",
-            "help": "An optional personal comparison only. This is not salary, wages or guaranteed cash savings."
+            "label": "Volitelná hodnota, kterou přiřadíte hodině",
+            "help": "Pouze nepovinné osobní srovnání. Nejedná se o plat, mzdy nebo garantované úspory hotovosti."
           },
           "review_rate": {
-            "label": "Additional paid review per hour",
-            "help": "Actual extra reviewer spending, not the salary of an unchanged employee."
+            "label": "Další placená recenze za hodinu",
+            "help": "Skutečné dodatečné výdaje recenzenta, nikoli plat nezměněného zaměstnance."
           },
           "cash_hours": {
-            "label": "Hours that remove paid work",
-            "help": "Allocate only work whose overtime, contractor or processing spend will actually stop."
+            "label": "Hodiny, které odstraňují placenou práci",
+            "help": "Přidělujte pouze práci, jejíž přesčas, dodavatel nebo výdaje na zpracování se skutečně zastaví."
           },
           "cash_baseline": {
-            "label": "Current monthly spending on that work",
-            "help": "The cash budget from which the reduction will come."
+            "label": "Aktuální měsíční výdaje na tuto práci",
+            "help": "Hotovostní rozpočet, ze kterého bude pocházet snížení."
           },
           "cash_avoided": {
-            "label": "Monthly spending you would stop",
-            "help": "One explicit amount, not hours multiplied by salary; exclude any planned-hire saving entered separately."
+            "label": "Měsíční výdaje byste přestali",
+            "help": "Jedna explicitní částka, nikoli hodiny násobené platem; vyloučit jakékoli úspory plánovaného pronájmu zadané samostatně."
           },
           "higher_value_hours": {
-            "label": "Hours agents can use for real conversations",
-            "help": "Only capacity with observed demand receives an economic value."
+            "label": "Hodiny, které mohou agenti využít pro skutečné konverzace",
+            "help": "Ekonomickou hodnotu získá pouze kapacita s pozorovanou poptávkou."
           },
           "contribution_rate": {
-            "label": "Incremental contribution per agent hour",
-            "help": "Contribution from additional work, excluding property value, commissions and costs already counted."
+            "label": "Přírůstkový příspěvek za hodinu agenta",
+            "help": "Příspěvek z vícepráce, s výjimkou hodnoty nemovitosti, provizí a nákladů již započítaných."
           },
           "throughput_hours": {
-            "label": "Hours used for additional volume",
-            "help": "This allocation cannot also be used for advisory work or spending reductions."
+            "label": "Hodiny použité pro další objem",
+            "help": "Tuto alokaci nelze použít také na poradenskou činnost nebo na snižování výdajů."
           },
           "extra_minutes": {
-            "label": "Team minutes per additional unit",
-            "help": "The remaining human effort, including review, needed to deliver one more unit."
+            "label": "Týmové minuty za další jednotku",
+            "help": "Zbývající lidské úsilí, včetně kontroly, potřebovalo dodat ještě jednu jednotku."
           },
           "demand": {
-            "label": "Additional units with expected demand",
-            "help": "Capacity alone is not demand. Enter the extra monthly work you expect to take on."
+            "label": "Další jednotky s očekávanou poptávkou",
+            "help": "Samotná kapacita není poptávka. Zadejte měsíční práci navíc, kterou očekáváte."
           },
           "unit_margin": {
             "label": "Contribution per additional unit",
-            "help": "Incremental revenue less delivery costs; AI operating costs are deducted separately."
+            "help": "Přírůstkový příjem snížený o náklady na doručení; Provozní náklady AI se odečítají samostatně."
           },
           "hiring_hours": {
-            "label": "Hours covering the planned hire",
-            "help": "Allocate capacity to specific planned work, not a generic full-time-equivalent estimate."
+            "label": "Hodiny pokrývající plánovaný pronájem",
+            "help": "Přidělte kapacitu na konkrétní plánovanou práci, nikoli na obecný odhad ekvivalentu plného úvazku."
           },
           "planned_hours": {
-            "label": "Monthly hours the planned hire would cover",
-            "help": "The allocated capacity must cover this entire workload."
+            "label": "Měsíční hodiny, které by plánovaný pronájem pokryl",
+            "help": "Přidělená kapacita musí pokrýt celou tuto zátěž."
           },
           "hire_cost": {
-            "label": "Monthly hire cost actually deferred",
-            "help": "Use the cost of a genuinely planned hire, not the salary of someone already employed."
+            "label": "Skutečně odložené měsíční náklady na pronájem",
+            "help": "Použijte náklady na skutečně plánovaný pronájem, nikoli plat někoho, kdo již pracoval."
           },
           "hire_months": {
-            "label": "Months that hire is deferred",
-            "help": "One to twelve months; the annual estimate stops counting savings after this period."
+            "label": "Měsíce, které jsou pronajímány, jsou odloženy",
+            "help": "Jeden až dvanáct měsíců; roční odhad po uplynutí této doby přestane počítat úspory."
           },
           "incidents": {
-            "label": "Expected avoided errors per month",
-            "help": "Use your baseline and expected reduction. Exclude incidents also counted as risk reduction."
+            "label": "Očekávané vyloučené chyby za měsíc",
+            "help": "Použijte svůj základní a očekávané snížení. Vyloučit incidenty se také počítají jako snížení rizika."
           },
           "incident_cost": {
             "label": "Incremental cost per error",
-            "help": "Exclude labor, refunds or other losses already included elsewhere."
+            "help": "Vyloučit práci, náhrady nebo jiné ztráty, které jsou již zahrnuty jinde."
           },
           "probability_before": {
             "label": "Monthly loss probability before",
-            "help": "Your estimate, not a guaranteed risk assessment."
+            "help": "Váš odhad, nikoli zaručené posouzení rizik."
           },
           "probability_after": {
             "label": "Monthly loss probability after",
-            "help": "Use the same event and monthly time horizon as the baseline."
+            "help": "Použijte stejnou událost a měsíční časový horizont jako výchozí."
           },
           "loss": {
-            "label": "Loss exposure for that event",
-            "help": "Exclude error incidents and spending already counted. This is uncertain expected value, not cash saved."
+            "label": "Ztrátová expozice pro tuto událost",
+            "help": "Vyloučit chybové incidenty a již započítané výdaje. Jedná se o nejistou očekávanou hodnotu, nikoli o ušetřenou hotovost."
           },
           "days_before": {
-            "label": "Cycle time before, in days",
-            "help": "Elapsed time from start to completion, separate from hands-on effort."
+            "label": "Doba cyklu předtím, ve dnech",
+            "help": "Uplynulý čas od začátku do dokončení, oddělený od praktického úsilí."
           },
           "days_after": {
-            "label": "Cycle time after, in days",
-            "help": "Shown as an operational change only, without an assumed monetary value."
+            "label": "Doba cyklu po, ve dnech",
+            "help": "Zobrazeno pouze jako provozní změna, bez předpokládané peněžní hodnoty."
           }
         },
         "burden": [
@@ -1578,7 +1585,7 @@
         ],
         "opportunity": [
           "More qualified, human-reviewed introductions",
-          "Time for agent conversations and client needs"
+          "Čas na rozhovory s agenty a potřeby klientů"
         ],
         "usagePackages": {
           "base": {
@@ -1628,14 +1635,19 @@
           {
             "id": "higher_value",
             "label": "Keep agents on conversations",
-            "help": "Enter only capacity that can be redirected to real agent or brokerage work; do not treat property value or commission as Nest revenue."
+            "help": "Zadejte pouze kapacitu, kterou lze přesměrovat na skutečného agenta nebo makléřskou práci; nepovažujte hodnotu nemovitosti nebo provizi za příjem Nest."
+          },
+          {
+            "id": "cash",
+            "label": "Snížit placenou podporu příjmu",
+            "help": "Snižte přesčasy nebo utrácejte dodavatele za manuální příjem informací pro kupujícího – nikoli nezměněné platy."
           }
         ],
         "tabs": [
           {
             "id": "funnel",
             "label": "Introduction funnel",
-            "intro": "Model leads entering the agent or brokerage desk, qualification, and human review.",
+            "intro": "Modelování vedoucích vstupujících na pult agenta nebo makléře, kvalifikaci a kontrolu člověkem.",
             "fields": [
               "volume",
               "accepted_rate",
@@ -1646,7 +1658,7 @@
           {
             "id": "costs",
             "label": "AI operating cost",
-            "intro": "Keep model, token, tool, infrastructure, platform and reviewer costs separate from the proposed customer price.",
+            "intro": "Udržujte náklady na model, token, nástroj, infrastrukturu, platformu a recenzenta oddělené od navrhované ceny pro zákazníka.",
             "fields": [
               "tokens_per_output",
               "model_cost",
@@ -1660,7 +1672,7 @@
           {
             "id": "capacity",
             "label": "Capacity and evidence",
-            "intro": "Returned capacity is not revenue. Financial results remain insufficient until a payer, price and delivery evidence are recorded.",
+            "intro": "Vrácená kapacita není výnosem. Finanční výsledky zůstávají nedostatečné, dokud není zaznamenán plátce, cena a doklady o dodání.",
             "fields": [
               "higher_value_hours",
               "contribution_rate"
@@ -1673,7 +1685,7 @@
           "basis": "fixed",
           "annualPrice": 9000,
           "label": "Proposed Nest monthly price",
-          "help": "A €750/month working hypothesis for a qualified-introduction pilot. Treat as unvalidated until an agent or brokerage pays."
+          "help": "Pracovní hypotéza 750 EUR/měsíc pro kvalifikovaného zaváděcího pilota. Považujte je za nevalidované, dokud agent nebo makléř nezaplatí."
         },
         "presentation": {
           "financial": "optional",
@@ -1685,7 +1697,7 @@
         "primaryLabel": "Talk with Nest",
         "primaryTarget": "meet",
         "secondaryLabel": "See how it works",
-        "privacyNote": "Your data stays private. Hours are capacity. Financial amounts are modeled estimates, not observed results.",
+        "privacyNote": "Vaše data zůstanou soukromá. Hodiny jsou kapacitní. Finanční částky jsou modelované odhady, nikoli pozorované výsledky.",
         "secondaryTarget": "how-it-works"
       }
     }
@@ -1972,6 +1984,16 @@
         "availabilityLabel"
       ],
       "sourceHash": "4ccdf0d88d921c3c0274c16ab665fd021b888edca40c2f1887ca4da4e2e61adc"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "profileModeId"
+      ],
+      "sourceHash": "6dbd0f28d0d97656768b7b4ed96255e67fd11740a44b1c4b575191b06e9e3a35"
     },
     {
       "path": [
@@ -4653,34 +4675,9 @@
         0,
         "roiCalculator",
         "businessImpact",
-        "costMode"
-      ],
-      "sourceHash": "0257609b2e009aa6c788941fbcaeee13877465889a94aaf0444c7d4159ee616c"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        0,
-        "roiCalculator",
-        "businessImpact",
         "reviewMode"
       ],
       "sourceHash": "ca8b22d0db83a22db163b560b3e4e51527e533d31d067b614a0c33c4d2df8432"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        0,
-        "roiCalculator",
-        "businessImpact",
-        "selected",
-        0
-      ],
-      "sourceHash": "c8333158bd18b91a71842cfd38c2d6ddab471bda158b19286d96d4a4ed973ac4"
     },
     {
       "path": [
@@ -4760,51 +4757,6 @@
         "roiCalculator",
         "businessImpact",
         "tabs",
-        0,
-        "fields",
-        0
-      ],
-      "sourceHash": "62d7a6b1211d627650e2bf0c869b69b564e2cd74290ae1dd78ae4b5e20b0cfe7"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        0,
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        0,
-        "fields",
-        1
-      ],
-      "sourceHash": "533c554a619ee86f5b109e6356436592d023fca097b61a42a5769899f3e49ded"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        0,
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        0,
-        "fields",
-        2
-      ],
-      "sourceHash": "c97ace4c8fef2cee8fa0f3c9f52aab18dbd4f42438afe362ffb8f75ce4c04b84"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        0,
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
         1,
         "label"
       ],
@@ -4823,96 +4775,6 @@
         "intro"
       ],
       "sourceHash": "ecb995d2474e26388c933fda1b6a2ac889d6f3629ab1f42fe73e918b2733817f"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        0,
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        1,
-        "fields",
-        0
-      ],
-      "sourceHash": "252b07fa1db64f9ca920817ce39dec8523f46fca171a3dfd2721f7406ad524b3"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        0,
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        1,
-        "fields",
-        1
-      ],
-      "sourceHash": "d1bedf986ff719c3697d5349d0a881f26ca60c944250a6b9d841dbfdd75ec256"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        0,
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        1,
-        "fields",
-        2
-      ],
-      "sourceHash": "d36f8ed71fe4f06ad33653f5b2a02efb6b90532b03694d27b25f01211ee64df5"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        0,
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        1,
-        "fields",
-        3
-      ],
-      "sourceHash": "5ef2621e3c47a6ca8fc7990c6ffa19b229e742540611b01e0f1d253b33808503"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        0,
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        1,
-        "fields",
-        4
-      ],
-      "sourceHash": "ddb2485b111f5d7373d804bdb4010b2590b72ba7b899fd5e11c4e0d5e00fb524"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        0,
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        1,
-        "fields",
-        5
-      ],
-      "sourceHash": "b90c7599f77434bcd2d32958a8557417fb5333b4dbd169ff8c5ee65bbb5008ef"
     },
     {
       "path": [
@@ -4950,49 +4812,6 @@
         0,
         "roiCalculator",
         "businessImpact",
-        "tabs",
-        2,
-        "fields",
-        0
-      ],
-      "sourceHash": "f033d3c123d7de8fa6a1706e2f8dee954bec3ef08f9c5a10de37ab050e4d25ab"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        0,
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        2,
-        "fields",
-        1
-      ],
-      "sourceHash": "b28c91bc16791f680909ec198a45e7c491055b8c4c558da970e1e9bcd2635edc"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        0,
-        "roiCalculator",
-        "businessImpact",
-        "pricing",
-        "basis"
-      ],
-      "sourceHash": "992a93455c71fedd36ac9bbc439952c041cf61445958472af479269b8d873513"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        0,
-        "roiCalculator",
-        "businessImpact",
         "pricing",
         "label"
       ],
@@ -5010,19 +4829,6 @@
         "help"
       ],
       "sourceHash": "aebaed823e7b8d30309648e6c85cfe4d7f6cb7938bdf923f2c68c9b67ff269da"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        0,
-        "roiCalculator",
-        "businessImpact",
-        "presentation",
-        "financial"
-      ],
-      "sourceHash": "ec91fdd9256cb75ae611249b50cb7eb16533f0fa91b86239ec1d439a1ea033b8"
     },
     {
       "path": [
@@ -5059,6 +4865,16 @@
         "privacyNote"
       ],
       "sourceHash": "0e96f5e15977ab0a2a8d684c0d35d7459f3afc862b606046310ae1fbbd4be12b"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "profileModeId"
+      ],
+      "sourceHash": "a4279eae47aaa7417da62434795a011ccb0ec870f7f56646d181b5500a892a9a"
     },
     {
       "path": [
@@ -7809,34 +7625,9 @@
         1,
         "roiCalculator",
         "businessImpact",
-        "costMode"
-      ],
-      "sourceHash": "0257609b2e009aa6c788941fbcaeee13877465889a94aaf0444c7d4159ee616c"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        1,
-        "roiCalculator",
-        "businessImpact",
         "reviewMode"
       ],
       "sourceHash": "ca8b22d0db83a22db163b560b3e4e51527e533d31d067b614a0c33c4d2df8432"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        1,
-        "roiCalculator",
-        "businessImpact",
-        "selected",
-        0
-      ],
-      "sourceHash": "c8333158bd18b91a71842cfd38c2d6ddab471bda158b19286d96d4a4ed973ac4"
     },
     {
       "path": [
@@ -7887,6 +7678,34 @@
         1,
         "roiCalculator",
         "businessImpact",
+        "outcomes",
+        1,
+        "label"
+      ],
+      "sourceHash": "aea4419b254433ce01374056925b89821689edcecc57fcd6988c2abc3f51c102"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "businessImpact",
+        "outcomes",
+        1,
+        "help"
+      ],
+      "sourceHash": "79f050bc25f624be1f08b5c05a4ac923c1c16bcf253e4009d475f35d6a7a6927"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "businessImpact",
         "tabs",
         0,
         "label"
@@ -7906,51 +7725,6 @@
         "intro"
       ],
       "sourceHash": "db6c00c1b6ccac892da8c66e20f05fcc3bf78c2a3b4929b7c5ad4c53ce32e23a"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        1,
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        0,
-        "fields",
-        0
-      ],
-      "sourceHash": "62d7a6b1211d627650e2bf0c869b69b564e2cd74290ae1dd78ae4b5e20b0cfe7"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        1,
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        0,
-        "fields",
-        1
-      ],
-      "sourceHash": "533c554a619ee86f5b109e6356436592d023fca097b61a42a5769899f3e49ded"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        1,
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        0,
-        "fields",
-        2
-      ],
-      "sourceHash": "c97ace4c8fef2cee8fa0f3c9f52aab18dbd4f42438afe362ffb8f75ce4c04b84"
     },
     {
       "path": [
@@ -7989,96 +7763,6 @@
         "roiCalculator",
         "businessImpact",
         "tabs",
-        1,
-        "fields",
-        0
-      ],
-      "sourceHash": "252b07fa1db64f9ca920817ce39dec8523f46fca171a3dfd2721f7406ad524b3"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        1,
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        1,
-        "fields",
-        1
-      ],
-      "sourceHash": "d1bedf986ff719c3697d5349d0a881f26ca60c944250a6b9d841dbfdd75ec256"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        1,
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        1,
-        "fields",
-        2
-      ],
-      "sourceHash": "d36f8ed71fe4f06ad33653f5b2a02efb6b90532b03694d27b25f01211ee64df5"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        1,
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        1,
-        "fields",
-        3
-      ],
-      "sourceHash": "5ef2621e3c47a6ca8fc7990c6ffa19b229e742540611b01e0f1d253b33808503"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        1,
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        1,
-        "fields",
-        4
-      ],
-      "sourceHash": "ddb2485b111f5d7373d804bdb4010b2590b72ba7b899fd5e11c4e0d5e00fb524"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        1,
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        1,
-        "fields",
-        5
-      ],
-      "sourceHash": "b90c7599f77434bcd2d32958a8557417fb5333b4dbd169ff8c5ee65bbb5008ef"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        1,
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
         2,
         "label"
       ],
@@ -8106,49 +7790,6 @@
         1,
         "roiCalculator",
         "businessImpact",
-        "tabs",
-        2,
-        "fields",
-        0
-      ],
-      "sourceHash": "f033d3c123d7de8fa6a1706e2f8dee954bec3ef08f9c5a10de37ab050e4d25ab"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        1,
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        2,
-        "fields",
-        1
-      ],
-      "sourceHash": "b28c91bc16791f680909ec198a45e7c491055b8c4c558da970e1e9bcd2635edc"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        1,
-        "roiCalculator",
-        "businessImpact",
-        "pricing",
-        "basis"
-      ],
-      "sourceHash": "992a93455c71fedd36ac9bbc439952c041cf61445958472af479269b8d873513"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        1,
-        "roiCalculator",
-        "businessImpact",
         "pricing",
         "label"
       ],
@@ -8166,19 +7807,6 @@
         "help"
       ],
       "sourceHash": "aebaed823e7b8d30309648e6c85cfe4d7f6cb7938bdf923f2c68c9b67ff269da"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        1,
-        "roiCalculator",
-        "businessImpact",
-        "presentation",
-        "financial"
-      ],
-      "sourceHash": "ec91fdd9256cb75ae611249b50cb7eb16533f0fa91b86239ec1d439a1ea033b8"
     },
     {
       "path": [
@@ -11002,28 +10630,9 @@
         "landingPage",
         "roiCalculator",
         "businessImpact",
-        "costMode"
-      ],
-      "sourceHash": "0257609b2e009aa6c788941fbcaeee13877465889a94aaf0444c7d4159ee616c"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
         "reviewMode"
       ],
       "sourceHash": "ca8b22d0db83a22db163b560b3e4e51527e533d31d067b614a0c33c4d2df8432"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "selected",
-        0
-      ],
-      "sourceHash": "c8333158bd18b91a71842cfd38c2d6ddab471bda158b19286d96d4a4ed973ac4"
     },
     {
       "path": [
@@ -11062,6 +10671,28 @@
         "landingPage",
         "roiCalculator",
         "businessImpact",
+        "outcomes",
+        1,
+        "label"
+      ],
+      "sourceHash": "aea4419b254433ce01374056925b89821689edcecc57fcd6988c2abc3f51c102"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "outcomes",
+        1,
+        "help"
+      ],
+      "sourceHash": "6070b25168d7d93f6574ee09ea6117accce9c1b93d909efd04ea4406665cee17"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
         "tabs",
         0,
         "label"
@@ -11078,42 +10709,6 @@
         "intro"
       ],
       "sourceHash": "db6c00c1b6ccac892da8c66e20f05fcc3bf78c2a3b4929b7c5ad4c53ce32e23a"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        0,
-        "fields",
-        0
-      ],
-      "sourceHash": "62d7a6b1211d627650e2bf0c869b69b564e2cd74290ae1dd78ae4b5e20b0cfe7"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        0,
-        "fields",
-        1
-      ],
-      "sourceHash": "533c554a619ee86f5b109e6356436592d023fca097b61a42a5769899f3e49ded"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        0,
-        "fields",
-        2
-      ],
-      "sourceHash": "c97ace4c8fef2cee8fa0f3c9f52aab18dbd4f42438afe362ffb8f75ce4c04b84"
     },
     {
       "path": [
@@ -11143,78 +10738,6 @@
         "roiCalculator",
         "businessImpact",
         "tabs",
-        1,
-        "fields",
-        0
-      ],
-      "sourceHash": "252b07fa1db64f9ca920817ce39dec8523f46fca171a3dfd2721f7406ad524b3"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        1,
-        "fields",
-        1
-      ],
-      "sourceHash": "d1bedf986ff719c3697d5349d0a881f26ca60c944250a6b9d841dbfdd75ec256"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        1,
-        "fields",
-        2
-      ],
-      "sourceHash": "d36f8ed71fe4f06ad33653f5b2a02efb6b90532b03694d27b25f01211ee64df5"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        1,
-        "fields",
-        3
-      ],
-      "sourceHash": "5ef2621e3c47a6ca8fc7990c6ffa19b229e742540611b01e0f1d253b33808503"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        1,
-        "fields",
-        4
-      ],
-      "sourceHash": "ddb2485b111f5d7373d804bdb4010b2590b72ba7b899fd5e11c4e0d5e00fb524"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        1,
-        "fields",
-        5
-      ],
-      "sourceHash": "b90c7599f77434bcd2d32958a8557417fb5333b4dbd169ff8c5ee65bbb5008ef"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
         2,
         "label"
       ],
@@ -11236,40 +10759,6 @@
         "landingPage",
         "roiCalculator",
         "businessImpact",
-        "tabs",
-        2,
-        "fields",
-        0
-      ],
-      "sourceHash": "f033d3c123d7de8fa6a1706e2f8dee954bec3ef08f9c5a10de37ab050e4d25ab"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        2,
-        "fields",
-        1
-      ],
-      "sourceHash": "b28c91bc16791f680909ec198a45e7c491055b8c4c558da970e1e9bcd2635edc"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "pricing",
-        "basis"
-      ],
-      "sourceHash": "992a93455c71fedd36ac9bbc439952c041cf61445958472af479269b8d873513"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
         "pricing",
         "label"
       ],
@@ -11284,16 +10773,6 @@
         "help"
       ],
       "sourceHash": "aebaed823e7b8d30309648e6c85cfe4d7f6cb7938bdf923f2c68c9b67ff269da"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "presentation",
-        "financial"
-      ],
-      "sourceHash": "ec91fdd9256cb75ae611249b50cb7eb16533f0fa91b86239ec1d439a1ea033b8"
     },
     {
       "path": [
@@ -11323,5 +10802,5 @@
       "sourceHash": "0e96f5e15977ab0a2a8d684c0d35d7459f3afc862b606046310ae1fbbd4be12b"
     }
   ],
-  "generatedAt": "2026-09-11T04:18:29.310Z"
+  "generatedAt": "2026-10-01T12:38:33.001Z"
 }

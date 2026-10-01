@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "language": "vi",
   "regionKey": null,
-  "sourceRevision": "e38bb8570798c46b5f8766ead43d9c6f4648a19d3d096d1d92c424fb5a6774a0",
+  "sourceRevision": "9b00d9081f920764fbd3e5bcdb077a7b34f8b04299a9af6b2aee818670157abf",
   "landingPage": {
     "headline": "Một giới thiệu đủ điều kiện phù hợp.",
     "subheadline": "Giới thiệu riêng tư giữa người mua và người bán, một đề xuất được xem xét bởi con người mỗi lần.",
@@ -65,7 +65,7 @@
     },
     "homeIntroductions": {
       "header": {
-        "brandLabel": "tổ.",
+        "brandLabel": "Nest.",
         "brandTagline": "Một lời giới thiệu cẩn thận",
         "navItems": [
           {
@@ -81,7 +81,7 @@
             "target": "hero-chat"
           }
         ],
-        "ctaLabel": "yêu cầu giới thiệu",
+        "ctaLabel": "Gặp Nest",
         "mobileCtaLabel": "Khởi đầu",
         "editionLabel": "Mua",
         "secondaryEditionLabel": "Bán"
@@ -103,9 +103,9 @@
           },
           {
             "mode": "city",
-            "label": "TP",
+            "label": "Thành phố",
             "actionLabel": "Phong cảnh",
-            "name": "tổ Amsterdam",
+            "name": "Nest Amsterdam",
             "location": "Amsterdam Zuid",
             "dateRange": "đang diễn ra",
             "availabilityLabel": "Giới thiệu luôn địa phương"
@@ -115,6 +115,7 @@
       "tracks": [
         {
           "id": "buying",
+          "profileModeId": "buyer",
           "label": "Tôi đang mua",
           "responseMessage": "Hãy cho tôi biết ngôi nhà đáng để chuyển đi. Tôi sẽ chỉ yêu cầu các chi tiết mà người đánh giá cần, sau đó mang về một cái được coi là phù hợp.",
           "composerPlaceholder": "Nói với Nest những gì bạn cần từ một ngôi nhà…",
@@ -129,7 +130,7 @@
             {
               "number": "02",
               "image": "/landing-pages/nest/nest-how-review-human.webp",
-              "alt": "tổ và một người đánh giá con người cẩn thận xem xét một người mua và một ngôi nhà",
+              "alt": "Nest và một người đánh giá đang xem xét cẩn thận một người mua và một ngôi nhà",
               "title": "nhận được một tài sản phù hợp tại một thời điểm.",
               "body": "Một người xem xét mọi đề xuất trước khi một trong hai bên nhìn thấy nó. Không có danh mục công khai, xếp hạng hoặc lưới lọc vô tận.",
               "badge": "con người được chấp thuận"
@@ -202,7 +203,7 @@
             {
               "key": "privateConstraints",
               "label": "Ràng buộc riêng tư",
-              "placeholder": "Bất cứ điều gì tổ nên giữ kín",
+              "placeholder": "Mọi thứ Nest đều phải được giữ kín",
               "type": "textarea",
               "required": false
             }
@@ -212,23 +213,23 @@
             "enabled": true,
             "kicker": "Business impact",
             "heading": "ROI Calculator",
-            "subheading": "Model a licensed second-home agent or brokerage using Nest for qualified, human-reviewed introductions in one local market.",
-            "disclaimer": "A modeled operating scenario with zero validated paid demand. Nest qualifies and coordinates consented introductions; it does not represent parties, value property, negotiate, earn commissions or guarantee a transaction.",
+            "subheading": "Lập mô hình một đại lý hoặc nhà môi giới ngôi nhà thứ hai được cấp phép sử dụng Nest để giới thiệu đủ điều kiện, được con người đánh giá tại một thị trường địa phương.",
+            "disclaimer": "Một kịch bản vận hành được mô hình hóa không có nhu cầu thanh toán được xác thực. Nest xác định và điều phối việc giới thiệu đã được đồng ý; nó không đại diện cho các bên, định giá tài sản, thương lượng, kiếm tiền hoa hồng hoặc đảm bảo một giao dịch.",
             "currency": "EUR",
             "currencyCopy": {
               "native": "Amounts in {currency}.",
               "loading": "Checking the local currency. Amounts remain in {currency} until a rate is available.",
               "unavailable": "A current local exchange rate is unavailable. Amounts remain in {currency}.",
               "converted": "Amounts converted from {base} to {currency} using the reference rate dated {date}.",
-              "basis": "Currency conversion is not local cost research. Enter your own local costs and contribution assumptions. Language changes do not change amounts."
+              "basis": "Chuyển đổi tiền tệ không phải là nghiên cứu chi phí địa phương. Nhập chi phí địa phương của bạn và các giả định đóng góp. Thay đổi ngôn ngữ không thay đổi số lượng."
             },
             "costCopy": {
-              "breakdown": "How the all-in AI cost is built",
+              "breakdown": "Chi phí AI tổng thể được xây dựng như thế nào",
               "perUnit": "{amount} per work unit (average)",
-              "budgetOnly": "This is your total budget. Switch to Cost breakdown to itemize it; no split has been assumed.",
-              "benefitNotice": "Modeled benefits, not charges. Crossed-out amounts are spending you expect to avoid, not discounts on the AI bill.",
+              "budgetOnly": "Đây là tổng ngân sách của bạn. Chuyển sang Phân tích chi phí để chia thành từng khoản; không có sự phân chia nào được giả định.",
+              "benefitNotice": "Lợi ích được mô hình hóa, không phải phí. Số tiền bị gạch bỏ là khoản chi tiêu mà bạn mong muốn tránh, không phải khoản giảm giá trên hóa đơn AI.",
               "remainder": "Other included operating costs",
-              "allocation": "Returned hours are capacity, not automatic savings. Only the portions you assign to actual spending reductions or additional contribution receive a monetary value."
+              "allocation": "Số giờ trả về là công suất chứ không phải tiết kiệm tự động. Chỉ những phần bạn chỉ định cho việc cắt giảm chi tiêu thực tế hoặc đóng góp bổ sung mới nhận được giá trị bằng tiền."
             },
             "locale": "en-GB",
             "inputs": [],
@@ -254,10 +255,10 @@
                 "workloadStep": "Introduction funnel",
                 "costStep": "AI operating cost",
                 "valueStep": "Capacity and evidence",
-                "workloadIntro": "Model second-home leads, qualification and human review—not property sales, commissions or guaranteed matches.",
-                "costIntro": "Token, model, tool, infrastructure, platform and reviewer costs are delivery assumptions. Nest price is a separate unvalidated hypothesis.",
-                "valueIntro": "Capacity is not revenue. Enter observed contribution only after a real agent or brokerage uses and pays for the service.",
-                "sampleNotice": "Typical usage · not observed results",
+                "workloadIntro": "Lập mô hình khách hàng tiềm năng tại ngôi nhà thứ hai, trình độ chuyên môn và đánh giá con người—không phải việc bán bất động sản, hoa hồng hoặc các trận đấu được đảm bảo.",
+                "costIntro": "Chi phí mã thông báo, mô hình, công cụ, cơ sở hạ tầng, nền tảng và người đánh giá là các giả định phân phối. Giá Nest là một giả thuyết chưa được xác thực riêng biệt.",
+                "valueIntro": "Năng lực không phải là doanh thu. Chỉ nhập khoản đóng góp quan sát được sau khi đại lý hoặc nhà môi giới thực sự sử dụng và thanh toán cho dịch vụ.",
+                "sampleNotice": "Cách sử dụng điển hình · kết quả không được quan sát",
                 "monthly": "Monthly",
                 "yearly": "Yearly",
                 "next": "Continue",
@@ -282,11 +283,11 @@
                 "reviewMode": "Who handles the review?",
                 "teamReview": "Existing team",
                 "paidReview": "Additional paid reviewer",
-                "reviewNote": "Existing-team review uses returned capacity. Additional paid review is included in operating cost, not deducted again from team capacity.",
+                "reviewNote": "Đánh giá của nhóm hiện tại sử dụng năng lực được trả lại. Đánh giá trả phí bổ sung được bao gồm trong chi phí vận hành, không được khấu trừ lại vào năng lực của nhóm.",
                 "totalMode": "Monthly budget",
                 "itemizedMode": "Cost breakdown",
-                "budgetNote": "The budget must include models/media, tools, infrastructure, Gabriel fees and additional paid review. Do not include unchanged payroll as new spending.",
-                "itemizedNote": "Token usage is calculated from volume × tokens per output. Extra media, tools and infrastructure stay at zero unless they apply. Additional paid review is calculated from review hours and its rate.",
+                "budgetNote": "Ngân sách phải bao gồm các mô hình/phương tiện truyền thông, công cụ, cơ sở hạ tầng, phí Gabriel và đánh giá trả phí bổ sung. Không bao gồm bảng lương không thay đổi như chi tiêu mới.",
+                "itemizedNote": "Việc sử dụng mã thông báo được tính từ khối lượng × mã thông báo trên mỗi đầu ra. Phương tiện, công cụ và cơ sở hạ tầng bổ sung luôn ở mức 0 trừ khi chúng được áp dụng. Đánh giá trả phí bổ sung được tính từ số giờ đánh giá và tỷ lệ của nó.",
                 "paidReviewCost": "Additional paid review cost",
                 "allInCost": "Operating cost",
                 "missing": "Add your assumptions",
@@ -295,193 +296,193 @@
                 "expectedLoss": "Expected loss reduction",
                 "riskValue": "Uncertain risk value included",
                 "economicValue": "Modeled contribution",
-                "netBenefit": "Modeled benefit after Nest price",
+                "netBenefit": "Lợi ích được mô hình hóa sau mức giá Nest",
                 "multiple": "Internal delivery multiple",
                 "customerBenefit": "Modeled agent benefit",
                 "customerRoi": "Modeled customer ROI",
                 "payback": "Customer payback period",
                 "notApplicable": "Not applicable",
                 "annual": "Annual view",
-                "annualNote": "The same monthly assumptions, without growth or compounding. Hiring savings last only for the entered period.",
+                "annualNote": "Các giả định hàng tháng giống nhau, không có tăng trưởng hoặc gộp. Tiền tiết kiệm thuê chỉ kéo dài trong khoảng thời gian đã nhập.",
                 "method": "How this is calculated",
                 "burdenHeading": "Repetitive work reduced",
                 "opportunityHeading": "Capacity for higher-value work",
-                "methodBody": "Operating burden removed (negative productivity) returns capacity. Higher-value work (potential positive productivity) creates economic value only if that capacity is used. Hours alone are not cash savings. Token cost uses a modeled input/output mix, not a provider quote.",
-                "formulaLabel": "Qualified briefs = leads × qualification rate. Delivery cost includes modeled token, model, tool, infrastructure, platform and human-review cost. Customer ROI remains unavailable until benefit and price are supported by evidence.",
-                "allocationNote": "Each hour can be allocated once. Unallocated hours remain capacity, with no monetary value.",
-                "overlapLabel": "These benefits are distinct; I have excluded costs and losses already counted elsewhere.",
-                "overlapNote": "Error and risk estimates exclude labor savings and the same incident must not appear in both categories. Contribution excludes AI costs, which are deducted separately.",
-                "hiringLabel": "This hire was genuinely planned and the allocated capacity can cover the work.",
-                "reviewedLabel": "I have reviewed my outcomes; unselected outcomes have no financial value in this estimate.",
+                "methodBody": "Gánh nặng vận hành được loại bỏ (năng suất âm) sẽ trả lại năng suất. Công việc có giá trị cao hơn (năng suất tích cực tiềm năng) chỉ tạo ra giá trị kinh tế nếu năng lực đó được sử dụng. Chỉ tính giờ thôi thì không phải là tiết kiệm tiền mặt. Giá mã thông báo sử dụng kết hợp đầu vào/đầu ra được mô hình hóa, không phải báo giá của nhà cung cấp.",
+                "formulaLabel": "Tóm tắt chất lượng = khách hàng tiềm năng × tỷ lệ đủ tiêu chuẩn. Chi phí phân phối bao gồm mã thông báo được mô hình hóa, mô hình, công cụ, cơ sở hạ tầng, nền tảng và chi phí đánh giá của con người. ROI của khách hàng vẫn không có sẵn cho đến khi lợi ích và giá cả được chứng minh bằng bằng chứng.",
+                "allocationNote": "Mỗi giờ có thể được phân bổ một lần. Số giờ chưa được phân bổ vẫn là năng lực, không có giá trị tiền tệ.",
+                "overlapLabel": "Những lợi ích này là khác biệt; Tôi đã loại trừ chi phí và tổn thất đã được tính ở nơi khác.",
+                "overlapNote": "Ước tính sai sót và rủi ro không bao gồm tiết kiệm lao động và sự cố giống nhau không được xuất hiện ở cả hai loại. Khoản đóng góp không bao gồm chi phí AI, được khấu trừ riêng.",
+                "hiringLabel": "Việc thuê này đã được lên kế hoạch thực sự và năng lực được phân bổ có thể đáp ứng được công việc.",
+                "reviewedLabel": "Tôi đã xem lại kết quả của mình; kết quả không được chọn không có giá trị tài chính trong ước tính này.",
                 "cycleResult": "Cycle-time improvement",
-                "throughputResult": "Additional work supported by capacity and demand",
-                "assumptionsIncomplete": "Complete the selected assumptions to calculate financial value.",
-                "allocationError": "Allocated hours exceed the net capacity available. Reduce the allocations.",
-                "reviewError": "Review takes more time than the work reduced. No positive capacity is available at these assumptions.",
-                "cashError": "Avoided spending cannot exceed current spending or have positive value with no hours allocated.",
-                "hiringError": "Allocated capacity must cover the planned hire hours. Confirm the planned hire and its duration.",
-                "riskError": "The after probability cannot exceed the before probability for a loss-reduction estimate.",
-                "overlapError": "Confirm the benefits do not overlap before including them in the financial result.",
-                "boundsError": "Use values within the displayed limits.",
+                "throughputResult": "Công việc bổ sung được hỗ trợ theo năng lực và nhu cầu",
+                "assumptionsIncomplete": "Hoàn thành các giả định đã chọn để tính giá trị tài chính.",
+                "allocationError": "Số giờ được phân bổ vượt quá công suất thực hiện có. Giảm phân bổ.",
+                "reviewError": "Việc xem xét mất nhiều thời gian hơn công việc giảm bớt. Không có khả năng tích cực có sẵn tại các giả định này.",
+                "cashError": "Chi tiêu tránh được không được vượt quá chi tiêu hiện tại hoặc có giá trị dương khi không phân bổ số giờ.",
+                "hiringError": "Công suất được phân bổ phải bao gồm số giờ thuê theo kế hoạch. Xác nhận việc thuê theo kế hoạch và thời hạn của nó.",
+                "riskError": "Xác suất sau không thể vượt quá xác suất trước để ước tính mức giảm tổn thất.",
+                "overlapError": "Xác nhận các lợi ích không trùng lặp trước khi đưa chúng vào kết quả tài chính.",
+                "boundsError": "Sử dụng các giá trị trong giới hạn được hiển thị.",
                 "rangeLabel": "Adjust value",
-                "noCurrencyChange": "Language changes formatting, not your currency or assumptions.",
+                "noCurrencyChange": "Ngôn ngữ thay đổi định dạng, không phải đơn vị tiền tệ hoặc giả định của bạn.",
                 "currentPreparation": "Giờ chuẩn bị hiện tại",
-                "reviewHours": "Giờ xem xét của con người",
-                "reworkHours": "Giờ làm lại được tránh hoặc thêm vào",
-                "capacityValue": "Giá trị năng lực mô hình hóa",
-                "acceptedUnits": "Đơn vị đã chấp nhận",
-                "attendedUnits": "Đơn vị đã phục vụ",
-                "costPerAttended": "Chi phí trên mỗi đơn vị đã phục vụ",
-                "benefitCost": "Bội số lợi ích - chi phí",
+                "reviewHours": "Giờ đánh giá con người",
+                "reworkHours": "Đã tránh hoặc thêm giờ làm lại",
+                "capacityValue": "Giá trị công suất mô hình",
+                "acceptedUnits": "Đơn vị được chấp nhận",
+                "attendedUnits": "Đơn vị tham dự",
+                "costPerAttended": "Chi phí cho mỗi đơn vị tham dự",
+                "benefitCost": "Hệ số lợi ích-chi phí",
                 "firstYearCost": "Chi phí năm đầu tiên",
                 "firstYearRoi": "ROI năm đầu tiên",
-                "paybackOutsideTerm": "Không được thu hồi trong thời hạn mô hình hóa",
+                "paybackOutsideTerm": "Không được phục hồi trong thời hạn được mô hình hóa",
                 "months": "months"
               },
               "fields": {
                 "volume": {
-                  "label": "Leads or briefs entering the desk each month",
-                  "help": "Count inbound second-home enquiries in the selected market, not property transactions."
+                  "label": "Khách hàng tiềm năng hoặc tóm tắt vào bàn làm việc mỗi tháng",
+                  "help": "Tính các yêu cầu về ngôi nhà thứ hai trong thị trường đã chọn, không phải các giao dịch tài sản."
                 },
                 "accepted_rate": {
                   "label": "Share becoming qualified briefs",
-                  "help": "A modeled qualification rate. Replace it with observed funnel data after a pilot."
+                  "help": "Một tỷ lệ trình độ chuyên môn được mô hình hóa. Thay thế nó bằng dữ liệu kênh được quan sát sau khi thử nghiệm."
                 },
                 "attendance_rate": {
                   "label": "Expected attendance rate",
-                  "help": "Modeled share of accepted meetings expected to happen. Replace this with verified event records after a pilot."
+                  "help": "Chia sẻ theo mô hình các cuộc họp được chấp nhận dự kiến sẽ diễn ra. Thay thế điều này bằng các bản ghi sự kiện đã được xác minh sau khi thí điểm."
                 },
                 "minutes": {
-                  "label": "Minutes to qualify one buyer brief today",
-                  "help": "Active intake and qualification time, excluding elapsed days and property-search time."
+                  "label": "Biên bản tóm tắt dành cho một người mua ngay hôm nay",
+                  "help": "Thời gian tiếp nhận và đánh giá tích cực, không bao gồm những ngày đã trôi qua và thời gian tìm kiếm tài sản."
                 },
                 "automation": {
-                  "label": "Share of that work reduced",
-                  "help": "An illustrative assumption to validate in a pilot, not a performance promise."
+                  "label": "Chia sẻ công việc đó giảm",
+                  "help": "Một giả định minh họa để xác nhận trong một chương trình thí điểm, không phải là một lời hứa về hiệu suất."
                 },
                 "review": {
-                  "label": "Minutes a reviewer spends confirming each brief",
-                  "help": "Human review still required before either side sees a proposal."
+                  "label": "Số phút người đánh giá dành để xác nhận từng bản tóm tắt",
+                  "help": "Sự đánh giá của con người vẫn cần thiết trước khi một trong hai bên nhìn thấy đề xuất."
                 },
                 "cycles_per_unit": {
-                  "label": "Cycles per unit each month",
-                  "help": "How many recurring order, review or processing cycles each unit runs in a typical month."
+                  "label": "Chu kỳ trên mỗi đơn vị mỗi tháng",
+                  "help": "Mỗi đơn vị thực hiện bao nhiêu chu kỳ đặt hàng, xem xét hoặc xử lý định kỳ trong một tháng thông thường."
                 },
                 "tokens_per_output": {
-                  "label": "Tokens per qualified buyer brief",
-                  "help": "Modeled input and output tokens for one reviewable brief; provider usage must replace this hypothesis."
+                  "label": "Mã thông báo cho mỗi người mua đủ điều kiện tóm tắt",
+                  "help": "Mã thông báo đầu vào và đầu ra được mô hình hóa cho một bản tóm tắt có thể xem lại; việc sử dụng nhà cung cấp phải thay thế giả thuyết này."
                 },
                 "budget": {
                   "label": "Estimated monthly operating budget",
-                  "help": "Include token usage, models/media, tools, infrastructure, Gabriel fees and additional paid review."
+                  "help": "Bao gồm việc sử dụng mã thông báo, mô hình/phương tiện, công cụ, cơ sở hạ tầng, phí Gabriel và đánh giá trả phí bổ sung."
                 },
                 "model_cost": {
-                  "label": "Additional model or media cost",
-                  "help": "Enter separately billed models or media. Leave zero when included in the token envelope."
+                  "label": "Chi phí mô hình hoặc phương tiện bổ sung",
+                  "help": "Nhập các mẫu hoặc phương tiện được thanh toán riêng. Để lại số 0 khi được bao gồm trong phong bì mã thông báo."
                 },
                 "tools_cost": {
                   "label": "Tools and integrations",
-                  "help": "Browser sessions, connectors and other metered services. Enter zero if none."
+                  "help": "Phiên trình duyệt, trình kết nối và các dịch vụ đo lường khác. Nhập số 0 nếu không có."
                 },
                 "infrastructure_cost": {
                   "label": "Infrastructure",
-                  "help": "Incremental hosting, storage and compute for this workload. Enter zero if none."
+                  "help": "Lưu trữ, lưu trữ và tính toán gia tăng cho khối lượng công việc này. Nhập số 0 nếu không có."
                 },
                 "platform_cost": {
-                  "label": "Other delivery and support cost",
-                  "help": "Modeled hosting, storage, monitoring and support cost, separate from the customer price."
+                  "label": "Chi phí vận chuyển và hỗ trợ khác",
+                  "help": "Chi phí lưu trữ, lưu trữ, giám sát và hỗ trợ theo mô hình, tách biệt với giá của khách hàng."
                 },
                 "customer_price": {
                   "label": "Proposed monthly Nest price",
-                  "help": "Editable agent/brokerage pricing hypothesis. It is not validated revenue and must be tested in a paid pilot."
+                  "help": "Giả thuyết định giá đại lý/môi giới có thể chỉnh sửa. Đây không phải là doanh thu được xác thực và phải được thử nghiệm trong chương trình thí điểm trả phí."
                 },
                 "personal_value_per_hour": {
-                  "label": "Optional value you assign to an hour",
-                  "help": "An optional personal comparison only. This is not salary, wages or guaranteed cash savings."
+                  "label": "Giá trị tùy chọn bạn chỉ định cho một giờ",
+                  "help": "Chỉ có một so sánh cá nhân tùy chọn. Đây không phải là tiền lương, tiền công hoặc tiền tiết kiệm được đảm bảo."
                 },
                 "review_rate": {
-                  "label": "Additional paid review per hour",
-                  "help": "Actual extra reviewer spending, not the salary of an unchanged employee."
+                  "label": "Đánh giá trả phí bổ sung mỗi giờ",
+                  "help": "Thực tế chi tiêu thêm của người đánh giá chứ không phải tiền lương của một nhân viên không thay đổi."
                 },
                 "cash_hours": {
-                  "label": "Hours that remove paid work",
-                  "help": "Allocate only work whose overtime, contractor or processing spend will actually stop."
+                  "label": "Số giờ loại bỏ công việc được trả lương",
+                  "help": "Chỉ phân bổ công việc mà chi phí làm thêm giờ, nhà thầu hoặc xử lý sẽ thực sự dừng lại."
                 },
                 "cash_baseline": {
-                  "label": "Current monthly spending on that work",
-                  "help": "The cash budget from which the reduction will come."
+                  "label": "Chi tiêu hàng tháng hiện tại cho công việc đó",
+                  "help": "Ngân sách tiền mặt mà từ đó sẽ có sự cắt giảm."
                 },
                 "cash_avoided": {
-                  "label": "Monthly spending you would stop",
-                  "help": "One explicit amount, not hours multiplied by salary; exclude any planned-hire saving entered separately."
+                  "label": "Chi tiêu hàng tháng bạn sẽ dừng lại",
+                  "help": "Một số tiền rõ ràng, không phải số giờ nhân với tiền lương; loại trừ bất kỳ khoản tiết kiệm thuê theo kế hoạch nào được nhập riêng."
                 },
                 "higher_value_hours": {
-                  "label": "Hours agents can use for real conversations",
-                  "help": "Only capacity with observed demand receives an economic value."
+                  "label": "Số giờ đại lý có thể sử dụng cho các cuộc trò chuyện thực sự",
+                  "help": "Chỉ có năng lực với nhu cầu được quan sát mới nhận được giá trị kinh tế."
                 },
                 "contribution_rate": {
-                  "label": "Incremental contribution per agent hour",
-                  "help": "Contribution from additional work, excluding property value, commissions and costs already counted."
+                  "label": "Đóng góp gia tăng mỗi giờ đại lý",
+                  "help": "Đóng góp từ công việc bổ sung, không bao gồm giá trị tài sản, hoa hồng và chi phí đã được tính."
                 },
                 "throughput_hours": {
-                  "label": "Hours used for additional volume",
-                  "help": "This allocation cannot also be used for advisory work or spending reductions."
+                  "label": "Số giờ sử dụng cho khối lượng bổ sung",
+                  "help": "Việc phân bổ này cũng không thể được sử dụng cho công việc tư vấn hoặc cắt giảm chi tiêu."
                 },
                 "extra_minutes": {
-                  "label": "Team minutes per additional unit",
-                  "help": "The remaining human effort, including review, needed to deliver one more unit."
+                  "label": "Số phút nhóm cho mỗi đơn vị bổ sung",
+                  "help": "Nỗ lực còn lại của con người, bao gồm cả việc xem xét, cần thiết để cung cấp thêm một đơn vị nữa."
                 },
                 "demand": {
-                  "label": "Additional units with expected demand",
-                  "help": "Capacity alone is not demand. Enter the extra monthly work you expect to take on."
+                  "label": "Các đơn vị bổ sung có nhu cầu dự kiến",
+                  "help": "Chỉ riêng năng lực không phải là nhu cầu. Nhập công việc làm thêm hàng tháng mà bạn mong muốn đảm nhận."
                 },
                 "unit_margin": {
                   "label": "Contribution per additional unit",
-                  "help": "Incremental revenue less delivery costs; AI operating costs are deducted separately."
+                  "help": "Doanh thu tăng thêm ít chi phí giao hàng; Chi phí vận hành AI được khấu trừ riêng."
                 },
                 "hiring_hours": {
-                  "label": "Hours covering the planned hire",
-                  "help": "Allocate capacity to specific planned work, not a generic full-time-equivalent estimate."
+                  "label": "Số giờ bao gồm việc thuê theo kế hoạch",
+                  "help": "Phân bổ năng lực cho công việc đã được lên kế hoạch cụ thể, không phải ước tính chung về thời gian tương đương."
                 },
                 "planned_hours": {
-                  "label": "Monthly hours the planned hire would cover",
-                  "help": "The allocated capacity must cover this entire workload."
+                  "label": "Số giờ thuê hàng tháng theo kế hoạch sẽ bao gồm",
+                  "help": "Năng lực được phân bổ phải đáp ứng toàn bộ khối lượng công việc này."
                 },
                 "hire_cost": {
-                  "label": "Monthly hire cost actually deferred",
-                  "help": "Use the cost of a genuinely planned hire, not the salary of someone already employed."
+                  "label": "Chi phí thuê hàng tháng thực tế được hoãn lại",
+                  "help": "Sử dụng chi phí thuê nhân công đã được lên kế hoạch thực sự chứ không phải tiền lương của người đã được tuyển dụng."
                 },
                 "hire_months": {
-                  "label": "Months that hire is deferred",
-                  "help": "One to twelve months; the annual estimate stops counting savings after this period."
+                  "label": "Số tháng thuê được hoãn lại",
+                  "help": "Một đến mười hai tháng; ước tính hàng năm ngừng tính số tiền tiết kiệm sau khoảng thời gian này."
                 },
                 "incidents": {
-                  "label": "Expected avoided errors per month",
-                  "help": "Use your baseline and expected reduction. Exclude incidents also counted as risk reduction."
+                  "label": "Các lỗi dự kiến tránh được mỗi tháng",
+                  "help": "Sử dụng mức cơ bản và mức giảm dự kiến của bạn. Loại trừ sự cố cũng được tính là giảm rủi ro."
                 },
                 "incident_cost": {
                   "label": "Incremental cost per error",
-                  "help": "Exclude labor, refunds or other losses already included elsewhere."
+                  "help": "Loại trừ chi phí nhân công, tiền hoàn lại hoặc các tổn thất khác đã được tính ở nơi khác."
                 },
                 "probability_before": {
                   "label": "Monthly loss probability before",
-                  "help": "Your estimate, not a guaranteed risk assessment."
+                  "help": "Ước tính của bạn, không phải là đánh giá rủi ro được đảm bảo."
                 },
                 "probability_after": {
                   "label": "Monthly loss probability after",
-                  "help": "Use the same event and monthly time horizon as the baseline."
+                  "help": "Sử dụng cùng một sự kiện và khoảng thời gian hàng tháng làm đường cơ sở."
                 },
                 "loss": {
-                  "label": "Loss exposure for that event",
-                  "help": "Exclude error incidents and spending already counted. This is uncertain expected value, not cash saved."
+                  "label": "Khả năng mất mát cho sự kiện đó",
+                  "help": "Loại trừ các sự cố lỗi và chi tiêu đã được tính. Đây là giá trị kỳ vọng không chắc chắn, không phải tiền mặt tiết kiệm được."
                 },
                 "days_before": {
-                  "label": "Cycle time before, in days",
-                  "help": "Elapsed time from start to completion, separate from hands-on effort."
+                  "label": "Thời gian chu kỳ trước, tính bằng ngày",
+                  "help": "Thời gian trôi qua từ khi bắt đầu đến khi hoàn thành, tách biệt với nỗ lực thực hành."
                 },
                 "days_after": {
-                  "label": "Cycle time after, in days",
-                  "help": "Shown as an operational change only, without an assumed monetary value."
+                  "label": "Thời gian chu kỳ sau, tính bằng ngày",
+                  "help": "Chỉ được hiển thị dưới dạng thay đổi hoạt động, không có giá trị tiền tệ giả định."
                 }
               },
               "burden": [
@@ -490,7 +491,7 @@
               ],
               "opportunity": [
                 "More qualified, human-reviewed introductions",
-                "Time for agent conversations and client needs"
+                "Thời gian dành cho các cuộc trò chuyện của đại lý và nhu cầu của khách hàng"
               ],
               "usagePackages": {
                 "base": {
@@ -540,14 +541,14 @@
                 {
                   "id": "higher_value",
                   "label": "Keep agents on conversations",
-                  "help": "Enter only capacity that can be redirected to real agent or brokerage work; do not treat property value or commission as Nest revenue."
+                  "help": "Chỉ nhập năng lực có thể được chuyển hướng đến công việc đại lý hoặc môi giới thực sự; không coi giá trị tài sản hoặc tiền hoa hồng là doanh thu Nest."
                 }
               ],
               "tabs": [
                 {
                   "id": "funnel",
                   "label": "Introduction funnel",
-                  "intro": "Model leads entering the agent or brokerage desk, qualification, and human review.",
+                  "intro": "Mô hình dẫn vào đại lý hoặc bàn môi giới, trình độ chuyên môn và đánh giá con người.",
                   "fields": [
                     "volume",
                     "accepted_rate",
@@ -558,7 +559,7 @@
                 {
                   "id": "costs",
                   "label": "AI operating cost",
-                  "intro": "Keep model, token, tool, infrastructure, platform and reviewer costs separate from the proposed customer price.",
+                  "intro": "Giữ chi phí mô hình, mã thông báo, công cụ, cơ sở hạ tầng, nền tảng và người đánh giá tách biệt với giá khách hàng đề xuất.",
                   "fields": [
                     "tokens_per_output",
                     "model_cost",
@@ -572,7 +573,7 @@
                 {
                   "id": "capacity",
                   "label": "Capacity and evidence",
-                  "intro": "Returned capacity is not revenue. Financial results remain insufficient until a payer, price and delivery evidence are recorded.",
+                  "intro": "Công suất trả lại không phải là doanh thu. Kết quả tài chính vẫn không đủ cho đến khi người trả tiền, giá cả và bằng chứng giao hàng được ghi lại.",
                   "fields": [
                     "higher_value_hours",
                     "contribution_rate"
@@ -585,7 +586,7 @@
                 "basis": "fixed",
                 "annualPrice": 9000,
                 "label": "Proposed Nest monthly price",
-                "help": "A €750/month working hypothesis for a qualified-introduction pilot. Treat as unvalidated until an agent or brokerage pays."
+                "help": "Giả thuyết hoạt động trị giá €750/tháng dành cho một phi công giới thiệu đủ điều kiện. Hãy coi như không có giá trị cho đến khi một đại lý hoặc nhà môi giới thanh toán."
               },
               "presentation": {
                 "financial": "optional",
@@ -597,13 +598,14 @@
               "primaryLabel": "Talk with Nest",
               "primaryTarget": "meet",
               "secondaryLabel": "See how it works",
-              "privacyNote": "Your data stays private. Hours are capacity. Financial amounts are modeled estimates, not observed results.",
+              "privacyNote": "Dữ liệu của bạn vẫn ở chế độ riêng tư. Giờ là năng lực. Số tiền tài chính là ước tính được mô hình hóa, không phải kết quả được quan sát.",
               "secondaryTarget": "how-it-works"
             }
           }
         },
         {
           "id": "selling",
+          "profileModeId": "seller",
           "label": "Tôi đang bán hàng",
           "responseMessage": "Hãy cho tôi biết điều gì làm cho ngôi nhà trở nên khác biệt và người mua nào sẽ phù hợp nghiêm túc. Tôi sẽ giữ địa chỉ chính xác ở chế độ riêng tư và mang về một phần giới thiệu đã cân nhắc.",
           "composerPlaceholder": "Nói với Nest những gì quan trọng về việc bán hàng của bạn…",
@@ -701,7 +703,7 @@
             {
               "key": "privateConstraints",
               "label": "Ràng buộc riêng tư",
-              "placeholder": "Bất cứ điều gì tổ nên giữ kín",
+              "placeholder": "Mọi thứ Nest đều phải được giữ kín",
               "type": "textarea",
               "required": false
             }
@@ -711,23 +713,23 @@
             "enabled": true,
             "kicker": "Business impact",
             "heading": "ROI Calculator",
-            "subheading": "Model a licensed second-home agent or brokerage using Nest for qualified, human-reviewed introductions in one local market.",
-            "disclaimer": "A modeled operating scenario with zero validated paid demand. Nest qualifies and coordinates consented introductions; it does not represent parties, value property, negotiate, earn commissions or guarantee a transaction.",
+            "subheading": "Lập mô hình một đại lý hoặc nhà môi giới ngôi nhà thứ hai được cấp phép sử dụng Nest để giới thiệu đủ điều kiện, được con người đánh giá tại một thị trường địa phương.",
+            "disclaimer": "Một kịch bản vận hành được mô hình hóa không có nhu cầu thanh toán được xác thực. Nest xác định và điều phối việc giới thiệu đã được đồng ý; nó không đại diện cho các bên, định giá tài sản, thương lượng, kiếm tiền hoa hồng hoặc đảm bảo một giao dịch.",
             "currency": "EUR",
             "currencyCopy": {
               "native": "Amounts in {currency}.",
               "loading": "Checking the local currency. Amounts remain in {currency} until a rate is available.",
               "unavailable": "A current local exchange rate is unavailable. Amounts remain in {currency}.",
               "converted": "Amounts converted from {base} to {currency} using the reference rate dated {date}.",
-              "basis": "Currency conversion is not local cost research. Enter your own local costs and contribution assumptions. Language changes do not change amounts."
+              "basis": "Chuyển đổi tiền tệ không phải là nghiên cứu chi phí địa phương. Nhập chi phí địa phương của bạn và các giả định đóng góp. Thay đổi ngôn ngữ không thay đổi số lượng."
             },
             "costCopy": {
-              "breakdown": "How the all-in AI cost is built",
+              "breakdown": "Chi phí AI tổng thể được xây dựng như thế nào",
               "perUnit": "{amount} per work unit (average)",
-              "budgetOnly": "This is your total budget. Switch to Cost breakdown to itemize it; no split has been assumed.",
-              "benefitNotice": "Modeled benefits, not charges. Crossed-out amounts are spending you expect to avoid, not discounts on the AI bill.",
+              "budgetOnly": "Đây là tổng ngân sách của bạn. Chuyển sang Phân tích chi phí để chia thành từng khoản; không có sự phân chia nào được giả định.",
+              "benefitNotice": "Lợi ích được mô hình hóa, không phải phí. Số tiền bị gạch bỏ là khoản chi tiêu mà bạn mong muốn tránh, không phải khoản giảm giá trên hóa đơn AI.",
               "remainder": "Other included operating costs",
-              "allocation": "Returned hours are capacity, not automatic savings. Only the portions you assign to actual spending reductions or additional contribution receive a monetary value."
+              "allocation": "Số giờ trả về là công suất chứ không phải tiết kiệm tự động. Chỉ những phần bạn chỉ định cho việc cắt giảm chi tiêu thực tế hoặc đóng góp bổ sung mới nhận được giá trị bằng tiền."
             },
             "locale": "en-GB",
             "inputs": [],
@@ -753,10 +755,10 @@
                 "workloadStep": "Introduction funnel",
                 "costStep": "AI operating cost",
                 "valueStep": "Capacity and evidence",
-                "workloadIntro": "Model second-home leads, qualification and human review—not property sales, commissions or guaranteed matches.",
-                "costIntro": "Token, model, tool, infrastructure, platform and reviewer costs are delivery assumptions. Nest price is a separate unvalidated hypothesis.",
-                "valueIntro": "Capacity is not revenue. Enter observed contribution only after a real agent or brokerage uses and pays for the service.",
-                "sampleNotice": "Typical usage · not observed results",
+                "workloadIntro": "Lập mô hình khách hàng tiềm năng tại ngôi nhà thứ hai, trình độ chuyên môn và đánh giá con người—không phải việc bán bất động sản, hoa hồng hoặc các trận đấu được đảm bảo.",
+                "costIntro": "Chi phí mã thông báo, mô hình, công cụ, cơ sở hạ tầng, nền tảng và người đánh giá là các giả định phân phối. Giá Nest là một giả thuyết chưa được xác thực riêng biệt.",
+                "valueIntro": "Năng lực không phải là doanh thu. Chỉ nhập khoản đóng góp quan sát được sau khi đại lý hoặc nhà môi giới thực sự sử dụng và thanh toán cho dịch vụ.",
+                "sampleNotice": "Cách sử dụng điển hình · kết quả không được quan sát",
                 "monthly": "Monthly",
                 "yearly": "Yearly",
                 "next": "Continue",
@@ -781,11 +783,11 @@
                 "reviewMode": "Who handles the review?",
                 "teamReview": "Existing team",
                 "paidReview": "Additional paid reviewer",
-                "reviewNote": "Existing-team review uses returned capacity. Additional paid review is included in operating cost, not deducted again from team capacity.",
+                "reviewNote": "Đánh giá của nhóm hiện tại sử dụng năng lực được trả lại. Đánh giá trả phí bổ sung được bao gồm trong chi phí vận hành, không được khấu trừ lại vào năng lực của nhóm.",
                 "totalMode": "Monthly budget",
                 "itemizedMode": "Cost breakdown",
-                "budgetNote": "The budget must include models/media, tools, infrastructure, Gabriel fees and additional paid review. Do not include unchanged payroll as new spending.",
-                "itemizedNote": "Token usage is calculated from volume × tokens per output. Extra media, tools and infrastructure stay at zero unless they apply. Additional paid review is calculated from review hours and its rate.",
+                "budgetNote": "Ngân sách phải bao gồm các mô hình/phương tiện truyền thông, công cụ, cơ sở hạ tầng, phí Gabriel và đánh giá trả phí bổ sung. Không bao gồm bảng lương không thay đổi như chi tiêu mới.",
+                "itemizedNote": "Việc sử dụng mã thông báo được tính từ khối lượng × mã thông báo trên mỗi đầu ra. Phương tiện, công cụ và cơ sở hạ tầng bổ sung luôn ở mức 0 trừ khi chúng được áp dụng. Đánh giá trả phí bổ sung được tính từ số giờ đánh giá và tỷ lệ của nó.",
                 "paidReviewCost": "Additional paid review cost",
                 "allInCost": "Operating cost",
                 "missing": "Add your assumptions",
@@ -794,193 +796,193 @@
                 "expectedLoss": "Expected loss reduction",
                 "riskValue": "Uncertain risk value included",
                 "economicValue": "Modeled contribution",
-                "netBenefit": "Modeled benefit after Nest price",
+                "netBenefit": "Lợi ích được mô hình hóa sau mức giá Nest",
                 "multiple": "Internal delivery multiple",
                 "customerBenefit": "Modeled agent benefit",
                 "customerRoi": "Modeled customer ROI",
                 "payback": "Customer payback period",
                 "notApplicable": "Not applicable",
                 "annual": "Annual view",
-                "annualNote": "The same monthly assumptions, without growth or compounding. Hiring savings last only for the entered period.",
+                "annualNote": "Các giả định hàng tháng giống nhau, không có tăng trưởng hoặc gộp. Tiền tiết kiệm thuê chỉ kéo dài trong khoảng thời gian đã nhập.",
                 "method": "How this is calculated",
                 "burdenHeading": "Repetitive work reduced",
                 "opportunityHeading": "Capacity for higher-value work",
-                "methodBody": "Operating burden removed (negative productivity) returns capacity. Higher-value work (potential positive productivity) creates economic value only if that capacity is used. Hours alone are not cash savings. Token cost uses a modeled input/output mix, not a provider quote.",
-                "formulaLabel": "Qualified briefs = leads × qualification rate. Delivery cost includes modeled token, model, tool, infrastructure, platform and human-review cost. Customer ROI remains unavailable until benefit and price are supported by evidence.",
-                "allocationNote": "Each hour can be allocated once. Unallocated hours remain capacity, with no monetary value.",
-                "overlapLabel": "These benefits are distinct; I have excluded costs and losses already counted elsewhere.",
-                "overlapNote": "Error and risk estimates exclude labor savings and the same incident must not appear in both categories. Contribution excludes AI costs, which are deducted separately.",
-                "hiringLabel": "This hire was genuinely planned and the allocated capacity can cover the work.",
-                "reviewedLabel": "I have reviewed my outcomes; unselected outcomes have no financial value in this estimate.",
+                "methodBody": "Gánh nặng vận hành được loại bỏ (năng suất âm) sẽ trả lại năng suất. Công việc có giá trị cao hơn (năng suất tích cực tiềm năng) chỉ tạo ra giá trị kinh tế nếu năng lực đó được sử dụng. Chỉ tính giờ thôi thì không phải là tiết kiệm tiền mặt. Giá mã thông báo sử dụng kết hợp đầu vào/đầu ra được mô hình hóa, không phải báo giá của nhà cung cấp.",
+                "formulaLabel": "Tóm tắt chất lượng = khách hàng tiềm năng × tỷ lệ đủ tiêu chuẩn. Chi phí phân phối bao gồm mã thông báo được mô hình hóa, mô hình, công cụ, cơ sở hạ tầng, nền tảng và chi phí đánh giá của con người. ROI của khách hàng vẫn không có sẵn cho đến khi lợi ích và giá cả được chứng minh bằng bằng chứng.",
+                "allocationNote": "Mỗi giờ có thể được phân bổ một lần. Số giờ chưa được phân bổ vẫn là năng lực, không có giá trị tiền tệ.",
+                "overlapLabel": "Những lợi ích này là khác biệt; Tôi đã loại trừ chi phí và tổn thất đã được tính ở nơi khác.",
+                "overlapNote": "Ước tính sai sót và rủi ro không bao gồm tiết kiệm lao động và sự cố giống nhau không được xuất hiện ở cả hai loại. Khoản đóng góp không bao gồm chi phí AI, được khấu trừ riêng.",
+                "hiringLabel": "Việc thuê này đã được lên kế hoạch thực sự và năng lực được phân bổ có thể đáp ứng được công việc.",
+                "reviewedLabel": "Tôi đã xem lại kết quả của mình; kết quả không được chọn không có giá trị tài chính trong ước tính này.",
                 "cycleResult": "Cycle-time improvement",
-                "throughputResult": "Additional work supported by capacity and demand",
-                "assumptionsIncomplete": "Complete the selected assumptions to calculate financial value.",
-                "allocationError": "Allocated hours exceed the net capacity available. Reduce the allocations.",
-                "reviewError": "Review takes more time than the work reduced. No positive capacity is available at these assumptions.",
-                "cashError": "Avoided spending cannot exceed current spending or have positive value with no hours allocated.",
-                "hiringError": "Allocated capacity must cover the planned hire hours. Confirm the planned hire and its duration.",
-                "riskError": "The after probability cannot exceed the before probability for a loss-reduction estimate.",
-                "overlapError": "Confirm the benefits do not overlap before including them in the financial result.",
-                "boundsError": "Use values within the displayed limits.",
+                "throughputResult": "Công việc bổ sung được hỗ trợ theo năng lực và nhu cầu",
+                "assumptionsIncomplete": "Hoàn thành các giả định đã chọn để tính giá trị tài chính.",
+                "allocationError": "Số giờ được phân bổ vượt quá công suất thực hiện có. Giảm phân bổ.",
+                "reviewError": "Việc xem xét mất nhiều thời gian hơn công việc giảm bớt. Không có khả năng tích cực có sẵn tại các giả định này.",
+                "cashError": "Chi tiêu tránh được không được vượt quá chi tiêu hiện tại hoặc có giá trị dương khi không phân bổ số giờ.",
+                "hiringError": "Công suất được phân bổ phải bao gồm số giờ thuê theo kế hoạch. Xác nhận việc thuê theo kế hoạch và thời hạn của nó.",
+                "riskError": "Xác suất sau không thể vượt quá xác suất trước để ước tính mức giảm tổn thất.",
+                "overlapError": "Xác nhận các lợi ích không trùng lặp trước khi đưa chúng vào kết quả tài chính.",
+                "boundsError": "Sử dụng các giá trị trong giới hạn được hiển thị.",
                 "rangeLabel": "Adjust value",
-                "noCurrencyChange": "Language changes formatting, not your currency or assumptions.",
+                "noCurrencyChange": "Ngôn ngữ thay đổi định dạng, không phải đơn vị tiền tệ hoặc giả định của bạn.",
                 "currentPreparation": "Giờ chuẩn bị hiện tại",
-                "reviewHours": "Giờ xem xét của con người",
-                "reworkHours": "Giờ làm lại được tránh hoặc thêm vào",
-                "capacityValue": "Giá trị năng lực mô hình hóa",
-                "acceptedUnits": "Đơn vị đã chấp nhận",
-                "attendedUnits": "Đơn vị đã phục vụ",
-                "costPerAttended": "Chi phí trên mỗi đơn vị đã phục vụ",
-                "benefitCost": "Bội số lợi ích - chi phí",
+                "reviewHours": "Giờ đánh giá con người",
+                "reworkHours": "Đã tránh hoặc thêm giờ làm lại",
+                "capacityValue": "Giá trị công suất mô hình",
+                "acceptedUnits": "Đơn vị được chấp nhận",
+                "attendedUnits": "Đơn vị tham dự",
+                "costPerAttended": "Chi phí cho mỗi đơn vị tham dự",
+                "benefitCost": "Hệ số lợi ích-chi phí",
                 "firstYearCost": "Chi phí năm đầu tiên",
                 "firstYearRoi": "ROI năm đầu tiên",
-                "paybackOutsideTerm": "Không được thu hồi trong thời hạn mô hình hóa",
+                "paybackOutsideTerm": "Không được phục hồi trong thời hạn được mô hình hóa",
                 "months": "months"
               },
               "fields": {
                 "volume": {
-                  "label": "Leads or briefs entering the desk each month",
-                  "help": "Count inbound second-home enquiries in the selected market, not property transactions."
+                  "label": "Khách hàng tiềm năng hoặc tóm tắt vào bàn làm việc mỗi tháng",
+                  "help": "Tính các yêu cầu về ngôi nhà thứ hai trong thị trường đã chọn, không phải các giao dịch tài sản."
                 },
                 "accepted_rate": {
                   "label": "Share becoming qualified briefs",
-                  "help": "A modeled qualification rate. Replace it with observed funnel data after a pilot."
+                  "help": "Một tỷ lệ trình độ chuyên môn được mô hình hóa. Thay thế nó bằng dữ liệu kênh được quan sát sau khi thử nghiệm."
                 },
                 "attendance_rate": {
                   "label": "Expected attendance rate",
-                  "help": "Modeled share of accepted meetings expected to happen. Replace this with verified event records after a pilot."
+                  "help": "Chia sẻ theo mô hình các cuộc họp được chấp nhận dự kiến sẽ diễn ra. Thay thế điều này bằng các bản ghi sự kiện đã được xác minh sau khi thí điểm."
                 },
                 "minutes": {
-                  "label": "Minutes to qualify one seller brief today",
-                  "help": "Active intake and qualification time, excluding elapsed days and property-search time."
+                  "label": "Biên bản để đủ điều kiện tóm tắt một người bán ngày hôm nay",
+                  "help": "Thời gian tiếp nhận và đánh giá tích cực, không bao gồm những ngày đã trôi qua và thời gian tìm kiếm tài sản."
                 },
                 "automation": {
-                  "label": "Share of that work reduced",
-                  "help": "An illustrative assumption to validate in a pilot, not a performance promise."
+                  "label": "Chia sẻ công việc đó giảm",
+                  "help": "Một giả định minh họa để xác nhận trong một chương trình thí điểm, không phải là một lời hứa về hiệu suất."
                 },
                 "review": {
-                  "label": "Minutes a reviewer spends confirming each brief",
-                  "help": "Human review still required before either side sees a proposal."
+                  "label": "Số phút người đánh giá dành để xác nhận từng bản tóm tắt",
+                  "help": "Sự đánh giá của con người vẫn cần thiết trước khi một trong hai bên nhìn thấy đề xuất."
                 },
                 "cycles_per_unit": {
-                  "label": "Cycles per unit each month",
-                  "help": "How many recurring order, review or processing cycles each unit runs in a typical month."
+                  "label": "Chu kỳ trên mỗi đơn vị mỗi tháng",
+                  "help": "Mỗi đơn vị thực hiện bao nhiêu chu kỳ đặt hàng, xem xét hoặc xử lý định kỳ trong một tháng thông thường."
                 },
                 "tokens_per_output": {
-                  "label": "Tokens per qualified seller brief",
-                  "help": "Modeled input and output tokens for one reviewable brief; provider usage must replace this hypothesis."
+                  "label": "Mã thông báo cho mỗi bản tóm tắt người bán đủ điều kiện",
+                  "help": "Mã thông báo đầu vào và đầu ra được mô hình hóa cho một bản tóm tắt có thể xem lại; việc sử dụng nhà cung cấp phải thay thế giả thuyết này."
                 },
                 "budget": {
                   "label": "Estimated monthly operating budget",
-                  "help": "Include token usage, models/media, tools, infrastructure, Gabriel fees and additional paid review."
+                  "help": "Bao gồm việc sử dụng mã thông báo, mô hình/phương tiện, công cụ, cơ sở hạ tầng, phí Gabriel và đánh giá trả phí bổ sung."
                 },
                 "model_cost": {
-                  "label": "Additional model or media cost",
-                  "help": "Enter separately billed models or media. Leave zero when included in the token envelope."
+                  "label": "Chi phí mô hình hoặc phương tiện bổ sung",
+                  "help": "Nhập các mẫu hoặc phương tiện được thanh toán riêng. Để lại số 0 khi được bao gồm trong phong bì mã thông báo."
                 },
                 "tools_cost": {
                   "label": "Tools and integrations",
-                  "help": "Browser sessions, connectors and other metered services. Enter zero if none."
+                  "help": "Phiên trình duyệt, trình kết nối và các dịch vụ đo lường khác. Nhập số 0 nếu không có."
                 },
                 "infrastructure_cost": {
                   "label": "Infrastructure",
-                  "help": "Incremental hosting, storage and compute for this workload. Enter zero if none."
+                  "help": "Lưu trữ, lưu trữ và tính toán gia tăng cho khối lượng công việc này. Nhập số 0 nếu không có."
                 },
                 "platform_cost": {
-                  "label": "Other delivery and support cost",
-                  "help": "Modeled hosting, storage, monitoring and support cost, separate from the customer price."
+                  "label": "Chi phí vận chuyển và hỗ trợ khác",
+                  "help": "Chi phí lưu trữ, lưu trữ, giám sát và hỗ trợ theo mô hình, tách biệt với giá của khách hàng."
                 },
                 "customer_price": {
                   "label": "Proposed monthly Nest price",
-                  "help": "Editable agent/brokerage pricing hypothesis. It is not validated revenue and must be tested in a paid pilot."
+                  "help": "Giả thuyết định giá đại lý/môi giới có thể chỉnh sửa. Đây không phải là doanh thu được xác thực và phải được thử nghiệm trong chương trình thí điểm trả phí."
                 },
                 "personal_value_per_hour": {
-                  "label": "Optional value you assign to an hour",
-                  "help": "An optional personal comparison only. This is not salary, wages or guaranteed cash savings."
+                  "label": "Giá trị tùy chọn bạn chỉ định cho một giờ",
+                  "help": "Chỉ có một so sánh cá nhân tùy chọn. Đây không phải là tiền lương, tiền công hoặc tiền tiết kiệm được đảm bảo."
                 },
                 "review_rate": {
-                  "label": "Additional paid review per hour",
-                  "help": "Actual extra reviewer spending, not the salary of an unchanged employee."
+                  "label": "Đánh giá trả phí bổ sung mỗi giờ",
+                  "help": "Thực tế chi tiêu thêm của người đánh giá chứ không phải tiền lương của một nhân viên không thay đổi."
                 },
                 "cash_hours": {
-                  "label": "Hours that remove paid work",
-                  "help": "Allocate only work whose overtime, contractor or processing spend will actually stop."
+                  "label": "Số giờ loại bỏ công việc được trả lương",
+                  "help": "Chỉ phân bổ công việc mà chi phí làm thêm giờ, nhà thầu hoặc xử lý sẽ thực sự dừng lại."
                 },
                 "cash_baseline": {
-                  "label": "Current monthly spending on that work",
-                  "help": "The cash budget from which the reduction will come."
+                  "label": "Chi tiêu hàng tháng hiện tại cho công việc đó",
+                  "help": "Ngân sách tiền mặt mà từ đó sẽ có sự cắt giảm."
                 },
                 "cash_avoided": {
-                  "label": "Monthly spending you would stop",
-                  "help": "One explicit amount, not hours multiplied by salary; exclude any planned-hire saving entered separately."
+                  "label": "Chi tiêu hàng tháng bạn sẽ dừng lại",
+                  "help": "Một số tiền rõ ràng, không phải số giờ nhân với tiền lương; loại trừ bất kỳ khoản tiết kiệm thuê theo kế hoạch nào được nhập riêng."
                 },
                 "higher_value_hours": {
-                  "label": "Hours agents can use for real conversations",
-                  "help": "Only capacity with observed demand receives an economic value."
+                  "label": "Số giờ đại lý có thể sử dụng cho các cuộc trò chuyện thực sự",
+                  "help": "Chỉ có năng lực với nhu cầu được quan sát mới nhận được giá trị kinh tế."
                 },
                 "contribution_rate": {
-                  "label": "Incremental contribution per agent hour",
-                  "help": "Contribution from additional work, excluding property value, commissions and costs already counted."
+                  "label": "Đóng góp gia tăng mỗi giờ đại lý",
+                  "help": "Đóng góp từ công việc bổ sung, không bao gồm giá trị tài sản, hoa hồng và chi phí đã được tính."
                 },
                 "throughput_hours": {
-                  "label": "Hours used for additional volume",
-                  "help": "This allocation cannot also be used for advisory work or spending reductions."
+                  "label": "Số giờ sử dụng cho khối lượng bổ sung",
+                  "help": "Việc phân bổ này cũng không thể được sử dụng cho công việc tư vấn hoặc cắt giảm chi tiêu."
                 },
                 "extra_minutes": {
-                  "label": "Team minutes per additional unit",
-                  "help": "The remaining human effort, including review, needed to deliver one more unit."
+                  "label": "Số phút nhóm cho mỗi đơn vị bổ sung",
+                  "help": "Nỗ lực còn lại của con người, bao gồm cả việc xem xét, cần thiết để cung cấp thêm một đơn vị nữa."
                 },
                 "demand": {
-                  "label": "Additional units with expected demand",
-                  "help": "Capacity alone is not demand. Enter the extra monthly work you expect to take on."
+                  "label": "Các đơn vị bổ sung có nhu cầu dự kiến",
+                  "help": "Chỉ riêng năng lực không phải là nhu cầu. Nhập công việc làm thêm hàng tháng mà bạn mong muốn đảm nhận."
                 },
                 "unit_margin": {
                   "label": "Contribution per additional unit",
-                  "help": "Incremental revenue less delivery costs; AI operating costs are deducted separately."
+                  "help": "Doanh thu tăng thêm ít chi phí giao hàng; Chi phí vận hành AI được khấu trừ riêng."
                 },
                 "hiring_hours": {
-                  "label": "Hours covering the planned hire",
-                  "help": "Allocate capacity to specific planned work, not a generic full-time-equivalent estimate."
+                  "label": "Số giờ bao gồm việc thuê theo kế hoạch",
+                  "help": "Phân bổ năng lực cho công việc đã được lên kế hoạch cụ thể, không phải ước tính chung về thời gian tương đương."
                 },
                 "planned_hours": {
-                  "label": "Monthly hours the planned hire would cover",
-                  "help": "The allocated capacity must cover this entire workload."
+                  "label": "Số giờ thuê hàng tháng theo kế hoạch sẽ bao gồm",
+                  "help": "Năng lực được phân bổ phải đáp ứng toàn bộ khối lượng công việc này."
                 },
                 "hire_cost": {
-                  "label": "Monthly hire cost actually deferred",
-                  "help": "Use the cost of a genuinely planned hire, not the salary of someone already employed."
+                  "label": "Chi phí thuê hàng tháng thực tế được hoãn lại",
+                  "help": "Sử dụng chi phí thuê nhân công đã được lên kế hoạch thực sự chứ không phải tiền lương của người đã được tuyển dụng."
                 },
                 "hire_months": {
-                  "label": "Months that hire is deferred",
-                  "help": "One to twelve months; the annual estimate stops counting savings after this period."
+                  "label": "Số tháng thuê được hoãn lại",
+                  "help": "Một đến mười hai tháng; ước tính hàng năm ngừng tính số tiền tiết kiệm sau khoảng thời gian này."
                 },
                 "incidents": {
-                  "label": "Expected avoided errors per month",
-                  "help": "Use your baseline and expected reduction. Exclude incidents also counted as risk reduction."
+                  "label": "Các lỗi dự kiến tránh được mỗi tháng",
+                  "help": "Sử dụng mức cơ bản và mức giảm dự kiến của bạn. Loại trừ sự cố cũng được tính là giảm rủi ro."
                 },
                 "incident_cost": {
                   "label": "Incremental cost per error",
-                  "help": "Exclude labor, refunds or other losses already included elsewhere."
+                  "help": "Loại trừ chi phí nhân công, tiền hoàn lại hoặc các tổn thất khác đã được tính ở nơi khác."
                 },
                 "probability_before": {
                   "label": "Monthly loss probability before",
-                  "help": "Your estimate, not a guaranteed risk assessment."
+                  "help": "Ước tính của bạn, không phải là đánh giá rủi ro được đảm bảo."
                 },
                 "probability_after": {
                   "label": "Monthly loss probability after",
-                  "help": "Use the same event and monthly time horizon as the baseline."
+                  "help": "Sử dụng cùng một sự kiện và khoảng thời gian hàng tháng làm đường cơ sở."
                 },
                 "loss": {
-                  "label": "Loss exposure for that event",
-                  "help": "Exclude error incidents and spending already counted. This is uncertain expected value, not cash saved."
+                  "label": "Khả năng mất mát cho sự kiện đó",
+                  "help": "Loại trừ các sự cố lỗi và chi tiêu đã được tính. Đây là giá trị kỳ vọng không chắc chắn, không phải tiền mặt tiết kiệm được."
                 },
                 "days_before": {
-                  "label": "Cycle time before, in days",
-                  "help": "Elapsed time from start to completion, separate from hands-on effort."
+                  "label": "Thời gian chu kỳ trước, tính bằng ngày",
+                  "help": "Thời gian trôi qua từ khi bắt đầu đến khi hoàn thành, tách biệt với nỗ lực thực hành."
                 },
                 "days_after": {
-                  "label": "Cycle time after, in days",
-                  "help": "Shown as an operational change only, without an assumed monetary value."
+                  "label": "Thời gian chu kỳ sau, tính bằng ngày",
+                  "help": "Chỉ được hiển thị dưới dạng thay đổi hoạt động, không có giá trị tiền tệ giả định."
                 }
               },
               "burden": [
@@ -989,7 +991,7 @@
               ],
               "opportunity": [
                 "More qualified, human-reviewed introductions",
-                "Time for agent conversations and client needs"
+                "Thời gian dành cho các cuộc trò chuyện của đại lý và nhu cầu của khách hàng"
               ],
               "usagePackages": {
                 "base": {
@@ -1039,14 +1041,19 @@
                 {
                   "id": "higher_value",
                   "label": "Keep agents on conversations",
-                  "help": "Enter only capacity that can be redirected to real agent or brokerage work; do not treat property value or commission as Nest revenue."
+                  "help": "Chỉ nhập năng lực có thể được chuyển hướng đến công việc đại lý hoặc môi giới thực sự; không coi giá trị tài sản hoặc tiền hoa hồng là doanh thu Nest."
+                },
+                {
+                  "id": "cash",
+                  "label": "Giảm hỗ trợ tiếp nhận có trả phí",
+                  "help": "Giảm thời gian làm thêm hoặc chi tiêu của nhà thầu cho việc tiếp nhận thông tin tóm tắt thủ công của người bán — mức lương không thay đổi."
                 }
               ],
               "tabs": [
                 {
                   "id": "funnel",
                   "label": "Introduction funnel",
-                  "intro": "Model leads entering the agent or brokerage desk, qualification, and human review.",
+                  "intro": "Mô hình dẫn vào đại lý hoặc bàn môi giới, trình độ chuyên môn và đánh giá con người.",
                   "fields": [
                     "volume",
                     "accepted_rate",
@@ -1057,7 +1064,7 @@
                 {
                   "id": "costs",
                   "label": "AI operating cost",
-                  "intro": "Keep model, token, tool, infrastructure, platform and reviewer costs separate from the proposed customer price.",
+                  "intro": "Giữ chi phí mô hình, mã thông báo, công cụ, cơ sở hạ tầng, nền tảng và người đánh giá tách biệt với giá khách hàng đề xuất.",
                   "fields": [
                     "tokens_per_output",
                     "model_cost",
@@ -1071,7 +1078,7 @@
                 {
                   "id": "capacity",
                   "label": "Capacity and evidence",
-                  "intro": "Returned capacity is not revenue. Financial results remain insufficient until a payer, price and delivery evidence are recorded.",
+                  "intro": "Công suất trả lại không phải là doanh thu. Kết quả tài chính vẫn không đủ cho đến khi người trả tiền, giá cả và bằng chứng giao hàng được ghi lại.",
                   "fields": [
                     "higher_value_hours",
                     "contribution_rate"
@@ -1084,7 +1091,7 @@
                 "basis": "fixed",
                 "annualPrice": 9000,
                 "label": "Proposed Nest monthly price",
-                "help": "A €750/month working hypothesis for a qualified-introduction pilot. Treat as unvalidated until an agent or brokerage pays."
+                "help": "Giả thuyết hoạt động trị giá €750/tháng dành cho một phi công giới thiệu đủ điều kiện. Hãy coi như không có giá trị cho đến khi một đại lý hoặc nhà môi giới thanh toán."
               },
               "presentation": {
                 "financial": "optional",
@@ -1096,7 +1103,7 @@
               "primaryLabel": "Talk with Nest",
               "primaryTarget": "meet",
               "secondaryLabel": "See how it works",
-              "privacyNote": "Your data stays private. Hours are capacity. Financial amounts are modeled estimates, not observed results.",
+              "privacyNote": "Dữ liệu của bạn vẫn ở chế độ riêng tư. Giờ là năng lực. Số tiền tài chính là ước tính được mô hình hóa, không phải kết quả được quan sát.",
               "secondaryTarget": "how-it-works"
             }
           }
@@ -1113,7 +1120,7 @@
         "backgroundImage": "/landing-pages/nest/nest-hero-interior-clean.png",
         "backgroundAlt": "Nội thất ấm cúng, ấm cúng",
         "primaryCtaLabel": "Talk with Nest",
-        "secondaryCtaLabel": "yêu cầu giới thiệu",
+        "secondaryCtaLabel": "Gặp Nest",
         "privacyLine": "một trận đấu tại một thời điểm. con người được xem xét. Riêng tư cho đến khi cả hai bên chọn tham gia.",
         "characterImage": "/landing-pages/nest/nest-character-meet-compact-high-wings-transparent.png",
         "characterAlt": "Nest cầm một cuốn sổ và chìa khóa có cánh nhỏ gọn",
@@ -1132,13 +1139,13 @@
           "introBody": "Chỉ chia sẻ những gì một người đánh giá con người cần. Địa chỉ chính xác và chi tiết liên hệ không bao giờ được yêu cầu ở đây.",
           "chatLabel": "xây dựng bằng cách trò chuyện · 10 lượt",
           "voiceLabel": "Xây dựng bằng giọng nói · 5 phút",
-          "reviewLabel": "Đánh giá ngắn gọn",
+          "reviewLabel": "Đánh giá tóm tắt",
           "editLabel": "Chỉnh sửa",
           "reviewHeading": "Xem lại bản tóm tắt riêng tư của bạn",
           "reviewBody": "Không có gì được duy trì, tìm kiếm, đề xuất hoặc chia sẻ trong khi bạn ẩn danh.",
           "submitLabel": "Đăng nhập để đánh giá con người",
           "loginNotice": "Đăng nhập để chuyển bản tóm tắt nhà riêng này vào không gian làm việc Nest của bạn để được xác thực đánh giá con người.",
-          "expiryCopy": "Tóm tắt chưa gửi hết hạn sau một giờ.",
+          "expiryCopy": "Bản tóm tắt chưa được gửi sẽ hết hạn sau một giờ.",
           "privacyCopy": "Không tìm kiếm người tham gia, chia sẻ địa chỉ chính xác hoặc tiết lộ liên hệ khi ẩn danh.",
           "errorCopy": "Nest không thể lưu bản tóm tắt này. Vui lòng thử lại hoặc đăng nhập."
         }
@@ -1196,7 +1203,7 @@
       "proposals": {
         "kicker": "Một đề xuất trông như thế nào",
         "heading": "hai mặt. một được coi là phù hợp.",
-        "body": "Những thẻ ví dụ này cho thấy hình dạng của một đề xuất tổ. Họ không bao giờ tiết lộ danh tính hoặc địa chỉ chính xác trước khi có sự đồng ý của cả hai.",
+        "body": "Các thẻ ví dụ này hiển thị hình dạng của đề xuất Nest. Họ không bao giờ tiết lộ danh tính hoặc địa chỉ chính xác trước khi có sự đồng ý của cả hai bên.",
         "cards": [
           {
             "pairing": "Người mua × Tài sản",
@@ -1233,11 +1240,11 @@
         ]
       },
       "meet": {
-        "kicker": "yêu cầu giới thiệu",
+        "kicker": "Gặp Nest",
         "heading": "thông báo chi tiết trong góc của bạn.",
         "body": "Nest lắng nghe ngoài những điều rõ ràng: ánh sáng ban mai bạn yêu thích, thời gian bạn không thể di chuyển, một thỏa hiệp không thực sự là một sự thỏa hiệp. Sau đó, Nest mang về một cái được coi là phù hợp.",
         "characterImage": "/landing-pages/nest/nest-character-meet-compact-high-wings-transparent.png",
-        "characterAlt": "Gặp tổ, cầm một cuốn sổ và chìa khóa có đôi cánh nhỏ gọn phía sau vai trên",
+        "characterAlt": "Gặp Nest, tay cầm sổ và chìa khóa có cánh nhỏ giơ lên sau vai trên",
         "principles": [
           {
             "title": "nghe trước",
@@ -1256,10 +1263,10 @@
         "secondaryCtaLabel": "See how it works"
       },
       "footer": {
-        "brandLabel": "tổ.",
+        "brandLabel": "Nest.",
         "tagline": "Một giới thiệu nhà cẩn thận tại một thời điểm.",
         "disclaimer": "Nest không phải là một công ty môi giới được cấp phép và không đại diện cho một trong hai bên, thương lượng, định giá nhà của bạn hoặc xử lý giao dịch của bạn. Khi bạn sẵn sàng tiếp tục, chúng tôi kết nối bạn với một đại lý địa phương được cấp phép để hoàn tất quy trình. Not a broker. Does not represent either party. Does not provide valuations. Does not negotiate.",
-        "eventDisclaimer": "Chi tiết Hội chợ Nhà thứ hai được mô hình hóa cho việc khởi tạo tổ này và cần được xác minh trước khi tham dự.",
+        "eventDisclaimer": "Thông tin chi tiết về Hội chợ tại nhà thứ hai được lập mô hình cho việc khởi tạo Nest này và phải được xác minh trước khi tham dự.",
         "copyright": "© 2026 Nest",
         "groups": [
           {
@@ -1280,14 +1287,14 @@
             ]
           },
           {
-            "label": "tổ",
+            "label": "Nest",
             "links": [
               {
-                "label": "yêu cầu giới thiệu",
+                "label": "Gặp Nest",
                 "target": "meet"
               },
               {
-                "label": "xây dựng một bản tóm tắt",
+                "label": "Xây dựng một bản tóm tắt",
                 "target": "hero-chat"
               }
             ]
@@ -1300,23 +1307,23 @@
       "enabled": true,
       "kicker": "Business impact",
       "heading": "ROI Calculator",
-      "subheading": "Model a licensed second-home agent or brokerage using Nest for qualified, human-reviewed introductions in one local market.",
-      "disclaimer": "A modeled operating scenario with zero validated paid demand. Nest qualifies and coordinates consented introductions; it does not represent parties, value property, negotiate, earn commissions or guarantee a transaction.",
+      "subheading": "Lập mô hình một đại lý hoặc nhà môi giới ngôi nhà thứ hai được cấp phép sử dụng Nest để giới thiệu đủ điều kiện, được con người đánh giá tại một thị trường địa phương.",
+      "disclaimer": "Một kịch bản vận hành được mô hình hóa không có nhu cầu thanh toán được xác thực. Nest xác định và điều phối việc giới thiệu đã được đồng ý; nó không đại diện cho các bên, định giá tài sản, thương lượng, kiếm tiền hoa hồng hoặc đảm bảo một giao dịch.",
       "currency": "EUR",
       "currencyCopy": {
         "native": "Amounts in {currency}.",
         "loading": "Checking the local currency. Amounts remain in {currency} until a rate is available.",
         "unavailable": "A current local exchange rate is unavailable. Amounts remain in {currency}.",
         "converted": "Amounts converted from {base} to {currency} using the reference rate dated {date}.",
-        "basis": "Currency conversion is not local cost research. Enter your own local costs and contribution assumptions. Language changes do not change amounts."
+        "basis": "Chuyển đổi tiền tệ không phải là nghiên cứu chi phí địa phương. Nhập chi phí địa phương của bạn và các giả định đóng góp. Thay đổi ngôn ngữ không thay đổi số lượng."
       },
       "costCopy": {
-        "breakdown": "How the all-in AI cost is built",
+        "breakdown": "Chi phí AI tổng thể được xây dựng như thế nào",
         "perUnit": "{amount} per work unit (average)",
-        "budgetOnly": "This is your total budget. Switch to Cost breakdown to itemize it; no split has been assumed.",
-        "benefitNotice": "Modeled benefits, not charges. Crossed-out amounts are spending you expect to avoid, not discounts on the AI bill.",
+        "budgetOnly": "Đây là tổng ngân sách của bạn. Chuyển sang Phân tích chi phí để chia thành từng khoản; không có sự phân chia nào được giả định.",
+        "benefitNotice": "Lợi ích được mô hình hóa, không phải phí. Số tiền bị gạch bỏ là khoản chi tiêu mà bạn mong muốn tránh, không phải khoản giảm giá trên hóa đơn AI.",
         "remainder": "Other included operating costs",
-        "allocation": "Returned hours are capacity, not automatic savings. Only the portions you assign to actual spending reductions or additional contribution receive a monetary value."
+        "allocation": "Số giờ trả về là công suất chứ không phải tiết kiệm tự động. Chỉ những phần bạn chỉ định cho việc cắt giảm chi tiêu thực tế hoặc đóng góp bổ sung mới nhận được giá trị bằng tiền."
       },
       "locale": "en-GB",
       "inputs": [],
@@ -1342,10 +1349,10 @@
           "workloadStep": "Introduction funnel",
           "costStep": "AI operating cost",
           "valueStep": "Capacity and evidence",
-          "workloadIntro": "Model second-home leads, qualification and human review—not property sales, commissions or guaranteed matches.",
-          "costIntro": "Token, model, tool, infrastructure, platform and reviewer costs are delivery assumptions. Nest price is a separate unvalidated hypothesis.",
-          "valueIntro": "Capacity is not revenue. Enter observed contribution only after a real agent or brokerage uses and pays for the service.",
-          "sampleNotice": "Typical usage · not observed results",
+          "workloadIntro": "Lập mô hình khách hàng tiềm năng tại ngôi nhà thứ hai, trình độ chuyên môn và đánh giá con người—không phải việc bán bất động sản, hoa hồng hoặc các trận đấu được đảm bảo.",
+          "costIntro": "Chi phí mã thông báo, mô hình, công cụ, cơ sở hạ tầng, nền tảng và người đánh giá là các giả định phân phối. Giá Nest là một giả thuyết chưa được xác thực riêng biệt.",
+          "valueIntro": "Năng lực không phải là doanh thu. Chỉ nhập khoản đóng góp quan sát được sau khi đại lý hoặc nhà môi giới thực sự sử dụng và thanh toán cho dịch vụ.",
+          "sampleNotice": "Cách sử dụng điển hình · kết quả không được quan sát",
           "monthly": "Monthly",
           "yearly": "Yearly",
           "next": "Continue",
@@ -1370,11 +1377,11 @@
           "reviewMode": "Who handles the review?",
           "teamReview": "Existing team",
           "paidReview": "Additional paid reviewer",
-          "reviewNote": "Existing-team review uses returned capacity. Additional paid review is included in operating cost, not deducted again from team capacity.",
+          "reviewNote": "Đánh giá của nhóm hiện tại sử dụng năng lực được trả lại. Đánh giá trả phí bổ sung được bao gồm trong chi phí vận hành, không được khấu trừ lại vào năng lực của nhóm.",
           "totalMode": "Monthly budget",
           "itemizedMode": "Cost breakdown",
-          "budgetNote": "The budget must include models/media, tools, infrastructure, Gabriel fees and additional paid review. Do not include unchanged payroll as new spending.",
-          "itemizedNote": "Token usage is calculated from volume × tokens per output. Extra media, tools and infrastructure stay at zero unless they apply. Additional paid review is calculated from review hours and its rate.",
+          "budgetNote": "Ngân sách phải bao gồm các mô hình/phương tiện truyền thông, công cụ, cơ sở hạ tầng, phí Gabriel và đánh giá trả phí bổ sung. Không bao gồm bảng lương không thay đổi như chi tiêu mới.",
+          "itemizedNote": "Việc sử dụng mã thông báo được tính từ khối lượng × mã thông báo trên mỗi đầu ra. Phương tiện, công cụ và cơ sở hạ tầng bổ sung luôn ở mức 0 trừ khi chúng được áp dụng. Đánh giá trả phí bổ sung được tính từ số giờ đánh giá và tỷ lệ của nó.",
           "paidReviewCost": "Additional paid review cost",
           "allInCost": "Operating cost",
           "missing": "Add your assumptions",
@@ -1383,193 +1390,193 @@
           "expectedLoss": "Expected loss reduction",
           "riskValue": "Uncertain risk value included",
           "economicValue": "Modeled contribution",
-          "netBenefit": "Modeled benefit after Nest price",
+          "netBenefit": "Lợi ích được mô hình hóa sau mức giá Nest",
           "multiple": "Internal delivery multiple",
           "customerBenefit": "Modeled agent benefit",
           "customerRoi": "Modeled customer ROI",
           "payback": "Customer payback period",
           "notApplicable": "Not applicable",
           "annual": "Annual view",
-          "annualNote": "The same monthly assumptions, without growth or compounding. Hiring savings last only for the entered period.",
+          "annualNote": "Các giả định hàng tháng giống nhau, không có tăng trưởng hoặc gộp. Tiền tiết kiệm thuê chỉ kéo dài trong khoảng thời gian đã nhập.",
           "method": "How this is calculated",
           "burdenHeading": "Repetitive work reduced",
           "opportunityHeading": "Capacity for higher-value work",
-          "methodBody": "Operating burden removed (negative productivity) returns capacity. Higher-value work (potential positive productivity) creates economic value only if that capacity is used. Hours alone are not cash savings. Token cost uses a modeled input/output mix, not a provider quote.",
-          "formulaLabel": "Qualified briefs = leads × qualification rate. Delivery cost includes modeled token, model, tool, infrastructure, platform and human-review cost. Customer ROI remains unavailable until benefit and price are supported by evidence.",
-          "allocationNote": "Each hour can be allocated once. Unallocated hours remain capacity, with no monetary value.",
-          "overlapLabel": "These benefits are distinct; I have excluded costs and losses already counted elsewhere.",
-          "overlapNote": "Error and risk estimates exclude labor savings and the same incident must not appear in both categories. Contribution excludes AI costs, which are deducted separately.",
-          "hiringLabel": "This hire was genuinely planned and the allocated capacity can cover the work.",
-          "reviewedLabel": "I have reviewed my outcomes; unselected outcomes have no financial value in this estimate.",
+          "methodBody": "Gánh nặng vận hành được loại bỏ (năng suất âm) sẽ trả lại năng suất. Công việc có giá trị cao hơn (năng suất tích cực tiềm năng) chỉ tạo ra giá trị kinh tế nếu năng lực đó được sử dụng. Chỉ tính giờ thôi thì không phải là tiết kiệm tiền mặt. Giá mã thông báo sử dụng kết hợp đầu vào/đầu ra được mô hình hóa, không phải báo giá của nhà cung cấp.",
+          "formulaLabel": "Tóm tắt chất lượng = khách hàng tiềm năng × tỷ lệ đủ tiêu chuẩn. Chi phí phân phối bao gồm mã thông báo được mô hình hóa, mô hình, công cụ, cơ sở hạ tầng, nền tảng và chi phí đánh giá của con người. ROI của khách hàng vẫn không có sẵn cho đến khi lợi ích và giá cả được chứng minh bằng bằng chứng.",
+          "allocationNote": "Mỗi giờ có thể được phân bổ một lần. Số giờ chưa được phân bổ vẫn là năng lực, không có giá trị tiền tệ.",
+          "overlapLabel": "Những lợi ích này là khác biệt; Tôi đã loại trừ chi phí và tổn thất đã được tính ở nơi khác.",
+          "overlapNote": "Ước tính sai sót và rủi ro không bao gồm tiết kiệm lao động và sự cố giống nhau không được xuất hiện ở cả hai loại. Khoản đóng góp không bao gồm chi phí AI, được khấu trừ riêng.",
+          "hiringLabel": "Việc thuê này đã được lên kế hoạch thực sự và năng lực được phân bổ có thể đáp ứng được công việc.",
+          "reviewedLabel": "Tôi đã xem lại kết quả của mình; kết quả không được chọn không có giá trị tài chính trong ước tính này.",
           "cycleResult": "Cycle-time improvement",
-          "throughputResult": "Additional work supported by capacity and demand",
-          "assumptionsIncomplete": "Complete the selected assumptions to calculate financial value.",
-          "allocationError": "Allocated hours exceed the net capacity available. Reduce the allocations.",
-          "reviewError": "Review takes more time than the work reduced. No positive capacity is available at these assumptions.",
-          "cashError": "Avoided spending cannot exceed current spending or have positive value with no hours allocated.",
-          "hiringError": "Allocated capacity must cover the planned hire hours. Confirm the planned hire and its duration.",
-          "riskError": "The after probability cannot exceed the before probability for a loss-reduction estimate.",
-          "overlapError": "Confirm the benefits do not overlap before including them in the financial result.",
-          "boundsError": "Use values within the displayed limits.",
+          "throughputResult": "Công việc bổ sung được hỗ trợ theo năng lực và nhu cầu",
+          "assumptionsIncomplete": "Hoàn thành các giả định đã chọn để tính giá trị tài chính.",
+          "allocationError": "Số giờ được phân bổ vượt quá công suất thực hiện có. Giảm phân bổ.",
+          "reviewError": "Việc xem xét mất nhiều thời gian hơn công việc giảm bớt. Không có khả năng tích cực có sẵn tại các giả định này.",
+          "cashError": "Chi tiêu tránh được không được vượt quá chi tiêu hiện tại hoặc có giá trị dương khi không phân bổ số giờ.",
+          "hiringError": "Công suất được phân bổ phải bao gồm số giờ thuê theo kế hoạch. Xác nhận việc thuê theo kế hoạch và thời hạn của nó.",
+          "riskError": "Xác suất sau không thể vượt quá xác suất trước để ước tính mức giảm tổn thất.",
+          "overlapError": "Xác nhận các lợi ích không trùng lặp trước khi đưa chúng vào kết quả tài chính.",
+          "boundsError": "Sử dụng các giá trị trong giới hạn được hiển thị.",
           "rangeLabel": "Adjust value",
-          "noCurrencyChange": "Language changes formatting, not your currency or assumptions.",
+          "noCurrencyChange": "Ngôn ngữ thay đổi định dạng, không phải đơn vị tiền tệ hoặc giả định của bạn.",
           "currentPreparation": "Giờ chuẩn bị hiện tại",
-          "reviewHours": "Giờ xem xét của con người",
-          "reworkHours": "Giờ làm lại được tránh hoặc thêm vào",
-          "capacityValue": "Giá trị năng lực mô hình hóa",
-          "acceptedUnits": "Đơn vị đã chấp nhận",
-          "attendedUnits": "Đơn vị đã phục vụ",
-          "costPerAttended": "Chi phí trên mỗi đơn vị đã phục vụ",
-          "benefitCost": "Bội số lợi ích - chi phí",
+          "reviewHours": "Giờ đánh giá con người",
+          "reworkHours": "Đã tránh hoặc thêm giờ làm lại",
+          "capacityValue": "Giá trị công suất mô hình",
+          "acceptedUnits": "Đơn vị được chấp nhận",
+          "attendedUnits": "Đơn vị tham dự",
+          "costPerAttended": "Chi phí cho mỗi đơn vị tham dự",
+          "benefitCost": "Hệ số lợi ích-chi phí",
           "firstYearCost": "Chi phí năm đầu tiên",
           "firstYearRoi": "ROI năm đầu tiên",
-          "paybackOutsideTerm": "Không được thu hồi trong thời hạn mô hình hóa",
+          "paybackOutsideTerm": "Không được phục hồi trong thời hạn được mô hình hóa",
           "months": "months"
         },
         "fields": {
           "volume": {
-            "label": "Leads or briefs entering the desk each month",
-            "help": "Count inbound second-home enquiries in the selected market, not property transactions."
+            "label": "Khách hàng tiềm năng hoặc tóm tắt vào bàn làm việc mỗi tháng",
+            "help": "Tính các yêu cầu về ngôi nhà thứ hai trong thị trường đã chọn, không phải các giao dịch tài sản."
           },
           "accepted_rate": {
             "label": "Share becoming qualified briefs",
-            "help": "A modeled qualification rate. Replace it with observed funnel data after a pilot."
+            "help": "Một tỷ lệ trình độ chuyên môn được mô hình hóa. Thay thế nó bằng dữ liệu kênh được quan sát sau khi thử nghiệm."
           },
           "attendance_rate": {
             "label": "Expected attendance rate",
-            "help": "Modeled share of accepted meetings expected to happen. Replace this with verified event records after a pilot."
+            "help": "Chia sẻ theo mô hình các cuộc họp được chấp nhận dự kiến sẽ diễn ra. Thay thế điều này bằng các bản ghi sự kiện đã được xác minh sau khi thí điểm."
           },
           "minutes": {
-            "label": "Minutes to qualify one buyer brief today",
-            "help": "Active intake and qualification time, excluding elapsed days and property-search time."
+            "label": "Biên bản tóm tắt dành cho một người mua ngay hôm nay",
+            "help": "Thời gian tiếp nhận và đánh giá tích cực, không bao gồm những ngày đã trôi qua và thời gian tìm kiếm tài sản."
           },
           "automation": {
-            "label": "Share of that work reduced",
-            "help": "An illustrative assumption to validate in a pilot, not a performance promise."
+            "label": "Chia sẻ công việc đó giảm",
+            "help": "Một giả định minh họa để xác nhận trong một chương trình thí điểm, không phải là một lời hứa về hiệu suất."
           },
           "review": {
-            "label": "Minutes a reviewer spends confirming each brief",
-            "help": "Human review still required before either side sees a proposal."
+            "label": "Số phút người đánh giá dành để xác nhận từng bản tóm tắt",
+            "help": "Sự đánh giá của con người vẫn cần thiết trước khi một trong hai bên nhìn thấy đề xuất."
           },
           "cycles_per_unit": {
-            "label": "Cycles per unit each month",
-            "help": "How many recurring order, review or processing cycles each unit runs in a typical month."
+            "label": "Chu kỳ trên mỗi đơn vị mỗi tháng",
+            "help": "Mỗi đơn vị thực hiện bao nhiêu chu kỳ đặt hàng, xem xét hoặc xử lý định kỳ trong một tháng thông thường."
           },
           "tokens_per_output": {
-            "label": "Tokens per qualified buyer brief",
-            "help": "Modeled input and output tokens for one reviewable brief; provider usage must replace this hypothesis."
+            "label": "Mã thông báo cho mỗi người mua đủ điều kiện tóm tắt",
+            "help": "Mã thông báo đầu vào và đầu ra được mô hình hóa cho một bản tóm tắt có thể xem lại; việc sử dụng nhà cung cấp phải thay thế giả thuyết này."
           },
           "budget": {
             "label": "Estimated monthly operating budget",
-            "help": "Include token usage, models/media, tools, infrastructure, Gabriel fees and additional paid review."
+            "help": "Bao gồm việc sử dụng mã thông báo, mô hình/phương tiện, công cụ, cơ sở hạ tầng, phí Gabriel và đánh giá trả phí bổ sung."
           },
           "model_cost": {
-            "label": "Additional model or media cost",
-            "help": "Enter separately billed models or media. Leave zero when included in the token envelope."
+            "label": "Chi phí mô hình hoặc phương tiện bổ sung",
+            "help": "Nhập các mẫu hoặc phương tiện được thanh toán riêng. Để lại số 0 khi được bao gồm trong phong bì mã thông báo."
           },
           "tools_cost": {
             "label": "Tools and integrations",
-            "help": "Browser sessions, connectors and other metered services. Enter zero if none."
+            "help": "Phiên trình duyệt, trình kết nối và các dịch vụ đo lường khác. Nhập số 0 nếu không có."
           },
           "infrastructure_cost": {
             "label": "Infrastructure",
-            "help": "Incremental hosting, storage and compute for this workload. Enter zero if none."
+            "help": "Lưu trữ, lưu trữ và tính toán gia tăng cho khối lượng công việc này. Nhập số 0 nếu không có."
           },
           "platform_cost": {
-            "label": "Other delivery and support cost",
-            "help": "Modeled hosting, storage, monitoring and support cost, separate from the customer price."
+            "label": "Chi phí vận chuyển và hỗ trợ khác",
+            "help": "Chi phí lưu trữ, lưu trữ, giám sát và hỗ trợ theo mô hình, tách biệt với giá của khách hàng."
           },
           "customer_price": {
             "label": "Proposed monthly Nest price",
-            "help": "Editable agent/brokerage pricing hypothesis. It is not validated revenue and must be tested in a paid pilot."
+            "help": "Giả thuyết định giá đại lý/môi giới có thể chỉnh sửa. Đây không phải là doanh thu được xác thực và phải được thử nghiệm trong chương trình thí điểm trả phí."
           },
           "personal_value_per_hour": {
-            "label": "Optional value you assign to an hour",
-            "help": "An optional personal comparison only. This is not salary, wages or guaranteed cash savings."
+            "label": "Giá trị tùy chọn bạn chỉ định cho một giờ",
+            "help": "Chỉ có một so sánh cá nhân tùy chọn. Đây không phải là tiền lương, tiền công hoặc tiền tiết kiệm được đảm bảo."
           },
           "review_rate": {
-            "label": "Additional paid review per hour",
-            "help": "Actual extra reviewer spending, not the salary of an unchanged employee."
+            "label": "Đánh giá trả phí bổ sung mỗi giờ",
+            "help": "Thực tế chi tiêu thêm của người đánh giá chứ không phải tiền lương của một nhân viên không thay đổi."
           },
           "cash_hours": {
-            "label": "Hours that remove paid work",
-            "help": "Allocate only work whose overtime, contractor or processing spend will actually stop."
+            "label": "Số giờ loại bỏ công việc được trả lương",
+            "help": "Chỉ phân bổ công việc mà chi phí làm thêm giờ, nhà thầu hoặc xử lý sẽ thực sự dừng lại."
           },
           "cash_baseline": {
-            "label": "Current monthly spending on that work",
-            "help": "The cash budget from which the reduction will come."
+            "label": "Chi tiêu hàng tháng hiện tại cho công việc đó",
+            "help": "Ngân sách tiền mặt mà từ đó sẽ có sự cắt giảm."
           },
           "cash_avoided": {
-            "label": "Monthly spending you would stop",
-            "help": "One explicit amount, not hours multiplied by salary; exclude any planned-hire saving entered separately."
+            "label": "Chi tiêu hàng tháng bạn sẽ dừng lại",
+            "help": "Một số tiền rõ ràng, không phải số giờ nhân với tiền lương; loại trừ bất kỳ khoản tiết kiệm thuê theo kế hoạch nào được nhập riêng."
           },
           "higher_value_hours": {
-            "label": "Hours agents can use for real conversations",
-            "help": "Only capacity with observed demand receives an economic value."
+            "label": "Số giờ đại lý có thể sử dụng cho các cuộc trò chuyện thực sự",
+            "help": "Chỉ có năng lực với nhu cầu được quan sát mới nhận được giá trị kinh tế."
           },
           "contribution_rate": {
-            "label": "Incremental contribution per agent hour",
-            "help": "Contribution from additional work, excluding property value, commissions and costs already counted."
+            "label": "Đóng góp gia tăng mỗi giờ đại lý",
+            "help": "Đóng góp từ công việc bổ sung, không bao gồm giá trị tài sản, hoa hồng và chi phí đã được tính."
           },
           "throughput_hours": {
-            "label": "Hours used for additional volume",
-            "help": "This allocation cannot also be used for advisory work or spending reductions."
+            "label": "Số giờ sử dụng cho khối lượng bổ sung",
+            "help": "Việc phân bổ này cũng không thể được sử dụng cho công việc tư vấn hoặc cắt giảm chi tiêu."
           },
           "extra_minutes": {
-            "label": "Team minutes per additional unit",
-            "help": "The remaining human effort, including review, needed to deliver one more unit."
+            "label": "Số phút nhóm cho mỗi đơn vị bổ sung",
+            "help": "Nỗ lực còn lại của con người, bao gồm cả việc xem xét, cần thiết để cung cấp thêm một đơn vị nữa."
           },
           "demand": {
-            "label": "Additional units with expected demand",
-            "help": "Capacity alone is not demand. Enter the extra monthly work you expect to take on."
+            "label": "Các đơn vị bổ sung có nhu cầu dự kiến",
+            "help": "Chỉ riêng năng lực không phải là nhu cầu. Nhập công việc làm thêm hàng tháng mà bạn mong muốn đảm nhận."
           },
           "unit_margin": {
             "label": "Contribution per additional unit",
-            "help": "Incremental revenue less delivery costs; AI operating costs are deducted separately."
+            "help": "Doanh thu tăng thêm ít chi phí giao hàng; Chi phí vận hành AI được khấu trừ riêng."
           },
           "hiring_hours": {
-            "label": "Hours covering the planned hire",
-            "help": "Allocate capacity to specific planned work, not a generic full-time-equivalent estimate."
+            "label": "Số giờ bao gồm việc thuê theo kế hoạch",
+            "help": "Phân bổ năng lực cho công việc đã được lên kế hoạch cụ thể, không phải ước tính chung về thời gian tương đương."
           },
           "planned_hours": {
-            "label": "Monthly hours the planned hire would cover",
-            "help": "The allocated capacity must cover this entire workload."
+            "label": "Số giờ thuê hàng tháng theo kế hoạch sẽ bao gồm",
+            "help": "Năng lực được phân bổ phải đáp ứng toàn bộ khối lượng công việc này."
           },
           "hire_cost": {
-            "label": "Monthly hire cost actually deferred",
-            "help": "Use the cost of a genuinely planned hire, not the salary of someone already employed."
+            "label": "Chi phí thuê hàng tháng thực tế được hoãn lại",
+            "help": "Sử dụng chi phí thuê nhân công đã được lên kế hoạch thực sự chứ không phải tiền lương của người đã được tuyển dụng."
           },
           "hire_months": {
-            "label": "Months that hire is deferred",
-            "help": "One to twelve months; the annual estimate stops counting savings after this period."
+            "label": "Số tháng thuê được hoãn lại",
+            "help": "Một đến mười hai tháng; ước tính hàng năm ngừng tính số tiền tiết kiệm sau khoảng thời gian này."
           },
           "incidents": {
-            "label": "Expected avoided errors per month",
-            "help": "Use your baseline and expected reduction. Exclude incidents also counted as risk reduction."
+            "label": "Các lỗi dự kiến tránh được mỗi tháng",
+            "help": "Sử dụng mức cơ bản và mức giảm dự kiến của bạn. Loại trừ sự cố cũng được tính là giảm rủi ro."
           },
           "incident_cost": {
             "label": "Incremental cost per error",
-            "help": "Exclude labor, refunds or other losses already included elsewhere."
+            "help": "Loại trừ chi phí nhân công, tiền hoàn lại hoặc các tổn thất khác đã được tính ở nơi khác."
           },
           "probability_before": {
             "label": "Monthly loss probability before",
-            "help": "Your estimate, not a guaranteed risk assessment."
+            "help": "Ước tính của bạn, không phải là đánh giá rủi ro được đảm bảo."
           },
           "probability_after": {
             "label": "Monthly loss probability after",
-            "help": "Use the same event and monthly time horizon as the baseline."
+            "help": "Sử dụng cùng một sự kiện và khoảng thời gian hàng tháng làm đường cơ sở."
           },
           "loss": {
-            "label": "Loss exposure for that event",
-            "help": "Exclude error incidents and spending already counted. This is uncertain expected value, not cash saved."
+            "label": "Khả năng mất mát cho sự kiện đó",
+            "help": "Loại trừ các sự cố lỗi và chi tiêu đã được tính. Đây là giá trị kỳ vọng không chắc chắn, không phải tiền mặt tiết kiệm được."
           },
           "days_before": {
-            "label": "Cycle time before, in days",
-            "help": "Elapsed time from start to completion, separate from hands-on effort."
+            "label": "Thời gian chu kỳ trước, tính bằng ngày",
+            "help": "Thời gian trôi qua từ khi bắt đầu đến khi hoàn thành, tách biệt với nỗ lực thực hành."
           },
           "days_after": {
-            "label": "Cycle time after, in days",
-            "help": "Shown as an operational change only, without an assumed monetary value."
+            "label": "Thời gian chu kỳ sau, tính bằng ngày",
+            "help": "Chỉ được hiển thị dưới dạng thay đổi hoạt động, không có giá trị tiền tệ giả định."
           }
         },
         "burden": [
@@ -1578,7 +1585,7 @@
         ],
         "opportunity": [
           "More qualified, human-reviewed introductions",
-          "Time for agent conversations and client needs"
+          "Thời gian dành cho các cuộc trò chuyện của đại lý và nhu cầu của khách hàng"
         ],
         "usagePackages": {
           "base": {
@@ -1628,14 +1635,19 @@
           {
             "id": "higher_value",
             "label": "Keep agents on conversations",
-            "help": "Enter only capacity that can be redirected to real agent or brokerage work; do not treat property value or commission as Nest revenue."
+            "help": "Chỉ nhập năng lực có thể được chuyển hướng đến công việc đại lý hoặc môi giới thực sự; không coi giá trị tài sản hoặc tiền hoa hồng là doanh thu Nest."
+          },
+          {
+            "id": "cash",
+            "label": "Giảm hỗ trợ tiếp nhận có trả phí",
+            "help": "Giảm thời gian làm thêm hoặc chi tiêu của nhà thầu cho việc tiếp nhận ngắn gọn thủ công của người mua — mức lương không thay đổi."
           }
         ],
         "tabs": [
           {
             "id": "funnel",
             "label": "Introduction funnel",
-            "intro": "Model leads entering the agent or brokerage desk, qualification, and human review.",
+            "intro": "Mô hình dẫn vào đại lý hoặc bàn môi giới, trình độ chuyên môn và đánh giá con người.",
             "fields": [
               "volume",
               "accepted_rate",
@@ -1646,7 +1658,7 @@
           {
             "id": "costs",
             "label": "AI operating cost",
-            "intro": "Keep model, token, tool, infrastructure, platform and reviewer costs separate from the proposed customer price.",
+            "intro": "Giữ chi phí mô hình, mã thông báo, công cụ, cơ sở hạ tầng, nền tảng và người đánh giá tách biệt với giá khách hàng đề xuất.",
             "fields": [
               "tokens_per_output",
               "model_cost",
@@ -1660,7 +1672,7 @@
           {
             "id": "capacity",
             "label": "Capacity and evidence",
-            "intro": "Returned capacity is not revenue. Financial results remain insufficient until a payer, price and delivery evidence are recorded.",
+            "intro": "Công suất trả lại không phải là doanh thu. Kết quả tài chính vẫn không đủ cho đến khi người trả tiền, giá cả và bằng chứng giao hàng được ghi lại.",
             "fields": [
               "higher_value_hours",
               "contribution_rate"
@@ -1673,7 +1685,7 @@
           "basis": "fixed",
           "annualPrice": 9000,
           "label": "Proposed Nest monthly price",
-          "help": "A €750/month working hypothesis for a qualified-introduction pilot. Treat as unvalidated until an agent or brokerage pays."
+          "help": "Giả thuyết hoạt động trị giá €750/tháng dành cho một phi công giới thiệu đủ điều kiện. Hãy coi như không có giá trị cho đến khi một đại lý hoặc nhà môi giới thanh toán."
         },
         "presentation": {
           "financial": "optional",
@@ -1685,7 +1697,7 @@
         "primaryLabel": "Talk with Nest",
         "primaryTarget": "meet",
         "secondaryLabel": "See how it works",
-        "privacyNote": "Your data stays private. Hours are capacity. Financial amounts are modeled estimates, not observed results.",
+        "privacyNote": "Dữ liệu của bạn vẫn ở chế độ riêng tư. Giờ là năng lực. Số tiền tài chính là ước tính được mô hình hóa, không phải kết quả được quan sát.",
         "secondaryTarget": "how-it-works"
       }
     }
@@ -1972,6 +1984,16 @@
         "availabilityLabel"
       ],
       "sourceHash": "4ccdf0d88d921c3c0274c16ab665fd021b888edca40c2f1887ca4da4e2e61adc"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "profileModeId"
+      ],
+      "sourceHash": "6dbd0f28d0d97656768b7b4ed96255e67fd11740a44b1c4b575191b06e9e3a35"
     },
     {
       "path": [
@@ -4653,34 +4675,9 @@
         0,
         "roiCalculator",
         "businessImpact",
-        "costMode"
-      ],
-      "sourceHash": "0257609b2e009aa6c788941fbcaeee13877465889a94aaf0444c7d4159ee616c"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        0,
-        "roiCalculator",
-        "businessImpact",
         "reviewMode"
       ],
       "sourceHash": "ca8b22d0db83a22db163b560b3e4e51527e533d31d067b614a0c33c4d2df8432"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        0,
-        "roiCalculator",
-        "businessImpact",
-        "selected",
-        0
-      ],
-      "sourceHash": "c8333158bd18b91a71842cfd38c2d6ddab471bda158b19286d96d4a4ed973ac4"
     },
     {
       "path": [
@@ -4760,51 +4757,6 @@
         "roiCalculator",
         "businessImpact",
         "tabs",
-        0,
-        "fields",
-        0
-      ],
-      "sourceHash": "62d7a6b1211d627650e2bf0c869b69b564e2cd74290ae1dd78ae4b5e20b0cfe7"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        0,
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        0,
-        "fields",
-        1
-      ],
-      "sourceHash": "533c554a619ee86f5b109e6356436592d023fca097b61a42a5769899f3e49ded"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        0,
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        0,
-        "fields",
-        2
-      ],
-      "sourceHash": "c97ace4c8fef2cee8fa0f3c9f52aab18dbd4f42438afe362ffb8f75ce4c04b84"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        0,
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
         1,
         "label"
       ],
@@ -4823,96 +4775,6 @@
         "intro"
       ],
       "sourceHash": "ecb995d2474e26388c933fda1b6a2ac889d6f3629ab1f42fe73e918b2733817f"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        0,
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        1,
-        "fields",
-        0
-      ],
-      "sourceHash": "252b07fa1db64f9ca920817ce39dec8523f46fca171a3dfd2721f7406ad524b3"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        0,
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        1,
-        "fields",
-        1
-      ],
-      "sourceHash": "d1bedf986ff719c3697d5349d0a881f26ca60c944250a6b9d841dbfdd75ec256"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        0,
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        1,
-        "fields",
-        2
-      ],
-      "sourceHash": "d36f8ed71fe4f06ad33653f5b2a02efb6b90532b03694d27b25f01211ee64df5"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        0,
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        1,
-        "fields",
-        3
-      ],
-      "sourceHash": "5ef2621e3c47a6ca8fc7990c6ffa19b229e742540611b01e0f1d253b33808503"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        0,
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        1,
-        "fields",
-        4
-      ],
-      "sourceHash": "ddb2485b111f5d7373d804bdb4010b2590b72ba7b899fd5e11c4e0d5e00fb524"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        0,
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        1,
-        "fields",
-        5
-      ],
-      "sourceHash": "b90c7599f77434bcd2d32958a8557417fb5333b4dbd169ff8c5ee65bbb5008ef"
     },
     {
       "path": [
@@ -4950,49 +4812,6 @@
         0,
         "roiCalculator",
         "businessImpact",
-        "tabs",
-        2,
-        "fields",
-        0
-      ],
-      "sourceHash": "f033d3c123d7de8fa6a1706e2f8dee954bec3ef08f9c5a10de37ab050e4d25ab"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        0,
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        2,
-        "fields",
-        1
-      ],
-      "sourceHash": "b28c91bc16791f680909ec198a45e7c491055b8c4c558da970e1e9bcd2635edc"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        0,
-        "roiCalculator",
-        "businessImpact",
-        "pricing",
-        "basis"
-      ],
-      "sourceHash": "992a93455c71fedd36ac9bbc439952c041cf61445958472af479269b8d873513"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        0,
-        "roiCalculator",
-        "businessImpact",
         "pricing",
         "label"
       ],
@@ -5010,19 +4829,6 @@
         "help"
       ],
       "sourceHash": "aebaed823e7b8d30309648e6c85cfe4d7f6cb7938bdf923f2c68c9b67ff269da"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        0,
-        "roiCalculator",
-        "businessImpact",
-        "presentation",
-        "financial"
-      ],
-      "sourceHash": "ec91fdd9256cb75ae611249b50cb7eb16533f0fa91b86239ec1d439a1ea033b8"
     },
     {
       "path": [
@@ -5059,6 +4865,16 @@
         "privacyNote"
       ],
       "sourceHash": "0e96f5e15977ab0a2a8d684c0d35d7459f3afc862b606046310ae1fbbd4be12b"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "profileModeId"
+      ],
+      "sourceHash": "a4279eae47aaa7417da62434795a011ccb0ec870f7f56646d181b5500a892a9a"
     },
     {
       "path": [
@@ -7809,34 +7625,9 @@
         1,
         "roiCalculator",
         "businessImpact",
-        "costMode"
-      ],
-      "sourceHash": "0257609b2e009aa6c788941fbcaeee13877465889a94aaf0444c7d4159ee616c"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        1,
-        "roiCalculator",
-        "businessImpact",
         "reviewMode"
       ],
       "sourceHash": "ca8b22d0db83a22db163b560b3e4e51527e533d31d067b614a0c33c4d2df8432"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        1,
-        "roiCalculator",
-        "businessImpact",
-        "selected",
-        0
-      ],
-      "sourceHash": "c8333158bd18b91a71842cfd38c2d6ddab471bda158b19286d96d4a4ed973ac4"
     },
     {
       "path": [
@@ -7887,6 +7678,34 @@
         1,
         "roiCalculator",
         "businessImpact",
+        "outcomes",
+        1,
+        "label"
+      ],
+      "sourceHash": "aea4419b254433ce01374056925b89821689edcecc57fcd6988c2abc3f51c102"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "businessImpact",
+        "outcomes",
+        1,
+        "help"
+      ],
+      "sourceHash": "79f050bc25f624be1f08b5c05a4ac923c1c16bcf253e4009d475f35d6a7a6927"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "businessImpact",
         "tabs",
         0,
         "label"
@@ -7906,51 +7725,6 @@
         "intro"
       ],
       "sourceHash": "db6c00c1b6ccac892da8c66e20f05fcc3bf78c2a3b4929b7c5ad4c53ce32e23a"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        1,
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        0,
-        "fields",
-        0
-      ],
-      "sourceHash": "62d7a6b1211d627650e2bf0c869b69b564e2cd74290ae1dd78ae4b5e20b0cfe7"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        1,
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        0,
-        "fields",
-        1
-      ],
-      "sourceHash": "533c554a619ee86f5b109e6356436592d023fca097b61a42a5769899f3e49ded"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        1,
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        0,
-        "fields",
-        2
-      ],
-      "sourceHash": "c97ace4c8fef2cee8fa0f3c9f52aab18dbd4f42438afe362ffb8f75ce4c04b84"
     },
     {
       "path": [
@@ -7989,96 +7763,6 @@
         "roiCalculator",
         "businessImpact",
         "tabs",
-        1,
-        "fields",
-        0
-      ],
-      "sourceHash": "252b07fa1db64f9ca920817ce39dec8523f46fca171a3dfd2721f7406ad524b3"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        1,
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        1,
-        "fields",
-        1
-      ],
-      "sourceHash": "d1bedf986ff719c3697d5349d0a881f26ca60c944250a6b9d841dbfdd75ec256"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        1,
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        1,
-        "fields",
-        2
-      ],
-      "sourceHash": "d36f8ed71fe4f06ad33653f5b2a02efb6b90532b03694d27b25f01211ee64df5"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        1,
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        1,
-        "fields",
-        3
-      ],
-      "sourceHash": "5ef2621e3c47a6ca8fc7990c6ffa19b229e742540611b01e0f1d253b33808503"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        1,
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        1,
-        "fields",
-        4
-      ],
-      "sourceHash": "ddb2485b111f5d7373d804bdb4010b2590b72ba7b899fd5e11c4e0d5e00fb524"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        1,
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        1,
-        "fields",
-        5
-      ],
-      "sourceHash": "b90c7599f77434bcd2d32958a8557417fb5333b4dbd169ff8c5ee65bbb5008ef"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        1,
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
         2,
         "label"
       ],
@@ -8106,49 +7790,6 @@
         1,
         "roiCalculator",
         "businessImpact",
-        "tabs",
-        2,
-        "fields",
-        0
-      ],
-      "sourceHash": "f033d3c123d7de8fa6a1706e2f8dee954bec3ef08f9c5a10de37ab050e4d25ab"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        1,
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        2,
-        "fields",
-        1
-      ],
-      "sourceHash": "b28c91bc16791f680909ec198a45e7c491055b8c4c558da970e1e9bcd2635edc"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        1,
-        "roiCalculator",
-        "businessImpact",
-        "pricing",
-        "basis"
-      ],
-      "sourceHash": "992a93455c71fedd36ac9bbc439952c041cf61445958472af479269b8d873513"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        1,
-        "roiCalculator",
-        "businessImpact",
         "pricing",
         "label"
       ],
@@ -8166,19 +7807,6 @@
         "help"
       ],
       "sourceHash": "aebaed823e7b8d30309648e6c85cfe4d7f6cb7938bdf923f2c68c9b67ff269da"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        1,
-        "roiCalculator",
-        "businessImpact",
-        "presentation",
-        "financial"
-      ],
-      "sourceHash": "ec91fdd9256cb75ae611249b50cb7eb16533f0fa91b86239ec1d439a1ea033b8"
     },
     {
       "path": [
@@ -11002,28 +10630,9 @@
         "landingPage",
         "roiCalculator",
         "businessImpact",
-        "costMode"
-      ],
-      "sourceHash": "0257609b2e009aa6c788941fbcaeee13877465889a94aaf0444c7d4159ee616c"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
         "reviewMode"
       ],
       "sourceHash": "ca8b22d0db83a22db163b560b3e4e51527e533d31d067b614a0c33c4d2df8432"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "selected",
-        0
-      ],
-      "sourceHash": "c8333158bd18b91a71842cfd38c2d6ddab471bda158b19286d96d4a4ed973ac4"
     },
     {
       "path": [
@@ -11062,6 +10671,28 @@
         "landingPage",
         "roiCalculator",
         "businessImpact",
+        "outcomes",
+        1,
+        "label"
+      ],
+      "sourceHash": "aea4419b254433ce01374056925b89821689edcecc57fcd6988c2abc3f51c102"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "outcomes",
+        1,
+        "help"
+      ],
+      "sourceHash": "6070b25168d7d93f6574ee09ea6117accce9c1b93d909efd04ea4406665cee17"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
         "tabs",
         0,
         "label"
@@ -11078,42 +10709,6 @@
         "intro"
       ],
       "sourceHash": "db6c00c1b6ccac892da8c66e20f05fcc3bf78c2a3b4929b7c5ad4c53ce32e23a"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        0,
-        "fields",
-        0
-      ],
-      "sourceHash": "62d7a6b1211d627650e2bf0c869b69b564e2cd74290ae1dd78ae4b5e20b0cfe7"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        0,
-        "fields",
-        1
-      ],
-      "sourceHash": "533c554a619ee86f5b109e6356436592d023fca097b61a42a5769899f3e49ded"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        0,
-        "fields",
-        2
-      ],
-      "sourceHash": "c97ace4c8fef2cee8fa0f3c9f52aab18dbd4f42438afe362ffb8f75ce4c04b84"
     },
     {
       "path": [
@@ -11143,78 +10738,6 @@
         "roiCalculator",
         "businessImpact",
         "tabs",
-        1,
-        "fields",
-        0
-      ],
-      "sourceHash": "252b07fa1db64f9ca920817ce39dec8523f46fca171a3dfd2721f7406ad524b3"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        1,
-        "fields",
-        1
-      ],
-      "sourceHash": "d1bedf986ff719c3697d5349d0a881f26ca60c944250a6b9d841dbfdd75ec256"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        1,
-        "fields",
-        2
-      ],
-      "sourceHash": "d36f8ed71fe4f06ad33653f5b2a02efb6b90532b03694d27b25f01211ee64df5"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        1,
-        "fields",
-        3
-      ],
-      "sourceHash": "5ef2621e3c47a6ca8fc7990c6ffa19b229e742540611b01e0f1d253b33808503"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        1,
-        "fields",
-        4
-      ],
-      "sourceHash": "ddb2485b111f5d7373d804bdb4010b2590b72ba7b899fd5e11c4e0d5e00fb524"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        1,
-        "fields",
-        5
-      ],
-      "sourceHash": "b90c7599f77434bcd2d32958a8557417fb5333b4dbd169ff8c5ee65bbb5008ef"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
         2,
         "label"
       ],
@@ -11236,40 +10759,6 @@
         "landingPage",
         "roiCalculator",
         "businessImpact",
-        "tabs",
-        2,
-        "fields",
-        0
-      ],
-      "sourceHash": "f033d3c123d7de8fa6a1706e2f8dee954bec3ef08f9c5a10de37ab050e4d25ab"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        2,
-        "fields",
-        1
-      ],
-      "sourceHash": "b28c91bc16791f680909ec198a45e7c491055b8c4c558da970e1e9bcd2635edc"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "pricing",
-        "basis"
-      ],
-      "sourceHash": "992a93455c71fedd36ac9bbc439952c041cf61445958472af479269b8d873513"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
         "pricing",
         "label"
       ],
@@ -11284,16 +10773,6 @@
         "help"
       ],
       "sourceHash": "aebaed823e7b8d30309648e6c85cfe4d7f6cb7938bdf923f2c68c9b67ff269da"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "presentation",
-        "financial"
-      ],
-      "sourceHash": "ec91fdd9256cb75ae611249b50cb7eb16533f0fa91b86239ec1d439a1ea033b8"
     },
     {
       "path": [
@@ -11323,5 +10802,5 @@
       "sourceHash": "0e96f5e15977ab0a2a8d684c0d35d7459f3afc862b606046310ae1fbbd4be12b"
     }
   ],
-  "generatedAt": "2026-09-11T04:18:29.310Z"
+  "generatedAt": "2026-10-01T12:38:32.632Z"
 }

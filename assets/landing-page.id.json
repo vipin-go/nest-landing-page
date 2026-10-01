@@ -2,11 +2,11 @@
   "schemaVersion": 2,
   "language": "id",
   "regionKey": null,
-  "sourceRevision": "e38bb8570798c46b5f8766ead43d9c6f4648a19d3d096d1d92c424fb5a6774a0",
+  "sourceRevision": "9b00d9081f920764fbd3e5bcdb077a7b34f8b04299a9af6b2aee818670157abf",
   "landingPage": {
     "headline": "Satu perkenalan yang memenuhi syarat yang cocok.",
     "subheadline": "Pengenalan pembeli dan penjual privat, satu proposal yang ditinjau manusia pada satu waktu.",
-    "ctaLabel": "berbicara dengan sarang",
+    "ctaLabel": "Bicaralah dengan Nest",
     "secondaryCtaLabel": "See how it works",
     "heroCharacterImage": "/landing-pages/nest/nest-character-meet-compact-high-wings-transparent.png",
     "seoImage": {
@@ -65,7 +65,7 @@
     },
     "homeIntroductions": {
       "header": {
-        "brandLabel": "sarang.",
+        "brandLabel": "Nest.",
         "brandTagline": "Satu pengenalan yang cermat",
         "navItems": [
           {
@@ -81,7 +81,7 @@
             "target": "hero-chat"
           }
         ],
-        "ctaLabel": "meminta perkenalan",
+        "ctaLabel": "Temui Nest",
         "mobileCtaLabel": "Mulai",
         "editionLabel": "Membeli",
         "secondaryEditionLabel": "Menjual"
@@ -105,7 +105,7 @@
             "mode": "city",
             "label": "Kota",
             "actionLabel": "Melihat",
-            "name": "Sarang Amsterdam",
+            "name": "Nest Amsterdam",
             "location": "Amsterdam Zuid",
             "dateRange": "Terus-menerus",
             "availabilityLabel": "Perkenalan lokal yang selalu aktif"
@@ -115,6 +115,7 @@
       "tracks": [
         {
           "id": "buying",
+          "profileModeId": "buyer",
           "label": "Saya membeli",
           "responseMessage": "Katakan padaku rumah yang layak untuk dipindahkan. Saya hanya akan meminta detail yang dibutuhkan oleh peninjau manusia, lalu mengembalikannya yang dianggap fit.",
           "composerPlaceholder": "Beri tahu Nest apa yang Anda butuhkan dari rumah…",
@@ -129,7 +130,7 @@
             {
               "number": "02",
               "image": "/landing-pages/nest/nest-how-review-human.webp",
-              "alt": "sarang dan pengulas manusia dengan hati-hati mempertimbangkan satu pembeli dan satu rumah",
+              "alt": "Nest dan pengulas manusia dengan cermat mempertimbangkan satu pembeli dan satu rumah",
               "title": "menerima satu properti yang cocok pada satu waktu.",
               "body": "Seseorang meninjau setiap proposal sebelum kedua belah pihak melihatnya. Tidak ada katalog publik, peringkat, atau kisi filter tak berujung.",
               "badge": "Disetujui oleh manusia"
@@ -137,7 +138,7 @@
             {
               "number": "03",
               "image": "/landing-pages/nest/nest-how-introduction-human.webp",
-              "alt": "NEST memperkenalkan calon pembeli dan pemilik rumah setelah persetujuan bersama",
+              "alt": "Nest memperkenalkan calon pembeli dan pemilik rumah setelah adanya persetujuan bersama",
               "title": "Buka kunci perkenalan bersama.",
               "body": "Setelah kedua belah pihak menerima, alamat lengkap, detail kontak, dan waktu penayangan yang diusulkan dibagikan secara pribadi."
             }
@@ -202,7 +203,7 @@
             {
               "key": "privateConstraints",
               "label": "Kendala pribadi",
-              "placeholder": "Sarang apa pun harus tetap pribadi",
+              "placeholder": "Segala sesuatu yang Nest harus dirahasiakan",
               "type": "textarea",
               "required": false
             }
@@ -212,23 +213,23 @@
             "enabled": true,
             "kicker": "Business impact",
             "heading": "ROI Calculator",
-            "subheading": "Model a licensed second-home agent or brokerage using Nest for qualified, human-reviewed introductions in one local market.",
-            "disclaimer": "A modeled operating scenario with zero validated paid demand. Nest qualifies and coordinates consented introductions; it does not represent parties, value property, negotiate, earn commissions or guarantee a transaction.",
+            "subheading": "Buat model agen atau pialang rumah kedua berlisensi menggunakan Nest untuk pengenalan yang memenuhi syarat dan ditinjau oleh manusia di satu pasar lokal.",
+            "disclaimer": "Skenario operasi yang dimodelkan dengan nol permintaan berbayar yang tervalidasi. Nest memenuhi syarat dan mengoordinasikan pengenalan yang disetujui; ia tidak mewakili para pihak, menilai properti, bernegosiasi, mendapatkan komisi, atau menjamin suatu transaksi.",
             "currency": "EUR",
             "currencyCopy": {
               "native": "Amounts in {currency}.",
               "loading": "Checking the local currency. Amounts remain in {currency} until a rate is available.",
               "unavailable": "A current local exchange rate is unavailable. Amounts remain in {currency}.",
               "converted": "Amounts converted from {base} to {currency} using the reference rate dated {date}.",
-              "basis": "Currency conversion is not local cost research. Enter your own local costs and contribution assumptions. Language changes do not change amounts."
+              "basis": "Konversi mata uang bukanlah penelitian biaya lokal. Masukkan asumsi biaya dan kontribusi lokal Anda sendiri. Perubahan bahasa tidak mengubah jumlah."
             },
             "costCopy": {
-              "breakdown": "How the all-in AI cost is built",
+              "breakdown": "Bagaimana biaya AI menyeluruh dibangun",
               "perUnit": "{amount} per work unit (average)",
-              "budgetOnly": "This is your total budget. Switch to Cost breakdown to itemize it; no split has been assumed.",
-              "benefitNotice": "Modeled benefits, not charges. Crossed-out amounts are spending you expect to avoid, not discounts on the AI bill.",
+              "budgetOnly": "Ini adalah total anggaran Anda. Beralih ke Perincian biaya untuk memerincinya; tidak ada perpecahan yang diasumsikan.",
+              "benefitNotice": "Manfaat sesuai model, bukan biaya. Jumlah yang dicoret adalah pengeluaran yang ingin Anda hindari, bukan diskon pada tagihan AI.",
               "remainder": "Other included operating costs",
-              "allocation": "Returned hours are capacity, not automatic savings. Only the portions you assign to actual spending reductions or additional contribution receive a monetary value."
+              "allocation": "Jam yang dikembalikan adalah kapasitas, bukan penghematan otomatis. Hanya porsi yang Anda tetapkan untuk pengurangan pengeluaran aktual atau kontribusi tambahan yang menerima nilai uang."
             },
             "locale": "en-GB",
             "inputs": [],
@@ -250,14 +251,14 @@
                 "customer_price": 750
               },
               "copy": {
-                "navLabel": "Harga",
+                "navLabel": "Kalkulasi harga",
                 "workloadStep": "Introduction funnel",
                 "costStep": "AI operating cost",
                 "valueStep": "Capacity and evidence",
-                "workloadIntro": "Model second-home leads, qualification and human review—not property sales, commissions or guaranteed matches.",
-                "costIntro": "Token, model, tool, infrastructure, platform and reviewer costs are delivery assumptions. Nest price is a separate unvalidated hypothesis.",
-                "valueIntro": "Capacity is not revenue. Enter observed contribution only after a real agent or brokerage uses and pays for the service.",
-                "sampleNotice": "Typical usage · not observed results",
+                "workloadIntro": "Buat model prospek rumah kedua, kualifikasi, dan tinjauan manusia—bukan penjualan properti, komisi, atau jaminan kecocokan.",
+                "costIntro": "Biaya token, model, alat, infrastruktur, platform, dan peninjau adalah asumsi penyampaian. Harga Nest adalah hipotesis terpisah yang tidak divalidasi.",
+                "valueIntro": "Kapasitas bukanlah pendapatan. Masukkan kontribusi yang diamati hanya setelah agen atau pialang nyata menggunakan dan membayar layanan tersebut.",
+                "sampleNotice": "Penggunaan umum · hasil tidak teramati",
                 "monthly": "Monthly",
                 "yearly": "Yearly",
                 "next": "Continue",
@@ -282,11 +283,11 @@
                 "reviewMode": "Who handles the review?",
                 "teamReview": "Existing team",
                 "paidReview": "Additional paid reviewer",
-                "reviewNote": "Existing-team review uses returned capacity. Additional paid review is included in operating cost, not deducted again from team capacity.",
+                "reviewNote": "Tinjauan tim yang ada menggunakan kapasitas yang dikembalikan. Tambahan tinjauan berbayar sudah termasuk dalam biaya operasional, tidak dipotong lagi dari kapasitas tim.",
                 "totalMode": "Monthly budget",
                 "itemizedMode": "Cost breakdown",
-                "budgetNote": "The budget must include models/media, tools, infrastructure, Gabriel fees and additional paid review. Do not include unchanged payroll as new spending.",
-                "itemizedNote": "Token usage is calculated from volume × tokens per output. Extra media, tools and infrastructure stay at zero unless they apply. Additional paid review is calculated from review hours and its rate.",
+                "budgetNote": "Anggaran harus mencakup model/media, alat, infrastruktur, biaya Gabriel, dan ulasan berbayar tambahan. Jangan sertakan gaji yang tidak berubah sebagai pengeluaran baru.",
+                "itemizedNote": "Penggunaan token dihitung dari volume × token per output. Media, peralatan, dan infrastruktur tambahan tidak akan ada kecuali jika diterapkan. Tambahan ulasan berbayar dihitung dari jam ulasan dan tarifnya.",
                 "paidReviewCost": "Additional paid review cost",
                 "allInCost": "Operating cost",
                 "missing": "Add your assumptions",
@@ -295,36 +296,36 @@
                 "expectedLoss": "Expected loss reduction",
                 "riskValue": "Uncertain risk value included",
                 "economicValue": "Modeled contribution",
-                "netBenefit": "Modeled benefit after Nest price",
+                "netBenefit": "Manfaat sesuai model setelah harga Nest",
                 "multiple": "Internal delivery multiple",
                 "customerBenefit": "Modeled agent benefit",
                 "customerRoi": "Modeled customer ROI",
                 "payback": "Customer payback period",
                 "notApplicable": "Not applicable",
                 "annual": "Annual view",
-                "annualNote": "The same monthly assumptions, without growth or compounding. Hiring savings last only for the entered period.",
+                "annualNote": "Asumsi bulanan yang sama, tanpa pertumbuhan atau penambahan. Tabungan sewa hanya berlaku untuk periode yang dimasukkan.",
                 "method": "How this is calculated",
                 "burdenHeading": "Repetitive work reduced",
                 "opportunityHeading": "Capacity for higher-value work",
-                "methodBody": "Operating burden removed (negative productivity) returns capacity. Higher-value work (potential positive productivity) creates economic value only if that capacity is used. Hours alone are not cash savings. Token cost uses a modeled input/output mix, not a provider quote.",
-                "formulaLabel": "Qualified briefs = leads × qualification rate. Delivery cost includes modeled token, model, tool, infrastructure, platform and human-review cost. Customer ROI remains unavailable until benefit and price are supported by evidence.",
-                "allocationNote": "Each hour can be allocated once. Unallocated hours remain capacity, with no monetary value.",
-                "overlapLabel": "These benefits are distinct; I have excluded costs and losses already counted elsewhere.",
-                "overlapNote": "Error and risk estimates exclude labor savings and the same incident must not appear in both categories. Contribution excludes AI costs, which are deducted separately.",
-                "hiringLabel": "This hire was genuinely planned and the allocated capacity can cover the work.",
-                "reviewedLabel": "I have reviewed my outcomes; unselected outcomes have no financial value in this estimate.",
+                "methodBody": "Beban operasional dihilangkan (produktivitas negatif) mengembalikan kapasitas. Pekerjaan bernilai lebih tinggi (potensi produktivitas positif) menciptakan nilai ekonomi hanya jika kapasitas tersebut digunakan. Jam kerja saja bukanlah penghematan uang tunai. Biaya token menggunakan campuran input/output yang dimodelkan, bukan penawaran penyedia.",
+                "formulaLabel": "Pengarahan yang memenuhi syarat = prospek × tingkat kualifikasi. Biaya pengiriman termasuk token yang dimodelkan, model, alat, infrastruktur, platform, dan biaya peninjauan manusia. ROI Pelanggan tetap tidak tersedia sampai manfaat dan harga didukung oleh bukti.",
+                "allocationNote": "Setiap jam dapat dialokasikan satu kali. Jam yang tidak dialokasikan tetap merupakan kapasitas, tanpa nilai uang.",
+                "overlapLabel": "Manfaat-manfaat ini berbeda; Saya telah mengecualikan biaya dan kerugian yang sudah dihitung di tempat lain.",
+                "overlapNote": "Perkiraan kesalahan dan risiko tidak termasuk penghematan tenaga kerja dan insiden yang sama tidak boleh muncul di kedua kategori. Kontribusi tidak termasuk biaya AI, yang dipotong secara terpisah.",
+                "hiringLabel": "Penyewaan ini benar-benar direncanakan dan kapasitas yang dialokasikan dapat menutupi pekerjaan tersebut.",
+                "reviewedLabel": "Saya telah meninjau hasil saya; hasil yang tidak dipilih tidak memiliki nilai finansial dalam perkiraan ini.",
                 "cycleResult": "Cycle-time improvement",
-                "throughputResult": "Additional work supported by capacity and demand",
-                "assumptionsIncomplete": "Complete the selected assumptions to calculate financial value.",
-                "allocationError": "Allocated hours exceed the net capacity available. Reduce the allocations.",
-                "reviewError": "Review takes more time than the work reduced. No positive capacity is available at these assumptions.",
-                "cashError": "Avoided spending cannot exceed current spending or have positive value with no hours allocated.",
-                "hiringError": "Allocated capacity must cover the planned hire hours. Confirm the planned hire and its duration.",
-                "riskError": "The after probability cannot exceed the before probability for a loss-reduction estimate.",
-                "overlapError": "Confirm the benefits do not overlap before including them in the financial result.",
-                "boundsError": "Use values within the displayed limits.",
+                "throughputResult": "Pekerjaan tambahan didukung oleh kapasitas dan permintaan",
+                "assumptionsIncomplete": "Lengkapi asumsi yang dipilih untuk menghitung nilai finansial.",
+                "allocationError": "Jam yang dialokasikan melebihi kapasitas bersih yang tersedia. Kurangi alokasinya.",
+                "reviewError": "Peninjauan membutuhkan lebih banyak waktu daripada pengurangan pekerjaan. Tidak ada kapasitas positif yang tersedia pada asumsi ini.",
+                "cashError": "Pengeluaran yang dihindari tidak boleh melebihi pengeluaran saat ini atau mempunyai nilai positif tanpa alokasi jam kerja.",
+                "hiringError": "Kapasitas yang dialokasikan harus mencakup jam kerja yang direncanakan. Konfirmasikan rencana sewa dan durasinya.",
+                "riskError": "Probabilitas setelahnya tidak boleh melebihi probabilitas sebelum untuk estimasi pengurangan kerugian.",
+                "overlapError": "Pastikan manfaatnya tidak tumpang tindih sebelum memasukkannya ke dalam hasil keuangan.",
+                "boundsError": "Gunakan nilai dalam batas yang ditampilkan.",
                 "rangeLabel": "Adjust value",
-                "noCurrencyChange": "Language changes formatting, not your currency or assumptions.",
+                "noCurrencyChange": "Bahasa mengubah format, bukan mata uang atau asumsi Anda.",
                 "currentPreparation": "Jam persiapan saat ini",
                 "reviewHours": "Jam Tinjauan Manusia",
                 "reworkHours": "Menghindari atau menambahkan jam pengerjaan ulang",
@@ -340,148 +341,148 @@
               },
               "fields": {
                 "volume": {
-                  "label": "Leads or briefs entering the desk each month",
-                  "help": "Count inbound second-home enquiries in the selected market, not property transactions."
+                  "label": "Leads atau briefs memasuki meja setiap bulan",
+                  "help": "Hitung permintaan masuk rumah kedua di pasar yang dipilih, bukan transaksi properti."
                 },
                 "accepted_rate": {
                   "label": "Share becoming qualified briefs",
-                  "help": "A modeled qualification rate. Replace it with observed funnel data after a pilot."
+                  "help": "Tingkat kualifikasi yang dimodelkan. Gantikan dengan data corong yang diamati setelah uji coba."
                 },
                 "attendance_rate": {
                   "label": "Expected attendance rate",
-                  "help": "Modeled share of accepted meetings expected to happen. Replace this with verified event records after a pilot."
+                  "help": "Bagian model dari pertemuan yang diterima diharapkan akan terjadi. Gantikan ini dengan catatan peristiwa terverifikasi setelah uji coba."
                 },
                 "minutes": {
-                  "label": "Minutes to qualify one buyer brief today",
-                  "help": "Active intake and qualification time, excluding elapsed days and property-search time."
+                  "label": "Menit untuk memenuhi syarat satu pembeli singkat hari ini",
+                  "help": "Waktu penerimaan dan kualifikasi aktif, tidak termasuk hari yang telah berlalu dan waktu pencarian properti."
                 },
                 "automation": {
-                  "label": "Share of that work reduced",
-                  "help": "An illustrative assumption to validate in a pilot, not a performance promise."
+                  "label": "Bagian dari pekerjaan itu berkurang",
+                  "help": "Asumsi ilustratif untuk divalidasi dalam uji coba, bukan janji kinerja."
                 },
                 "review": {
-                  "label": "Minutes a reviewer spends confirming each brief",
-                  "help": "Human review still required before either side sees a proposal."
+                  "label": "Menit yang dihabiskan pengulas untuk mengonfirmasi setiap laporan singkat",
+                  "help": "Tinjauan manusia masih diperlukan sebelum kedua belah pihak melihat proposal."
                 },
                 "cycles_per_unit": {
-                  "label": "Cycles per unit each month",
-                  "help": "How many recurring order, review or processing cycles each unit runs in a typical month."
+                  "label": "Siklus per unit setiap bulan",
+                  "help": "Berapa banyak siklus pemesanan, peninjauan, atau pemrosesan berulang yang dijalankan setiap unit dalam satu bulan tertentu."
                 },
                 "tokens_per_output": {
-                  "label": "Tokens per qualified buyer brief",
-                  "help": "Modeled input and output tokens for one reviewable brief; provider usage must replace this hypothesis."
+                  "label": "Token per ringkasan pembeli yang memenuhi syarat",
+                  "help": "Token masukan dan keluaran yang dimodelkan untuk satu laporan singkat yang dapat ditinjau; penggunaan penyedia harus menggantikan hipotesis ini."
                 },
                 "budget": {
                   "label": "Estimated monthly operating budget",
-                  "help": "Include token usage, models/media, tools, infrastructure, Gabriel fees and additional paid review."
+                  "help": "Sertakan penggunaan token, model/media, alat, infrastruktur, biaya Gabriel, dan ulasan berbayar tambahan."
                 },
                 "model_cost": {
-                  "label": "Additional model or media cost",
-                  "help": "Enter separately billed models or media. Leave zero when included in the token envelope."
+                  "label": "Biaya model atau media tambahan",
+                  "help": "Masukkan model atau media dengan tagihan terpisah. Sisakan angka nol jika dimasukkan ke dalam amplop token."
                 },
                 "tools_cost": {
                   "label": "Tools and integrations",
-                  "help": "Browser sessions, connectors and other metered services. Enter zero if none."
+                  "help": "Sesi browser, konektor, dan layanan terukur lainnya. Masukkan nol jika tidak ada."
                 },
                 "infrastructure_cost": {
                   "label": "Infrastructure",
-                  "help": "Incremental hosting, storage and compute for this workload. Enter zero if none."
+                  "help": "Hosting, penyimpanan, dan komputasi tambahan untuk beban kerja ini. Masukkan nol jika tidak ada."
                 },
                 "platform_cost": {
-                  "label": "Other delivery and support cost",
-                  "help": "Modeled hosting, storage, monitoring and support cost, separate from the customer price."
+                  "label": "Biaya pengiriman dan dukungan lainnya",
+                  "help": "Biaya hosting, penyimpanan, pemantauan, dan dukungan yang dimodelkan, terpisah dari harga pelanggan."
                 },
                 "customer_price": {
                   "label": "Proposed monthly Nest price",
-                  "help": "Editable agent/brokerage pricing hypothesis. It is not validated revenue and must be tested in a paid pilot."
+                  "help": "Hipotesis harga agen/broker yang dapat diedit. Ini bukan pendapatan yang divalidasi dan harus diuji dalam uji coba berbayar."
                 },
                 "personal_value_per_hour": {
-                  "label": "Optional value you assign to an hour",
-                  "help": "An optional personal comparison only. This is not salary, wages or guaranteed cash savings."
+                  "label": "Nilai opsional yang Anda tetapkan untuk satu jam",
+                  "help": "Hanya perbandingan pribadi opsional. Ini bukan gaji, upah, atau jaminan tabungan tunai."
                 },
                 "review_rate": {
-                  "label": "Additional paid review per hour",
-                  "help": "Actual extra reviewer spending, not the salary of an unchanged employee."
+                  "label": "Ulasan berbayar tambahan per jam",
+                  "help": "Pengeluaran ekstra reviewer sebenarnya, bukan gaji karyawan yang tidak berubah."
                 },
                 "cash_hours": {
-                  "label": "Hours that remove paid work",
-                  "help": "Allocate only work whose overtime, contractor or processing spend will actually stop."
+                  "label": "Jam yang menghapus pekerjaan berbayar",
+                  "help": "Alokasikan hanya pekerjaan yang pengeluaran lembur, kontraktor, atau pemrosesannya akan benar-benar dihentikan."
                 },
                 "cash_baseline": {
-                  "label": "Current monthly spending on that work",
-                  "help": "The cash budget from which the reduction will come."
+                  "label": "Pengeluaran bulanan saat ini untuk pekerjaan itu",
+                  "help": "Anggaran kas dari mana pengurangan akan terjadi."
                 },
                 "cash_avoided": {
-                  "label": "Monthly spending you would stop",
-                  "help": "One explicit amount, not hours multiplied by salary; exclude any planned-hire saving entered separately."
+                  "label": "Pengeluaran bulanan Anda akan berhenti",
+                  "help": "Satu jumlah yang jelas, bukan jam dikalikan gaji; mengecualikan penghematan sewa yang direncanakan yang dimasukkan secara terpisah."
                 },
                 "higher_value_hours": {
-                  "label": "Hours agents can use for real conversations",
-                  "help": "Only capacity with observed demand receives an economic value."
+                  "label": "Jam kerja yang dapat digunakan agen untuk percakapan nyata",
+                  "help": "Hanya kapasitas dengan permintaan yang teramati yang menerima nilai ekonomi."
                 },
                 "contribution_rate": {
-                  "label": "Incremental contribution per agent hour",
-                  "help": "Contribution from additional work, excluding property value, commissions and costs already counted."
+                  "label": "Kontribusi tambahan per jam agen",
+                  "help": "Kontribusi dari pekerjaan tambahan, tidak termasuk nilai properti, komisi dan biaya sudah dihitung."
                 },
                 "throughput_hours": {
-                  "label": "Hours used for additional volume",
-                  "help": "This allocation cannot also be used for advisory work or spending reductions."
+                  "label": "Jam digunakan untuk volume tambahan",
+                  "help": "Alokasi ini juga tidak dapat digunakan untuk pekerjaan konsultasi atau pengurangan belanja."
                 },
                 "extra_minutes": {
-                  "label": "Team minutes per additional unit",
-                  "help": "The remaining human effort, including review, needed to deliver one more unit."
+                  "label": "Menit tim per unit tambahan",
+                  "help": "Upaya manusia yang tersisa, termasuk peninjauan, diperlukan untuk menghasilkan satu unit lagi."
                 },
                 "demand": {
-                  "label": "Additional units with expected demand",
-                  "help": "Capacity alone is not demand. Enter the extra monthly work you expect to take on."
+                  "label": "Unit tambahan dengan permintaan yang diharapkan",
+                  "help": "Kapasitas saja bukanlah permintaan. Masukkan pekerjaan tambahan bulanan yang ingin Anda lakukan."
                 },
                 "unit_margin": {
                   "label": "Contribution per additional unit",
-                  "help": "Incremental revenue less delivery costs; AI operating costs are deducted separately."
+                  "help": "Pendapatan tambahan dikurangi biaya pengiriman; Biaya operasional AI dipotong secara terpisah."
                 },
                 "hiring_hours": {
-                  "label": "Hours covering the planned hire",
-                  "help": "Allocate capacity to specific planned work, not a generic full-time-equivalent estimate."
+                  "label": "Jam yang mencakup sewa yang direncanakan",
+                  "help": "Alokasikan kapasitas untuk pekerjaan terencana tertentu, bukan perkiraan umum yang setara dengan pekerjaan penuh waktu."
                 },
                 "planned_hours": {
-                  "label": "Monthly hours the planned hire would cover",
-                  "help": "The allocated capacity must cover this entire workload."
+                  "label": "Jam bulanan yang akan dicakup oleh sewa yang direncanakan",
+                  "help": "Kapasitas yang dialokasikan harus mencakup seluruh beban kerja ini."
                 },
                 "hire_cost": {
-                  "label": "Monthly hire cost actually deferred",
-                  "help": "Use the cost of a genuinely planned hire, not the salary of someone already employed."
+                  "label": "Biaya sewa bulanan sebenarnya ditangguhkan",
+                  "help": "Gunakan biaya sewa yang benar-benar direncanakan, bukan gaji seseorang yang sudah bekerja."
                 },
                 "hire_months": {
-                  "label": "Months that hire is deferred",
-                  "help": "One to twelve months; the annual estimate stops counting savings after this period."
+                  "label": "Bulan-bulan perekrutan ditangguhkan",
+                  "help": "Satu sampai dua belas bulan; perkiraan tahunan berhenti menghitung tabungan setelah periode ini."
                 },
                 "incidents": {
-                  "label": "Expected avoided errors per month",
-                  "help": "Use your baseline and expected reduction. Exclude incidents also counted as risk reduction."
+                  "label": "Diharapkan menghindari kesalahan per bulan",
+                  "help": "Gunakan baseline Anda dan pengurangan yang diharapkan. Kecualikan insiden juga dihitung sebagai pengurangan risiko."
                 },
                 "incident_cost": {
                   "label": "Incremental cost per error",
-                  "help": "Exclude labor, refunds or other losses already included elsewhere."
+                  "help": "Tidak termasuk tenaga kerja, pengembalian uang, atau kerugian lain yang sudah termasuk di tempat lain."
                 },
                 "probability_before": {
                   "label": "Monthly loss probability before",
-                  "help": "Your estimate, not a guaranteed risk assessment."
+                  "help": "Perkiraan Anda, bukan penilaian risiko yang dijamin."
                 },
                 "probability_after": {
                   "label": "Monthly loss probability after",
-                  "help": "Use the same event and monthly time horizon as the baseline."
+                  "help": "Gunakan peristiwa dan jangka waktu bulanan yang sama sebagai garis dasar."
                 },
                 "loss": {
-                  "label": "Loss exposure for that event",
-                  "help": "Exclude error incidents and spending already counted. This is uncertain expected value, not cash saved."
+                  "label": "Eksposur kerugian untuk kejadian tersebut",
+                  "help": "Kecualikan insiden kesalahan dan pengeluaran sudah dihitung. Ini adalah nilai yang diperkirakan tidak pasti, bukan uang tunai yang dihemat."
                 },
                 "days_before": {
-                  "label": "Cycle time before, in days",
-                  "help": "Elapsed time from start to completion, separate from hands-on effort."
+                  "label": "Waktu siklus sebelumnya, dalam beberapa hari",
+                  "help": "Waktu yang berlalu dari awal hingga selesai, terpisah dari upaya langsung."
                 },
                 "days_after": {
-                  "label": "Cycle time after, in days",
-                  "help": "Shown as an operational change only, without an assumed monetary value."
+                  "label": "Waktu siklus setelahnya, dalam beberapa hari",
+                  "help": "Ditampilkan sebagai perubahan operasional saja, tanpa asumsi nilai moneter."
                 }
               },
               "burden": [
@@ -490,7 +491,7 @@
               ],
               "opportunity": [
                 "More qualified, human-reviewed introductions",
-                "Time for agent conversations and client needs"
+                "Saatnya untuk percakapan agen dan kebutuhan klien"
               ],
               "usagePackages": {
                 "base": {
@@ -540,14 +541,14 @@
                 {
                   "id": "higher_value",
                   "label": "Keep agents on conversations",
-                  "help": "Enter only capacity that can be redirected to real agent or brokerage work; do not treat property value or commission as Nest revenue."
+                  "help": "Masukkan hanya kapasitas yang dapat dialihkan ke pekerjaan agen atau pialang nyata; jangan memperlakukan nilai properti atau komisi sebagai pendapatan Nest."
                 }
               ],
               "tabs": [
                 {
                   "id": "funnel",
                   "label": "Introduction funnel",
-                  "intro": "Model leads entering the agent or brokerage desk, qualification, and human review.",
+                  "intro": "Model prospek memasuki meja agen atau pialang, kualifikasi, dan tinjauan manusia.",
                   "fields": [
                     "volume",
                     "accepted_rate",
@@ -558,7 +559,7 @@
                 {
                   "id": "costs",
                   "label": "AI operating cost",
-                  "intro": "Keep model, token, tool, infrastructure, platform and reviewer costs separate from the proposed customer price.",
+                  "intro": "Pisahkan biaya model, token, alat, infrastruktur, platform, dan peninjau dari harga pelanggan yang diusulkan.",
                   "fields": [
                     "tokens_per_output",
                     "model_cost",
@@ -572,7 +573,7 @@
                 {
                   "id": "capacity",
                   "label": "Capacity and evidence",
-                  "intro": "Returned capacity is not revenue. Financial results remain insufficient until a payer, price and delivery evidence are recorded.",
+                  "intro": "Kapasitas yang dikembalikan bukanlah pendapatan. Hasil keuangan tetap tidak mencukupi sampai bukti pembayar, harga dan pengiriman dicatat.",
                   "fields": [
                     "higher_value_hours",
                     "contribution_rate"
@@ -585,7 +586,7 @@
                 "basis": "fixed",
                 "annualPrice": 9000,
                 "label": "Proposed Nest monthly price",
-                "help": "A €750/month working hypothesis for a qualified-introduction pilot. Treat as unvalidated until an agent or brokerage pays."
+                "help": "Hipotesis kerja senilai €750/bulan untuk uji coba pengenalan yang memenuhi syarat. Perlakukan sebagai tidak divalidasi sampai agen atau pialang membayar."
               },
               "presentation": {
                 "financial": "optional",
@@ -597,13 +598,14 @@
               "primaryLabel": "Talk with Nest",
               "primaryTarget": "meet",
               "secondaryLabel": "See how it works",
-              "privacyNote": "Your data stays private. Hours are capacity. Financial amounts are modeled estimates, not observed results.",
+              "privacyNote": "Data Anda tetap pribadi. Jam adalah kapasitas. Jumlah finansial merupakan estimasi yang dimodelkan, bukan hasil observasi.",
               "secondaryTarget": "how-it-works"
             }
           }
         },
         {
           "id": "selling",
+          "profileModeId": "seller",
           "label": "saya jual",
           "responseMessage": "Beri tahu saya apa yang membuat rumah berbeda dan pembeli mana yang akan sangat cocok. Saya akan merahasiakan alamat yang tepat dan mengembalikan satu pengenalan yang dipertimbangkan.",
           "composerPlaceholder": "Beri tahu Nest apa yang penting tentang penjualan Anda…",
@@ -628,7 +630,7 @@
             {
               "number": "02",
               "image": "/landing-pages/nest/nest-how-review-human.webp",
-              "alt": "sarang dan pengulas manusia dengan hati-hati mempertimbangkan satu penjual dan satu pembeli yang memenuhi syarat",
+              "alt": "Nest dan peninjau manusia dengan cermat mempertimbangkan satu penjual dan satu pembeli yang memenuhi syarat",
               "title": "Menerima satu pembeli cocok pada satu waktu.",
               "body": "Seseorang meninjau setiap proposal sebelum kedua belah pihak melihatnya. Tidak ada paparan publik atau aliran kesepakatan massal.",
               "badge": "Disetujui oleh manusia"
@@ -636,7 +638,7 @@
             {
               "number": "03",
               "image": "/landing-pages/nest/nest-how-introduction-human.webp",
-              "alt": "NEST memperkenalkan pemilik rumah dan calon pembeli setelah persetujuan bersama",
+              "alt": "Nest memperkenalkan pemilik rumah dan calon pembeli setelah adanya persetujuan bersama",
               "title": "Buka kunci perkenalan bersama.",
               "body": "Setelah kedua belah pihak menerima, detail kontak, alamat yang tepat, dan waktu penayangan yang diusulkan dibagikan secara pribadi."
             }
@@ -701,7 +703,7 @@
             {
               "key": "privateConstraints",
               "label": "Kendala pribadi",
-              "placeholder": "Sarang apa pun harus tetap pribadi",
+              "placeholder": "Segala sesuatu yang Nest harus dirahasiakan",
               "type": "textarea",
               "required": false
             }
@@ -711,23 +713,23 @@
             "enabled": true,
             "kicker": "Business impact",
             "heading": "ROI Calculator",
-            "subheading": "Model a licensed second-home agent or brokerage using Nest for qualified, human-reviewed introductions in one local market.",
-            "disclaimer": "A modeled operating scenario with zero validated paid demand. Nest qualifies and coordinates consented introductions; it does not represent parties, value property, negotiate, earn commissions or guarantee a transaction.",
+            "subheading": "Buat model agen atau pialang rumah kedua berlisensi menggunakan Nest untuk pengenalan yang memenuhi syarat dan ditinjau oleh manusia di satu pasar lokal.",
+            "disclaimer": "Skenario operasi yang dimodelkan dengan nol permintaan berbayar yang tervalidasi. Nest memenuhi syarat dan mengoordinasikan pengenalan yang disetujui; ia tidak mewakili para pihak, menilai properti, bernegosiasi, mendapatkan komisi, atau menjamin suatu transaksi.",
             "currency": "EUR",
             "currencyCopy": {
               "native": "Amounts in {currency}.",
               "loading": "Checking the local currency. Amounts remain in {currency} until a rate is available.",
               "unavailable": "A current local exchange rate is unavailable. Amounts remain in {currency}.",
               "converted": "Amounts converted from {base} to {currency} using the reference rate dated {date}.",
-              "basis": "Currency conversion is not local cost research. Enter your own local costs and contribution assumptions. Language changes do not change amounts."
+              "basis": "Konversi mata uang bukanlah penelitian biaya lokal. Masukkan asumsi biaya dan kontribusi lokal Anda sendiri. Perubahan bahasa tidak mengubah jumlah."
             },
             "costCopy": {
-              "breakdown": "How the all-in AI cost is built",
+              "breakdown": "Bagaimana biaya AI menyeluruh dibangun",
               "perUnit": "{amount} per work unit (average)",
-              "budgetOnly": "This is your total budget. Switch to Cost breakdown to itemize it; no split has been assumed.",
-              "benefitNotice": "Modeled benefits, not charges. Crossed-out amounts are spending you expect to avoid, not discounts on the AI bill.",
+              "budgetOnly": "Ini adalah total anggaran Anda. Beralih ke Perincian biaya untuk memerincinya; tidak ada perpecahan yang diasumsikan.",
+              "benefitNotice": "Manfaat sesuai model, bukan biaya. Jumlah yang dicoret adalah pengeluaran yang ingin Anda hindari, bukan diskon pada tagihan AI.",
               "remainder": "Other included operating costs",
-              "allocation": "Returned hours are capacity, not automatic savings. Only the portions you assign to actual spending reductions or additional contribution receive a monetary value."
+              "allocation": "Jam yang dikembalikan adalah kapasitas, bukan penghematan otomatis. Hanya porsi yang Anda tetapkan untuk pengurangan pengeluaran aktual atau kontribusi tambahan yang menerima nilai uang."
             },
             "locale": "en-GB",
             "inputs": [],
@@ -749,14 +751,14 @@
                 "customer_price": 750
               },
               "copy": {
-                "navLabel": "Harga",
+                "navLabel": "Kalkulasi harga",
                 "workloadStep": "Introduction funnel",
                 "costStep": "AI operating cost",
                 "valueStep": "Capacity and evidence",
-                "workloadIntro": "Model second-home leads, qualification and human review—not property sales, commissions or guaranteed matches.",
-                "costIntro": "Token, model, tool, infrastructure, platform and reviewer costs are delivery assumptions. Nest price is a separate unvalidated hypothesis.",
-                "valueIntro": "Capacity is not revenue. Enter observed contribution only after a real agent or brokerage uses and pays for the service.",
-                "sampleNotice": "Typical usage · not observed results",
+                "workloadIntro": "Buat model prospek rumah kedua, kualifikasi, dan tinjauan manusia—bukan penjualan properti, komisi, atau jaminan kecocokan.",
+                "costIntro": "Biaya token, model, alat, infrastruktur, platform, dan peninjau adalah asumsi penyampaian. Harga Nest adalah hipotesis terpisah yang tidak divalidasi.",
+                "valueIntro": "Kapasitas bukanlah pendapatan. Masukkan kontribusi yang diamati hanya setelah agen atau pialang nyata menggunakan dan membayar layanan tersebut.",
+                "sampleNotice": "Penggunaan umum · hasil tidak teramati",
                 "monthly": "Monthly",
                 "yearly": "Yearly",
                 "next": "Continue",
@@ -781,11 +783,11 @@
                 "reviewMode": "Who handles the review?",
                 "teamReview": "Existing team",
                 "paidReview": "Additional paid reviewer",
-                "reviewNote": "Existing-team review uses returned capacity. Additional paid review is included in operating cost, not deducted again from team capacity.",
+                "reviewNote": "Tinjauan tim yang ada menggunakan kapasitas yang dikembalikan. Tambahan tinjauan berbayar sudah termasuk dalam biaya operasional, tidak dipotong lagi dari kapasitas tim.",
                 "totalMode": "Monthly budget",
                 "itemizedMode": "Cost breakdown",
-                "budgetNote": "The budget must include models/media, tools, infrastructure, Gabriel fees and additional paid review. Do not include unchanged payroll as new spending.",
-                "itemizedNote": "Token usage is calculated from volume × tokens per output. Extra media, tools and infrastructure stay at zero unless they apply. Additional paid review is calculated from review hours and its rate.",
+                "budgetNote": "Anggaran harus mencakup model/media, alat, infrastruktur, biaya Gabriel, dan ulasan berbayar tambahan. Jangan sertakan gaji yang tidak berubah sebagai pengeluaran baru.",
+                "itemizedNote": "Penggunaan token dihitung dari volume × token per output. Media, peralatan, dan infrastruktur tambahan tidak akan ada kecuali jika diterapkan. Tambahan ulasan berbayar dihitung dari jam ulasan dan tarifnya.",
                 "paidReviewCost": "Additional paid review cost",
                 "allInCost": "Operating cost",
                 "missing": "Add your assumptions",
@@ -794,36 +796,36 @@
                 "expectedLoss": "Expected loss reduction",
                 "riskValue": "Uncertain risk value included",
                 "economicValue": "Modeled contribution",
-                "netBenefit": "Modeled benefit after Nest price",
+                "netBenefit": "Manfaat sesuai model setelah harga Nest",
                 "multiple": "Internal delivery multiple",
                 "customerBenefit": "Modeled agent benefit",
                 "customerRoi": "Modeled customer ROI",
                 "payback": "Customer payback period",
                 "notApplicable": "Not applicable",
                 "annual": "Annual view",
-                "annualNote": "The same monthly assumptions, without growth or compounding. Hiring savings last only for the entered period.",
+                "annualNote": "Asumsi bulanan yang sama, tanpa pertumbuhan atau penambahan. Tabungan sewa hanya berlaku untuk periode yang dimasukkan.",
                 "method": "How this is calculated",
                 "burdenHeading": "Repetitive work reduced",
                 "opportunityHeading": "Capacity for higher-value work",
-                "methodBody": "Operating burden removed (negative productivity) returns capacity. Higher-value work (potential positive productivity) creates economic value only if that capacity is used. Hours alone are not cash savings. Token cost uses a modeled input/output mix, not a provider quote.",
-                "formulaLabel": "Qualified briefs = leads × qualification rate. Delivery cost includes modeled token, model, tool, infrastructure, platform and human-review cost. Customer ROI remains unavailable until benefit and price are supported by evidence.",
-                "allocationNote": "Each hour can be allocated once. Unallocated hours remain capacity, with no monetary value.",
-                "overlapLabel": "These benefits are distinct; I have excluded costs and losses already counted elsewhere.",
-                "overlapNote": "Error and risk estimates exclude labor savings and the same incident must not appear in both categories. Contribution excludes AI costs, which are deducted separately.",
-                "hiringLabel": "This hire was genuinely planned and the allocated capacity can cover the work.",
-                "reviewedLabel": "I have reviewed my outcomes; unselected outcomes have no financial value in this estimate.",
+                "methodBody": "Beban operasional dihilangkan (produktivitas negatif) mengembalikan kapasitas. Pekerjaan bernilai lebih tinggi (potensi produktivitas positif) menciptakan nilai ekonomi hanya jika kapasitas tersebut digunakan. Jam kerja saja bukanlah penghematan uang tunai. Biaya token menggunakan campuran input/output yang dimodelkan, bukan penawaran penyedia.",
+                "formulaLabel": "Pengarahan yang memenuhi syarat = prospek × tingkat kualifikasi. Biaya pengiriman termasuk token yang dimodelkan, model, alat, infrastruktur, platform, dan biaya peninjauan manusia. ROI Pelanggan tetap tidak tersedia sampai manfaat dan harga didukung oleh bukti.",
+                "allocationNote": "Setiap jam dapat dialokasikan satu kali. Jam yang tidak dialokasikan tetap merupakan kapasitas, tanpa nilai uang.",
+                "overlapLabel": "Manfaat-manfaat ini berbeda; Saya telah mengecualikan biaya dan kerugian yang sudah dihitung di tempat lain.",
+                "overlapNote": "Perkiraan kesalahan dan risiko tidak termasuk penghematan tenaga kerja dan insiden yang sama tidak boleh muncul di kedua kategori. Kontribusi tidak termasuk biaya AI, yang dipotong secara terpisah.",
+                "hiringLabel": "Penyewaan ini benar-benar direncanakan dan kapasitas yang dialokasikan dapat menutupi pekerjaan tersebut.",
+                "reviewedLabel": "Saya telah meninjau hasil saya; hasil yang tidak dipilih tidak memiliki nilai finansial dalam perkiraan ini.",
                 "cycleResult": "Cycle-time improvement",
-                "throughputResult": "Additional work supported by capacity and demand",
-                "assumptionsIncomplete": "Complete the selected assumptions to calculate financial value.",
-                "allocationError": "Allocated hours exceed the net capacity available. Reduce the allocations.",
-                "reviewError": "Review takes more time than the work reduced. No positive capacity is available at these assumptions.",
-                "cashError": "Avoided spending cannot exceed current spending or have positive value with no hours allocated.",
-                "hiringError": "Allocated capacity must cover the planned hire hours. Confirm the planned hire and its duration.",
-                "riskError": "The after probability cannot exceed the before probability for a loss-reduction estimate.",
-                "overlapError": "Confirm the benefits do not overlap before including them in the financial result.",
-                "boundsError": "Use values within the displayed limits.",
+                "throughputResult": "Pekerjaan tambahan didukung oleh kapasitas dan permintaan",
+                "assumptionsIncomplete": "Lengkapi asumsi yang dipilih untuk menghitung nilai finansial.",
+                "allocationError": "Jam yang dialokasikan melebihi kapasitas bersih yang tersedia. Kurangi alokasinya.",
+                "reviewError": "Peninjauan membutuhkan lebih banyak waktu daripada pengurangan pekerjaan. Tidak ada kapasitas positif yang tersedia pada asumsi ini.",
+                "cashError": "Pengeluaran yang dihindari tidak boleh melebihi pengeluaran saat ini atau mempunyai nilai positif tanpa alokasi jam kerja.",
+                "hiringError": "Kapasitas yang dialokasikan harus mencakup jam kerja yang direncanakan. Konfirmasikan rencana sewa dan durasinya.",
+                "riskError": "Probabilitas setelahnya tidak boleh melebihi probabilitas sebelum untuk estimasi pengurangan kerugian.",
+                "overlapError": "Pastikan manfaatnya tidak tumpang tindih sebelum memasukkannya ke dalam hasil keuangan.",
+                "boundsError": "Gunakan nilai dalam batas yang ditampilkan.",
                 "rangeLabel": "Adjust value",
-                "noCurrencyChange": "Language changes formatting, not your currency or assumptions.",
+                "noCurrencyChange": "Bahasa mengubah format, bukan mata uang atau asumsi Anda.",
                 "currentPreparation": "Jam persiapan saat ini",
                 "reviewHours": "Jam Tinjauan Manusia",
                 "reworkHours": "Menghindari atau menambahkan jam pengerjaan ulang",
@@ -839,148 +841,148 @@
               },
               "fields": {
                 "volume": {
-                  "label": "Leads or briefs entering the desk each month",
-                  "help": "Count inbound second-home enquiries in the selected market, not property transactions."
+                  "label": "Leads atau briefs memasuki meja setiap bulan",
+                  "help": "Hitung permintaan masuk rumah kedua di pasar yang dipilih, bukan transaksi properti."
                 },
                 "accepted_rate": {
                   "label": "Share becoming qualified briefs",
-                  "help": "A modeled qualification rate. Replace it with observed funnel data after a pilot."
+                  "help": "Tingkat kualifikasi yang dimodelkan. Gantikan dengan data corong yang diamati setelah uji coba."
                 },
                 "attendance_rate": {
                   "label": "Expected attendance rate",
-                  "help": "Modeled share of accepted meetings expected to happen. Replace this with verified event records after a pilot."
+                  "help": "Bagian model dari pertemuan yang diterima diharapkan akan terjadi. Gantikan ini dengan catatan peristiwa terverifikasi setelah uji coba."
                 },
                 "minutes": {
-                  "label": "Minutes to qualify one seller brief today",
-                  "help": "Active intake and qualification time, excluding elapsed days and property-search time."
+                  "label": "Menit untuk memenuhi syarat satu penjual singkat hari ini",
+                  "help": "Waktu penerimaan dan kualifikasi aktif, tidak termasuk hari yang telah berlalu dan waktu pencarian properti."
                 },
                 "automation": {
-                  "label": "Share of that work reduced",
-                  "help": "An illustrative assumption to validate in a pilot, not a performance promise."
+                  "label": "Bagian dari pekerjaan itu berkurang",
+                  "help": "Asumsi ilustratif untuk divalidasi dalam uji coba, bukan janji kinerja."
                 },
                 "review": {
-                  "label": "Minutes a reviewer spends confirming each brief",
-                  "help": "Human review still required before either side sees a proposal."
+                  "label": "Menit yang dihabiskan pengulas untuk mengonfirmasi setiap laporan singkat",
+                  "help": "Tinjauan manusia masih diperlukan sebelum kedua belah pihak melihat proposal."
                 },
                 "cycles_per_unit": {
-                  "label": "Cycles per unit each month",
-                  "help": "How many recurring order, review or processing cycles each unit runs in a typical month."
+                  "label": "Siklus per unit setiap bulan",
+                  "help": "Berapa banyak siklus pemesanan, peninjauan, atau pemrosesan berulang yang dijalankan setiap unit dalam satu bulan tertentu."
                 },
                 "tokens_per_output": {
-                  "label": "Tokens per qualified seller brief",
-                  "help": "Modeled input and output tokens for one reviewable brief; provider usage must replace this hypothesis."
+                  "label": "Token per ringkasan penjual yang memenuhi syarat",
+                  "help": "Token masukan dan keluaran yang dimodelkan untuk satu laporan singkat yang dapat ditinjau; penggunaan penyedia harus menggantikan hipotesis ini."
                 },
                 "budget": {
                   "label": "Estimated monthly operating budget",
-                  "help": "Include token usage, models/media, tools, infrastructure, Gabriel fees and additional paid review."
+                  "help": "Sertakan penggunaan token, model/media, alat, infrastruktur, biaya Gabriel, dan ulasan berbayar tambahan."
                 },
                 "model_cost": {
-                  "label": "Additional model or media cost",
-                  "help": "Enter separately billed models or media. Leave zero when included in the token envelope."
+                  "label": "Biaya model atau media tambahan",
+                  "help": "Masukkan model atau media dengan tagihan terpisah. Sisakan angka nol jika dimasukkan ke dalam amplop token."
                 },
                 "tools_cost": {
                   "label": "Tools and integrations",
-                  "help": "Browser sessions, connectors and other metered services. Enter zero if none."
+                  "help": "Sesi browser, konektor, dan layanan terukur lainnya. Masukkan nol jika tidak ada."
                 },
                 "infrastructure_cost": {
                   "label": "Infrastructure",
-                  "help": "Incremental hosting, storage and compute for this workload. Enter zero if none."
+                  "help": "Hosting, penyimpanan, dan komputasi tambahan untuk beban kerja ini. Masukkan nol jika tidak ada."
                 },
                 "platform_cost": {
-                  "label": "Other delivery and support cost",
-                  "help": "Modeled hosting, storage, monitoring and support cost, separate from the customer price."
+                  "label": "Biaya pengiriman dan dukungan lainnya",
+                  "help": "Biaya hosting, penyimpanan, pemantauan, dan dukungan yang dimodelkan, terpisah dari harga pelanggan."
                 },
                 "customer_price": {
                   "label": "Proposed monthly Nest price",
-                  "help": "Editable agent/brokerage pricing hypothesis. It is not validated revenue and must be tested in a paid pilot."
+                  "help": "Hipotesis harga agen/broker yang dapat diedit. Ini bukan pendapatan yang divalidasi dan harus diuji dalam uji coba berbayar."
                 },
                 "personal_value_per_hour": {
-                  "label": "Optional value you assign to an hour",
-                  "help": "An optional personal comparison only. This is not salary, wages or guaranteed cash savings."
+                  "label": "Nilai opsional yang Anda tetapkan untuk satu jam",
+                  "help": "Hanya perbandingan pribadi opsional. Ini bukan gaji, upah, atau jaminan tabungan tunai."
                 },
                 "review_rate": {
-                  "label": "Additional paid review per hour",
-                  "help": "Actual extra reviewer spending, not the salary of an unchanged employee."
+                  "label": "Ulasan berbayar tambahan per jam",
+                  "help": "Pengeluaran ekstra reviewer sebenarnya, bukan gaji karyawan yang tidak berubah."
                 },
                 "cash_hours": {
-                  "label": "Hours that remove paid work",
-                  "help": "Allocate only work whose overtime, contractor or processing spend will actually stop."
+                  "label": "Jam yang menghapus pekerjaan berbayar",
+                  "help": "Alokasikan hanya pekerjaan yang pengeluaran lembur, kontraktor, atau pemrosesannya akan benar-benar dihentikan."
                 },
                 "cash_baseline": {
-                  "label": "Current monthly spending on that work",
-                  "help": "The cash budget from which the reduction will come."
+                  "label": "Pengeluaran bulanan saat ini untuk pekerjaan itu",
+                  "help": "Anggaran kas dari mana pengurangan akan terjadi."
                 },
                 "cash_avoided": {
-                  "label": "Monthly spending you would stop",
-                  "help": "One explicit amount, not hours multiplied by salary; exclude any planned-hire saving entered separately."
+                  "label": "Pengeluaran bulanan Anda akan berhenti",
+                  "help": "Satu jumlah yang jelas, bukan jam dikalikan gaji; mengecualikan penghematan sewa yang direncanakan yang dimasukkan secara terpisah."
                 },
                 "higher_value_hours": {
-                  "label": "Hours agents can use for real conversations",
-                  "help": "Only capacity with observed demand receives an economic value."
+                  "label": "Jam kerja yang dapat digunakan agen untuk percakapan nyata",
+                  "help": "Hanya kapasitas dengan permintaan yang teramati yang menerima nilai ekonomi."
                 },
                 "contribution_rate": {
-                  "label": "Incremental contribution per agent hour",
-                  "help": "Contribution from additional work, excluding property value, commissions and costs already counted."
+                  "label": "Kontribusi tambahan per jam agen",
+                  "help": "Kontribusi dari pekerjaan tambahan, tidak termasuk nilai properti, komisi dan biaya sudah dihitung."
                 },
                 "throughput_hours": {
-                  "label": "Hours used for additional volume",
-                  "help": "This allocation cannot also be used for advisory work or spending reductions."
+                  "label": "Jam digunakan untuk volume tambahan",
+                  "help": "Alokasi ini juga tidak dapat digunakan untuk pekerjaan konsultasi atau pengurangan belanja."
                 },
                 "extra_minutes": {
-                  "label": "Team minutes per additional unit",
-                  "help": "The remaining human effort, including review, needed to deliver one more unit."
+                  "label": "Menit tim per unit tambahan",
+                  "help": "Upaya manusia yang tersisa, termasuk peninjauan, diperlukan untuk menghasilkan satu unit lagi."
                 },
                 "demand": {
-                  "label": "Additional units with expected demand",
-                  "help": "Capacity alone is not demand. Enter the extra monthly work you expect to take on."
+                  "label": "Unit tambahan dengan permintaan yang diharapkan",
+                  "help": "Kapasitas saja bukanlah permintaan. Masukkan pekerjaan tambahan bulanan yang ingin Anda lakukan."
                 },
                 "unit_margin": {
                   "label": "Contribution per additional unit",
-                  "help": "Incremental revenue less delivery costs; AI operating costs are deducted separately."
+                  "help": "Pendapatan tambahan dikurangi biaya pengiriman; Biaya operasional AI dipotong secara terpisah."
                 },
                 "hiring_hours": {
-                  "label": "Hours covering the planned hire",
-                  "help": "Allocate capacity to specific planned work, not a generic full-time-equivalent estimate."
+                  "label": "Jam yang mencakup sewa yang direncanakan",
+                  "help": "Alokasikan kapasitas untuk pekerjaan terencana tertentu, bukan perkiraan umum yang setara dengan pekerjaan penuh waktu."
                 },
                 "planned_hours": {
-                  "label": "Monthly hours the planned hire would cover",
-                  "help": "The allocated capacity must cover this entire workload."
+                  "label": "Jam bulanan yang akan dicakup oleh sewa yang direncanakan",
+                  "help": "Kapasitas yang dialokasikan harus mencakup seluruh beban kerja ini."
                 },
                 "hire_cost": {
-                  "label": "Monthly hire cost actually deferred",
-                  "help": "Use the cost of a genuinely planned hire, not the salary of someone already employed."
+                  "label": "Biaya sewa bulanan sebenarnya ditangguhkan",
+                  "help": "Gunakan biaya sewa yang benar-benar direncanakan, bukan gaji seseorang yang sudah bekerja."
                 },
                 "hire_months": {
-                  "label": "Months that hire is deferred",
-                  "help": "One to twelve months; the annual estimate stops counting savings after this period."
+                  "label": "Bulan-bulan perekrutan ditangguhkan",
+                  "help": "Satu sampai dua belas bulan; perkiraan tahunan berhenti menghitung tabungan setelah periode ini."
                 },
                 "incidents": {
-                  "label": "Expected avoided errors per month",
-                  "help": "Use your baseline and expected reduction. Exclude incidents also counted as risk reduction."
+                  "label": "Diharapkan menghindari kesalahan per bulan",
+                  "help": "Gunakan baseline Anda dan pengurangan yang diharapkan. Kecualikan insiden juga dihitung sebagai pengurangan risiko."
                 },
                 "incident_cost": {
                   "label": "Incremental cost per error",
-                  "help": "Exclude labor, refunds or other losses already included elsewhere."
+                  "help": "Tidak termasuk tenaga kerja, pengembalian uang, atau kerugian lain yang sudah termasuk di tempat lain."
                 },
                 "probability_before": {
                   "label": "Monthly loss probability before",
-                  "help": "Your estimate, not a guaranteed risk assessment."
+                  "help": "Perkiraan Anda, bukan penilaian risiko yang dijamin."
                 },
                 "probability_after": {
                   "label": "Monthly loss probability after",
-                  "help": "Use the same event and monthly time horizon as the baseline."
+                  "help": "Gunakan peristiwa dan jangka waktu bulanan yang sama sebagai garis dasar."
                 },
                 "loss": {
-                  "label": "Loss exposure for that event",
-                  "help": "Exclude error incidents and spending already counted. This is uncertain expected value, not cash saved."
+                  "label": "Eksposur kerugian untuk kejadian tersebut",
+                  "help": "Kecualikan insiden kesalahan dan pengeluaran sudah dihitung. Ini adalah nilai yang diperkirakan tidak pasti, bukan uang tunai yang dihemat."
                 },
                 "days_before": {
-                  "label": "Cycle time before, in days",
-                  "help": "Elapsed time from start to completion, separate from hands-on effort."
+                  "label": "Waktu siklus sebelumnya, dalam beberapa hari",
+                  "help": "Waktu yang berlalu dari awal hingga selesai, terpisah dari upaya langsung."
                 },
                 "days_after": {
-                  "label": "Cycle time after, in days",
-                  "help": "Shown as an operational change only, without an assumed monetary value."
+                  "label": "Waktu siklus setelahnya, dalam beberapa hari",
+                  "help": "Ditampilkan sebagai perubahan operasional saja, tanpa asumsi nilai moneter."
                 }
               },
               "burden": [
@@ -989,7 +991,7 @@
               ],
               "opportunity": [
                 "More qualified, human-reviewed introductions",
-                "Time for agent conversations and client needs"
+                "Saatnya untuk percakapan agen dan kebutuhan klien"
               ],
               "usagePackages": {
                 "base": {
@@ -1039,14 +1041,19 @@
                 {
                   "id": "higher_value",
                   "label": "Keep agents on conversations",
-                  "help": "Enter only capacity that can be redirected to real agent or brokerage work; do not treat property value or commission as Nest revenue."
+                  "help": "Masukkan hanya kapasitas yang dapat dialihkan ke pekerjaan agen atau pialang nyata; jangan memperlakukan nilai properti atau komisi sebagai pendapatan Nest."
+                },
+                {
+                  "id": "cash",
+                  "label": "Kurangi dukungan asupan berbayar",
+                  "help": "Kurangi pengeluaran lembur atau kontraktor untuk penerimaan singkat penjual secara manual — bukan gaji yang tidak berubah."
                 }
               ],
               "tabs": [
                 {
                   "id": "funnel",
                   "label": "Introduction funnel",
-                  "intro": "Model leads entering the agent or brokerage desk, qualification, and human review.",
+                  "intro": "Model prospek memasuki meja agen atau pialang, kualifikasi, dan tinjauan manusia.",
                   "fields": [
                     "volume",
                     "accepted_rate",
@@ -1057,7 +1064,7 @@
                 {
                   "id": "costs",
                   "label": "AI operating cost",
-                  "intro": "Keep model, token, tool, infrastructure, platform and reviewer costs separate from the proposed customer price.",
+                  "intro": "Pisahkan biaya model, token, alat, infrastruktur, platform, dan peninjau dari harga pelanggan yang diusulkan.",
                   "fields": [
                     "tokens_per_output",
                     "model_cost",
@@ -1071,7 +1078,7 @@
                 {
                   "id": "capacity",
                   "label": "Capacity and evidence",
-                  "intro": "Returned capacity is not revenue. Financial results remain insufficient until a payer, price and delivery evidence are recorded.",
+                  "intro": "Kapasitas yang dikembalikan bukanlah pendapatan. Hasil keuangan tetap tidak mencukupi sampai bukti pembayar, harga dan pengiriman dicatat.",
                   "fields": [
                     "higher_value_hours",
                     "contribution_rate"
@@ -1084,7 +1091,7 @@
                 "basis": "fixed",
                 "annualPrice": 9000,
                 "label": "Proposed Nest monthly price",
-                "help": "A €750/month working hypothesis for a qualified-introduction pilot. Treat as unvalidated until an agent or brokerage pays."
+                "help": "Hipotesis kerja senilai €750/bulan untuk uji coba pengenalan yang memenuhi syarat. Perlakukan sebagai tidak divalidasi sampai agen atau pialang membayar."
               },
               "presentation": {
                 "financial": "optional",
@@ -1096,7 +1103,7 @@
               "primaryLabel": "Talk with Nest",
               "primaryTarget": "meet",
               "secondaryLabel": "See how it works",
-              "privacyNote": "Your data stays private. Hours are capacity. Financial amounts are modeled estimates, not observed results.",
+              "privacyNote": "Data Anda tetap pribadi. Jam adalah kapasitas. Jumlah finansial merupakan estimasi yang dimodelkan, bukan hasil observasi.",
               "secondaryTarget": "how-it-works"
             }
           }
@@ -1113,10 +1120,10 @@
         "backgroundImage": "/landing-pages/nest/nest-hero-interior-clean.png",
         "backgroundAlt": "Interior rumah yang hangat dan tenang",
         "primaryCtaLabel": "Talk with Nest",
-        "secondaryCtaLabel": "meminta perkenalan",
+        "secondaryCtaLabel": "Temui Nest",
         "privacyLine": "satu pertandingan pada satu waktu. ditinjau oleh manusia. pribadi sampai kedua belah pihak ikut serta.",
         "characterImage": "/landing-pages/nest/nest-character-meet-compact-high-wings-transparent.png",
-        "characterAlt": "Sarang memegang notebook dan kunci dengan sayap kompak",
+        "characterAlt": "Nest memegang buku catatan dan kunci dengan sayap kompak",
         "chat": {
           "statusLabel": "Online · Manusia diawasi",
           "privacyBadge": "Pribadi",
@@ -1137,7 +1144,7 @@
           "reviewHeading": "Tinjau brief pribadi Anda",
           "reviewBody": "Tidak ada yang bertahan, dicari, diusulkan, atau dibagikan saat Anda anonim.",
           "submitLabel": "Masuk untuk peninjauan manusia",
-          "loginNotice": "Masuk untuk memindahkan brief rumah pribadi ini ke ruang kerja sarang Anda untuk ulasan manusia yang diautentikasi.",
+          "loginNotice": "Masuk untuk memindahkan ringkasan rumah pribadi ini ke ruang kerja Nest Anda untuk peninjauan manusia yang diautentikasi.",
           "expiryCopy": "Celana dalam yang tidak terkirim kedaluwarsa setelah satu jam.",
           "privacyCopy": "Tidak ada pencarian peserta, berbagi alamat yang tepat, atau pengungkapan kontak saat anonim.",
           "errorCopy": "Nest tidak dapat menyimpan brief ini. Silakan coba lagi atau masuk."
@@ -1162,7 +1169,7 @@
       "privacy": {
         "kicker": "Privasi adalah urutannya",
         "heading": "Alamat Anda tetap pribadi sampai Anda berdua mengatakan ya.",
-        "body": "Sarang dimulai dengan area seukuran lingkungan. Identitas, detail kontak, dan alamat yang tepat tetap terkunci melalui proposal dan tahapan persetujuan bersama.",
+        "body": "Nest dimulai dengan area seukuran lingkungan. Identitas, detail kontak, dan alamat persisnya tetap terkunci melalui tahap proposal dan persetujuan bersama.",
         "stages": [
           {
             "status": "proposed",
@@ -1196,7 +1203,7 @@
       "proposals": {
         "kicker": "Seperti apa proposal itu?",
         "heading": "dua sisi. satu dianggap cocok.",
-        "body": "Kartu contoh ini menunjukkan bentuk proposal sarang. Mereka tidak pernah mengekspos identitas atau alamat yang tepat sebelum persetujuan bersama.",
+        "body": "Contoh kartu ini menunjukkan bentuk proposal Nest. Mereka tidak pernah membeberkan identitas atau alamat persisnya sebelum ada persetujuan bersama.",
         "cards": [
           {
             "pairing": "Pembeli × Properti",
@@ -1233,11 +1240,11 @@
         ]
       },
       "meet": {
-        "kicker": "meminta perkenalan",
+        "kicker": "Temui Nest",
         "heading": "pencetus detail di sudut Anda.",
         "body": "Nest mendengarkan di luar brief yang jelas: cahaya pagi yang Anda sukai, waktu yang tidak dapat Anda gerakkan, satu kompromi yang sebenarnya bukan kompromi. Kemudian sarang membawa kembali satu yang dianggap fit.",
         "characterImage": "/landing-pages/nest/nest-character-meet-compact-high-wings-transparent.png",
-        "characterAlt": "Temui sarang, pegang buku catatan dan kunci dengan sayap kompak terangkat di belakang bahu atas",
+        "characterAlt": "Temui Nest, memegang buku catatan dan kunci dengan sayap kompak terangkat di belakang bahu atas",
         "principles": [
           {
             "title": "Mendengarkan dulu",
@@ -1252,15 +1259,15 @@
             "body": "Identitas dan alamat yang tepat tetap pribadi sampai persetujuan bersama."
           }
         ],
-        "primaryCtaLabel": "berbicara dengan sarang",
+        "primaryCtaLabel": "Bicaralah dengan Nest",
         "secondaryCtaLabel": "See how it works"
       },
       "footer": {
-        "brandLabel": "sarang.",
+        "brandLabel": "Nest.",
         "tagline": "Satu perkenalan rumah yang hati-hati pada satu waktu.",
         "disclaimer": "Nest bukan perantara berlisensi dan tidak mewakili salah satu pihak, bernegosiasi, menghargai rumah Anda, atau menangani transaksi Anda. Saat Anda siap untuk bergerak maju, kami menghubungkan Anda dengan agen lokal berlisensi untuk menyelesaikan prosesnya. Not a broker. Does not represent either party. Does not provide valuations. Does not negotiate.",
-        "eventDisclaimer": "Detail rumah kedua dimodelkan untuk instantiasi sarang ini dan harus diverifikasi sebelum kehadiran.",
-        "copyright": "© 2026 Sarang",
+        "eventDisclaimer": "Detail Second Home Fair dimodelkan untuk contoh Nest ini dan harus diverifikasi sebelum kehadiran.",
+        "copyright": "© 2026 Nest",
         "groups": [
           {
             "label": "Menjelajah",
@@ -1280,10 +1287,10 @@
             ]
           },
           {
-            "label": "Sarang",
+            "label": "Nest",
             "links": [
               {
-                "label": "meminta perkenalan",
+                "label": "Temui Nest",
                 "target": "meet"
               },
               {
@@ -1300,23 +1307,23 @@
       "enabled": true,
       "kicker": "Business impact",
       "heading": "ROI Calculator",
-      "subheading": "Model a licensed second-home agent or brokerage using Nest for qualified, human-reviewed introductions in one local market.",
-      "disclaimer": "A modeled operating scenario with zero validated paid demand. Nest qualifies and coordinates consented introductions; it does not represent parties, value property, negotiate, earn commissions or guarantee a transaction.",
+      "subheading": "Buat model agen atau pialang rumah kedua berlisensi menggunakan Nest untuk pengenalan yang memenuhi syarat dan ditinjau oleh manusia di satu pasar lokal.",
+      "disclaimer": "Skenario operasi yang dimodelkan dengan nol permintaan berbayar yang tervalidasi. Nest memenuhi syarat dan mengoordinasikan pengenalan yang disetujui; ia tidak mewakili para pihak, menilai properti, bernegosiasi, mendapatkan komisi, atau menjamin suatu transaksi.",
       "currency": "EUR",
       "currencyCopy": {
         "native": "Amounts in {currency}.",
         "loading": "Checking the local currency. Amounts remain in {currency} until a rate is available.",
         "unavailable": "A current local exchange rate is unavailable. Amounts remain in {currency}.",
         "converted": "Amounts converted from {base} to {currency} using the reference rate dated {date}.",
-        "basis": "Currency conversion is not local cost research. Enter your own local costs and contribution assumptions. Language changes do not change amounts."
+        "basis": "Konversi mata uang bukanlah penelitian biaya lokal. Masukkan asumsi biaya dan kontribusi lokal Anda sendiri. Perubahan bahasa tidak mengubah jumlah."
       },
       "costCopy": {
-        "breakdown": "How the all-in AI cost is built",
+        "breakdown": "Bagaimana biaya AI menyeluruh dibangun",
         "perUnit": "{amount} per work unit (average)",
-        "budgetOnly": "This is your total budget. Switch to Cost breakdown to itemize it; no split has been assumed.",
-        "benefitNotice": "Modeled benefits, not charges. Crossed-out amounts are spending you expect to avoid, not discounts on the AI bill.",
+        "budgetOnly": "Ini adalah total anggaran Anda. Beralih ke Perincian biaya untuk memerincinya; tidak ada perpecahan yang diasumsikan.",
+        "benefitNotice": "Manfaat sesuai model, bukan biaya. Jumlah yang dicoret adalah pengeluaran yang ingin Anda hindari, bukan diskon pada tagihan AI.",
         "remainder": "Other included operating costs",
-        "allocation": "Returned hours are capacity, not automatic savings. Only the portions you assign to actual spending reductions or additional contribution receive a monetary value."
+        "allocation": "Jam yang dikembalikan adalah kapasitas, bukan penghematan otomatis. Hanya porsi yang Anda tetapkan untuk pengurangan pengeluaran aktual atau kontribusi tambahan yang menerima nilai uang."
       },
       "locale": "en-GB",
       "inputs": [],
@@ -1338,14 +1345,14 @@
           "customer_price": 750
         },
         "copy": {
-          "navLabel": "Harga",
+          "navLabel": "Kalkulasi harga",
           "workloadStep": "Introduction funnel",
           "costStep": "AI operating cost",
           "valueStep": "Capacity and evidence",
-          "workloadIntro": "Model second-home leads, qualification and human review—not property sales, commissions or guaranteed matches.",
-          "costIntro": "Token, model, tool, infrastructure, platform and reviewer costs are delivery assumptions. Nest price is a separate unvalidated hypothesis.",
-          "valueIntro": "Capacity is not revenue. Enter observed contribution only after a real agent or brokerage uses and pays for the service.",
-          "sampleNotice": "Typical usage · not observed results",
+          "workloadIntro": "Buat model prospek rumah kedua, kualifikasi, dan tinjauan manusia—bukan penjualan properti, komisi, atau jaminan kecocokan.",
+          "costIntro": "Biaya token, model, alat, infrastruktur, platform, dan peninjau adalah asumsi penyampaian. Harga Nest adalah hipotesis terpisah yang tidak divalidasi.",
+          "valueIntro": "Kapasitas bukanlah pendapatan. Masukkan kontribusi yang diamati hanya setelah agen atau pialang nyata menggunakan dan membayar layanan tersebut.",
+          "sampleNotice": "Penggunaan umum · hasil tidak teramati",
           "monthly": "Monthly",
           "yearly": "Yearly",
           "next": "Continue",
@@ -1370,11 +1377,11 @@
           "reviewMode": "Who handles the review?",
           "teamReview": "Existing team",
           "paidReview": "Additional paid reviewer",
-          "reviewNote": "Existing-team review uses returned capacity. Additional paid review is included in operating cost, not deducted again from team capacity.",
+          "reviewNote": "Tinjauan tim yang ada menggunakan kapasitas yang dikembalikan. Tambahan tinjauan berbayar sudah termasuk dalam biaya operasional, tidak dipotong lagi dari kapasitas tim.",
           "totalMode": "Monthly budget",
           "itemizedMode": "Cost breakdown",
-          "budgetNote": "The budget must include models/media, tools, infrastructure, Gabriel fees and additional paid review. Do not include unchanged payroll as new spending.",
-          "itemizedNote": "Token usage is calculated from volume × tokens per output. Extra media, tools and infrastructure stay at zero unless they apply. Additional paid review is calculated from review hours and its rate.",
+          "budgetNote": "Anggaran harus mencakup model/media, alat, infrastruktur, biaya Gabriel, dan ulasan berbayar tambahan. Jangan sertakan gaji yang tidak berubah sebagai pengeluaran baru.",
+          "itemizedNote": "Penggunaan token dihitung dari volume × token per output. Media, peralatan, dan infrastruktur tambahan tidak akan ada kecuali jika diterapkan. Tambahan ulasan berbayar dihitung dari jam ulasan dan tarifnya.",
           "paidReviewCost": "Additional paid review cost",
           "allInCost": "Operating cost",
           "missing": "Add your assumptions",
@@ -1383,36 +1390,36 @@
           "expectedLoss": "Expected loss reduction",
           "riskValue": "Uncertain risk value included",
           "economicValue": "Modeled contribution",
-          "netBenefit": "Modeled benefit after Nest price",
+          "netBenefit": "Manfaat sesuai model setelah harga Nest",
           "multiple": "Internal delivery multiple",
           "customerBenefit": "Modeled agent benefit",
           "customerRoi": "Modeled customer ROI",
           "payback": "Customer payback period",
           "notApplicable": "Not applicable",
           "annual": "Annual view",
-          "annualNote": "The same monthly assumptions, without growth or compounding. Hiring savings last only for the entered period.",
+          "annualNote": "Asumsi bulanan yang sama, tanpa pertumbuhan atau penambahan. Tabungan sewa hanya berlaku untuk periode yang dimasukkan.",
           "method": "How this is calculated",
           "burdenHeading": "Repetitive work reduced",
           "opportunityHeading": "Capacity for higher-value work",
-          "methodBody": "Operating burden removed (negative productivity) returns capacity. Higher-value work (potential positive productivity) creates economic value only if that capacity is used. Hours alone are not cash savings. Token cost uses a modeled input/output mix, not a provider quote.",
-          "formulaLabel": "Qualified briefs = leads × qualification rate. Delivery cost includes modeled token, model, tool, infrastructure, platform and human-review cost. Customer ROI remains unavailable until benefit and price are supported by evidence.",
-          "allocationNote": "Each hour can be allocated once. Unallocated hours remain capacity, with no monetary value.",
-          "overlapLabel": "These benefits are distinct; I have excluded costs and losses already counted elsewhere.",
-          "overlapNote": "Error and risk estimates exclude labor savings and the same incident must not appear in both categories. Contribution excludes AI costs, which are deducted separately.",
-          "hiringLabel": "This hire was genuinely planned and the allocated capacity can cover the work.",
-          "reviewedLabel": "I have reviewed my outcomes; unselected outcomes have no financial value in this estimate.",
+          "methodBody": "Beban operasional dihilangkan (produktivitas negatif) mengembalikan kapasitas. Pekerjaan bernilai lebih tinggi (potensi produktivitas positif) menciptakan nilai ekonomi hanya jika kapasitas tersebut digunakan. Jam kerja saja bukanlah penghematan uang tunai. Biaya token menggunakan campuran input/output yang dimodelkan, bukan penawaran penyedia.",
+          "formulaLabel": "Pengarahan yang memenuhi syarat = prospek × tingkat kualifikasi. Biaya pengiriman termasuk token yang dimodelkan, model, alat, infrastruktur, platform, dan biaya peninjauan manusia. ROI Pelanggan tetap tidak tersedia sampai manfaat dan harga didukung oleh bukti.",
+          "allocationNote": "Setiap jam dapat dialokasikan satu kali. Jam yang tidak dialokasikan tetap merupakan kapasitas, tanpa nilai uang.",
+          "overlapLabel": "Manfaat-manfaat ini berbeda; Saya telah mengecualikan biaya dan kerugian yang sudah dihitung di tempat lain.",
+          "overlapNote": "Perkiraan kesalahan dan risiko tidak termasuk penghematan tenaga kerja dan insiden yang sama tidak boleh muncul di kedua kategori. Kontribusi tidak termasuk biaya AI, yang dipotong secara terpisah.",
+          "hiringLabel": "Penyewaan ini benar-benar direncanakan dan kapasitas yang dialokasikan dapat menutupi pekerjaan tersebut.",
+          "reviewedLabel": "Saya telah meninjau hasil saya; hasil yang tidak dipilih tidak memiliki nilai finansial dalam perkiraan ini.",
           "cycleResult": "Cycle-time improvement",
-          "throughputResult": "Additional work supported by capacity and demand",
-          "assumptionsIncomplete": "Complete the selected assumptions to calculate financial value.",
-          "allocationError": "Allocated hours exceed the net capacity available. Reduce the allocations.",
-          "reviewError": "Review takes more time than the work reduced. No positive capacity is available at these assumptions.",
-          "cashError": "Avoided spending cannot exceed current spending or have positive value with no hours allocated.",
-          "hiringError": "Allocated capacity must cover the planned hire hours. Confirm the planned hire and its duration.",
-          "riskError": "The after probability cannot exceed the before probability for a loss-reduction estimate.",
-          "overlapError": "Confirm the benefits do not overlap before including them in the financial result.",
-          "boundsError": "Use values within the displayed limits.",
+          "throughputResult": "Pekerjaan tambahan didukung oleh kapasitas dan permintaan",
+          "assumptionsIncomplete": "Lengkapi asumsi yang dipilih untuk menghitung nilai finansial.",
+          "allocationError": "Jam yang dialokasikan melebihi kapasitas bersih yang tersedia. Kurangi alokasinya.",
+          "reviewError": "Peninjauan membutuhkan lebih banyak waktu daripada pengurangan pekerjaan. Tidak ada kapasitas positif yang tersedia pada asumsi ini.",
+          "cashError": "Pengeluaran yang dihindari tidak boleh melebihi pengeluaran saat ini atau mempunyai nilai positif tanpa alokasi jam kerja.",
+          "hiringError": "Kapasitas yang dialokasikan harus mencakup jam kerja yang direncanakan. Konfirmasikan rencana sewa dan durasinya.",
+          "riskError": "Probabilitas setelahnya tidak boleh melebihi probabilitas sebelum untuk estimasi pengurangan kerugian.",
+          "overlapError": "Pastikan manfaatnya tidak tumpang tindih sebelum memasukkannya ke dalam hasil keuangan.",
+          "boundsError": "Gunakan nilai dalam batas yang ditampilkan.",
           "rangeLabel": "Adjust value",
-          "noCurrencyChange": "Language changes formatting, not your currency or assumptions.",
+          "noCurrencyChange": "Bahasa mengubah format, bukan mata uang atau asumsi Anda.",
           "currentPreparation": "Jam persiapan saat ini",
           "reviewHours": "Jam Tinjauan Manusia",
           "reworkHours": "Menghindari atau menambahkan jam pengerjaan ulang",
@@ -1428,148 +1435,148 @@
         },
         "fields": {
           "volume": {
-            "label": "Leads or briefs entering the desk each month",
-            "help": "Count inbound second-home enquiries in the selected market, not property transactions."
+            "label": "Leads atau briefs memasuki meja setiap bulan",
+            "help": "Hitung permintaan masuk rumah kedua di pasar yang dipilih, bukan transaksi properti."
           },
           "accepted_rate": {
             "label": "Share becoming qualified briefs",
-            "help": "A modeled qualification rate. Replace it with observed funnel data after a pilot."
+            "help": "Tingkat kualifikasi yang dimodelkan. Gantikan dengan data corong yang diamati setelah uji coba."
           },
           "attendance_rate": {
             "label": "Expected attendance rate",
-            "help": "Modeled share of accepted meetings expected to happen. Replace this with verified event records after a pilot."
+            "help": "Bagian model dari pertemuan yang diterima diharapkan akan terjadi. Gantikan ini dengan catatan peristiwa terverifikasi setelah uji coba."
           },
           "minutes": {
-            "label": "Minutes to qualify one buyer brief today",
-            "help": "Active intake and qualification time, excluding elapsed days and property-search time."
+            "label": "Menit untuk memenuhi syarat satu pembeli singkat hari ini",
+            "help": "Waktu penerimaan dan kualifikasi aktif, tidak termasuk hari yang telah berlalu dan waktu pencarian properti."
           },
           "automation": {
-            "label": "Share of that work reduced",
-            "help": "An illustrative assumption to validate in a pilot, not a performance promise."
+            "label": "Bagian dari pekerjaan itu berkurang",
+            "help": "Asumsi ilustratif untuk divalidasi dalam uji coba, bukan janji kinerja."
           },
           "review": {
-            "label": "Minutes a reviewer spends confirming each brief",
-            "help": "Human review still required before either side sees a proposal."
+            "label": "Menit yang dihabiskan pengulas untuk mengonfirmasi setiap laporan singkat",
+            "help": "Tinjauan manusia masih diperlukan sebelum kedua belah pihak melihat proposal."
           },
           "cycles_per_unit": {
-            "label": "Cycles per unit each month",
-            "help": "How many recurring order, review or processing cycles each unit runs in a typical month."
+            "label": "Siklus per unit setiap bulan",
+            "help": "Berapa banyak siklus pemesanan, peninjauan, atau pemrosesan berulang yang dijalankan setiap unit dalam satu bulan tertentu."
           },
           "tokens_per_output": {
-            "label": "Tokens per qualified buyer brief",
-            "help": "Modeled input and output tokens for one reviewable brief; provider usage must replace this hypothesis."
+            "label": "Token per ringkasan pembeli yang memenuhi syarat",
+            "help": "Token masukan dan keluaran yang dimodelkan untuk satu laporan singkat yang dapat ditinjau; penggunaan penyedia harus menggantikan hipotesis ini."
           },
           "budget": {
             "label": "Estimated monthly operating budget",
-            "help": "Include token usage, models/media, tools, infrastructure, Gabriel fees and additional paid review."
+            "help": "Sertakan penggunaan token, model/media, alat, infrastruktur, biaya Gabriel, dan ulasan berbayar tambahan."
           },
           "model_cost": {
-            "label": "Additional model or media cost",
-            "help": "Enter separately billed models or media. Leave zero when included in the token envelope."
+            "label": "Biaya model atau media tambahan",
+            "help": "Masukkan model atau media dengan tagihan terpisah. Sisakan angka nol jika dimasukkan ke dalam amplop token."
           },
           "tools_cost": {
             "label": "Tools and integrations",
-            "help": "Browser sessions, connectors and other metered services. Enter zero if none."
+            "help": "Sesi browser, konektor, dan layanan terukur lainnya. Masukkan nol jika tidak ada."
           },
           "infrastructure_cost": {
             "label": "Infrastructure",
-            "help": "Incremental hosting, storage and compute for this workload. Enter zero if none."
+            "help": "Hosting, penyimpanan, dan komputasi tambahan untuk beban kerja ini. Masukkan nol jika tidak ada."
           },
           "platform_cost": {
-            "label": "Other delivery and support cost",
-            "help": "Modeled hosting, storage, monitoring and support cost, separate from the customer price."
+            "label": "Biaya pengiriman dan dukungan lainnya",
+            "help": "Biaya hosting, penyimpanan, pemantauan, dan dukungan yang dimodelkan, terpisah dari harga pelanggan."
           },
           "customer_price": {
             "label": "Proposed monthly Nest price",
-            "help": "Editable agent/brokerage pricing hypothesis. It is not validated revenue and must be tested in a paid pilot."
+            "help": "Hipotesis harga agen/broker yang dapat diedit. Ini bukan pendapatan yang divalidasi dan harus diuji dalam uji coba berbayar."
           },
           "personal_value_per_hour": {
-            "label": "Optional value you assign to an hour",
-            "help": "An optional personal comparison only. This is not salary, wages or guaranteed cash savings."
+            "label": "Nilai opsional yang Anda tetapkan untuk satu jam",
+            "help": "Hanya perbandingan pribadi opsional. Ini bukan gaji, upah, atau jaminan tabungan tunai."
           },
           "review_rate": {
-            "label": "Additional paid review per hour",
-            "help": "Actual extra reviewer spending, not the salary of an unchanged employee."
+            "label": "Ulasan berbayar tambahan per jam",
+            "help": "Pengeluaran ekstra reviewer sebenarnya, bukan gaji karyawan yang tidak berubah."
           },
           "cash_hours": {
-            "label": "Hours that remove paid work",
-            "help": "Allocate only work whose overtime, contractor or processing spend will actually stop."
+            "label": "Jam yang menghapus pekerjaan berbayar",
+            "help": "Alokasikan hanya pekerjaan yang pengeluaran lembur, kontraktor, atau pemrosesannya akan benar-benar dihentikan."
           },
           "cash_baseline": {
-            "label": "Current monthly spending on that work",
-            "help": "The cash budget from which the reduction will come."
+            "label": "Pengeluaran bulanan saat ini untuk pekerjaan itu",
+            "help": "Anggaran kas dari mana pengurangan akan terjadi."
           },
           "cash_avoided": {
-            "label": "Monthly spending you would stop",
-            "help": "One explicit amount, not hours multiplied by salary; exclude any planned-hire saving entered separately."
+            "label": "Pengeluaran bulanan Anda akan berhenti",
+            "help": "Satu jumlah yang jelas, bukan jam dikalikan gaji; mengecualikan penghematan sewa yang direncanakan yang dimasukkan secara terpisah."
           },
           "higher_value_hours": {
-            "label": "Hours agents can use for real conversations",
-            "help": "Only capacity with observed demand receives an economic value."
+            "label": "Jam kerja yang dapat digunakan agen untuk percakapan nyata",
+            "help": "Hanya kapasitas dengan permintaan yang teramati yang menerima nilai ekonomi."
           },
           "contribution_rate": {
-            "label": "Incremental contribution per agent hour",
-            "help": "Contribution from additional work, excluding property value, commissions and costs already counted."
+            "label": "Kontribusi tambahan per jam agen",
+            "help": "Kontribusi dari pekerjaan tambahan, tidak termasuk nilai properti, komisi dan biaya sudah dihitung."
           },
           "throughput_hours": {
-            "label": "Hours used for additional volume",
-            "help": "This allocation cannot also be used for advisory work or spending reductions."
+            "label": "Jam digunakan untuk volume tambahan",
+            "help": "Alokasi ini juga tidak dapat digunakan untuk pekerjaan konsultasi atau pengurangan belanja."
           },
           "extra_minutes": {
-            "label": "Team minutes per additional unit",
-            "help": "The remaining human effort, including review, needed to deliver one more unit."
+            "label": "Menit tim per unit tambahan",
+            "help": "Upaya manusia yang tersisa, termasuk peninjauan, diperlukan untuk menghasilkan satu unit lagi."
           },
           "demand": {
-            "label": "Additional units with expected demand",
-            "help": "Capacity alone is not demand. Enter the extra monthly work you expect to take on."
+            "label": "Unit tambahan dengan permintaan yang diharapkan",
+            "help": "Kapasitas saja bukanlah permintaan. Masukkan pekerjaan tambahan bulanan yang ingin Anda lakukan."
           },
           "unit_margin": {
             "label": "Contribution per additional unit",
-            "help": "Incremental revenue less delivery costs; AI operating costs are deducted separately."
+            "help": "Pendapatan tambahan dikurangi biaya pengiriman; Biaya operasional AI dipotong secara terpisah."
           },
           "hiring_hours": {
-            "label": "Hours covering the planned hire",
-            "help": "Allocate capacity to specific planned work, not a generic full-time-equivalent estimate."
+            "label": "Jam yang mencakup sewa yang direncanakan",
+            "help": "Alokasikan kapasitas untuk pekerjaan terencana tertentu, bukan perkiraan umum yang setara dengan pekerjaan penuh waktu."
           },
           "planned_hours": {
-            "label": "Monthly hours the planned hire would cover",
-            "help": "The allocated capacity must cover this entire workload."
+            "label": "Jam bulanan yang akan dicakup oleh sewa yang direncanakan",
+            "help": "Kapasitas yang dialokasikan harus mencakup seluruh beban kerja ini."
           },
           "hire_cost": {
-            "label": "Monthly hire cost actually deferred",
-            "help": "Use the cost of a genuinely planned hire, not the salary of someone already employed."
+            "label": "Biaya sewa bulanan sebenarnya ditangguhkan",
+            "help": "Gunakan biaya sewa yang benar-benar direncanakan, bukan gaji seseorang yang sudah bekerja."
           },
           "hire_months": {
-            "label": "Months that hire is deferred",
-            "help": "One to twelve months; the annual estimate stops counting savings after this period."
+            "label": "Bulan-bulan perekrutan ditangguhkan",
+            "help": "Satu sampai dua belas bulan; perkiraan tahunan berhenti menghitung tabungan setelah periode ini."
           },
           "incidents": {
-            "label": "Expected avoided errors per month",
-            "help": "Use your baseline and expected reduction. Exclude incidents also counted as risk reduction."
+            "label": "Diharapkan menghindari kesalahan per bulan",
+            "help": "Gunakan baseline Anda dan pengurangan yang diharapkan. Kecualikan insiden juga dihitung sebagai pengurangan risiko."
           },
           "incident_cost": {
             "label": "Incremental cost per error",
-            "help": "Exclude labor, refunds or other losses already included elsewhere."
+            "help": "Tidak termasuk tenaga kerja, pengembalian uang, atau kerugian lain yang sudah termasuk di tempat lain."
           },
           "probability_before": {
             "label": "Monthly loss probability before",
-            "help": "Your estimate, not a guaranteed risk assessment."
+            "help": "Perkiraan Anda, bukan penilaian risiko yang dijamin."
           },
           "probability_after": {
             "label": "Monthly loss probability after",
-            "help": "Use the same event and monthly time horizon as the baseline."
+            "help": "Gunakan peristiwa dan jangka waktu bulanan yang sama sebagai garis dasar."
           },
           "loss": {
-            "label": "Loss exposure for that event",
-            "help": "Exclude error incidents and spending already counted. This is uncertain expected value, not cash saved."
+            "label": "Eksposur kerugian untuk kejadian tersebut",
+            "help": "Kecualikan insiden kesalahan dan pengeluaran sudah dihitung. Ini adalah nilai yang diperkirakan tidak pasti, bukan uang tunai yang dihemat."
           },
           "days_before": {
-            "label": "Cycle time before, in days",
-            "help": "Elapsed time from start to completion, separate from hands-on effort."
+            "label": "Waktu siklus sebelumnya, dalam beberapa hari",
+            "help": "Waktu yang berlalu dari awal hingga selesai, terpisah dari upaya langsung."
           },
           "days_after": {
-            "label": "Cycle time after, in days",
-            "help": "Shown as an operational change only, without an assumed monetary value."
+            "label": "Waktu siklus setelahnya, dalam beberapa hari",
+            "help": "Ditampilkan sebagai perubahan operasional saja, tanpa asumsi nilai moneter."
           }
         },
         "burden": [
@@ -1578,7 +1585,7 @@
         ],
         "opportunity": [
           "More qualified, human-reviewed introductions",
-          "Time for agent conversations and client needs"
+          "Saatnya untuk percakapan agen dan kebutuhan klien"
         ],
         "usagePackages": {
           "base": {
@@ -1628,14 +1635,19 @@
           {
             "id": "higher_value",
             "label": "Keep agents on conversations",
-            "help": "Enter only capacity that can be redirected to real agent or brokerage work; do not treat property value or commission as Nest revenue."
+            "help": "Masukkan hanya kapasitas yang dapat dialihkan ke pekerjaan agen atau pialang nyata; jangan memperlakukan nilai properti atau komisi sebagai pendapatan Nest."
+          },
+          {
+            "id": "cash",
+            "label": "Kurangi dukungan asupan berbayar",
+            "help": "Mengurangi pengeluaran lembur atau kontraktor untuk penerimaan singkat pembeli secara manual — bukan gaji yang tidak berubah."
           }
         ],
         "tabs": [
           {
             "id": "funnel",
             "label": "Introduction funnel",
-            "intro": "Model leads entering the agent or brokerage desk, qualification, and human review.",
+            "intro": "Model prospek memasuki meja agen atau pialang, kualifikasi, dan tinjauan manusia.",
             "fields": [
               "volume",
               "accepted_rate",
@@ -1646,7 +1658,7 @@
           {
             "id": "costs",
             "label": "AI operating cost",
-            "intro": "Keep model, token, tool, infrastructure, platform and reviewer costs separate from the proposed customer price.",
+            "intro": "Pisahkan biaya model, token, alat, infrastruktur, platform, dan peninjau dari harga pelanggan yang diusulkan.",
             "fields": [
               "tokens_per_output",
               "model_cost",
@@ -1660,7 +1672,7 @@
           {
             "id": "capacity",
             "label": "Capacity and evidence",
-            "intro": "Returned capacity is not revenue. Financial results remain insufficient until a payer, price and delivery evidence are recorded.",
+            "intro": "Kapasitas yang dikembalikan bukanlah pendapatan. Hasil keuangan tetap tidak mencukupi sampai bukti pembayar, harga dan pengiriman dicatat.",
             "fields": [
               "higher_value_hours",
               "contribution_rate"
@@ -1673,7 +1685,7 @@
           "basis": "fixed",
           "annualPrice": 9000,
           "label": "Proposed Nest monthly price",
-          "help": "A €750/month working hypothesis for a qualified-introduction pilot. Treat as unvalidated until an agent or brokerage pays."
+          "help": "Hipotesis kerja senilai €750/bulan untuk uji coba pengenalan yang memenuhi syarat. Perlakukan sebagai tidak divalidasi sampai agen atau pialang membayar."
         },
         "presentation": {
           "financial": "optional",
@@ -1685,7 +1697,7 @@
         "primaryLabel": "Talk with Nest",
         "primaryTarget": "meet",
         "secondaryLabel": "See how it works",
-        "privacyNote": "Your data stays private. Hours are capacity. Financial amounts are modeled estimates, not observed results.",
+        "privacyNote": "Data Anda tetap pribadi. Jam adalah kapasitas. Jumlah finansial merupakan estimasi yang dimodelkan, bukan hasil observasi.",
         "secondaryTarget": "how-it-works"
       }
     }
@@ -1972,6 +1984,16 @@
         "availabilityLabel"
       ],
       "sourceHash": "4ccdf0d88d921c3c0274c16ab665fd021b888edca40c2f1887ca4da4e2e61adc"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "profileModeId"
+      ],
+      "sourceHash": "6dbd0f28d0d97656768b7b4ed96255e67fd11740a44b1c4b575191b06e9e3a35"
     },
     {
       "path": [
@@ -4653,34 +4675,9 @@
         0,
         "roiCalculator",
         "businessImpact",
-        "costMode"
-      ],
-      "sourceHash": "0257609b2e009aa6c788941fbcaeee13877465889a94aaf0444c7d4159ee616c"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        0,
-        "roiCalculator",
-        "businessImpact",
         "reviewMode"
       ],
       "sourceHash": "ca8b22d0db83a22db163b560b3e4e51527e533d31d067b614a0c33c4d2df8432"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        0,
-        "roiCalculator",
-        "businessImpact",
-        "selected",
-        0
-      ],
-      "sourceHash": "c8333158bd18b91a71842cfd38c2d6ddab471bda158b19286d96d4a4ed973ac4"
     },
     {
       "path": [
@@ -4760,51 +4757,6 @@
         "roiCalculator",
         "businessImpact",
         "tabs",
-        0,
-        "fields",
-        0
-      ],
-      "sourceHash": "62d7a6b1211d627650e2bf0c869b69b564e2cd74290ae1dd78ae4b5e20b0cfe7"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        0,
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        0,
-        "fields",
-        1
-      ],
-      "sourceHash": "533c554a619ee86f5b109e6356436592d023fca097b61a42a5769899f3e49ded"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        0,
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        0,
-        "fields",
-        2
-      ],
-      "sourceHash": "c97ace4c8fef2cee8fa0f3c9f52aab18dbd4f42438afe362ffb8f75ce4c04b84"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        0,
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
         1,
         "label"
       ],
@@ -4823,96 +4775,6 @@
         "intro"
       ],
       "sourceHash": "ecb995d2474e26388c933fda1b6a2ac889d6f3629ab1f42fe73e918b2733817f"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        0,
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        1,
-        "fields",
-        0
-      ],
-      "sourceHash": "252b07fa1db64f9ca920817ce39dec8523f46fca171a3dfd2721f7406ad524b3"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        0,
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        1,
-        "fields",
-        1
-      ],
-      "sourceHash": "d1bedf986ff719c3697d5349d0a881f26ca60c944250a6b9d841dbfdd75ec256"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        0,
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        1,
-        "fields",
-        2
-      ],
-      "sourceHash": "d36f8ed71fe4f06ad33653f5b2a02efb6b90532b03694d27b25f01211ee64df5"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        0,
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        1,
-        "fields",
-        3
-      ],
-      "sourceHash": "5ef2621e3c47a6ca8fc7990c6ffa19b229e742540611b01e0f1d253b33808503"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        0,
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        1,
-        "fields",
-        4
-      ],
-      "sourceHash": "ddb2485b111f5d7373d804bdb4010b2590b72ba7b899fd5e11c4e0d5e00fb524"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        0,
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        1,
-        "fields",
-        5
-      ],
-      "sourceHash": "b90c7599f77434bcd2d32958a8557417fb5333b4dbd169ff8c5ee65bbb5008ef"
     },
     {
       "path": [
@@ -4950,49 +4812,6 @@
         0,
         "roiCalculator",
         "businessImpact",
-        "tabs",
-        2,
-        "fields",
-        0
-      ],
-      "sourceHash": "f033d3c123d7de8fa6a1706e2f8dee954bec3ef08f9c5a10de37ab050e4d25ab"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        0,
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        2,
-        "fields",
-        1
-      ],
-      "sourceHash": "b28c91bc16791f680909ec198a45e7c491055b8c4c558da970e1e9bcd2635edc"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        0,
-        "roiCalculator",
-        "businessImpact",
-        "pricing",
-        "basis"
-      ],
-      "sourceHash": "992a93455c71fedd36ac9bbc439952c041cf61445958472af479269b8d873513"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        0,
-        "roiCalculator",
-        "businessImpact",
         "pricing",
         "label"
       ],
@@ -5010,19 +4829,6 @@
         "help"
       ],
       "sourceHash": "aebaed823e7b8d30309648e6c85cfe4d7f6cb7938bdf923f2c68c9b67ff269da"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        0,
-        "roiCalculator",
-        "businessImpact",
-        "presentation",
-        "financial"
-      ],
-      "sourceHash": "ec91fdd9256cb75ae611249b50cb7eb16533f0fa91b86239ec1d439a1ea033b8"
     },
     {
       "path": [
@@ -5059,6 +4865,16 @@
         "privacyNote"
       ],
       "sourceHash": "0e96f5e15977ab0a2a8d684c0d35d7459f3afc862b606046310ae1fbbd4be12b"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "profileModeId"
+      ],
+      "sourceHash": "a4279eae47aaa7417da62434795a011ccb0ec870f7f56646d181b5500a892a9a"
     },
     {
       "path": [
@@ -7809,34 +7625,9 @@
         1,
         "roiCalculator",
         "businessImpact",
-        "costMode"
-      ],
-      "sourceHash": "0257609b2e009aa6c788941fbcaeee13877465889a94aaf0444c7d4159ee616c"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        1,
-        "roiCalculator",
-        "businessImpact",
         "reviewMode"
       ],
       "sourceHash": "ca8b22d0db83a22db163b560b3e4e51527e533d31d067b614a0c33c4d2df8432"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        1,
-        "roiCalculator",
-        "businessImpact",
-        "selected",
-        0
-      ],
-      "sourceHash": "c8333158bd18b91a71842cfd38c2d6ddab471bda158b19286d96d4a4ed973ac4"
     },
     {
       "path": [
@@ -7887,6 +7678,34 @@
         1,
         "roiCalculator",
         "businessImpact",
+        "outcomes",
+        1,
+        "label"
+      ],
+      "sourceHash": "aea4419b254433ce01374056925b89821689edcecc57fcd6988c2abc3f51c102"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "businessImpact",
+        "outcomes",
+        1,
+        "help"
+      ],
+      "sourceHash": "79f050bc25f624be1f08b5c05a4ac923c1c16bcf253e4009d475f35d6a7a6927"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "businessImpact",
         "tabs",
         0,
         "label"
@@ -7906,51 +7725,6 @@
         "intro"
       ],
       "sourceHash": "db6c00c1b6ccac892da8c66e20f05fcc3bf78c2a3b4929b7c5ad4c53ce32e23a"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        1,
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        0,
-        "fields",
-        0
-      ],
-      "sourceHash": "62d7a6b1211d627650e2bf0c869b69b564e2cd74290ae1dd78ae4b5e20b0cfe7"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        1,
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        0,
-        "fields",
-        1
-      ],
-      "sourceHash": "533c554a619ee86f5b109e6356436592d023fca097b61a42a5769899f3e49ded"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        1,
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        0,
-        "fields",
-        2
-      ],
-      "sourceHash": "c97ace4c8fef2cee8fa0f3c9f52aab18dbd4f42438afe362ffb8f75ce4c04b84"
     },
     {
       "path": [
@@ -7989,96 +7763,6 @@
         "roiCalculator",
         "businessImpact",
         "tabs",
-        1,
-        "fields",
-        0
-      ],
-      "sourceHash": "252b07fa1db64f9ca920817ce39dec8523f46fca171a3dfd2721f7406ad524b3"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        1,
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        1,
-        "fields",
-        1
-      ],
-      "sourceHash": "d1bedf986ff719c3697d5349d0a881f26ca60c944250a6b9d841dbfdd75ec256"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        1,
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        1,
-        "fields",
-        2
-      ],
-      "sourceHash": "d36f8ed71fe4f06ad33653f5b2a02efb6b90532b03694d27b25f01211ee64df5"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        1,
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        1,
-        "fields",
-        3
-      ],
-      "sourceHash": "5ef2621e3c47a6ca8fc7990c6ffa19b229e742540611b01e0f1d253b33808503"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        1,
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        1,
-        "fields",
-        4
-      ],
-      "sourceHash": "ddb2485b111f5d7373d804bdb4010b2590b72ba7b899fd5e11c4e0d5e00fb524"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        1,
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        1,
-        "fields",
-        5
-      ],
-      "sourceHash": "b90c7599f77434bcd2d32958a8557417fb5333b4dbd169ff8c5ee65bbb5008ef"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        1,
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
         2,
         "label"
       ],
@@ -8106,49 +7790,6 @@
         1,
         "roiCalculator",
         "businessImpact",
-        "tabs",
-        2,
-        "fields",
-        0
-      ],
-      "sourceHash": "f033d3c123d7de8fa6a1706e2f8dee954bec3ef08f9c5a10de37ab050e4d25ab"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        1,
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        2,
-        "fields",
-        1
-      ],
-      "sourceHash": "b28c91bc16791f680909ec198a45e7c491055b8c4c558da970e1e9bcd2635edc"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        1,
-        "roiCalculator",
-        "businessImpact",
-        "pricing",
-        "basis"
-      ],
-      "sourceHash": "992a93455c71fedd36ac9bbc439952c041cf61445958472af479269b8d873513"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        1,
-        "roiCalculator",
-        "businessImpact",
         "pricing",
         "label"
       ],
@@ -8166,19 +7807,6 @@
         "help"
       ],
       "sourceHash": "aebaed823e7b8d30309648e6c85cfe4d7f6cb7938bdf923f2c68c9b67ff269da"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        1,
-        "roiCalculator",
-        "businessImpact",
-        "presentation",
-        "financial"
-      ],
-      "sourceHash": "ec91fdd9256cb75ae611249b50cb7eb16533f0fa91b86239ec1d439a1ea033b8"
     },
     {
       "path": [
@@ -11002,28 +10630,9 @@
         "landingPage",
         "roiCalculator",
         "businessImpact",
-        "costMode"
-      ],
-      "sourceHash": "0257609b2e009aa6c788941fbcaeee13877465889a94aaf0444c7d4159ee616c"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
         "reviewMode"
       ],
       "sourceHash": "ca8b22d0db83a22db163b560b3e4e51527e533d31d067b614a0c33c4d2df8432"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "selected",
-        0
-      ],
-      "sourceHash": "c8333158bd18b91a71842cfd38c2d6ddab471bda158b19286d96d4a4ed973ac4"
     },
     {
       "path": [
@@ -11062,6 +10671,28 @@
         "landingPage",
         "roiCalculator",
         "businessImpact",
+        "outcomes",
+        1,
+        "label"
+      ],
+      "sourceHash": "aea4419b254433ce01374056925b89821689edcecc57fcd6988c2abc3f51c102"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
+        "outcomes",
+        1,
+        "help"
+      ],
+      "sourceHash": "6070b25168d7d93f6574ee09ea6117accce9c1b93d909efd04ea4406665cee17"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "businessImpact",
         "tabs",
         0,
         "label"
@@ -11078,42 +10709,6 @@
         "intro"
       ],
       "sourceHash": "db6c00c1b6ccac892da8c66e20f05fcc3bf78c2a3b4929b7c5ad4c53ce32e23a"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        0,
-        "fields",
-        0
-      ],
-      "sourceHash": "62d7a6b1211d627650e2bf0c869b69b564e2cd74290ae1dd78ae4b5e20b0cfe7"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        0,
-        "fields",
-        1
-      ],
-      "sourceHash": "533c554a619ee86f5b109e6356436592d023fca097b61a42a5769899f3e49ded"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        0,
-        "fields",
-        2
-      ],
-      "sourceHash": "c97ace4c8fef2cee8fa0f3c9f52aab18dbd4f42438afe362ffb8f75ce4c04b84"
     },
     {
       "path": [
@@ -11143,78 +10738,6 @@
         "roiCalculator",
         "businessImpact",
         "tabs",
-        1,
-        "fields",
-        0
-      ],
-      "sourceHash": "252b07fa1db64f9ca920817ce39dec8523f46fca171a3dfd2721f7406ad524b3"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        1,
-        "fields",
-        1
-      ],
-      "sourceHash": "d1bedf986ff719c3697d5349d0a881f26ca60c944250a6b9d841dbfdd75ec256"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        1,
-        "fields",
-        2
-      ],
-      "sourceHash": "d36f8ed71fe4f06ad33653f5b2a02efb6b90532b03694d27b25f01211ee64df5"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        1,
-        "fields",
-        3
-      ],
-      "sourceHash": "5ef2621e3c47a6ca8fc7990c6ffa19b229e742540611b01e0f1d253b33808503"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        1,
-        "fields",
-        4
-      ],
-      "sourceHash": "ddb2485b111f5d7373d804bdb4010b2590b72ba7b899fd5e11c4e0d5e00fb524"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        1,
-        "fields",
-        5
-      ],
-      "sourceHash": "b90c7599f77434bcd2d32958a8557417fb5333b4dbd169ff8c5ee65bbb5008ef"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
         2,
         "label"
       ],
@@ -11236,40 +10759,6 @@
         "landingPage",
         "roiCalculator",
         "businessImpact",
-        "tabs",
-        2,
-        "fields",
-        0
-      ],
-      "sourceHash": "f033d3c123d7de8fa6a1706e2f8dee954bec3ef08f9c5a10de37ab050e4d25ab"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "tabs",
-        2,
-        "fields",
-        1
-      ],
-      "sourceHash": "b28c91bc16791f680909ec198a45e7c491055b8c4c558da970e1e9bcd2635edc"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "pricing",
-        "basis"
-      ],
-      "sourceHash": "992a93455c71fedd36ac9bbc439952c041cf61445958472af479269b8d873513"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
         "pricing",
         "label"
       ],
@@ -11284,16 +10773,6 @@
         "help"
       ],
       "sourceHash": "aebaed823e7b8d30309648e6c85cfe4d7f6cb7938bdf923f2c68c9b67ff269da"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
-        "presentation",
-        "financial"
-      ],
-      "sourceHash": "ec91fdd9256cb75ae611249b50cb7eb16533f0fa91b86239ec1d439a1ea033b8"
     },
     {
       "path": [
@@ -11323,5 +10802,5 @@
       "sourceHash": "0e96f5e15977ab0a2a8d684c0d35d7459f3afc862b606046310ae1fbbd4be12b"
     }
   ],
-  "generatedAt": "2026-09-11T04:18:29.310Z"
+  "generatedAt": "2026-10-01T12:38:33.219Z"
 }
