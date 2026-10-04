@@ -91,28 +91,28 @@
         "secondaryEditionLabel": "Selling"
       },
       "service": {
-        "activeMode": "event",
-        "announcement": "Now matching at Second Home Fair, Jaarbeurs Utrecht. Fri 27–Sun 29 Mar",
+        "activeMode": "city",
+        "announcement": "Public property research for your next move",
         "feeCopy": "Fee shared before you request an introduction",
-        "disclaimer": "Nest is not a licensed brokerage and does not represent either party, negotiate, value your home, or handle your transaction. When you are ready to move forward, we connect you with a licensed local agent to complete the process.",
+        "disclaimer": "Nest researches public sources; it is not a brokerage and does not represent either party, negotiate, or handle transactions. It does not value homes. Confirm listing information and consult an appropriately qualified local property professional before proceeding.",
         "configurations": [
           {
             "mode": "event",
             "label": "Event",
             "actionLabel": "View",
-            "name": "Second Home Fair, Jaarbeurs Utrecht",
-            "location": "Jaarbeurs Utrecht",
-            "dateRange": "Fri 27–Sun 29 Mar",
-            "availabilityLabel": "Fri 27–Sun 29 Mar · Jaarbeurs Utrecht"
+            "name": "Property event example",
+            "location": "Your local area",
+            "dateRange": "Confirm with the organizer",
+            "availabilityLabel": "Illustrative event · verify local details"
           },
           {
             "mode": "city",
             "label": "City",
             "actionLabel": "View",
-            "name": "Nest Amsterdam",
-            "location": "Amsterdam Zuid",
-            "dateRange": "Ongoing",
-            "availabilityLabel": "Always-on local introductions"
+            "name": "Nest property research",
+            "location": "Your city or area",
+            "dateRange": "On your request",
+            "availabilityLabel": "Search when you are ready"
           }
         ]
       },
@@ -151,7 +151,7 @@
             {
               "key": "area",
               "label": "Preferred or general area",
-              "placeholder": "Utrecht region, Amsterdam Zuid…",
+              "placeholder": "Your city, neighborhood, or postal area",
               "type": "text",
               "required": true
             },
@@ -605,6 +605,14 @@
               "privacyNote": "Your data stays private. Hours are capacity. Financial amounts are modeled estimates, not observed results.",
               "secondaryTarget": "how-it-works"
             }
+          },
+          "leadScan": {
+            "instruction": "Tell Nest the city or area where you want to search and your budget. Nest will find public property and seller leads for you to review.",
+            "inputLabel": "Location and budget",
+            "inputPlaceholder": "For example: your city or area, budget in your local currency…",
+            "submitLabel": "Find leads",
+            "budgetHint": "Add a budget too, for more accurate results.",
+            "loginNotice": "Sign in to search up to 100 leads."
           }
         },
         {
@@ -1110,6 +1118,13 @@
               "privacyNote": "Your data stays private. Hours are capacity. Financial amounts are modeled estimates, not observed results.",
               "secondaryTarget": "how-it-works"
             }
+          },
+          "leadScan": {
+            "instruction": "Paste the public listing URL of the property you are selling. Nest will let you review the property summary before searching for public buyer-intent leads.",
+            "inputLabel": "Public property listing URL",
+            "inputPlaceholder": "Paste a public property listing URL…",
+            "submitLabel": "Analyze property",
+            "loginNotice": "Sign in to search up to 100 leads."
           }
         }
       ],
@@ -1196,13 +1211,13 @@
         ],
         "proposalLabel": "Proposal",
         "proposalAreaLabel": "General area",
-        "proposalArea": "Utrecht, Overvecht",
+        "proposalArea": "Illustrative local neighborhood",
         "proposalNote": "No identity or exact location is visible. Each side can accept or pass."
       },
       "process": {
         "kicker": "How it works",
         "heading": "One careful sequence.",
-        "licensedAgentNote": "A licensed local agent is looped in when you are ready to move forward."
+        "licensedAgentNote": "Nest researches public leads. Verify any property transaction with an appropriately qualified local property professional."
       },
       "proposals": {
         "kicker": "What a proposal looks like",
@@ -1216,11 +1231,11 @@
             "facts": [
               {
                 "label": "General area",
-                "value": "Utrecht, Overvecht"
+                "value": "Illustrative local neighborhood"
               },
               {
-                "label": "Event slot",
-                "value": "Saturday morning"
+                "label": "Illustrative availability",
+                "value": "Confirm with the public source"
               }
             ],
             "tone": "cream"
@@ -1235,8 +1250,8 @@
                 "value": "Ready to move forward thoughtfully"
               },
               {
-                "label": "Event slot",
-                "value": "Sunday afternoon"
+                "label": "Illustrative availability",
+                "value": "Confirm with the public source"
               }
             ],
             "tone": "terracotta"
@@ -1269,8 +1284,8 @@
       "footer": {
         "brandLabel": "Nest.",
         "tagline": "One careful home introduction at a time.",
-        "disclaimer": "Nest is not a licensed brokerage and does not represent either party, negotiate, value your home, or handle your transaction. When you are ready to move forward, we connect you with a licensed local agent to complete the process.",
-        "eventDisclaimer": "Second Home Fair details are modeled for this Nest instantiation and should be verified before attendance.",
+        "disclaimer": "Nest researches public sources; it is not a brokerage and does not represent either party, negotiate, or handle transactions. It does not value homes. Confirm listing information and consult an appropriately qualified local property professional before proceeding.",
+        "eventDisclaimer": "Location and property examples are illustrative, not coverage or availability guarantees. Verify listings with their public source.",
         "copyright": "© 2026 Nest",
         "groups": [
           {
@@ -1715,298 +1730,298 @@
           {
             "language": "es",
             "regionKey": null,
-            "sourceRevision": "9b00d9081f920764fbd3e5bcdb077a7b34f8b04299a9af6b2aee818670157abf",
+            "sourceRevision": "34ac41d8e370c15ebe1c02aa65c2df4c3af768310073c54a4c837e8462809816",
             "assetPath": "assets/landing-page.es.json",
             "assetSchemaVersion": 2,
-            "generatedAt": "2026-10-01T16:11:49.999Z"
+            "generatedAt": "2026-10-04T21:09:16.473Z"
           },
           {
             "language": "de",
             "regionKey": null,
-            "sourceRevision": "9b00d9081f920764fbd3e5bcdb077a7b34f8b04299a9af6b2aee818670157abf",
+            "sourceRevision": "34ac41d8e370c15ebe1c02aa65c2df4c3af768310073c54a4c837e8462809816",
             "assetPath": "assets/landing-page.de.json",
             "assetSchemaVersion": 2,
-            "generatedAt": "2026-10-01T16:11:50.090Z"
+            "generatedAt": "2026-10-04T21:09:16.473Z"
           },
           {
             "language": "ja",
             "regionKey": null,
-            "sourceRevision": "9b00d9081f920764fbd3e5bcdb077a7b34f8b04299a9af6b2aee818670157abf",
+            "sourceRevision": "34ac41d8e370c15ebe1c02aa65c2df4c3af768310073c54a4c837e8462809816",
             "assetPath": "assets/landing-page.ja.json",
             "assetSchemaVersion": 2,
-            "generatedAt": "2026-10-01T16:11:50.158Z"
-          },
-          {
-            "language": "ru",
-            "regionKey": null,
-            "sourceRevision": "9b00d9081f920764fbd3e5bcdb077a7b34f8b04299a9af6b2aee818670157abf",
-            "assetPath": "assets/landing-page.ru.json",
-            "assetSchemaVersion": 2,
-            "generatedAt": "2026-10-01T16:11:50.251Z"
-          },
-          {
-            "language": "it",
-            "regionKey": null,
-            "sourceRevision": "9b00d9081f920764fbd3e5bcdb077a7b34f8b04299a9af6b2aee818670157abf",
-            "assetPath": "assets/landing-page.it.json",
-            "assetSchemaVersion": 2,
-            "generatedAt": "2026-10-01T16:11:50.333Z"
-          },
-          {
-            "language": "pl",
-            "regionKey": null,
-            "sourceRevision": "9b00d9081f920764fbd3e5bcdb077a7b34f8b04299a9af6b2aee818670157abf",
-            "assetPath": "assets/landing-page.pl.json",
-            "assetSchemaVersion": 2,
-            "generatedAt": "2026-10-01T16:11:50.406Z"
-          },
-          {
-            "language": "tr",
-            "regionKey": null,
-            "sourceRevision": "9b00d9081f920764fbd3e5bcdb077a7b34f8b04299a9af6b2aee818670157abf",
-            "assetPath": "assets/landing-page.tr.json",
-            "assetSchemaVersion": 2,
-            "generatedAt": "2026-10-01T16:11:50.472Z"
-          },
-          {
-            "language": "zh",
-            "regionKey": null,
-            "sourceRevision": "9b00d9081f920764fbd3e5bcdb077a7b34f8b04299a9af6b2aee818670157abf",
-            "assetPath": "assets/landing-page.zh.json",
-            "assetSchemaVersion": 2,
-            "generatedAt": "2026-10-01T16:11:50.538Z"
-          },
-          {
-            "language": "fa",
-            "regionKey": null,
-            "sourceRevision": "9b00d9081f920764fbd3e5bcdb077a7b34f8b04299a9af6b2aee818670157abf",
-            "assetPath": "assets/landing-page.fa.json",
-            "assetSchemaVersion": 2,
-            "generatedAt": "2026-10-01T16:11:50.581Z"
-          },
-          {
-            "language": "vi",
-            "regionKey": null,
-            "sourceRevision": "9b00d9081f920764fbd3e5bcdb077a7b34f8b04299a9af6b2aee818670157abf",
-            "assetPath": "assets/landing-page.vi.json",
-            "assetSchemaVersion": 2,
-            "generatedAt": "2026-10-01T16:11:50.649Z"
-          },
-          {
-            "language": "cs",
-            "regionKey": null,
-            "sourceRevision": "9b00d9081f920764fbd3e5bcdb077a7b34f8b04299a9af6b2aee818670157abf",
-            "assetPath": "assets/landing-page.cs.json",
-            "assetSchemaVersion": 2,
-            "generatedAt": "2026-10-01T16:11:50.699Z"
-          },
-          {
-            "language": "id",
-            "regionKey": null,
-            "sourceRevision": "9b00d9081f920764fbd3e5bcdb077a7b34f8b04299a9af6b2aee818670157abf",
-            "assetPath": "assets/landing-page.id.json",
-            "assetSchemaVersion": 2,
-            "generatedAt": "2026-10-01T16:11:50.759Z"
-          },
-          {
-            "language": "ko",
-            "regionKey": null,
-            "sourceRevision": "9b00d9081f920764fbd3e5bcdb077a7b34f8b04299a9af6b2aee818670157abf",
-            "assetPath": "assets/landing-page.ko.json",
-            "assetSchemaVersion": 2,
-            "generatedAt": "2026-10-01T16:11:50.825Z"
-          },
-          {
-            "language": "uk",
-            "regionKey": null,
-            "sourceRevision": "9b00d9081f920764fbd3e5bcdb077a7b34f8b04299a9af6b2aee818670157abf",
-            "assetPath": "assets/landing-page.uk.json",
-            "assetSchemaVersion": 2,
-            "generatedAt": "2026-10-01T16:11:50.905Z"
-          },
-          {
-            "language": "hu",
-            "regionKey": null,
-            "sourceRevision": "9b00d9081f920764fbd3e5bcdb077a7b34f8b04299a9af6b2aee818670157abf",
-            "assetPath": "assets/landing-page.hu.json",
-            "assetSchemaVersion": 2,
-            "generatedAt": "2026-10-01T16:11:51.011Z"
-          },
-          {
-            "language": "ar",
-            "regionKey": null,
-            "sourceRevision": "9b00d9081f920764fbd3e5bcdb077a7b34f8b04299a9af6b2aee818670157abf",
-            "assetPath": "assets/landing-page.ar.json",
-            "assetSchemaVersion": 2,
-            "generatedAt": "2026-10-01T16:11:51.076Z"
-          },
-          {
-            "language": "sv",
-            "regionKey": null,
-            "sourceRevision": "9b00d9081f920764fbd3e5bcdb077a7b34f8b04299a9af6b2aee818670157abf",
-            "assetPath": "assets/landing-page.sv.json",
-            "assetSchemaVersion": 2,
-            "generatedAt": "2026-10-01T16:11:51.165Z"
-          },
-          {
-            "language": "ro",
-            "regionKey": null,
-            "sourceRevision": "e9e5da82fe124796251e510cbbc54de443a7499eb3f86021befecfb7ca516ac4",
-            "assetPath": "assets/landing-page.ro.json",
-            "assetSchemaVersion": 2,
-            "generatedAt": "2026-10-01T16:11:51.213Z"
-          },
-          {
-            "language": "el",
-            "regionKey": null,
-            "sourceRevision": "e9e5da82fe124796251e510cbbc54de443a7499eb3f86021befecfb7ca516ac4",
-            "assetPath": "assets/landing-page.el.json",
-            "assetSchemaVersion": 2,
-            "generatedAt": "2026-10-01T16:11:51.248Z"
-          },
-          {
-            "language": "da",
-            "regionKey": null,
-            "sourceRevision": "e9e5da82fe124796251e510cbbc54de443a7499eb3f86021befecfb7ca516ac4",
-            "assetPath": "assets/landing-page.da.json",
-            "assetSchemaVersion": 2,
-            "generatedAt": "2026-10-01T16:11:51.282Z"
-          },
-          {
-            "language": "fi",
-            "regionKey": null,
-            "sourceRevision": "e9e5da82fe124796251e510cbbc54de443a7499eb3f86021befecfb7ca516ac4",
-            "assetPath": "assets/landing-page.fi.json",
-            "assetSchemaVersion": 2,
-            "generatedAt": "2026-10-01T16:11:51.357Z"
-          },
-          {
-            "language": "he",
-            "regionKey": null,
-            "sourceRevision": "e9e5da82fe124796251e510cbbc54de443a7499eb3f86021befecfb7ca516ac4",
-            "assetPath": "assets/landing-page.he.json",
-            "assetSchemaVersion": 2,
-            "generatedAt": "2026-10-01T16:11:51.426Z"
-          },
-          {
-            "language": "sk",
-            "regionKey": null,
-            "sourceRevision": "e9e5da82fe124796251e510cbbc54de443a7499eb3f86021befecfb7ca516ac4",
-            "assetPath": "assets/landing-page.sk.json",
-            "assetSchemaVersion": 2,
-            "generatedAt": "2026-10-01T16:11:51.467Z"
-          },
-          {
-            "language": "th",
-            "regionKey": null,
-            "sourceRevision": "e9e5da82fe124796251e510cbbc54de443a7499eb3f86021befecfb7ca516ac4",
-            "assetPath": "assets/landing-page.th.json",
-            "assetSchemaVersion": 2,
-            "generatedAt": "2026-10-01T16:11:51.517Z"
-          },
-          {
-            "language": "bg",
-            "regionKey": null,
-            "sourceRevision": "e9e5da82fe124796251e510cbbc54de443a7499eb3f86021befecfb7ca516ac4",
-            "assetPath": "assets/landing-page.bg.json",
-            "assetSchemaVersion": 2,
-            "generatedAt": "2026-10-01T16:11:51.576Z"
-          },
-          {
-            "language": "hr",
-            "regionKey": null,
-            "sourceRevision": "e9e5da82fe124796251e510cbbc54de443a7499eb3f86021befecfb7ca516ac4",
-            "assetPath": "assets/landing-page.hr.json",
-            "assetSchemaVersion": 2,
-            "generatedAt": "2026-10-01T16:11:51.630Z"
-          },
-          {
-            "language": "nb",
-            "regionKey": null,
-            "sourceRevision": "e9e5da82fe124796251e510cbbc54de443a7499eb3f86021befecfb7ca516ac4",
-            "assetPath": "assets/landing-page.nb.json",
-            "assetSchemaVersion": 2,
-            "generatedAt": "2026-10-01T16:11:51.679Z"
-          },
-          {
-            "language": "lt",
-            "regionKey": null,
-            "sourceRevision": "e9e5da82fe124796251e510cbbc54de443a7499eb3f86021befecfb7ca516ac4",
-            "assetPath": "assets/landing-page.lt.json",
-            "assetSchemaVersion": 2,
-            "generatedAt": "2026-10-01T16:11:51.734Z"
-          },
-          {
-            "language": "sr",
-            "regionKey": null,
-            "sourceRevision": "e9e5da82fe124796251e510cbbc54de443a7499eb3f86021befecfb7ca516ac4",
-            "assetPath": "assets/landing-page.sr.json",
-            "assetSchemaVersion": 2,
-            "generatedAt": "2026-10-01T16:11:51.790Z"
-          },
-          {
-            "language": "sl",
-            "regionKey": null,
-            "sourceRevision": "e9e5da82fe124796251e510cbbc54de443a7499eb3f86021befecfb7ca516ac4",
-            "assetPath": "assets/landing-page.sl.json",
-            "assetSchemaVersion": 2,
-            "generatedAt": "2026-10-01T16:11:51.835Z"
-          },
-          {
-            "language": "ca",
-            "regionKey": null,
-            "sourceRevision": "e9e5da82fe124796251e510cbbc54de443a7499eb3f86021befecfb7ca516ac4",
-            "assetPath": "assets/landing-page.ca.json",
-            "assetSchemaVersion": 2,
-            "generatedAt": "2026-10-01T16:11:51.870Z"
-          },
-          {
-            "language": "et",
-            "regionKey": null,
-            "sourceRevision": "e9e5da82fe124796251e510cbbc54de443a7499eb3f86021befecfb7ca516ac4",
-            "assetPath": "assets/landing-page.et.json",
-            "assetSchemaVersion": 2,
-            "generatedAt": "2026-10-01T16:11:51.907Z"
-          },
-          {
-            "language": "no",
-            "regionKey": null,
-            "sourceRevision": "e9e5da82fe124796251e510cbbc54de443a7499eb3f86021befecfb7ca516ac4",
-            "assetPath": "assets/landing-page.no.json",
-            "assetSchemaVersion": 2,
-            "generatedAt": "2026-10-01T16:11:51.936Z"
-          },
-          {
-            "language": "lv",
-            "regionKey": null,
-            "sourceRevision": "e9e5da82fe124796251e510cbbc54de443a7499eb3f86021befecfb7ca516ac4",
-            "assetPath": "assets/landing-page.lv.json",
-            "assetSchemaVersion": 2,
-            "generatedAt": "2026-10-01T16:11:51.968Z"
-          },
-          {
-            "language": "pt",
-            "regionKey": null,
-            "sourceRevision": "9b00d9081f920764fbd3e5bcdb077a7b34f8b04299a9af6b2aee818670157abf",
-            "assetPath": "assets/landing-page.pt.json",
-            "assetSchemaVersion": 2,
-            "generatedAt": "2026-10-01T16:11:52.007Z"
+            "generatedAt": "2026-10-04T21:09:16.473Z"
           },
           {
             "language": "fr",
             "regionKey": null,
-            "sourceRevision": "9b00d9081f920764fbd3e5bcdb077a7b34f8b04299a9af6b2aee818670157abf",
+            "sourceRevision": "34ac41d8e370c15ebe1c02aa65c2df4c3af768310073c54a4c837e8462809816",
             "assetPath": "assets/landing-page.fr.json",
             "assetSchemaVersion": 2,
-            "generatedAt": "2026-10-01T16:11:52.057Z"
+            "generatedAt": "2026-10-04T21:09:16.473Z"
+          },
+          {
+            "language": "pt",
+            "regionKey": null,
+            "sourceRevision": "34ac41d8e370c15ebe1c02aa65c2df4c3af768310073c54a4c837e8462809816",
+            "assetPath": "assets/landing-page.pt.json",
+            "assetSchemaVersion": 2,
+            "generatedAt": "2026-10-04T21:09:16.473Z"
+          },
+          {
+            "language": "ru",
+            "regionKey": null,
+            "sourceRevision": "34ac41d8e370c15ebe1c02aa65c2df4c3af768310073c54a4c837e8462809816",
+            "assetPath": "assets/landing-page.ru.json",
+            "assetSchemaVersion": 2,
+            "generatedAt": "2026-10-04T21:09:16.473Z"
+          },
+          {
+            "language": "it",
+            "regionKey": null,
+            "sourceRevision": "34ac41d8e370c15ebe1c02aa65c2df4c3af768310073c54a4c837e8462809816",
+            "assetPath": "assets/landing-page.it.json",
+            "assetSchemaVersion": 2,
+            "generatedAt": "2026-10-04T21:09:16.473Z"
           },
           {
             "language": "nl",
             "regionKey": null,
-            "sourceRevision": "9b00d9081f920764fbd3e5bcdb077a7b34f8b04299a9af6b2aee818670157abf",
+            "sourceRevision": "34ac41d8e370c15ebe1c02aa65c2df4c3af768310073c54a4c837e8462809816",
             "assetPath": "assets/landing-page.nl.json",
             "assetSchemaVersion": 2,
-            "generatedAt": "2026-10-01T16:11:52.100Z"
+            "generatedAt": "2026-10-04T21:09:16.473Z"
+          },
+          {
+            "language": "pl",
+            "regionKey": null,
+            "sourceRevision": "34ac41d8e370c15ebe1c02aa65c2df4c3af768310073c54a4c837e8462809816",
+            "assetPath": "assets/landing-page.pl.json",
+            "assetSchemaVersion": 2,
+            "generatedAt": "2026-10-04T21:09:16.473Z"
+          },
+          {
+            "language": "tr",
+            "regionKey": null,
+            "sourceRevision": "34ac41d8e370c15ebe1c02aa65c2df4c3af768310073c54a4c837e8462809816",
+            "assetPath": "assets/landing-page.tr.json",
+            "assetSchemaVersion": 2,
+            "generatedAt": "2026-10-04T21:09:16.473Z"
+          },
+          {
+            "language": "zh",
+            "regionKey": null,
+            "sourceRevision": "34ac41d8e370c15ebe1c02aa65c2df4c3af768310073c54a4c837e8462809816",
+            "assetPath": "assets/landing-page.zh.json",
+            "assetSchemaVersion": 2,
+            "generatedAt": "2026-10-04T21:09:16.473Z"
+          },
+          {
+            "language": "fa",
+            "regionKey": null,
+            "sourceRevision": "34ac41d8e370c15ebe1c02aa65c2df4c3af768310073c54a4c837e8462809816",
+            "assetPath": "assets/landing-page.fa.json",
+            "assetSchemaVersion": 2,
+            "generatedAt": "2026-10-04T21:09:16.473Z"
+          },
+          {
+            "language": "vi",
+            "regionKey": null,
+            "sourceRevision": "34ac41d8e370c15ebe1c02aa65c2df4c3af768310073c54a4c837e8462809816",
+            "assetPath": "assets/landing-page.vi.json",
+            "assetSchemaVersion": 2,
+            "generatedAt": "2026-10-04T21:09:16.473Z"
+          },
+          {
+            "language": "cs",
+            "regionKey": null,
+            "sourceRevision": "34ac41d8e370c15ebe1c02aa65c2df4c3af768310073c54a4c837e8462809816",
+            "assetPath": "assets/landing-page.cs.json",
+            "assetSchemaVersion": 2,
+            "generatedAt": "2026-10-04T21:09:16.473Z"
+          },
+          {
+            "language": "id",
+            "regionKey": null,
+            "sourceRevision": "34ac41d8e370c15ebe1c02aa65c2df4c3af768310073c54a4c837e8462809816",
+            "assetPath": "assets/landing-page.id.json",
+            "assetSchemaVersion": 2,
+            "generatedAt": "2026-10-04T21:09:16.473Z"
+          },
+          {
+            "language": "ko",
+            "regionKey": null,
+            "sourceRevision": "34ac41d8e370c15ebe1c02aa65c2df4c3af768310073c54a4c837e8462809816",
+            "assetPath": "assets/landing-page.ko.json",
+            "assetSchemaVersion": 2,
+            "generatedAt": "2026-10-04T21:09:16.473Z"
+          },
+          {
+            "language": "uk",
+            "regionKey": null,
+            "sourceRevision": "34ac41d8e370c15ebe1c02aa65c2df4c3af768310073c54a4c837e8462809816",
+            "assetPath": "assets/landing-page.uk.json",
+            "assetSchemaVersion": 2,
+            "generatedAt": "2026-10-04T21:09:16.473Z"
+          },
+          {
+            "language": "hu",
+            "regionKey": null,
+            "sourceRevision": "34ac41d8e370c15ebe1c02aa65c2df4c3af768310073c54a4c837e8462809816",
+            "assetPath": "assets/landing-page.hu.json",
+            "assetSchemaVersion": 2,
+            "generatedAt": "2026-10-04T21:09:16.473Z"
+          },
+          {
+            "language": "ar",
+            "regionKey": null,
+            "sourceRevision": "34ac41d8e370c15ebe1c02aa65c2df4c3af768310073c54a4c837e8462809816",
+            "assetPath": "assets/landing-page.ar.json",
+            "assetSchemaVersion": 2,
+            "generatedAt": "2026-10-04T21:09:16.473Z"
+          },
+          {
+            "language": "sv",
+            "regionKey": null,
+            "sourceRevision": "34ac41d8e370c15ebe1c02aa65c2df4c3af768310073c54a4c837e8462809816",
+            "assetPath": "assets/landing-page.sv.json",
+            "assetSchemaVersion": 2,
+            "generatedAt": "2026-10-04T21:09:16.473Z"
+          },
+          {
+            "language": "ro",
+            "regionKey": null,
+            "sourceRevision": "34ac41d8e370c15ebe1c02aa65c2df4c3af768310073c54a4c837e8462809816",
+            "assetPath": "assets/landing-page.ro.json",
+            "assetSchemaVersion": 2,
+            "generatedAt": "2026-10-04T21:09:16.473Z"
+          },
+          {
+            "language": "el",
+            "regionKey": null,
+            "sourceRevision": "34ac41d8e370c15ebe1c02aa65c2df4c3af768310073c54a4c837e8462809816",
+            "assetPath": "assets/landing-page.el.json",
+            "assetSchemaVersion": 2,
+            "generatedAt": "2026-10-04T21:09:16.473Z"
+          },
+          {
+            "language": "da",
+            "regionKey": null,
+            "sourceRevision": "34ac41d8e370c15ebe1c02aa65c2df4c3af768310073c54a4c837e8462809816",
+            "assetPath": "assets/landing-page.da.json",
+            "assetSchemaVersion": 2,
+            "generatedAt": "2026-10-04T21:09:16.473Z"
+          },
+          {
+            "language": "fi",
+            "regionKey": null,
+            "sourceRevision": "34ac41d8e370c15ebe1c02aa65c2df4c3af768310073c54a4c837e8462809816",
+            "assetPath": "assets/landing-page.fi.json",
+            "assetSchemaVersion": 2,
+            "generatedAt": "2026-10-04T21:09:16.473Z"
+          },
+          {
+            "language": "he",
+            "regionKey": null,
+            "sourceRevision": "34ac41d8e370c15ebe1c02aa65c2df4c3af768310073c54a4c837e8462809816",
+            "assetPath": "assets/landing-page.he.json",
+            "assetSchemaVersion": 2,
+            "generatedAt": "2026-10-04T21:09:16.473Z"
+          },
+          {
+            "language": "sk",
+            "regionKey": null,
+            "sourceRevision": "34ac41d8e370c15ebe1c02aa65c2df4c3af768310073c54a4c837e8462809816",
+            "assetPath": "assets/landing-page.sk.json",
+            "assetSchemaVersion": 2,
+            "generatedAt": "2026-10-04T21:09:16.473Z"
+          },
+          {
+            "language": "th",
+            "regionKey": null,
+            "sourceRevision": "34ac41d8e370c15ebe1c02aa65c2df4c3af768310073c54a4c837e8462809816",
+            "assetPath": "assets/landing-page.th.json",
+            "assetSchemaVersion": 2,
+            "generatedAt": "2026-10-04T21:09:16.473Z"
+          },
+          {
+            "language": "bg",
+            "regionKey": null,
+            "sourceRevision": "34ac41d8e370c15ebe1c02aa65c2df4c3af768310073c54a4c837e8462809816",
+            "assetPath": "assets/landing-page.bg.json",
+            "assetSchemaVersion": 2,
+            "generatedAt": "2026-10-04T21:09:16.473Z"
+          },
+          {
+            "language": "hr",
+            "regionKey": null,
+            "sourceRevision": "34ac41d8e370c15ebe1c02aa65c2df4c3af768310073c54a4c837e8462809816",
+            "assetPath": "assets/landing-page.hr.json",
+            "assetSchemaVersion": 2,
+            "generatedAt": "2026-10-04T21:09:16.473Z"
+          },
+          {
+            "language": "nb",
+            "regionKey": null,
+            "sourceRevision": "34ac41d8e370c15ebe1c02aa65c2df4c3af768310073c54a4c837e8462809816",
+            "assetPath": "assets/landing-page.nb.json",
+            "assetSchemaVersion": 2,
+            "generatedAt": "2026-10-04T21:09:16.473Z"
+          },
+          {
+            "language": "lt",
+            "regionKey": null,
+            "sourceRevision": "34ac41d8e370c15ebe1c02aa65c2df4c3af768310073c54a4c837e8462809816",
+            "assetPath": "assets/landing-page.lt.json",
+            "assetSchemaVersion": 2,
+            "generatedAt": "2026-10-04T21:09:16.473Z"
+          },
+          {
+            "language": "sr",
+            "regionKey": null,
+            "sourceRevision": "34ac41d8e370c15ebe1c02aa65c2df4c3af768310073c54a4c837e8462809816",
+            "assetPath": "assets/landing-page.sr.json",
+            "assetSchemaVersion": 2,
+            "generatedAt": "2026-10-04T21:09:16.473Z"
+          },
+          {
+            "language": "sl",
+            "regionKey": null,
+            "sourceRevision": "34ac41d8e370c15ebe1c02aa65c2df4c3af768310073c54a4c837e8462809816",
+            "assetPath": "assets/landing-page.sl.json",
+            "assetSchemaVersion": 2,
+            "generatedAt": "2026-10-04T21:09:16.473Z"
+          },
+          {
+            "language": "ca",
+            "regionKey": null,
+            "sourceRevision": "34ac41d8e370c15ebe1c02aa65c2df4c3af768310073c54a4c837e8462809816",
+            "assetPath": "assets/landing-page.ca.json",
+            "assetSchemaVersion": 2,
+            "generatedAt": "2026-10-04T21:09:16.473Z"
+          },
+          {
+            "language": "et",
+            "regionKey": null,
+            "sourceRevision": "34ac41d8e370c15ebe1c02aa65c2df4c3af768310073c54a4c837e8462809816",
+            "assetPath": "assets/landing-page.et.json",
+            "assetSchemaVersion": 2,
+            "generatedAt": "2026-10-04T21:09:16.473Z"
+          },
+          {
+            "language": "no",
+            "regionKey": null,
+            "sourceRevision": "34ac41d8e370c15ebe1c02aa65c2df4c3af768310073c54a4c837e8462809816",
+            "assetPath": "assets/landing-page.no.json",
+            "assetSchemaVersion": 2,
+            "generatedAt": "2026-10-04T21:09:16.473Z"
+          },
+          {
+            "language": "lv",
+            "regionKey": null,
+            "sourceRevision": "34ac41d8e370c15ebe1c02aa65c2df4c3af768310073c54a4c837e8462809816",
+            "assetPath": "assets/landing-page.lv.json",
+            "assetSchemaVersion": 2,
+            "generatedAt": "2026-10-04T21:09:16.473Z"
           }
         ]
       },

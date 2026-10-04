@@ -2,16 +2,16 @@
   "schemaVersion": 2,
   "language": "nl",
   "regionKey": null,
-  "sourceRevision": "9b00d9081f920764fbd3e5bcdb077a7b34f8b04299a9af6b2aee818670157abf",
+  "sourceRevision": "34ac41d8e370c15ebe1c02aa65c2df4c3af768310073c54a4c837e8462809816",
   "landingPage": {
-    "headline": "Eén gekwalificeerde introductie die past.",
-    "subheadline": "Introducties van particuliere kopers en verkopers, één menselijk beoordeeld voorstel per keer.",
+    "headline": "Eén gerichte introductie die past.",
+    "subheadline": "Privé-introducties tussen koper en verkoper. Eén getoetst voorstel tegelijk.",
     "ctaLabel": "Praat met Nest",
     "secondaryCtaLabel": "Zie hoe het werkt",
     "heroCharacterImage": "/landing-pages/nest/nest-character-meet-compact-high-wings-transparent.png",
     "seoImage": {
       "src": "https://raw.githubusercontent.com/vipin-go/nest-landing-page/c9ded5a0b652e35c0bfdc223935e7965e8bb9a41/assets/media/og.jpg",
-      "alt": "Nest: één zorgvuldige introductie van een woning per keer"
+      "alt": "Nest: één zorgvuldige thuisintroductie tegelijk"
     },
     "header": {
       "brandMark": "image",
@@ -66,7 +66,7 @@
     "homeIntroductions": {
       "header": {
         "brandLabel": "Nest.",
-        "brandTagline": "Eén zorgvuldige introductie",
+        "brandTagline": "Eén bewuste introductie",
         "navItems": [
           {
             "label": "Hoe het werkt",
@@ -81,34 +81,34 @@
             "target": "hero-chat"
           }
         ],
-        "ctaLabel": "Maak kennis met Nest",
+        "ctaLabel": "Ken Nest",
         "mobileCtaLabel": "Start",
         "editionLabel": "Kopen",
         "secondaryEditionLabel": "Verkopen"
       },
       "service": {
-        "activeMode": "event",
-        "announcement": "Nu matchen op Second Home Fair, Jaarbeurs Utrecht. Vr 27–zo 29 mrt",
-        "feeCopy": "Vergoeding gedeeld voordat u een introductie aanvraagt",
-        "disclaimer": "Nest is geen erkende makelaar en vertegenwoordigt geen van beide partijen, onderhandelt niet, waardeert uw huis niet, of handelt uw transactie af. Wanneer u klaar bent om verder te gaan, brengen we u in contact met een erkende lokale makelaar om het proces te voltooien. Not a broker. Does not represent either party. Does not provide valuations. Does not negotiate.",
+        "activeMode": "city",
+        "announcement": "Openbaar woningonderzoek voor je volgende stap",
+        "feeCopy": "Kosten bekend vóór je een introductie aanvraagt",
+        "disclaimer": "Nest onderzoekt openbare bronnen. Het is geen makelaardij, vertegenwoordigt niemand en doet geen onderhandeling, taxatie of transactie. Controleer de woninginformatie en raadpleeg een bevoegde lokale vastgoedprofessional vóór je verdergaat.",
         "configurations": [
           {
             "mode": "event",
-            "label": "Evenement",
-            "actionLabel": "Bekijken",
-            "name": "Tweede Huisbeurs, Jaarbeurs Utrecht",
-            "location": "Jaarbeurs Utrecht",
-            "dateRange": "Vr 27–zo 29 mrt",
-            "availabilityLabel": "Vr 27–zo 29 mrt · Jaarbeurs Utrecht"
+            "label": "Event",
+            "actionLabel": "Bekijk",
+            "name": "Voorbeeld woonevent",
+            "location": "Je regio",
+            "dateRange": "Bevestig met de organisator",
+            "availabilityLabel": "Voorbeeld · controleer lokale details"
           },
           {
             "mode": "city",
             "label": "Stad",
-            "actionLabel": "Bekijken",
-            "name": "Nest Amsterdam",
-            "location": "Amsterdam Zuid",
-            "dateRange": "Doorlopend",
-            "availabilityLabel": "Altijd actieve lokale introducties"
+            "actionLabel": "Bekijk",
+            "name": "Nest woningonderzoek",
+            "location": "Uw stad of gebied",
+            "dateRange": "Op uw verzoek",
+            "availabilityLabel": "Zoek wanneer je klaar bent"
           }
         ]
       },
@@ -117,8 +117,8 @@
           "id": "buying",
           "profileModeId": "buyer",
           "label": "Ik koop",
-          "responseMessage": "Vertel me het huis waarvoor het de moeite waard zou zijn om te verhuizen. Ik vraag alleen naar de details die een menselijke beoordelaar nodig heeft, en kom dan terug met één overwogen geschikte match.",
-          "composerPlaceholder": "Vertel Nest wat u nodig heeft van een huis...",
+          "responseMessage": "Welk huis is een verhuizing waard? Ik vraag alleen wat een menselijke beoordelaar nodig heeft en kom terug met één doordachte keuze.",
+          "composerPlaceholder": "Vertel Nest wat je huis moet bieden…",
           "processSteps": [
             {
               "number": "01",
@@ -130,45 +130,45 @@
             {
               "number": "02",
               "image": "/landing-pages/nest/nest-how-review-human.webp",
-              "alt": "Nest en een menselijke beoordelaar overwegen zorgvuldig één koper en één woning",
+              "alt": "Nest en een menselijke recensent zorgvuldig overwegen een koper en een huis",
               "title": "Ontvang één woningaanbod per keer.",
-              "body": "Een persoon beoordeelt elk voorstel voordat een van beide partijen het ziet. Geen openbare catalogus, ranglijst of eindeloos filterraster.",
-              "badge": "Menselijk goedgekeurd"
+              "body": "Een mens bekijkt elk voorstel vóór beide kanten het zien. Geen openbare catalogus, ranglijst of eindeloos filterraster.",
+              "badge": "Mens keurt goed"
             },
             {
               "number": "03",
               "image": "/landing-pages/nest/nest-how-introduction-human.webp",
-              "alt": "Nest introduceert een potentiële koper en huiseigenaar na wederzijdse toestemming",
+              "alt": "Nest introduceert koper en eigenaar na wederzijdse toestemming",
               "title": "Ontgrendel de introductie samen.",
-              "body": "Zodra beide partijen accepteren, worden het volledige adres, de contactgegevens en de voorgestelde bezichtigingstijd privé gedeeld."
+              "body": "Na akkoord van beide kanten delen we adres, contactgegevens en voorgestelde bezichtiging privé."
             }
           ],
           "briefFields": [
             {
               "key": "area",
-              "label": "Voorkeurs- of algemeen gebied",
-              "placeholder": "Regio Utrecht, Amsterdam Zuid…",
+              "label": "Voorkeursregio of gebied",
+              "placeholder": "uw stad, buurt of postgebied",
               "type": "text",
               "required": true
             },
             {
               "key": "propertyType",
               "label": "Type woning",
-              "placeholder": "Appartement, gezinswoning, tweede woning…",
+              "placeholder": "Appartement, gezinswoning, tweede huis…",
               "type": "text",
               "required": true
             },
             {
               "key": "propertyBrief",
               "label": "Hoe moet de woning aanvoelen?",
-              "placeholder": "Beschrijf de woning en waarom deze belangrijk is.",
+              "placeholder": "Beschrijf het huis en waarom het telt.",
               "type": "textarea",
               "required": true
             },
             {
               "key": "budgetOrPrice",
               "label": "Budgetbereik",
-              "placeholder": "Een privébereik is voldoende",
+              "placeholder": "Een privébereik is genoeg",
               "type": "text",
               "required": true
             },
@@ -189,14 +189,14 @@
             {
               "key": "timing",
               "label": "Timing",
-              "placeholder": "Wanneer bent u klaar om te bezichtigen of te verhuizen?",
+              "placeholder": "Wanneer kun je bezichtigen of verhuizen?",
               "type": "text",
               "required": true
             },
             {
               "key": "readiness",
               "label": "Klaarheid",
-              "placeholder": "Verkennen, hypotheek gereed, contante koper…",
+              "placeholder": "Oriënterend, hypotheek rond, eigen geld…",
               "type": "text",
               "required": true
             },
@@ -213,8 +213,8 @@
             "enabled": true,
             "kicker": "Zakelijke impact",
             "heading": "ROI-calculator",
-            "subheading": "Model een erkende tweede-woningmakelaar of makelaarskantoor dat Nest gebruikt voor gekwalificeerde, door mensen beoordeelde introducties in één lokale markt.",
-            "disclaimer": "Een gemodelleerd operationeel scenario met nul gevalideerde betaalde vraag. Nest kwalificeert en coördineert goedgekeurde introducties; het vertegenwoordigt geen partijen, waardeert geen eigendom, onderhandelt niet, verdient geen commissies of garandeert een transactie.",
+            "subheading": "Model voor een bevoegde tweedehuismakelaar die Nest gebruikt voor gerichte, menselijk beoordeelde introducties in één regio.",
+            "disclaimer": "Modelscenario zonder bewezen betaalde vraag. Nest selecteert en regelt introducties met toestemming. Het vertegenwoordigt niemand, taxeert of onderhandelt niet, ontvangt geen commissie en garandeert geen transactie.",
             "currency": "EUR",
             "currencyCopy": {
               "native": "Amounts in {currency}.",
@@ -224,12 +224,12 @@
               "basis": "Valutaconversie is geen onderzoek naar lokale kosten. Voer uw eigen lokale kosten en bijdrageaannames in. Taalwijzigingen veranderen de bedragen niet."
             },
             "costCopy": {
-              "breakdown": "Hoe de all-in AI-kosten zijn opgebouwd",
+              "breakdown": "Opbouw van je totale AI-kosten",
               "perUnit": "{amount} per work unit (average)",
-              "budgetOnly": "Dit is uw totale budget. Schakel over naar Kostenoverzicht om het te specificeren; er is geen verdeling aangenomen.",
-              "benefitNotice": "Gemodelleerde voordelen, geen kosten. Doorgehaalde bedragen zijn uitgaven die u verwacht te vermijden, geen kortingen op de AI-rekening.",
-              "remainder": "Andere inbegrepen operationele kosten",
-              "allocation": "Teruggegeven uren zijn capaciteit, geen automatische besparingen. Alleen de delen die u toewijst aan daadwerkelijke kostenreducties of extra bijdragen krijgen een geldelijke waarde."
+              "budgetOnly": "Dit is je totale budget. Kies Kostenoverzicht voor de onderdelen; er is geen verdeling aangenomen.",
+              "benefitNotice": "Modelvoordelen, geen kosten. Doorgestreepte bedragen zijn verwachte vermeden uitgaven, geen korting op de AI-rekening.",
+              "remainder": "Andere opgenomen bedrijfskosten",
+              "allocation": "Vrijgekomen uren zijn capaciteit, geen automatische besparing. Alleen toegewezen uren voor echte kostenverlaging of extra bijdrage krijgen een geldwaarde."
             },
             "locale": "en-GB",
             "inputs": [],
@@ -253,90 +253,90 @@
               "copy": {
                 "navLabel": "Prijzen",
                 "workloadStep": "Introductietrechter",
-                "costStep": "AI-operationele kosten",
+                "costStep": "AI bedrijfskosten",
                 "valueStep": "Capaciteit en bewijs",
-                "workloadIntro": "Model voor tweede-woningleads, kwalificatie en menselijke beoordeling - geen woningverkopen, commissies of gegarandeerde matches.",
+                "workloadIntro": "Model voor tweedehuisleads, selectie en menselijke toetsing — geen woningverkoop, commissie of gegarandeerde match.",
                 "costIntro": "Token-, model-, tool-, infrastructuur-, platform- en beoordelaarskosten zijn leveringsaannames. Nest-prijs is een aparte, niet-gevalideerde hypothese.",
-                "valueIntro": "Capaciteit is geen omzet. Voer waargenomen bijdrage in nadat een echte makelaar of makelaarskantoor de service gebruikt en ervoor betaalt.",
-                "sampleNotice": "Typisch gebruik · geen waargenomen resultaten",
-                "monthly": "Maandelijks",
-                "yearly": "Jaarlijks",
+                "valueIntro": "Capaciteit is geen omzet. Vul bewezen bijdrage pas in nadat een echte makelaar de dienst gebruikt en betaalt.",
+                "sampleNotice": "Typisch gebruik · niet gemeten",
+                "monthly": "Per maand",
+                "yearly": "Jaar-",
                 "next": "Doorgaan",
                 "back": "Terug",
                 "reset": "Aannames resetten",
-                "summary": "Uw gemodelleerde impact",
-                "volume": "Gemodelleerde leads",
-                "grossHours": "Repetitief werk verminderd",
-                "capacity": "Teruggegeven beoordelaars-capaciteit",
-                "retained": "Beschikbaar gehouden capaciteit",
+                "summary": "Je geraamde impact",
+                "volume": "Geraamde leads",
+                "grossHours": "Minder herhaalwerk",
+                "capacity": "Capaciteit beoordelaar terug",
+                "retained": "Vrijgehouden capaciteit",
                 "hours": "uren",
                 "days": "dagen",
                 "percent": "%",
                 "minutes": "minuten",
                 "tokens": "tokens",
-                "monthlyTokens": "Maandelijkse tokens",
+                "monthlyTokens": "Tokens per maand",
                 "tokenCost": "Tokengebruik",
                 "packageLabel": "Gebruikspakket",
                 "packageBase": "Basis",
                 "packageMedium": "Medium",
-                "packageCustom": "Aangepast",
-                "reviewMode": "Wie handelt de beoordeling af?",
+                "packageCustom": "Gewoonte",
+                "reviewMode": "Wie regelt de recensie?",
                 "teamReview": "Bestaand team",
                 "paidReview": "Extra betaalde beoordelaar",
-                "reviewNote": "Beoordeling door bestaand team gebruikt de terugverdiende capaciteit. Extra betaalde beoordeling is inbegrepen in de operationele kosten, wordt niet nogmaals afgetrokken van de teamcapaciteit.",
-                "totalMode": "Maandelijks budget",
+                "reviewNote": "Toetsing door je team benut vrijgekomen capaciteit. Extra betaalde toetsing zit in de bedrijfskosten en gaat niet opnieuw van teamcapaciteit af.",
+                "totalMode": "maandbudget",
                 "itemizedMode": "Kostenoverzicht",
-                "budgetNote": "Het budget moet modellen/media, tools, infrastructuur, Gabriel-kosten en extra betaalde beoordeling bevatten. Onveranderde salarisadministratie niet meerekenen als nieuwe uitgaven.",
-                "itemizedNote": "Tokengebruik wordt berekend op basis van volume × tokens per output. Extra media, tools en infrastructuur blijven op nul, tenzij van toepassing. Extra betaalde beoordeling wordt berekend op basis van beoordelingsuren en het tarief.",
-                "paidReviewCost": "Kosten voor extra betaalde beoordeling",
-                "allInCost": "Operationele kosten",
+                "budgetNote": "Budget: modellen/media, tools, infrastructuur, Gabriel-kosten en extra betaalde toetsing. Ongewijzigde lonen zijn geen nieuwe uitgaven.",
+                "itemizedNote": "Tokens = volume × tokens per resultaat. Extra media, tools en infrastructuur blijven nul tenzij van toepassing. Extra betaalde toetsing = toetsingsuren × tarief.",
+                "paidReviewCost": "Extra toetsingskosten",
+                "allInCost": "bedrijfskosten",
                 "missing": "Voeg uw aannames toe",
-                "cashValue": "Vermeden contante uitgaven",
+                "cashValue": "Vermeden uitgaven",
                 "contribution": "Verwachte bijdrage",
-                "expectedLoss": "Verwachte vermindering van verlies",
+                "expectedLoss": "Verwachte verliesdaling",
                 "riskValue": "Onzekere risicowaarde inbegrepen",
                 "economicValue": "Gemodelleerde bijdrage",
                 "netBenefit": "Gemodelleerd voordeel na Nest-prijs",
                 "multiple": "Interne leveringsmultiple",
-                "customerBenefit": "Gemodelleerd agentvoordeel",
-                "customerRoi": "Gemodelleerde klant-ROI",
+                "customerBenefit": "Geraamd makelaarsnut",
+                "customerRoi": "Geraamde klant-ROI",
                 "payback": "Klantterugverdientijd",
-                "notApplicable": "Niet van toepassing",
-                "annual": "Jaarlijks overzicht",
-                "annualNote": "Dezelfde maandelijkse aannames, zonder groei of samengestelde rente. Besparingen op personeel duren slechts voor de ingevoerde periode.",
+                "notApplicable": "Niet relevant",
+                "annual": "Jaaroverzicht",
+                "annualNote": "Dezelfde maandaannames, zonder groei of rente-op-rente. Bespaarde werving telt alleen tijdens de ingevulde periode.",
                 "method": "Hoe dit wordt berekend",
-                "burdenHeading": "Repetitief werk verminderd",
-                "opportunityHeading": "Capaciteit voor werk van hogere waarde",
-                "methodBody": "Operationele lasten verwijderd (negatieve productiviteit) leveren capaciteit op. Werk van hogere waarde (potentiële positieve productiviteit) creëert economische waarde alleen als die capaciteit wordt benut. Alleen uren zijn geen contante besparingen. Tokenkosten gebruiken een gemodelleerde input/output-mix, geen offerte van een provider.",
-                "formulaLabel": "Gekwalificeerde opdrachten = leads × kwalificatiepercentage. Leveringskosten omvatten gemodelleerde kosten voor tokens, modellen, tools, infrastructuur, platform en menselijke beoordeling. Klant-ROI blijft onbeschikbaar totdat voordeel en prijs worden ondersteund door bewijs.",
-                "allocationNote": "Elk uur kan eenmaal worden toegewezen. Niet-toegewezen uren blijven capaciteit, zonder geldelijke waarde.",
-                "overlapLabel": "Deze voordelen zijn afzonderlijk; ik heb kosten en verliezen uitgesloten die al elders zijn meegeteld.",
-                "overlapNote": "Fout- en risico-schattingen sluiten arbeidsbesparingen uit en hetzelfde incident mag niet in beide categorieën voorkomen. Bijdrage sluit AI-kosten uit, die afzonderlijk worden afgetrokken.",
+                "burdenHeading": "Minder herhaalwerk",
+                "opportunityHeading": "Capaciteit voor waardevoller werk",
+                "methodBody": "Minder werklast (negatieve productiviteit) maakt capaciteit vrij. Waardevoller werk (mogelijke positieve productiviteit) heeft pas economische waarde bij benutting. Uren zijn geen geldbesparing. Tokenkosten volgen een modelmix van invoer/uitvoer, geen provider-offerte.",
+                "formulaLabel": "Gekwalificeerde briefs = leads × selectieratio. Leveringskosten omvatten geraamde tokens, modellen, tools, infrastructuur, platform en menselijke toetsing. Klant-ROI blijft onbekend tot voordeel en prijs bewezen zijn.",
+                "allocationNote": "Elk uur kan eenmaal worden toegewezen. Niet-toegewezen uren blijven capaciteit, zonder geldwaarde.",
+                "overlapLabel": "Deze voordelen zijn losstaand; kosten en verliezen die elders meetellen zijn hier uitgesloten.",
+                "overlapNote": "Fout- en risicoramingen sluiten arbeidsbesparing uit; één incident mag niet in beide groepen staan. Bijdrage sluit AI-kosten uit, die apart worden afgetrokken.",
                 "hiringLabel": "Deze aanwerving was echt gepland en de toegewezen capaciteit kan het werk dekken.",
-                "reviewedLabel": "Ik heb mijn resultaten beoordeeld; niet-geselecteerde resultaten hebben geen financiële waarde in deze schatting.",
-                "cycleResult": "Verbetering van cyclustijd",
+                "reviewedLabel": "Ik heb mijn resultaten bekeken; niet-gekozen uitkomsten hebben in deze raming geen geldwaarde.",
+                "cycleResult": "Cyclustijdverbetering",
                 "throughputResult": "Aanvullend werk ondersteund door capaciteit en vraag",
-                "assumptionsIncomplete": "Voltooi de geselecteerde aannames om de financiële waarde te berekenen.",
-                "allocationError": "Toegewezen uren overschrijden de netto beschikbare capaciteit. Verminder de toewijzingen.",
-                "reviewError": "Beoordeling kost meer tijd dan het verminderde werk. Er is geen positieve capaciteit beschikbaar bij deze aannames.",
-                "cashError": "Vermeden uitgaven kunnen geen uitgaven overschrijden of een positieve waarde hebben zonder toegewezen uren.",
-                "hiringError": "Toegewezen capaciteit moet de geplande aanstellingsuren dekken. Bevestig de geplande aanstelling en de duur ervan.",
+                "assumptionsIncomplete": "Vul de gekozen aannames in om de geldwaarde te berekenen.",
+                "allocationError": "Toegewezen uren overschrijden de netto vrije capaciteit. Verlaag de toewijzing.",
+                "reviewError": "Toetsing kost meer tijd dan het verminderde werk. Bij deze aannames is geen positieve capaciteit vrij.",
+                "cashError": "Vermeden uitgaven mogen niet boven huidige uitgaven liggen of positief zijn zonder toegewezen uren.",
+                "hiringError": "Toegewezen capaciteit moet de geplande huururen dekken. Bevestig de geplande huur en de duur ervan.",
                 "riskError": "De kans na kan niet groter zijn dan de kans voor een schatting van verliesvermindering.",
-                "overlapError": "Bevestig dat de voordelen elkaar niet overlappen voordat u ze opneemt in het financiële resultaat.",
-                "boundsError": "Gebruik waarden binnen de weergegeven limieten.",
-                "rangeLabel": "Waarde aanpassen",
+                "overlapError": "Bevestig dat voordelen niet overlappen vóór ze meetellen in het financiële resultaat.",
+                "boundsError": "Gebruik waarden binnen de getoonde grenzen.",
+                "rangeLabel": "Pas waarde aan",
                 "noCurrencyChange": "Taal verandert de opmaak, niet uw valuta of aannames.",
                 "currentPreparation": "Huidige voorbereidingsuren",
-                "reviewHours": "Uren menselijke beoordeling",
-                "reworkHours": "Vermeden of toegevoegde rework-uren",
-                "capacityValue": "Gemodelleerde capaciteitswaarde",
-                "acceptedUnits": "Geaccepteerde eenheden",
-                "attendedUnits": "Bezochte eenheden",
-                "costPerAttended": "Kosten per bezochte eenheid",
-                "benefitCost": "Voordeel-kosten multiple",
-                "firstYearCost": "Eerstejaars kosten",
+                "reviewHours": "Menselijke toetsuren",
+                "reworkHours": "Vermeden of extra hersteluren",
+                "capacityValue": "Geraamde uurwaarde",
+                "acceptedUnits": "Aanvaarde units",
+                "attendedUnits": "Attended units",
+                "costPerAttended": "Kosten/bijgewoonde unit",
+                "benefitCost": "Voordeel/kostenratio",
+                "firstYearCost": "Kosten in jaar 1",
                 "firstYearRoi": "Eerstejaars ROI",
-                "paybackOutsideTerm": "Niet terugverdiend binnen de gemodelleerde termijn",
+                "paybackOutsideTerm": "Niet terugverdiend in de modelperiode",
                 "months": "months"
               },
               "fields": {
@@ -345,80 +345,80 @@
                   "help": "Tel aanvragen voor een tweede woning in de geselecteerde markt, niet vastgoedtransacties."
                 },
                 "accepted_rate": {
-                  "label": "Aandeel dat gekwalificeerde opdrachten worden",
-                  "help": "Een gemodelleerd kwalificatiepercentage. Vervang dit door waargenomen trechtergegevens na een pilot."
+                  "label": "Aandeel gekwalificeerde briefs",
+                  "help": "Geraamde selectieratio. Vervang na een proef door gemeten funneldata."
                 },
                 "attendance_rate": {
                   "label": "Expected attendance rate",
-                  "help": "Gemodelleerd aandeel van geaccepteerde vergaderingen dat naar verwachting zal plaatsvinden. Vervang dit door geverifieerde evenementgegevens na een pilot."
+                  "help": "Geraamd aandeel aanvaarde afspraken dat doorgaat. Vervang na een proef door geverifieerde afspraakgegevens."
                 },
                 "minutes": {
-                  "label": "Minuten om vandaag één kooppunt te kwalificeren",
-                  "help": "Actieve intake- en kwalificatietijd, exclusief verstreken dagen en zoektijd naar onroerend goed."
+                  "label": "Huidige minuten voor één koperbrief",
+                  "help": "Actieve intake- en selectietijd, zonder verstreken dagen of zoektijd naar woningen."
                 },
                 "automation": {
-                  "label": "Aandeel van dat werk verminderd",
+                  "label": "Aandeel minder werk",
                   "help": "Een illustratieve aanname om te valideren in een pilot, geen prestatiegarantie."
                 },
                 "review": {
-                  "label": "Minuten die een beoordelaar besteedt aan het bevestigen van elke opdracht",
-                  "help": "Menselijke beoordeling nog steeds vereist voordat beide partijen een voorstel zien."
+                  "label": "Minuten voor menselijke controle per brief",
+                  "help": "Menselijke toetsing vereist vóór beide kanten een voorstel zien."
                 },
                 "cycles_per_unit": {
                   "label": "Cycli per eenheid per maand",
                   "help": "Hoeveel terugkerende order-, beoordelings- of verwerkingscycli elke eenheid per maand doorloopt."
                 },
                 "tokens_per_output": {
-                  "label": "Tokens per gekwalificeerde kooppdracht",
-                  "help": "Gemodelleerde invoer- en uitvoertokens voor één beoordeelbare opdracht; providergebruik moet deze hypothese vervangen."
+                  "label": "Tokens per gekwalificeerde brief",
+                  "help": "Geraamde invoer- en uitvoertokens per toetsbare brief; vervang deze aanname door echt providergebruik."
                 },
                 "budget": {
-                  "label": "Geschat maandelijks operationeel budget",
-                  "help": "Inclusief tokengebruik, modellen/media, tools, infrastructuur, Gabriel-kosten en extra betaalde beoordeling."
+                  "label": "Geschat maandelijks bedrijfsbudget",
+                  "help": "Inclusief tokens, modellen/media, tools, infrastructuur, Gabriel-kosten en extra betaalde toetsing."
                 },
                 "model_cost": {
                   "label": "Extra model- of mediakosten",
-                  "help": "Voer afzonderlijk gefactureerde modellen of media in. Laat nul staan wanneer inbegrepen in het tokenenvelop."
+                  "help": "Vul apart gefactureerde modellen of media in. Laat nul als ze in het tokenbudget zitten."
                 },
                 "tools_cost": {
                   "label": "Tools en integraties",
-                  "help": "Browsersessies, connectoren en andere gemeten services. Voer nul in als er geen zijn."
+                  "help": "Browsersessies, connectoren en andere meetservices. Voer nul in als er geen."
                 },
                 "infrastructure_cost": {
                   "label": "Infrastructuur",
-                  "help": "Incrementele hosting, opslag en rekenkracht voor deze workload. Voer nul in indien van toepassing."
+                  "help": "Extra hosting, opslag en rekenkracht voor deze werklast. Vul nul in als er geen is."
                 },
                 "platform_cost": {
-                  "label": "Overige leverings- en ondersteuningskosten",
-                  "help": "Gemodelleerde hosting-, opslag-, monitoring- en ondersteuningskosten, gescheiden van de klantprijs."
+                  "label": "Overige lever-/supportkosten",
+                  "help": "Geraamde kosten voor hosting, opslag, monitoring en support, los van de klantprijs."
                 },
                 "customer_price": {
-                  "label": "Voorgestelde maandelijkse Nest-prijs",
-                  "help": "Bewerkbare prijsaanname voor agent/makelaar. Het is geen gevalideerde omzet en moet worden getest in een betaalde pilot."
+                  "label": "Voorgestelde Nest-maandprijs",
+                  "help": "Aanpasbare prijshypothese voor makelaars. Geen bewezen omzet; toets dit in een betaalde proef."
                 },
                 "personal_value_per_hour": {
-                  "label": "Optionele waarde die u toekent aan een uur",
-                  "help": "Alleen een optionele persoonlijke vergelijking. Dit is geen salaris, loon of gegarandeerde geldbesparing."
+                  "label": "Optionele waarde van één uur",
+                  "help": "Alleen een optionele persoonlijke vergelijking. Geen salaris, loon of gegarandeerde geldbesparing."
                 },
                 "review_rate": {
                   "label": "Extra betaalde beoordeling per uur",
-                  "help": "Werkelijke extra kosten voor reviewers, niet het salaris van een ongewijzigde werknemer."
+                  "help": "Echte extra toetsingskosten, niet het loon van een ongewijzigde medewerker."
                 },
                 "cash_hours": {
                   "label": "Uren die betaald werk besparen",
-                  "help": "Wijs alleen werk toe waarvan de overwerk-, contractanten- of verwerkingskosten daadwerkelijk stoppen."
+                  "help": "Wijs alleen werk toe waarvan kosten voor overuren, externen of verwerking echt stoppen."
                 },
                 "cash_baseline": {
-                  "label": "Huidige maandelijkse uitgaven aan dat werk",
+                  "label": "Huidige maandkosten voor dat werk",
                   "help": "Het cashbudget waaruit de reductie zal komen."
                 },
                 "cash_avoided": {
-                  "label": "Maandelijkse uitgaven die u zou stoppen",
-                  "help": "Eén expliciet bedrag, geen uren vermenigvuldigd met salaris; sluit besparingen op geplande aanwervingen die afzonderlijk zijn ingevoerd uit."
+                  "label": "Maandkosten die je zou stoppen",
+                  "help": "Eén concreet bedrag, niet uren × salaris; sluit apart ingevulde besparing op geplande werving uit."
                 },
                 "higher_value_hours": {
-                  "label": "Uren die agenten kunnen gebruiken voor echte gesprekken",
-                  "help": "Alleen capaciteit met waargenomen vraag krijgt een economische waarde."
+                  "label": "Uren voor echte makelaarsgesprekken",
+                  "help": "Alleen capaciteit met bewezen vraag krijgt een geldwaarde."
                 },
                 "contribution_rate": {
                   "label": "Incrementele bijdrage per agentuur",
@@ -430,39 +430,39 @@
                 },
                 "extra_minutes": {
                   "label": "Teamminuten per extra eenheid",
-                  "help": "De resterende menselijke inspanning, inclusief beoordeling, die nodig is om nog een eenheid te leveren."
+                  "help": "Resterende menselijke inzet, inclusief toetsing, voor één extra unit."
                 },
                 "demand": {
                   "label": "Extra eenheden met verwachte vraag",
-                  "help": "Capaciteit alleen is geen vraag. Voer het extra maandelijkse werk in dat u verwacht aan te nemen."
+                  "help": "Capaciteit is geen vraag. Vul het extra maandwerk in dat je verwacht aan te nemen."
                 },
                 "unit_margin": {
                   "label": "Bijdrage per extra eenheid",
                   "help": "Incrementele omzet minus leveringskosten; AI-operationele kosten worden apart afgetrokken."
                 },
                 "hiring_hours": {
-                  "label": "Uren die de geplande aanwerving dekken",
-                  "help": "Wijs capaciteit toe aan specifiek gepland werk, niet aan een algemene fulltime-equivalent schatting."
+                  "label": "Uren dekken de geplande huur",
+                  "help": "Wijs capaciteit toe aan concreet gepland werk, niet aan een algemene fte-raming."
                 },
                 "planned_hours": {
-                  "label": "Maandelijkse uren die de geplande aanwerving zou dekken",
-                  "help": "De toegewezen capaciteit moet deze volledige workload dekken."
+                  "label": "Maanduren voor de geplande medewerker",
+                  "help": "De toegewezen capaciteit moet dit hele werk dekken."
                 },
                 "hire_cost": {
-                  "label": "Maandelijkse kosten van aanwerving die daadwerkelijk zijn uitgesteld",
-                  "help": "Gebruik de kosten van een daadwerkelijk geplande aanwerving, niet het salaris van iemand die al in dienst is."
+                  "label": "Echt uitgestelde maandloonkosten",
+                  "help": "Gebruik kosten van echt geplande werving, niet het loon van een bestaande medewerker."
                 },
                 "hire_months": {
-                  "label": "Maanden dat de aanwerving wordt uitgesteld",
-                  "help": "Eén tot twaalf maanden; de jaarlijkse schatting stopt met het tellen van besparingen na deze periode."
+                  "label": "Maanden uitgestelde werving",
+                  "help": "Eén tot twaalf maanden; de jaarraming telt na deze periode geen besparing meer."
                 },
                 "incidents": {
                   "label": "Verwachte vermeden fouten per maand",
-                  "help": "Gebruik uw basislijn en verwachte reductie. Sluit incidenten uit die ook worden meegeteld als risicoreductie."
+                  "help": "Gebruik je uitgangspunt en verwachte daling. Sluit incidenten uit die ook als risicodaling tellen."
                 },
                 "incident_cost": {
                   "label": "Incrementele kosten per fout",
-                  "help": "Sluit arbeid, terugbetalingen of andere verliezen die al elders zijn opgenomen uit."
+                  "help": "Sluit elders getelde arbeid, terugbetalingen en andere verliezen uit."
                 },
                 "probability_before": {
                   "label": "Maandelijkse verlieskans voorheen",
@@ -470,19 +470,19 @@
                 },
                 "probability_after": {
                   "label": "Maandelijkse verlieskans hierna",
-                  "help": "Gebruik hetzelfde evenement en dezelfde maandelijkse tijdshorizon als de basislijn."
+                  "help": "Gebruik hetzelfde incident en dezelfde maandperiode als de basis."
                 },
                 "loss": {
-                  "label": "Verliesblootstelling voor dat evenement",
-                  "help": "Sluit foutincidenten en uitgaven die al zijn meegeteld uit. Dit is onzekere verwachte waarde, geen bespaard geld."
+                  "label": "Verliesrisico van dat incident",
+                  "help": "Uitsluiten van foutincidenten en reeds getelde uitgaven. Dit is onzekere verwachte waarde, niet contant geld."
                 },
                 "days_before": {
                   "label": "Cyclustijd voorheen, in dagen",
-                  "help": "Verstreken tijd van begin tot voltooiing, gescheiden van hands-on inspanning."
+                  "help": "Verstreken tijd van start tot voltooiing, los van hands-on inspanning."
                 },
                 "days_after": {
                   "label": "Cyclustijd hierna, in dagen",
-                  "help": "Weergegeven als een operationele verandering, zonder een veronderstelde geldwaarde."
+                  "help": "Alleen een operationele verandering, zonder aangenomen geldwaarde."
                 }
               },
               "burden": [
@@ -490,7 +490,7 @@
                 "Herhaaldelijk matchen en coördineren"
               ],
               "opportunity": [
-                "Meer gekwalificeerde, door mensen beoordeelde introducties",
+                "Meer gerichte, menselijk getoetste introducties",
                 "Tijd voor agentgesprekken en klantbehoeften"
               ],
               "usagePackages": {
@@ -535,20 +535,20 @@
               },
               "hero": {
                 "kind": "volume",
-                "label": "Gekwalificeerde briefs die de beoordeling ingaan"
+                "label": "Gekwalificeerde briefs ter toetsing"
               },
               "outcomes": [
                 {
                   "id": "higher_value",
-                  "label": "Houd agenten bezig met gesprekken",
-                  "help": "Voer alleen capaciteit in die kan worden omgeleid naar echt agent- of makelaarswerk; behandel de vastgoedwaarde of commissie niet als Nest-inkomsten."
+                  "label": "Houd agenten bij gesprekken",
+                  "help": "Vul alleen capaciteit in voor echt makelaarswerk; woningwaarde of commissie is geen Nest-omzet."
                 }
               ],
               "tabs": [
                 {
                   "id": "funnel",
                   "label": "Introductietrechter",
-                  "intro": "Model leads die de agent of makelaarsbalie binnenkomen, kwalificatie en menselijke beoordeling.",
+                  "intro": "Model voor makelaarsleads, selectie en menselijke toetsing.",
                   "fields": [
                     "volume",
                     "accepted_rate",
@@ -558,7 +558,7 @@
                 },
                 {
                   "id": "costs",
-                  "label": "AI-operationele kosten",
+                  "label": "AI bedrijfskosten",
                   "intro": "Houd model-, token-, tool-, infrastructuur-, platform- en beoordelaarskosten gescheiden van de voorgestelde klantprijs.",
                   "fields": [
                     "tokens_per_output",
@@ -573,7 +573,7 @@
                 {
                   "id": "capacity",
                   "label": "Capaciteit en bewijs",
-                  "intro": "Teruggegeven capaciteit is geen omzet. Financiële resultaten blijven onvoldoende totdat een betaler, prijs en leveringsbewijs zijn geregistreerd.",
+                  "intro": "Vrijgekomen capaciteit is geen omzet. Geldresultaten blijven onbewezen tot betaler, prijs en leveringsbewijs vaststaan.",
                   "fields": [
                     "higher_value_hours",
                     "contribution_rate"
@@ -585,8 +585,8 @@
               "pricing": {
                 "basis": "fixed",
                 "annualPrice": 9000,
-                "label": "Voorgestelde Nest maandelijkse prijs",
-                "help": "Een werkende hypothese van €750/maand voor een gekwalificeerde introductiepilot. Behandel als niet gevalideerd totdat een agent of makelaar betaalt."
+                "label": "Voorgestelde Nest-maandprijs",
+                "help": "€750/maand als werkhypothese voor een introductieproef. Onbewezen tot een makelaar betaalt."
               },
               "presentation": {
                 "financial": "optional",
@@ -598,9 +598,17 @@
               "primaryLabel": "Praat met Nest",
               "primaryTarget": "meet",
               "secondaryLabel": "Zie hoe het werkt",
-              "privacyNote": "Uw gegevens blijven privé. Uren zijn capaciteit. Financiële bedragen zijn gemodelleerde schattingen, geen waargenomen resultaten.",
+              "privacyNote": "Je data blijft privé. Uren zijn capaciteit. Geldbedragen zijn ramingen, geen gemeten resultaten.",
               "secondaryTarget": "how-it-works"
             }
+          },
+          "leadScan": {
+            "instruction": "Vertel Nest de stad of het gebied waar u wilt zoeken en uw budget. Nest zal openbare eigendommen en verkoperleads vinden die u kunt beoordelen.",
+            "inputLabel": "Locatie en budget",
+            "inputPlaceholder": "Bijvoorbeeld: uw stad of gebied, budget in uw lokale valuta...",
+            "submitLabel": "Find leads",
+            "budgetHint": "Voeg een budget toe voor preciezere resultaten.",
+            "loginNotice": "Log in en zoek tot 100 leads."
           }
         },
         {
@@ -608,13 +616,13 @@
           "profileModeId": "seller",
           "label": "Ik verkoop",
           "responseMessage": "Vertel me wat het huis onderscheidt en welke koper een serieuze match zou zijn. Ik houd het exacte adres privé en kom met één overwogen introductie.",
-          "composerPlaceholder": "Vertel Nest wat belangrijk is aan uw verkoop…",
+          "composerPlaceholder": "Vertel Nest wat telt bij je verkoop…",
           "heroOverride": {
-            "eyebrow": "De ene gekwalificeerde koper, geen openbare aanbieding.",
+            "eyebrow": "Eén geschikte koper, geen openbare advertentie.",
             "headingLines": [
-              "Eén gekwalificeerde koper",
-              "die past, niet een publieke",
-              "aanbieding die iedereen kan zien."
+              "Eén geschikte koper",
+              "Wie past, geen publiek",
+              "advertentie voor iedereen."
             ],
             "body": "Vertel Nest wat uw huis onderscheidt en wie een serieuze koper zou zijn. Nest stelt één gekwalificeerde koper per keer voor. Uw adres en identiteit blijven privé totdat u beiden ja zegt.",
             "primaryCtaLabel": "Praat met Nest over verkopen"
@@ -630,23 +638,23 @@
             {
               "number": "02",
               "image": "/landing-pages/nest/nest-how-review-human.webp",
-              "alt": "Nest en een menselijke beoordelaar overwegen zorgvuldig één verkoper en één gekwalificeerde koper",
+              "alt": "Nest en een mens bekijken zorgvuldig één verkoper en één geschikte koper",
               "title": "Ontvang één koper-match per keer.",
-              "body": "Een persoon beoordeelt elk voorstel voordat een van beide partijen het ziet. Geen openbare blootstelling of bulkdealstroom.",
-              "badge": "Menselijk goedgekeurd"
+              "body": "Een mens toetst elk voorstel vóór beide kanten het zien. Geen openbare zichtbaarheid of bulkdeals.",
+              "badge": "Mens keurt goed"
             },
             {
               "number": "03",
               "image": "/landing-pages/nest/nest-how-introduction-human.webp",
-              "alt": "Nest introduceert een huiseigenaar en potentiële koper na wederzijdse toestemming",
+              "alt": "Nest introduceert eigenaar en koper na wederzijdse toestemming",
               "title": "Ontgrendel de introductie samen.",
-              "body": "Zodra beide partijen accepteren, worden contactgegevens, het exacte adres en de voorgestelde bezichtigingstijd privé gedeeld."
+              "body": "Zodra beide partijen accepteren, worden contactgegevens, het exacte adres en de voorgestelde kijktijd privé gedeeld."
             }
           ],
           "briefFields": [
             {
               "key": "area",
-              "label": "Algemeen gebied",
+              "label": "algens",
               "placeholder": "Alleen buurt of breed gebied",
               "type": "text",
               "required": true
@@ -654,13 +662,13 @@
             {
               "key": "propertyType",
               "label": "Type woning",
-              "placeholder": "Appartement, gezinswoning, tweede woning…",
+              "placeholder": "Appartement, gezinswoning, tweede huis…",
               "type": "text",
               "required": true
             },
             {
               "key": "propertyBrief",
-              "label": "Eigendomsbriefing",
+              "label": "eigendomskort",
               "placeholder": "Beschrijf het pand zonder exact adres.",
               "type": "textarea",
               "required": true
@@ -668,20 +676,20 @@
             {
               "key": "budgetOrPrice",
               "label": "Vraagprijsbereik",
-              "placeholder": "Een privébereik is voldoende",
+              "placeholder": "Een privébereik is genoeg",
               "type": "text",
               "required": true
             },
             {
               "key": "mustHavesOrHighlights",
-              "label": "Hoogtepunten van het pand",
+              "label": "Woningkenmerken",
               "placeholder": "Wat maakt dit huis uniek?",
               "type": "textarea",
               "required": true
             },
             {
               "key": "dealbreakersOrBuyerCriteria",
-              "label": "Criteria voor koper-match",
+              "label": "Koper-fit criteria",
               "placeholder": "Wat moet waar zijn van een serieuze koper?",
               "type": "textarea",
               "required": false
@@ -689,14 +697,14 @@
             {
               "key": "timing",
               "label": "Timing",
-              "placeholder": "Wanneer bent u klaar om een bezichtiging te regelen?",
+              "placeholder": "Wanneer kun je een bezichtiging regelen?",
               "type": "text",
               "required": true
             },
             {
               "key": "readiness",
               "label": "Klaarheid",
-              "placeholder": "Voorbereiden, klaar voor privébezichtigingen…",
+              "placeholder": "In voorbereiding, klaar voor privébezoek…",
               "type": "text",
               "required": true
             },
@@ -713,8 +721,8 @@
             "enabled": true,
             "kicker": "Zakelijke impact",
             "heading": "ROI-calculator",
-            "subheading": "Model een erkende tweede-woningmakelaar of makelaarskantoor dat Nest gebruikt voor gekwalificeerde, door mensen beoordeelde introducties in één lokale markt.",
-            "disclaimer": "Een gemodelleerd operationeel scenario met nul gevalideerde betaalde vraag. Nest kwalificeert en coördineert goedgekeurde introducties; het vertegenwoordigt geen partijen, waardeert geen eigendom, onderhandelt niet, verdient geen commissies of garandeert een transactie.",
+            "subheading": "Model voor een bevoegde tweedehuismakelaar die Nest gebruikt voor gerichte, menselijk beoordeelde introducties in één regio.",
+            "disclaimer": "Modelscenario zonder bewezen betaalde vraag. Nest selecteert en regelt introducties met toestemming. Het vertegenwoordigt niemand, taxeert of onderhandelt niet, ontvangt geen commissie en garandeert geen transactie.",
             "currency": "EUR",
             "currencyCopy": {
               "native": "Amounts in {currency}.",
@@ -724,12 +732,12 @@
               "basis": "Valutaconversie is geen onderzoek naar lokale kosten. Voer uw eigen lokale kosten en bijdrageaannames in. Taalwijzigingen veranderen de bedragen niet."
             },
             "costCopy": {
-              "breakdown": "Hoe de all-in AI-kosten zijn opgebouwd",
+              "breakdown": "Opbouw van je totale AI-kosten",
               "perUnit": "{amount} per work unit (average)",
-              "budgetOnly": "Dit is uw totale budget. Schakel over naar Kostenoverzicht om het te specificeren; er is geen verdeling aangenomen.",
-              "benefitNotice": "Gemodelleerde voordelen, geen kosten. Doorgehaalde bedragen zijn uitgaven die u verwacht te vermijden, geen kortingen op de AI-rekening.",
-              "remainder": "Andere inbegrepen operationele kosten",
-              "allocation": "Teruggegeven uren zijn capaciteit, geen automatische besparingen. Alleen de delen die u toewijst aan daadwerkelijke kostenreducties of extra bijdragen krijgen een geldelijke waarde."
+              "budgetOnly": "Dit is je totale budget. Kies Kostenoverzicht voor de onderdelen; er is geen verdeling aangenomen.",
+              "benefitNotice": "Modelvoordelen, geen kosten. Doorgestreepte bedragen zijn verwachte vermeden uitgaven, geen korting op de AI-rekening.",
+              "remainder": "Andere opgenomen bedrijfskosten",
+              "allocation": "Vrijgekomen uren zijn capaciteit, geen automatische besparing. Alleen toegewezen uren voor echte kostenverlaging of extra bijdrage krijgen een geldwaarde."
             },
             "locale": "en-GB",
             "inputs": [],
@@ -753,90 +761,90 @@
               "copy": {
                 "navLabel": "Prijzen",
                 "workloadStep": "Introductietrechter",
-                "costStep": "AI-operationele kosten",
+                "costStep": "AI bedrijfskosten",
                 "valueStep": "Capaciteit en bewijs",
-                "workloadIntro": "Model voor tweede-woningleads, kwalificatie en menselijke beoordeling - geen woningverkopen, commissies of gegarandeerde matches.",
+                "workloadIntro": "Model voor tweedehuisleads, selectie en menselijke toetsing — geen woningverkoop, commissie of gegarandeerde match.",
                 "costIntro": "Token-, model-, tool-, infrastructuur-, platform- en beoordelaarskosten zijn leveringsaannames. Nest-prijs is een aparte, niet-gevalideerde hypothese.",
-                "valueIntro": "Capaciteit is geen omzet. Voer waargenomen bijdrage in nadat een echte makelaar of makelaarskantoor de service gebruikt en ervoor betaalt.",
-                "sampleNotice": "Typisch gebruik · geen waargenomen resultaten",
-                "monthly": "Maandelijks",
-                "yearly": "Jaarlijks",
+                "valueIntro": "Capaciteit is geen omzet. Vul bewezen bijdrage pas in nadat een echte makelaar de dienst gebruikt en betaalt.",
+                "sampleNotice": "Typisch gebruik · niet gemeten",
+                "monthly": "Per maand",
+                "yearly": "Jaar-",
                 "next": "Doorgaan",
                 "back": "Terug",
                 "reset": "Aannames resetten",
-                "summary": "Uw gemodelleerde impact",
-                "volume": "Gemodelleerde leads",
-                "grossHours": "Repetitief werk verminderd",
-                "capacity": "Teruggegeven beoordelaars-capaciteit",
-                "retained": "Beschikbaar gehouden capaciteit",
+                "summary": "Je geraamde impact",
+                "volume": "Geraamde leads",
+                "grossHours": "Minder herhaalwerk",
+                "capacity": "Capaciteit beoordelaar terug",
+                "retained": "Vrijgehouden capaciteit",
                 "hours": "uren",
                 "days": "dagen",
                 "percent": "%",
                 "minutes": "minuten",
                 "tokens": "tokens",
-                "monthlyTokens": "Maandelijkse tokens",
+                "monthlyTokens": "Tokens per maand",
                 "tokenCost": "Tokengebruik",
                 "packageLabel": "Gebruikspakket",
                 "packageBase": "Basis",
                 "packageMedium": "Medium",
-                "packageCustom": "Aangepast",
-                "reviewMode": "Wie handelt de beoordeling af?",
+                "packageCustom": "Gewoonte",
+                "reviewMode": "Wie regelt de recensie?",
                 "teamReview": "Bestaand team",
                 "paidReview": "Extra betaalde beoordelaar",
-                "reviewNote": "Beoordeling door bestaand team gebruikt de terugverdiende capaciteit. Extra betaalde beoordeling is inbegrepen in de operationele kosten, wordt niet nogmaals afgetrokken van de teamcapaciteit.",
-                "totalMode": "Maandelijks budget",
+                "reviewNote": "Toetsing door je team benut vrijgekomen capaciteit. Extra betaalde toetsing zit in de bedrijfskosten en gaat niet opnieuw van teamcapaciteit af.",
+                "totalMode": "maandbudget",
                 "itemizedMode": "Kostenoverzicht",
-                "budgetNote": "Het budget moet modellen/media, tools, infrastructuur, Gabriel-kosten en extra betaalde beoordeling bevatten. Onveranderde salarisadministratie niet meerekenen als nieuwe uitgaven.",
-                "itemizedNote": "Tokengebruik wordt berekend op basis van volume × tokens per output. Extra media, tools en infrastructuur blijven op nul, tenzij van toepassing. Extra betaalde beoordeling wordt berekend op basis van beoordelingsuren en het tarief.",
-                "paidReviewCost": "Kosten voor extra betaalde beoordeling",
-                "allInCost": "Operationele kosten",
+                "budgetNote": "Budget: modellen/media, tools, infrastructuur, Gabriel-kosten en extra betaalde toetsing. Ongewijzigde lonen zijn geen nieuwe uitgaven.",
+                "itemizedNote": "Tokens = volume × tokens per resultaat. Extra media, tools en infrastructuur blijven nul tenzij van toepassing. Extra betaalde toetsing = toetsingsuren × tarief.",
+                "paidReviewCost": "Extra toetsingskosten",
+                "allInCost": "bedrijfskosten",
                 "missing": "Voeg uw aannames toe",
-                "cashValue": "Vermeden contante uitgaven",
+                "cashValue": "Vermeden uitgaven",
                 "contribution": "Verwachte bijdrage",
-                "expectedLoss": "Verwachte vermindering van verlies",
+                "expectedLoss": "Verwachte verliesdaling",
                 "riskValue": "Onzekere risicowaarde inbegrepen",
                 "economicValue": "Gemodelleerde bijdrage",
                 "netBenefit": "Gemodelleerd voordeel na Nest-prijs",
                 "multiple": "Interne leveringsmultiple",
-                "customerBenefit": "Gemodelleerd agentvoordeel",
-                "customerRoi": "Gemodelleerde klant-ROI",
+                "customerBenefit": "Geraamd makelaarsnut",
+                "customerRoi": "Geraamde klant-ROI",
                 "payback": "Klantterugverdientijd",
-                "notApplicable": "Niet van toepassing",
-                "annual": "Jaarlijks overzicht",
-                "annualNote": "Dezelfde maandelijkse aannames, zonder groei of samengestelde rente. Besparingen op personeel duren slechts voor de ingevoerde periode.",
+                "notApplicable": "Niet relevant",
+                "annual": "Jaaroverzicht",
+                "annualNote": "Dezelfde maandaannames, zonder groei of rente-op-rente. Bespaarde werving telt alleen tijdens de ingevulde periode.",
                 "method": "Hoe dit wordt berekend",
-                "burdenHeading": "Repetitief werk verminderd",
-                "opportunityHeading": "Capaciteit voor werk van hogere waarde",
-                "methodBody": "Operationele lasten verwijderd (negatieve productiviteit) leveren capaciteit op. Werk van hogere waarde (potentiële positieve productiviteit) creëert economische waarde alleen als die capaciteit wordt benut. Alleen uren zijn geen contante besparingen. Tokenkosten gebruiken een gemodelleerde input/output-mix, geen offerte van een provider.",
-                "formulaLabel": "Gekwalificeerde opdrachten = leads × kwalificatiepercentage. Leveringskosten omvatten gemodelleerde kosten voor tokens, modellen, tools, infrastructuur, platform en menselijke beoordeling. Klant-ROI blijft onbeschikbaar totdat voordeel en prijs worden ondersteund door bewijs.",
-                "allocationNote": "Elk uur kan eenmaal worden toegewezen. Niet-toegewezen uren blijven capaciteit, zonder geldelijke waarde.",
-                "overlapLabel": "Deze voordelen zijn afzonderlijk; ik heb kosten en verliezen uitgesloten die al elders zijn meegeteld.",
-                "overlapNote": "Fout- en risico-schattingen sluiten arbeidsbesparingen uit en hetzelfde incident mag niet in beide categorieën voorkomen. Bijdrage sluit AI-kosten uit, die afzonderlijk worden afgetrokken.",
+                "burdenHeading": "Minder herhaalwerk",
+                "opportunityHeading": "Capaciteit voor waardevoller werk",
+                "methodBody": "Minder werklast (negatieve productiviteit) maakt capaciteit vrij. Waardevoller werk (mogelijke positieve productiviteit) heeft pas economische waarde bij benutting. Uren zijn geen geldbesparing. Tokenkosten volgen een modelmix van invoer/uitvoer, geen provider-offerte.",
+                "formulaLabel": "Gekwalificeerde briefs = leads × selectieratio. Leveringskosten omvatten geraamde tokens, modellen, tools, infrastructuur, platform en menselijke toetsing. Klant-ROI blijft onbekend tot voordeel en prijs bewezen zijn.",
+                "allocationNote": "Elk uur kan eenmaal worden toegewezen. Niet-toegewezen uren blijven capaciteit, zonder geldwaarde.",
+                "overlapLabel": "Deze voordelen zijn losstaand; kosten en verliezen die elders meetellen zijn hier uitgesloten.",
+                "overlapNote": "Fout- en risicoramingen sluiten arbeidsbesparing uit; één incident mag niet in beide groepen staan. Bijdrage sluit AI-kosten uit, die apart worden afgetrokken.",
                 "hiringLabel": "Deze aanwerving was echt gepland en de toegewezen capaciteit kan het werk dekken.",
-                "reviewedLabel": "Ik heb mijn resultaten beoordeeld; niet-geselecteerde resultaten hebben geen financiële waarde in deze schatting.",
-                "cycleResult": "Verbetering van cyclustijd",
+                "reviewedLabel": "Ik heb mijn resultaten bekeken; niet-gekozen uitkomsten hebben in deze raming geen geldwaarde.",
+                "cycleResult": "Cyclustijdverbetering",
                 "throughputResult": "Aanvullend werk ondersteund door capaciteit en vraag",
-                "assumptionsIncomplete": "Voltooi de geselecteerde aannames om de financiële waarde te berekenen.",
-                "allocationError": "Toegewezen uren overschrijden de netto beschikbare capaciteit. Verminder de toewijzingen.",
-                "reviewError": "Beoordeling kost meer tijd dan het verminderde werk. Er is geen positieve capaciteit beschikbaar bij deze aannames.",
-                "cashError": "Vermeden uitgaven kunnen geen uitgaven overschrijden of een positieve waarde hebben zonder toegewezen uren.",
-                "hiringError": "Toegewezen capaciteit moet de geplande aanstellingsuren dekken. Bevestig de geplande aanstelling en de duur ervan.",
+                "assumptionsIncomplete": "Vul de gekozen aannames in om de geldwaarde te berekenen.",
+                "allocationError": "Toegewezen uren overschrijden de netto vrije capaciteit. Verlaag de toewijzing.",
+                "reviewError": "Toetsing kost meer tijd dan het verminderde werk. Bij deze aannames is geen positieve capaciteit vrij.",
+                "cashError": "Vermeden uitgaven mogen niet boven huidige uitgaven liggen of positief zijn zonder toegewezen uren.",
+                "hiringError": "Toegewezen capaciteit moet de geplande huururen dekken. Bevestig de geplande huur en de duur ervan.",
                 "riskError": "De kans na kan niet groter zijn dan de kans voor een schatting van verliesvermindering.",
-                "overlapError": "Bevestig dat de voordelen elkaar niet overlappen voordat u ze opneemt in het financiële resultaat.",
-                "boundsError": "Gebruik waarden binnen de weergegeven limieten.",
-                "rangeLabel": "Waarde aanpassen",
+                "overlapError": "Bevestig dat voordelen niet overlappen vóór ze meetellen in het financiële resultaat.",
+                "boundsError": "Gebruik waarden binnen de getoonde grenzen.",
+                "rangeLabel": "Pas waarde aan",
                 "noCurrencyChange": "Taal verandert de opmaak, niet uw valuta of aannames.",
                 "currentPreparation": "Huidige voorbereidingsuren",
-                "reviewHours": "Uren menselijke beoordeling",
-                "reworkHours": "Vermeden of toegevoegde rework-uren",
-                "capacityValue": "Gemodelleerde capaciteitswaarde",
-                "acceptedUnits": "Geaccepteerde eenheden",
-                "attendedUnits": "Bezochte eenheden",
-                "costPerAttended": "Kosten per bezochte eenheid",
-                "benefitCost": "Voordeel-kosten multiple",
-                "firstYearCost": "Eerstejaars kosten",
+                "reviewHours": "Menselijke toetsuren",
+                "reworkHours": "Vermeden of extra hersteluren",
+                "capacityValue": "Geraamde uurwaarde",
+                "acceptedUnits": "Aanvaarde units",
+                "attendedUnits": "Attended units",
+                "costPerAttended": "Kosten/bijgewoonde unit",
+                "benefitCost": "Voordeel/kostenratio",
+                "firstYearCost": "Kosten in jaar 1",
                 "firstYearRoi": "Eerstejaars ROI",
-                "paybackOutsideTerm": "Niet terugverdiend binnen de gemodelleerde termijn",
+                "paybackOutsideTerm": "Niet terugverdiend in de modelperiode",
                 "months": "months"
               },
               "fields": {
@@ -845,80 +853,80 @@
                   "help": "Tel aanvragen voor een tweede woning in de geselecteerde markt, niet vastgoedtransacties."
                 },
                 "accepted_rate": {
-                  "label": "Aandeel dat gekwalificeerde opdrachten worden",
-                  "help": "Een gemodelleerd kwalificatiepercentage. Vervang dit door waargenomen trechtergegevens na een pilot."
+                  "label": "Aandeel gekwalificeerde briefs",
+                  "help": "Geraamde selectieratio. Vervang na een proef door gemeten funneldata."
                 },
                 "attendance_rate": {
                   "label": "Expected attendance rate",
-                  "help": "Gemodelleerd aandeel van geaccepteerde vergaderingen dat naar verwachting zal plaatsvinden. Vervang dit door geverifieerde evenementgegevens na een pilot."
+                  "help": "Geraamd aandeel aanvaarde afspraken dat doorgaat. Vervang na een proef door geverifieerde afspraakgegevens."
                 },
                 "minutes": {
-                  "label": "Minuten om vandaag één verkopersopdracht te kwalificeren",
-                  "help": "Actieve intake- en kwalificatietijd, exclusief verstreken dagen en zoektijd naar onroerend goed."
+                  "label": "Huidige minuten voor één verkopersbrief",
+                  "help": "Actieve intake- en selectietijd, zonder verstreken dagen of zoektijd naar woningen."
                 },
                 "automation": {
-                  "label": "Aandeel van dat werk verminderd",
+                  "label": "Aandeel minder werk",
                   "help": "Een illustratieve aanname om te valideren in een pilot, geen prestatiegarantie."
                 },
                 "review": {
-                  "label": "Minuten die een beoordelaar besteedt aan het bevestigen van elke opdracht",
-                  "help": "Menselijke beoordeling nog steeds vereist voordat beide partijen een voorstel zien."
+                  "label": "Minuten voor menselijke controle per brief",
+                  "help": "Menselijke toetsing vereist vóór beide kanten een voorstel zien."
                 },
                 "cycles_per_unit": {
                   "label": "Cycli per eenheid per maand",
                   "help": "Hoeveel terugkerende order-, beoordelings- of verwerkingscycli elke eenheid per maand doorloopt."
                 },
                 "tokens_per_output": {
-                  "label": "Tokens per gekwalificeerde verkopersopdracht",
-                  "help": "Gemodelleerde invoer- en uitvoertokens voor één beoordeelbare opdracht; providergebruik moet deze hypothese vervangen."
+                  "label": "Tokens per geschikte verkopersbrief",
+                  "help": "Geraamde invoer- en uitvoertokens per toetsbare brief; vervang deze aanname door echt providergebruik."
                 },
                 "budget": {
-                  "label": "Geschat maandelijks operationeel budget",
-                  "help": "Inclusief tokengebruik, modellen/media, tools, infrastructuur, Gabriel-kosten en extra betaalde beoordeling."
+                  "label": "Geschat maandelijks bedrijfsbudget",
+                  "help": "Inclusief tokens, modellen/media, tools, infrastructuur, Gabriel-kosten en extra betaalde toetsing."
                 },
                 "model_cost": {
                   "label": "Extra model- of mediakosten",
-                  "help": "Voer afzonderlijk gefactureerde modellen of media in. Laat nul staan wanneer inbegrepen in het tokenenvelop."
+                  "help": "Vul apart gefactureerde modellen of media in. Laat nul als ze in het tokenbudget zitten."
                 },
                 "tools_cost": {
                   "label": "Tools en integraties",
-                  "help": "Browsersessies, connectoren en andere gemeten services. Voer nul in als er geen zijn."
+                  "help": "Browsersessies, connectoren en andere meetservices. Voer nul in als er geen."
                 },
                 "infrastructure_cost": {
                   "label": "Infrastructuur",
-                  "help": "Incrementele hosting, opslag en rekenkracht voor deze workload. Voer nul in indien van toepassing."
+                  "help": "Extra hosting, opslag en rekenkracht voor deze werklast. Vul nul in als er geen is."
                 },
                 "platform_cost": {
-                  "label": "Overige leverings- en ondersteuningskosten",
-                  "help": "Gemodelleerde hosting-, opslag-, monitoring- en ondersteuningskosten, gescheiden van de klantprijs."
+                  "label": "Overige lever-/supportkosten",
+                  "help": "Geraamde kosten voor hosting, opslag, monitoring en support, los van de klantprijs."
                 },
                 "customer_price": {
-                  "label": "Voorgestelde maandelijkse Nest-prijs",
-                  "help": "Bewerkbare prijsaanname voor agent/makelaar. Het is geen gevalideerde omzet en moet worden getest in een betaalde pilot."
+                  "label": "Voorgestelde Nest-maandprijs",
+                  "help": "Aanpasbare prijshypothese voor makelaars. Geen bewezen omzet; toets dit in een betaalde proef."
                 },
                 "personal_value_per_hour": {
-                  "label": "Optionele waarde die u toekent aan een uur",
-                  "help": "Alleen een optionele persoonlijke vergelijking. Dit is geen salaris, loon of gegarandeerde geldbesparing."
+                  "label": "Optionele waarde van één uur",
+                  "help": "Alleen een optionele persoonlijke vergelijking. Geen salaris, loon of gegarandeerde geldbesparing."
                 },
                 "review_rate": {
                   "label": "Extra betaalde beoordeling per uur",
-                  "help": "Werkelijke extra kosten voor reviewers, niet het salaris van een ongewijzigde werknemer."
+                  "help": "Echte extra toetsingskosten, niet het loon van een ongewijzigde medewerker."
                 },
                 "cash_hours": {
                   "label": "Uren die betaald werk besparen",
-                  "help": "Wijs alleen werk toe waarvan de overwerk-, contractanten- of verwerkingskosten daadwerkelijk stoppen."
+                  "help": "Wijs alleen werk toe waarvan kosten voor overuren, externen of verwerking echt stoppen."
                 },
                 "cash_baseline": {
-                  "label": "Huidige maandelijkse uitgaven aan dat werk",
+                  "label": "Huidige maandkosten voor dat werk",
                   "help": "Het cashbudget waaruit de reductie zal komen."
                 },
                 "cash_avoided": {
-                  "label": "Maandelijkse uitgaven die u zou stoppen",
-                  "help": "Eén expliciet bedrag, geen uren vermenigvuldigd met salaris; sluit besparingen op geplande aanwervingen die afzonderlijk zijn ingevoerd uit."
+                  "label": "Maandkosten die je zou stoppen",
+                  "help": "Eén concreet bedrag, niet uren × salaris; sluit apart ingevulde besparing op geplande werving uit."
                 },
                 "higher_value_hours": {
-                  "label": "Uren die agenten kunnen gebruiken voor echte gesprekken",
-                  "help": "Alleen capaciteit met waargenomen vraag krijgt een economische waarde."
+                  "label": "Uren voor echte makelaarsgesprekken",
+                  "help": "Alleen capaciteit met bewezen vraag krijgt een geldwaarde."
                 },
                 "contribution_rate": {
                   "label": "Incrementele bijdrage per agentuur",
@@ -930,39 +938,39 @@
                 },
                 "extra_minutes": {
                   "label": "Teamminuten per extra eenheid",
-                  "help": "De resterende menselijke inspanning, inclusief beoordeling, die nodig is om nog een eenheid te leveren."
+                  "help": "Resterende menselijke inzet, inclusief toetsing, voor één extra unit."
                 },
                 "demand": {
                   "label": "Extra eenheden met verwachte vraag",
-                  "help": "Capaciteit alleen is geen vraag. Voer het extra maandelijkse werk in dat u verwacht aan te nemen."
+                  "help": "Capaciteit is geen vraag. Vul het extra maandwerk in dat je verwacht aan te nemen."
                 },
                 "unit_margin": {
                   "label": "Bijdrage per extra eenheid",
                   "help": "Incrementele omzet minus leveringskosten; AI-operationele kosten worden apart afgetrokken."
                 },
                 "hiring_hours": {
-                  "label": "Uren die de geplande aanwerving dekken",
-                  "help": "Wijs capaciteit toe aan specifiek gepland werk, niet aan een algemene fulltime-equivalent schatting."
+                  "label": "Uren dekken de geplande huur",
+                  "help": "Wijs capaciteit toe aan concreet gepland werk, niet aan een algemene fte-raming."
                 },
                 "planned_hours": {
-                  "label": "Maandelijkse uren die de geplande aanwerving zou dekken",
-                  "help": "De toegewezen capaciteit moet deze volledige workload dekken."
+                  "label": "Maanduren voor de geplande medewerker",
+                  "help": "De toegewezen capaciteit moet dit hele werk dekken."
                 },
                 "hire_cost": {
-                  "label": "Maandelijkse kosten van aanwerving die daadwerkelijk zijn uitgesteld",
-                  "help": "Gebruik de kosten van een daadwerkelijk geplande aanwerving, niet het salaris van iemand die al in dienst is."
+                  "label": "Echt uitgestelde maandloonkosten",
+                  "help": "Gebruik kosten van echt geplande werving, niet het loon van een bestaande medewerker."
                 },
                 "hire_months": {
-                  "label": "Maanden dat de aanwerving wordt uitgesteld",
-                  "help": "Eén tot twaalf maanden; de jaarlijkse schatting stopt met het tellen van besparingen na deze periode."
+                  "label": "Maanden uitgestelde werving",
+                  "help": "Eén tot twaalf maanden; de jaarraming telt na deze periode geen besparing meer."
                 },
                 "incidents": {
                   "label": "Verwachte vermeden fouten per maand",
-                  "help": "Gebruik uw basislijn en verwachte reductie. Sluit incidenten uit die ook worden meegeteld als risicoreductie."
+                  "help": "Gebruik je uitgangspunt en verwachte daling. Sluit incidenten uit die ook als risicodaling tellen."
                 },
                 "incident_cost": {
                   "label": "Incrementele kosten per fout",
-                  "help": "Sluit arbeid, terugbetalingen of andere verliezen die al elders zijn opgenomen uit."
+                  "help": "Sluit elders getelde arbeid, terugbetalingen en andere verliezen uit."
                 },
                 "probability_before": {
                   "label": "Maandelijkse verlieskans voorheen",
@@ -970,19 +978,19 @@
                 },
                 "probability_after": {
                   "label": "Maandelijkse verlieskans hierna",
-                  "help": "Gebruik hetzelfde evenement en dezelfde maandelijkse tijdshorizon als de basislijn."
+                  "help": "Gebruik hetzelfde incident en dezelfde maandperiode als de basis."
                 },
                 "loss": {
-                  "label": "Verliesblootstelling voor dat evenement",
-                  "help": "Sluit foutincidenten en uitgaven die al zijn meegeteld uit. Dit is onzekere verwachte waarde, geen bespaard geld."
+                  "label": "Verliesrisico van dat incident",
+                  "help": "Uitsluiten van foutincidenten en reeds getelde uitgaven. Dit is onzekere verwachte waarde, niet contant geld."
                 },
                 "days_before": {
                   "label": "Cyclustijd voorheen, in dagen",
-                  "help": "Verstreken tijd van begin tot voltooiing, gescheiden van hands-on inspanning."
+                  "help": "Verstreken tijd van start tot voltooiing, los van hands-on inspanning."
                 },
                 "days_after": {
                   "label": "Cyclustijd hierna, in dagen",
-                  "help": "Weergegeven als een operationele verandering, zonder een veronderstelde geldwaarde."
+                  "help": "Alleen een operationele verandering, zonder aangenomen geldwaarde."
                 }
               },
               "burden": [
@@ -990,7 +998,7 @@
                 "Herhaaldelijk matchen en coördineren"
               ],
               "opportunity": [
-                "Meer gekwalificeerde, door mensen beoordeelde introducties",
+                "Meer gerichte, menselijk getoetste introducties",
                 "Tijd voor agentgesprekken en klantbehoeften"
               ],
               "usagePackages": {
@@ -1035,25 +1043,25 @@
               },
               "hero": {
                 "kind": "volume",
-                "label": "Gekwalificeerde briefs die de beoordeling ingaan"
+                "label": "Gekwalificeerde briefs ter toetsing"
               },
               "outcomes": [
                 {
                   "id": "higher_value",
-                  "label": "Houd agenten bezig met gesprekken",
-                  "help": "Voer alleen capaciteit in die kan worden omgeleid naar echt agent- of makelaarswerk; behandel de vastgoedwaarde of commissie niet als Nest-inkomsten."
+                  "label": "Houd agenten bij gesprekken",
+                  "help": "Vul alleen capaciteit in voor echt makelaarswerk; woningwaarde of commissie is geen Nest-omzet."
                 },
                 {
                   "id": "cash",
-                  "label": "Betaalde intakeondersteuning verminderen",
-                  "help": "Verminder overwerk of uitgaven aan externe partijen voor handmatige intake van verkoopbrieven - niet ongewijzigde salarissen."
+                  "label": "Minder betaalde intakehulp",
+                  "help": "Minder overuren of kosten voor externen bij verkopersintake — geen ongewijzigde lonen."
                 }
               ],
               "tabs": [
                 {
                   "id": "funnel",
                   "label": "Introductietrechter",
-                  "intro": "Model leads die de agent of makelaarsbalie binnenkomen, kwalificatie en menselijke beoordeling.",
+                  "intro": "Model voor makelaarsleads, selectie en menselijke toetsing.",
                   "fields": [
                     "volume",
                     "accepted_rate",
@@ -1063,7 +1071,7 @@
                 },
                 {
                   "id": "costs",
-                  "label": "AI-operationele kosten",
+                  "label": "AI bedrijfskosten",
                   "intro": "Houd model-, token-, tool-, infrastructuur-, platform- en beoordelaarskosten gescheiden van de voorgestelde klantprijs.",
                   "fields": [
                     "tokens_per_output",
@@ -1078,7 +1086,7 @@
                 {
                   "id": "capacity",
                   "label": "Capaciteit en bewijs",
-                  "intro": "Teruggegeven capaciteit is geen omzet. Financiële resultaten blijven onvoldoende totdat een betaler, prijs en leveringsbewijs zijn geregistreerd.",
+                  "intro": "Vrijgekomen capaciteit is geen omzet. Geldresultaten blijven onbewezen tot betaler, prijs en leveringsbewijs vaststaan.",
                   "fields": [
                     "higher_value_hours",
                     "contribution_rate"
@@ -1090,8 +1098,8 @@
               "pricing": {
                 "basis": "fixed",
                 "annualPrice": 9000,
-                "label": "Voorgestelde Nest maandelijkse prijs",
-                "help": "Een werkende hypothese van €750/maand voor een gekwalificeerde introductiepilot. Behandel als niet gevalideerd totdat een agent of makelaar betaalt."
+                "label": "Voorgestelde Nest-maandprijs",
+                "help": "€750/maand als werkhypothese voor een introductieproef. Onbewezen tot een makelaar betaalt."
               },
               "presentation": {
                 "financial": "optional",
@@ -1103,85 +1111,92 @@
               "primaryLabel": "Praat met Nest",
               "primaryTarget": "meet",
               "secondaryLabel": "Zie hoe het werkt",
-              "privacyNote": "Uw gegevens blijven privé. Uren zijn capaciteit. Financiële bedragen zijn gemodelleerde schattingen, geen waargenomen resultaten.",
+              "privacyNote": "Je data blijft privé. Uren zijn capaciteit. Geldbedragen zijn ramingen, geen gemeten resultaten.",
               "secondaryTarget": "how-it-works"
             }
+          },
+          "leadScan": {
+            "instruction": "Plak de openbare vermelding URL van het onroerend goed dat u verkoopt. Nest laat u het eigendomsoverzicht bekijken voordat u zoekt naar leads voor openbare kopers.",
+            "inputLabel": "URL voor openbare eigendommen",
+            "inputPlaceholder": "Plak een openbare woning-URL…",
+            "submitLabel": "Analyseer woning",
+            "loginNotice": "Log in en zoek tot 100 leads."
           }
         }
       ],
       "hero": {
         "eyebrow": "Het ene huis, of de ene koper, geen lijst met objecten.",
         "headingLines": [
-          "Eén gekwalificeerde introductie",
+          "Eén gerichte introductie",
           "die past, niet duizend",
           "die u zelf moet filteren."
         ],
         "body": "Vertel Nest wat u werkelijk zoekt, of wat u werkelijk verkoopt. Nest stelt één match voor. Beide partijen zeggen ja voordat er iets wordt gedeeld.",
         "backgroundImage": "/landing-pages/nest/nest-hero-interior-clean.png",
-        "backgroundAlt": "Een warm, rustig huis interieur",
+        "backgroundAlt": "Een warm, rustig interieur",
         "primaryCtaLabel": "Praat met Nest",
-        "secondaryCtaLabel": "Maak kennis met Nest",
-        "privacyLine": "Eén match tegelijk. Door mensen beoordeeld. Privé totdat beide partijen akkoord gaan.",
+        "secondaryCtaLabel": "Ken Nest",
+        "privacyLine": "Eén match tegelijk. Menselijk getoetst. Privé tot beide kanten instemmen.",
         "characterImage": "/landing-pages/nest/nest-character-meet-compact-high-wings-transparent.png",
-        "characterAlt": "Nest met een notitieboekje en sleutels met compacte vleugels",
+        "characterAlt": "Nest met een notebook en sleutels met compacte vleugels",
         "chat": {
           "statusLabel": "Online · menselijk begeleid",
           "privacyBadge": "Privé",
           "openingMessage": "Koopt of verkoopt u?",
           "visitorMessage": "Ik koop",
-          "assistantMessage": "Vertel me het huis waarvoor het de moeite waard zou zijn om te verhuizen. Ik vraag alleen naar de details die een menselijke beoordelaar nodig heeft, en kom dan terug met één overwogen geschikte match.",
-          "inputPlaceholder": "Vertel Nest wat u nodig heeft van een huis..."
+          "assistantMessage": "Welk huis is een verhuizing waard? Ik vraag alleen wat een menselijke beoordelaar nodig heeft en kom terug met één doordachte keuze.",
+          "inputPlaceholder": "Vertel Nest wat je huis moet bieden…"
         },
         "briefDemo": {
           "enabled": true,
           "commandTrigger": "request-introduction",
           "introHeading": "Uw privé-huisbrief",
-          "introBody": "Deel alleen wat een menselijke beoordelaar nodig heeft. Exacte adressen en contactgegevens worden hier nooit gevraagd.",
-          "chatLabel": "Bouwen via chat · 10 beurten",
-          "voiceLabel": "Bouwen via spraak · 5 min",
-          "reviewLabel": "Brief beoordelen",
-          "editLabel": "Bewerken",
+          "introBody": "Deel alleen wat de beoordelaar nodig heeft. Exacte adressen en contactgegevens worden hier nooit gevraagd.",
+          "chatLabel": "Maak per chat · 10 beurten",
+          "voiceLabel": "Bouw door stem · 5 min",
+          "reviewLabel": "Herziene korte",
+          "editLabel": "Bewerk",
           "reviewHeading": "Beoordeel uw privé-brief",
           "reviewBody": "Niets wordt opgeslagen, doorzocht, voorgesteld of gedeeld terwijl u anoniem bent.",
-          "submitLabel": "Inloggen voor menselijke beoordeling",
-          "loginNotice": "Log in om deze privé-huisbrief naar uw Nest-werkruimte te verplaatsen voor geauthenticeerde menselijke beoordeling.",
+          "submitLabel": "Log in voor mensentoets",
+          "loginNotice": "Log in om deze privébrief naar je Nest-werkruimte te brengen voor een ingelogde menselijke toets.",
           "expiryCopy": "Niet-ingediende brieven verlopen na een uur.",
-          "privacyCopy": "Geen deelnemerszoekopdracht, geen deling van exacte adressen, of contactonthulling terwijl u anoniem bent.",
-          "errorCopy": "Nest kon deze brief niet opslaan. Probeer het opnieuw of log in."
+          "privacyCopy": "Anoniem: geen deelnemers zoeken, exacte adressen delen of contactgegevens tonen.",
+          "errorCopy": "Nest kon de brief niet bewaren. Probeer opnieuw of log in."
         }
       },
       "audience": {
-        "kicker": "Een kleinere deur, per ontwerp",
-        "heading": "Voor mensen die klaar zijn voor een echte volgende stap.",
+        "kicker": "Bewust een kleinere deur",
+        "heading": "Voor wie klaar is voor de volgende stap.",
         "body": "Geen openbare catalogus. Geen vastgoedfeed. Geen filterraster. Nest luistert, stelt één match voor en wacht op twee privé-ja's.",
         "forHeading": "Dit is voor",
         "forItems": [
           "Kopers die serieus zoeken en snel kunnen handelen.",
-          "Verkopers die de voorkeur geven aan een klein aantal gekwalificeerde, vooraf gematchte kopers boven openbare blootstelling."
+          "Verkopers die enkele geschikte, vooraf gematchte kopers verkiezen boven openbare zichtbaarheid."
         ],
         "notForHeading": "Dit is niet voor",
         "notForItems": [
           "Casual bezoekers die alleen willen zien wat er op de markt is.",
-          "Iedereen die een openbare vastgoedfeed of een raster van filters verwacht.",
-          "Mensen die op zoek zijn naar bulkdealstromen."
+          "Wie een openbare woningfeed of een filterraster verwacht.",
+          "Wie bulkdeals zoekt."
         ]
       },
       "privacy": {
         "kicker": "Privacy is de volgorde",
         "heading": "Uw adres blijft privé totdat u beiden ja zegt.",
-        "body": "Nest begint met een gebied ter grootte van een wijk. Identiteit, contactgegevens en het exacte adres blijven vergrendeld tijdens de voorstel- en wederzijdse instemmingsfasen.",
+        "body": "Nest start op buurtniveau. Identiteit, contactgegevens en exact adres blijven afgeschermd tijdens voorstel en wederzijdse toestemming.",
         "stages": [
           {
             "status": "proposed",
-            "label": "Voorgesteld",
-            "title": "Algemeen gebied",
-            "body": "Geen identiteit of exacte locatie zichtbaar. Elke partij kan accepteren of passen."
+            "label": "Voorstel",
+            "title": "algens",
+            "body": "Identiteit en exacte locatie zijn verborgen. Beide kanten kiezen ja of nee."
           },
           {
             "status": "accepted",
-            "label": "Beide geaccepteerd",
-            "title": "Wederzijdse ja",
-            "body": "Beide partijen hebben geaccepteerd. Een persoon voltooit de definitieve verificatie voordat details worden vrijgegeven."
+            "label": "Beiden akkoord",
+            "title": "Mutual yes",
+            "body": "Beide kanten zijn akkoord. Een mens doet de eindcontrole vóór gegevens worden gedeeld."
           },
           {
             "status": "confirmed",
@@ -1191,48 +1206,48 @@
           }
         ],
         "proposalLabel": "Voorstel",
-        "proposalAreaLabel": "Algemeen gebied",
-        "proposalArea": "Utrecht, Overvecht",
-        "proposalNote": "Geen identiteit of exacte locatie zichtbaar. Elke partij kan accepteren of passen."
+        "proposalAreaLabel": "algens",
+        "proposalArea": "Illustratieve lokale wijk",
+        "proposalNote": "Identiteit en exacte locatie zijn verborgen. Beide kanten kiezen ja of nee."
       },
       "process": {
         "kicker": "Hoe het werkt",
         "heading": "Eén zorgvuldige reeks.",
-        "licensedAgentNote": "Een erkende lokale makelaar wordt ingeschakeld wanneer u klaar bent om verder te gaan."
+        "licensedAgentNote": "Nest Onderzoekt openbare leads. Verifieer elke eigendomstransactie met een geschikt gekwalificeerde lokale vastgoedprofessional."
       },
       "proposals": {
         "kicker": "Hoe een voorstel eruitziet",
-        "heading": "Twee partijen. Eén passend bevonden.",
-        "body": "Deze voorbeeldkaarten tonen de vorm van een Nest-voorstel. Ze maken nooit een identiteit of exact adres bekend vóór wederzijdse instemming.",
+        "heading": "Twee kanten. Eén bewuste match.",
+        "body": "Deze voorbeeldkaarten tonen een Nest-voorstel. Ze geven nooit identiteit of exact adres prijs vóór wederzijdse toestemming.",
         "cards": [
           {
             "pairing": "Koper × Eigendom",
             "status": "proposed",
-            "heading": "Rustig huis, groen uitzicht, flexibele overdracht.",
+            "heading": "Rustig huis, groen zicht, flexibele overdracht.",
             "facts": [
               {
-                "label": "Algemeen gebied",
-                "value": "Utrecht, Overvecht"
+                "label": "algens",
+                "value": "Illustratieve lokale wijk"
               },
               {
-                "label": "Geplande tijd",
-                "value": "Zaterdagochtend"
+                "label": "Voorbeeldbeschikbaarheid",
+                "value": "Bevestig met de openbare bron"
               }
             ],
             "tone": "cream"
           },
           {
-            "pairing": "Eigendom × Gekwalificeerde koper",
+            "pairing": "Woning × Geschikte koper",
             "status": "accepted",
-            "heading": "Financiering voorbereid, timing afgestemd, prioriteiten begrepen.",
+            "heading": "Financiering gereed, timing afgestemd, wensen begrepen.",
             "facts": [
               {
-                "label": "Koperssamenvatting",
+                "label": "Koperoverzicht",
                 "value": "Klaar om doordacht verder te gaan"
               },
               {
-                "label": "Geplande tijd",
-                "value": "Zondagmiddag"
+                "label": "Voorbeeldbeschikbaarheid",
+                "value": "Bevestig met de openbare bron"
               }
             ],
             "tone": "terracotta"
@@ -1240,23 +1255,23 @@
         ]
       },
       "meet": {
-        "kicker": "Maak kennis met Nest",
+        "kicker": "Ken Nest",
         "heading": "De detail-noticer in uw hoek.",
-        "body": "Nest luistert verder dan de voor de hand liggende opdracht: het ochtendlicht waar u van hield, de timing die u niet kunt verplaatsen, het ene compromis dat geen echt compromis is. Dan brengt Nest één passend voorstel terug.",
+        "body": "Nest luistert verder dan de gewone brief: het ochtendlicht dat je waardeert, je vaste timing en het compromis dat geen compromis is. Dan volgt één doordachte match.",
         "characterImage": "/landing-pages/nest/nest-character-meet-compact-high-wings-transparent.png",
-        "characterAlt": "Maak kennis met Nest, met een notitieboekje en sleutels met compacte vleugels omhoog achter de bovenste schouders",
+        "characterAlt": "Ontmoet Nest, met een notebook en sleutels met compacte vleugels achter de bovenschouders",
         "principles": [
           {
             "title": "Luistert eerst",
             "body": "Een gesprek, geen muur van velden."
           },
           {
-            "title": "Stelt één passende optie voor",
-            "body": "Geen openbare eigendomsfeed of eindeloze raster."
+            "title": "Stelt match voor",
+            "body": "Geen publieke woningfeed of eindeloos raster"
           },
           {
             "title": "Wacht op twee ja's",
-            "body": "Identiteit en exact adres blijven privé tot wederzijdse instemming."
+            "body": "Identiteit en exact adres zijn privé tot beide kanten instemmen."
           }
         ],
         "primaryCtaLabel": "Praat met Nest",
@@ -1265,8 +1280,8 @@
       "footer": {
         "brandLabel": "Nest.",
         "tagline": "Eén zorgvuldige woningintroductie per keer.",
-        "disclaimer": "Nest is geen erkende makelaar en vertegenwoordigt geen van beide partijen, onderhandelt niet, waardeert uw huis niet, of handelt uw transactie af. Wanneer u klaar bent om verder te gaan, brengen we u in contact met een erkende lokale makelaar om het proces te voltooien. Not a broker. Does not represent either party. Does not provide valuations. Does not negotiate.",
-        "eventDisclaimer": "Details van de Second Home Fair zijn gemodelleerd voor deze Nest-instantie en moeten worden geverifieerd vóór deelname.",
+        "disclaimer": "Nest onderzoekt openbare bronnen. Het is geen makelaardij, vertegenwoordigt niemand en doet geen onderhandeling, taxatie of transactie. Controleer de woninginformatie en raadpleeg een bevoegde lokale vastgoedprofessional vóór je verdergaat. Not a broker. Does not represent either party. Does not provide valuations. Does not negotiate.",
+        "eventDisclaimer": "Locatie- en eigendomsvoorbeelden zijn illustratief, geen dekking of beschikbaarheidsgaranties. Verifieer vermeldingen met hun openbare bron.",
         "copyright": "© 2026 Nest",
         "groups": [
           {
@@ -1290,11 +1305,11 @@
             "label": "Nest",
             "links": [
               {
-                "label": "Maak kennis met Nest",
+                "label": "Ken Nest",
                 "target": "meet"
               },
               {
-                "label": "Bouw een briefing",
+                "label": "Bouw een korte",
                 "target": "hero-chat"
               }
             ]
@@ -1307,8 +1322,8 @@
       "enabled": true,
       "kicker": "Zakelijke impact",
       "heading": "ROI-calculator",
-      "subheading": "Model een erkende tweede-woningmakelaar of makelaarskantoor dat Nest gebruikt voor gekwalificeerde, door mensen beoordeelde introducties in één lokale markt.",
-      "disclaimer": "Een gemodelleerd operationeel scenario met nul gevalideerde betaalde vraag. Nest kwalificeert en coördineert goedgekeurde introducties; het vertegenwoordigt geen partijen, waardeert geen eigendom, onderhandelt niet, verdient geen commissies of garandeert een transactie.",
+      "subheading": "Model voor een bevoegde tweedehuismakelaar die Nest gebruikt voor gerichte, menselijk beoordeelde introducties in één regio.",
+      "disclaimer": "Modelscenario zonder bewezen betaalde vraag. Nest selecteert en regelt introducties met toestemming. Het vertegenwoordigt niemand, taxeert of onderhandelt niet, ontvangt geen commissie en garandeert geen transactie.",
       "currency": "EUR",
       "currencyCopy": {
         "native": "Amounts in {currency}.",
@@ -1318,12 +1333,12 @@
         "basis": "Valutaconversie is geen onderzoek naar lokale kosten. Voer uw eigen lokale kosten en bijdrageaannames in. Taalwijzigingen veranderen de bedragen niet."
       },
       "costCopy": {
-        "breakdown": "Hoe de all-in AI-kosten zijn opgebouwd",
+        "breakdown": "Opbouw van je totale AI-kosten",
         "perUnit": "{amount} per work unit (average)",
-        "budgetOnly": "Dit is uw totale budget. Schakel over naar Kostenoverzicht om het te specificeren; er is geen verdeling aangenomen.",
-        "benefitNotice": "Gemodelleerde voordelen, geen kosten. Doorgehaalde bedragen zijn uitgaven die u verwacht te vermijden, geen kortingen op de AI-rekening.",
-        "remainder": "Andere inbegrepen operationele kosten",
-        "allocation": "Teruggegeven uren zijn capaciteit, geen automatische besparingen. Alleen de delen die u toewijst aan daadwerkelijke kostenreducties of extra bijdragen krijgen een geldelijke waarde."
+        "budgetOnly": "Dit is je totale budget. Kies Kostenoverzicht voor de onderdelen; er is geen verdeling aangenomen.",
+        "benefitNotice": "Modelvoordelen, geen kosten. Doorgestreepte bedragen zijn verwachte vermeden uitgaven, geen korting op de AI-rekening.",
+        "remainder": "Andere opgenomen bedrijfskosten",
+        "allocation": "Vrijgekomen uren zijn capaciteit, geen automatische besparing. Alleen toegewezen uren voor echte kostenverlaging of extra bijdrage krijgen een geldwaarde."
       },
       "locale": "en-GB",
       "inputs": [],
@@ -1347,90 +1362,90 @@
         "copy": {
           "navLabel": "Prijzen",
           "workloadStep": "Introductietrechter",
-          "costStep": "AI-operationele kosten",
+          "costStep": "AI bedrijfskosten",
           "valueStep": "Capaciteit en bewijs",
-          "workloadIntro": "Model voor tweede-woningleads, kwalificatie en menselijke beoordeling - geen woningverkopen, commissies of gegarandeerde matches.",
+          "workloadIntro": "Model voor tweedehuisleads, selectie en menselijke toetsing — geen woningverkoop, commissie of gegarandeerde match.",
           "costIntro": "Token-, model-, tool-, infrastructuur-, platform- en beoordelaarskosten zijn leveringsaannames. Nest-prijs is een aparte, niet-gevalideerde hypothese.",
-          "valueIntro": "Capaciteit is geen omzet. Voer waargenomen bijdrage in nadat een echte makelaar of makelaarskantoor de service gebruikt en ervoor betaalt.",
-          "sampleNotice": "Typisch gebruik · geen waargenomen resultaten",
-          "monthly": "Maandelijks",
-          "yearly": "Jaarlijks",
+          "valueIntro": "Capaciteit is geen omzet. Vul bewezen bijdrage pas in nadat een echte makelaar de dienst gebruikt en betaalt.",
+          "sampleNotice": "Typisch gebruik · niet gemeten",
+          "monthly": "Per maand",
+          "yearly": "Jaar-",
           "next": "Doorgaan",
           "back": "Terug",
           "reset": "Aannames resetten",
-          "summary": "Uw gemodelleerde impact",
-          "volume": "Gemodelleerde leads",
-          "grossHours": "Repetitief werk verminderd",
-          "capacity": "Teruggegeven beoordelaars-capaciteit",
-          "retained": "Beschikbaar gehouden capaciteit",
+          "summary": "Je geraamde impact",
+          "volume": "Geraamde leads",
+          "grossHours": "Minder herhaalwerk",
+          "capacity": "Capaciteit beoordelaar terug",
+          "retained": "Vrijgehouden capaciteit",
           "hours": "uren",
           "days": "dagen",
           "percent": "%",
           "minutes": "minuten",
           "tokens": "tokens",
-          "monthlyTokens": "Maandelijkse tokens",
+          "monthlyTokens": "Tokens per maand",
           "tokenCost": "Tokengebruik",
           "packageLabel": "Gebruikspakket",
           "packageBase": "Basis",
           "packageMedium": "Medium",
-          "packageCustom": "Aangepast",
-          "reviewMode": "Wie handelt de beoordeling af?",
+          "packageCustom": "Gewoonte",
+          "reviewMode": "Wie regelt de recensie?",
           "teamReview": "Bestaand team",
           "paidReview": "Extra betaalde beoordelaar",
-          "reviewNote": "Beoordeling door bestaand team gebruikt de terugverdiende capaciteit. Extra betaalde beoordeling is inbegrepen in de operationele kosten, wordt niet nogmaals afgetrokken van de teamcapaciteit.",
-          "totalMode": "Maandelijks budget",
+          "reviewNote": "Toetsing door je team benut vrijgekomen capaciteit. Extra betaalde toetsing zit in de bedrijfskosten en gaat niet opnieuw van teamcapaciteit af.",
+          "totalMode": "maandbudget",
           "itemizedMode": "Kostenoverzicht",
-          "budgetNote": "Het budget moet modellen/media, tools, infrastructuur, Gabriel-kosten en extra betaalde beoordeling bevatten. Onveranderde salarisadministratie niet meerekenen als nieuwe uitgaven.",
-          "itemizedNote": "Tokengebruik wordt berekend op basis van volume × tokens per output. Extra media, tools en infrastructuur blijven op nul, tenzij van toepassing. Extra betaalde beoordeling wordt berekend op basis van beoordelingsuren en het tarief.",
-          "paidReviewCost": "Kosten voor extra betaalde beoordeling",
-          "allInCost": "Operationele kosten",
+          "budgetNote": "Budget: modellen/media, tools, infrastructuur, Gabriel-kosten en extra betaalde toetsing. Ongewijzigde lonen zijn geen nieuwe uitgaven.",
+          "itemizedNote": "Tokens = volume × tokens per resultaat. Extra media, tools en infrastructuur blijven nul tenzij van toepassing. Extra betaalde toetsing = toetsingsuren × tarief.",
+          "paidReviewCost": "Extra toetsingskosten",
+          "allInCost": "bedrijfskosten",
           "missing": "Voeg uw aannames toe",
-          "cashValue": "Vermeden contante uitgaven",
+          "cashValue": "Vermeden uitgaven",
           "contribution": "Verwachte bijdrage",
-          "expectedLoss": "Verwachte vermindering van verlies",
+          "expectedLoss": "Verwachte verliesdaling",
           "riskValue": "Onzekere risicowaarde inbegrepen",
           "economicValue": "Gemodelleerde bijdrage",
           "netBenefit": "Gemodelleerd voordeel na Nest-prijs",
           "multiple": "Interne leveringsmultiple",
-          "customerBenefit": "Gemodelleerd agentvoordeel",
-          "customerRoi": "Gemodelleerde klant-ROI",
+          "customerBenefit": "Geraamd makelaarsnut",
+          "customerRoi": "Geraamde klant-ROI",
           "payback": "Klantterugverdientijd",
-          "notApplicable": "Niet van toepassing",
-          "annual": "Jaarlijks overzicht",
-          "annualNote": "Dezelfde maandelijkse aannames, zonder groei of samengestelde rente. Besparingen op personeel duren slechts voor de ingevoerde periode.",
+          "notApplicable": "Niet relevant",
+          "annual": "Jaaroverzicht",
+          "annualNote": "Dezelfde maandaannames, zonder groei of rente-op-rente. Bespaarde werving telt alleen tijdens de ingevulde periode.",
           "method": "Hoe dit wordt berekend",
-          "burdenHeading": "Repetitief werk verminderd",
-          "opportunityHeading": "Capaciteit voor werk van hogere waarde",
-          "methodBody": "Operationele lasten verwijderd (negatieve productiviteit) leveren capaciteit op. Werk van hogere waarde (potentiële positieve productiviteit) creëert economische waarde alleen als die capaciteit wordt benut. Alleen uren zijn geen contante besparingen. Tokenkosten gebruiken een gemodelleerde input/output-mix, geen offerte van een provider.",
-          "formulaLabel": "Gekwalificeerde opdrachten = leads × kwalificatiepercentage. Leveringskosten omvatten gemodelleerde kosten voor tokens, modellen, tools, infrastructuur, platform en menselijke beoordeling. Klant-ROI blijft onbeschikbaar totdat voordeel en prijs worden ondersteund door bewijs.",
-          "allocationNote": "Elk uur kan eenmaal worden toegewezen. Niet-toegewezen uren blijven capaciteit, zonder geldelijke waarde.",
-          "overlapLabel": "Deze voordelen zijn afzonderlijk; ik heb kosten en verliezen uitgesloten die al elders zijn meegeteld.",
-          "overlapNote": "Fout- en risico-schattingen sluiten arbeidsbesparingen uit en hetzelfde incident mag niet in beide categorieën voorkomen. Bijdrage sluit AI-kosten uit, die afzonderlijk worden afgetrokken.",
+          "burdenHeading": "Minder herhaalwerk",
+          "opportunityHeading": "Capaciteit voor waardevoller werk",
+          "methodBody": "Minder werklast (negatieve productiviteit) maakt capaciteit vrij. Waardevoller werk (mogelijke positieve productiviteit) heeft pas economische waarde bij benutting. Uren zijn geen geldbesparing. Tokenkosten volgen een modelmix van invoer/uitvoer, geen provider-offerte.",
+          "formulaLabel": "Gekwalificeerde briefs = leads × selectieratio. Leveringskosten omvatten geraamde tokens, modellen, tools, infrastructuur, platform en menselijke toetsing. Klant-ROI blijft onbekend tot voordeel en prijs bewezen zijn.",
+          "allocationNote": "Elk uur kan eenmaal worden toegewezen. Niet-toegewezen uren blijven capaciteit, zonder geldwaarde.",
+          "overlapLabel": "Deze voordelen zijn losstaand; kosten en verliezen die elders meetellen zijn hier uitgesloten.",
+          "overlapNote": "Fout- en risicoramingen sluiten arbeidsbesparing uit; één incident mag niet in beide groepen staan. Bijdrage sluit AI-kosten uit, die apart worden afgetrokken.",
           "hiringLabel": "Deze aanwerving was echt gepland en de toegewezen capaciteit kan het werk dekken.",
-          "reviewedLabel": "Ik heb mijn resultaten beoordeeld; niet-geselecteerde resultaten hebben geen financiële waarde in deze schatting.",
-          "cycleResult": "Verbetering van cyclustijd",
+          "reviewedLabel": "Ik heb mijn resultaten bekeken; niet-gekozen uitkomsten hebben in deze raming geen geldwaarde.",
+          "cycleResult": "Cyclustijdverbetering",
           "throughputResult": "Aanvullend werk ondersteund door capaciteit en vraag",
-          "assumptionsIncomplete": "Voltooi de geselecteerde aannames om de financiële waarde te berekenen.",
-          "allocationError": "Toegewezen uren overschrijden de netto beschikbare capaciteit. Verminder de toewijzingen.",
-          "reviewError": "Beoordeling kost meer tijd dan het verminderde werk. Er is geen positieve capaciteit beschikbaar bij deze aannames.",
-          "cashError": "Vermeden uitgaven kunnen geen uitgaven overschrijden of een positieve waarde hebben zonder toegewezen uren.",
-          "hiringError": "Toegewezen capaciteit moet de geplande aanstellingsuren dekken. Bevestig de geplande aanstelling en de duur ervan.",
+          "assumptionsIncomplete": "Vul de gekozen aannames in om de geldwaarde te berekenen.",
+          "allocationError": "Toegewezen uren overschrijden de netto vrije capaciteit. Verlaag de toewijzing.",
+          "reviewError": "Toetsing kost meer tijd dan het verminderde werk. Bij deze aannames is geen positieve capaciteit vrij.",
+          "cashError": "Vermeden uitgaven mogen niet boven huidige uitgaven liggen of positief zijn zonder toegewezen uren.",
+          "hiringError": "Toegewezen capaciteit moet de geplande huururen dekken. Bevestig de geplande huur en de duur ervan.",
           "riskError": "De kans na kan niet groter zijn dan de kans voor een schatting van verliesvermindering.",
-          "overlapError": "Bevestig dat de voordelen elkaar niet overlappen voordat u ze opneemt in het financiële resultaat.",
-          "boundsError": "Gebruik waarden binnen de weergegeven limieten.",
-          "rangeLabel": "Waarde aanpassen",
+          "overlapError": "Bevestig dat voordelen niet overlappen vóór ze meetellen in het financiële resultaat.",
+          "boundsError": "Gebruik waarden binnen de getoonde grenzen.",
+          "rangeLabel": "Pas waarde aan",
           "noCurrencyChange": "Taal verandert de opmaak, niet uw valuta of aannames.",
           "currentPreparation": "Huidige voorbereidingsuren",
-          "reviewHours": "Uren menselijke beoordeling",
-          "reworkHours": "Vermeden of toegevoegde rework-uren",
-          "capacityValue": "Gemodelleerde capaciteitswaarde",
-          "acceptedUnits": "Geaccepteerde eenheden",
-          "attendedUnits": "Bezochte eenheden",
-          "costPerAttended": "Kosten per bezochte eenheid",
-          "benefitCost": "Voordeel-kosten multiple",
-          "firstYearCost": "Eerstejaars kosten",
+          "reviewHours": "Menselijke toetsuren",
+          "reworkHours": "Vermeden of extra hersteluren",
+          "capacityValue": "Geraamde uurwaarde",
+          "acceptedUnits": "Aanvaarde units",
+          "attendedUnits": "Attended units",
+          "costPerAttended": "Kosten/bijgewoonde unit",
+          "benefitCost": "Voordeel/kostenratio",
+          "firstYearCost": "Kosten in jaar 1",
           "firstYearRoi": "Eerstejaars ROI",
-          "paybackOutsideTerm": "Niet terugverdiend binnen de gemodelleerde termijn",
+          "paybackOutsideTerm": "Niet terugverdiend in de modelperiode",
           "months": "months"
         },
         "fields": {
@@ -1439,80 +1454,80 @@
             "help": "Tel aanvragen voor een tweede woning in de geselecteerde markt, niet vastgoedtransacties."
           },
           "accepted_rate": {
-            "label": "Aandeel dat gekwalificeerde opdrachten worden",
-            "help": "Een gemodelleerd kwalificatiepercentage. Vervang dit door waargenomen trechtergegevens na een pilot."
+            "label": "Aandeel gekwalificeerde briefs",
+            "help": "Geraamde selectieratio. Vervang na een proef door gemeten funneldata."
           },
           "attendance_rate": {
             "label": "Expected attendance rate",
-            "help": "Gemodelleerd aandeel van geaccepteerde vergaderingen dat naar verwachting zal plaatsvinden. Vervang dit door geverifieerde evenementgegevens na een pilot."
+            "help": "Geraamd aandeel aanvaarde afspraken dat doorgaat. Vervang na een proef door geverifieerde afspraakgegevens."
           },
           "minutes": {
-            "label": "Minuten om vandaag één kooppunt te kwalificeren",
-            "help": "Actieve intake- en kwalificatietijd, exclusief verstreken dagen en zoektijd naar onroerend goed."
+            "label": "Huidige minuten voor één koperbrief",
+            "help": "Actieve intake- en selectietijd, zonder verstreken dagen of zoektijd naar woningen."
           },
           "automation": {
-            "label": "Aandeel van dat werk verminderd",
+            "label": "Aandeel minder werk",
             "help": "Een illustratieve aanname om te valideren in een pilot, geen prestatiegarantie."
           },
           "review": {
-            "label": "Minuten die een beoordelaar besteedt aan het bevestigen van elke opdracht",
-            "help": "Menselijke beoordeling nog steeds vereist voordat beide partijen een voorstel zien."
+            "label": "Minuten voor menselijke controle per brief",
+            "help": "Menselijke toetsing vereist vóór beide kanten een voorstel zien."
           },
           "cycles_per_unit": {
             "label": "Cycli per eenheid per maand",
             "help": "Hoeveel terugkerende order-, beoordelings- of verwerkingscycli elke eenheid per maand doorloopt."
           },
           "tokens_per_output": {
-            "label": "Tokens per gekwalificeerde kooppdracht",
-            "help": "Gemodelleerde invoer- en uitvoertokens voor één beoordeelbare opdracht; providergebruik moet deze hypothese vervangen."
+            "label": "Tokens per gekwalificeerde brief",
+            "help": "Geraamde invoer- en uitvoertokens per toetsbare brief; vervang deze aanname door echt providergebruik."
           },
           "budget": {
-            "label": "Geschat maandelijks operationeel budget",
-            "help": "Inclusief tokengebruik, modellen/media, tools, infrastructuur, Gabriel-kosten en extra betaalde beoordeling."
+            "label": "Geschat maandelijks bedrijfsbudget",
+            "help": "Inclusief tokens, modellen/media, tools, infrastructuur, Gabriel-kosten en extra betaalde toetsing."
           },
           "model_cost": {
             "label": "Extra model- of mediakosten",
-            "help": "Voer afzonderlijk gefactureerde modellen of media in. Laat nul staan wanneer inbegrepen in het tokenenvelop."
+            "help": "Vul apart gefactureerde modellen of media in. Laat nul als ze in het tokenbudget zitten."
           },
           "tools_cost": {
             "label": "Tools en integraties",
-            "help": "Browsersessies, connectoren en andere gemeten services. Voer nul in als er geen zijn."
+            "help": "Browsersessies, connectoren en andere meetservices. Voer nul in als er geen."
           },
           "infrastructure_cost": {
             "label": "Infrastructuur",
-            "help": "Incrementele hosting, opslag en rekenkracht voor deze workload. Voer nul in indien van toepassing."
+            "help": "Extra hosting, opslag en rekenkracht voor deze werklast. Vul nul in als er geen is."
           },
           "platform_cost": {
-            "label": "Overige leverings- en ondersteuningskosten",
-            "help": "Gemodelleerde hosting-, opslag-, monitoring- en ondersteuningskosten, gescheiden van de klantprijs."
+            "label": "Overige lever-/supportkosten",
+            "help": "Geraamde kosten voor hosting, opslag, monitoring en support, los van de klantprijs."
           },
           "customer_price": {
-            "label": "Voorgestelde maandelijkse Nest-prijs",
-            "help": "Bewerkbare prijsaanname voor agent/makelaar. Het is geen gevalideerde omzet en moet worden getest in een betaalde pilot."
+            "label": "Voorgestelde Nest-maandprijs",
+            "help": "Aanpasbare prijshypothese voor makelaars. Geen bewezen omzet; toets dit in een betaalde proef."
           },
           "personal_value_per_hour": {
-            "label": "Optionele waarde die u toekent aan een uur",
-            "help": "Alleen een optionele persoonlijke vergelijking. Dit is geen salaris, loon of gegarandeerde geldbesparing."
+            "label": "Optionele waarde van één uur",
+            "help": "Alleen een optionele persoonlijke vergelijking. Geen salaris, loon of gegarandeerde geldbesparing."
           },
           "review_rate": {
             "label": "Extra betaalde beoordeling per uur",
-            "help": "Werkelijke extra kosten voor reviewers, niet het salaris van een ongewijzigde werknemer."
+            "help": "Echte extra toetsingskosten, niet het loon van een ongewijzigde medewerker."
           },
           "cash_hours": {
             "label": "Uren die betaald werk besparen",
-            "help": "Wijs alleen werk toe waarvan de overwerk-, contractanten- of verwerkingskosten daadwerkelijk stoppen."
+            "help": "Wijs alleen werk toe waarvan kosten voor overuren, externen of verwerking echt stoppen."
           },
           "cash_baseline": {
-            "label": "Huidige maandelijkse uitgaven aan dat werk",
+            "label": "Huidige maandkosten voor dat werk",
             "help": "Het cashbudget waaruit de reductie zal komen."
           },
           "cash_avoided": {
-            "label": "Maandelijkse uitgaven die u zou stoppen",
-            "help": "Eén expliciet bedrag, geen uren vermenigvuldigd met salaris; sluit besparingen op geplande aanwervingen die afzonderlijk zijn ingevoerd uit."
+            "label": "Maandkosten die je zou stoppen",
+            "help": "Eén concreet bedrag, niet uren × salaris; sluit apart ingevulde besparing op geplande werving uit."
           },
           "higher_value_hours": {
-            "label": "Uren die agenten kunnen gebruiken voor echte gesprekken",
-            "help": "Alleen capaciteit met waargenomen vraag krijgt een economische waarde."
+            "label": "Uren voor echte makelaarsgesprekken",
+            "help": "Alleen capaciteit met bewezen vraag krijgt een geldwaarde."
           },
           "contribution_rate": {
             "label": "Incrementele bijdrage per agentuur",
@@ -1524,39 +1539,39 @@
           },
           "extra_minutes": {
             "label": "Teamminuten per extra eenheid",
-            "help": "De resterende menselijke inspanning, inclusief beoordeling, die nodig is om nog een eenheid te leveren."
+            "help": "Resterende menselijke inzet, inclusief toetsing, voor één extra unit."
           },
           "demand": {
             "label": "Extra eenheden met verwachte vraag",
-            "help": "Capaciteit alleen is geen vraag. Voer het extra maandelijkse werk in dat u verwacht aan te nemen."
+            "help": "Capaciteit is geen vraag. Vul het extra maandwerk in dat je verwacht aan te nemen."
           },
           "unit_margin": {
             "label": "Bijdrage per extra eenheid",
             "help": "Incrementele omzet minus leveringskosten; AI-operationele kosten worden apart afgetrokken."
           },
           "hiring_hours": {
-            "label": "Uren die de geplande aanwerving dekken",
-            "help": "Wijs capaciteit toe aan specifiek gepland werk, niet aan een algemene fulltime-equivalent schatting."
+            "label": "Uren dekken de geplande huur",
+            "help": "Wijs capaciteit toe aan concreet gepland werk, niet aan een algemene fte-raming."
           },
           "planned_hours": {
-            "label": "Maandelijkse uren die de geplande aanwerving zou dekken",
-            "help": "De toegewezen capaciteit moet deze volledige workload dekken."
+            "label": "Maanduren voor de geplande medewerker",
+            "help": "De toegewezen capaciteit moet dit hele werk dekken."
           },
           "hire_cost": {
-            "label": "Maandelijkse kosten van aanwerving die daadwerkelijk zijn uitgesteld",
-            "help": "Gebruik de kosten van een daadwerkelijk geplande aanwerving, niet het salaris van iemand die al in dienst is."
+            "label": "Echt uitgestelde maandloonkosten",
+            "help": "Gebruik kosten van echt geplande werving, niet het loon van een bestaande medewerker."
           },
           "hire_months": {
-            "label": "Maanden dat de aanwerving wordt uitgesteld",
-            "help": "Eén tot twaalf maanden; de jaarlijkse schatting stopt met het tellen van besparingen na deze periode."
+            "label": "Maanden uitgestelde werving",
+            "help": "Eén tot twaalf maanden; de jaarraming telt na deze periode geen besparing meer."
           },
           "incidents": {
             "label": "Verwachte vermeden fouten per maand",
-            "help": "Gebruik uw basislijn en verwachte reductie. Sluit incidenten uit die ook worden meegeteld als risicoreductie."
+            "help": "Gebruik je uitgangspunt en verwachte daling. Sluit incidenten uit die ook als risicodaling tellen."
           },
           "incident_cost": {
             "label": "Incrementele kosten per fout",
-            "help": "Sluit arbeid, terugbetalingen of andere verliezen die al elders zijn opgenomen uit."
+            "help": "Sluit elders getelde arbeid, terugbetalingen en andere verliezen uit."
           },
           "probability_before": {
             "label": "Maandelijkse verlieskans voorheen",
@@ -1564,19 +1579,19 @@
           },
           "probability_after": {
             "label": "Maandelijkse verlieskans hierna",
-            "help": "Gebruik hetzelfde evenement en dezelfde maandelijkse tijdshorizon als de basislijn."
+            "help": "Gebruik hetzelfde incident en dezelfde maandperiode als de basis."
           },
           "loss": {
-            "label": "Verliesblootstelling voor dat evenement",
-            "help": "Sluit foutincidenten en uitgaven die al zijn meegeteld uit. Dit is onzekere verwachte waarde, geen bespaard geld."
+            "label": "Verliesrisico van dat incident",
+            "help": "Uitsluiten van foutincidenten en reeds getelde uitgaven. Dit is onzekere verwachte waarde, niet contant geld."
           },
           "days_before": {
             "label": "Cyclustijd voorheen, in dagen",
-            "help": "Verstreken tijd van begin tot voltooiing, gescheiden van hands-on inspanning."
+            "help": "Verstreken tijd van start tot voltooiing, los van hands-on inspanning."
           },
           "days_after": {
             "label": "Cyclustijd hierna, in dagen",
-            "help": "Weergegeven als een operationele verandering, zonder een veronderstelde geldwaarde."
+            "help": "Alleen een operationele verandering, zonder aangenomen geldwaarde."
           }
         },
         "burden": [
@@ -1584,7 +1599,7 @@
           "Herhaaldelijk matchen en coördineren"
         ],
         "opportunity": [
-          "Meer gekwalificeerde, door mensen beoordeelde introducties",
+          "Meer gerichte, menselijk getoetste introducties",
           "Tijd voor agentgesprekken en klantbehoeften"
         ],
         "usagePackages": {
@@ -1629,25 +1644,25 @@
         },
         "hero": {
           "kind": "volume",
-          "label": "Gekwalificeerde briefs die de beoordeling ingaan"
+          "label": "Gekwalificeerde briefs ter toetsing"
         },
         "outcomes": [
           {
             "id": "higher_value",
-            "label": "Houd agenten bezig met gesprekken",
-            "help": "Voer alleen capaciteit in die kan worden omgeleid naar echt agent- of makelaarswerk; behandel de vastgoedwaarde of commissie niet als Nest-inkomsten."
+            "label": "Houd agenten bij gesprekken",
+            "help": "Vul alleen capaciteit in voor echt makelaarswerk; woningwaarde of commissie is geen Nest-omzet."
           },
           {
             "id": "cash",
-            "label": "Betaalde intakeondersteuning verminderen",
-            "help": "Verminder overwerk of uitgaven aan externe krachten voor handmatige intake van kopersaanvragen - niet ongewijzigde salarissen."
+            "label": "Minder betaalde intakehulp",
+            "help": "Minder overuren of kosten voor externen bij kopersintake — geen ongewijzigde lonen."
           }
         ],
         "tabs": [
           {
             "id": "funnel",
             "label": "Introductietrechter",
-            "intro": "Model leads die de agent of makelaarsbalie binnenkomen, kwalificatie en menselijke beoordeling.",
+            "intro": "Model voor makelaarsleads, selectie en menselijke toetsing.",
             "fields": [
               "volume",
               "accepted_rate",
@@ -1657,7 +1672,7 @@
           },
           {
             "id": "costs",
-            "label": "AI-operationele kosten",
+            "label": "AI bedrijfskosten",
             "intro": "Houd model-, token-, tool-, infrastructuur-, platform- en beoordelaarskosten gescheiden van de voorgestelde klantprijs.",
             "fields": [
               "tokens_per_output",
@@ -1672,7 +1687,7 @@
           {
             "id": "capacity",
             "label": "Capaciteit en bewijs",
-            "intro": "Teruggegeven capaciteit is geen omzet. Financiële resultaten blijven onvoldoende totdat een betaler, prijs en leveringsbewijs zijn geregistreerd.",
+            "intro": "Vrijgekomen capaciteit is geen omzet. Geldresultaten blijven onbewezen tot betaler, prijs en leveringsbewijs vaststaan.",
             "fields": [
               "higher_value_hours",
               "contribution_rate"
@@ -1684,8 +1699,8 @@
         "pricing": {
           "basis": "fixed",
           "annualPrice": 9000,
-          "label": "Voorgestelde Nest maandelijkse prijs",
-          "help": "Een werkende hypothese van €750/maand voor een gekwalificeerde introductiepilot. Behandel als niet gevalideerd totdat een agent of makelaar betaalt."
+          "label": "Voorgestelde Nest-maandprijs",
+          "help": "€750/maand als werkhypothese voor een introductieproef. Onbewezen tot een makelaar betaalt."
         },
         "presentation": {
           "financial": "optional",
@@ -1697,7 +1712,7 @@
         "primaryLabel": "Praat met Nest",
         "primaryTarget": "meet",
         "secondaryLabel": "Zie hoe het werkt",
-        "privacyNote": "Uw gegevens blijven privé. Uren zijn capaciteit. Financiële bedragen zijn gemodelleerde schattingen, geen waargenomen resultaten.",
+        "privacyNote": "Je data blijft privé. Uren zijn capaciteit. Geldbedragen zijn ramingen, geen gemeten resultaten.",
         "secondaryTarget": "how-it-works"
       }
     }
@@ -1833,7 +1848,7 @@
         "service",
         "announcement"
       ],
-      "sourceHash": "be9a13f7023ef55619868f0493c2406bf0a474e56e10f473c41892c404024420"
+      "sourceHash": "27beb4963c17faa69214294db19ec3c26c28e0c1905572138ee243b8ce4c899d"
     },
     {
       "path": [
@@ -1851,7 +1866,7 @@
         "service",
         "disclaimer"
       ],
-      "sourceHash": "ca92feefcce8cf3b902e821d9924aff63439b8eef0c7f6c4bfab3e3bddcb8912"
+      "sourceHash": "95db36924484b33d593723f0cfb9074df7e57a7dbc7de205e9bc6ba3c66dbe6f"
     },
     {
       "path": [
@@ -1884,7 +1899,7 @@
         0,
         "name"
       ],
-      "sourceHash": "7257e9cc9cc216c2e159dfee34f3eda341455ec13562684dd00264d9b0240e2f"
+      "sourceHash": "68993a1a7cee24d2a32d9348246741cff0a0930df52b1b2646e62ca088985a05"
     },
     {
       "path": [
@@ -1895,7 +1910,7 @@
         0,
         "location"
       ],
-      "sourceHash": "3561dec50498e6d20de5933a504dd4dd87aa2044b8f088b2369cd5f8a0c97bb0"
+      "sourceHash": "87b707776e1db61c2372d44bf02287d870ea0057cb82041fb2569d3e96a0af5b"
     },
     {
       "path": [
@@ -1906,7 +1921,7 @@
         0,
         "dateRange"
       ],
-      "sourceHash": "d7d429901fcdbf8a6f96365799362166428fc8ab14fd32f3731294b029ce4489"
+      "sourceHash": "5f95d200613fa48114e5c65da5c3641ff6d886390a2e9f87a30b56ce0d5ab14f"
     },
     {
       "path": [
@@ -1917,7 +1932,7 @@
         0,
         "availabilityLabel"
       ],
-      "sourceHash": "a7d342751d38d984fd754cc2f12306ed5ebe8014f7afbd85ad419acebd4ce6ca"
+      "sourceHash": "4d16eb580cd5b66e702ec42d57a0d56c5c078dee7f47fbb7de498fbc1cd02024"
     },
     {
       "path": [
@@ -1950,7 +1965,7 @@
         1,
         "name"
       ],
-      "sourceHash": "e7ee0a445fbb6f3aa20931c3cc2cc84762fa66934e24a20be09d6eedefaa9f53"
+      "sourceHash": "be2536b9d304ef6fa0cac970b15d2a442de3d14b5a12fd4d17c33c13eb3e6466"
     },
     {
       "path": [
@@ -1961,7 +1976,7 @@
         1,
         "location"
       ],
-      "sourceHash": "2892edf7ced71d33e464b22ccb0956146a7ef4b197d21872c593009be5c786ef"
+      "sourceHash": "d7729b682c5195e675ae1a8e0c1941ab0ae55d2845cbe900f8128eebd810b4bc"
     },
     {
       "path": [
@@ -1972,7 +1987,7 @@
         1,
         "dateRange"
       ],
-      "sourceHash": "a90620097624cae57edb193379e4a70f87b34096acc7c5d0b07d957b947a3e22"
+      "sourceHash": "0a473b3218814be4c2f52eebbeb7f3811c71f217444665a8d814b8ce01d81aa2"
     },
     {
       "path": [
@@ -1983,17 +1998,7 @@
         1,
         "availabilityLabel"
       ],
-      "sourceHash": "4ccdf0d88d921c3c0274c16ab665fd021b888edca40c2f1887ca4da4e2e61adc"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        0,
-        "profileModeId"
-      ],
-      "sourceHash": "6dbd0f28d0d97656768b7b4ed96255e67fd11740a44b1c4b575191b06e9e3a35"
+      "sourceHash": "c05cce4b82d04ad338efc4de17a24e732e3b26468d4ee2af99588e56dc95897f"
     },
     {
       "path": [
@@ -2167,7 +2172,7 @@
         0,
         "placeholder"
       ],
-      "sourceHash": "8ef750bb2312fc48dd91c5e23e72db84efa85bd44f4079a358028416a0225f80"
+      "sourceHash": "f3a300de5b666e3328abad1ebe37267f7ced77d778541c388492c608cc90ce83"
     },
     {
       "path": [
@@ -4871,10 +4876,66 @@
         "landingPage",
         "homeIntroductions",
         "tracks",
-        1,
-        "profileModeId"
+        0,
+        "leadScan",
+        "instruction"
       ],
-      "sourceHash": "a4279eae47aaa7417da62434795a011ccb0ec870f7f56646d181b5500a892a9a"
+      "sourceHash": "022a5a0c287550dd62cadc82bc01eb67a0b6dcfb92accec1721485d82228f3f4"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "leadScan",
+        "inputLabel"
+      ],
+      "sourceHash": "a14942d2dbe160646f352f5611c81c134de38e6e8d39150b98599b2b58a8a996"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "leadScan",
+        "inputPlaceholder"
+      ],
+      "sourceHash": "ad8ade742621a2c432cdbbb0edfa2f0293b06d43c0a967b18be47bed903860f9"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "leadScan",
+        "submitLabel"
+      ],
+      "sourceHash": "98d27a5c1c0a5c414c3c706493575991e20343453300ecd0ce04e1fbbe151136"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "leadScan",
+        "budgetHint"
+      ],
+      "sourceHash": "eba870b7b372acb5e29644a480a8d5555670a20ec027e7ba00155c8c1368d796"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "leadScan",
+        "loginNotice"
+      ],
+      "sourceHash": "7d54c44ee72b1b5a64d4baed3606a64b4ffe329400970a2ee98978cc8cb7d87a"
     },
     {
       "path": [
@@ -7848,6 +7909,61 @@
       "path": [
         "landingPage",
         "homeIntroductions",
+        "tracks",
+        1,
+        "leadScan",
+        "instruction"
+      ],
+      "sourceHash": "85d483e47d34028d70788bb7812556fa7e67f1005dba913dec524124651fcf40"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "leadScan",
+        "inputLabel"
+      ],
+      "sourceHash": "6162e62732bd1d9cdced3c81cc92d3bf6aea4025b5a5d75fe88ab59dc44d4dbd"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "leadScan",
+        "inputPlaceholder"
+      ],
+      "sourceHash": "5f3199ecca7fef15f1d7cb0219f6386403baba6e3b43d8e4042337bc9eb7e0f4"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "leadScan",
+        "submitLabel"
+      ],
+      "sourceHash": "bbb947e46a5750527609cebdaf324c50a796259142e31c3dfa46c29c96605bb7"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "leadScan",
+        "loginNotice"
+      ],
+      "sourceHash": "7d54c44ee72b1b5a64d4baed3606a64b4ffe329400970a2ee98978cc8cb7d87a"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
         "hero",
         "eyebrow"
       ],
@@ -8373,7 +8489,7 @@
         "privacy",
         "proposalArea"
       ],
-      "sourceHash": "7d45e2cadfeed56e5a58d4849cbe1d38b1b46b4888a4bda5925fbc0589d14483"
+      "sourceHash": "59cb380b4fb5e8bd5fecf04372bf810b041f74cd3e30f4166506f848ff8590a2"
     },
     {
       "path": [
@@ -8409,7 +8525,7 @@
         "process",
         "licensedAgentNote"
       ],
-      "sourceHash": "f2a485a2492874a521381ea4b3b8db7ee246ed59867b8fbfd0266358daef6f74"
+      "sourceHash": "aaf5931e65d9c5e1d9b96f97add3325e7f1ba1db27dac148b7196aec1700636a"
     },
     {
       "path": [
@@ -8484,7 +8600,7 @@
         0,
         "value"
       ],
-      "sourceHash": "7d45e2cadfeed56e5a58d4849cbe1d38b1b46b4888a4bda5925fbc0589d14483"
+      "sourceHash": "59cb380b4fb5e8bd5fecf04372bf810b041f74cd3e30f4166506f848ff8590a2"
     },
     {
       "path": [
@@ -8497,7 +8613,7 @@
         1,
         "label"
       ],
-      "sourceHash": "eae440ce184d762575a9b97cdaea49a5547a79735b6f1bbc74b364e54830934e"
+      "sourceHash": "8262035697e72feb476da493d17515e093487836217693cf6a77f8b9157e4b4c"
     },
     {
       "path": [
@@ -8510,7 +8626,7 @@
         1,
         "value"
       ],
-      "sourceHash": "9c8d80b4eb0f8ee65f4caa98959ffb293bd3ad47e4356e7e10c5496e8fa175dd"
+      "sourceHash": "548ebf2bc5baea1eed5b420c08a580dfd2471ebeaa44f8e325c450d58d28804f"
     },
     {
       "path": [
@@ -8571,7 +8687,7 @@
         1,
         "label"
       ],
-      "sourceHash": "eae440ce184d762575a9b97cdaea49a5547a79735b6f1bbc74b364e54830934e"
+      "sourceHash": "8262035697e72feb476da493d17515e093487836217693cf6a77f8b9157e4b4c"
     },
     {
       "path": [
@@ -8584,7 +8700,7 @@
         1,
         "value"
       ],
-      "sourceHash": "1536debca5cd0ab880724c20eccbddbafe71bc9a75e716c1f940109b5ac07747"
+      "sourceHash": "548ebf2bc5baea1eed5b420c08a580dfd2471ebeaa44f8e325c450d58d28804f"
     },
     {
       "path": [
@@ -8731,7 +8847,7 @@
         "footer",
         "disclaimer"
       ],
-      "sourceHash": "ca92feefcce8cf3b902e821d9924aff63439b8eef0c7f6c4bfab3e3bddcb8912"
+      "sourceHash": "95db36924484b33d593723f0cfb9074df7e57a7dbc7de205e9bc6ba3c66dbe6f"
     },
     {
       "path": [
@@ -8740,7 +8856,7 @@
         "footer",
         "eventDisclaimer"
       ],
-      "sourceHash": "d5d23f81d2c2e5da7855ffdfec5c3980815ca17a83b54fe8e542be0e01aafa4a"
+      "sourceHash": "f827253f91f2930e732da0b3e4102f9800f1f1d164144848b6e997fe52485885"
     },
     {
       "path": [
@@ -10802,5 +10918,5 @@
       "sourceHash": "0e96f5e15977ab0a2a8d684c0d35d7459f3afc862b606046310ae1fbbd4be12b"
     }
   ],
-  "generatedAt": "2026-10-01T16:11:52.100Z"
+  "generatedAt": "2026-10-04T21:09:16.473Z"
 }

@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "language": "ko",
   "regionKey": null,
-  "sourceRevision": "9b00d9081f920764fbd3e5bcdb077a7b34f8b04299a9af6b2aee818670157abf",
+  "sourceRevision": "34ac41d8e370c15ebe1c02aa65c2df4c3af768310073c54a4c837e8462809816",
   "landingPage": {
     "headline": "적합한 한 번의 자격 있는 소개.",
     "subheadline": "사적인 구매자 및 판매자 소개, 한 번에 하나의 인간 검토 제안.",
@@ -87,28 +87,28 @@
         "secondaryEditionLabel": "판매"
       },
       "service": {
-        "activeMode": "event",
-        "announcement": "이제 Second Home Fair, Jaarbeurs Utrecht에서 매칭, 3월 27일 – 3월 29일 금요일",
+        "activeMode": "city",
+        "announcement": "다음 행보를 위한 공공재산 연구",
         "feeCopy": "소개를 요청하기 전에 공유된 수수료",
-        "disclaimer": "Nest는 허가된 중개업체가 아니며 어느 쪽도 당사자, 협상, 집을 소중히 여기거나 거래를 처리하지 않습니다. 앞으로 나아갈 준비가 되면 라이선스가 부여된 로컬 에이전트와 연결하여 프로세스를 완료합니다.",
+        "disclaimer": "Nest는 공개 소스를 조사합니다. 중개업체가 아니며 거래 당사자를 대표하거나 협상하거나 처리하지 않습니다. 주택을 소중히 여기지 않습니다. 진행하기 전에 목록 정보를 확인하고 적절한 자격을 갖춘 현지 부동산 전문가와 상담하세요.",
         "configurations": [
           {
             "mode": "event",
             "label": "행사",
             "actionLabel": "전망",
-            "name": "두 번째 주택 박람회, Jaarbeurs Utrecht",
-            "location": "자아르부르 위트레흐트",
-            "dateRange": "3월 27일 ~ 3월 29일 금요일",
-            "availabilityLabel": "3월 27일~일 3월 29일 금요일 · Jaarbeurs Utrecht"
+            "name": "부동산 이벤트 예시",
+            "location": "귀하의 지역",
+            "dateRange": "주최자에게 확인",
+            "availabilityLabel": "예시 이벤트 · 지역 세부정보 확인"
           },
           {
             "mode": "city",
             "label": "시티",
             "actionLabel": "전망",
-            "name": "Nest 암스테르담",
-            "location": "암스테르담 주이드",
-            "dateRange": "전진",
-            "availabilityLabel": "상시 사용 지역 소개"
+            "name": "Nest 부동산 조사",
+            "location": "귀하의 도시 또는 지역",
+            "dateRange": "귀하의 요청에 따라",
+            "availabilityLabel": "준비되면 검색하세요"
           }
         ]
       },
@@ -147,7 +147,7 @@
             {
               "key": "area",
               "label": "선호하는 영역 또는 일반 영역",
-              "placeholder": "위트레흐트 지역, 암스테르담 주드…",
+              "placeholder": "귀하의 도시, 인근 지역 또는 우편 지역",
               "type": "text",
               "required": true
             },
@@ -601,6 +601,14 @@
               "privacyNote": "귀하의 데이터는 비공개로 유지됩니다. 시간은 용량입니다. 재무 금액은 관찰된 결과가 아닌 모델링된 추정치입니다.",
               "secondaryTarget": "how-it-works"
             }
+          },
+          "leadScan": {
+            "instruction": "검색하고 싶은 도시나 지역과 예산을 Nest에 알려주세요. Nest에서는 귀하가 검토할 수 있는 공공 자산 및 판매자 리드를 찾을 수 있습니다.",
+            "inputLabel": "위치와 예산",
+            "inputPlaceholder": "예: 도시 또는 지역, 현지 통화로 예산…",
+            "submitLabel": "리드 찾기",
+            "budgetHint": "더 정확한 결과를 얻으려면 예산도 추가하세요.",
+            "loginNotice": "최대 100개의 리드를 검색하려면 로그인하세요."
           }
         },
         {
@@ -1106,6 +1114,13 @@
               "privacyNote": "귀하의 데이터는 비공개로 유지됩니다. 시간은 용량입니다. 재무 금액은 관찰된 결과가 아닌 모델링된 추정치입니다.",
               "secondaryTarget": "how-it-works"
             }
+          },
+          "leadScan": {
+            "instruction": "판매하려는 부동산의 공개 목록 URL을 붙여넣으세요. Nest를 통해 공개 구매자 의도 리드를 검색하기 전에 부동산 요약을 검토할 수 있습니다.",
+            "inputLabel": "공공 재산 목록 URL",
+            "inputPlaceholder": "공공 자산 목록 URL을 붙여넣으세요...",
+            "submitLabel": "부동산 분석",
+            "loginNotice": "최대 100개의 리드를 검색하려면 로그인하세요."
           }
         }
       ],
@@ -1192,13 +1207,13 @@
         ],
         "proposalLabel": "신청",
         "proposalAreaLabel": "일반 지역",
-        "proposalArea": "위트레흐트, 오버베히트",
+        "proposalArea": "예시적인 지역 이웃",
         "proposalNote": "신원이나 정확한 위치가 표시되지 않습니다. 양측은 수락하거나 통과할 수 있습니다."
       },
       "process": {
         "kicker": "작동 방식",
         "heading": "하나의 신중한 시퀀스.",
-        "licensedAgentNote": "앞으로 나아갈 준비가 되면 라이선스가 부여된 로컬 에이전트가 반복됩니다."
+        "licensedAgentNote": "Nest는 공개 리드를 조사합니다. 적절한 자격을 갖춘 현지 부동산 전문가와 부동산 거래를 확인하십시오."
       },
       "proposals": {
         "kicker": "제안이 어떻게 생겼는지",
@@ -1212,11 +1227,11 @@
             "facts": [
               {
                 "label": "일반 지역",
-                "value": "위트레흐트, 오버베히트"
+                "value": "예시적인 지역 이웃"
               },
               {
-                "label": "이벤트 슬롯",
-                "value": "토요일 아침"
+                "label": "예시적인 가용성",
+                "value": "공개 소스로 확인"
               }
             ],
             "tone": "cream"
@@ -1231,8 +1246,8 @@
                 "value": "신중하게 앞으로 나아갈 준비가 되었습니다"
               },
               {
-                "label": "이벤트 슬롯",
-                "value": "일요일 오후"
+                "label": "예시적인 가용성",
+                "value": "공개 소스로 확인"
               }
             ],
             "tone": "terracotta"
@@ -1265,8 +1280,8 @@
       "footer": {
         "brandLabel": "Nest.",
         "tagline": "한 번에 하나의 신중한 집 소개.",
-        "disclaimer": "Nest는 허가된 중개업체가 아니며 어느 쪽도 당사자, 협상, 집을 소중히 여기거나 거래를 처리하지 않습니다. 앞으로 나아갈 준비가 되면 라이선스가 부여된 로컬 에이전트와 연결하여 프로세스를 완료합니다. Not a broker. Does not represent either party. Does not provide valuations. Does not negotiate.",
-        "eventDisclaimer": "Second Home Fair 세부사항은 이 Nest 인스턴스화를 위해 모델링되었으며 참석하기 전에 확인되어야 합니다.",
+        "disclaimer": "Nest는 공개 소스를 조사합니다. 중개업체가 아니며 거래 당사자를 대표하거나 협상하거나 처리하지 않습니다. 주택을 소중히 여기지 않습니다. 진행하기 전에 목록 정보를 확인하고 적절한 자격을 갖춘 현지 부동산 전문가와 상담하세요. Not a broker. Does not represent either party. Does not provide valuations. Does not negotiate.",
+        "eventDisclaimer": "위치 및 부동산 예시는 예시일 뿐 보장 범위나 가용성을 보장하는 것은 아닙니다. 공개 소스로 목록을 확인하세요.",
         "copyright": "© 2026 Nest",
         "groups": [
           {
@@ -1833,7 +1848,7 @@
         "service",
         "announcement"
       ],
-      "sourceHash": "be9a13f7023ef55619868f0493c2406bf0a474e56e10f473c41892c404024420"
+      "sourceHash": "27beb4963c17faa69214294db19ec3c26c28e0c1905572138ee243b8ce4c899d"
     },
     {
       "path": [
@@ -1851,7 +1866,7 @@
         "service",
         "disclaimer"
       ],
-      "sourceHash": "ca92feefcce8cf3b902e821d9924aff63439b8eef0c7f6c4bfab3e3bddcb8912"
+      "sourceHash": "95db36924484b33d593723f0cfb9074df7e57a7dbc7de205e9bc6ba3c66dbe6f"
     },
     {
       "path": [
@@ -1884,7 +1899,7 @@
         0,
         "name"
       ],
-      "sourceHash": "7257e9cc9cc216c2e159dfee34f3eda341455ec13562684dd00264d9b0240e2f"
+      "sourceHash": "68993a1a7cee24d2a32d9348246741cff0a0930df52b1b2646e62ca088985a05"
     },
     {
       "path": [
@@ -1895,7 +1910,7 @@
         0,
         "location"
       ],
-      "sourceHash": "3561dec50498e6d20de5933a504dd4dd87aa2044b8f088b2369cd5f8a0c97bb0"
+      "sourceHash": "87b707776e1db61c2372d44bf02287d870ea0057cb82041fb2569d3e96a0af5b"
     },
     {
       "path": [
@@ -1906,7 +1921,7 @@
         0,
         "dateRange"
       ],
-      "sourceHash": "d7d429901fcdbf8a6f96365799362166428fc8ab14fd32f3731294b029ce4489"
+      "sourceHash": "5f95d200613fa48114e5c65da5c3641ff6d886390a2e9f87a30b56ce0d5ab14f"
     },
     {
       "path": [
@@ -1917,7 +1932,7 @@
         0,
         "availabilityLabel"
       ],
-      "sourceHash": "a7d342751d38d984fd754cc2f12306ed5ebe8014f7afbd85ad419acebd4ce6ca"
+      "sourceHash": "4d16eb580cd5b66e702ec42d57a0d56c5c078dee7f47fbb7de498fbc1cd02024"
     },
     {
       "path": [
@@ -1950,7 +1965,7 @@
         1,
         "name"
       ],
-      "sourceHash": "e7ee0a445fbb6f3aa20931c3cc2cc84762fa66934e24a20be09d6eedefaa9f53"
+      "sourceHash": "be2536b9d304ef6fa0cac970b15d2a442de3d14b5a12fd4d17c33c13eb3e6466"
     },
     {
       "path": [
@@ -1961,7 +1976,7 @@
         1,
         "location"
       ],
-      "sourceHash": "2892edf7ced71d33e464b22ccb0956146a7ef4b197d21872c593009be5c786ef"
+      "sourceHash": "d7729b682c5195e675ae1a8e0c1941ab0ae55d2845cbe900f8128eebd810b4bc"
     },
     {
       "path": [
@@ -1972,7 +1987,7 @@
         1,
         "dateRange"
       ],
-      "sourceHash": "a90620097624cae57edb193379e4a70f87b34096acc7c5d0b07d957b947a3e22"
+      "sourceHash": "0a473b3218814be4c2f52eebbeb7f3811c71f217444665a8d814b8ce01d81aa2"
     },
     {
       "path": [
@@ -1983,17 +1998,7 @@
         1,
         "availabilityLabel"
       ],
-      "sourceHash": "4ccdf0d88d921c3c0274c16ab665fd021b888edca40c2f1887ca4da4e2e61adc"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        0,
-        "profileModeId"
-      ],
-      "sourceHash": "6dbd0f28d0d97656768b7b4ed96255e67fd11740a44b1c4b575191b06e9e3a35"
+      "sourceHash": "c05cce4b82d04ad338efc4de17a24e732e3b26468d4ee2af99588e56dc95897f"
     },
     {
       "path": [
@@ -2167,7 +2172,7 @@
         0,
         "placeholder"
       ],
-      "sourceHash": "8ef750bb2312fc48dd91c5e23e72db84efa85bd44f4079a358028416a0225f80"
+      "sourceHash": "f3a300de5b666e3328abad1ebe37267f7ced77d778541c388492c608cc90ce83"
     },
     {
       "path": [
@@ -4871,10 +4876,66 @@
         "landingPage",
         "homeIntroductions",
         "tracks",
-        1,
-        "profileModeId"
+        0,
+        "leadScan",
+        "instruction"
       ],
-      "sourceHash": "a4279eae47aaa7417da62434795a011ccb0ec870f7f56646d181b5500a892a9a"
+      "sourceHash": "022a5a0c287550dd62cadc82bc01eb67a0b6dcfb92accec1721485d82228f3f4"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "leadScan",
+        "inputLabel"
+      ],
+      "sourceHash": "a14942d2dbe160646f352f5611c81c134de38e6e8d39150b98599b2b58a8a996"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "leadScan",
+        "inputPlaceholder"
+      ],
+      "sourceHash": "ad8ade742621a2c432cdbbb0edfa2f0293b06d43c0a967b18be47bed903860f9"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "leadScan",
+        "submitLabel"
+      ],
+      "sourceHash": "98d27a5c1c0a5c414c3c706493575991e20343453300ecd0ce04e1fbbe151136"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "leadScan",
+        "budgetHint"
+      ],
+      "sourceHash": "eba870b7b372acb5e29644a480a8d5555670a20ec027e7ba00155c8c1368d796"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "leadScan",
+        "loginNotice"
+      ],
+      "sourceHash": "7d54c44ee72b1b5a64d4baed3606a64b4ffe329400970a2ee98978cc8cb7d87a"
     },
     {
       "path": [
@@ -7848,6 +7909,61 @@
       "path": [
         "landingPage",
         "homeIntroductions",
+        "tracks",
+        1,
+        "leadScan",
+        "instruction"
+      ],
+      "sourceHash": "85d483e47d34028d70788bb7812556fa7e67f1005dba913dec524124651fcf40"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "leadScan",
+        "inputLabel"
+      ],
+      "sourceHash": "6162e62732bd1d9cdced3c81cc92d3bf6aea4025b5a5d75fe88ab59dc44d4dbd"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "leadScan",
+        "inputPlaceholder"
+      ],
+      "sourceHash": "5f3199ecca7fef15f1d7cb0219f6386403baba6e3b43d8e4042337bc9eb7e0f4"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "leadScan",
+        "submitLabel"
+      ],
+      "sourceHash": "bbb947e46a5750527609cebdaf324c50a796259142e31c3dfa46c29c96605bb7"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "leadScan",
+        "loginNotice"
+      ],
+      "sourceHash": "7d54c44ee72b1b5a64d4baed3606a64b4ffe329400970a2ee98978cc8cb7d87a"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
         "hero",
         "eyebrow"
       ],
@@ -8373,7 +8489,7 @@
         "privacy",
         "proposalArea"
       ],
-      "sourceHash": "7d45e2cadfeed56e5a58d4849cbe1d38b1b46b4888a4bda5925fbc0589d14483"
+      "sourceHash": "59cb380b4fb5e8bd5fecf04372bf810b041f74cd3e30f4166506f848ff8590a2"
     },
     {
       "path": [
@@ -8409,7 +8525,7 @@
         "process",
         "licensedAgentNote"
       ],
-      "sourceHash": "f2a485a2492874a521381ea4b3b8db7ee246ed59867b8fbfd0266358daef6f74"
+      "sourceHash": "aaf5931e65d9c5e1d9b96f97add3325e7f1ba1db27dac148b7196aec1700636a"
     },
     {
       "path": [
@@ -8484,7 +8600,7 @@
         0,
         "value"
       ],
-      "sourceHash": "7d45e2cadfeed56e5a58d4849cbe1d38b1b46b4888a4bda5925fbc0589d14483"
+      "sourceHash": "59cb380b4fb5e8bd5fecf04372bf810b041f74cd3e30f4166506f848ff8590a2"
     },
     {
       "path": [
@@ -8497,7 +8613,7 @@
         1,
         "label"
       ],
-      "sourceHash": "eae440ce184d762575a9b97cdaea49a5547a79735b6f1bbc74b364e54830934e"
+      "sourceHash": "8262035697e72feb476da493d17515e093487836217693cf6a77f8b9157e4b4c"
     },
     {
       "path": [
@@ -8510,7 +8626,7 @@
         1,
         "value"
       ],
-      "sourceHash": "9c8d80b4eb0f8ee65f4caa98959ffb293bd3ad47e4356e7e10c5496e8fa175dd"
+      "sourceHash": "548ebf2bc5baea1eed5b420c08a580dfd2471ebeaa44f8e325c450d58d28804f"
     },
     {
       "path": [
@@ -8571,7 +8687,7 @@
         1,
         "label"
       ],
-      "sourceHash": "eae440ce184d762575a9b97cdaea49a5547a79735b6f1bbc74b364e54830934e"
+      "sourceHash": "8262035697e72feb476da493d17515e093487836217693cf6a77f8b9157e4b4c"
     },
     {
       "path": [
@@ -8584,7 +8700,7 @@
         1,
         "value"
       ],
-      "sourceHash": "1536debca5cd0ab880724c20eccbddbafe71bc9a75e716c1f940109b5ac07747"
+      "sourceHash": "548ebf2bc5baea1eed5b420c08a580dfd2471ebeaa44f8e325c450d58d28804f"
     },
     {
       "path": [
@@ -8731,7 +8847,7 @@
         "footer",
         "disclaimer"
       ],
-      "sourceHash": "ca92feefcce8cf3b902e821d9924aff63439b8eef0c7f6c4bfab3e3bddcb8912"
+      "sourceHash": "95db36924484b33d593723f0cfb9074df7e57a7dbc7de205e9bc6ba3c66dbe6f"
     },
     {
       "path": [
@@ -8740,7 +8856,7 @@
         "footer",
         "eventDisclaimer"
       ],
-      "sourceHash": "d5d23f81d2c2e5da7855ffdfec5c3980815ca17a83b54fe8e542be0e01aafa4a"
+      "sourceHash": "f827253f91f2930e732da0b3e4102f9800f1f1d164144848b6e997fe52485885"
     },
     {
       "path": [
@@ -10802,5 +10918,5 @@
       "sourceHash": "0e96f5e15977ab0a2a8d684c0d35d7459f3afc862b606046310ae1fbbd4be12b"
     }
   ],
-  "generatedAt": "2026-10-01T16:11:50.825Z"
+  "generatedAt": "2026-10-04T21:09:16.473Z"
 }

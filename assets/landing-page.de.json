@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "language": "de",
   "regionKey": null,
-  "sourceRevision": "9b00d9081f920764fbd3e5bcdb077a7b34f8b04299a9af6b2aee818670157abf",
+  "sourceRevision": "34ac41d8e370c15ebe1c02aa65c2df4c3af768310073c54a4c837e8462809816",
   "landingPage": {
     "headline": "Eine qualifizierte Einführung, die passt.",
     "subheadline": "Private Käufer- und Verkäufervorstellungen, jeweils ein vom Menschen geprüftes Angebot.",
@@ -87,28 +87,28 @@
         "secondaryEditionLabel": "Verkaufen"
       },
       "service": {
-        "activeMode": "event",
-        "announcement": "Jetzt passend zur zweiten Heimmesse, Jaarbeurs Utrecht. Fr 27–So 29 Mr.",
+        "activeMode": "city",
+        "announcement": "Öffentliche Immobiliensuche für Ihren Umzug",
         "feeCopy": "Gebühr wird geteilt, bevor Sie eine Einführung anfordern",
-        "disclaimer": "Nest ist kein lizenzierter Makler und vertritt keine Partei, verhandelt, schätzt Ihr Zuhause oder verarbeitet Ihre Transaktion. Wenn Sie bereit sind, vorwärts zu kommen, verbinden wir Sie mit einem lizenzierten lokalen Agenten, um den Vorgang abzuschließen.",
+        "disclaimer": "Nest recherchiert in öffentlichen Quellen, ist kein Makler und übernimmt weder Parteivertretung noch Verhandlungen, Transaktionen oder Immobilienbewertungen. Prüfen Sie Inseratsangaben und konsultieren Sie vorab eine qualifizierte Immobilienfachkraft vor Ort.",
         "configurations": [
           {
             "mode": "event",
             "label": "Event",
             "actionLabel": "Aussicht",
-            "name": "Zweite Heimmesse, Jaarbeurs Utrecht",
-            "location": "Jaarbeurs Utrecht",
-            "dateRange": "Fr 27–So 29. März",
-            "availabilityLabel": "Fr 27.–So 29.03. · Jaarbeurs Utrecht"
+            "name": "Immobilienevent-Beispiel",
+            "location": "Ihre Umgebung",
+            "dateRange": "Mit Organisator bestätigen",
+            "availabilityLabel": "Illustratives Event · Lokale Details prüfen"
           },
           {
             "mode": "city",
             "label": "City",
             "actionLabel": "Aussicht",
-            "name": "Nest Amsterdam",
-            "location": "Amsterdam Zuid",
-            "dateRange": "Laufend",
-            "availabilityLabel": "Always-On-Lokale Einführungen"
+            "name": "Nest-Immobilienforschung",
+            "location": "Ihre Stadt / Gegend",
+            "dateRange": "Auf Ihre Anfrage",
+            "availabilityLabel": "Suche, wenn du bereit bist"
           }
         ]
       },
@@ -147,7 +147,7 @@
             {
               "key": "area",
               "label": "bevorzugter oder allgemeiner Bereich",
-              "placeholder": "Utrecht, Amsterdam Zuid…",
+              "placeholder": "Ihre Stadt, Nachbarschaft oder Postbereich",
               "type": "text",
               "required": true
             },
@@ -221,7 +221,7 @@
               "loading": "Checking the local currency. Amounts remain in {currency} until a rate is available.",
               "unavailable": "A current local exchange rate is unavailable. Amounts remain in {currency}.",
               "converted": "Amounts converted from {base} to {currency} using the reference rate dated {date}.",
-              "basis": "Bei der Währungsumrechnung handelt es sich nicht um eine lokale Kostenforschung. Geben Sie Ihre eigenen lokalen Kosten und Beitragsannahmen ein. Durch Sprachänderungen ändern sich die Beträge nicht."
+              "basis": "Währungsumrechnung ist keine lokale Kostenrecherche. Geben Sie Ihre eigenen lokalen Kosten und Beitragsannahmen ein. Sprachänderungen ändern keine Beträge."
             },
             "costCopy": {
               "breakdown": "Wie sich die Gesamtkosten für KI zusammensetzen",
@@ -229,7 +229,7 @@
               "budgetOnly": "Dies ist Ihr Gesamtbudget. Wechseln Sie zur Kostenaufschlüsselung, um sie aufzuschlüsseln. Es wurde keine Aufteilung angenommen.",
               "benefitNotice": "Modellierte Vorteile, keine Gebühren. Durchgestrichene Beträge sind Ausgaben, die Sie vermeiden möchten, keine Rabatte auf die AI-Rechnung.",
               "remainder": "Other included operating costs",
-              "allocation": "Bei den zurückgegebenen Stunden handelt es sich um Kapazität, nicht um automatische Einsparungen. Nur die Anteile, die Sie tatsächlichen Ausgabenkürzungen oder Zusatzbeiträgen zuordnen, erhalten einen Geldwert."
+              "allocation": "Die zurückgegebenen Stunden sind Kapazität, nicht automatische Einsparungen. Lediglich die von Ihnen zugeteilten Ausgaben- bzw. Zusatzbeiträge erhalten einen Geldwert."
             },
             "locale": "en-GB",
             "inputs": [],
@@ -256,7 +256,7 @@
                 "costStep": "AI operating cost",
                 "valueStep": "Capacity and evidence",
                 "workloadIntro": "Modellieren Sie Zweitwohnungs-Leads, Qualifizierung und menschliche Überprüfung – nicht Immobilienverkäufe, Provisionen oder garantierte Übereinstimmungen.",
-                "costIntro": "Token-, Modell-, Tool-, Infrastruktur-, Plattform- und Prüferkosten sind Lieferannahmen. Der Preis von Nest ist eine separate, nicht validierte Hypothese.",
+                "costIntro": "Token-, Modell-, Tool-, Infrastruktur-, Plattform- und Prüferkosten sind Lieferannahmen. Der Nestpreis ist eine separate nicht validierte Hypothese.",
                 "valueIntro": "Kapazität ist kein Umsatz. Geben Sie den beobachteten Beitrag erst ein, nachdem ein echter Agent oder Makler die Dienstleistung in Anspruch genommen und bezahlt hat.",
                 "sampleNotice": "Typische Verwendung · nicht beobachtete Ergebnisse",
                 "monthly": "Monthly",
@@ -309,7 +309,7 @@
                 "opportunityHeading": "Capacity for higher-value work",
                 "methodBody": "Die entfernte Betriebslast (negative Produktivität) gibt die Kapazität zurück. Höherwertige Arbeit (potenzielle positive Produktivität) schafft nur dann wirtschaftlichen Wert, wenn diese Kapazität genutzt wird. Stunden allein sind keine Geldersparnis. Für die Token-Kosten wird ein modellierter Input-/Output-Mix verwendet, kein Anbieterangebot.",
                 "formulaLabel": "Qualifizierte Briefings = Leads × Qualifikationsrate. Die Lieferkosten umfassen modellierte Token, Modell, Tool, Infrastruktur, Plattform und Kosten für die menschliche Überprüfung. Der Kunden-ROI bleibt erst dann verfügbar, wenn Nutzen und Preis durch Beweise gestützt werden.",
-                "allocationNote": "Jede Stunde kann einmal vergeben werden. Nicht zugewiesene Stunden bleiben Kapazität und haben keinen monetären Wert.",
+                "allocationNote": "Jede Stunde kann einmal vergeben werden. Nicht zugewiesene Stunden bleiben Kapazität ohne Geldwert.",
                 "overlapLabel": "Diese Vorteile sind deutlich; Kosten und Verluste, die bereits an anderer Stelle gezählt wurden, habe ich ausgeschlossen.",
                 "overlapNote": "Fehler- und Risikoschätzungen schließen Arbeitseinsparungen aus und derselbe Vorfall darf nicht in beiden Kategorien auftreten. Der Beitrag schließt die KI-Kosten aus, die separat abgezogen werden.",
                 "hiringLabel": "Diese Anmietung war tatsächlich geplant und die zugewiesene Kapazität kann die Arbeit abdecken.",
@@ -325,7 +325,7 @@
                 "overlapError": "Stellen Sie sicher, dass sich die Vorteile nicht überschneiden, bevor Sie sie in das Finanzergebnis einbeziehen.",
                 "boundsError": "Verwenden Sie Werte innerhalb der angezeigten Grenzen.",
                 "rangeLabel": "Adjust value",
-                "noCurrencyChange": "Die Sprache ändert die Formatierung, nicht Ihre Währung oder Annahmen.",
+                "noCurrencyChange": "Sprachänderungen Formatierung, nicht Ihre Währung oder Annahmen.",
                 "currentPreparation": "Aktuelle Vorbereitungszeiten",
                 "reviewHours": "Stunden des menschlichen Reviews",
                 "reworkHours": "Vermeidung oder zusätzliche Nacharbeitszeit",
@@ -601,6 +601,14 @@
               "privacyNote": "Ihre Daten bleiben privat. Stunden sind Kapazität. Finanzielle Beträge sind modellierte Schätzungen, keine beobachteten Ergebnisse.",
               "secondaryTarget": "how-it-works"
             }
+          },
+          "leadScan": {
+            "instruction": "Teilen Sie Nest Stadt/Region und Budget mit. Nest findet öffentliche Immobilien- und Verkäufer-Leads für Sie.",
+            "inputLabel": "Standort und Budget",
+            "inputPlaceholder": "Beispiel: Ihre Stadt oder Region, Budget in Ihrer Landeswährung…",
+            "submitLabel": "Leads finden",
+            "budgetHint": "Ein Budget hinzufügen für genauere Ergebnisse.",
+            "loginNotice": "Anmelden für bis zu 100 Leads"
           }
         },
         {
@@ -721,7 +729,7 @@
               "loading": "Checking the local currency. Amounts remain in {currency} until a rate is available.",
               "unavailable": "A current local exchange rate is unavailable. Amounts remain in {currency}.",
               "converted": "Amounts converted from {base} to {currency} using the reference rate dated {date}.",
-              "basis": "Bei der Währungsumrechnung handelt es sich nicht um eine lokale Kostenforschung. Geben Sie Ihre eigenen lokalen Kosten und Beitragsannahmen ein. Durch Sprachänderungen ändern sich die Beträge nicht."
+              "basis": "Währungsumrechnung ist keine lokale Kostenrecherche. Geben Sie Ihre eigenen lokalen Kosten und Beitragsannahmen ein. Sprachänderungen ändern keine Beträge."
             },
             "costCopy": {
               "breakdown": "Wie sich die Gesamtkosten für KI zusammensetzen",
@@ -729,7 +737,7 @@
               "budgetOnly": "Dies ist Ihr Gesamtbudget. Wechseln Sie zur Kostenaufschlüsselung, um sie aufzuschlüsseln. Es wurde keine Aufteilung angenommen.",
               "benefitNotice": "Modellierte Vorteile, keine Gebühren. Durchgestrichene Beträge sind Ausgaben, die Sie vermeiden möchten, keine Rabatte auf die AI-Rechnung.",
               "remainder": "Other included operating costs",
-              "allocation": "Bei den zurückgegebenen Stunden handelt es sich um Kapazität, nicht um automatische Einsparungen. Nur die Anteile, die Sie tatsächlichen Ausgabenkürzungen oder Zusatzbeiträgen zuordnen, erhalten einen Geldwert."
+              "allocation": "Die zurückgegebenen Stunden sind Kapazität, nicht automatische Einsparungen. Lediglich die von Ihnen zugeteilten Ausgaben- bzw. Zusatzbeiträge erhalten einen Geldwert."
             },
             "locale": "en-GB",
             "inputs": [],
@@ -756,7 +764,7 @@
                 "costStep": "AI operating cost",
                 "valueStep": "Capacity and evidence",
                 "workloadIntro": "Modellieren Sie Zweitwohnungs-Leads, Qualifizierung und menschliche Überprüfung – nicht Immobilienverkäufe, Provisionen oder garantierte Übereinstimmungen.",
-                "costIntro": "Token-, Modell-, Tool-, Infrastruktur-, Plattform- und Prüferkosten sind Lieferannahmen. Der Preis von Nest ist eine separate, nicht validierte Hypothese.",
+                "costIntro": "Token-, Modell-, Tool-, Infrastruktur-, Plattform- und Prüferkosten sind Lieferannahmen. Der Nestpreis ist eine separate nicht validierte Hypothese.",
                 "valueIntro": "Kapazität ist kein Umsatz. Geben Sie den beobachteten Beitrag erst ein, nachdem ein echter Agent oder Makler die Dienstleistung in Anspruch genommen und bezahlt hat.",
                 "sampleNotice": "Typische Verwendung · nicht beobachtete Ergebnisse",
                 "monthly": "Monthly",
@@ -809,7 +817,7 @@
                 "opportunityHeading": "Capacity for higher-value work",
                 "methodBody": "Die entfernte Betriebslast (negative Produktivität) gibt die Kapazität zurück. Höherwertige Arbeit (potenzielle positive Produktivität) schafft nur dann wirtschaftlichen Wert, wenn diese Kapazität genutzt wird. Stunden allein sind keine Geldersparnis. Für die Token-Kosten wird ein modellierter Input-/Output-Mix verwendet, kein Anbieterangebot.",
                 "formulaLabel": "Qualifizierte Briefings = Leads × Qualifikationsrate. Die Lieferkosten umfassen modellierte Token, Modell, Tool, Infrastruktur, Plattform und Kosten für die menschliche Überprüfung. Der Kunden-ROI bleibt erst dann verfügbar, wenn Nutzen und Preis durch Beweise gestützt werden.",
-                "allocationNote": "Jede Stunde kann einmal vergeben werden. Nicht zugewiesene Stunden bleiben Kapazität und haben keinen monetären Wert.",
+                "allocationNote": "Jede Stunde kann einmal vergeben werden. Nicht zugewiesene Stunden bleiben Kapazität ohne Geldwert.",
                 "overlapLabel": "Diese Vorteile sind deutlich; Kosten und Verluste, die bereits an anderer Stelle gezählt wurden, habe ich ausgeschlossen.",
                 "overlapNote": "Fehler- und Risikoschätzungen schließen Arbeitseinsparungen aus und derselbe Vorfall darf nicht in beiden Kategorien auftreten. Der Beitrag schließt die KI-Kosten aus, die separat abgezogen werden.",
                 "hiringLabel": "Diese Anmietung war tatsächlich geplant und die zugewiesene Kapazität kann die Arbeit abdecken.",
@@ -825,7 +833,7 @@
                 "overlapError": "Stellen Sie sicher, dass sich die Vorteile nicht überschneiden, bevor Sie sie in das Finanzergebnis einbeziehen.",
                 "boundsError": "Verwenden Sie Werte innerhalb der angezeigten Grenzen.",
                 "rangeLabel": "Adjust value",
-                "noCurrencyChange": "Die Sprache ändert die Formatierung, nicht Ihre Währung oder Annahmen.",
+                "noCurrencyChange": "Sprachänderungen Formatierung, nicht Ihre Währung oder Annahmen.",
                 "currentPreparation": "Aktuelle Vorbereitungszeiten",
                 "reviewHours": "Stunden des menschlichen Reviews",
                 "reworkHours": "Vermeidung oder zusätzliche Nacharbeitszeit",
@@ -1106,6 +1114,13 @@
               "privacyNote": "Ihre Daten bleiben privat. Stunden sind Kapazität. Finanzielle Beträge sind modellierte Schätzungen, keine beobachteten Ergebnisse.",
               "secondaryTarget": "how-it-works"
             }
+          },
+          "leadScan": {
+            "instruction": "Fügen Sie die öffentliche Listen-URL der Immobilie ein. Nest lässt Sie die Zusammenfassung überprüfen, bevor es nach Käufer-Leids sucht.",
+            "inputLabel": "URL des öffentlichen Inserats",
+            "inputPlaceholder": "Öffentliche Immobilien-URL einfügen...",
+            "submitLabel": "Objekt analysieren",
+            "loginNotice": "Anmelden für bis zu 100 Leads"
           }
         }
       ],
@@ -1192,13 +1207,13 @@
         ],
         "proposalLabel": "Vorschlag",
         "proposalAreaLabel": "Allgemeiner Bereich",
-        "proposalArea": "Utrecht, Overvecht",
+        "proposalArea": "Illustrative lokale Nachbarschaft",
         "proposalNote": "Es ist keine Identität oder genauer Ort sichtbar. Jede Seite kann akzeptieren oder bestehen."
       },
       "process": {
         "kicker": "Wie es funktioniert",
         "heading": "Eine sorgfältige Abfolge.",
-        "licensedAgentNote": "Ein lizenzierter lokaler Agent wird eingeschleift, wenn Sie bereit sind, vorwärts zu kommen."
+        "licensedAgentNote": "Nest recherchiert öffentliche Leads. Überprüfen Sie Transaktionen mit einem qualifizierten lokalen Immobilienexperten."
       },
       "proposals": {
         "kicker": "Wie ein Vorschlag aussieht",
@@ -1212,11 +1227,11 @@
             "facts": [
               {
                 "label": "Allgemeiner Bereich",
-                "value": "Utrecht, Overvecht"
+                "value": "Illustrative lokale Nachbarschaft"
               },
               {
-                "label": "Event-Slot",
-                "value": "Samstag morgen"
+                "label": "Illustrative Verfügbarkeit",
+                "value": "An öffentlicher Quelle prüfen"
               }
             ],
             "tone": "cream"
@@ -1231,8 +1246,8 @@
                 "value": "Bereit, nachdenklich voranzukommen"
               },
               {
-                "label": "Event-Slot",
-                "value": "Sonntag Nachmittag"
+                "label": "Illustrative Verfügbarkeit",
+                "value": "An öffentlicher Quelle prüfen"
               }
             ],
             "tone": "terracotta"
@@ -1265,8 +1280,8 @@
       "footer": {
         "brandLabel": "Nest.",
         "tagline": "Eine sorgfältige Heimeinführung zu einer Zeit.",
-        "disclaimer": "Nest ist kein lizenzierter Makler und vertritt keine Partei, verhandelt, schätzt Ihr Zuhause oder verarbeitet Ihre Transaktion. Wenn Sie bereit sind, vorwärts zu kommen, verbinden wir Sie mit einem lizenzierten lokalen Agenten, um den Vorgang abzuschließen. Not a broker. Does not represent either party. Does not provide valuations. Does not negotiate.",
-        "eventDisclaimer": "Die Details der Second Home Fair werden für diese Nest-Instanziierung modelliert und sollten vor der Teilnahme überprüft werden.",
+        "disclaimer": "Nest recherchiert in öffentlichen Quellen, ist kein Makler und übernimmt weder Parteivertretung noch Verhandlungen, Transaktionen oder Immobilienbewertungen. Prüfen Sie Inseratsangaben und konsultieren Sie vorab eine qualifizierte Immobilienfachkraft vor Ort. Not a broker. Does not represent either party. Does not provide valuations. Does not negotiate.",
+        "eventDisclaimer": "Die Beispiele dienen nur der Veranschaulichung und sind keine Garantien. Bitte überprüfen Sie die Listen mit ihrer öffentlichen Quelle.",
         "copyright": "© 2026 Nest",
         "groups": [
           {
@@ -1315,7 +1330,7 @@
         "loading": "Checking the local currency. Amounts remain in {currency} until a rate is available.",
         "unavailable": "A current local exchange rate is unavailable. Amounts remain in {currency}.",
         "converted": "Amounts converted from {base} to {currency} using the reference rate dated {date}.",
-        "basis": "Bei der Währungsumrechnung handelt es sich nicht um eine lokale Kostenforschung. Geben Sie Ihre eigenen lokalen Kosten und Beitragsannahmen ein. Durch Sprachänderungen ändern sich die Beträge nicht."
+        "basis": "Währungsumrechnung ist keine lokale Kostenrecherche. Geben Sie Ihre eigenen lokalen Kosten und Beitragsannahmen ein. Sprachänderungen ändern keine Beträge."
       },
       "costCopy": {
         "breakdown": "Wie sich die Gesamtkosten für KI zusammensetzen",
@@ -1323,7 +1338,7 @@
         "budgetOnly": "Dies ist Ihr Gesamtbudget. Wechseln Sie zur Kostenaufschlüsselung, um sie aufzuschlüsseln. Es wurde keine Aufteilung angenommen.",
         "benefitNotice": "Modellierte Vorteile, keine Gebühren. Durchgestrichene Beträge sind Ausgaben, die Sie vermeiden möchten, keine Rabatte auf die AI-Rechnung.",
         "remainder": "Other included operating costs",
-        "allocation": "Bei den zurückgegebenen Stunden handelt es sich um Kapazität, nicht um automatische Einsparungen. Nur die Anteile, die Sie tatsächlichen Ausgabenkürzungen oder Zusatzbeiträgen zuordnen, erhalten einen Geldwert."
+        "allocation": "Die zurückgegebenen Stunden sind Kapazität, nicht automatische Einsparungen. Lediglich die von Ihnen zugeteilten Ausgaben- bzw. Zusatzbeiträge erhalten einen Geldwert."
       },
       "locale": "en-GB",
       "inputs": [],
@@ -1350,7 +1365,7 @@
           "costStep": "AI operating cost",
           "valueStep": "Capacity and evidence",
           "workloadIntro": "Modellieren Sie Zweitwohnungs-Leads, Qualifizierung und menschliche Überprüfung – nicht Immobilienverkäufe, Provisionen oder garantierte Übereinstimmungen.",
-          "costIntro": "Token-, Modell-, Tool-, Infrastruktur-, Plattform- und Prüferkosten sind Lieferannahmen. Der Preis von Nest ist eine separate, nicht validierte Hypothese.",
+          "costIntro": "Token-, Modell-, Tool-, Infrastruktur-, Plattform- und Prüferkosten sind Lieferannahmen. Der Nestpreis ist eine separate nicht validierte Hypothese.",
           "valueIntro": "Kapazität ist kein Umsatz. Geben Sie den beobachteten Beitrag erst ein, nachdem ein echter Agent oder Makler die Dienstleistung in Anspruch genommen und bezahlt hat.",
           "sampleNotice": "Typische Verwendung · nicht beobachtete Ergebnisse",
           "monthly": "Monthly",
@@ -1403,7 +1418,7 @@
           "opportunityHeading": "Capacity for higher-value work",
           "methodBody": "Die entfernte Betriebslast (negative Produktivität) gibt die Kapazität zurück. Höherwertige Arbeit (potenzielle positive Produktivität) schafft nur dann wirtschaftlichen Wert, wenn diese Kapazität genutzt wird. Stunden allein sind keine Geldersparnis. Für die Token-Kosten wird ein modellierter Input-/Output-Mix verwendet, kein Anbieterangebot.",
           "formulaLabel": "Qualifizierte Briefings = Leads × Qualifikationsrate. Die Lieferkosten umfassen modellierte Token, Modell, Tool, Infrastruktur, Plattform und Kosten für die menschliche Überprüfung. Der Kunden-ROI bleibt erst dann verfügbar, wenn Nutzen und Preis durch Beweise gestützt werden.",
-          "allocationNote": "Jede Stunde kann einmal vergeben werden. Nicht zugewiesene Stunden bleiben Kapazität und haben keinen monetären Wert.",
+          "allocationNote": "Jede Stunde kann einmal vergeben werden. Nicht zugewiesene Stunden bleiben Kapazität ohne Geldwert.",
           "overlapLabel": "Diese Vorteile sind deutlich; Kosten und Verluste, die bereits an anderer Stelle gezählt wurden, habe ich ausgeschlossen.",
           "overlapNote": "Fehler- und Risikoschätzungen schließen Arbeitseinsparungen aus und derselbe Vorfall darf nicht in beiden Kategorien auftreten. Der Beitrag schließt die KI-Kosten aus, die separat abgezogen werden.",
           "hiringLabel": "Diese Anmietung war tatsächlich geplant und die zugewiesene Kapazität kann die Arbeit abdecken.",
@@ -1419,7 +1434,7 @@
           "overlapError": "Stellen Sie sicher, dass sich die Vorteile nicht überschneiden, bevor Sie sie in das Finanzergebnis einbeziehen.",
           "boundsError": "Verwenden Sie Werte innerhalb der angezeigten Grenzen.",
           "rangeLabel": "Adjust value",
-          "noCurrencyChange": "Die Sprache ändert die Formatierung, nicht Ihre Währung oder Annahmen.",
+          "noCurrencyChange": "Sprachänderungen Formatierung, nicht Ihre Währung oder Annahmen.",
           "currentPreparation": "Aktuelle Vorbereitungszeiten",
           "reviewHours": "Stunden des menschlichen Reviews",
           "reworkHours": "Vermeidung oder zusätzliche Nacharbeitszeit",
@@ -1833,7 +1848,7 @@
         "service",
         "announcement"
       ],
-      "sourceHash": "be9a13f7023ef55619868f0493c2406bf0a474e56e10f473c41892c404024420"
+      "sourceHash": "27beb4963c17faa69214294db19ec3c26c28e0c1905572138ee243b8ce4c899d"
     },
     {
       "path": [
@@ -1851,7 +1866,7 @@
         "service",
         "disclaimer"
       ],
-      "sourceHash": "ca92feefcce8cf3b902e821d9924aff63439b8eef0c7f6c4bfab3e3bddcb8912"
+      "sourceHash": "95db36924484b33d593723f0cfb9074df7e57a7dbc7de205e9bc6ba3c66dbe6f"
     },
     {
       "path": [
@@ -1884,7 +1899,7 @@
         0,
         "name"
       ],
-      "sourceHash": "7257e9cc9cc216c2e159dfee34f3eda341455ec13562684dd00264d9b0240e2f"
+      "sourceHash": "68993a1a7cee24d2a32d9348246741cff0a0930df52b1b2646e62ca088985a05"
     },
     {
       "path": [
@@ -1895,7 +1910,7 @@
         0,
         "location"
       ],
-      "sourceHash": "3561dec50498e6d20de5933a504dd4dd87aa2044b8f088b2369cd5f8a0c97bb0"
+      "sourceHash": "87b707776e1db61c2372d44bf02287d870ea0057cb82041fb2569d3e96a0af5b"
     },
     {
       "path": [
@@ -1906,7 +1921,7 @@
         0,
         "dateRange"
       ],
-      "sourceHash": "d7d429901fcdbf8a6f96365799362166428fc8ab14fd32f3731294b029ce4489"
+      "sourceHash": "5f95d200613fa48114e5c65da5c3641ff6d886390a2e9f87a30b56ce0d5ab14f"
     },
     {
       "path": [
@@ -1917,7 +1932,7 @@
         0,
         "availabilityLabel"
       ],
-      "sourceHash": "a7d342751d38d984fd754cc2f12306ed5ebe8014f7afbd85ad419acebd4ce6ca"
+      "sourceHash": "4d16eb580cd5b66e702ec42d57a0d56c5c078dee7f47fbb7de498fbc1cd02024"
     },
     {
       "path": [
@@ -1950,7 +1965,7 @@
         1,
         "name"
       ],
-      "sourceHash": "e7ee0a445fbb6f3aa20931c3cc2cc84762fa66934e24a20be09d6eedefaa9f53"
+      "sourceHash": "be2536b9d304ef6fa0cac970b15d2a442de3d14b5a12fd4d17c33c13eb3e6466"
     },
     {
       "path": [
@@ -1961,7 +1976,7 @@
         1,
         "location"
       ],
-      "sourceHash": "2892edf7ced71d33e464b22ccb0956146a7ef4b197d21872c593009be5c786ef"
+      "sourceHash": "d7729b682c5195e675ae1a8e0c1941ab0ae55d2845cbe900f8128eebd810b4bc"
     },
     {
       "path": [
@@ -1972,7 +1987,7 @@
         1,
         "dateRange"
       ],
-      "sourceHash": "a90620097624cae57edb193379e4a70f87b34096acc7c5d0b07d957b947a3e22"
+      "sourceHash": "0a473b3218814be4c2f52eebbeb7f3811c71f217444665a8d814b8ce01d81aa2"
     },
     {
       "path": [
@@ -1983,17 +1998,7 @@
         1,
         "availabilityLabel"
       ],
-      "sourceHash": "4ccdf0d88d921c3c0274c16ab665fd021b888edca40c2f1887ca4da4e2e61adc"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        0,
-        "profileModeId"
-      ],
-      "sourceHash": "6dbd0f28d0d97656768b7b4ed96255e67fd11740a44b1c4b575191b06e9e3a35"
+      "sourceHash": "c05cce4b82d04ad338efc4de17a24e732e3b26468d4ee2af99588e56dc95897f"
     },
     {
       "path": [
@@ -2167,7 +2172,7 @@
         0,
         "placeholder"
       ],
-      "sourceHash": "8ef750bb2312fc48dd91c5e23e72db84efa85bd44f4079a358028416a0225f80"
+      "sourceHash": "f3a300de5b666e3328abad1ebe37267f7ced77d778541c388492c608cc90ce83"
     },
     {
       "path": [
@@ -4871,10 +4876,66 @@
         "landingPage",
         "homeIntroductions",
         "tracks",
-        1,
-        "profileModeId"
+        0,
+        "leadScan",
+        "instruction"
       ],
-      "sourceHash": "a4279eae47aaa7417da62434795a011ccb0ec870f7f56646d181b5500a892a9a"
+      "sourceHash": "022a5a0c287550dd62cadc82bc01eb67a0b6dcfb92accec1721485d82228f3f4"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "leadScan",
+        "inputLabel"
+      ],
+      "sourceHash": "a14942d2dbe160646f352f5611c81c134de38e6e8d39150b98599b2b58a8a996"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "leadScan",
+        "inputPlaceholder"
+      ],
+      "sourceHash": "ad8ade742621a2c432cdbbb0edfa2f0293b06d43c0a967b18be47bed903860f9"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "leadScan",
+        "submitLabel"
+      ],
+      "sourceHash": "98d27a5c1c0a5c414c3c706493575991e20343453300ecd0ce04e1fbbe151136"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "leadScan",
+        "budgetHint"
+      ],
+      "sourceHash": "eba870b7b372acb5e29644a480a8d5555670a20ec027e7ba00155c8c1368d796"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "leadScan",
+        "loginNotice"
+      ],
+      "sourceHash": "7d54c44ee72b1b5a64d4baed3606a64b4ffe329400970a2ee98978cc8cb7d87a"
     },
     {
       "path": [
@@ -7848,6 +7909,61 @@
       "path": [
         "landingPage",
         "homeIntroductions",
+        "tracks",
+        1,
+        "leadScan",
+        "instruction"
+      ],
+      "sourceHash": "85d483e47d34028d70788bb7812556fa7e67f1005dba913dec524124651fcf40"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "leadScan",
+        "inputLabel"
+      ],
+      "sourceHash": "6162e62732bd1d9cdced3c81cc92d3bf6aea4025b5a5d75fe88ab59dc44d4dbd"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "leadScan",
+        "inputPlaceholder"
+      ],
+      "sourceHash": "5f3199ecca7fef15f1d7cb0219f6386403baba6e3b43d8e4042337bc9eb7e0f4"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "leadScan",
+        "submitLabel"
+      ],
+      "sourceHash": "bbb947e46a5750527609cebdaf324c50a796259142e31c3dfa46c29c96605bb7"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "leadScan",
+        "loginNotice"
+      ],
+      "sourceHash": "7d54c44ee72b1b5a64d4baed3606a64b4ffe329400970a2ee98978cc8cb7d87a"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
         "hero",
         "eyebrow"
       ],
@@ -8373,7 +8489,7 @@
         "privacy",
         "proposalArea"
       ],
-      "sourceHash": "7d45e2cadfeed56e5a58d4849cbe1d38b1b46b4888a4bda5925fbc0589d14483"
+      "sourceHash": "59cb380b4fb5e8bd5fecf04372bf810b041f74cd3e30f4166506f848ff8590a2"
     },
     {
       "path": [
@@ -8409,7 +8525,7 @@
         "process",
         "licensedAgentNote"
       ],
-      "sourceHash": "f2a485a2492874a521381ea4b3b8db7ee246ed59867b8fbfd0266358daef6f74"
+      "sourceHash": "aaf5931e65d9c5e1d9b96f97add3325e7f1ba1db27dac148b7196aec1700636a"
     },
     {
       "path": [
@@ -8484,7 +8600,7 @@
         0,
         "value"
       ],
-      "sourceHash": "7d45e2cadfeed56e5a58d4849cbe1d38b1b46b4888a4bda5925fbc0589d14483"
+      "sourceHash": "59cb380b4fb5e8bd5fecf04372bf810b041f74cd3e30f4166506f848ff8590a2"
     },
     {
       "path": [
@@ -8497,7 +8613,7 @@
         1,
         "label"
       ],
-      "sourceHash": "eae440ce184d762575a9b97cdaea49a5547a79735b6f1bbc74b364e54830934e"
+      "sourceHash": "8262035697e72feb476da493d17515e093487836217693cf6a77f8b9157e4b4c"
     },
     {
       "path": [
@@ -8510,7 +8626,7 @@
         1,
         "value"
       ],
-      "sourceHash": "9c8d80b4eb0f8ee65f4caa98959ffb293bd3ad47e4356e7e10c5496e8fa175dd"
+      "sourceHash": "548ebf2bc5baea1eed5b420c08a580dfd2471ebeaa44f8e325c450d58d28804f"
     },
     {
       "path": [
@@ -8571,7 +8687,7 @@
         1,
         "label"
       ],
-      "sourceHash": "eae440ce184d762575a9b97cdaea49a5547a79735b6f1bbc74b364e54830934e"
+      "sourceHash": "8262035697e72feb476da493d17515e093487836217693cf6a77f8b9157e4b4c"
     },
     {
       "path": [
@@ -8584,7 +8700,7 @@
         1,
         "value"
       ],
-      "sourceHash": "1536debca5cd0ab880724c20eccbddbafe71bc9a75e716c1f940109b5ac07747"
+      "sourceHash": "548ebf2bc5baea1eed5b420c08a580dfd2471ebeaa44f8e325c450d58d28804f"
     },
     {
       "path": [
@@ -8731,7 +8847,7 @@
         "footer",
         "disclaimer"
       ],
-      "sourceHash": "ca92feefcce8cf3b902e821d9924aff63439b8eef0c7f6c4bfab3e3bddcb8912"
+      "sourceHash": "95db36924484b33d593723f0cfb9074df7e57a7dbc7de205e9bc6ba3c66dbe6f"
     },
     {
       "path": [
@@ -8740,7 +8856,7 @@
         "footer",
         "eventDisclaimer"
       ],
-      "sourceHash": "d5d23f81d2c2e5da7855ffdfec5c3980815ca17a83b54fe8e542be0e01aafa4a"
+      "sourceHash": "f827253f91f2930e732da0b3e4102f9800f1f1d164144848b6e997fe52485885"
     },
     {
       "path": [
@@ -10802,5 +10918,5 @@
       "sourceHash": "0e96f5e15977ab0a2a8d684c0d35d7459f3afc862b606046310ae1fbbd4be12b"
     }
   ],
-  "generatedAt": "2026-10-01T16:11:50.090Z"
+  "generatedAt": "2026-10-04T21:09:16.473Z"
 }
