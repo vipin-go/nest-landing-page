@@ -91,28 +91,28 @@
         "secondaryEditionLabel": "Selling"
       },
       "service": {
-        "activeMode": "event",
-        "announcement": "Now matching at Second Home Fair, Jaarbeurs Utrecht. Fri 27–Sun 29 Mar",
+        "activeMode": "city",
+        "announcement": "Public property research for your next move",
         "feeCopy": "Fee shared before you request an introduction",
-        "disclaimer": "Nest is not a licensed brokerage and does not represent either party, negotiate, value your home, or handle your transaction. When you are ready to move forward, we connect you with a licensed local agent to complete the process.",
+        "disclaimer": "Nest researches public sources; it is not a brokerage and does not represent either party, negotiate, or handle transactions. It does not value homes. Confirm listing information and consult an appropriately qualified local property professional before proceeding.",
         "configurations": [
           {
             "mode": "event",
             "label": "Event",
             "actionLabel": "View",
-            "name": "Second Home Fair, Jaarbeurs Utrecht",
-            "location": "Jaarbeurs Utrecht",
-            "dateRange": "Fri 27–Sun 29 Mar",
-            "availabilityLabel": "Fri 27–Sun 29 Mar · Jaarbeurs Utrecht"
+            "name": "Property event example",
+            "location": "Your local area",
+            "dateRange": "Confirm with the organizer",
+            "availabilityLabel": "Illustrative event · verify local details"
           },
           {
             "mode": "city",
             "label": "City",
             "actionLabel": "View",
-            "name": "Nest Amsterdam",
-            "location": "Amsterdam Zuid",
-            "dateRange": "Ongoing",
-            "availabilityLabel": "Always-on local introductions"
+            "name": "Nest property research",
+            "location": "Your city or area",
+            "dateRange": "On your request",
+            "availabilityLabel": "Search when you are ready"
           }
         ]
       },
@@ -151,7 +151,7 @@
             {
               "key": "area",
               "label": "Preferred or general area",
-              "placeholder": "Utrecht region, Amsterdam Zuid…",
+              "placeholder": "Your city, neighborhood, or postal area",
               "type": "text",
               "required": true
             },
@@ -605,6 +605,14 @@
               "privacyNote": "Your data stays private. Hours are capacity. Financial amounts are modeled estimates, not observed results.",
               "secondaryTarget": "how-it-works"
             }
+          },
+          "leadScan": {
+            "instruction": "Tell Nest the city or area where you want to search and your budget. Nest will find public property and seller leads for you to review.",
+            "inputLabel": "Location and budget",
+            "inputPlaceholder": "For example: your city or area, budget in your local currency…",
+            "submitLabel": "Find leads",
+            "budgetHint": "Add a budget too, for more accurate results.",
+            "loginNotice": "Sign in to search up to 100 leads."
           }
         },
         {
@@ -1110,6 +1118,13 @@
               "privacyNote": "Your data stays private. Hours are capacity. Financial amounts are modeled estimates, not observed results.",
               "secondaryTarget": "how-it-works"
             }
+          },
+          "leadScan": {
+            "instruction": "Paste the public listing URL of the property you are selling. Nest will let you review the property summary before searching for public buyer-intent leads.",
+            "inputLabel": "Public property listing URL",
+            "inputPlaceholder": "Paste a public property listing URL…",
+            "submitLabel": "Analyze property",
+            "loginNotice": "Sign in to search up to 100 leads."
           }
         }
       ],
@@ -1196,13 +1211,13 @@
         ],
         "proposalLabel": "Proposal",
         "proposalAreaLabel": "General area",
-        "proposalArea": "Utrecht, Overvecht",
+        "proposalArea": "Illustrative local neighborhood",
         "proposalNote": "No identity or exact location is visible. Each side can accept or pass."
       },
       "process": {
         "kicker": "How it works",
         "heading": "One careful sequence.",
-        "licensedAgentNote": "A licensed local agent is looped in when you are ready to move forward."
+        "licensedAgentNote": "Nest researches public leads. Verify any property transaction with an appropriately qualified local property professional."
       },
       "proposals": {
         "kicker": "What a proposal looks like",
@@ -1216,11 +1231,11 @@
             "facts": [
               {
                 "label": "General area",
-                "value": "Utrecht, Overvecht"
+                "value": "Illustrative local neighborhood"
               },
               {
-                "label": "Event slot",
-                "value": "Saturday morning"
+                "label": "Illustrative availability",
+                "value": "Confirm with the public source"
               }
             ],
             "tone": "cream"
@@ -1235,8 +1250,8 @@
                 "value": "Ready to move forward thoughtfully"
               },
               {
-                "label": "Event slot",
-                "value": "Sunday afternoon"
+                "label": "Illustrative availability",
+                "value": "Confirm with the public source"
               }
             ],
             "tone": "terracotta"
@@ -1269,8 +1284,8 @@
       "footer": {
         "brandLabel": "Nest.",
         "tagline": "One careful home introduction at a time.",
-        "disclaimer": "Nest is not a licensed brokerage and does not represent either party, negotiate, value your home, or handle your transaction. When you are ready to move forward, we connect you with a licensed local agent to complete the process.",
-        "eventDisclaimer": "Second Home Fair details are modeled for this Nest instantiation and should be verified before attendance.",
+        "disclaimer": "Nest researches public sources; it is not a brokerage and does not represent either party, negotiate, or handle transactions. It does not value homes. Confirm listing information and consult an appropriately qualified local property professional before proceeding.",
+        "eventDisclaimer": "Location and property examples are illustrative, not coverage or availability guarantees. Verify listings with their public source.",
         "copyright": "© 2026 Nest",
         "groups": [
           {
@@ -2010,7 +2025,202 @@
           }
         ]
       },
-      "regionalPages": []
+      "regionalPages": [],
+      "mobile": {
+        "enabled": true,
+        "sourceLanguage": "en",
+        "chatWidget": {
+          "layout": "compact",
+          "disclaimer": "{name} is AI and can make mistakes. Please double-check responses."
+        },
+        "translations": {
+          "ar": {
+            "chatWidget": {
+              "disclaimer": "{name} هو ذكاء اصطناعي وقد يخطئ. يُرجى التحقق من الإجابات."
+            }
+          },
+          "bg": {
+            "chatWidget": {
+              "disclaimer": "{name} е AI и може да допуска грешки. Проверявайте отговорите."
+            }
+          },
+          "ca": {
+            "chatWidget": {
+              "disclaimer": "{name} és una IA i pot cometre errors. Comprova les respostes."
+            }
+          },
+          "cs": {
+            "chatWidget": {
+              "disclaimer": "{name} je AI a může dělat chyby. Odpovědi si ověřte."
+            }
+          },
+          "da": {
+            "chatWidget": {
+              "disclaimer": "{name} er AI og kan begå fejl. Kontrollér svarene."
+            }
+          },
+          "de": {
+            "chatWidget": {
+              "disclaimer": "{name} ist eine KI und kann Fehler machen. Bitte prüfe die Antworten."
+            }
+          },
+          "el": {
+            "chatWidget": {
+              "disclaimer": "Το {name} είναι AI και μπορεί να κάνει λάθη. Ελέγχετε τις απαντήσεις."
+            }
+          },
+          "es": {
+            "chatWidget": {
+              "disclaimer": "{name} es una IA y puede cometer errores. Comprueba las respuestas."
+            }
+          },
+          "et": {
+            "chatWidget": {
+              "disclaimer": "{name} on AI ja võib eksida. Kontrolli vastuseid."
+            }
+          },
+          "fa": {
+            "chatWidget": {
+              "disclaimer": "{name} هوش مصنوعی است و ممکن است اشتباه کند. پاسخ‌ها را بررسی کنید."
+            }
+          },
+          "fi": {
+            "chatWidget": {
+              "disclaimer": "{name} on tekoäly ja voi tehdä virheitä. Tarkista vastaukset."
+            }
+          },
+          "fr": {
+            "chatWidget": {
+              "disclaimer": "{name} est une IA et peut faire des erreurs. Vérifiez les réponses."
+            }
+          },
+          "he": {
+            "chatWidget": {
+              "disclaimer": "{name} הוא בינה מלאכותית ועלול לטעות. מומלץ לבדוק את התשובות."
+            }
+          },
+          "hr": {
+            "chatWidget": {
+              "disclaimer": "{name} je AI i može pogriješiti. Provjerite odgovore."
+            }
+          },
+          "hu": {
+            "chatWidget": {
+              "disclaimer": "A(z) {name} mesterséges intelligencia, és hibázhat. Ellenőrizze a válaszokat."
+            }
+          },
+          "id": {
+            "chatWidget": {
+              "disclaimer": "{name} adalah AI dan dapat membuat kesalahan. Periksa kembali jawabannya."
+            }
+          },
+          "it": {
+            "chatWidget": {
+              "disclaimer": "{name} è un’IA e può commettere errori. Verifica le risposte."
+            }
+          },
+          "ja": {
+            "chatWidget": {
+              "disclaimer": "{name} は AI のため、誤りを含む場合があります。回答を確認してください。"
+            }
+          },
+          "ko": {
+            "chatWidget": {
+              "disclaimer": "{name}은(는) AI이며 실수할 수 있습니다. 답변을 확인하세요."
+            }
+          },
+          "lt": {
+            "chatWidget": {
+              "disclaimer": "{name} yra AI ir gali klysti. Patikrinkite atsakymus."
+            }
+          },
+          "lv": {
+            "chatWidget": {
+              "disclaimer": "{name} ir AI un var kļūdīties. Pārbaudiet atbildes."
+            }
+          },
+          "nb": {
+            "chatWidget": {
+              "disclaimer": "{name} er AI og kan gjøre feil. Kontroller svarene."
+            }
+          },
+          "nl": {
+            "chatWidget": {
+              "disclaimer": "{name} is AI en kan fouten maken. Controleer de antwoorden."
+            }
+          },
+          "no": {
+            "chatWidget": {
+              "disclaimer": "{name} er AI og kan gjøre feil. Kontroller svarene."
+            }
+          },
+          "pl": {
+            "chatWidget": {
+              "disclaimer": "{name} to AI i może popełniać błędy. Sprawdzaj odpowiedzi."
+            }
+          },
+          "pt": {
+            "chatWidget": {
+              "disclaimer": "{name} é uma IA e pode cometer erros. Confira as respostas."
+            }
+          },
+          "ro": {
+            "chatWidget": {
+              "disclaimer": "{name} este AI și poate face greșeli. Verifică răspunsurile."
+            }
+          },
+          "ru": {
+            "chatWidget": {
+              "disclaimer": "{name} — ИИ и может ошибаться. Проверяйте ответы."
+            }
+          },
+          "sk": {
+            "chatWidget": {
+              "disclaimer": "{name} je AI a môže robiť chyby. Odpovede si overte."
+            }
+          },
+          "sl": {
+            "chatWidget": {
+              "disclaimer": "{name} je AI in lahko dela napake. Preverite odgovore."
+            }
+          },
+          "sr": {
+            "chatWidget": {
+              "disclaimer": "{name} је AI и може да погреши. Проверите одговоре."
+            }
+          },
+          "sv": {
+            "chatWidget": {
+              "disclaimer": "{name} är AI och kan göra fel. Kontrollera svaren."
+            }
+          },
+          "th": {
+            "chatWidget": {
+              "disclaimer": "{name} เป็น AI และอาจทำผิดพลาดได้ โปรดตรวจสอบคำตอบ"
+            }
+          },
+          "tr": {
+            "chatWidget": {
+              "disclaimer": "{name} bir yapay zekâdır ve hata yapabilir. Yanıtları kontrol edin."
+            }
+          },
+          "uk": {
+            "chatWidget": {
+              "disclaimer": "{name} — це ШІ й може помилятися. Перевіряйте відповіді."
+            }
+          },
+          "vi": {
+            "chatWidget": {
+              "disclaimer": "{name} là AI và có thể mắc lỗi. Hãy kiểm tra lại câu trả lời."
+            }
+          },
+          "zh": {
+            "chatWidget": {
+              "disclaimer": "{name} 是 AI，可能会出错。请核实回答。"
+            }
+          }
+        }
+      }
     }
   }
 }
