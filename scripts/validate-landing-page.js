@@ -1,19 +1,20 @@
 #!/usr/bin/env node
 const fs = require('fs');
-const { validateChakriLandingContent } = require('./chakri-landing-validation');
 const { validateLandingMobileContent } = require('./landing-page-mobile.cjs');
+const { validateChakriLandingContent } = require('./chakri-landing-validation');
 const nodePath = require('path');
 const { createHash } = require('crypto');
 const { validateRoiCalculator } = require('./landing-page-roi');
 const boliCopySchema = require('../references/boli-learning-copy-schema.json');
 const wardrobeCopySchema = require('../references/wardrobe-twin-copy-schema.json');
+const { validateMiravLandingCopy, isMiravPreviewIconPath } = require('./mirav-landing-copy.cjs');
 
 const ALLOWED_ICONS = new Set([
   'heart', 'shield-check', 'sparkles', 'chat', 'users', 'lock', 'check', 'star',
   'search', 'lightbulb', 'user-plus', 'calendar', 'question-mark', 'envelope',
 ]);
 const ALLOWED_ROLES = new Set(['user', 'assistant']);
-const ALLOWED_DESIGN_VARIANTS = new Set(['default', 'signature', 'banking', 'form-operations', 'logistics-portal', 'cinematic-campaigns', 'recruiting-operations', 'grocery-twin', 'wardrobe-twin', 'boli-learning', 'event-introductions', 'home-introductions', 'chakri-scrap']);
+const ALLOWED_DESIGN_VARIANTS = new Set(['default', 'signature', 'banking', 'form-operations', 'logistics-portal', 'cinematic-campaigns', 'recruiting-operations', 'grocery-twin', 'wardrobe-twin', 'boli-learning', 'event-introductions', 'home-introductions', 'chakri-scrap', 'klok', 'community-connections']);
 const ALLOWED_BRAND_MARKS = new Set(['heart', 'image', 'initial']);
 const ALLOWED_NAV_TARGETS = new Set([
   'meet', 'about', 'capabilities', 'use-cases', 'trust',
@@ -101,6 +102,12 @@ function isDirectImageSource(value) {
     && (/^https:\/\//i.test(value) || SAFE_APP_IMAGE_PATH.test(value));
 }
 
+function isDirectVideoSource(value) {
+  return typeof value === 'string'
+    && VIDEO_EXTENSION.test(value)
+    && (/^https:\/\//i.test(value) || /^\/(?:assets|landing-pages)\/[a-z0-9][a-z0-9/_-]*\.(?:m4v|mov|mp4|webm)(?:[?#]|$)/i.test(value));
+}
+
 function validateIcon(icon, label, required = false) {
   if (icon === undefined) {
     if (required) fail(`${label} is required`);
@@ -124,6 +131,7 @@ function contrastRatio(first, second) {
 
 function assertNoEmoji(value, path = 'landingPage') {
   if (typeof value === 'string') {
+    if (isMiravPreviewIconPath(path)) return;
     if (/\p{Extended_Pictographic}/u.test(value.replace(/↔/g, '')) && !path.endsWith('.footer.copyright')) {
       fail(`${path} must not contain emoji; use a supported icon key instead`);
     }
@@ -368,9 +376,12 @@ function validateBoliLearningContent(content) {
     if (course.ageContent !== undefined && record(course.ageContent, `${path}.ageContent`, ages)) {
       for (const age of ages) {
         const entry = course.ageContent[age];
-        if (entry === undefined || !record(entry, `${path}.ageContent.${age}`, ['title', 'island', 'subject', 'goal', 'description', 'lessons', 'puzzle', 'gameTitle', 'storyboardImage', 'storyboardAlt'])) continue;
+        if (entry === undefined || !record(entry, `${path}.ageContent.${age}`, ['title', 'island', 'subject', 'goal', 'description', 'lessons', 'puzzle', 'gameTitle', 'storyboardImage', 'storyboardAlt', 'pathImage', 'evidenceImage', 'introVideo'])) continue;
         for (const key of ['title', 'island', 'subject', 'goal', 'description', 'gameTitle', 'storyboardAlt']) text(entry[key], `${path}.ageContent.${age}.${key}`);
         if (!isDirectImageSource(entry.storyboardImage)) issue(`${path}.ageContent.${age}.storyboardImage`, 'Use a direct HTTPS or bundled application image URL.');
+        if (entry.pathImage !== undefined && !isDirectImageSource(entry.pathImage)) issue(`${path}.ageContent.${age}.pathImage`, 'Use a direct HTTPS or bundled application image URL.');
+        if (entry.evidenceImage !== undefined && !isDirectImageSource(entry.evidenceImage)) issue(`${path}.ageContent.${age}.evidenceImage`, 'Use a direct HTTPS or bundled application image URL.');
+        if (entry.introVideo !== undefined && !isDirectVideoSource(entry.introVideo)) issue(`${path}.ageContent.${age}.introVideo`, 'Use a direct HTTPS or bundled application video URL.');
         if (!Array.isArray(entry.lessons) || entry.lessons.length < 1 || entry.lessons.length > 6) issue(`${path}.ageContent.${age}.lessons`, 'Provide between 1 and 6 lessons.');
         else entry.lessons.forEach((lesson, lessonIndex) => text(lesson, `${path}.ageContent.${age}.lessons[${lessonIndex}]`));
         if (record(entry.puzzle, `${path}.ageContent.${age}.puzzle`, ['title', 'prompt', 'choices', 'correct', 'hint', 'unlockQuestion'])) {
@@ -997,10 +1008,10 @@ function validateLandingPageModel(landingPage, chatConfigPath, definitionFilePat
   validateRoiCalculator({ roiCalculator: landingPage.groceryTwin?.homeRoiCalculator, pathPrefix: 'landingPage.groceryTwin.homeRoiCalculator' }).forEach((issue) => fail(`${issue.path}: ${issue.message}`));
   assertNoEmoji(landingPage);
 
-  if (landingPage.localization?.mobile !== undefined) validateLandingMobileContent(landingPage.localization.mobile,landingPage).forEach(issue=>fail(`${issue.path}: ${issue.message}`));
   if (landingPage.localization !== undefined) {
     const localization = landingPage.localization;
     if (!localization || typeof localization !== 'object' || Array.isArray(localization)) fail('landingPage.localization must be an object');
+    if (localization.mobile !== undefined) validateLandingMobileContent(localization.mobile,landingPage).forEach(issue=>fail(`${issue.path}: ${issue.message}`));
     if (localization.translation !== undefined) {
       const translation = localization.translation;
       if (!translation || typeof translation !== 'object' || Array.isArray(translation)) fail('landingPage.localization.translation must be an object');
@@ -1195,6 +1206,7 @@ function validateLandingPageModel(landingPage, chatConfigPath, definitionFilePat
   if (landingPage.design?.variant === 'cinematic-campaigns') validateCinematicCampaigns(landingPage);
   if (landingPage.design?.variant === 'recruiting-operations') validateRecruitingOperations(landingPage);
   if (landingPage.design?.variant === 'chakri-scrap' || landingPage.scrapOperations !== undefined) validateChakriLandingContent(landingPage.scrapOperations).forEach(issue => fail(`${issue.path}: ${issue.message}`));
+  if (landingPage.design?.variant === 'community-connections' || landingPage.mirav !== undefined) validateMiravLandingCopy(landingPage.mirav).forEach(issue => fail(`${issue.path}: ${issue.message}`));
   if (landingPage.design?.variant === 'grocery-twin') validateGroceryTwin(landingPage);
   if (landingPage.design?.variant === 'boli-learning' || landingPage.boliLearning !== undefined) validateBoliLearningContent(landingPage.boliLearning).forEach((issue) => fail(`${issue.path}: ${issue.message}`));
   if (landingPage.design?.variant === 'wardrobe-twin') validateWardrobeTwin(landingPage);

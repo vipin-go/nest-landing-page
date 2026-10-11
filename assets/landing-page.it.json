@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "language": "it",
   "regionKey": null,
-  "sourceRevision": "34ac41d8e370c15ebe1c02aa65c2df4c3af768310073c54a4c837e8462809816",
+  "sourceRevision": "d701b52843633b93bc6a942b1d7069b64e0764961352983e775addc605ea3000",
   "landingPage": {
     "headline": "Un'introduzione qualificata che si adatta.",
     "subheadline": "Introduzioni private di acquirenti e venditori, una proposta revisionata da un essere umano alla volta.",
@@ -10,7 +10,7 @@
     "secondaryCtaLabel": "See how it works",
     "heroCharacterImage": "/landing-pages/nest/nest-character-meet-compact-high-wings-transparent.png",
     "seoImage": {
-      "src": "https://raw.githubusercontent.com/vipin-go/nest-landing-page/c9ded5a0b652e35c0bfdc223935e7965e8bb9a41/assets/media/og.jpg",
+      "src": "https://raw.githubusercontent.com/vipin-go/nest-landing-page/main/assets/media/nest-real-estate-og-banner-v1.webp",
       "alt": "Nest: un'attenta introduzione della casa alla volta"
     },
     "header": {
@@ -4668,18 +4668,6 @@
         0,
         "roiCalculator",
         "businessImpact",
-        "defaultPackage"
-      ],
-      "sourceHash": "c082456a7766e23a18db084cd34b6ff510baef506548b897cc80e9b7d3e121c8"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        0,
-        "roiCalculator",
-        "businessImpact",
         "reviewMode"
       ],
       "sourceHash": "ca8b22d0db83a22db163b560b3e4e51527e533d31d067b614a0c33c4d2df8432"
@@ -7665,18 +7653,6 @@
         1
       ],
       "sourceHash": "946990dccc8b252807d978f4685c1a9ef4fe8a352852d50094cb082251a74b3a"
-    },
-    {
-      "path": [
-        "landingPage",
-        "homeIntroductions",
-        "tracks",
-        1,
-        "roiCalculator",
-        "businessImpact",
-        "defaultPackage"
-      ],
-      "sourceHash": "c082456a7766e23a18db084cd34b6ff510baef506548b897cc80e9b7d3e121c8"
     },
     {
       "path": [
@@ -10737,15 +10713,6 @@
         "landingPage",
         "roiCalculator",
         "businessImpact",
-        "defaultPackage"
-      ],
-      "sourceHash": "c082456a7766e23a18db084cd34b6ff510baef506548b897cc80e9b7d3e121c8"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "businessImpact",
         "reviewMode"
       ],
       "sourceHash": "ca8b22d0db83a22db163b560b3e4e51527e533d31d067b614a0c33c4d2df8432"
@@ -10918,5 +10885,5 @@
       "sourceHash": "0e96f5e15977ab0a2a8d684c0d35d7459f3afc862b606046310ae1fbbd4be12b"
     }
   ],
-  "generatedAt": "2026-10-04T21:09:16.473Z"
+  "generatedAt": "2026-10-11T13:14:59.201Z"
 }

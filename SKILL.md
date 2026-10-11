@@ -9,11 +9,24 @@ description: >
   from within ChatGPT Sites, Claude Design, or any other AI site builder.
 metadata:
   author: gabriel-operator
-  version: "1.5"
+  version: "1.6"
   compatibility: Requires Node.js 16+ for the validation script.
 ---
 
 # Landing Page Builder
+
+For persona templates, authored content belongs in the model repository, not in
+platform TSX or a platform English defaults file. This includes header subtitles,
+navigation, both audience tabs, AI previews, sample activities, school options,
+FAQs, artwork URLs and initiation prompts. The platform owns layout and interaction
+contracts. Read [model-owned content](references/model-owned-content.md) before
+adding or extending a theme; do not hide missing authored content behind hard-coded
+English. Shared platform controls may use the platform's normal localization.
+
+For authenticated persona workspace creation, switching, sharing, or agent setup, load the gateway skill topic `persona-workspaces` (canonical [`Persona Workspaces`](../persona-workspaces/SKILL.md)). Keep `personaWorkspaceId` separate from business/harness IDs. Each explicitly created owned workspace gets author-owned definition branches and private runtime bindings. Invitees join the existing workspace; joining creates no copy or branch, and it becomes their default only when none existed. Owner-only definition/member management, private Coach/profile/memory, owner-funded execution and workspace-scoped ROI are required. Keep the standard dashboard/sidebar composition.
+
+For workspace changes, follow the [workspace validation and frontend packaging contract](../persona-workspaces/SKILL.md#validation): run the disposable Lane browser/API test in the platform checkout, verify both Docker frontend input lists for imported shared contracts, and distinguish local fixture coverage from real invitation delivery, account registration and model generation.
+
 
 ## What this actually renders
 
@@ -524,3 +537,22 @@ Prompts adapt editable copy through the existing country generation jobs and
 policies; complete layouts are authored validated config. Translations and
 generated assets live under their matched variant and cannot use a shared global
 translation cache. Preserve human approvals, real-data boundaries and access checks.
+
+## Mobile copy and chat presentation
+
+For mobile-specific landing copy or chat-widget content, read
+[`references/mobile-content.md`](references/mobile-content.md). Author bounded
+`localization.mobile` patches with mobile > country > language precedence; keep
+desktop language assets and workflow-owned questions unchanged. The shared compact
+footer applies to hero, floating, photo-upload and free-form chats. Preserve
+critical decision notices and validate the paired SDK plus phone/desktop rendering.
+
+## Signed-in app companion
+
+When the persona includes a signed-in app, use [the dashboard format](../chat-app-builder/references/dashboard-first.md) through `chat-app-builder`. The anonymous hero/widget and marketing sections stay separate from private app data. After login, Home contains the review-only Meet Persona coach and domain records/results/decisions, with a minimal sidebar. Playbooks is sidebar-only, milestones/goals stays in Coach, and routines/Signals/Schedule stays in Signals; never add duplicate Home tabs for them. Carry the same theme, portrait and selected language into the app; do not reuse illustrative landing runs as saved results. Verify the login transition into the actual app, not only the public landing renderer.
+
+## Evidence-backed ROI
+
+For a standard Persona app, include the domain ROI/Impact sidebar destination and connect it to the same landing calculator definitions via `publishedConfig.roiMonitoring`. Read [the ROI algorithm and evidence contract](../chat-app-builder/references/roi-evidence.md) or Gateway topic `persona-roi`: map committed output/List fields to the parent ontology, capture the semantic revision at execution, deduplicate stable identities, preserve acceptance/withdrawal boundaries and measure value with explicit runner baselines or evidenced economic rules. Credits/tokens/top-up funding are distinct; never sum them as one cost or call a budget/row count cash savings. Missing evidence/currency conversion keeps financial ROI unknown. Validate the model and real runner ROI before publication.
+
+ROI/Impact is sidebar-only. Use canonical `agents` (existing Kai `grocery-agents`) metadata as the standalone target; never display an ROI tab beside Meet/Coach.
