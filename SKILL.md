@@ -49,47 +49,36 @@ The FAQ, Contact, and Business Impact sections only render when you provide
 links are authored separately through `landingPage.header.navItems`; a link
 whose target section is absent is hidden automatically. When `roiCalculator`
 is present and `enabled` is not `false`, every renderer injects a header item
-whose localized label comes from `roiCalculator.businessImpact.copy.navLabel`
-(English: **ROI**) and scrolls to
+whose localized label comes from `roiCalculator.compact.copy.navLabel (legacy: businessImpact.copy.navLabel)`
+(English: **Pricing**) and scrolls to
 `persona-landing-roi-calculator`. Do not add that item to pinned theme
 navigation arrays — the renderer owns the injection.
 
-`landingPage.roiCalculator` remains optional. When creating a new business-impact
-section, use `methodologyVersion: 2` and read
-[`references/business-impact.md`](references/business-impact.md) **before authoring
-its copy or defaults**. Start from the persona's real work unit, not its employee's
-salary. Separate operational capacity, operating cost, and explicitly modeled value.
-The platform owns the live calculator tabs, Base/Medium packages, token cost mix and
-deterministic calculations; the landing-page child owns persona-specific tab labels,
-typical usage numbers, outcome selection, and all translated labels and explanations.
-Prefill a typical consumer of this persona. Do not invent observed savings, provider
-quotes, or guaranteed customer outcomes.
+`landingPage.roiCalculator` remains optional for unrelated existing personas.
+When authoring or revising a calculator, use the compact platform model by default.
+Read Gateway topic `persona-roi` and its `references/compact-calculator.md` for the
+schema, offers, three-input formulas, evidence boundaries and planning tools.
 
-Keep this as a live, slider-driven calculator: input tabs and auto-updating results,
-not a form-submit/results replacement. Use direct numeric entry alongside sliders.
-Author localized `currencyCopy` notices from the seed. Country selects currency;
-language only changes copy/formatting. Dated FX conversion is platform-owned, not
-LLM translation or proof of local costs. Read the country-currency rules in
-`references/business-impact.md`, including unavailable-rate fallback and the
-requirement to deploy compatible platform support before publishing new fields.
+Use **Pricing** as the localized navigation label and **Pricing & ROI** as the
+section heading. Author a capped monthly offer and at most three persona-specific
+styled sliders with numeric entry. Results update live and compare daily/weekly/
+monthly cost, benefit and net. Daily and weekly figures are averages; billing stays
+monthly. Keep one collapsed methodology disclosure. Unsupported benefits remain
+null, negative values remain negative, and optional time value is not cash received.
 
-Use **ROI** for the short header link and **ROI Calculator** for the section
-heading (localized in translated pages). Keep the persona-specific supporting copy
-and methodology; the naming does not turn returned capacity into monetary savings.
-Existing unversioned calculators retain their legacy renderer and arithmetic DSL,
-with the same short **ROI** navigation label. Do not migrate an unrelated existing
-persona without authorization. Version 2 uses empty `inputs` and `metrics`
-compatibility arrays; it does not accept authored formulas, scripts, or CSS.
+The platform owns rendering and arithmetic. The model owns copy, audience profiles,
+prices, VAT treatment, allowances and disclosed assumptions. Version 2 `compact`
+uses schemaVersion 1 and empty compatibility `inputs`/`metrics`; no authored
+formulas, scripts or CSS. Preserve existing businessImpact definitions and legacy
+renderers for unrelated models. Use shared styled form primitives, contrast-aware
+themed sliders, keyboard/RTL support and mobile stacking. Never automatically save
+net minutes as a manual baseline or accept an outcome from a public calculator.
 
-The only thing on this page that is **not** configurable from this file is
-the "Made using Gabriel Operator" attribution footer — that's hardcoded in
-the page's source component on purpose, so it can't be edited or removed
-through content. Every other section, including FAQ and Contact, is driven
-entirely by this JSON.
-
-Every field below is optional except `headline` — omit anything you don't
-want and the page renders sensible defaults (e.g. no badge pill, one CTA
-button instead of two, a generic opening line in the hero mockup).
+Language changes copy/formatting only. Preserve numerical IDs, prices, model kinds,
+profile selection and visitor edits. Country/region selects the economic context;
+use the platform's dated FX conversion and keep missing conversions unknown.
+Validate all audience sections and Pricing links, source/child mirrors and existing
+translation catalogs. Deploy compatible platform support before publishing new fields.
 
 ## Portable Git contract (schema v2)
 
@@ -203,7 +192,7 @@ valuation rules and translate both configurations independently.
   - `theme` (optional, theme object) — authored `palette`, required `primaryColor`, and optional `secondaryColor`/`accentColor` used by the landing page.
   - `brand` (optional, object) — bounded exact brand seeds shared by landing, chat, embed, and portalled dialogs. This is the model-generated branding surface; never generate CSS or Tailwind classes.
     - `presetRevision` (optional, currently `1`) — pins the persona to the immutable revision of its selected `variant`.
-    - `colors.light` / `colors.dark` (optional objects) — each accepts normalized six-digit lowercase hex values for `canvas`, `surface`, `sidebar`, `text`, `accent`, and `userBubble`. Dependent hover, muted, border, and contrast-safe foreground tokens are derived by the renderer.
+    - `colors.light` / `colors.dark` (optional objects) — each accepts normalized six-digit lowercase hex values for `canvas`, `surface`, `sidebar`, `text`, `accent`, optional `accentHover`, and `userBubble`. With no authored hover tone, it is derived from the accent. Muted, border, and contrast-safe foreground tokens (including a separate hover foreground) are derived by the renderer.
     - `typography.body` / `typography.display` / `typography.label` (optional objects) — either `{ "source": "builtin", "family": "inter" }` using `dm-sans`, `inter`, `system`, `roboto`, `poppins`, or `outfit`; or `{ "source": "google", "family": "TASA Orbiter" }` using a safe Google Font family name.
     - Normal text must reach WCAG AA contrast against both `canvas` and `surface`. Low decorative-accent contrast is reported as a warning.
 - `landingPage.localization` (required on every new landing page; optional only for backward-compatible reads of legacy pages) — public translation and IP-country routing. This is an additive schema-version-2 field; do not bump the landing-page schema version. New pages must set `translation.enabled: true`, `sourceLanguage: "en"`, `defaultLanguage: "en"`, `autoDetectCountryLanguage: true`, `generatedTranslations: []`, and `regionalPages: []` before authored regions or generated variants are added. Do not disable it during creation.
@@ -391,7 +380,7 @@ only the agreed languages. That skill owns bulk
 language selection, safe-string extraction, provider authorization, source revisions,
 resumable generation, validation, and child-to-parent mirroring. Prefer its private
 on-device Chrome provider; external providers still require explicit authorization.
-Do not hand-author `generatedTranslations` or invent source revisions in this skill.
+Do not hand-author `generatedTranslations` or invent source revisions in this skill. Course films and their translated narration are not landing-page JSON: read `../course-video-generation/SKILL.md` and `../course-video-translations/SKILL.md`, and store the media in the persona repository.
 
 After generation, run the generator's `--check`, commit and push a linked child first,
 then commit and push the parent Persona projection. If a provider is unavailable, leave
@@ -556,3 +545,5 @@ When the persona includes a signed-in app, use [the dashboard format](../chat-ap
 For a standard Persona app, include the domain ROI/Impact sidebar destination and connect it to the same landing calculator definitions via `publishedConfig.roiMonitoring`. Read [the ROI algorithm and evidence contract](../chat-app-builder/references/roi-evidence.md) or Gateway topic `persona-roi`: map committed output/List fields to the parent ontology, capture the semantic revision at execution, deduplicate stable identities, preserve acceptance/withdrawal boundaries and measure value with explicit runner baselines or evidenced economic rules. Credits/tokens/top-up funding are distinct; never sum them as one cost or call a budget/row count cash savings. Missing evidence/currency conversion keeps financial ROI unknown. Validate the model and real runner ROI before publication.
 
 ROI/Impact is sidebar-only. Use canonical `agents` (existing Kai `grocery-agents`) metadata as the standalone target; never display an ROI tab beside Meet/Coach.
+
+For a family activity or school-workshop flagship, read [the community activity loop contract](../persona-framework/references/community-activity-loop.md). It covers shared guided state, scoped refreshable feeds, opt-in Signals, reviewed team execution and adult-confirmed occurrence ROI.

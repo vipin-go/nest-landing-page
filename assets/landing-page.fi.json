@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "language": "fi",
   "regionKey": null,
-  "sourceRevision": "d701b52843633b93bc6a942b1d7069b64e0764961352983e775addc605ea3000",
+  "sourceRevision": "be40441c1455b89085020ea8725989ac5b0d6534d1db605c9fe719b98b0b6ab9",
   "landingPage": {
     "headline": "Yksi pätevä esittely, joka sopii.",
     "subheadline": "Yksityisiä ostajien ja myyjien esittelyjä, yksi kerrallaan käsiteltävä ehdotus, joka tarkistetaan ihmisen toimesta.",
@@ -212,24 +212,24 @@
             "methodologyVersion": 2,
             "enabled": true,
             "kicker": "Business impact",
-            "heading": "ROI Calculator",
-            "subheading": "Mallinna luvanvarainen kakkosasuntovälittäjä, joka käyttää Nestiä sopivien, ihmisen tarkistamien kontaktien luomiseen paikallisesti.",
-            "disclaimer": "Mallillinen toimintaskenaario, jossa ei ole vahvistettua maksettua kysyntää. Nest pätevöittää ja koordinoi hyväksytyt esittelyt; se ei edusta osapuolia, arvosta omaisuutta, neuvottele, ansaitse palkkioita tai takaa liiketoimia.",
+            "heading": "Hinta ja ROI",
+            "subheading": "Omat tietosi. Arvioitu tuottosi.",
+            "disclaimer": "Suunnitteluarvio ei ole mitattu ROI. Mitattu tuotto perustuu vain hyväksyttyihin tuloksiin ja vertailukelpoisiin kirjattuihin kuluihin.",
             "currency": "EUR",
             "currencyCopy": {
               "native": "Amounts in {currency}.",
               "loading": "Checking the local currency. Amounts remain in {currency} until a rate is available.",
               "unavailable": "A current local exchange rate is unavailable. Amounts remain in {currency}.",
               "converted": "Amounts converted from {base} to {currency} using the reference rate dated {date}.",
-              "basis": "Valuutan muuntaminen ei ole paikallisten kustannusten tutkimusta. Syötä omat paikalliset kustannukset ja maksuolettamasi. Kielimuutokset eivät muuta määriä."
+              "basis": "Valuuttamuunnos ei ole paikallista kustannustutkimusta. Syötä omat paikalliset kustannuksesi ja kateoletuksesi. Kielen vaihto ei muuta summia."
             },
             "costCopy": {
-              "breakdown": "Mistä tekoälyn kokonaiskulu syntyy",
+              "breakdown": "Näin AI-kokonaiskulu muodostuu",
               "perUnit": "{amount} per work unit (average)",
-              "budgetOnly": "Tämä on kokonaisbudjettisi. Vaihda kustannuserittelyyn eritteleksesi sen; eroa ei ole oletettu.",
-              "benefitNotice": "Mallinnetut edut, ei maksut. Yliviivatut summat ovat menoja, joita aiot välttää, eivät alennuksia tekoälylaskusta.",
+              "budgetOnly": "Tämä on kokonaisbudjettisi. Erittele se Kustannuserittely-näkymässä; jakoa ei ole oletettu.",
+              "benefitNotice": "Mallinnettuja hyötyjä, ei maksuja. Yliviivatut summat ovat kuluja, joita odotat välttäväsi, eivät alennuksia AI-laskusta.",
               "remainder": "Other included operating costs",
-              "allocation": "Vapautuvat tunnit ovat kapasiteettia, eivät suoria säästöjä. Rahallisen arvon saavat vain osuudet, jotka kohdistat todellisiin kululeikkauksiin tai lisäkatteen tuottamiseen."
+              "allocation": "Vapautuneet tunnit ovat kapasiteettia, eivät automaattisia säästöjä. Rahallinen arvo annetaan vain osuuksille, jotka kohdistat todellisiin kulusäästöihin tai lisäkatteeseen."
             },
             "locale": "en-GB",
             "inputs": [],
@@ -248,17 +248,17 @@
                 "platform_cost": 1500,
                 "higher_value_hours": 0,
                 "contribution_rate": 0,
-                "customer_price": 750
+                "customer_price": 49
               },
               "copy": {
-                "navLabel": "Hinnoittelu",
+                "navLabel": "hinnoittelu",
                 "workloadStep": "Introduction funnel",
                 "costStep": "AI operating cost",
                 "valueStep": "Capacity and evidence",
                 "workloadIntro": "Mallinna kakkosasuntoliidejä, soveltuvuutta ja ihmistarkistusta, älä asuntokauppoja, palkkioita tai taattuja osumia.",
                 "costIntro": "Token-, malli-, työkalu-, infrastruktuuri-, alusta- ja arvioijan kustannukset ovat toimitusoletuksia. Nest hinta on erillinen vahvistamaton hypoteesi.",
                 "valueIntro": "Kapasiteetti ei ole tuloa. Syötä havaittu osuus vasta sen jälkeen, kun todellinen agentti tai välitys käyttää ja maksaa palvelua.",
-                "sampleNotice": "Tyypillinen käyttö · ei tuloshavaintoja",
+                "sampleNotice": "Tyypillinen käyttö · ei toteumia",
                 "monthly": "Monthly",
                 "yearly": "Yearly",
                 "next": "Continue",
@@ -283,11 +283,11 @@
                 "reviewMode": "Who handles the review?",
                 "teamReview": "Existing team",
                 "paidReview": "Additional paid reviewer",
-                "reviewNote": "Tiimin tarkistus käyttää vapautunutta kapasiteettia. Maksullinen lisätarkistus kuuluu käyttökuluihin eikä vähennä tiimin kapasiteettia uudelleen.",
+                "reviewNote": "Oman tiimin tarkistus vie vapautunutta kapasiteettia. Maksettu lisätarkistus sisältyy käyttökuluihin eikä vähennä tiimin kapasiteettia uudelleen.",
                 "totalMode": "Monthly budget",
                 "itemizedMode": "Cost breakdown",
-                "budgetNote": "Budjetoi mallit/media, työkalut, infrastruktuuri, Gabriel-maksut ja maksullinen lisätarkistus. Älä laske ennallaan pysyviä palkkakuluja uusiksi menoiksi.",
-                "itemizedNote": "Tokenkäyttö = määrä × tokenit/tuotos. Lisämedia, työkalut ja infrastruktuuri ovat nollassa, ellei niitä tarvita. Maksullinen lisätarkistus lasketaan tarkistustunneista ja tuntihinnasta.",
+                "budgetNote": "Budjettiin kuuluvat mallit/media, työkalut, infrastruktuuri, Gabriel-maksut ja maksettu lisätarkistus. Älä laske muuttumattomia palkkoja uusiksi kuluiksi.",
+                "itemizedNote": "Tokenien käyttö lasketaan: määrä × tokenit tuotosta kohden. Lisämedia, työkalut ja infrastruktuuri pysyvät nollassa, ellei niitä tarvita. Maksettu lisätarkistus lasketaan tarkistustunneista ja niiden hinnasta.",
                 "paidReviewCost": "Additional paid review cost",
                 "allInCost": "Operating cost",
                 "missing": "Add your assumptions",
@@ -300,32 +300,32 @@
                 "multiple": "Internal delivery multiple",
                 "customerBenefit": "Modeled agent benefit",
                 "customerRoi": "Modeled customer ROI",
-                "payback": "Customer payback period",
+                "payback": "Asiakkaan kuoletusaika",
                 "notApplicable": "Not applicable",
                 "annual": "Annual view",
-                "annualNote": "Samat kuukausittaiset oletukset ilman kasvua tai yhdistelyä. Palkkaussäästöt kestävät vain syötetylle ajanjaksolle.",
+                "annualNote": "Samat kuukausioletukset ilman kasvua tai korkoa korolle. Rekrytointisäästöt kestävät vain syötetyn jakson.",
                 "method": "How this is calculated",
                 "burdenHeading": "Repetitive work reduced",
                 "opportunityHeading": "Capacity for higher-value work",
-                "methodBody": "Poistuva työkuorma (negatiivinen tuottavuus) vapauttaa kapasiteettia. Arvokkaampi työ (mahdollinen positiivinen tuottavuus) luo talousarvoa vain kapasiteettia käytettäessä. Tunnit eivät ole rahasäästöä. Tokenkulu perustuu syöte- ja tuotostokenien malliin, ei toimittajan tarjoukseen.",
+                "methodBody": "Poistettu työkuorma (negatiivinen tuottavuus) vapauttaa kapasiteettia. Arvokkaampi työ (mahdollinen positiivinen tuottavuus) luo arvoa vain, jos kapasiteetti käytetään. Tunnit eivät yksin ole kassasäästöjä. Tokenkulu perustuu mallinnettuun syöte/tuotos-jakaumaan, ei tarjoajan hintaan.",
                 "formulaLabel": "Sopivat koosteet = liidit × kelpuutusaste. Toimituskulu sisältää mallinnetut token-, malli-, työkalu-, infrastruktuuri-, alusta- ja ihmistarkistuskulut. Asiakkaan ROI ei ole saatavilla ennen kuin hyödystä ja hinnasta on näyttöä.",
-                "allocationNote": "Tunnin voi kohdentaa vain kerran. Kohdentamattomat tunnit ovat kapasiteettia ilman raha-arvoa.",
-                "overlapLabel": "Nämä edut ovat erilaisia; Olen jättänyt pois muualla jo lasketut kulut ja tappiot.",
-                "overlapNote": "Virhe- ja riskiarviot eivät sisällä työvoiman säästöjä, eikä sama tapaus saa esiintyä molemmissa luokissa. Maksu ei sisällä tekoälykuluja, jotka vähennetään erikseen.",
-                "hiringLabel": "Tämä vuokraus oli aidosti suunniteltu ja jaettu kapasiteetti riittää kattamaan työn.",
-                "reviewedLabel": "Olen tarkistanut tulokset; valitsemattomilla tuloksilla ei ole taloudellista arvoa tässä arviossa.",
+                "allocationNote": "Tunnin voi kohdistaa kerran. Kohdistamattomat tunnit ovat kapasiteettia ilman rahallista arvoa.",
+                "overlapLabel": "Nämä hyödyt ovat erillisiä; olen jättänyt pois muualla jo lasketut kulut ja tappiot.",
+                "overlapNote": "Virhe- ja riskiarviot eivät sisällä työvoimasäästöjä, eikä sama tapahtuma saa esiintyä molemmissa luokissa. Kate ei sisällä AI-kuluja, jotka vähennetään erikseen.",
+                "hiringLabel": "Rekrytointi oli todella suunniteltu, ja kohdistettu kapasiteetti voi kattaa työn.",
+                "reviewedLabel": "Olen tarkistanut tulokseni; valitsemattomilla tuloksilla ei ole rahallista arvoa tässä arviossa.",
                 "cycleResult": "Cycle-time improvement",
-                "throughputResult": "Lisätyötä kapasiteetin ja kysynnän tukemana",
-                "assumptionsIncomplete": "Täydennä valitut oletukset taloudellisen arvon laskemiseksi.",
-                "allocationError": "Kohdennetut tunnit ylittävät nettokapasiteetin. Vähennä kohdennuksia.",
-                "reviewError": "Tarkastus vie enemmän aikaa kuin työ väheni. Näillä oletuksilla ei ole positiivista kapasiteettia.",
-                "cashError": "Säästöt eivät voi ylittää nykykuluja tai saada positiivista arvoa ilman kohdistettuja tunteja.",
-                "hiringError": "Jaetun kapasiteetin tulee kattaa suunnitellut vuokratunnit. Vahvista suunniteltu vuokraus ja sen kesto.",
-                "riskError": "Jälki-todennäköisyys ei voi ylittää tappionvähennysestimaatin ennen todennäköisyyttä.",
-                "overlapError": "Varmista, etteivät hyödyt ole päällekkäisiä, ennen kuin sisällytät ne taloustulokseen.",
+                "throughputResult": "Lisätyö, jolle on kapasiteettia ja kysyntää",
+                "assumptionsIncomplete": "Täydennä valitut oletukset laskeaksesi taloudellisen arvon.",
+                "allocationError": "Kohdistetut tunnit ylittävät vapaan nettokapasiteetin. Vähennä kohdistuksia.",
+                "reviewError": "Tarkistus vie enemmän aikaa kuin vähennetty työ. Näillä oletuksilla positiivista kapasiteettia ei ole.",
+                "cashError": "Vältetyt kulut eivät voi ylittää nykyisiä kuluja tai olla positiivisia ilman kohdistettuja tunteja.",
+                "hiringError": "Kohdistetun kapasiteetin on katettava suunnitellun rekrytoinnin tunnit. Vahvista rekrytointi ja kesto.",
+                "riskError": "Jälkeen-todennäköisyys ei voi ylittää ennen-todennäköisyyttä tappioiden vähennysarviossa.",
+                "overlapError": "Vahvista, ettei hyödyissä ole päällekkäisyyttä ennen tulokseen sisällyttämistä.",
                 "boundsError": "Käytä arvoja näytettyjen rajojen sisällä.",
                 "rangeLabel": "Adjust value",
-                "noCurrencyChange": "Kieli muuttaa muotoilua, ei valuuttaa tai oletuksia.",
+                "noCurrencyChange": "Kieli muuttaa muotoilua, ei valuuttaasi tai oletuksiasi.",
                 "currentPreparation": "Nykyiset valmistelutunnit",
                 "reviewHours": "Ihmisten arvostelutunnit",
                 "reworkHours": "Vältetty tai lisätty uudelleentyötunteja",
@@ -365,8 +365,8 @@
                   "help": "Ihmisen on tarkistettava ehdotus ennen sen näyttämistä kummallekaan."
                 },
                 "cycles_per_unit": {
-                  "label": "Kierrokset/yksikkö/kuukausi",
-                  "help": "Montako tilaus-, tarkistus- tai käsittelykierrosta yksikössä on tavallisesti kuukaudessa."
+                  "label": "Kierroksia/yksikkö/kuukausi",
+                  "help": "Yksikön toistuvien tilaus-, tarkistus- tai käsittelykierrosten määrä tyypillisenä kuukautena."
                 },
                 "tokens_per_output": {
                   "label": "Tokenit per pätevä ostaja",
@@ -374,7 +374,7 @@
                 },
                 "budget": {
                   "label": "Estimated monthly operating budget",
-                  "help": "Sisällytä tokenit, mallit/media, työkalut, infrastruktuuri, Gabriel-maksut ja maksullinen lisätarkastus."
+                  "help": "Sisällytä tokenit, mallit/media, työkalut, infrastruktuuri, Gabriel-maksut ja maksettu lisätarkistus."
                 },
                 "model_cost": {
                   "label": "Lisämallin tai median hinta",
@@ -382,39 +382,39 @@
                 },
                 "tools_cost": {
                   "label": "Tools and integrations",
-                  "help": "Selainistunnot, liittimet ja muut maksulliset palvelut. Syötä nolla, jos ei yhtään."
+                  "help": "Selainistunnot, liittimet ja muut käyttöperusteiset palvelut. Syötä 0, jos ei ole."
                 },
                 "infrastructure_cost": {
                   "label": "Infrastructure",
-                  "help": "Työkuorman lisäkulut: palvelintila, tallennus ja laskenta. Syötä 0, jos kuluja ei ole."
+                  "help": "Tämän työkuorman lisähosting, -tallennus ja -laskenta. Syötä nolla, jos ei ole."
                 },
                 "platform_cost": {
-                  "label": "Muut toimitus- ja tukikulut",
-                  "help": "Mallinnetut isännöinti-, tallennus-, seuranta- ja tukikustannukset, erillään asiakashinnasta."
+                  "label": "Other delivery and support cost",
+                  "help": "Modeled hosting, storage, monitoring and support cost, separate from the customer price."
                 },
                 "customer_price": {
                   "label": "Proposed monthly Nest price",
                   "help": "Muokattava välittäjän tai välitysliikkeen hintaoletus. Ei varmennettua tuloa; testattava maksullisessa pilotissa."
                 },
                 "personal_value_per_hour": {
-                  "label": "Tunnille antamasi arvo (valinnainen)",
-                  "help": "Vain valinnainen henkilökohtainen vertailu. Tämä ei ole palkkaa tai taattuja käteissäästöjä."
+                  "label": "valinnainen arvo, jonka annat tunnille",
+                  "help": "Vain vapaaehtoinen oma vertailu. Tämä ei ole palkkaa eikä taattua rahallista säästöä."
                 },
                 "review_rate": {
-                  "label": "Maksullinen lisäarviointi tunnissa",
-                  "help": "Todelliset lisätarkistuskulut, eivät ennallaan pysyvän työntekijän palkka."
+                  "label": "Maksettu lisätarkistus tunnilta",
+                  "help": "Todelliset lisätarkistajakulut, ei muuttumattoman työntekijän palkka."
                 },
                 "cash_hours": {
-                  "label": "Palkkatyötä poistavat tunnit",
-                  "help": "Jakaa vain työt, joiden ylityö-, urakoitsija- tai käsittelykulut todella loppuvat."
+                  "label": "Kuluja poistavat tunnit",
+                  "help": "Kohdista vain työtä, jonka ylityö-, alihankinta- tai käsittelykulut todella loppuvat."
                 },
                 "cash_baseline": {
-                  "label": "Nykyiset kuukausikulut kyseiseen työhön",
+                  "label": "Työn nykyiset kuukausikulut",
                   "help": "Kassabudjetti, josta vähennys tulee."
                 },
                 "cash_avoided": {
-                  "label": "Kuukausittaiset menot lopettaisit",
-                  "help": "Yksi summa, ei tunnit × palkka. Jätä pois erikseen syötetty säästö suunnitellun rekrytoinnin välttämisestä."
+                  "label": "Kuukausikulut, jotka lopettaisit",
+                  "help": "Yksi selkeä summa, ei tunnit kertaa palkka; jätä pois erikseen syötetyt suunnitellun rekrytoinnin säästöt."
                 },
                 "higher_value_hours": {
                   "label": "Välittäjien tunnit aitoihin keskusteluihin",
@@ -425,64 +425,64 @@
                   "help": "Lisätyöpanos ilman kiinteistön arvoa, palkkioita ja jo laskettuja kustannuksia."
                 },
                 "throughput_hours": {
-                  "label": "Lisämäärään käytetyt tunnit",
-                  "help": "Tätä määrärahaa ei voida käyttää myös neuvontatyöhön tai menojen vähentämiseen."
+                  "label": "Lisävolyymiin käytetyt tunnit",
+                  "help": "Tätä kohdistusta ei voi käyttää myös neuvontatyöhön tai kulusäästöihin."
                 },
                 "extra_minutes": {
-                  "label": "Tiimin minuutit lisäyksikköä kohti",
-                  "help": "Yhden lisäyksikön toimittamiseen tarvittava ihmistyö, myös tarkistus."
+                  "label": "Tiimiminuutit lisäyksikköä kohden",
+                  "help": "Jäljellä oleva ihmistyö, tarkistus mukaan lukien, yhden lisäyksikön toimittamiseen."
                 },
                 "demand": {
-                  "label": "Lisäyksiköitä odotetulla kysynnällä",
-                  "help": "Kapasiteetti ei yksin ole kysyntää. Syötä kuukausittain odottamasi lisätyömäärä."
+                  "label": "Lisäyksiköt, joille odotetaan kysyntää",
+                  "help": "Kapasiteetti ei yksin ole kysyntää. Syötä odotettu kuukausittainen lisätyö."
                 },
                 "unit_margin": {
                   "label": "Contribution per additional unit",
-                  "help": "Lisätulot vähennettynä toimituskuluilla; Tekoälyn käyttökustannukset vähennetään erikseen."
+                  "help": "Lisätulot miinus toimituskulut; AI:n käyttökulut vähennetään erikseen."
                 },
                 "hiring_hours": {
-                  "label": "Rekrytointitarpeen kattavat tunnit",
-                  "help": "Varaa kapasiteetti tiettyyn suunniteltuun työhön, älä yleiseen kokoaika-arvioon."
+                  "label": "Suunnitellun rekrytoinnin tunnit",
+                  "help": "Kohdista kapasiteetti tiettyyn suunniteltuun työhön, ei yleiseen henkilötyövuosiarvioon."
                 },
                 "planned_hours": {
-                  "label": "Suunniteltu vuokraus kattaisi kuukausittain",
-                  "help": "Jaetun kapasiteetin tulee kattaa koko tämä työmäärä."
+                  "label": "Kuukausitunnit, jotka rekrytointi kattaisi",
+                  "help": "Kohdistetun kapasiteetin on katettava koko työkuorma."
                 },
                 "hire_cost": {
-                  "label": "Kuukausivuokra todellisuudessa lykätty",
-                  "help": "Käytä aidosti suunnitellun vuokrauksen kustannuksia, älä jonkun jo työssä olevan palkkaa."
+                  "label": "Lykätty rekrytointikulu kuukaudessa",
+                  "help": "Käytä todella suunnitellun rekrytoinnin kustannusta, ei jo palkatun henkilön palkkaa."
                 },
                 "hire_months": {
-                  "label": "Kuukausien vuokraa lykätään",
-                  "help": "1–12 kuukautta; vuosiarvio ei laske säästöjä tämän jakson jälkeen."
+                  "label": "Lykkäyksen kesto kuukausina",
+                  "help": "Yhdestä kahteentoista kuukauteen; vuosiarvio ei laske säästöjä jakson jälkeen."
                 },
                 "incidents": {
-                  "label": "Arvio vältetyistä virheistä/kuukausi",
-                  "help": "Käytä lähtötasoa ja arvioitua vähennystä. Ohita jo riskien vähenemiseen lasketut tapahtumat."
+                  "label": "Odotetut vältetyt virheet kuussa",
+                  "help": "Käytä lähtötasoasi ja odotettua vähennystä. Jätä pois myös riskinvähennykseen lasketut tapaukset."
                 },
                 "incident_cost": {
                   "label": "Incremental cost per error",
-                  "help": "Ohita muualle jo lasketut työvoimakulut, hyvitykset ja muut tappiot."
+                  "help": "Jätä pois työkulut, hyvitykset ja muut muualla jo lasketut tappiot."
                 },
                 "probability_before": {
                   "label": "Monthly loss probability before",
-                  "help": "Sinun arviosi, ei taattu riskiarvio."
+                  "help": "Oma arviosi, ei taattu riskinarvio."
                 },
                 "probability_after": {
                   "label": "Monthly loss probability after",
-                  "help": "Käytä lähtötason tapahtumaa ja samaa kuukauden tarkastelujaksoa."
+                  "help": "Käytä samaa tapahtumaa ja kuukauden aikajännettä kuin lähtötaso."
                 },
                 "loss": {
-                  "label": "Tapahtuman mahdollinen tappio",
-                  "help": "Sulje pois virhetapahtumat ja jo lasketut kulut. Tämä on epävarma odotusarvo, ei säästetty käteinen."
+                  "label": "Tapahtuman tappioaltistus",
+                  "help": "Jätä pois jo lasketut virhetapaukset ja kulut. Tämä on epävarma odotusarvo, ei säästettyä rahaa."
                 },
                 "days_before": {
-                  "label": "Kiertoaika ennen päiviä",
-                  "help": "Kulunut aika alusta loppuun, erillään käytännön työstä."
+                  "label": "Läpimenoaika ennen (pv)",
+                  "help": "Kulunut aika alusta valmistumiseen, erillään varsinaisesta työpanoksesta."
                 },
                 "days_after": {
-                  "label": "Jakson jälkeen, päivinä",
-                  "help": "Näytetään vain toiminnallisena muutoksena, ilman oletettua rahallista arvoa."
+                  "label": "Läpimenoaika jälkeen (pv)",
+                  "help": "Näytetään vain toiminnallisena muutoksena ilman oletettua rahallista arvoa."
                 }
               },
               "burden": [
@@ -493,35 +493,6 @@
                 "More qualified, human-reviewed introductions",
                 "Aikaa agenttikeskusteluihin ja asiakastarpeisiin"
               ],
-              "usagePackages": {
-                "base": {
-                  "volume": 1,
-                  "tokensPerOutput": 12000,
-                  "platform_cost": 450,
-                  "minutes": 20,
-                  "automation": 100,
-                  "review": 8,
-                  "model_cost": 0,
-                  "tools_cost": 0,
-                  "infrastructure_cost": 0,
-                  "higher_value_hours": 0,
-                  "contribution_rate": 0
-                },
-                "medium": {
-                  "volume": 1,
-                  "tokensPerOutput": 12000,
-                  "platform_cost": 750,
-                  "minutes": 20,
-                  "automation": 100,
-                  "review": 8,
-                  "model_cost": 0,
-                  "tools_cost": 0,
-                  "infrastructure_cost": 0,
-                  "higher_value_hours": 0,
-                  "contribution_rate": 0
-                }
-              },
-              "defaultPackage": "medium",
               "costMode": "itemized",
               "reviewMode": "team",
               "selected": [
@@ -584,8 +555,7 @@
               ],
               "pricing": {
                 "basis": "fixed",
-                "annualPrice": 9000,
-                "label": "Proposed Nest monthly price",
+                "label": "hinnoittelu",
                 "help": "Työhypoteesi 750 €/kk pätevälle perehdytyslentäjälle. Käsittele vahvistamattomana, kunnes agentti tai välitys maksaa."
               },
               "presentation": {
@@ -598,8 +568,153 @@
               "primaryLabel": "Talk with Nest",
               "primaryTarget": "meet",
               "secondaryLabel": "See how it works",
-              "privacyNote": "Tietosi pysyvät yksityisinä. Tunnit ovat kapasiteettia. Rahasummat ovat malliarvioita, eivät toteutuneita tuloksia.",
+              "privacyNote": "Tietosi pysyvät yksityisinä. Tunnit ovat kapasiteettia. Rahasummat ovat mallinnettuja arvioita, eivät toteumia.",
               "secondaryTarget": "how-it-works"
+            },
+            "compact": {
+              "schemaVersion": 1,
+              "defaultProfileId": "buyer",
+              "copy": {
+                "navLabel": "hinnoittelu",
+                "heading": "Hinta ja ROI",
+                "intro": "Omat tietosi. Arvioitu tuottosi.",
+                "monthly": "kk",
+                "weekly": "Viikko",
+                "daily": "Päivä",
+                "cost": "Maksat",
+                "benefit": "Arvioitu tuotto",
+                "net": "Nettohyöty",
+                "roi": "Arvioitu ROI",
+                "timeBenefit": "Arvioitu ajan arvo",
+                "timeRoi": "Ajan arvon ROI",
+                "timeBack": "Säästetyt tunnit",
+                "missing": "Lisää tietosi",
+                "noRatio": "Not applicable",
+                "method": "Näin se lasketaan",
+                "reset": "Nollaa",
+                "audience": "Yleisö",
+                "includedVat": "Sisältää ALV:n",
+                "excludedVat": "Ilman ALV:tä",
+                "perMonth": "kuukaudessa",
+                "equivalents": "Kuukausilaskutus. Päivä- ja viikkoluvut ovat keskiarvoja, eivät päivä- tai viikkomaksuja tai tuottotakuita.",
+                "timeNote": "Ajan arvo on vapaaehtoinen arviosi, ei saatua rahaa tai palkkakulujen laskua. Nettominuutit sisältävät tarkistus- ja hyväksymisaikasi.",
+                "estimateNote": "Suunnitteluarvio ei ole mitattu ROI. Mitattu tuotto perustuu vain hyväksyttyihin tuloksiin ja vertailukelpoisiin kirjattuihin kuluihin.",
+                "limitNote": "Lisäkäytöstä ja erikseen hinnoiteltavasta työstä ota yhteyttä. Arvio kattaa vain paketin sisällön.",
+                "timeFormula": "Ajan arvo = yksiköt × säästyneet nettominuutit ÷ 60 × tuntisi arvo.",
+                "profitFormula": "Myyntikate = ehdot täyttävät suosittelukerrat × konversion kasvu ÷ 100 × lisätilauksen kate.",
+                "proceedsFormula": "Lisätuotto = erät tai noudot × (nettotuotto jälkeen − nettotuotto ennen).",
+                "roiFormula": "Netto = hyöty − tilaushinta. ROI = netto ÷ tilaushinta × 100. Ilmaispaketeilla ei ole ROI-prosenttia."
+              },
+              "profiles": [
+                {
+                  "id": "buyer",
+                  "label": "Välittäjän tila · ostajakoosteet",
+                  "model": "time_value",
+                  "unitsPerWorkload": 1,
+                  "inputs": [
+                    {
+                      "id": "units",
+                      "label": "Kelpuutettuja koosteita / kk",
+                      "help": "Kuukaudessa tarkistettavaksi arvioimasi työ pakettiin sisältyvissä rajoissa.",
+                      "defaultValue": 20,
+                      "min": 0,
+                      "max": 20,
+                      "step": 1,
+                      "format": "number"
+                    },
+                    {
+                      "id": "minutes_saved",
+                      "label": "Minuuttisäästö",
+                      "help": "Arviosi tarkistuksen, hyväksynnän ja korjausten jälkeen. Negatiivinen arvo tarkoittaa lisätyötä.",
+                      "defaultValue": 12,
+                      "min": -1440,
+                      "max": 1440,
+                      "step": 0.1,
+                      "format": "number"
+                    },
+                    {
+                      "id": "hourly_value",
+                      "label": "Tunnin arvo",
+                      "help": "Oma vapaaehtoinen arviosi. Ei lupaus rahallisesta säästöstä tai palkkakulujen laskusta.",
+                      "defaultValue": null,
+                      "min": 0,
+                      "max": 1000,
+                      "step": 0.01,
+                      "format": "currency"
+                    }
+                  ],
+                  "offer": {
+                    "monthlyPrice": 49,
+                    "basis": "fixed",
+                    "unit": "Välittäjän tila · ostajakoosteet",
+                    "vatIncluded": false,
+                    "includedUnits": 20,
+                    "allowance": "20 pätevää briifiä",
+                    "extras": "Lisäkäytöstä ja asiantuntijapalveluista annetaan erillinen tarjous."
+                  },
+                  "assumptions": [
+                    "Alustavat 12 nettominuuttia ovat havainnollistava valmisteluarvio, eivät mitattu tulos.",
+                    "Nettominuutit sisältävät asiakkaan tarkistuksen. Ajan rahallisen arvon määrität itse; se ei ole saatua rahaa."
+                  ],
+                  "loop": "Kohde- tai ostoaiesignaali → lähdekoosteen kelpuutus → välittäjän tarkistus ja osapuolten suostumus → hyväksytyn esittelyn ja toteutuneen tuloksen kirjaus.",
+                  "ctaLabel": "Kokeile demoa",
+                  "ctaTarget": "meet"
+                },
+                {
+                  "id": "seller",
+                  "label": "Välittäjän tila · myyjäkoosteet",
+                  "model": "time_value",
+                  "unitsPerWorkload": 1,
+                  "inputs": [
+                    {
+                      "id": "units",
+                      "label": "Kelpuutettuja koosteita / kk",
+                      "help": "Kuukaudessa tarkistettavaksi arvioimasi työ pakettiin sisältyvissä rajoissa.",
+                      "defaultValue": 20,
+                      "min": 0,
+                      "max": 20,
+                      "step": 1,
+                      "format": "number"
+                    },
+                    {
+                      "id": "minutes_saved",
+                      "label": "Minuuttisäästö",
+                      "help": "Arviosi tarkistuksen, hyväksynnän ja korjausten jälkeen. Negatiivinen arvo tarkoittaa lisätyötä.",
+                      "defaultValue": 12,
+                      "min": -1440,
+                      "max": 1440,
+                      "step": 0.1,
+                      "format": "number"
+                    },
+                    {
+                      "id": "hourly_value",
+                      "label": "Tunnin arvo",
+                      "help": "Oma vapaaehtoinen arviosi. Ei lupaus rahallisesta säästöstä tai palkkakulujen laskusta.",
+                      "defaultValue": null,
+                      "min": 0,
+                      "max": 1000,
+                      "step": 0.01,
+                      "format": "currency"
+                    }
+                  ],
+                  "offer": {
+                    "monthlyPrice": 49,
+                    "basis": "fixed",
+                    "unit": "Välittäjän tila · myyjäkoosteet",
+                    "vatIncluded": false,
+                    "includedUnits": 20,
+                    "allowance": "20 pätevää briifiä",
+                    "extras": "Lisäkäytöstä ja asiantuntijapalveluista annetaan erillinen tarjous."
+                  },
+                  "assumptions": [
+                    "Alustavat 12 nettominuuttia ovat havainnollistava valmisteluarvio, eivät mitattu tulos.",
+                    "Nettominuutit sisältävät asiakkaan tarkistuksen. Ajan rahallisen arvon määrität itse; se ei ole saatua rahaa."
+                  ],
+                  "loop": "Kohde- tai ostoaiesignaali → lähdekoosteen kelpuutus → välittäjän tarkistus ja osapuolten suostumus → hyväksytyn esittelyn ja toteutuneen tuloksen kirjaus.",
+                  "ctaLabel": "Kokeile demoa",
+                  "ctaTarget": "meet"
+                }
+              ]
             }
           },
           "leadScan": {
@@ -720,24 +835,24 @@
             "methodologyVersion": 2,
             "enabled": true,
             "kicker": "Business impact",
-            "heading": "ROI Calculator",
-            "subheading": "Mallinna luvanvarainen kakkosasuntovälittäjä, joka käyttää Nestiä sopivien, ihmisen tarkistamien kontaktien luomiseen paikallisesti.",
-            "disclaimer": "Mallillinen toimintaskenaario, jossa ei ole vahvistettua maksettua kysyntää. Nest pätevöittää ja koordinoi hyväksytyt esittelyt; se ei edusta osapuolia, arvosta omaisuutta, neuvottele, ansaitse palkkioita tai takaa liiketoimia.",
+            "heading": "Hinta ja ROI",
+            "subheading": "Omat tietosi. Arvioitu tuottosi.",
+            "disclaimer": "Suunnitteluarvio ei ole mitattu ROI. Mitattu tuotto perustuu vain hyväksyttyihin tuloksiin ja vertailukelpoisiin kirjattuihin kuluihin.",
             "currency": "EUR",
             "currencyCopy": {
               "native": "Amounts in {currency}.",
               "loading": "Checking the local currency. Amounts remain in {currency} until a rate is available.",
               "unavailable": "A current local exchange rate is unavailable. Amounts remain in {currency}.",
               "converted": "Amounts converted from {base} to {currency} using the reference rate dated {date}.",
-              "basis": "Valuutan muuntaminen ei ole paikallisten kustannusten tutkimusta. Syötä omat paikalliset kustannukset ja maksuolettamasi. Kielimuutokset eivät muuta määriä."
+              "basis": "Valuuttamuunnos ei ole paikallista kustannustutkimusta. Syötä omat paikalliset kustannuksesi ja kateoletuksesi. Kielen vaihto ei muuta summia."
             },
             "costCopy": {
-              "breakdown": "Mistä tekoälyn kokonaiskulu syntyy",
+              "breakdown": "Näin AI-kokonaiskulu muodostuu",
               "perUnit": "{amount} per work unit (average)",
-              "budgetOnly": "Tämä on kokonaisbudjettisi. Vaihda kustannuserittelyyn eritteleksesi sen; eroa ei ole oletettu.",
-              "benefitNotice": "Mallinnetut edut, ei maksut. Yliviivatut summat ovat menoja, joita aiot välttää, eivät alennuksia tekoälylaskusta.",
+              "budgetOnly": "Tämä on kokonaisbudjettisi. Erittele se Kustannuserittely-näkymässä; jakoa ei ole oletettu.",
+              "benefitNotice": "Mallinnettuja hyötyjä, ei maksuja. Yliviivatut summat ovat kuluja, joita odotat välttäväsi, eivät alennuksia AI-laskusta.",
               "remainder": "Other included operating costs",
-              "allocation": "Vapautuvat tunnit ovat kapasiteettia, eivät suoria säästöjä. Rahallisen arvon saavat vain osuudet, jotka kohdistat todellisiin kululeikkauksiin tai lisäkatteen tuottamiseen."
+              "allocation": "Vapautuneet tunnit ovat kapasiteettia, eivät automaattisia säästöjä. Rahallinen arvo annetaan vain osuuksille, jotka kohdistat todellisiin kulusäästöihin tai lisäkatteeseen."
             },
             "locale": "en-GB",
             "inputs": [],
@@ -756,17 +871,17 @@
                 "platform_cost": 1500,
                 "higher_value_hours": 0,
                 "contribution_rate": 0,
-                "customer_price": 750
+                "customer_price": 49
               },
               "copy": {
-                "navLabel": "Hinnoittelu",
+                "navLabel": "hinnoittelu",
                 "workloadStep": "Introduction funnel",
                 "costStep": "AI operating cost",
                 "valueStep": "Capacity and evidence",
                 "workloadIntro": "Mallinna kakkosasuntoliidejä, soveltuvuutta ja ihmistarkistusta, älä asuntokauppoja, palkkioita tai taattuja osumia.",
                 "costIntro": "Token-, malli-, työkalu-, infrastruktuuri-, alusta- ja arvioijan kustannukset ovat toimitusoletuksia. Nest hinta on erillinen vahvistamaton hypoteesi.",
                 "valueIntro": "Kapasiteetti ei ole tuloa. Syötä havaittu osuus vasta sen jälkeen, kun todellinen agentti tai välitys käyttää ja maksaa palvelua.",
-                "sampleNotice": "Tyypillinen käyttö · ei tuloshavaintoja",
+                "sampleNotice": "Tyypillinen käyttö · ei toteumia",
                 "monthly": "Monthly",
                 "yearly": "Yearly",
                 "next": "Continue",
@@ -791,11 +906,11 @@
                 "reviewMode": "Who handles the review?",
                 "teamReview": "Existing team",
                 "paidReview": "Additional paid reviewer",
-                "reviewNote": "Tiimin tarkistus käyttää vapautunutta kapasiteettia. Maksullinen lisätarkistus kuuluu käyttökuluihin eikä vähennä tiimin kapasiteettia uudelleen.",
+                "reviewNote": "Oman tiimin tarkistus vie vapautunutta kapasiteettia. Maksettu lisätarkistus sisältyy käyttökuluihin eikä vähennä tiimin kapasiteettia uudelleen.",
                 "totalMode": "Monthly budget",
                 "itemizedMode": "Cost breakdown",
-                "budgetNote": "Budjetoi mallit/media, työkalut, infrastruktuuri, Gabriel-maksut ja maksullinen lisätarkistus. Älä laske ennallaan pysyviä palkkakuluja uusiksi menoiksi.",
-                "itemizedNote": "Tokenkäyttö = määrä × tokenit/tuotos. Lisämedia, työkalut ja infrastruktuuri ovat nollassa, ellei niitä tarvita. Maksullinen lisätarkistus lasketaan tarkistustunneista ja tuntihinnasta.",
+                "budgetNote": "Budjettiin kuuluvat mallit/media, työkalut, infrastruktuuri, Gabriel-maksut ja maksettu lisätarkistus. Älä laske muuttumattomia palkkoja uusiksi kuluiksi.",
+                "itemizedNote": "Tokenien käyttö lasketaan: määrä × tokenit tuotosta kohden. Lisämedia, työkalut ja infrastruktuuri pysyvät nollassa, ellei niitä tarvita. Maksettu lisätarkistus lasketaan tarkistustunneista ja niiden hinnasta.",
                 "paidReviewCost": "Additional paid review cost",
                 "allInCost": "Operating cost",
                 "missing": "Add your assumptions",
@@ -808,32 +923,32 @@
                 "multiple": "Internal delivery multiple",
                 "customerBenefit": "Modeled agent benefit",
                 "customerRoi": "Modeled customer ROI",
-                "payback": "Customer payback period",
+                "payback": "Asiakkaan kuoletusaika",
                 "notApplicable": "Not applicable",
                 "annual": "Annual view",
-                "annualNote": "Samat kuukausittaiset oletukset ilman kasvua tai yhdistelyä. Palkkaussäästöt kestävät vain syötetylle ajanjaksolle.",
+                "annualNote": "Samat kuukausioletukset ilman kasvua tai korkoa korolle. Rekrytointisäästöt kestävät vain syötetyn jakson.",
                 "method": "How this is calculated",
                 "burdenHeading": "Repetitive work reduced",
                 "opportunityHeading": "Capacity for higher-value work",
-                "methodBody": "Poistuva työkuorma (negatiivinen tuottavuus) vapauttaa kapasiteettia. Arvokkaampi työ (mahdollinen positiivinen tuottavuus) luo talousarvoa vain kapasiteettia käytettäessä. Tunnit eivät ole rahasäästöä. Tokenkulu perustuu syöte- ja tuotostokenien malliin, ei toimittajan tarjoukseen.",
+                "methodBody": "Poistettu työkuorma (negatiivinen tuottavuus) vapauttaa kapasiteettia. Arvokkaampi työ (mahdollinen positiivinen tuottavuus) luo arvoa vain, jos kapasiteetti käytetään. Tunnit eivät yksin ole kassasäästöjä. Tokenkulu perustuu mallinnettuun syöte/tuotos-jakaumaan, ei tarjoajan hintaan.",
                 "formulaLabel": "Sopivat koosteet = liidit × kelpuutusaste. Toimituskulu sisältää mallinnetut token-, malli-, työkalu-, infrastruktuuri-, alusta- ja ihmistarkistuskulut. Asiakkaan ROI ei ole saatavilla ennen kuin hyödystä ja hinnasta on näyttöä.",
-                "allocationNote": "Tunnin voi kohdentaa vain kerran. Kohdentamattomat tunnit ovat kapasiteettia ilman raha-arvoa.",
-                "overlapLabel": "Nämä edut ovat erilaisia; Olen jättänyt pois muualla jo lasketut kulut ja tappiot.",
-                "overlapNote": "Virhe- ja riskiarviot eivät sisällä työvoiman säästöjä, eikä sama tapaus saa esiintyä molemmissa luokissa. Maksu ei sisällä tekoälykuluja, jotka vähennetään erikseen.",
-                "hiringLabel": "Tämä vuokraus oli aidosti suunniteltu ja jaettu kapasiteetti riittää kattamaan työn.",
-                "reviewedLabel": "Olen tarkistanut tulokset; valitsemattomilla tuloksilla ei ole taloudellista arvoa tässä arviossa.",
+                "allocationNote": "Tunnin voi kohdistaa kerran. Kohdistamattomat tunnit ovat kapasiteettia ilman rahallista arvoa.",
+                "overlapLabel": "Nämä hyödyt ovat erillisiä; olen jättänyt pois muualla jo lasketut kulut ja tappiot.",
+                "overlapNote": "Virhe- ja riskiarviot eivät sisällä työvoimasäästöjä, eikä sama tapahtuma saa esiintyä molemmissa luokissa. Kate ei sisällä AI-kuluja, jotka vähennetään erikseen.",
+                "hiringLabel": "Rekrytointi oli todella suunniteltu, ja kohdistettu kapasiteetti voi kattaa työn.",
+                "reviewedLabel": "Olen tarkistanut tulokseni; valitsemattomilla tuloksilla ei ole rahallista arvoa tässä arviossa.",
                 "cycleResult": "Cycle-time improvement",
-                "throughputResult": "Lisätyötä kapasiteetin ja kysynnän tukemana",
-                "assumptionsIncomplete": "Täydennä valitut oletukset taloudellisen arvon laskemiseksi.",
-                "allocationError": "Kohdennetut tunnit ylittävät nettokapasiteetin. Vähennä kohdennuksia.",
-                "reviewError": "Tarkastus vie enemmän aikaa kuin työ väheni. Näillä oletuksilla ei ole positiivista kapasiteettia.",
-                "cashError": "Säästöt eivät voi ylittää nykykuluja tai saada positiivista arvoa ilman kohdistettuja tunteja.",
-                "hiringError": "Jaetun kapasiteetin tulee kattaa suunnitellut vuokratunnit. Vahvista suunniteltu vuokraus ja sen kesto.",
-                "riskError": "Jälki-todennäköisyys ei voi ylittää tappionvähennysestimaatin ennen todennäköisyyttä.",
-                "overlapError": "Varmista, etteivät hyödyt ole päällekkäisiä, ennen kuin sisällytät ne taloustulokseen.",
+                "throughputResult": "Lisätyö, jolle on kapasiteettia ja kysyntää",
+                "assumptionsIncomplete": "Täydennä valitut oletukset laskeaksesi taloudellisen arvon.",
+                "allocationError": "Kohdistetut tunnit ylittävät vapaan nettokapasiteetin. Vähennä kohdistuksia.",
+                "reviewError": "Tarkistus vie enemmän aikaa kuin vähennetty työ. Näillä oletuksilla positiivista kapasiteettia ei ole.",
+                "cashError": "Vältetyt kulut eivät voi ylittää nykyisiä kuluja tai olla positiivisia ilman kohdistettuja tunteja.",
+                "hiringError": "Kohdistetun kapasiteetin on katettava suunnitellun rekrytoinnin tunnit. Vahvista rekrytointi ja kesto.",
+                "riskError": "Jälkeen-todennäköisyys ei voi ylittää ennen-todennäköisyyttä tappioiden vähennysarviossa.",
+                "overlapError": "Vahvista, ettei hyödyissä ole päällekkäisyyttä ennen tulokseen sisällyttämistä.",
                 "boundsError": "Käytä arvoja näytettyjen rajojen sisällä.",
                 "rangeLabel": "Adjust value",
-                "noCurrencyChange": "Kieli muuttaa muotoilua, ei valuuttaa tai oletuksia.",
+                "noCurrencyChange": "Kieli muuttaa muotoilua, ei valuuttaasi tai oletuksiasi.",
                 "currentPreparation": "Nykyiset valmistelutunnit",
                 "reviewHours": "Ihmisten arvostelutunnit",
                 "reworkHours": "Vältetty tai lisätty uudelleentyötunteja",
@@ -873,8 +988,8 @@
                   "help": "Ihmisen on tarkistettava ehdotus ennen sen näyttämistä kummallekaan."
                 },
                 "cycles_per_unit": {
-                  "label": "Kierrokset/yksikkö/kuukausi",
-                  "help": "Montako tilaus-, tarkistus- tai käsittelykierrosta yksikössä on tavallisesti kuukaudessa."
+                  "label": "Kierroksia/yksikkö/kuukausi",
+                  "help": "Yksikön toistuvien tilaus-, tarkistus- tai käsittelykierrosten määrä tyypillisenä kuukautena."
                 },
                 "tokens_per_output": {
                   "label": "Tokenit per pätevä myyjä",
@@ -882,7 +997,7 @@
                 },
                 "budget": {
                   "label": "Estimated monthly operating budget",
-                  "help": "Sisällytä tokenit, mallit/media, työkalut, infrastruktuuri, Gabriel-maksut ja maksullinen lisätarkastus."
+                  "help": "Sisällytä tokenit, mallit/media, työkalut, infrastruktuuri, Gabriel-maksut ja maksettu lisätarkistus."
                 },
                 "model_cost": {
                   "label": "Lisämallin tai median hinta",
@@ -890,39 +1005,39 @@
                 },
                 "tools_cost": {
                   "label": "Tools and integrations",
-                  "help": "Selainistunnot, liittimet ja muut maksulliset palvelut. Syötä nolla, jos ei yhtään."
+                  "help": "Selainistunnot, liittimet ja muut käyttöperusteiset palvelut. Syötä 0, jos ei ole."
                 },
                 "infrastructure_cost": {
                   "label": "Infrastructure",
-                  "help": "Työkuorman lisäkulut: palvelintila, tallennus ja laskenta. Syötä 0, jos kuluja ei ole."
+                  "help": "Tämän työkuorman lisähosting, -tallennus ja -laskenta. Syötä nolla, jos ei ole."
                 },
                 "platform_cost": {
-                  "label": "Muut toimitus- ja tukikulut",
-                  "help": "Mallinnetut isännöinti-, tallennus-, seuranta- ja tukikustannukset, erillään asiakashinnasta."
+                  "label": "Other delivery and support cost",
+                  "help": "Modeled hosting, storage, monitoring and support cost, separate from the customer price."
                 },
                 "customer_price": {
                   "label": "Proposed monthly Nest price",
                   "help": "Muokattava välittäjän tai välitysliikkeen hintaoletus. Ei varmennettua tuloa; testattava maksullisessa pilotissa."
                 },
                 "personal_value_per_hour": {
-                  "label": "Tunnille antamasi arvo (valinnainen)",
-                  "help": "Vain valinnainen henkilökohtainen vertailu. Tämä ei ole palkkaa tai taattuja käteissäästöjä."
+                  "label": "valinnainen arvo, jonka annat tunnille",
+                  "help": "Vain vapaaehtoinen oma vertailu. Tämä ei ole palkkaa eikä taattua rahallista säästöä."
                 },
                 "review_rate": {
-                  "label": "Maksullinen lisäarviointi tunnissa",
-                  "help": "Todelliset lisätarkistuskulut, eivät ennallaan pysyvän työntekijän palkka."
+                  "label": "Maksettu lisätarkistus tunnilta",
+                  "help": "Todelliset lisätarkistajakulut, ei muuttumattoman työntekijän palkka."
                 },
                 "cash_hours": {
-                  "label": "Palkkatyötä poistavat tunnit",
-                  "help": "Jakaa vain työt, joiden ylityö-, urakoitsija- tai käsittelykulut todella loppuvat."
+                  "label": "Kuluja poistavat tunnit",
+                  "help": "Kohdista vain työtä, jonka ylityö-, alihankinta- tai käsittelykulut todella loppuvat."
                 },
                 "cash_baseline": {
-                  "label": "Nykyiset kuukausikulut kyseiseen työhön",
+                  "label": "Työn nykyiset kuukausikulut",
                   "help": "Kassabudjetti, josta vähennys tulee."
                 },
                 "cash_avoided": {
-                  "label": "Kuukausittaiset menot lopettaisit",
-                  "help": "Yksi summa, ei tunnit × palkka. Jätä pois erikseen syötetty säästö suunnitellun rekrytoinnin välttämisestä."
+                  "label": "Kuukausikulut, jotka lopettaisit",
+                  "help": "Yksi selkeä summa, ei tunnit kertaa palkka; jätä pois erikseen syötetyt suunnitellun rekrytoinnin säästöt."
                 },
                 "higher_value_hours": {
                   "label": "Välittäjien tunnit aitoihin keskusteluihin",
@@ -933,64 +1048,64 @@
                   "help": "Lisätyöpanos ilman kiinteistön arvoa, palkkioita ja jo laskettuja kustannuksia."
                 },
                 "throughput_hours": {
-                  "label": "Lisämäärään käytetyt tunnit",
-                  "help": "Tätä määrärahaa ei voida käyttää myös neuvontatyöhön tai menojen vähentämiseen."
+                  "label": "Lisävolyymiin käytetyt tunnit",
+                  "help": "Tätä kohdistusta ei voi käyttää myös neuvontatyöhön tai kulusäästöihin."
                 },
                 "extra_minutes": {
-                  "label": "Tiimin minuutit lisäyksikköä kohti",
-                  "help": "Yhden lisäyksikön toimittamiseen tarvittava ihmistyö, myös tarkistus."
+                  "label": "Tiimiminuutit lisäyksikköä kohden",
+                  "help": "Jäljellä oleva ihmistyö, tarkistus mukaan lukien, yhden lisäyksikön toimittamiseen."
                 },
                 "demand": {
-                  "label": "Lisäyksiköitä odotetulla kysynnällä",
-                  "help": "Kapasiteetti ei yksin ole kysyntää. Syötä kuukausittain odottamasi lisätyömäärä."
+                  "label": "Lisäyksiköt, joille odotetaan kysyntää",
+                  "help": "Kapasiteetti ei yksin ole kysyntää. Syötä odotettu kuukausittainen lisätyö."
                 },
                 "unit_margin": {
                   "label": "Contribution per additional unit",
-                  "help": "Lisätulot vähennettynä toimituskuluilla; Tekoälyn käyttökustannukset vähennetään erikseen."
+                  "help": "Lisätulot miinus toimituskulut; AI:n käyttökulut vähennetään erikseen."
                 },
                 "hiring_hours": {
-                  "label": "Rekrytointitarpeen kattavat tunnit",
-                  "help": "Varaa kapasiteetti tiettyyn suunniteltuun työhön, älä yleiseen kokoaika-arvioon."
+                  "label": "Suunnitellun rekrytoinnin tunnit",
+                  "help": "Kohdista kapasiteetti tiettyyn suunniteltuun työhön, ei yleiseen henkilötyövuosiarvioon."
                 },
                 "planned_hours": {
-                  "label": "Suunniteltu vuokraus kattaisi kuukausittain",
-                  "help": "Jaetun kapasiteetin tulee kattaa koko tämä työmäärä."
+                  "label": "Kuukausitunnit, jotka rekrytointi kattaisi",
+                  "help": "Kohdistetun kapasiteetin on katettava koko työkuorma."
                 },
                 "hire_cost": {
-                  "label": "Kuukausivuokra todellisuudessa lykätty",
-                  "help": "Käytä aidosti suunnitellun vuokrauksen kustannuksia, älä jonkun jo työssä olevan palkkaa."
+                  "label": "Lykätty rekrytointikulu kuukaudessa",
+                  "help": "Käytä todella suunnitellun rekrytoinnin kustannusta, ei jo palkatun henkilön palkkaa."
                 },
                 "hire_months": {
-                  "label": "Kuukausien vuokraa lykätään",
-                  "help": "1–12 kuukautta; vuosiarvio ei laske säästöjä tämän jakson jälkeen."
+                  "label": "Lykkäyksen kesto kuukausina",
+                  "help": "Yhdestä kahteentoista kuukauteen; vuosiarvio ei laske säästöjä jakson jälkeen."
                 },
                 "incidents": {
-                  "label": "Arvio vältetyistä virheistä/kuukausi",
-                  "help": "Käytä lähtötasoa ja arvioitua vähennystä. Ohita jo riskien vähenemiseen lasketut tapahtumat."
+                  "label": "Odotetut vältetyt virheet kuussa",
+                  "help": "Käytä lähtötasoasi ja odotettua vähennystä. Jätä pois myös riskinvähennykseen lasketut tapaukset."
                 },
                 "incident_cost": {
                   "label": "Incremental cost per error",
-                  "help": "Ohita muualle jo lasketut työvoimakulut, hyvitykset ja muut tappiot."
+                  "help": "Jätä pois työkulut, hyvitykset ja muut muualla jo lasketut tappiot."
                 },
                 "probability_before": {
                   "label": "Monthly loss probability before",
-                  "help": "Sinun arviosi, ei taattu riskiarvio."
+                  "help": "Oma arviosi, ei taattu riskinarvio."
                 },
                 "probability_after": {
                   "label": "Monthly loss probability after",
-                  "help": "Käytä lähtötason tapahtumaa ja samaa kuukauden tarkastelujaksoa."
+                  "help": "Käytä samaa tapahtumaa ja kuukauden aikajännettä kuin lähtötaso."
                 },
                 "loss": {
-                  "label": "Tapahtuman mahdollinen tappio",
-                  "help": "Sulje pois virhetapahtumat ja jo lasketut kulut. Tämä on epävarma odotusarvo, ei säästetty käteinen."
+                  "label": "Tapahtuman tappioaltistus",
+                  "help": "Jätä pois jo lasketut virhetapaukset ja kulut. Tämä on epävarma odotusarvo, ei säästettyä rahaa."
                 },
                 "days_before": {
-                  "label": "Kiertoaika ennen päiviä",
-                  "help": "Kulunut aika alusta loppuun, erillään käytännön työstä."
+                  "label": "Läpimenoaika ennen (pv)",
+                  "help": "Kulunut aika alusta valmistumiseen, erillään varsinaisesta työpanoksesta."
                 },
                 "days_after": {
-                  "label": "Jakson jälkeen, päivinä",
-                  "help": "Näytetään vain toiminnallisena muutoksena, ilman oletettua rahallista arvoa."
+                  "label": "Läpimenoaika jälkeen (pv)",
+                  "help": "Näytetään vain toiminnallisena muutoksena ilman oletettua rahallista arvoa."
                 }
               },
               "burden": [
@@ -1001,35 +1116,6 @@
                 "More qualified, human-reviewed introductions",
                 "Aikaa agenttikeskusteluihin ja asiakastarpeisiin"
               ],
-              "usagePackages": {
-                "base": {
-                  "volume": 1,
-                  "tokensPerOutput": 12000,
-                  "platform_cost": 450,
-                  "minutes": 25,
-                  "automation": 100,
-                  "review": 10,
-                  "model_cost": 0,
-                  "tools_cost": 0,
-                  "infrastructure_cost": 0,
-                  "higher_value_hours": 0,
-                  "contribution_rate": 0
-                },
-                "medium": {
-                  "volume": 1,
-                  "tokensPerOutput": 12000,
-                  "platform_cost": 750,
-                  "minutes": 25,
-                  "automation": 100,
-                  "review": 10,
-                  "model_cost": 0,
-                  "tools_cost": 0,
-                  "infrastructure_cost": 0,
-                  "higher_value_hours": 0,
-                  "contribution_rate": 0
-                }
-              },
-              "defaultPackage": "medium",
               "costMode": "itemized",
               "reviewMode": "team",
               "selected": [
@@ -1097,8 +1183,7 @@
               ],
               "pricing": {
                 "basis": "fixed",
-                "annualPrice": 9000,
-                "label": "Proposed Nest monthly price",
+                "label": "hinnoittelu",
                 "help": "Työhypoteesi 750 €/kk pätevälle perehdytyslentäjälle. Käsittele vahvistamattomana, kunnes agentti tai välitys maksaa."
               },
               "presentation": {
@@ -1111,8 +1196,153 @@
               "primaryLabel": "Talk with Nest",
               "primaryTarget": "meet",
               "secondaryLabel": "See how it works",
-              "privacyNote": "Tietosi pysyvät yksityisinä. Tunnit ovat kapasiteettia. Rahasummat ovat malliarvioita, eivät toteutuneita tuloksia.",
+              "privacyNote": "Tietosi pysyvät yksityisinä. Tunnit ovat kapasiteettia. Rahasummat ovat mallinnettuja arvioita, eivät toteumia.",
               "secondaryTarget": "how-it-works"
+            },
+            "compact": {
+              "schemaVersion": 1,
+              "defaultProfileId": "seller",
+              "copy": {
+                "navLabel": "hinnoittelu",
+                "heading": "Hinta ja ROI",
+                "intro": "Omat tietosi. Arvioitu tuottosi.",
+                "monthly": "kk",
+                "weekly": "Viikko",
+                "daily": "Päivä",
+                "cost": "Maksat",
+                "benefit": "Arvioitu tuotto",
+                "net": "Nettohyöty",
+                "roi": "Arvioitu ROI",
+                "timeBenefit": "Arvioitu ajan arvo",
+                "timeRoi": "Ajan arvon ROI",
+                "timeBack": "Säästetyt tunnit",
+                "missing": "Lisää tietosi",
+                "noRatio": "Not applicable",
+                "method": "Näin se lasketaan",
+                "reset": "Nollaa",
+                "audience": "Yleisö",
+                "includedVat": "Sisältää ALV:n",
+                "excludedVat": "Ilman ALV:tä",
+                "perMonth": "kuukaudessa",
+                "equivalents": "Kuukausilaskutus. Päivä- ja viikkoluvut ovat keskiarvoja, eivät päivä- tai viikkomaksuja tai tuottotakuita.",
+                "timeNote": "Ajan arvo on vapaaehtoinen arviosi, ei saatua rahaa tai palkkakulujen laskua. Nettominuutit sisältävät tarkistus- ja hyväksymisaikasi.",
+                "estimateNote": "Suunnitteluarvio ei ole mitattu ROI. Mitattu tuotto perustuu vain hyväksyttyihin tuloksiin ja vertailukelpoisiin kirjattuihin kuluihin.",
+                "limitNote": "Lisäkäytöstä ja erikseen hinnoiteltavasta työstä ota yhteyttä. Arvio kattaa vain paketin sisällön.",
+                "timeFormula": "Ajan arvo = yksiköt × säästyneet nettominuutit ÷ 60 × tuntisi arvo.",
+                "profitFormula": "Myyntikate = ehdot täyttävät suosittelukerrat × konversion kasvu ÷ 100 × lisätilauksen kate.",
+                "proceedsFormula": "Lisätuotto = erät tai noudot × (nettotuotto jälkeen − nettotuotto ennen).",
+                "roiFormula": "Netto = hyöty − tilaushinta. ROI = netto ÷ tilaushinta × 100. Ilmaispaketeilla ei ole ROI-prosenttia."
+              },
+              "profiles": [
+                {
+                  "id": "buyer",
+                  "label": "Välittäjän tila · ostajakoosteet",
+                  "model": "time_value",
+                  "unitsPerWorkload": 1,
+                  "inputs": [
+                    {
+                      "id": "units",
+                      "label": "Kelpuutettuja koosteita / kk",
+                      "help": "Kuukaudessa tarkistettavaksi arvioimasi työ pakettiin sisältyvissä rajoissa.",
+                      "defaultValue": 20,
+                      "min": 0,
+                      "max": 20,
+                      "step": 1,
+                      "format": "number"
+                    },
+                    {
+                      "id": "minutes_saved",
+                      "label": "Minuuttisäästö",
+                      "help": "Arviosi tarkistuksen, hyväksynnän ja korjausten jälkeen. Negatiivinen arvo tarkoittaa lisätyötä.",
+                      "defaultValue": 12,
+                      "min": -1440,
+                      "max": 1440,
+                      "step": 0.1,
+                      "format": "number"
+                    },
+                    {
+                      "id": "hourly_value",
+                      "label": "Tunnin arvo",
+                      "help": "Oma vapaaehtoinen arviosi. Ei lupaus rahallisesta säästöstä tai palkkakulujen laskusta.",
+                      "defaultValue": null,
+                      "min": 0,
+                      "max": 1000,
+                      "step": 0.01,
+                      "format": "currency"
+                    }
+                  ],
+                  "offer": {
+                    "monthlyPrice": 49,
+                    "basis": "fixed",
+                    "unit": "Välittäjän tila · ostajakoosteet",
+                    "vatIncluded": false,
+                    "includedUnits": 20,
+                    "allowance": "20 pätevää briifiä",
+                    "extras": "Lisäkäytöstä ja asiantuntijapalveluista annetaan erillinen tarjous."
+                  },
+                  "assumptions": [
+                    "Alustavat 12 nettominuuttia ovat havainnollistava valmisteluarvio, eivät mitattu tulos.",
+                    "Nettominuutit sisältävät asiakkaan tarkistuksen. Ajan rahallisen arvon määrität itse; se ei ole saatua rahaa."
+                  ],
+                  "loop": "Kohde- tai ostoaiesignaali → lähdekoosteen kelpuutus → välittäjän tarkistus ja osapuolten suostumus → hyväksytyn esittelyn ja toteutuneen tuloksen kirjaus.",
+                  "ctaLabel": "Kokeile demoa",
+                  "ctaTarget": "meet"
+                },
+                {
+                  "id": "seller",
+                  "label": "Välittäjän tila · myyjäkoosteet",
+                  "model": "time_value",
+                  "unitsPerWorkload": 1,
+                  "inputs": [
+                    {
+                      "id": "units",
+                      "label": "Kelpuutettuja koosteita / kk",
+                      "help": "Kuukaudessa tarkistettavaksi arvioimasi työ pakettiin sisältyvissä rajoissa.",
+                      "defaultValue": 20,
+                      "min": 0,
+                      "max": 20,
+                      "step": 1,
+                      "format": "number"
+                    },
+                    {
+                      "id": "minutes_saved",
+                      "label": "Minuuttisäästö",
+                      "help": "Arviosi tarkistuksen, hyväksynnän ja korjausten jälkeen. Negatiivinen arvo tarkoittaa lisätyötä.",
+                      "defaultValue": 12,
+                      "min": -1440,
+                      "max": 1440,
+                      "step": 0.1,
+                      "format": "number"
+                    },
+                    {
+                      "id": "hourly_value",
+                      "label": "Tunnin arvo",
+                      "help": "Oma vapaaehtoinen arviosi. Ei lupaus rahallisesta säästöstä tai palkkakulujen laskusta.",
+                      "defaultValue": null,
+                      "min": 0,
+                      "max": 1000,
+                      "step": 0.01,
+                      "format": "currency"
+                    }
+                  ],
+                  "offer": {
+                    "monthlyPrice": 49,
+                    "basis": "fixed",
+                    "unit": "Välittäjän tila · myyjäkoosteet",
+                    "vatIncluded": false,
+                    "includedUnits": 20,
+                    "allowance": "20 pätevää briifiä",
+                    "extras": "Lisäkäytöstä ja asiantuntijapalveluista annetaan erillinen tarjous."
+                  },
+                  "assumptions": [
+                    "Alustavat 12 nettominuuttia ovat havainnollistava valmisteluarvio, eivät mitattu tulos.",
+                    "Nettominuutit sisältävät asiakkaan tarkistuksen. Ajan rahallisen arvon määrität itse; se ei ole saatua rahaa."
+                  ],
+                  "loop": "Kohde- tai ostoaiesignaali → lähdekoosteen kelpuutus → välittäjän tarkistus ja osapuolten suostumus → hyväksytyn esittelyn ja toteutuneen tuloksen kirjaus.",
+                  "ctaLabel": "Kokeile demoa",
+                  "ctaTarget": "meet"
+                }
+              ]
             }
           },
           "leadScan": {
@@ -1321,24 +1551,24 @@
       "methodologyVersion": 2,
       "enabled": true,
       "kicker": "Business impact",
-      "heading": "ROI Calculator",
-      "subheading": "Mallinna luvanvarainen kakkosasuntovälittäjä, joka käyttää Nestiä sopivien, ihmisen tarkistamien kontaktien luomiseen paikallisesti.",
-      "disclaimer": "Mallillinen toimintaskenaario, jossa ei ole vahvistettua maksettua kysyntää. Nest pätevöittää ja koordinoi hyväksytyt esittelyt; se ei edusta osapuolia, arvosta omaisuutta, neuvottele, ansaitse palkkioita tai takaa liiketoimia.",
+      "heading": "Hinta ja ROI",
+      "subheading": "Omat tietosi. Arvioitu tuottosi.",
+      "disclaimer": "Suunnitteluarvio ei ole mitattu ROI. Mitattu tuotto perustuu vain hyväksyttyihin tuloksiin ja vertailukelpoisiin kirjattuihin kuluihin.",
       "currency": "EUR",
       "currencyCopy": {
         "native": "Amounts in {currency}.",
         "loading": "Checking the local currency. Amounts remain in {currency} until a rate is available.",
         "unavailable": "A current local exchange rate is unavailable. Amounts remain in {currency}.",
         "converted": "Amounts converted from {base} to {currency} using the reference rate dated {date}.",
-        "basis": "Valuutan muuntaminen ei ole paikallisten kustannusten tutkimusta. Syötä omat paikalliset kustannukset ja maksuolettamasi. Kielimuutokset eivät muuta määriä."
+        "basis": "Valuuttamuunnos ei ole paikallista kustannustutkimusta. Syötä omat paikalliset kustannuksesi ja kateoletuksesi. Kielen vaihto ei muuta summia."
       },
       "costCopy": {
-        "breakdown": "Mistä tekoälyn kokonaiskulu syntyy",
+        "breakdown": "Näin AI-kokonaiskulu muodostuu",
         "perUnit": "{amount} per work unit (average)",
-        "budgetOnly": "Tämä on kokonaisbudjettisi. Vaihda kustannuserittelyyn eritteleksesi sen; eroa ei ole oletettu.",
-        "benefitNotice": "Mallinnetut edut, ei maksut. Yliviivatut summat ovat menoja, joita aiot välttää, eivät alennuksia tekoälylaskusta.",
+        "budgetOnly": "Tämä on kokonaisbudjettisi. Erittele se Kustannuserittely-näkymässä; jakoa ei ole oletettu.",
+        "benefitNotice": "Mallinnettuja hyötyjä, ei maksuja. Yliviivatut summat ovat kuluja, joita odotat välttäväsi, eivät alennuksia AI-laskusta.",
         "remainder": "Other included operating costs",
-        "allocation": "Vapautuvat tunnit ovat kapasiteettia, eivät suoria säästöjä. Rahallisen arvon saavat vain osuudet, jotka kohdistat todellisiin kululeikkauksiin tai lisäkatteen tuottamiseen."
+        "allocation": "Vapautuneet tunnit ovat kapasiteettia, eivät automaattisia säästöjä. Rahallinen arvo annetaan vain osuuksille, jotka kohdistat todellisiin kulusäästöihin tai lisäkatteeseen."
       },
       "locale": "en-GB",
       "inputs": [],
@@ -1357,17 +1587,17 @@
           "platform_cost": 1500,
           "higher_value_hours": 0,
           "contribution_rate": 0,
-          "customer_price": 750
+          "customer_price": 49
         },
         "copy": {
-          "navLabel": "Hinnoittelu",
+          "navLabel": "hinnoittelu",
           "workloadStep": "Introduction funnel",
           "costStep": "AI operating cost",
           "valueStep": "Capacity and evidence",
           "workloadIntro": "Mallinna kakkosasuntoliidejä, soveltuvuutta ja ihmistarkistusta, älä asuntokauppoja, palkkioita tai taattuja osumia.",
           "costIntro": "Token-, malli-, työkalu-, infrastruktuuri-, alusta- ja arvioijan kustannukset ovat toimitusoletuksia. Nest hinta on erillinen vahvistamaton hypoteesi.",
           "valueIntro": "Kapasiteetti ei ole tuloa. Syötä havaittu osuus vasta sen jälkeen, kun todellinen agentti tai välitys käyttää ja maksaa palvelua.",
-          "sampleNotice": "Tyypillinen käyttö · ei tuloshavaintoja",
+          "sampleNotice": "Tyypillinen käyttö · ei toteumia",
           "monthly": "Monthly",
           "yearly": "Yearly",
           "next": "Continue",
@@ -1392,11 +1622,11 @@
           "reviewMode": "Who handles the review?",
           "teamReview": "Existing team",
           "paidReview": "Additional paid reviewer",
-          "reviewNote": "Tiimin tarkistus käyttää vapautunutta kapasiteettia. Maksullinen lisätarkistus kuuluu käyttökuluihin eikä vähennä tiimin kapasiteettia uudelleen.",
+          "reviewNote": "Oman tiimin tarkistus vie vapautunutta kapasiteettia. Maksettu lisätarkistus sisältyy käyttökuluihin eikä vähennä tiimin kapasiteettia uudelleen.",
           "totalMode": "Monthly budget",
           "itemizedMode": "Cost breakdown",
-          "budgetNote": "Budjetoi mallit/media, työkalut, infrastruktuuri, Gabriel-maksut ja maksullinen lisätarkistus. Älä laske ennallaan pysyviä palkkakuluja uusiksi menoiksi.",
-          "itemizedNote": "Tokenkäyttö = määrä × tokenit/tuotos. Lisämedia, työkalut ja infrastruktuuri ovat nollassa, ellei niitä tarvita. Maksullinen lisätarkistus lasketaan tarkistustunneista ja tuntihinnasta.",
+          "budgetNote": "Budjettiin kuuluvat mallit/media, työkalut, infrastruktuuri, Gabriel-maksut ja maksettu lisätarkistus. Älä laske muuttumattomia palkkoja uusiksi kuluiksi.",
+          "itemizedNote": "Tokenien käyttö lasketaan: määrä × tokenit tuotosta kohden. Lisämedia, työkalut ja infrastruktuuri pysyvät nollassa, ellei niitä tarvita. Maksettu lisätarkistus lasketaan tarkistustunneista ja niiden hinnasta.",
           "paidReviewCost": "Additional paid review cost",
           "allInCost": "Operating cost",
           "missing": "Add your assumptions",
@@ -1409,32 +1639,32 @@
           "multiple": "Internal delivery multiple",
           "customerBenefit": "Modeled agent benefit",
           "customerRoi": "Modeled customer ROI",
-          "payback": "Customer payback period",
+          "payback": "Asiakkaan kuoletusaika",
           "notApplicable": "Not applicable",
           "annual": "Annual view",
-          "annualNote": "Samat kuukausittaiset oletukset ilman kasvua tai yhdistelyä. Palkkaussäästöt kestävät vain syötetylle ajanjaksolle.",
+          "annualNote": "Samat kuukausioletukset ilman kasvua tai korkoa korolle. Rekrytointisäästöt kestävät vain syötetyn jakson.",
           "method": "How this is calculated",
           "burdenHeading": "Repetitive work reduced",
           "opportunityHeading": "Capacity for higher-value work",
-          "methodBody": "Poistuva työkuorma (negatiivinen tuottavuus) vapauttaa kapasiteettia. Arvokkaampi työ (mahdollinen positiivinen tuottavuus) luo talousarvoa vain kapasiteettia käytettäessä. Tunnit eivät ole rahasäästöä. Tokenkulu perustuu syöte- ja tuotostokenien malliin, ei toimittajan tarjoukseen.",
+          "methodBody": "Poistettu työkuorma (negatiivinen tuottavuus) vapauttaa kapasiteettia. Arvokkaampi työ (mahdollinen positiivinen tuottavuus) luo arvoa vain, jos kapasiteetti käytetään. Tunnit eivät yksin ole kassasäästöjä. Tokenkulu perustuu mallinnettuun syöte/tuotos-jakaumaan, ei tarjoajan hintaan.",
           "formulaLabel": "Sopivat koosteet = liidit × kelpuutusaste. Toimituskulu sisältää mallinnetut token-, malli-, työkalu-, infrastruktuuri-, alusta- ja ihmistarkistuskulut. Asiakkaan ROI ei ole saatavilla ennen kuin hyödystä ja hinnasta on näyttöä.",
-          "allocationNote": "Tunnin voi kohdentaa vain kerran. Kohdentamattomat tunnit ovat kapasiteettia ilman raha-arvoa.",
-          "overlapLabel": "Nämä edut ovat erilaisia; Olen jättänyt pois muualla jo lasketut kulut ja tappiot.",
-          "overlapNote": "Virhe- ja riskiarviot eivät sisällä työvoiman säästöjä, eikä sama tapaus saa esiintyä molemmissa luokissa. Maksu ei sisällä tekoälykuluja, jotka vähennetään erikseen.",
-          "hiringLabel": "Tämä vuokraus oli aidosti suunniteltu ja jaettu kapasiteetti riittää kattamaan työn.",
-          "reviewedLabel": "Olen tarkistanut tulokset; valitsemattomilla tuloksilla ei ole taloudellista arvoa tässä arviossa.",
+          "allocationNote": "Tunnin voi kohdistaa kerran. Kohdistamattomat tunnit ovat kapasiteettia ilman rahallista arvoa.",
+          "overlapLabel": "Nämä hyödyt ovat erillisiä; olen jättänyt pois muualla jo lasketut kulut ja tappiot.",
+          "overlapNote": "Virhe- ja riskiarviot eivät sisällä työvoimasäästöjä, eikä sama tapahtuma saa esiintyä molemmissa luokissa. Kate ei sisällä AI-kuluja, jotka vähennetään erikseen.",
+          "hiringLabel": "Rekrytointi oli todella suunniteltu, ja kohdistettu kapasiteetti voi kattaa työn.",
+          "reviewedLabel": "Olen tarkistanut tulokseni; valitsemattomilla tuloksilla ei ole rahallista arvoa tässä arviossa.",
           "cycleResult": "Cycle-time improvement",
-          "throughputResult": "Lisätyötä kapasiteetin ja kysynnän tukemana",
-          "assumptionsIncomplete": "Täydennä valitut oletukset taloudellisen arvon laskemiseksi.",
-          "allocationError": "Kohdennetut tunnit ylittävät nettokapasiteetin. Vähennä kohdennuksia.",
-          "reviewError": "Tarkastus vie enemmän aikaa kuin työ väheni. Näillä oletuksilla ei ole positiivista kapasiteettia.",
-          "cashError": "Säästöt eivät voi ylittää nykykuluja tai saada positiivista arvoa ilman kohdistettuja tunteja.",
-          "hiringError": "Jaetun kapasiteetin tulee kattaa suunnitellut vuokratunnit. Vahvista suunniteltu vuokraus ja sen kesto.",
-          "riskError": "Jälki-todennäköisyys ei voi ylittää tappionvähennysestimaatin ennen todennäköisyyttä.",
-          "overlapError": "Varmista, etteivät hyödyt ole päällekkäisiä, ennen kuin sisällytät ne taloustulokseen.",
+          "throughputResult": "Lisätyö, jolle on kapasiteettia ja kysyntää",
+          "assumptionsIncomplete": "Täydennä valitut oletukset laskeaksesi taloudellisen arvon.",
+          "allocationError": "Kohdistetut tunnit ylittävät vapaan nettokapasiteetin. Vähennä kohdistuksia.",
+          "reviewError": "Tarkistus vie enemmän aikaa kuin vähennetty työ. Näillä oletuksilla positiivista kapasiteettia ei ole.",
+          "cashError": "Vältetyt kulut eivät voi ylittää nykyisiä kuluja tai olla positiivisia ilman kohdistettuja tunteja.",
+          "hiringError": "Kohdistetun kapasiteetin on katettava suunnitellun rekrytoinnin tunnit. Vahvista rekrytointi ja kesto.",
+          "riskError": "Jälkeen-todennäköisyys ei voi ylittää ennen-todennäköisyyttä tappioiden vähennysarviossa.",
+          "overlapError": "Vahvista, ettei hyödyissä ole päällekkäisyyttä ennen tulokseen sisällyttämistä.",
           "boundsError": "Käytä arvoja näytettyjen rajojen sisällä.",
           "rangeLabel": "Adjust value",
-          "noCurrencyChange": "Kieli muuttaa muotoilua, ei valuuttaa tai oletuksia.",
+          "noCurrencyChange": "Kieli muuttaa muotoilua, ei valuuttaasi tai oletuksiasi.",
           "currentPreparation": "Nykyiset valmistelutunnit",
           "reviewHours": "Ihmisten arvostelutunnit",
           "reworkHours": "Vältetty tai lisätty uudelleentyötunteja",
@@ -1474,8 +1704,8 @@
             "help": "Ihmisen on tarkistettava ehdotus ennen sen näyttämistä kummallekaan."
           },
           "cycles_per_unit": {
-            "label": "Kierrokset/yksikkö/kuukausi",
-            "help": "Montako tilaus-, tarkistus- tai käsittelykierrosta yksikössä on tavallisesti kuukaudessa."
+            "label": "Kierroksia/yksikkö/kuukausi",
+            "help": "Yksikön toistuvien tilaus-, tarkistus- tai käsittelykierrosten määrä tyypillisenä kuukautena."
           },
           "tokens_per_output": {
             "label": "Tokenit per pätevä ostaja",
@@ -1483,7 +1713,7 @@
           },
           "budget": {
             "label": "Estimated monthly operating budget",
-            "help": "Sisällytä tokenit, mallit/media, työkalut, infrastruktuuri, Gabriel-maksut ja maksullinen lisätarkastus."
+            "help": "Sisällytä tokenit, mallit/media, työkalut, infrastruktuuri, Gabriel-maksut ja maksettu lisätarkistus."
           },
           "model_cost": {
             "label": "Lisämallin tai median hinta",
@@ -1491,39 +1721,39 @@
           },
           "tools_cost": {
             "label": "Tools and integrations",
-            "help": "Selainistunnot, liittimet ja muut maksulliset palvelut. Syötä nolla, jos ei yhtään."
+            "help": "Selainistunnot, liittimet ja muut käyttöperusteiset palvelut. Syötä 0, jos ei ole."
           },
           "infrastructure_cost": {
             "label": "Infrastructure",
-            "help": "Työkuorman lisäkulut: palvelintila, tallennus ja laskenta. Syötä 0, jos kuluja ei ole."
+            "help": "Tämän työkuorman lisähosting, -tallennus ja -laskenta. Syötä nolla, jos ei ole."
           },
           "platform_cost": {
-            "label": "Muut toimitus- ja tukikulut",
-            "help": "Mallinnetut isännöinti-, tallennus-, seuranta- ja tukikustannukset, erillään asiakashinnasta."
+            "label": "Other delivery and support cost",
+            "help": "Modeled hosting, storage, monitoring and support cost, separate from the customer price."
           },
           "customer_price": {
             "label": "Proposed monthly Nest price",
             "help": "Muokattava välittäjän tai välitysliikkeen hintaoletus. Ei varmennettua tuloa; testattava maksullisessa pilotissa."
           },
           "personal_value_per_hour": {
-            "label": "Tunnille antamasi arvo (valinnainen)",
-            "help": "Vain valinnainen henkilökohtainen vertailu. Tämä ei ole palkkaa tai taattuja käteissäästöjä."
+            "label": "valinnainen arvo, jonka annat tunnille",
+            "help": "Vain vapaaehtoinen oma vertailu. Tämä ei ole palkkaa eikä taattua rahallista säästöä."
           },
           "review_rate": {
-            "label": "Maksullinen lisäarviointi tunnissa",
-            "help": "Todelliset lisätarkistuskulut, eivät ennallaan pysyvän työntekijän palkka."
+            "label": "Maksettu lisätarkistus tunnilta",
+            "help": "Todelliset lisätarkistajakulut, ei muuttumattoman työntekijän palkka."
           },
           "cash_hours": {
-            "label": "Palkkatyötä poistavat tunnit",
-            "help": "Jakaa vain työt, joiden ylityö-, urakoitsija- tai käsittelykulut todella loppuvat."
+            "label": "Kuluja poistavat tunnit",
+            "help": "Kohdista vain työtä, jonka ylityö-, alihankinta- tai käsittelykulut todella loppuvat."
           },
           "cash_baseline": {
-            "label": "Nykyiset kuukausikulut kyseiseen työhön",
+            "label": "Työn nykyiset kuukausikulut",
             "help": "Kassabudjetti, josta vähennys tulee."
           },
           "cash_avoided": {
-            "label": "Kuukausittaiset menot lopettaisit",
-            "help": "Yksi summa, ei tunnit × palkka. Jätä pois erikseen syötetty säästö suunnitellun rekrytoinnin välttämisestä."
+            "label": "Kuukausikulut, jotka lopettaisit",
+            "help": "Yksi selkeä summa, ei tunnit kertaa palkka; jätä pois erikseen syötetyt suunnitellun rekrytoinnin säästöt."
           },
           "higher_value_hours": {
             "label": "Välittäjien tunnit aitoihin keskusteluihin",
@@ -1534,64 +1764,64 @@
             "help": "Lisätyöpanos ilman kiinteistön arvoa, palkkioita ja jo laskettuja kustannuksia."
           },
           "throughput_hours": {
-            "label": "Lisämäärään käytetyt tunnit",
-            "help": "Tätä määrärahaa ei voida käyttää myös neuvontatyöhön tai menojen vähentämiseen."
+            "label": "Lisävolyymiin käytetyt tunnit",
+            "help": "Tätä kohdistusta ei voi käyttää myös neuvontatyöhön tai kulusäästöihin."
           },
           "extra_minutes": {
-            "label": "Tiimin minuutit lisäyksikköä kohti",
-            "help": "Yhden lisäyksikön toimittamiseen tarvittava ihmistyö, myös tarkistus."
+            "label": "Tiimiminuutit lisäyksikköä kohden",
+            "help": "Jäljellä oleva ihmistyö, tarkistus mukaan lukien, yhden lisäyksikön toimittamiseen."
           },
           "demand": {
-            "label": "Lisäyksiköitä odotetulla kysynnällä",
-            "help": "Kapasiteetti ei yksin ole kysyntää. Syötä kuukausittain odottamasi lisätyömäärä."
+            "label": "Lisäyksiköt, joille odotetaan kysyntää",
+            "help": "Kapasiteetti ei yksin ole kysyntää. Syötä odotettu kuukausittainen lisätyö."
           },
           "unit_margin": {
             "label": "Contribution per additional unit",
-            "help": "Lisätulot vähennettynä toimituskuluilla; Tekoälyn käyttökustannukset vähennetään erikseen."
+            "help": "Lisätulot miinus toimituskulut; AI:n käyttökulut vähennetään erikseen."
           },
           "hiring_hours": {
-            "label": "Rekrytointitarpeen kattavat tunnit",
-            "help": "Varaa kapasiteetti tiettyyn suunniteltuun työhön, älä yleiseen kokoaika-arvioon."
+            "label": "Suunnitellun rekrytoinnin tunnit",
+            "help": "Kohdista kapasiteetti tiettyyn suunniteltuun työhön, ei yleiseen henkilötyövuosiarvioon."
           },
           "planned_hours": {
-            "label": "Suunniteltu vuokraus kattaisi kuukausittain",
-            "help": "Jaetun kapasiteetin tulee kattaa koko tämä työmäärä."
+            "label": "Kuukausitunnit, jotka rekrytointi kattaisi",
+            "help": "Kohdistetun kapasiteetin on katettava koko työkuorma."
           },
           "hire_cost": {
-            "label": "Kuukausivuokra todellisuudessa lykätty",
-            "help": "Käytä aidosti suunnitellun vuokrauksen kustannuksia, älä jonkun jo työssä olevan palkkaa."
+            "label": "Lykätty rekrytointikulu kuukaudessa",
+            "help": "Käytä todella suunnitellun rekrytoinnin kustannusta, ei jo palkatun henkilön palkkaa."
           },
           "hire_months": {
-            "label": "Kuukausien vuokraa lykätään",
-            "help": "1–12 kuukautta; vuosiarvio ei laske säästöjä tämän jakson jälkeen."
+            "label": "Lykkäyksen kesto kuukausina",
+            "help": "Yhdestä kahteentoista kuukauteen; vuosiarvio ei laske säästöjä jakson jälkeen."
           },
           "incidents": {
-            "label": "Arvio vältetyistä virheistä/kuukausi",
-            "help": "Käytä lähtötasoa ja arvioitua vähennystä. Ohita jo riskien vähenemiseen lasketut tapahtumat."
+            "label": "Odotetut vältetyt virheet kuussa",
+            "help": "Käytä lähtötasoasi ja odotettua vähennystä. Jätä pois myös riskinvähennykseen lasketut tapaukset."
           },
           "incident_cost": {
             "label": "Incremental cost per error",
-            "help": "Ohita muualle jo lasketut työvoimakulut, hyvitykset ja muut tappiot."
+            "help": "Jätä pois työkulut, hyvitykset ja muut muualla jo lasketut tappiot."
           },
           "probability_before": {
             "label": "Monthly loss probability before",
-            "help": "Sinun arviosi, ei taattu riskiarvio."
+            "help": "Oma arviosi, ei taattu riskinarvio."
           },
           "probability_after": {
             "label": "Monthly loss probability after",
-            "help": "Käytä lähtötason tapahtumaa ja samaa kuukauden tarkastelujaksoa."
+            "help": "Käytä samaa tapahtumaa ja kuukauden aikajännettä kuin lähtötaso."
           },
           "loss": {
-            "label": "Tapahtuman mahdollinen tappio",
-            "help": "Sulje pois virhetapahtumat ja jo lasketut kulut. Tämä on epävarma odotusarvo, ei säästetty käteinen."
+            "label": "Tapahtuman tappioaltistus",
+            "help": "Jätä pois jo lasketut virhetapaukset ja kulut. Tämä on epävarma odotusarvo, ei säästettyä rahaa."
           },
           "days_before": {
-            "label": "Kiertoaika ennen päiviä",
-            "help": "Kulunut aika alusta loppuun, erillään käytännön työstä."
+            "label": "Läpimenoaika ennen (pv)",
+            "help": "Kulunut aika alusta valmistumiseen, erillään varsinaisesta työpanoksesta."
           },
           "days_after": {
-            "label": "Jakson jälkeen, päivinä",
-            "help": "Näytetään vain toiminnallisena muutoksena, ilman oletettua rahallista arvoa."
+            "label": "Läpimenoaika jälkeen (pv)",
+            "help": "Näytetään vain toiminnallisena muutoksena ilman oletettua rahallista arvoa."
           }
         },
         "burden": [
@@ -1602,35 +1832,6 @@
           "More qualified, human-reviewed introductions",
           "Aikaa agenttikeskusteluihin ja asiakastarpeisiin"
         ],
-        "usagePackages": {
-          "base": {
-            "volume": 1,
-            "tokensPerOutput": 12000,
-            "platform_cost": 450,
-            "minutes": 20,
-            "automation": 100,
-            "review": 8,
-            "model_cost": 0,
-            "tools_cost": 0,
-            "infrastructure_cost": 0,
-            "higher_value_hours": 0,
-            "contribution_rate": 0
-          },
-          "medium": {
-            "volume": 1,
-            "tokensPerOutput": 12000,
-            "platform_cost": 750,
-            "minutes": 20,
-            "automation": 100,
-            "review": 8,
-            "model_cost": 0,
-            "tools_cost": 0,
-            "infrastructure_cost": 0,
-            "higher_value_hours": 0,
-            "contribution_rate": 0
-          }
-        },
-        "defaultPackage": "medium",
         "costMode": "itemized",
         "reviewMode": "team",
         "selected": [
@@ -1698,8 +1899,7 @@
         ],
         "pricing": {
           "basis": "fixed",
-          "annualPrice": 9000,
-          "label": "Proposed Nest monthly price",
+          "label": "hinnoittelu",
           "help": "Työhypoteesi 750 €/kk pätevälle perehdytyslentäjälle. Käsittele vahvistamattomana, kunnes agentti tai välitys maksaa."
         },
         "presentation": {
@@ -1712,8 +1912,153 @@
         "primaryLabel": "Talk with Nest",
         "primaryTarget": "meet",
         "secondaryLabel": "See how it works",
-        "privacyNote": "Tietosi pysyvät yksityisinä. Tunnit ovat kapasiteettia. Rahasummat ovat malliarvioita, eivät toteutuneita tuloksia.",
+        "privacyNote": "Tietosi pysyvät yksityisinä. Tunnit ovat kapasiteettia. Rahasummat ovat mallinnettuja arvioita, eivät toteumia.",
         "secondaryTarget": "how-it-works"
+      },
+      "compact": {
+        "schemaVersion": 1,
+        "defaultProfileId": "buyer",
+        "copy": {
+          "navLabel": "hinnoittelu",
+          "heading": "Hinta ja ROI",
+          "intro": "Omat tietosi. Arvioitu tuottosi.",
+          "monthly": "kk",
+          "weekly": "Viikko",
+          "daily": "Päivä",
+          "cost": "Maksat",
+          "benefit": "Arvioitu tuotto",
+          "net": "Nettohyöty",
+          "roi": "Arvioitu ROI",
+          "timeBenefit": "Arvioitu ajan arvo",
+          "timeRoi": "Ajan arvon ROI",
+          "timeBack": "Säästetyt tunnit",
+          "missing": "Lisää tietosi",
+          "noRatio": "Not applicable",
+          "method": "Näin se lasketaan",
+          "reset": "Nollaa",
+          "audience": "Yleisö",
+          "includedVat": "Sisältää ALV:n",
+          "excludedVat": "Ilman ALV:tä",
+          "perMonth": "kuukaudessa",
+          "equivalents": "Kuukausilaskutus. Päivä- ja viikkoluvut ovat keskiarvoja, eivät päivä- tai viikkomaksuja tai tuottotakuita.",
+          "timeNote": "Ajan arvo on vapaaehtoinen arviosi, ei saatua rahaa tai palkkakulujen laskua. Nettominuutit sisältävät tarkistus- ja hyväksymisaikasi.",
+          "estimateNote": "Suunnitteluarvio ei ole mitattu ROI. Mitattu tuotto perustuu vain hyväksyttyihin tuloksiin ja vertailukelpoisiin kirjattuihin kuluihin.",
+          "limitNote": "Lisäkäytöstä ja erikseen hinnoiteltavasta työstä ota yhteyttä. Arvio kattaa vain paketin sisällön.",
+          "timeFormula": "Ajan arvo = yksiköt × säästyneet nettominuutit ÷ 60 × tuntisi arvo.",
+          "profitFormula": "Myyntikate = ehdot täyttävät suosittelukerrat × konversion kasvu ÷ 100 × lisätilauksen kate.",
+          "proceedsFormula": "Lisätuotto = erät tai noudot × (nettotuotto jälkeen − nettotuotto ennen).",
+          "roiFormula": "Netto = hyöty − tilaushinta. ROI = netto ÷ tilaushinta × 100. Ilmaispaketeilla ei ole ROI-prosenttia."
+        },
+        "profiles": [
+          {
+            "id": "buyer",
+            "label": "Välittäjän tila · ostajakoosteet",
+            "model": "time_value",
+            "unitsPerWorkload": 1,
+            "inputs": [
+              {
+                "id": "units",
+                "label": "Kelpuutettuja koosteita / kk",
+                "help": "Kuukaudessa tarkistettavaksi arvioimasi työ pakettiin sisältyvissä rajoissa.",
+                "defaultValue": 20,
+                "min": 0,
+                "max": 20,
+                "step": 1,
+                "format": "number"
+              },
+              {
+                "id": "minutes_saved",
+                "label": "Minuuttisäästö",
+                "help": "Arviosi tarkistuksen, hyväksynnän ja korjausten jälkeen. Negatiivinen arvo tarkoittaa lisätyötä.",
+                "defaultValue": 12,
+                "min": -1440,
+                "max": 1440,
+                "step": 0.1,
+                "format": "number"
+              },
+              {
+                "id": "hourly_value",
+                "label": "Tunnin arvo",
+                "help": "Oma vapaaehtoinen arviosi. Ei lupaus rahallisesta säästöstä tai palkkakulujen laskusta.",
+                "defaultValue": null,
+                "min": 0,
+                "max": 1000,
+                "step": 0.01,
+                "format": "currency"
+              }
+            ],
+            "offer": {
+              "monthlyPrice": 49,
+              "basis": "fixed",
+              "unit": "Välittäjän tila · ostajakoosteet",
+              "vatIncluded": false,
+              "includedUnits": 20,
+              "allowance": "20 pätevää briifiä",
+              "extras": "Lisäkäytöstä ja asiantuntijapalveluista annetaan erillinen tarjous."
+            },
+            "assumptions": [
+              "Alustavat 12 nettominuuttia ovat havainnollistava valmisteluarvio, eivät mitattu tulos.",
+              "Nettominuutit sisältävät asiakkaan tarkistuksen. Ajan rahallisen arvon määrität itse; se ei ole saatua rahaa."
+            ],
+            "loop": "Kohde- tai ostoaiesignaali → lähdekoosteen kelpuutus → välittäjän tarkistus ja osapuolten suostumus → hyväksytyn esittelyn ja toteutuneen tuloksen kirjaus.",
+            "ctaLabel": "Kokeile demoa",
+            "ctaTarget": "meet"
+          },
+          {
+            "id": "seller",
+            "label": "Välittäjän tila · myyjäkoosteet",
+            "model": "time_value",
+            "unitsPerWorkload": 1,
+            "inputs": [
+              {
+                "id": "units",
+                "label": "Kelpuutettuja koosteita / kk",
+                "help": "Kuukaudessa tarkistettavaksi arvioimasi työ pakettiin sisältyvissä rajoissa.",
+                "defaultValue": 20,
+                "min": 0,
+                "max": 20,
+                "step": 1,
+                "format": "number"
+              },
+              {
+                "id": "minutes_saved",
+                "label": "Minuuttisäästö",
+                "help": "Arviosi tarkistuksen, hyväksynnän ja korjausten jälkeen. Negatiivinen arvo tarkoittaa lisätyötä.",
+                "defaultValue": 12,
+                "min": -1440,
+                "max": 1440,
+                "step": 0.1,
+                "format": "number"
+              },
+              {
+                "id": "hourly_value",
+                "label": "Tunnin arvo",
+                "help": "Oma vapaaehtoinen arviosi. Ei lupaus rahallisesta säästöstä tai palkkakulujen laskusta.",
+                "defaultValue": null,
+                "min": 0,
+                "max": 1000,
+                "step": 0.01,
+                "format": "currency"
+              }
+            ],
+            "offer": {
+              "monthlyPrice": 49,
+              "basis": "fixed",
+              "unit": "Välittäjän tila · myyjäkoosteet",
+              "vatIncluded": false,
+              "includedUnits": 20,
+              "allowance": "20 pätevää briifiä",
+              "extras": "Lisäkäytöstä ja asiantuntijapalveluista annetaan erillinen tarjous."
+            },
+            "assumptions": [
+              "Alustavat 12 nettominuuttia ovat havainnollistava valmisteluarvio, eivät mitattu tulos.",
+              "Nettominuutit sisältävät asiakkaan tarkistuksen. Ajan rahallisen arvon määrität itse; se ei ole saatua rahaa."
+            ],
+            "loop": "Kohde- tai ostoaiesignaali → lähdekoosteen kelpuutus → välittäjän tarkistus ja osapuolten suostumus → hyväksytyn esittelyn ja toteutuneen tuloksen kirjaus.",
+            "ctaLabel": "Kokeile demoa",
+            "ctaTarget": "meet"
+          }
+        ]
       }
     }
   },
@@ -2386,7 +2731,7 @@
         "roiCalculator",
         "heading"
       ],
-      "sourceHash": "c63420eca3f95b8917c99f3a5cf72f000ab237bc6c658765b2176ebdd7b311be"
+      "sourceHash": "f605f95a678fe3249ebf6201cbc21b86ea72d7f4bc395cab6e017b8b91a674d6"
     },
     {
       "path": [
@@ -2397,7 +2742,7 @@
         "roiCalculator",
         "subheading"
       ],
-      "sourceHash": "7b148bf1bc2d445204b8b2a40faa420fe4a04624c98bd20f79c051038ca1b7da"
+      "sourceHash": "22fd8ffe8dbddd46f41fb690f262f66466bb343bae0b359e4c64dfd2f2f127a5"
     },
     {
       "path": [
@@ -2408,7 +2753,7 @@
         "roiCalculator",
         "disclaimer"
       ],
-      "sourceHash": "2571d3c4491924fe3b8aaab7d2acb5f4904b393aae9f2babc38cd0e46d1126aa"
+      "sourceHash": "28bd6e46023484d9a6b075ba5e7539842d6a2e920782ed0979f21366d56ae02f"
     },
     {
       "path": [
@@ -4808,7 +5153,7 @@
         "pricing",
         "label"
       ],
-      "sourceHash": "74be3e630a8b30d773e4002180e4cdf3963817fa92ff839e99f6556ac371eaa8"
+      "sourceHash": "dfe95783edfef7918760312f94edd764f4ce3ffd38b90c2c955a0cc3b250f040"
     },
     {
       "path": [
@@ -4858,6 +5203,809 @@
         "privacyNote"
       ],
       "sourceHash": "0e96f5e15977ab0a2a8d684c0d35d7459f3afc862b606046310ae1fbbd4be12b"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "navLabel"
+      ],
+      "sourceHash": "dfe95783edfef7918760312f94edd764f4ce3ffd38b90c2c955a0cc3b250f040"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "heading"
+      ],
+      "sourceHash": "f605f95a678fe3249ebf6201cbc21b86ea72d7f4bc395cab6e017b8b91a674d6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "intro"
+      ],
+      "sourceHash": "22fd8ffe8dbddd46f41fb690f262f66466bb343bae0b359e4c64dfd2f2f127a5"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "monthly"
+      ],
+      "sourceHash": "310ca503ef36f177ddbc760463fcaec1edc6eca12bfd590ad7bb244b31e59543"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "weekly"
+      ],
+      "sourceHash": "e78041ab51a818a22e2cfea6c15fe72e9e20092246f496f1670f7be3e42177a6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "daily"
+      ],
+      "sourceHash": "8f2364e11b8be3ff008f32b3dedb54e659362429bcc9e3eb6acb6070de4ffbff"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "cost"
+      ],
+      "sourceHash": "16c6e032c6d9e64e841b58a0298260d9f548fcbe3a8ad8dc475bd977b602898f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "benefit"
+      ],
+      "sourceHash": "a7f9c107913bba92d233f27fbfa5c4c52e4435a763a727214089505b9519d2dc"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "net"
+      ],
+      "sourceHash": "d32a3b8a970a1c2a790bdd47a4a86f208f6ff655d8e9269dcda5776b156d6039"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "roi"
+      ],
+      "sourceHash": "bd75a04bf54fbb79e68559c37be0a8752efacfe4f5b9a326b87143c8d5c87dcc"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "timeBenefit"
+      ],
+      "sourceHash": "cedc575743fa43d9e724db8bd1d54037d41369448eb826b63e1efba54e81c2a4"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "timeRoi"
+      ],
+      "sourceHash": "4b0df8181ded668923d1da293e0fc8ca4d0ac21eed3f933b32891615e67d1f6a"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "timeBack"
+      ],
+      "sourceHash": "92947077a2792fb311280e55e4d39fbeb1fbb152e76b389dee5a53697ea548ef"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "missing"
+      ],
+      "sourceHash": "4b11bc702fcdb172c2f88f4af465a9d05ac206b7f7e6304fcded04eb92cccde6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "noRatio"
+      ],
+      "sourceHash": "5237c96ac1a23b98eb13770503afe986b088acd6627fa7649a5afdcbc4bb8e99"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "method"
+      ],
+      "sourceHash": "b79afe297bec4d00ab3a70a61b5e8b607a423a123f23a2fa9ccf8d6af6bcd157"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "reset"
+      ],
+      "sourceHash": "daee7606b339f3c339076fe2c9f372a3ff40c8ee896005d829c7481b64ca5303"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "audience"
+      ],
+      "sourceHash": "545c02357695a6ffed97b01a94a46b9aeb4686f4480173da6d0faeae8eb85053"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "includedVat"
+      ],
+      "sourceHash": "3e366dcdda082eda14db7eab30381a2fcc424c43d183d0e6d7a4b15c9b567d7d"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "excludedVat"
+      ],
+      "sourceHash": "744120dab44d48957b4580cadd00fca1f91383823125d1400984a3cf62a76441"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "perMonth"
+      ],
+      "sourceHash": "88b1d1a67e34a269fec10b917a624817de854eeadb142640ab17c8199ab6bdae"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "equivalents"
+      ],
+      "sourceHash": "4a546022be02a950fc59270741b8e4784ca51f74da16e286c77e3f5a371aff38"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "timeNote"
+      ],
+      "sourceHash": "d7c17f23c52c1d9cf5be7fcb5a537017a0a09529bfde38e6b692afa2ecbf453f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "estimateNote"
+      ],
+      "sourceHash": "28bd6e46023484d9a6b075ba5e7539842d6a2e920782ed0979f21366d56ae02f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "limitNote"
+      ],
+      "sourceHash": "61108708047a1a834e46f1ca557d7518e3a63263a8ec7e7aa4301db230beacff"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "timeFormula"
+      ],
+      "sourceHash": "4cf3d8fcb0fa4b9c36d9869e709ba0cbabcd41083c7ff8cf77e9fe32066eacdb"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "profitFormula"
+      ],
+      "sourceHash": "e286f3af8c8f706f737502c898e1ba90c6bbc7680c380bba844ec4f3874b5bc4"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "proceedsFormula"
+      ],
+      "sourceHash": "9de390391c62a87b44f2c9bf74e5223e5d34c5a74cd5e12575f5e1452881a46e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "roiFormula"
+      ],
+      "sourceHash": "00f9b4df25ca733c11a00e762ab8d95f6e9c9364ce202a6c22ff95c3613e3fcb"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "label"
+      ],
+      "sourceHash": "3e56208886334ad120af2d85b44fca33b5922a7e96623d87d793727c75178e03"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "inputs",
+        0,
+        "label"
+      ],
+      "sourceHash": "d0081c4a08b2be87b687f4f35e5668e5c004581cd766a25feea76ebe7ae5afdb"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "inputs",
+        0,
+        "help"
+      ],
+      "sourceHash": "a8cff02d43e6c0371644e73ec0de532d8ac6ae2eb169301a6e3605e3cb010ab0"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "inputs",
+        1,
+        "label"
+      ],
+      "sourceHash": "9f135e34cc7bc32cafb416bcbf7ef6af035cdb444c22e90cccd0587ba3db19df"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "inputs",
+        1,
+        "help"
+      ],
+      "sourceHash": "d99a99ab817eea4a3a70ded599d0744a02fe8de95ab0b7c6a0fc9d5cb72c400d"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "inputs",
+        2,
+        "label"
+      ],
+      "sourceHash": "4b5674419c1cb29206fb7d1486e6492bb74df9523dbc3bd5cdb875a309486100"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "inputs",
+        2,
+        "help"
+      ],
+      "sourceHash": "310e52c988a868b67de05d75913bc83fea7f2ff3d06b15cb07adf6c22d1f94f1"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "offer",
+        "unit"
+      ],
+      "sourceHash": "3e56208886334ad120af2d85b44fca33b5922a7e96623d87d793727c75178e03"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "offer",
+        "allowance"
+      ],
+      "sourceHash": "aa695907fedd044f41aaf55b78c3e18e056e184ea83ebd0d21e1b8e7177ee995"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "offer",
+        "extras"
+      ],
+      "sourceHash": "2dde78d0a4b34a797ac41efa8426f1e98874a7e9bfc38db869338b90175c0a63"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "assumptions",
+        0
+      ],
+      "sourceHash": "79adeadb4feb385ac12585feee29f5f4b94954ccde2406a3b86aa5c7e90ca29f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "assumptions",
+        1
+      ],
+      "sourceHash": "989a9fcc887e91c895fb2d3cdee45f5d8279d36705594e66f19d87e172656e0e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "loop"
+      ],
+      "sourceHash": "edc50e97c701508b19ff0c0117cda5ab8aafa7faa0d747388080ab915edec13f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "ctaLabel"
+      ],
+      "sourceHash": "6e5fe4ca7c07142fa81eef400c342dea7f8ba0422aa331c3880e6604db8d52a7"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "label"
+      ],
+      "sourceHash": "4eaa570bcd2d051814cfbcea81a6a732eec55c652d08b722bda0aa7cb12971ef"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "inputs",
+        0,
+        "label"
+      ],
+      "sourceHash": "d0081c4a08b2be87b687f4f35e5668e5c004581cd766a25feea76ebe7ae5afdb"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "inputs",
+        0,
+        "help"
+      ],
+      "sourceHash": "a8cff02d43e6c0371644e73ec0de532d8ac6ae2eb169301a6e3605e3cb010ab0"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "inputs",
+        1,
+        "label"
+      ],
+      "sourceHash": "9f135e34cc7bc32cafb416bcbf7ef6af035cdb444c22e90cccd0587ba3db19df"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "inputs",
+        1,
+        "help"
+      ],
+      "sourceHash": "d99a99ab817eea4a3a70ded599d0744a02fe8de95ab0b7c6a0fc9d5cb72c400d"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "inputs",
+        2,
+        "label"
+      ],
+      "sourceHash": "4b5674419c1cb29206fb7d1486e6492bb74df9523dbc3bd5cdb875a309486100"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "inputs",
+        2,
+        "help"
+      ],
+      "sourceHash": "310e52c988a868b67de05d75913bc83fea7f2ff3d06b15cb07adf6c22d1f94f1"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "offer",
+        "unit"
+      ],
+      "sourceHash": "4eaa570bcd2d051814cfbcea81a6a732eec55c652d08b722bda0aa7cb12971ef"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "offer",
+        "allowance"
+      ],
+      "sourceHash": "aa695907fedd044f41aaf55b78c3e18e056e184ea83ebd0d21e1b8e7177ee995"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "offer",
+        "extras"
+      ],
+      "sourceHash": "2dde78d0a4b34a797ac41efa8426f1e98874a7e9bfc38db869338b90175c0a63"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "assumptions",
+        0
+      ],
+      "sourceHash": "79adeadb4feb385ac12585feee29f5f4b94954ccde2406a3b86aa5c7e90ca29f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "assumptions",
+        1
+      ],
+      "sourceHash": "989a9fcc887e91c895fb2d3cdee45f5d8279d36705594e66f19d87e172656e0e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "loop"
+      ],
+      "sourceHash": "edc50e97c701508b19ff0c0117cda5ab8aafa7faa0d747388080ab915edec13f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "ctaLabel"
+      ],
+      "sourceHash": "6e5fe4ca7c07142fa81eef400c342dea7f8ba0422aa331c3880e6604db8d52a7"
     },
     {
       "path": [
@@ -5380,7 +6528,7 @@
         "roiCalculator",
         "heading"
       ],
-      "sourceHash": "c63420eca3f95b8917c99f3a5cf72f000ab237bc6c658765b2176ebdd7b311be"
+      "sourceHash": "f605f95a678fe3249ebf6201cbc21b86ea72d7f4bc395cab6e017b8b91a674d6"
     },
     {
       "path": [
@@ -5391,7 +6539,7 @@
         "roiCalculator",
         "subheading"
       ],
-      "sourceHash": "7b148bf1bc2d445204b8b2a40faa420fe4a04624c98bd20f79c051038ca1b7da"
+      "sourceHash": "22fd8ffe8dbddd46f41fb690f262f66466bb343bae0b359e4c64dfd2f2f127a5"
     },
     {
       "path": [
@@ -5402,7 +6550,7 @@
         "roiCalculator",
         "disclaimer"
       ],
-      "sourceHash": "2571d3c4491924fe3b8aaab7d2acb5f4904b393aae9f2babc38cd0e46d1126aa"
+      "sourceHash": "28bd6e46023484d9a6b075ba5e7539842d6a2e920782ed0979f21366d56ae02f"
     },
     {
       "path": [
@@ -7830,7 +8978,7 @@
         "pricing",
         "label"
       ],
-      "sourceHash": "74be3e630a8b30d773e4002180e4cdf3963817fa92ff839e99f6556ac371eaa8"
+      "sourceHash": "dfe95783edfef7918760312f94edd764f4ce3ffd38b90c2c955a0cc3b250f040"
     },
     {
       "path": [
@@ -7880,6 +9028,809 @@
         "privacyNote"
       ],
       "sourceHash": "0e96f5e15977ab0a2a8d684c0d35d7459f3afc862b606046310ae1fbbd4be12b"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "navLabel"
+      ],
+      "sourceHash": "dfe95783edfef7918760312f94edd764f4ce3ffd38b90c2c955a0cc3b250f040"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "heading"
+      ],
+      "sourceHash": "f605f95a678fe3249ebf6201cbc21b86ea72d7f4bc395cab6e017b8b91a674d6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "intro"
+      ],
+      "sourceHash": "22fd8ffe8dbddd46f41fb690f262f66466bb343bae0b359e4c64dfd2f2f127a5"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "monthly"
+      ],
+      "sourceHash": "310ca503ef36f177ddbc760463fcaec1edc6eca12bfd590ad7bb244b31e59543"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "weekly"
+      ],
+      "sourceHash": "e78041ab51a818a22e2cfea6c15fe72e9e20092246f496f1670f7be3e42177a6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "daily"
+      ],
+      "sourceHash": "8f2364e11b8be3ff008f32b3dedb54e659362429bcc9e3eb6acb6070de4ffbff"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "cost"
+      ],
+      "sourceHash": "16c6e032c6d9e64e841b58a0298260d9f548fcbe3a8ad8dc475bd977b602898f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "benefit"
+      ],
+      "sourceHash": "a7f9c107913bba92d233f27fbfa5c4c52e4435a763a727214089505b9519d2dc"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "net"
+      ],
+      "sourceHash": "d32a3b8a970a1c2a790bdd47a4a86f208f6ff655d8e9269dcda5776b156d6039"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "roi"
+      ],
+      "sourceHash": "bd75a04bf54fbb79e68559c37be0a8752efacfe4f5b9a326b87143c8d5c87dcc"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "timeBenefit"
+      ],
+      "sourceHash": "cedc575743fa43d9e724db8bd1d54037d41369448eb826b63e1efba54e81c2a4"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "timeRoi"
+      ],
+      "sourceHash": "4b0df8181ded668923d1da293e0fc8ca4d0ac21eed3f933b32891615e67d1f6a"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "timeBack"
+      ],
+      "sourceHash": "92947077a2792fb311280e55e4d39fbeb1fbb152e76b389dee5a53697ea548ef"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "missing"
+      ],
+      "sourceHash": "4b11bc702fcdb172c2f88f4af465a9d05ac206b7f7e6304fcded04eb92cccde6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "noRatio"
+      ],
+      "sourceHash": "5237c96ac1a23b98eb13770503afe986b088acd6627fa7649a5afdcbc4bb8e99"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "method"
+      ],
+      "sourceHash": "b79afe297bec4d00ab3a70a61b5e8b607a423a123f23a2fa9ccf8d6af6bcd157"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "reset"
+      ],
+      "sourceHash": "daee7606b339f3c339076fe2c9f372a3ff40c8ee896005d829c7481b64ca5303"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "audience"
+      ],
+      "sourceHash": "545c02357695a6ffed97b01a94a46b9aeb4686f4480173da6d0faeae8eb85053"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "includedVat"
+      ],
+      "sourceHash": "3e366dcdda082eda14db7eab30381a2fcc424c43d183d0e6d7a4b15c9b567d7d"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "excludedVat"
+      ],
+      "sourceHash": "744120dab44d48957b4580cadd00fca1f91383823125d1400984a3cf62a76441"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "perMonth"
+      ],
+      "sourceHash": "88b1d1a67e34a269fec10b917a624817de854eeadb142640ab17c8199ab6bdae"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "equivalents"
+      ],
+      "sourceHash": "4a546022be02a950fc59270741b8e4784ca51f74da16e286c77e3f5a371aff38"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "timeNote"
+      ],
+      "sourceHash": "d7c17f23c52c1d9cf5be7fcb5a537017a0a09529bfde38e6b692afa2ecbf453f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "estimateNote"
+      ],
+      "sourceHash": "28bd6e46023484d9a6b075ba5e7539842d6a2e920782ed0979f21366d56ae02f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "limitNote"
+      ],
+      "sourceHash": "61108708047a1a834e46f1ca557d7518e3a63263a8ec7e7aa4301db230beacff"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "timeFormula"
+      ],
+      "sourceHash": "4cf3d8fcb0fa4b9c36d9869e709ba0cbabcd41083c7ff8cf77e9fe32066eacdb"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "profitFormula"
+      ],
+      "sourceHash": "e286f3af8c8f706f737502c898e1ba90c6bbc7680c380bba844ec4f3874b5bc4"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "proceedsFormula"
+      ],
+      "sourceHash": "9de390391c62a87b44f2c9bf74e5223e5d34c5a74cd5e12575f5e1452881a46e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "roiFormula"
+      ],
+      "sourceHash": "00f9b4df25ca733c11a00e762ab8d95f6e9c9364ce202a6c22ff95c3613e3fcb"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "label"
+      ],
+      "sourceHash": "3e56208886334ad120af2d85b44fca33b5922a7e96623d87d793727c75178e03"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "inputs",
+        0,
+        "label"
+      ],
+      "sourceHash": "d0081c4a08b2be87b687f4f35e5668e5c004581cd766a25feea76ebe7ae5afdb"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "inputs",
+        0,
+        "help"
+      ],
+      "sourceHash": "a8cff02d43e6c0371644e73ec0de532d8ac6ae2eb169301a6e3605e3cb010ab0"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "inputs",
+        1,
+        "label"
+      ],
+      "sourceHash": "9f135e34cc7bc32cafb416bcbf7ef6af035cdb444c22e90cccd0587ba3db19df"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "inputs",
+        1,
+        "help"
+      ],
+      "sourceHash": "d99a99ab817eea4a3a70ded599d0744a02fe8de95ab0b7c6a0fc9d5cb72c400d"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "inputs",
+        2,
+        "label"
+      ],
+      "sourceHash": "4b5674419c1cb29206fb7d1486e6492bb74df9523dbc3bd5cdb875a309486100"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "inputs",
+        2,
+        "help"
+      ],
+      "sourceHash": "310e52c988a868b67de05d75913bc83fea7f2ff3d06b15cb07adf6c22d1f94f1"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "offer",
+        "unit"
+      ],
+      "sourceHash": "3e56208886334ad120af2d85b44fca33b5922a7e96623d87d793727c75178e03"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "offer",
+        "allowance"
+      ],
+      "sourceHash": "aa695907fedd044f41aaf55b78c3e18e056e184ea83ebd0d21e1b8e7177ee995"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "offer",
+        "extras"
+      ],
+      "sourceHash": "2dde78d0a4b34a797ac41efa8426f1e98874a7e9bfc38db869338b90175c0a63"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "assumptions",
+        0
+      ],
+      "sourceHash": "79adeadb4feb385ac12585feee29f5f4b94954ccde2406a3b86aa5c7e90ca29f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "assumptions",
+        1
+      ],
+      "sourceHash": "989a9fcc887e91c895fb2d3cdee45f5d8279d36705594e66f19d87e172656e0e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "loop"
+      ],
+      "sourceHash": "edc50e97c701508b19ff0c0117cda5ab8aafa7faa0d747388080ab915edec13f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "ctaLabel"
+      ],
+      "sourceHash": "6e5fe4ca7c07142fa81eef400c342dea7f8ba0422aa331c3880e6604db8d52a7"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "label"
+      ],
+      "sourceHash": "4eaa570bcd2d051814cfbcea81a6a732eec55c652d08b722bda0aa7cb12971ef"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "inputs",
+        0,
+        "label"
+      ],
+      "sourceHash": "d0081c4a08b2be87b687f4f35e5668e5c004581cd766a25feea76ebe7ae5afdb"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "inputs",
+        0,
+        "help"
+      ],
+      "sourceHash": "a8cff02d43e6c0371644e73ec0de532d8ac6ae2eb169301a6e3605e3cb010ab0"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "inputs",
+        1,
+        "label"
+      ],
+      "sourceHash": "9f135e34cc7bc32cafb416bcbf7ef6af035cdb444c22e90cccd0587ba3db19df"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "inputs",
+        1,
+        "help"
+      ],
+      "sourceHash": "d99a99ab817eea4a3a70ded599d0744a02fe8de95ab0b7c6a0fc9d5cb72c400d"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "inputs",
+        2,
+        "label"
+      ],
+      "sourceHash": "4b5674419c1cb29206fb7d1486e6492bb74df9523dbc3bd5cdb875a309486100"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "inputs",
+        2,
+        "help"
+      ],
+      "sourceHash": "310e52c988a868b67de05d75913bc83fea7f2ff3d06b15cb07adf6c22d1f94f1"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "offer",
+        "unit"
+      ],
+      "sourceHash": "4eaa570bcd2d051814cfbcea81a6a732eec55c652d08b722bda0aa7cb12971ef"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "offer",
+        "allowance"
+      ],
+      "sourceHash": "aa695907fedd044f41aaf55b78c3e18e056e184ea83ebd0d21e1b8e7177ee995"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "offer",
+        "extras"
+      ],
+      "sourceHash": "2dde78d0a4b34a797ac41efa8426f1e98874a7e9bfc38db869338b90175c0a63"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "assumptions",
+        0
+      ],
+      "sourceHash": "79adeadb4feb385ac12585feee29f5f4b94954ccde2406a3b86aa5c7e90ca29f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "assumptions",
+        1
+      ],
+      "sourceHash": "989a9fcc887e91c895fb2d3cdee45f5d8279d36705594e66f19d87e172656e0e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "loop"
+      ],
+      "sourceHash": "edc50e97c701508b19ff0c0117cda5ab8aafa7faa0d747388080ab915edec13f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "ctaLabel"
+      ],
+      "sourceHash": "6e5fe4ca7c07142fa81eef400c342dea7f8ba0422aa331c3880e6604db8d52a7"
     },
     {
       "path": [
@@ -8944,7 +10895,7 @@
         "roiCalculator",
         "heading"
       ],
-      "sourceHash": "c63420eca3f95b8917c99f3a5cf72f000ab237bc6c658765b2176ebdd7b311be"
+      "sourceHash": "f605f95a678fe3249ebf6201cbc21b86ea72d7f4bc395cab6e017b8b91a674d6"
     },
     {
       "path": [
@@ -8952,7 +10903,7 @@
         "roiCalculator",
         "subheading"
       ],
-      "sourceHash": "7b148bf1bc2d445204b8b2a40faa420fe4a04624c98bd20f79c051038ca1b7da"
+      "sourceHash": "22fd8ffe8dbddd46f41fb690f262f66466bb343bae0b359e4c64dfd2f2f127a5"
     },
     {
       "path": [
@@ -8960,7 +10911,7 @@
         "roiCalculator",
         "disclaimer"
       ],
-      "sourceHash": "2571d3c4491924fe3b8aaab7d2acb5f4904b393aae9f2babc38cd0e46d1126aa"
+      "sourceHash": "28bd6e46023484d9a6b075ba5e7539842d6a2e920782ed0979f21366d56ae02f"
     },
     {
       "path": [
@@ -10845,7 +12796,7 @@
         "pricing",
         "label"
       ],
-      "sourceHash": "74be3e630a8b30d773e4002180e4cdf3963817fa92ff839e99f6556ac371eaa8"
+      "sourceHash": "dfe95783edfef7918760312f94edd764f4ce3ffd38b90c2c955a0cc3b250f040"
     },
     {
       "path": [
@@ -10883,7 +12834,639 @@
         "privacyNote"
       ],
       "sourceHash": "0e96f5e15977ab0a2a8d684c0d35d7459f3afc862b606046310ae1fbbd4be12b"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "navLabel"
+      ],
+      "sourceHash": "dfe95783edfef7918760312f94edd764f4ce3ffd38b90c2c955a0cc3b250f040"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "heading"
+      ],
+      "sourceHash": "f605f95a678fe3249ebf6201cbc21b86ea72d7f4bc395cab6e017b8b91a674d6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "intro"
+      ],
+      "sourceHash": "22fd8ffe8dbddd46f41fb690f262f66466bb343bae0b359e4c64dfd2f2f127a5"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "monthly"
+      ],
+      "sourceHash": "310ca503ef36f177ddbc760463fcaec1edc6eca12bfd590ad7bb244b31e59543"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "weekly"
+      ],
+      "sourceHash": "e78041ab51a818a22e2cfea6c15fe72e9e20092246f496f1670f7be3e42177a6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "daily"
+      ],
+      "sourceHash": "8f2364e11b8be3ff008f32b3dedb54e659362429bcc9e3eb6acb6070de4ffbff"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "cost"
+      ],
+      "sourceHash": "16c6e032c6d9e64e841b58a0298260d9f548fcbe3a8ad8dc475bd977b602898f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "benefit"
+      ],
+      "sourceHash": "a7f9c107913bba92d233f27fbfa5c4c52e4435a763a727214089505b9519d2dc"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "net"
+      ],
+      "sourceHash": "d32a3b8a970a1c2a790bdd47a4a86f208f6ff655d8e9269dcda5776b156d6039"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "roi"
+      ],
+      "sourceHash": "bd75a04bf54fbb79e68559c37be0a8752efacfe4f5b9a326b87143c8d5c87dcc"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "timeBenefit"
+      ],
+      "sourceHash": "cedc575743fa43d9e724db8bd1d54037d41369448eb826b63e1efba54e81c2a4"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "timeRoi"
+      ],
+      "sourceHash": "4b0df8181ded668923d1da293e0fc8ca4d0ac21eed3f933b32891615e67d1f6a"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "timeBack"
+      ],
+      "sourceHash": "92947077a2792fb311280e55e4d39fbeb1fbb152e76b389dee5a53697ea548ef"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "missing"
+      ],
+      "sourceHash": "4b11bc702fcdb172c2f88f4af465a9d05ac206b7f7e6304fcded04eb92cccde6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "noRatio"
+      ],
+      "sourceHash": "5237c96ac1a23b98eb13770503afe986b088acd6627fa7649a5afdcbc4bb8e99"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "method"
+      ],
+      "sourceHash": "b79afe297bec4d00ab3a70a61b5e8b607a423a123f23a2fa9ccf8d6af6bcd157"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "reset"
+      ],
+      "sourceHash": "daee7606b339f3c339076fe2c9f372a3ff40c8ee896005d829c7481b64ca5303"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "audience"
+      ],
+      "sourceHash": "545c02357695a6ffed97b01a94a46b9aeb4686f4480173da6d0faeae8eb85053"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "includedVat"
+      ],
+      "sourceHash": "3e366dcdda082eda14db7eab30381a2fcc424c43d183d0e6d7a4b15c9b567d7d"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "excludedVat"
+      ],
+      "sourceHash": "744120dab44d48957b4580cadd00fca1f91383823125d1400984a3cf62a76441"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "perMonth"
+      ],
+      "sourceHash": "88b1d1a67e34a269fec10b917a624817de854eeadb142640ab17c8199ab6bdae"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "equivalents"
+      ],
+      "sourceHash": "4a546022be02a950fc59270741b8e4784ca51f74da16e286c77e3f5a371aff38"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "timeNote"
+      ],
+      "sourceHash": "d7c17f23c52c1d9cf5be7fcb5a537017a0a09529bfde38e6b692afa2ecbf453f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "estimateNote"
+      ],
+      "sourceHash": "28bd6e46023484d9a6b075ba5e7539842d6a2e920782ed0979f21366d56ae02f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "limitNote"
+      ],
+      "sourceHash": "61108708047a1a834e46f1ca557d7518e3a63263a8ec7e7aa4301db230beacff"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "timeFormula"
+      ],
+      "sourceHash": "4cf3d8fcb0fa4b9c36d9869e709ba0cbabcd41083c7ff8cf77e9fe32066eacdb"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "profitFormula"
+      ],
+      "sourceHash": "e286f3af8c8f706f737502c898e1ba90c6bbc7680c380bba844ec4f3874b5bc4"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "proceedsFormula"
+      ],
+      "sourceHash": "9de390391c62a87b44f2c9bf74e5223e5d34c5a74cd5e12575f5e1452881a46e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "roiFormula"
+      ],
+      "sourceHash": "00f9b4df25ca733c11a00e762ab8d95f6e9c9364ce202a6c22ff95c3613e3fcb"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "label"
+      ],
+      "sourceHash": "3e56208886334ad120af2d85b44fca33b5922a7e96623d87d793727c75178e03"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "inputs",
+        0,
+        "label"
+      ],
+      "sourceHash": "d0081c4a08b2be87b687f4f35e5668e5c004581cd766a25feea76ebe7ae5afdb"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "inputs",
+        0,
+        "help"
+      ],
+      "sourceHash": "a8cff02d43e6c0371644e73ec0de532d8ac6ae2eb169301a6e3605e3cb010ab0"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "inputs",
+        1,
+        "label"
+      ],
+      "sourceHash": "9f135e34cc7bc32cafb416bcbf7ef6af035cdb444c22e90cccd0587ba3db19df"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "inputs",
+        1,
+        "help"
+      ],
+      "sourceHash": "d99a99ab817eea4a3a70ded599d0744a02fe8de95ab0b7c6a0fc9d5cb72c400d"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "inputs",
+        2,
+        "label"
+      ],
+      "sourceHash": "4b5674419c1cb29206fb7d1486e6492bb74df9523dbc3bd5cdb875a309486100"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "inputs",
+        2,
+        "help"
+      ],
+      "sourceHash": "310e52c988a868b67de05d75913bc83fea7f2ff3d06b15cb07adf6c22d1f94f1"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "offer",
+        "unit"
+      ],
+      "sourceHash": "3e56208886334ad120af2d85b44fca33b5922a7e96623d87d793727c75178e03"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "offer",
+        "allowance"
+      ],
+      "sourceHash": "aa695907fedd044f41aaf55b78c3e18e056e184ea83ebd0d21e1b8e7177ee995"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "offer",
+        "extras"
+      ],
+      "sourceHash": "2dde78d0a4b34a797ac41efa8426f1e98874a7e9bfc38db869338b90175c0a63"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "assumptions",
+        0
+      ],
+      "sourceHash": "79adeadb4feb385ac12585feee29f5f4b94954ccde2406a3b86aa5c7e90ca29f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "assumptions",
+        1
+      ],
+      "sourceHash": "989a9fcc887e91c895fb2d3cdee45f5d8279d36705594e66f19d87e172656e0e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "loop"
+      ],
+      "sourceHash": "edc50e97c701508b19ff0c0117cda5ab8aafa7faa0d747388080ab915edec13f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "ctaLabel"
+      ],
+      "sourceHash": "6e5fe4ca7c07142fa81eef400c342dea7f8ba0422aa331c3880e6604db8d52a7"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "label"
+      ],
+      "sourceHash": "4eaa570bcd2d051814cfbcea81a6a732eec55c652d08b722bda0aa7cb12971ef"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "inputs",
+        0,
+        "label"
+      ],
+      "sourceHash": "d0081c4a08b2be87b687f4f35e5668e5c004581cd766a25feea76ebe7ae5afdb"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "inputs",
+        0,
+        "help"
+      ],
+      "sourceHash": "a8cff02d43e6c0371644e73ec0de532d8ac6ae2eb169301a6e3605e3cb010ab0"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "inputs",
+        1,
+        "label"
+      ],
+      "sourceHash": "9f135e34cc7bc32cafb416bcbf7ef6af035cdb444c22e90cccd0587ba3db19df"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "inputs",
+        1,
+        "help"
+      ],
+      "sourceHash": "d99a99ab817eea4a3a70ded599d0744a02fe8de95ab0b7c6a0fc9d5cb72c400d"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "inputs",
+        2,
+        "label"
+      ],
+      "sourceHash": "4b5674419c1cb29206fb7d1486e6492bb74df9523dbc3bd5cdb875a309486100"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "inputs",
+        2,
+        "help"
+      ],
+      "sourceHash": "310e52c988a868b67de05d75913bc83fea7f2ff3d06b15cb07adf6c22d1f94f1"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "offer",
+        "unit"
+      ],
+      "sourceHash": "4eaa570bcd2d051814cfbcea81a6a732eec55c652d08b722bda0aa7cb12971ef"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "offer",
+        "allowance"
+      ],
+      "sourceHash": "aa695907fedd044f41aaf55b78c3e18e056e184ea83ebd0d21e1b8e7177ee995"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "offer",
+        "extras"
+      ],
+      "sourceHash": "2dde78d0a4b34a797ac41efa8426f1e98874a7e9bfc38db869338b90175c0a63"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "assumptions",
+        0
+      ],
+      "sourceHash": "79adeadb4feb385ac12585feee29f5f4b94954ccde2406a3b86aa5c7e90ca29f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "assumptions",
+        1
+      ],
+      "sourceHash": "989a9fcc887e91c895fb2d3cdee45f5d8279d36705594e66f19d87e172656e0e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "loop"
+      ],
+      "sourceHash": "edc50e97c701508b19ff0c0117cda5ab8aafa7faa0d747388080ab915edec13f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "ctaLabel"
+      ],
+      "sourceHash": "6e5fe4ca7c07142fa81eef400c342dea7f8ba0422aa331c3880e6604db8d52a7"
     }
   ],
-  "generatedAt": "2026-10-11T13:14:59.201Z"
+  "generatedAt": "2026-10-13T14:19:32.625Z"
 }

@@ -31,7 +31,7 @@ const ALLOWED_THEME_MODES = new Set(['light', 'dark']);
 const ALLOWED_BUILTIN_FONTS = new Set(['dm-sans', 'inter', 'system', 'roboto', 'poppins', 'outfit']);
 const NORMALIZED_HEX = /^#[0-9a-f]{6}$/;
 const SAFE_GOOGLE_FONT = /^[A-Za-z0-9][A-Za-z0-9 .'-]{0,79}$/;
-const BRAND_COLOR_KEYS = ['canvas', 'surface', 'sidebar', 'text', 'accent', 'userBubble'];
+const BRAND_COLOR_KEYS = ['canvas', 'surface', 'sidebar', 'text', 'accent', 'accentHover', 'userBubble'];
 const EMAIL = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 const IMAGE_EXTENSION = /\.(?:avif|gif|jpe?g|png|svg|webp)(?:[?#]|$)/i;
 const VIDEO_EXTENSION = /\.(?:m4v|mov|mp4|webm)(?:[?#]|$)/i;
@@ -105,7 +105,7 @@ function isDirectImageSource(value) {
 function isDirectVideoSource(value) {
   return typeof value === 'string'
     && VIDEO_EXTENSION.test(value)
-    && (/^https:\/\//i.test(value) || /^\/(?:assets|landing-pages)\/[a-z0-9][a-z0-9/_-]*\.(?:m4v|mov|mp4|webm)(?:[?#]|$)/i.test(value));
+    && (/^https:\/\//i.test(value) || /^\/(?:(?:assets|landing-pages)\/[a-z0-9][a-z0-9/_-]*|persona-course-media\/[a-z0-9][a-z0-9-]*\/[a-z0-9][a-z0-9._-]*)\.(?:m4v|mov|mp4|webm)(?:[?#]|$)/i.test(value));
 }
 
 function validateIcon(icon, label, required = false) {

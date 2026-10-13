@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "language": "ro",
   "regionKey": null,
-  "sourceRevision": "d701b52843633b93bc6a942b1d7069b64e0764961352983e775addc605ea3000",
+  "sourceRevision": "be40441c1455b89085020ea8725989ac5b0d6534d1db605c9fe719b98b0b6ab9",
   "landingPage": {
     "headline": "O prezentare calificată care se potrivește.",
     "subheadline": "Prezentări private de cumpărători și vânzători, o propunere revizuită de oameni de fiecare dată.",
@@ -211,25 +211,25 @@
           "roiCalculator": {
             "methodologyVersion": 2,
             "enabled": true,
-            "kicker": "Business impact",
-            "heading": "ROI Calculator",
-            "subheading": "Modelați un agent sau o agenție autorizată de locuințe secundare cu Nest: contacte calificate, verificate uman, pe o piață locală.",
-            "disclaimer": "Un scenariu de operare modelat cu cerere plătită validată zero. Nest califică și coordonează introducerile consimțite; nu reprezintă părți, nu evaluează proprietatea, nu negociază, nu câștigă comisioane sau nu garantează o tranzacție.",
+            "kicker": "Impactul asupra afacerii",
+            "heading": "Prețuri și ROI",
+            "subheading": "Datele tale. Randamentul estimat.",
+            "disclaimer": "Estimările de planificare diferă de ROI măsurat. Doar rezultate acceptate și costuri înregistrate comparabile susțin randamente măsurate.",
             "currency": "EUR",
             "currencyCopy": {
               "native": "Amounts in {currency}.",
               "loading": "Checking the local currency. Amounts remain in {currency} until a rate is available.",
               "unavailable": "A current local exchange rate is unavailable. Amounts remain in {currency}.",
               "converted": "Amounts converted from {base} to {currency} using the reference rate dated {date}.",
-              "basis": "Conversia valutară nu studiază costurile locale. Introduceți costuri și ipoteze de contribuție locale proprii. Schimbarea limbii nu schimbă sumele."
+              "basis": "Conversia valutară nu este o cercetare a costurilor locale. Introduceți propriile costuri locale și ipoteze de contribuție. Schimbările de limbă nu modifică sumele."
             },
             "costCopy": {
-              "breakdown": "Cum se formează costul total al IA",
+              "breakdown": "Cum este construit costul AI all-in",
               "perUnit": "{amount} per work unit (average)",
-              "budgetOnly": "Acesta e bugetul total. Detaliază-l în Defalcarea costurilor; nu s-a presupus nicio împărțire.",
+              "budgetOnly": "Acesta este bugetul dvs. total. Treceți la Defalcarea costurilor pentru a o detalia; nu s-a presupus nicio scindare.",
               "benefitNotice": "Beneficii modelate, nu taxe. Sumele tăiate sunt cheltuieli pe care vă așteptați să le evitați, nu reduceri la factura AI.",
-              "remainder": "Other included operating costs",
-              "allocation": "Orele recuperate sunt capacitate, nu economii automate. Doar partea alocată reducerilor reale de cheltuieli sau contribuției suplimentare primește o valoare monetară."
+              "remainder": "Alte costuri de operare incluse",
+              "allocation": "Orele returnate sunt capacitate, nu economii automate. Numai părțile pe care le alocați reducerilor efective de cheltuieli sau contribuției suplimentare primesc o valoare monetară."
             },
             "locale": "en-GB",
             "inputs": [],
@@ -248,7 +248,7 @@
                 "platform_cost": 1500,
                 "higher_value_hours": 0,
                 "contribution_rate": 0,
-                "customer_price": 750
+                "customer_price": 49
               },
               "copy": {
                 "navLabel": "Prețuri",
@@ -258,11 +258,11 @@
                 "workloadIntro": "Modelați clienți de locuințe secundare, calificare și verificare umană, nu vânzări, comisioane ori potriviri garantate.",
                 "costIntro": "Costurile cu tokenuri, modele, instrumente, infrastructură, platformă și evaluatori sunt estimări de livrare. Prețul Nest e o ipoteză nevalidată.",
                 "valueIntro": "Capacitatea nu e venit. Introdu contribuția observată doar după ce un agent sau o agenție folosește și plătește serviciul.",
-                "sampleNotice": "Uz tipic · nu rezultate observate",
-                "monthly": "Monthly",
-                "yearly": "Yearly",
-                "next": "Continue",
-                "back": "Back",
+                "sampleNotice": "Utilizare tipică · rezultate neobservate",
+                "monthly": "Lunar",
+                "yearly": "Anual",
+                "next": "Continuă",
+                "back": "Înapoi",
                 "reset": "Reset assumptions",
                 "summary": "Your modeled impact",
                 "volume": "Leads modeled",
@@ -275,7 +275,7 @@
                 "minutes": "minutes",
                 "tokens": "tokens",
                 "monthlyTokens": "Monthly tokens",
-                "tokenCost": "Token usage",
+                "tokenCost": "Utilizarea jetoanelor",
                 "packageLabel": "Usage package",
                 "packageBase": "Base",
                 "packageMedium": "Medium",
@@ -283,11 +283,11 @@
                 "reviewMode": "Who handles the review?",
                 "teamReview": "Existing team",
                 "paidReview": "Additional paid reviewer",
-                "reviewNote": "Verificarea în echipă consumă capacitatea recuperată. Cea plătită în plus intră în costul operațional, fără o nouă scădere din capacitatea echipei.",
+                "reviewNote": "Evaluarea echipelor existente utilizează capacitatea returnată. Revizuirea suplimentară plătită este inclusă în costul operațional, nededusă din nou din capacitatea echipei.",
                 "totalMode": "Monthly budget",
                 "itemizedMode": "Cost breakdown",
-                "budgetNote": "Bugetul include modele/media, instrumente, infrastructură, taxe Gabriel și verificarea plătită în plus. Salariile neschimbate nu sunt cheltuieli noi.",
-                "itemizedNote": "Consumul de tokenuri = volum × tokenuri per rezultat. Costurile media, instrumentelor și infrastructurii extra rămân zero dacă nu se aplică. Verificarea plătită în plus se calculează din ore și tarif.",
+                "budgetNote": "Bugetul trebuie să includă modele/media, instrumente, infrastructură, taxe Gabriel și revizuire suplimentară plătită. Nu includeți statul de plată neschimbat ca cheltuieli noi.",
+                "itemizedNote": "Utilizarea jetoanelor este calculată din volum × jetoane pe ieșire. Media, instrumentele și infrastructura suplimentare rămân la zero, dacă nu se aplică. Revizuirea suplimentară plătită este calculată din orele de examinare și din rata acesteia.",
                 "paidReviewCost": "Additional paid review cost",
                 "allInCost": "Operating cost",
                 "missing": "Add your assumptions",
@@ -300,19 +300,19 @@
                 "multiple": "Internal delivery multiple",
                 "customerBenefit": "Modeled agent benefit",
                 "customerRoi": "Modeled customer ROI",
-                "payback": "Customer payback period",
+                "payback": "Amortizare pentru client",
                 "notApplicable": "Not applicable",
                 "annual": "Annual view",
-                "annualNote": "Aceleași ipoteze lunare, fără creștere sau capitalizare. Economiile la angajare țin doar cât perioada introdusă.",
+                "annualNote": "Aceleași ipoteze lunare, fără creștere sau capitalizare. Economiile la angajare durează doar pentru perioada introdusă.",
                 "method": "How this is calculated",
                 "burdenHeading": "Repetitive work reduced",
                 "opportunityHeading": "Capacity for higher-value work",
-                "methodBody": "Sarcinile eliminate (productivitate negativă) eliberează capacitate. Munca mai valoroasă (posibilă productivitate pozitivă) aduce valoare economică doar dacă o folosești. Orele nu sunt economii bănești. Costul tokenurilor estimează un mix intrare/ieșire, nu e o ofertă de furnizor.",
+                "methodBody": "Sarcina operațională eliminată (productivitate negativă) returnează capacitatea. Munca cu valoare mai mare (productivitate pozitivă potențială) creează valoare economică numai dacă această capacitate este utilizată. Numai orele nu reprezintă economii de numerar. Costul simbolurilor folosește un mix de intrare/ieșire modelat, nu o cotație a furnizorului.",
                 "formulaLabel": "Fișe calificate = clienți potențiali × rata de calificare. Costul livrării estimează tokenuri, modele, instrumente, infrastructură, platformă și evaluare umană. ROI-ul clientului e indisponibil până ce beneficiul și prețul sunt dovedite.",
-                "allocationNote": "Fiecare oră se alocă o singură dată. Orele nealocate rămân capacitate fără valoare monetară.",
+                "allocationNote": "Fiecare oră poate fi alocată o singură dată. Orele nealocate rămân capacitate, fără valoare monetară.",
                 "overlapLabel": "Aceste beneficii sunt distincte; Am exclus costurile și pierderile deja numărate în altă parte.",
                 "overlapNote": "Estimările de eroare și risc exclud economiile de muncă și același incident nu trebuie să apară în ambele categorii. Contribuția exclude costurile AI, care sunt deduse separat.",
-                "hiringLabel": "Angajarea era planificată în mod real, iar capacitatea alocată poate acoperi munca.",
+                "hiringLabel": "Această angajare a fost cu adevărat planificată și capacitatea alocată poate acoperi munca.",
                 "reviewedLabel": "Mi-am revizuit rezultatele; rezultatele neselectate nu au valoare financiară în această estimare.",
                 "cycleResult": "Cycle-time improvement",
                 "throughputResult": "Muncă suplimentară susținută de capacitate și cerere",
@@ -320,8 +320,8 @@
                 "allocationError": "Orele alocate depășesc capacitatea netă disponibilă. Reduceți alocațiile.",
                 "reviewError": "Revizuirea durează mai mult decât munca redusă. Nu este disponibilă o capacitate pozitivă la aceste ipoteze.",
                 "cashError": "Cheltuielile evitate nu pot depăși cheltuielile curente sau au valoare pozitivă fără ore alocate.",
-                "hiringError": "Capacitatea alocată trebuie să acopere orele angajării planificate. Confirmați angajarea și durata ei.",
-                "riskError": "La estimarea reducerii pierderii, probabilitatea ulterioară nu o poate depăși pe cea anterioară.",
+                "hiringError": "Capacitatea alocată trebuie să acopere orele de închiriere planificate. Confirmați închirierea planificată și durata acesteia.",
+                "riskError": "Probabilitatea după nu poate depăși probabilitatea înainte pentru o estimare a reducerii pierderilor.",
                 "overlapError": "Confirmați că beneficiile nu se suprapun înainte de a le include în rezultatul financiar.",
                 "boundsError": "Utilizați valori în limitele afișate.",
                 "rangeLabel": "Adjust value",
@@ -365,8 +365,8 @@
                   "help": "Evaluarea umană e obligatorie înainte ca părțile să vadă o propunere."
                 },
                 "cycles_per_unit": {
-                  "label": "Cicluri lunare pe unitate",
-                  "help": "Câte cicluri de comandă, evaluare sau procesare repetă fiecare unitate într-o lună obișnuită."
+                  "label": "Cicluri lunare per unitate",
+                  "help": "Câte cicluri de comandă, verificare sau procesare efectuează fiecare unitate într-o lună tipică."
                 },
                 "tokens_per_output": {
                   "label": "Tokenuri per dosar calificat",
@@ -374,7 +374,7 @@
                 },
                 "budget": {
                   "label": "Estimated monthly operating budget",
-                  "help": "Includeți tokenuri, modele/media, instrumente, infrastructură, taxe Gabriel și verificare plătită în plus."
+                  "help": "Includeți utilizarea simbolurilor, modelele/media, instrumentele, infrastructura, taxele Gabriel și revizuirea suplimentară plătită."
                 },
                 "model_cost": {
                   "label": "Cost adițional: model sau media",
@@ -382,39 +382,39 @@
                 },
                 "tools_cost": {
                   "label": "Tools and integrations",
-                  "help": "Sesiuni de browser, conectori și alte servicii contorizate. Zero dacă nu există."
+                  "help": "Sesiuni de browser, conectori și alte servicii măsurate. Introduceți zero dacă niciunul."
                 },
                 "infrastructure_cost": {
                   "label": "Infrastructure",
-                  "help": "Găzduire, stocare și calcul suplimentare pentru această sarcină. Zero dacă nu există."
+                  "help": "Găzduire, stocare și calcul incremental pentru această sarcină de lucru. Introduceți zero dacă niciunul."
                 },
                 "platform_cost": {
-                  "label": "Alte costuri de livrare și suport",
-                  "help": "Costul modelat de găzduire, stocare, monitorizare și suport, separat de prețul clientului."
+                  "label": "Other delivery and support cost",
+                  "help": "Modeled hosting, storage, monitoring and support cost, separate from the customer price."
                 },
                 "customer_price": {
                   "label": "Proposed monthly Nest price",
                   "help": "Preț ipotetic editabil pentru agent/agenție. Nu e venit validat; trebuie testat într-un proiect-pilot plătit."
                 },
                 "personal_value_per_hour": {
-                  "label": "Valoare opțională atribuită unei ore",
-                  "help": "Doar o comparație personală opțională. Nu reprezintă salariu, remunerație sau economii garantate."
+                  "label": "Valoarea opțională atribuită unei ore",
+                  "help": "Doar o comparație personală opțională. Nu reprezintă salarii sau economii bănești garantate."
                 },
                 "review_rate": {
-                  "label": "Verificare extra plătită, pe oră",
-                  "help": "Costuri suplimentare reale cu evaluatorii, nu salariul unui angajat menținut."
+                  "label": "Evaluare suplimentară plătită pe oră",
+                  "help": "Cheltuieli suplimentare reale ale evaluatorului, nu salariul unui angajat neschimbat."
                 },
                 "cash_hours": {
-                  "label": "Ore ce elimină munca plătită",
-                  "help": "Alocă doar munca ce elimină efectiv costuri cu ore suplimentare, prestatori sau procesare."
+                  "label": "Orele care elimină munca plătită",
+                  "help": "Alocați numai lucrări ale cărei ore suplimentare, contractor sau cheltuieli de procesare se vor opri efectiv."
                 },
                 "cash_baseline": {
-                  "label": "Cheltuieli lunare actuale cu acea muncă",
+                  "label": "Cheltuielile lunare curente pentru lucrarea respectivă",
                   "help": "Bugetul de numerar din care va proveni reducerea."
                 },
                 "cash_avoided": {
                   "label": "Cheltuielile lunare te-ai opri",
-                  "help": "O sumă explicită, nu ore înmulțite cu salariul; excludeți economiile la angajarea planificată introduse separat."
+                  "help": "O sumă explicită, nu ore înmulțite cu salariul; excludeți orice economisire planificată pentru închiriere introdusă separat."
                 },
                 "higher_value_hours": {
                   "label": "Ore disponibile agenților pentru discuții reale",
@@ -425,56 +425,56 @@
                   "help": "Contribuție din munca extra, fără valoarea proprietăților, comisioane și costuri deja incluse."
                 },
                 "throughput_hours": {
-                  "label": "Ore folosite pentru volum extra",
-                  "help": "Această alocare nu poate servi și la consultanță sau la reducerea cheltuielilor."
+                  "label": "Ore folosite pentru volum suplimentar",
+                  "help": "Această alocare nu poate fi folosită și pentru activități de consultanță sau reduceri de cheltuieli."
                 },
                 "extra_minutes": {
-                  "label": "Minute de echipă pe unitate în plus",
+                  "label": "Minute de echipă per unitate suplimentară",
                   "help": "Efortul uman rămas, inclusiv revizuirea, trebuia să furnizeze încă o unitate."
                 },
                 "demand": {
                   "label": "Unități suplimentare cu cerere așteptată",
-                  "help": "Capacitatea nu înseamnă cerere. Introdu munca lunară suplimentară pe care o anticipezi."
+                  "help": "Numai capacitatea nu este cerere. Introduceți munca lunară suplimentară pe care vă așteptați să o preluați."
                 },
                 "unit_margin": {
                   "label": "Contribution per additional unit",
-                  "help": "Venit suplimentar minus costuri de livrare; costurile de operare AI se scad separat."
+                  "help": "Venituri suplimentare minus costurile de livrare; Costurile de operare AI sunt deduse separat."
                 },
                 "hiring_hours": {
-                  "label": "Ore pentru angajarea planificată",
-                  "help": "Alocă ore unor sarcini concrete planificate, nu unei estimări generice de norme întregi."
+                  "label": "Orele care acoperă angajarea planificată",
+                  "help": "Alocați capacitate unei anumite activități planificate, nu unei estimări generice echivalente cu normă întreagă."
                 },
                 "planned_hours": {
-                  "label": "Ore lunare acoperite de angajarea planificată",
-                  "help": "Capacitatea alocată trebuie să acopere toată această muncă."
+                  "label": "Orele lunare pe care le-ar acoperi angajarea planificată",
+                  "help": "Capacitatea alocată trebuie să acopere întregul volum de muncă."
                 },
                 "hire_cost": {
-                  "label": "Cost lunar de angajare amânat efectiv",
-                  "help": "Folosește costul unei angajări cu adevărat planificate, nu salariul unui angajat existent."
+                  "label": "Costul lunar de închiriere a fost efectiv amânat",
+                  "help": "Folosiți costul unei angajări planificate cu adevărat, nu salariul unei persoane deja angajate."
                 },
                 "hire_months": {
-                  "label": "Luni de amânare a angajării",
-                  "help": "1–12 luni; estimarea anuală nu mai include economiile după această perioadă."
+                  "label": "Lunile în care angajarea este amânată",
+                  "help": "Una până la douăsprezece luni; estimarea anuală nu mai numără economiile după această perioadă."
                 },
                 "incidents": {
                   "label": "Erori evitate așteptate pe lună",
-                  "help": "Folosește baza și reducerea estimată. Exclude incidentele incluse deja la reducerea riscului."
+                  "help": "Utilizați valoarea de bază și reducerea așteptată. Excludeți incidentele considerate și ca reducere a riscului."
                 },
                 "incident_cost": {
                   "label": "Incremental cost per error",
-                  "help": "Exclude manopera, rambursările sau alte pierderi incluse în altă parte."
+                  "help": "Excludeți forța de muncă, rambursările sau alte pierderi deja incluse în altă parte."
                 },
                 "probability_before": {
                   "label": "Monthly loss probability before",
-                  "help": "Estimarea dvs., nu o evaluare a riscului garantată."
+                  "help": "Estimarea dvs., nu o evaluare garantată a riscurilor."
                 },
                 "probability_after": {
                   "label": "Monthly loss probability after",
-                  "help": "Păstrează evenimentul și intervalul lunar din scenariul de bază."
+                  "help": "Utilizați același eveniment și același orizont de timp lunar ca linia de bază."
                 },
                 "loss": {
-                  "label": "Pierdere posibilă per eveniment",
-                  "help": "Exclude erorile și cheltuielile deja incluse. Este o valoare așteptată incertă, nu o economie efectivă."
+                  "label": "Expunerea la pierderi pentru acel eveniment",
+                  "help": "Excludeți incidentele de eroare și cheltuielile deja contorizate. Aceasta este o valoare așteptată incertă, nu bani economisiți."
                 },
                 "days_before": {
                   "label": "Ciclu timp înainte, în zile",
@@ -493,35 +493,6 @@
                 "More qualified, human-reviewed introductions",
                 "Timp de discuții cu agenți și nevoile clienților"
               ],
-              "usagePackages": {
-                "base": {
-                  "volume": 1,
-                  "tokensPerOutput": 12000,
-                  "platform_cost": 450,
-                  "minutes": 20,
-                  "automation": 100,
-                  "review": 8,
-                  "model_cost": 0,
-                  "tools_cost": 0,
-                  "infrastructure_cost": 0,
-                  "higher_value_hours": 0,
-                  "contribution_rate": 0
-                },
-                "medium": {
-                  "volume": 1,
-                  "tokensPerOutput": 12000,
-                  "platform_cost": 750,
-                  "minutes": 20,
-                  "automation": 100,
-                  "review": 8,
-                  "model_cost": 0,
-                  "tools_cost": 0,
-                  "infrastructure_cost": 0,
-                  "higher_value_hours": 0,
-                  "contribution_rate": 0
-                }
-              },
-              "defaultPackage": "medium",
               "costMode": "itemized",
               "reviewMode": "team",
               "selected": [
@@ -584,8 +555,7 @@
               ],
               "pricing": {
                 "basis": "fixed",
-                "annualPrice": 9000,
-                "label": "Proposed Nest monthly price",
+                "label": "Prețuri",
                 "help": "Ipoteză: €750/lună pentru un pilot de prezentări calificate. Rămâne nevalidată până când un agent sau o agenție plătește."
               },
               "presentation": {
@@ -600,6 +570,151 @@
               "secondaryLabel": "See how it works",
               "privacyNote": "Datele dvs. rămân private. Orele sunt capacitate. Sumele financiare sunt estimări modelate, nu rezultate observate.",
               "secondaryTarget": "how-it-works"
+            },
+            "compact": {
+              "schemaVersion": 1,
+              "defaultProfileId": "buyer",
+              "copy": {
+                "navLabel": "Prețuri",
+                "heading": "Prețuri și ROI",
+                "intro": "Datele tale. Randamentul estimat.",
+                "monthly": "Lună",
+                "weekly": "Săpt.",
+                "daily": "Zi",
+                "cost": "Plătești",
+                "benefit": "Randament estimat",
+                "net": "Câștig net",
+                "roi": "ROI estimat",
+                "timeBenefit": "Valoare estimată timp",
+                "timeRoi": "ROI timp",
+                "timeBack": "Ore recuperate",
+                "missing": "Introdu datele",
+                "noRatio": "Not applicable",
+                "method": "Cum se calculează",
+                "reset": "Reset",
+                "audience": "Publicul",
+                "includedVat": "Cu VAT",
+                "excludedVat": "Fără VAT",
+                "perMonth": "pe lună",
+                "equivalents": "Facturare lunară. Valorile zilnice și săptămânale sunt medii, nu taxe periodice sau randamente garantate.",
+                "timeNote": "Valoarea timpului e estimarea ta opțională, nu bani primiți sau salarii reduse. Minutele nete includ timpul tău de verificare și aprobare.",
+                "estimateNote": "Estimările de planificare diferă de ROI măsurat. Doar rezultate acceptate și costuri înregistrate comparabile susțin randamente măsurate.",
+                "limitNote": "Contactează-ne pentru uz suplimentar sau lucrări cotate separat. Estimarea acoperă doar planul inclus.",
+                "timeFormula": "Valoare timp = unități × minute nete economisite ÷ 60 × valoarea ta/h",
+                "profitFormula": "Profit de contribuție = sesiuni eligibile de recomandare × creștere conversie ÷ 100 × profit pe comandă suplimentară.",
+                "proceedsFormula": "Încasări suplimentare = loturi sau ridicări × (încasări nete după − încasări nete înainte).",
+                "roiFormula": "Net = beneficiu − cost abonament. ROI = net ÷ cost abonament × 100. Planurile gratuite nu au procent ROI."
+              },
+              "profiles": [
+                {
+                  "id": "buyer",
+                  "label": "Spațiu agent · fișe cumpărători",
+                  "model": "time_value",
+                  "unitsPerWorkload": 1,
+                  "inputs": [
+                    {
+                      "id": "units",
+                      "label": "Sinteze calificate lunar",
+                      "help": "Munca pe care prevezi să o verifici într-o lună, în limita inclusă.",
+                      "defaultValue": 20,
+                      "min": 0,
+                      "max": 20,
+                      "step": 1,
+                      "format": "number"
+                    },
+                    {
+                      "id": "minutes_saved",
+                      "label": "Minute salvate",
+                      "help": "Estimarea ta după verificare, aprobare și refaceri. Valorile negative înseamnă efort suplimentar.",
+                      "defaultValue": 12,
+                      "min": -1440,
+                      "max": 1440,
+                      "step": 0.1,
+                      "format": "number"
+                    },
+                    {
+                      "id": "hourly_value",
+                      "label": "Valoare pe oră",
+                      "help": "Evaluarea ta opțională. Nu promite economii bănești sau reduceri salariale.",
+                      "defaultValue": null,
+                      "min": 0,
+                      "max": 1000,
+                      "step": 0.01,
+                      "format": "currency"
+                    }
+                  ],
+                  "offer": {
+                    "monthlyPrice": 49,
+                    "basis": "fixed",
+                    "unit": "Spațiu agent · fișe cumpărători",
+                    "vatIncluded": false,
+                    "includedUnits": 20,
+                    "allowance": "20 sinteze calificate",
+                    "extras": "Utilizarea suplimentară și serviciile profesionale se cotează separat."
+                  },
+                  "assumptions": [
+                    "Cele 12 minute nete inițiale sunt o estimare ilustrativă de pregătire, nu un rezultat măsurat.",
+                    "Minutele nete includ verificarea clientului. Tu indici valoarea monetară a timpului; nu sunt bani primiți."
+                  ],
+                  "loop": "Semnal imobiliar/de cumpărare → validează cererea cu surse → agentul verifică, părțile consimt → notează introducerea acceptată și rezultatul real.",
+                  "ctaLabel": "Încearcă demo",
+                  "ctaTarget": "meet"
+                },
+                {
+                  "id": "seller",
+                  "label": "Spațiu agent · fișe vânzători",
+                  "model": "time_value",
+                  "unitsPerWorkload": 1,
+                  "inputs": [
+                    {
+                      "id": "units",
+                      "label": "Sinteze calificate lunar",
+                      "help": "Munca pe care prevezi să o verifici într-o lună, în limita inclusă.",
+                      "defaultValue": 20,
+                      "min": 0,
+                      "max": 20,
+                      "step": 1,
+                      "format": "number"
+                    },
+                    {
+                      "id": "minutes_saved",
+                      "label": "Minute salvate",
+                      "help": "Estimarea ta după verificare, aprobare și refaceri. Valorile negative înseamnă efort suplimentar.",
+                      "defaultValue": 12,
+                      "min": -1440,
+                      "max": 1440,
+                      "step": 0.1,
+                      "format": "number"
+                    },
+                    {
+                      "id": "hourly_value",
+                      "label": "Valoare pe oră",
+                      "help": "Evaluarea ta opțională. Nu promite economii bănești sau reduceri salariale.",
+                      "defaultValue": null,
+                      "min": 0,
+                      "max": 1000,
+                      "step": 0.01,
+                      "format": "currency"
+                    }
+                  ],
+                  "offer": {
+                    "monthlyPrice": 49,
+                    "basis": "fixed",
+                    "unit": "Spațiu agent · fișe vânzători",
+                    "vatIncluded": false,
+                    "includedUnits": 20,
+                    "allowance": "20 sinteze calificate",
+                    "extras": "Utilizarea suplimentară și serviciile profesionale se cotează separat."
+                  },
+                  "assumptions": [
+                    "Cele 12 minute nete inițiale sunt o estimare ilustrativă de pregătire, nu un rezultat măsurat.",
+                    "Minutele nete includ verificarea clientului. Tu indici valoarea monetară a timpului; nu sunt bani primiți."
+                  ],
+                  "loop": "Semnal imobiliar/de cumpărare → validează cererea cu surse → agentul verifică, părțile consimt → notează introducerea acceptată și rezultatul real.",
+                  "ctaLabel": "Încearcă demo",
+                  "ctaTarget": "meet"
+                }
+              ]
             }
           },
           "leadScan": {
@@ -719,25 +834,25 @@
           "roiCalculator": {
             "methodologyVersion": 2,
             "enabled": true,
-            "kicker": "Business impact",
-            "heading": "ROI Calculator",
-            "subheading": "Modelați un agent sau o agenție autorizată de locuințe secundare cu Nest: contacte calificate, verificate uman, pe o piață locală.",
-            "disclaimer": "Un scenariu de operare modelat cu cerere plătită validată zero. Nest califică și coordonează introducerile consimțite; nu reprezintă părți, nu evaluează proprietatea, nu negociază, nu câștigă comisioane sau nu garantează o tranzacție.",
+            "kicker": "Impactul asupra afacerii",
+            "heading": "Prețuri și ROI",
+            "subheading": "Datele tale. Randamentul estimat.",
+            "disclaimer": "Estimările de planificare diferă de ROI măsurat. Doar rezultate acceptate și costuri înregistrate comparabile susțin randamente măsurate.",
             "currency": "EUR",
             "currencyCopy": {
               "native": "Amounts in {currency}.",
               "loading": "Checking the local currency. Amounts remain in {currency} until a rate is available.",
               "unavailable": "A current local exchange rate is unavailable. Amounts remain in {currency}.",
               "converted": "Amounts converted from {base} to {currency} using the reference rate dated {date}.",
-              "basis": "Conversia valutară nu studiază costurile locale. Introduceți costuri și ipoteze de contribuție locale proprii. Schimbarea limbii nu schimbă sumele."
+              "basis": "Conversia valutară nu este o cercetare a costurilor locale. Introduceți propriile costuri locale și ipoteze de contribuție. Schimbările de limbă nu modifică sumele."
             },
             "costCopy": {
-              "breakdown": "Cum se formează costul total al IA",
+              "breakdown": "Cum este construit costul AI all-in",
               "perUnit": "{amount} per work unit (average)",
-              "budgetOnly": "Acesta e bugetul total. Detaliază-l în Defalcarea costurilor; nu s-a presupus nicio împărțire.",
+              "budgetOnly": "Acesta este bugetul dvs. total. Treceți la Defalcarea costurilor pentru a o detalia; nu s-a presupus nicio scindare.",
               "benefitNotice": "Beneficii modelate, nu taxe. Sumele tăiate sunt cheltuieli pe care vă așteptați să le evitați, nu reduceri la factura AI.",
-              "remainder": "Other included operating costs",
-              "allocation": "Orele recuperate sunt capacitate, nu economii automate. Doar partea alocată reducerilor reale de cheltuieli sau contribuției suplimentare primește o valoare monetară."
+              "remainder": "Alte costuri de operare incluse",
+              "allocation": "Orele returnate sunt capacitate, nu economii automate. Numai părțile pe care le alocați reducerilor efective de cheltuieli sau contribuției suplimentare primesc o valoare monetară."
             },
             "locale": "en-GB",
             "inputs": [],
@@ -756,7 +871,7 @@
                 "platform_cost": 1500,
                 "higher_value_hours": 0,
                 "contribution_rate": 0,
-                "customer_price": 750
+                "customer_price": 49
               },
               "copy": {
                 "navLabel": "Prețuri",
@@ -766,11 +881,11 @@
                 "workloadIntro": "Modelați clienți de locuințe secundare, calificare și verificare umană, nu vânzări, comisioane ori potriviri garantate.",
                 "costIntro": "Costurile cu tokenuri, modele, instrumente, infrastructură, platformă și evaluatori sunt estimări de livrare. Prețul Nest e o ipoteză nevalidată.",
                 "valueIntro": "Capacitatea nu e venit. Introdu contribuția observată doar după ce un agent sau o agenție folosește și plătește serviciul.",
-                "sampleNotice": "Uz tipic · nu rezultate observate",
-                "monthly": "Monthly",
-                "yearly": "Yearly",
-                "next": "Continue",
-                "back": "Back",
+                "sampleNotice": "Utilizare tipică · rezultate neobservate",
+                "monthly": "Lunar",
+                "yearly": "Anual",
+                "next": "Continuă",
+                "back": "Înapoi",
                 "reset": "Reset assumptions",
                 "summary": "Your modeled impact",
                 "volume": "Leads modeled",
@@ -783,7 +898,7 @@
                 "minutes": "minutes",
                 "tokens": "tokens",
                 "monthlyTokens": "Monthly tokens",
-                "tokenCost": "Token usage",
+                "tokenCost": "Utilizarea jetoanelor",
                 "packageLabel": "Usage package",
                 "packageBase": "Base",
                 "packageMedium": "Medium",
@@ -791,11 +906,11 @@
                 "reviewMode": "Who handles the review?",
                 "teamReview": "Existing team",
                 "paidReview": "Additional paid reviewer",
-                "reviewNote": "Verificarea în echipă consumă capacitatea recuperată. Cea plătită în plus intră în costul operațional, fără o nouă scădere din capacitatea echipei.",
+                "reviewNote": "Evaluarea echipelor existente utilizează capacitatea returnată. Revizuirea suplimentară plătită este inclusă în costul operațional, nededusă din nou din capacitatea echipei.",
                 "totalMode": "Monthly budget",
                 "itemizedMode": "Cost breakdown",
-                "budgetNote": "Bugetul include modele/media, instrumente, infrastructură, taxe Gabriel și verificarea plătită în plus. Salariile neschimbate nu sunt cheltuieli noi.",
-                "itemizedNote": "Consumul de tokenuri = volum × tokenuri per rezultat. Costurile media, instrumentelor și infrastructurii extra rămân zero dacă nu se aplică. Verificarea plătită în plus se calculează din ore și tarif.",
+                "budgetNote": "Bugetul trebuie să includă modele/media, instrumente, infrastructură, taxe Gabriel și revizuire suplimentară plătită. Nu includeți statul de plată neschimbat ca cheltuieli noi.",
+                "itemizedNote": "Utilizarea jetoanelor este calculată din volum × jetoane pe ieșire. Media, instrumentele și infrastructura suplimentare rămân la zero, dacă nu se aplică. Revizuirea suplimentară plătită este calculată din orele de examinare și din rata acesteia.",
                 "paidReviewCost": "Additional paid review cost",
                 "allInCost": "Operating cost",
                 "missing": "Add your assumptions",
@@ -808,19 +923,19 @@
                 "multiple": "Internal delivery multiple",
                 "customerBenefit": "Modeled agent benefit",
                 "customerRoi": "Modeled customer ROI",
-                "payback": "Customer payback period",
+                "payback": "Amortizare pentru client",
                 "notApplicable": "Not applicable",
                 "annual": "Annual view",
-                "annualNote": "Aceleași ipoteze lunare, fără creștere sau capitalizare. Economiile la angajare țin doar cât perioada introdusă.",
+                "annualNote": "Aceleași ipoteze lunare, fără creștere sau capitalizare. Economiile la angajare durează doar pentru perioada introdusă.",
                 "method": "How this is calculated",
                 "burdenHeading": "Repetitive work reduced",
                 "opportunityHeading": "Capacity for higher-value work",
-                "methodBody": "Sarcinile eliminate (productivitate negativă) eliberează capacitate. Munca mai valoroasă (posibilă productivitate pozitivă) aduce valoare economică doar dacă o folosești. Orele nu sunt economii bănești. Costul tokenurilor estimează un mix intrare/ieșire, nu e o ofertă de furnizor.",
+                "methodBody": "Sarcina operațională eliminată (productivitate negativă) returnează capacitatea. Munca cu valoare mai mare (productivitate pozitivă potențială) creează valoare economică numai dacă această capacitate este utilizată. Numai orele nu reprezintă economii de numerar. Costul simbolurilor folosește un mix de intrare/ieșire modelat, nu o cotație a furnizorului.",
                 "formulaLabel": "Fișe calificate = clienți potențiali × rata de calificare. Costul livrării estimează tokenuri, modele, instrumente, infrastructură, platformă și evaluare umană. ROI-ul clientului e indisponibil până ce beneficiul și prețul sunt dovedite.",
-                "allocationNote": "Fiecare oră se alocă o singură dată. Orele nealocate rămân capacitate fără valoare monetară.",
+                "allocationNote": "Fiecare oră poate fi alocată o singură dată. Orele nealocate rămân capacitate, fără valoare monetară.",
                 "overlapLabel": "Aceste beneficii sunt distincte; Am exclus costurile și pierderile deja numărate în altă parte.",
                 "overlapNote": "Estimările de eroare și risc exclud economiile de muncă și același incident nu trebuie să apară în ambele categorii. Contribuția exclude costurile AI, care sunt deduse separat.",
-                "hiringLabel": "Angajarea era planificată în mod real, iar capacitatea alocată poate acoperi munca.",
+                "hiringLabel": "Această angajare a fost cu adevărat planificată și capacitatea alocată poate acoperi munca.",
                 "reviewedLabel": "Mi-am revizuit rezultatele; rezultatele neselectate nu au valoare financiară în această estimare.",
                 "cycleResult": "Cycle-time improvement",
                 "throughputResult": "Muncă suplimentară susținută de capacitate și cerere",
@@ -828,8 +943,8 @@
                 "allocationError": "Orele alocate depășesc capacitatea netă disponibilă. Reduceți alocațiile.",
                 "reviewError": "Revizuirea durează mai mult decât munca redusă. Nu este disponibilă o capacitate pozitivă la aceste ipoteze.",
                 "cashError": "Cheltuielile evitate nu pot depăși cheltuielile curente sau au valoare pozitivă fără ore alocate.",
-                "hiringError": "Capacitatea alocată trebuie să acopere orele angajării planificate. Confirmați angajarea și durata ei.",
-                "riskError": "La estimarea reducerii pierderii, probabilitatea ulterioară nu o poate depăși pe cea anterioară.",
+                "hiringError": "Capacitatea alocată trebuie să acopere orele de închiriere planificate. Confirmați închirierea planificată și durata acesteia.",
+                "riskError": "Probabilitatea după nu poate depăși probabilitatea înainte pentru o estimare a reducerii pierderilor.",
                 "overlapError": "Confirmați că beneficiile nu se suprapun înainte de a le include în rezultatul financiar.",
                 "boundsError": "Utilizați valori în limitele afișate.",
                 "rangeLabel": "Adjust value",
@@ -873,8 +988,8 @@
                   "help": "Evaluarea umană e obligatorie înainte ca părțile să vadă o propunere."
                 },
                 "cycles_per_unit": {
-                  "label": "Cicluri lunare pe unitate",
-                  "help": "Câte cicluri de comandă, evaluare sau procesare repetă fiecare unitate într-o lună obișnuită."
+                  "label": "Cicluri lunare per unitate",
+                  "help": "Câte cicluri de comandă, verificare sau procesare efectuează fiecare unitate într-o lună tipică."
                 },
                 "tokens_per_output": {
                   "label": "Tokenuri/fișă de vânzător calificat",
@@ -882,7 +997,7 @@
                 },
                 "budget": {
                   "label": "Estimated monthly operating budget",
-                  "help": "Includeți tokenuri, modele/media, instrumente, infrastructură, taxe Gabriel și verificare plătită în plus."
+                  "help": "Includeți utilizarea simbolurilor, modelele/media, instrumentele, infrastructura, taxele Gabriel și revizuirea suplimentară plătită."
                 },
                 "model_cost": {
                   "label": "Cost adițional: model sau media",
@@ -890,39 +1005,39 @@
                 },
                 "tools_cost": {
                   "label": "Tools and integrations",
-                  "help": "Sesiuni de browser, conectori și alte servicii contorizate. Zero dacă nu există."
+                  "help": "Sesiuni de browser, conectori și alte servicii măsurate. Introduceți zero dacă niciunul."
                 },
                 "infrastructure_cost": {
                   "label": "Infrastructure",
-                  "help": "Găzduire, stocare și calcul suplimentare pentru această sarcină. Zero dacă nu există."
+                  "help": "Găzduire, stocare și calcul incremental pentru această sarcină de lucru. Introduceți zero dacă niciunul."
                 },
                 "platform_cost": {
-                  "label": "Alte costuri de livrare și suport",
-                  "help": "Costul modelat de găzduire, stocare, monitorizare și suport, separat de prețul clientului."
+                  "label": "Other delivery and support cost",
+                  "help": "Modeled hosting, storage, monitoring and support cost, separate from the customer price."
                 },
                 "customer_price": {
                   "label": "Proposed monthly Nest price",
                   "help": "Preț ipotetic editabil pentru agent/agenție. Nu e venit validat; trebuie testat într-un proiect-pilot plătit."
                 },
                 "personal_value_per_hour": {
-                  "label": "Valoare opțională atribuită unei ore",
-                  "help": "Doar o comparație personală opțională. Nu reprezintă salariu, remunerație sau economii garantate."
+                  "label": "Valoarea opțională atribuită unei ore",
+                  "help": "Doar o comparație personală opțională. Nu reprezintă salarii sau economii bănești garantate."
                 },
                 "review_rate": {
-                  "label": "Verificare extra plătită, pe oră",
-                  "help": "Costuri suplimentare reale cu evaluatorii, nu salariul unui angajat menținut."
+                  "label": "Evaluare suplimentară plătită pe oră",
+                  "help": "Cheltuieli suplimentare reale ale evaluatorului, nu salariul unui angajat neschimbat."
                 },
                 "cash_hours": {
-                  "label": "Ore ce elimină munca plătită",
-                  "help": "Alocă doar munca ce elimină efectiv costuri cu ore suplimentare, prestatori sau procesare."
+                  "label": "Orele care elimină munca plătită",
+                  "help": "Alocați numai lucrări ale cărei ore suplimentare, contractor sau cheltuieli de procesare se vor opri efectiv."
                 },
                 "cash_baseline": {
-                  "label": "Cheltuieli lunare actuale cu acea muncă",
+                  "label": "Cheltuielile lunare curente pentru lucrarea respectivă",
                   "help": "Bugetul de numerar din care va proveni reducerea."
                 },
                 "cash_avoided": {
                   "label": "Cheltuielile lunare te-ai opri",
-                  "help": "O sumă explicită, nu ore înmulțite cu salariul; excludeți economiile la angajarea planificată introduse separat."
+                  "help": "O sumă explicită, nu ore înmulțite cu salariul; excludeți orice economisire planificată pentru închiriere introdusă separat."
                 },
                 "higher_value_hours": {
                   "label": "Ore disponibile agenților pentru discuții reale",
@@ -933,56 +1048,56 @@
                   "help": "Contribuție din munca extra, fără valoarea proprietăților, comisioane și costuri deja incluse."
                 },
                 "throughput_hours": {
-                  "label": "Ore folosite pentru volum extra",
-                  "help": "Această alocare nu poate servi și la consultanță sau la reducerea cheltuielilor."
+                  "label": "Ore folosite pentru volum suplimentar",
+                  "help": "Această alocare nu poate fi folosită și pentru activități de consultanță sau reduceri de cheltuieli."
                 },
                 "extra_minutes": {
-                  "label": "Minute de echipă pe unitate în plus",
+                  "label": "Minute de echipă per unitate suplimentară",
                   "help": "Efortul uman rămas, inclusiv revizuirea, trebuia să furnizeze încă o unitate."
                 },
                 "demand": {
                   "label": "Unități suplimentare cu cerere așteptată",
-                  "help": "Capacitatea nu înseamnă cerere. Introdu munca lunară suplimentară pe care o anticipezi."
+                  "help": "Numai capacitatea nu este cerere. Introduceți munca lunară suplimentară pe care vă așteptați să o preluați."
                 },
                 "unit_margin": {
                   "label": "Contribution per additional unit",
-                  "help": "Venit suplimentar minus costuri de livrare; costurile de operare AI se scad separat."
+                  "help": "Venituri suplimentare minus costurile de livrare; Costurile de operare AI sunt deduse separat."
                 },
                 "hiring_hours": {
-                  "label": "Ore pentru angajarea planificată",
-                  "help": "Alocă ore unor sarcini concrete planificate, nu unei estimări generice de norme întregi."
+                  "label": "Orele care acoperă angajarea planificată",
+                  "help": "Alocați capacitate unei anumite activități planificate, nu unei estimări generice echivalente cu normă întreagă."
                 },
                 "planned_hours": {
-                  "label": "Ore lunare acoperite de angajarea planificată",
-                  "help": "Capacitatea alocată trebuie să acopere toată această muncă."
+                  "label": "Orele lunare pe care le-ar acoperi angajarea planificată",
+                  "help": "Capacitatea alocată trebuie să acopere întregul volum de muncă."
                 },
                 "hire_cost": {
-                  "label": "Cost lunar de angajare amânat efectiv",
-                  "help": "Folosește costul unei angajări cu adevărat planificate, nu salariul unui angajat existent."
+                  "label": "Costul lunar de închiriere a fost efectiv amânat",
+                  "help": "Folosiți costul unei angajări planificate cu adevărat, nu salariul unei persoane deja angajate."
                 },
                 "hire_months": {
-                  "label": "Luni de amânare a angajării",
-                  "help": "1–12 luni; estimarea anuală nu mai include economiile după această perioadă."
+                  "label": "Lunile în care angajarea este amânată",
+                  "help": "Una până la douăsprezece luni; estimarea anuală nu mai numără economiile după această perioadă."
                 },
                 "incidents": {
                   "label": "Erori evitate așteptate pe lună",
-                  "help": "Folosește baza și reducerea estimată. Exclude incidentele incluse deja la reducerea riscului."
+                  "help": "Utilizați valoarea de bază și reducerea așteptată. Excludeți incidentele considerate și ca reducere a riscului."
                 },
                 "incident_cost": {
                   "label": "Incremental cost per error",
-                  "help": "Exclude manopera, rambursările sau alte pierderi incluse în altă parte."
+                  "help": "Excludeți forța de muncă, rambursările sau alte pierderi deja incluse în altă parte."
                 },
                 "probability_before": {
                   "label": "Monthly loss probability before",
-                  "help": "Estimarea dvs., nu o evaluare a riscului garantată."
+                  "help": "Estimarea dvs., nu o evaluare garantată a riscurilor."
                 },
                 "probability_after": {
                   "label": "Monthly loss probability after",
-                  "help": "Păstrează evenimentul și intervalul lunar din scenariul de bază."
+                  "help": "Utilizați același eveniment și același orizont de timp lunar ca linia de bază."
                 },
                 "loss": {
-                  "label": "Pierdere posibilă per eveniment",
-                  "help": "Exclude erorile și cheltuielile deja incluse. Este o valoare așteptată incertă, nu o economie efectivă."
+                  "label": "Expunerea la pierderi pentru acel eveniment",
+                  "help": "Excludeți incidentele de eroare și cheltuielile deja contorizate. Aceasta este o valoare așteptată incertă, nu bani economisiți."
                 },
                 "days_before": {
                   "label": "Ciclu timp înainte, în zile",
@@ -1001,35 +1116,6 @@
                 "More qualified, human-reviewed introductions",
                 "Timp de discuții cu agenți și nevoile clienților"
               ],
-              "usagePackages": {
-                "base": {
-                  "volume": 1,
-                  "tokensPerOutput": 12000,
-                  "platform_cost": 450,
-                  "minutes": 25,
-                  "automation": 100,
-                  "review": 10,
-                  "model_cost": 0,
-                  "tools_cost": 0,
-                  "infrastructure_cost": 0,
-                  "higher_value_hours": 0,
-                  "contribution_rate": 0
-                },
-                "medium": {
-                  "volume": 1,
-                  "tokensPerOutput": 12000,
-                  "platform_cost": 750,
-                  "minutes": 25,
-                  "automation": 100,
-                  "review": 10,
-                  "model_cost": 0,
-                  "tools_cost": 0,
-                  "infrastructure_cost": 0,
-                  "higher_value_hours": 0,
-                  "contribution_rate": 0
-                }
-              },
-              "defaultPackage": "medium",
               "costMode": "itemized",
               "reviewMode": "team",
               "selected": [
@@ -1097,8 +1183,7 @@
               ],
               "pricing": {
                 "basis": "fixed",
-                "annualPrice": 9000,
-                "label": "Proposed Nest monthly price",
+                "label": "Prețuri",
                 "help": "Ipoteză: €750/lună pentru un pilot de prezentări calificate. Rămâne nevalidată până când un agent sau o agenție plătește."
               },
               "presentation": {
@@ -1113,6 +1198,151 @@
               "secondaryLabel": "See how it works",
               "privacyNote": "Datele dvs. rămân private. Orele sunt capacitate. Sumele financiare sunt estimări modelate, nu rezultate observate.",
               "secondaryTarget": "how-it-works"
+            },
+            "compact": {
+              "schemaVersion": 1,
+              "defaultProfileId": "seller",
+              "copy": {
+                "navLabel": "Prețuri",
+                "heading": "Prețuri și ROI",
+                "intro": "Datele tale. Randamentul estimat.",
+                "monthly": "Lună",
+                "weekly": "Săpt.",
+                "daily": "Zi",
+                "cost": "Plătești",
+                "benefit": "Randament estimat",
+                "net": "Câștig net",
+                "roi": "ROI estimat",
+                "timeBenefit": "Valoare estimată timp",
+                "timeRoi": "ROI timp",
+                "timeBack": "Ore recuperate",
+                "missing": "Introdu datele",
+                "noRatio": "Not applicable",
+                "method": "Cum se calculează",
+                "reset": "Reset",
+                "audience": "Publicul",
+                "includedVat": "Cu VAT",
+                "excludedVat": "Fără VAT",
+                "perMonth": "pe lună",
+                "equivalents": "Facturare lunară. Valorile zilnice și săptămânale sunt medii, nu taxe periodice sau randamente garantate.",
+                "timeNote": "Valoarea timpului e estimarea ta opțională, nu bani primiți sau salarii reduse. Minutele nete includ timpul tău de verificare și aprobare.",
+                "estimateNote": "Estimările de planificare diferă de ROI măsurat. Doar rezultate acceptate și costuri înregistrate comparabile susțin randamente măsurate.",
+                "limitNote": "Contactează-ne pentru uz suplimentar sau lucrări cotate separat. Estimarea acoperă doar planul inclus.",
+                "timeFormula": "Valoare timp = unități × minute nete economisite ÷ 60 × valoarea ta/h",
+                "profitFormula": "Profit de contribuție = sesiuni eligibile de recomandare × creștere conversie ÷ 100 × profit pe comandă suplimentară.",
+                "proceedsFormula": "Încasări suplimentare = loturi sau ridicări × (încasări nete după − încasări nete înainte).",
+                "roiFormula": "Net = beneficiu − cost abonament. ROI = net ÷ cost abonament × 100. Planurile gratuite nu au procent ROI."
+              },
+              "profiles": [
+                {
+                  "id": "buyer",
+                  "label": "Spațiu agent · fișe cumpărători",
+                  "model": "time_value",
+                  "unitsPerWorkload": 1,
+                  "inputs": [
+                    {
+                      "id": "units",
+                      "label": "Sinteze calificate lunar",
+                      "help": "Munca pe care prevezi să o verifici într-o lună, în limita inclusă.",
+                      "defaultValue": 20,
+                      "min": 0,
+                      "max": 20,
+                      "step": 1,
+                      "format": "number"
+                    },
+                    {
+                      "id": "minutes_saved",
+                      "label": "Minute salvate",
+                      "help": "Estimarea ta după verificare, aprobare și refaceri. Valorile negative înseamnă efort suplimentar.",
+                      "defaultValue": 12,
+                      "min": -1440,
+                      "max": 1440,
+                      "step": 0.1,
+                      "format": "number"
+                    },
+                    {
+                      "id": "hourly_value",
+                      "label": "Valoare pe oră",
+                      "help": "Evaluarea ta opțională. Nu promite economii bănești sau reduceri salariale.",
+                      "defaultValue": null,
+                      "min": 0,
+                      "max": 1000,
+                      "step": 0.01,
+                      "format": "currency"
+                    }
+                  ],
+                  "offer": {
+                    "monthlyPrice": 49,
+                    "basis": "fixed",
+                    "unit": "Spațiu agent · fișe cumpărători",
+                    "vatIncluded": false,
+                    "includedUnits": 20,
+                    "allowance": "20 sinteze calificate",
+                    "extras": "Utilizarea suplimentară și serviciile profesionale se cotează separat."
+                  },
+                  "assumptions": [
+                    "Cele 12 minute nete inițiale sunt o estimare ilustrativă de pregătire, nu un rezultat măsurat.",
+                    "Minutele nete includ verificarea clientului. Tu indici valoarea monetară a timpului; nu sunt bani primiți."
+                  ],
+                  "loop": "Semnal imobiliar/de cumpărare → validează cererea cu surse → agentul verifică, părțile consimt → notează introducerea acceptată și rezultatul real.",
+                  "ctaLabel": "Încearcă demo",
+                  "ctaTarget": "meet"
+                },
+                {
+                  "id": "seller",
+                  "label": "Spațiu agent · fișe vânzători",
+                  "model": "time_value",
+                  "unitsPerWorkload": 1,
+                  "inputs": [
+                    {
+                      "id": "units",
+                      "label": "Sinteze calificate lunar",
+                      "help": "Munca pe care prevezi să o verifici într-o lună, în limita inclusă.",
+                      "defaultValue": 20,
+                      "min": 0,
+                      "max": 20,
+                      "step": 1,
+                      "format": "number"
+                    },
+                    {
+                      "id": "minutes_saved",
+                      "label": "Minute salvate",
+                      "help": "Estimarea ta după verificare, aprobare și refaceri. Valorile negative înseamnă efort suplimentar.",
+                      "defaultValue": 12,
+                      "min": -1440,
+                      "max": 1440,
+                      "step": 0.1,
+                      "format": "number"
+                    },
+                    {
+                      "id": "hourly_value",
+                      "label": "Valoare pe oră",
+                      "help": "Evaluarea ta opțională. Nu promite economii bănești sau reduceri salariale.",
+                      "defaultValue": null,
+                      "min": 0,
+                      "max": 1000,
+                      "step": 0.01,
+                      "format": "currency"
+                    }
+                  ],
+                  "offer": {
+                    "monthlyPrice": 49,
+                    "basis": "fixed",
+                    "unit": "Spațiu agent · fișe vânzători",
+                    "vatIncluded": false,
+                    "includedUnits": 20,
+                    "allowance": "20 sinteze calificate",
+                    "extras": "Utilizarea suplimentară și serviciile profesionale se cotează separat."
+                  },
+                  "assumptions": [
+                    "Cele 12 minute nete inițiale sunt o estimare ilustrativă de pregătire, nu un rezultat măsurat.",
+                    "Minutele nete includ verificarea clientului. Tu indici valoarea monetară a timpului; nu sunt bani primiți."
+                  ],
+                  "loop": "Semnal imobiliar/de cumpărare → validează cererea cu surse → agentul verifică, părțile consimt → notează introducerea acceptată și rezultatul real.",
+                  "ctaLabel": "Încearcă demo",
+                  "ctaTarget": "meet"
+                }
+              ]
             }
           },
           "leadScan": {
@@ -1320,25 +1550,25 @@
     "roiCalculator": {
       "methodologyVersion": 2,
       "enabled": true,
-      "kicker": "Business impact",
-      "heading": "ROI Calculator",
-      "subheading": "Modelați un agent sau o agenție autorizată de locuințe secundare cu Nest: contacte calificate, verificate uman, pe o piață locală.",
-      "disclaimer": "Un scenariu de operare modelat cu cerere plătită validată zero. Nest califică și coordonează introducerile consimțite; nu reprezintă părți, nu evaluează proprietatea, nu negociază, nu câștigă comisioane sau nu garantează o tranzacție.",
+      "kicker": "Impactul asupra afacerii",
+      "heading": "Prețuri și ROI",
+      "subheading": "Datele tale. Randamentul estimat.",
+      "disclaimer": "Estimările de planificare diferă de ROI măsurat. Doar rezultate acceptate și costuri înregistrate comparabile susțin randamente măsurate.",
       "currency": "EUR",
       "currencyCopy": {
         "native": "Amounts in {currency}.",
         "loading": "Checking the local currency. Amounts remain in {currency} until a rate is available.",
         "unavailable": "A current local exchange rate is unavailable. Amounts remain in {currency}.",
         "converted": "Amounts converted from {base} to {currency} using the reference rate dated {date}.",
-        "basis": "Conversia valutară nu studiază costurile locale. Introduceți costuri și ipoteze de contribuție locale proprii. Schimbarea limbii nu schimbă sumele."
+        "basis": "Conversia valutară nu este o cercetare a costurilor locale. Introduceți propriile costuri locale și ipoteze de contribuție. Schimbările de limbă nu modifică sumele."
       },
       "costCopy": {
-        "breakdown": "Cum se formează costul total al IA",
+        "breakdown": "Cum este construit costul AI all-in",
         "perUnit": "{amount} per work unit (average)",
-        "budgetOnly": "Acesta e bugetul total. Detaliază-l în Defalcarea costurilor; nu s-a presupus nicio împărțire.",
+        "budgetOnly": "Acesta este bugetul dvs. total. Treceți la Defalcarea costurilor pentru a o detalia; nu s-a presupus nicio scindare.",
         "benefitNotice": "Beneficii modelate, nu taxe. Sumele tăiate sunt cheltuieli pe care vă așteptați să le evitați, nu reduceri la factura AI.",
-        "remainder": "Other included operating costs",
-        "allocation": "Orele recuperate sunt capacitate, nu economii automate. Doar partea alocată reducerilor reale de cheltuieli sau contribuției suplimentare primește o valoare monetară."
+        "remainder": "Alte costuri de operare incluse",
+        "allocation": "Orele returnate sunt capacitate, nu economii automate. Numai părțile pe care le alocați reducerilor efective de cheltuieli sau contribuției suplimentare primesc o valoare monetară."
       },
       "locale": "en-GB",
       "inputs": [],
@@ -1357,7 +1587,7 @@
           "platform_cost": 1500,
           "higher_value_hours": 0,
           "contribution_rate": 0,
-          "customer_price": 750
+          "customer_price": 49
         },
         "copy": {
           "navLabel": "Prețuri",
@@ -1367,11 +1597,11 @@
           "workloadIntro": "Modelați clienți de locuințe secundare, calificare și verificare umană, nu vânzări, comisioane ori potriviri garantate.",
           "costIntro": "Costurile cu tokenuri, modele, instrumente, infrastructură, platformă și evaluatori sunt estimări de livrare. Prețul Nest e o ipoteză nevalidată.",
           "valueIntro": "Capacitatea nu e venit. Introdu contribuția observată doar după ce un agent sau o agenție folosește și plătește serviciul.",
-          "sampleNotice": "Uz tipic · nu rezultate observate",
-          "monthly": "Monthly",
-          "yearly": "Yearly",
-          "next": "Continue",
-          "back": "Back",
+          "sampleNotice": "Utilizare tipică · rezultate neobservate",
+          "monthly": "Lunar",
+          "yearly": "Anual",
+          "next": "Continuă",
+          "back": "Înapoi",
           "reset": "Reset assumptions",
           "summary": "Your modeled impact",
           "volume": "Leads modeled",
@@ -1384,7 +1614,7 @@
           "minutes": "minutes",
           "tokens": "tokens",
           "monthlyTokens": "Monthly tokens",
-          "tokenCost": "Token usage",
+          "tokenCost": "Utilizarea jetoanelor",
           "packageLabel": "Usage package",
           "packageBase": "Base",
           "packageMedium": "Medium",
@@ -1392,11 +1622,11 @@
           "reviewMode": "Who handles the review?",
           "teamReview": "Existing team",
           "paidReview": "Additional paid reviewer",
-          "reviewNote": "Verificarea în echipă consumă capacitatea recuperată. Cea plătită în plus intră în costul operațional, fără o nouă scădere din capacitatea echipei.",
+          "reviewNote": "Evaluarea echipelor existente utilizează capacitatea returnată. Revizuirea suplimentară plătită este inclusă în costul operațional, nededusă din nou din capacitatea echipei.",
           "totalMode": "Monthly budget",
           "itemizedMode": "Cost breakdown",
-          "budgetNote": "Bugetul include modele/media, instrumente, infrastructură, taxe Gabriel și verificarea plătită în plus. Salariile neschimbate nu sunt cheltuieli noi.",
-          "itemizedNote": "Consumul de tokenuri = volum × tokenuri per rezultat. Costurile media, instrumentelor și infrastructurii extra rămân zero dacă nu se aplică. Verificarea plătită în plus se calculează din ore și tarif.",
+          "budgetNote": "Bugetul trebuie să includă modele/media, instrumente, infrastructură, taxe Gabriel și revizuire suplimentară plătită. Nu includeți statul de plată neschimbat ca cheltuieli noi.",
+          "itemizedNote": "Utilizarea jetoanelor este calculată din volum × jetoane pe ieșire. Media, instrumentele și infrastructura suplimentare rămân la zero, dacă nu se aplică. Revizuirea suplimentară plătită este calculată din orele de examinare și din rata acesteia.",
           "paidReviewCost": "Additional paid review cost",
           "allInCost": "Operating cost",
           "missing": "Add your assumptions",
@@ -1409,19 +1639,19 @@
           "multiple": "Internal delivery multiple",
           "customerBenefit": "Modeled agent benefit",
           "customerRoi": "Modeled customer ROI",
-          "payback": "Customer payback period",
+          "payback": "Amortizare pentru client",
           "notApplicable": "Not applicable",
           "annual": "Annual view",
-          "annualNote": "Aceleași ipoteze lunare, fără creștere sau capitalizare. Economiile la angajare țin doar cât perioada introdusă.",
+          "annualNote": "Aceleași ipoteze lunare, fără creștere sau capitalizare. Economiile la angajare durează doar pentru perioada introdusă.",
           "method": "How this is calculated",
           "burdenHeading": "Repetitive work reduced",
           "opportunityHeading": "Capacity for higher-value work",
-          "methodBody": "Sarcinile eliminate (productivitate negativă) eliberează capacitate. Munca mai valoroasă (posibilă productivitate pozitivă) aduce valoare economică doar dacă o folosești. Orele nu sunt economii bănești. Costul tokenurilor estimează un mix intrare/ieșire, nu e o ofertă de furnizor.",
+          "methodBody": "Sarcina operațională eliminată (productivitate negativă) returnează capacitatea. Munca cu valoare mai mare (productivitate pozitivă potențială) creează valoare economică numai dacă această capacitate este utilizată. Numai orele nu reprezintă economii de numerar. Costul simbolurilor folosește un mix de intrare/ieșire modelat, nu o cotație a furnizorului.",
           "formulaLabel": "Fișe calificate = clienți potențiali × rata de calificare. Costul livrării estimează tokenuri, modele, instrumente, infrastructură, platformă și evaluare umană. ROI-ul clientului e indisponibil până ce beneficiul și prețul sunt dovedite.",
-          "allocationNote": "Fiecare oră se alocă o singură dată. Orele nealocate rămân capacitate fără valoare monetară.",
+          "allocationNote": "Fiecare oră poate fi alocată o singură dată. Orele nealocate rămân capacitate, fără valoare monetară.",
           "overlapLabel": "Aceste beneficii sunt distincte; Am exclus costurile și pierderile deja numărate în altă parte.",
           "overlapNote": "Estimările de eroare și risc exclud economiile de muncă și același incident nu trebuie să apară în ambele categorii. Contribuția exclude costurile AI, care sunt deduse separat.",
-          "hiringLabel": "Angajarea era planificată în mod real, iar capacitatea alocată poate acoperi munca.",
+          "hiringLabel": "Această angajare a fost cu adevărat planificată și capacitatea alocată poate acoperi munca.",
           "reviewedLabel": "Mi-am revizuit rezultatele; rezultatele neselectate nu au valoare financiară în această estimare.",
           "cycleResult": "Cycle-time improvement",
           "throughputResult": "Muncă suplimentară susținută de capacitate și cerere",
@@ -1429,8 +1659,8 @@
           "allocationError": "Orele alocate depășesc capacitatea netă disponibilă. Reduceți alocațiile.",
           "reviewError": "Revizuirea durează mai mult decât munca redusă. Nu este disponibilă o capacitate pozitivă la aceste ipoteze.",
           "cashError": "Cheltuielile evitate nu pot depăși cheltuielile curente sau au valoare pozitivă fără ore alocate.",
-          "hiringError": "Capacitatea alocată trebuie să acopere orele angajării planificate. Confirmați angajarea și durata ei.",
-          "riskError": "La estimarea reducerii pierderii, probabilitatea ulterioară nu o poate depăși pe cea anterioară.",
+          "hiringError": "Capacitatea alocată trebuie să acopere orele de închiriere planificate. Confirmați închirierea planificată și durata acesteia.",
+          "riskError": "Probabilitatea după nu poate depăși probabilitatea înainte pentru o estimare a reducerii pierderilor.",
           "overlapError": "Confirmați că beneficiile nu se suprapun înainte de a le include în rezultatul financiar.",
           "boundsError": "Utilizați valori în limitele afișate.",
           "rangeLabel": "Adjust value",
@@ -1474,8 +1704,8 @@
             "help": "Evaluarea umană e obligatorie înainte ca părțile să vadă o propunere."
           },
           "cycles_per_unit": {
-            "label": "Cicluri lunare pe unitate",
-            "help": "Câte cicluri de comandă, evaluare sau procesare repetă fiecare unitate într-o lună obișnuită."
+            "label": "Cicluri lunare per unitate",
+            "help": "Câte cicluri de comandă, verificare sau procesare efectuează fiecare unitate într-o lună tipică."
           },
           "tokens_per_output": {
             "label": "Tokenuri per dosar calificat",
@@ -1483,7 +1713,7 @@
           },
           "budget": {
             "label": "Estimated monthly operating budget",
-            "help": "Includeți tokenuri, modele/media, instrumente, infrastructură, taxe Gabriel și verificare plătită în plus."
+            "help": "Includeți utilizarea simbolurilor, modelele/media, instrumentele, infrastructura, taxele Gabriel și revizuirea suplimentară plătită."
           },
           "model_cost": {
             "label": "Cost adițional: model sau media",
@@ -1491,39 +1721,39 @@
           },
           "tools_cost": {
             "label": "Tools and integrations",
-            "help": "Sesiuni de browser, conectori și alte servicii contorizate. Zero dacă nu există."
+            "help": "Sesiuni de browser, conectori și alte servicii măsurate. Introduceți zero dacă niciunul."
           },
           "infrastructure_cost": {
             "label": "Infrastructure",
-            "help": "Găzduire, stocare și calcul suplimentare pentru această sarcină. Zero dacă nu există."
+            "help": "Găzduire, stocare și calcul incremental pentru această sarcină de lucru. Introduceți zero dacă niciunul."
           },
           "platform_cost": {
-            "label": "Alte costuri de livrare și suport",
-            "help": "Costul modelat de găzduire, stocare, monitorizare și suport, separat de prețul clientului."
+            "label": "Other delivery and support cost",
+            "help": "Modeled hosting, storage, monitoring and support cost, separate from the customer price."
           },
           "customer_price": {
             "label": "Proposed monthly Nest price",
             "help": "Preț ipotetic editabil pentru agent/agenție. Nu e venit validat; trebuie testat într-un proiect-pilot plătit."
           },
           "personal_value_per_hour": {
-            "label": "Valoare opțională atribuită unei ore",
-            "help": "Doar o comparație personală opțională. Nu reprezintă salariu, remunerație sau economii garantate."
+            "label": "Valoarea opțională atribuită unei ore",
+            "help": "Doar o comparație personală opțională. Nu reprezintă salarii sau economii bănești garantate."
           },
           "review_rate": {
-            "label": "Verificare extra plătită, pe oră",
-            "help": "Costuri suplimentare reale cu evaluatorii, nu salariul unui angajat menținut."
+            "label": "Evaluare suplimentară plătită pe oră",
+            "help": "Cheltuieli suplimentare reale ale evaluatorului, nu salariul unui angajat neschimbat."
           },
           "cash_hours": {
-            "label": "Ore ce elimină munca plătită",
-            "help": "Alocă doar munca ce elimină efectiv costuri cu ore suplimentare, prestatori sau procesare."
+            "label": "Orele care elimină munca plătită",
+            "help": "Alocați numai lucrări ale cărei ore suplimentare, contractor sau cheltuieli de procesare se vor opri efectiv."
           },
           "cash_baseline": {
-            "label": "Cheltuieli lunare actuale cu acea muncă",
+            "label": "Cheltuielile lunare curente pentru lucrarea respectivă",
             "help": "Bugetul de numerar din care va proveni reducerea."
           },
           "cash_avoided": {
             "label": "Cheltuielile lunare te-ai opri",
-            "help": "O sumă explicită, nu ore înmulțite cu salariul; excludeți economiile la angajarea planificată introduse separat."
+            "help": "O sumă explicită, nu ore înmulțite cu salariul; excludeți orice economisire planificată pentru închiriere introdusă separat."
           },
           "higher_value_hours": {
             "label": "Ore disponibile agenților pentru discuții reale",
@@ -1534,56 +1764,56 @@
             "help": "Contribuție din munca extra, fără valoarea proprietăților, comisioane și costuri deja incluse."
           },
           "throughput_hours": {
-            "label": "Ore folosite pentru volum extra",
-            "help": "Această alocare nu poate servi și la consultanță sau la reducerea cheltuielilor."
+            "label": "Ore folosite pentru volum suplimentar",
+            "help": "Această alocare nu poate fi folosită și pentru activități de consultanță sau reduceri de cheltuieli."
           },
           "extra_minutes": {
-            "label": "Minute de echipă pe unitate în plus",
+            "label": "Minute de echipă per unitate suplimentară",
             "help": "Efortul uman rămas, inclusiv revizuirea, trebuia să furnizeze încă o unitate."
           },
           "demand": {
             "label": "Unități suplimentare cu cerere așteptată",
-            "help": "Capacitatea nu înseamnă cerere. Introdu munca lunară suplimentară pe care o anticipezi."
+            "help": "Numai capacitatea nu este cerere. Introduceți munca lunară suplimentară pe care vă așteptați să o preluați."
           },
           "unit_margin": {
             "label": "Contribution per additional unit",
-            "help": "Venit suplimentar minus costuri de livrare; costurile de operare AI se scad separat."
+            "help": "Venituri suplimentare minus costurile de livrare; Costurile de operare AI sunt deduse separat."
           },
           "hiring_hours": {
-            "label": "Ore pentru angajarea planificată",
-            "help": "Alocă ore unor sarcini concrete planificate, nu unei estimări generice de norme întregi."
+            "label": "Orele care acoperă angajarea planificată",
+            "help": "Alocați capacitate unei anumite activități planificate, nu unei estimări generice echivalente cu normă întreagă."
           },
           "planned_hours": {
-            "label": "Ore lunare acoperite de angajarea planificată",
-            "help": "Capacitatea alocată trebuie să acopere toată această muncă."
+            "label": "Orele lunare pe care le-ar acoperi angajarea planificată",
+            "help": "Capacitatea alocată trebuie să acopere întregul volum de muncă."
           },
           "hire_cost": {
-            "label": "Cost lunar de angajare amânat efectiv",
-            "help": "Folosește costul unei angajări cu adevărat planificate, nu salariul unui angajat existent."
+            "label": "Costul lunar de închiriere a fost efectiv amânat",
+            "help": "Folosiți costul unei angajări planificate cu adevărat, nu salariul unei persoane deja angajate."
           },
           "hire_months": {
-            "label": "Luni de amânare a angajării",
-            "help": "1–12 luni; estimarea anuală nu mai include economiile după această perioadă."
+            "label": "Lunile în care angajarea este amânată",
+            "help": "Una până la douăsprezece luni; estimarea anuală nu mai numără economiile după această perioadă."
           },
           "incidents": {
             "label": "Erori evitate așteptate pe lună",
-            "help": "Folosește baza și reducerea estimată. Exclude incidentele incluse deja la reducerea riscului."
+            "help": "Utilizați valoarea de bază și reducerea așteptată. Excludeți incidentele considerate și ca reducere a riscului."
           },
           "incident_cost": {
             "label": "Incremental cost per error",
-            "help": "Exclude manopera, rambursările sau alte pierderi incluse în altă parte."
+            "help": "Excludeți forța de muncă, rambursările sau alte pierderi deja incluse în altă parte."
           },
           "probability_before": {
             "label": "Monthly loss probability before",
-            "help": "Estimarea dvs., nu o evaluare a riscului garantată."
+            "help": "Estimarea dvs., nu o evaluare garantată a riscurilor."
           },
           "probability_after": {
             "label": "Monthly loss probability after",
-            "help": "Păstrează evenimentul și intervalul lunar din scenariul de bază."
+            "help": "Utilizați același eveniment și același orizont de timp lunar ca linia de bază."
           },
           "loss": {
-            "label": "Pierdere posibilă per eveniment",
-            "help": "Exclude erorile și cheltuielile deja incluse. Este o valoare așteptată incertă, nu o economie efectivă."
+            "label": "Expunerea la pierderi pentru acel eveniment",
+            "help": "Excludeți incidentele de eroare și cheltuielile deja contorizate. Aceasta este o valoare așteptată incertă, nu bani economisiți."
           },
           "days_before": {
             "label": "Ciclu timp înainte, în zile",
@@ -1602,35 +1832,6 @@
           "More qualified, human-reviewed introductions",
           "Timp de discuții cu agenți și nevoile clienților"
         ],
-        "usagePackages": {
-          "base": {
-            "volume": 1,
-            "tokensPerOutput": 12000,
-            "platform_cost": 450,
-            "minutes": 20,
-            "automation": 100,
-            "review": 8,
-            "model_cost": 0,
-            "tools_cost": 0,
-            "infrastructure_cost": 0,
-            "higher_value_hours": 0,
-            "contribution_rate": 0
-          },
-          "medium": {
-            "volume": 1,
-            "tokensPerOutput": 12000,
-            "platform_cost": 750,
-            "minutes": 20,
-            "automation": 100,
-            "review": 8,
-            "model_cost": 0,
-            "tools_cost": 0,
-            "infrastructure_cost": 0,
-            "higher_value_hours": 0,
-            "contribution_rate": 0
-          }
-        },
-        "defaultPackage": "medium",
         "costMode": "itemized",
         "reviewMode": "team",
         "selected": [
@@ -1698,8 +1899,7 @@
         ],
         "pricing": {
           "basis": "fixed",
-          "annualPrice": 9000,
-          "label": "Proposed Nest monthly price",
+          "label": "Prețuri",
           "help": "Ipoteză: €750/lună pentru un pilot de prezentări calificate. Rămâne nevalidată până când un agent sau o agenție plătește."
         },
         "presentation": {
@@ -1714,6 +1914,151 @@
         "secondaryLabel": "See how it works",
         "privacyNote": "Datele dvs. rămân private. Orele sunt capacitate. Sumele financiare sunt estimări modelate, nu rezultate observate.",
         "secondaryTarget": "how-it-works"
+      },
+      "compact": {
+        "schemaVersion": 1,
+        "defaultProfileId": "buyer",
+        "copy": {
+          "navLabel": "Prețuri",
+          "heading": "Prețuri și ROI",
+          "intro": "Datele tale. Randamentul estimat.",
+          "monthly": "Lună",
+          "weekly": "Săpt.",
+          "daily": "Zi",
+          "cost": "Plătești",
+          "benefit": "Randament estimat",
+          "net": "Câștig net",
+          "roi": "ROI estimat",
+          "timeBenefit": "Valoare estimată timp",
+          "timeRoi": "ROI timp",
+          "timeBack": "Ore recuperate",
+          "missing": "Introdu datele",
+          "noRatio": "Not applicable",
+          "method": "Cum se calculează",
+          "reset": "Reset",
+          "audience": "Publicul",
+          "includedVat": "Cu VAT",
+          "excludedVat": "Fără VAT",
+          "perMonth": "pe lună",
+          "equivalents": "Facturare lunară. Valorile zilnice și săptămânale sunt medii, nu taxe periodice sau randamente garantate.",
+          "timeNote": "Valoarea timpului e estimarea ta opțională, nu bani primiți sau salarii reduse. Minutele nete includ timpul tău de verificare și aprobare.",
+          "estimateNote": "Estimările de planificare diferă de ROI măsurat. Doar rezultate acceptate și costuri înregistrate comparabile susțin randamente măsurate.",
+          "limitNote": "Contactează-ne pentru uz suplimentar sau lucrări cotate separat. Estimarea acoperă doar planul inclus.",
+          "timeFormula": "Valoare timp = unități × minute nete economisite ÷ 60 × valoarea ta/h",
+          "profitFormula": "Profit de contribuție = sesiuni eligibile de recomandare × creștere conversie ÷ 100 × profit pe comandă suplimentară.",
+          "proceedsFormula": "Încasări suplimentare = loturi sau ridicări × (încasări nete după − încasări nete înainte).",
+          "roiFormula": "Net = beneficiu − cost abonament. ROI = net ÷ cost abonament × 100. Planurile gratuite nu au procent ROI."
+        },
+        "profiles": [
+          {
+            "id": "buyer",
+            "label": "Spațiu agent · fișe cumpărători",
+            "model": "time_value",
+            "unitsPerWorkload": 1,
+            "inputs": [
+              {
+                "id": "units",
+                "label": "Sinteze calificate lunar",
+                "help": "Munca pe care prevezi să o verifici într-o lună, în limita inclusă.",
+                "defaultValue": 20,
+                "min": 0,
+                "max": 20,
+                "step": 1,
+                "format": "number"
+              },
+              {
+                "id": "minutes_saved",
+                "label": "Minute salvate",
+                "help": "Estimarea ta după verificare, aprobare și refaceri. Valorile negative înseamnă efort suplimentar.",
+                "defaultValue": 12,
+                "min": -1440,
+                "max": 1440,
+                "step": 0.1,
+                "format": "number"
+              },
+              {
+                "id": "hourly_value",
+                "label": "Valoare pe oră",
+                "help": "Evaluarea ta opțională. Nu promite economii bănești sau reduceri salariale.",
+                "defaultValue": null,
+                "min": 0,
+                "max": 1000,
+                "step": 0.01,
+                "format": "currency"
+              }
+            ],
+            "offer": {
+              "monthlyPrice": 49,
+              "basis": "fixed",
+              "unit": "Spațiu agent · fișe cumpărători",
+              "vatIncluded": false,
+              "includedUnits": 20,
+              "allowance": "20 sinteze calificate",
+              "extras": "Utilizarea suplimentară și serviciile profesionale se cotează separat."
+            },
+            "assumptions": [
+              "Cele 12 minute nete inițiale sunt o estimare ilustrativă de pregătire, nu un rezultat măsurat.",
+              "Minutele nete includ verificarea clientului. Tu indici valoarea monetară a timpului; nu sunt bani primiți."
+            ],
+            "loop": "Semnal imobiliar/de cumpărare → validează cererea cu surse → agentul verifică, părțile consimt → notează introducerea acceptată și rezultatul real.",
+            "ctaLabel": "Încearcă demo",
+            "ctaTarget": "meet"
+          },
+          {
+            "id": "seller",
+            "label": "Spațiu agent · fișe vânzători",
+            "model": "time_value",
+            "unitsPerWorkload": 1,
+            "inputs": [
+              {
+                "id": "units",
+                "label": "Sinteze calificate lunar",
+                "help": "Munca pe care prevezi să o verifici într-o lună, în limita inclusă.",
+                "defaultValue": 20,
+                "min": 0,
+                "max": 20,
+                "step": 1,
+                "format": "number"
+              },
+              {
+                "id": "minutes_saved",
+                "label": "Minute salvate",
+                "help": "Estimarea ta după verificare, aprobare și refaceri. Valorile negative înseamnă efort suplimentar.",
+                "defaultValue": 12,
+                "min": -1440,
+                "max": 1440,
+                "step": 0.1,
+                "format": "number"
+              },
+              {
+                "id": "hourly_value",
+                "label": "Valoare pe oră",
+                "help": "Evaluarea ta opțională. Nu promite economii bănești sau reduceri salariale.",
+                "defaultValue": null,
+                "min": 0,
+                "max": 1000,
+                "step": 0.01,
+                "format": "currency"
+              }
+            ],
+            "offer": {
+              "monthlyPrice": 49,
+              "basis": "fixed",
+              "unit": "Spațiu agent · fișe vânzători",
+              "vatIncluded": false,
+              "includedUnits": 20,
+              "allowance": "20 sinteze calificate",
+              "extras": "Utilizarea suplimentară și serviciile profesionale se cotează separat."
+            },
+            "assumptions": [
+              "Cele 12 minute nete inițiale sunt o estimare ilustrativă de pregătire, nu un rezultat măsurat.",
+              "Minutele nete includ verificarea clientului. Tu indici valoarea monetară a timpului; nu sunt bani primiți."
+            ],
+            "loop": "Semnal imobiliar/de cumpărare → validează cererea cu surse → agentul verifică, părțile consimt → notează introducerea acceptată și rezultatul real.",
+            "ctaLabel": "Încearcă demo",
+            "ctaTarget": "meet"
+          }
+        ]
       }
     }
   },
@@ -2386,7 +2731,7 @@
         "roiCalculator",
         "heading"
       ],
-      "sourceHash": "c63420eca3f95b8917c99f3a5cf72f000ab237bc6c658765b2176ebdd7b311be"
+      "sourceHash": "f605f95a678fe3249ebf6201cbc21b86ea72d7f4bc395cab6e017b8b91a674d6"
     },
     {
       "path": [
@@ -2397,7 +2742,7 @@
         "roiCalculator",
         "subheading"
       ],
-      "sourceHash": "7b148bf1bc2d445204b8b2a40faa420fe4a04624c98bd20f79c051038ca1b7da"
+      "sourceHash": "22fd8ffe8dbddd46f41fb690f262f66466bb343bae0b359e4c64dfd2f2f127a5"
     },
     {
       "path": [
@@ -2408,7 +2753,7 @@
         "roiCalculator",
         "disclaimer"
       ],
-      "sourceHash": "2571d3c4491924fe3b8aaab7d2acb5f4904b393aae9f2babc38cd0e46d1126aa"
+      "sourceHash": "28bd6e46023484d9a6b075ba5e7539842d6a2e920782ed0979f21366d56ae02f"
     },
     {
       "path": [
@@ -4808,7 +5153,7 @@
         "pricing",
         "label"
       ],
-      "sourceHash": "74be3e630a8b30d773e4002180e4cdf3963817fa92ff839e99f6556ac371eaa8"
+      "sourceHash": "dfe95783edfef7918760312f94edd764f4ce3ffd38b90c2c955a0cc3b250f040"
     },
     {
       "path": [
@@ -4858,6 +5203,809 @@
         "privacyNote"
       ],
       "sourceHash": "0e96f5e15977ab0a2a8d684c0d35d7459f3afc862b606046310ae1fbbd4be12b"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "navLabel"
+      ],
+      "sourceHash": "dfe95783edfef7918760312f94edd764f4ce3ffd38b90c2c955a0cc3b250f040"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "heading"
+      ],
+      "sourceHash": "f605f95a678fe3249ebf6201cbc21b86ea72d7f4bc395cab6e017b8b91a674d6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "intro"
+      ],
+      "sourceHash": "22fd8ffe8dbddd46f41fb690f262f66466bb343bae0b359e4c64dfd2f2f127a5"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "monthly"
+      ],
+      "sourceHash": "310ca503ef36f177ddbc760463fcaec1edc6eca12bfd590ad7bb244b31e59543"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "weekly"
+      ],
+      "sourceHash": "e78041ab51a818a22e2cfea6c15fe72e9e20092246f496f1670f7be3e42177a6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "daily"
+      ],
+      "sourceHash": "8f2364e11b8be3ff008f32b3dedb54e659362429bcc9e3eb6acb6070de4ffbff"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "cost"
+      ],
+      "sourceHash": "16c6e032c6d9e64e841b58a0298260d9f548fcbe3a8ad8dc475bd977b602898f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "benefit"
+      ],
+      "sourceHash": "a7f9c107913bba92d233f27fbfa5c4c52e4435a763a727214089505b9519d2dc"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "net"
+      ],
+      "sourceHash": "d32a3b8a970a1c2a790bdd47a4a86f208f6ff655d8e9269dcda5776b156d6039"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "roi"
+      ],
+      "sourceHash": "bd75a04bf54fbb79e68559c37be0a8752efacfe4f5b9a326b87143c8d5c87dcc"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "timeBenefit"
+      ],
+      "sourceHash": "cedc575743fa43d9e724db8bd1d54037d41369448eb826b63e1efba54e81c2a4"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "timeRoi"
+      ],
+      "sourceHash": "4b0df8181ded668923d1da293e0fc8ca4d0ac21eed3f933b32891615e67d1f6a"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "timeBack"
+      ],
+      "sourceHash": "92947077a2792fb311280e55e4d39fbeb1fbb152e76b389dee5a53697ea548ef"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "missing"
+      ],
+      "sourceHash": "4b11bc702fcdb172c2f88f4af465a9d05ac206b7f7e6304fcded04eb92cccde6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "noRatio"
+      ],
+      "sourceHash": "5237c96ac1a23b98eb13770503afe986b088acd6627fa7649a5afdcbc4bb8e99"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "method"
+      ],
+      "sourceHash": "b79afe297bec4d00ab3a70a61b5e8b607a423a123f23a2fa9ccf8d6af6bcd157"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "reset"
+      ],
+      "sourceHash": "daee7606b339f3c339076fe2c9f372a3ff40c8ee896005d829c7481b64ca5303"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "audience"
+      ],
+      "sourceHash": "545c02357695a6ffed97b01a94a46b9aeb4686f4480173da6d0faeae8eb85053"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "includedVat"
+      ],
+      "sourceHash": "3e366dcdda082eda14db7eab30381a2fcc424c43d183d0e6d7a4b15c9b567d7d"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "excludedVat"
+      ],
+      "sourceHash": "744120dab44d48957b4580cadd00fca1f91383823125d1400984a3cf62a76441"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "perMonth"
+      ],
+      "sourceHash": "88b1d1a67e34a269fec10b917a624817de854eeadb142640ab17c8199ab6bdae"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "equivalents"
+      ],
+      "sourceHash": "4a546022be02a950fc59270741b8e4784ca51f74da16e286c77e3f5a371aff38"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "timeNote"
+      ],
+      "sourceHash": "d7c17f23c52c1d9cf5be7fcb5a537017a0a09529bfde38e6b692afa2ecbf453f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "estimateNote"
+      ],
+      "sourceHash": "28bd6e46023484d9a6b075ba5e7539842d6a2e920782ed0979f21366d56ae02f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "limitNote"
+      ],
+      "sourceHash": "61108708047a1a834e46f1ca557d7518e3a63263a8ec7e7aa4301db230beacff"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "timeFormula"
+      ],
+      "sourceHash": "4cf3d8fcb0fa4b9c36d9869e709ba0cbabcd41083c7ff8cf77e9fe32066eacdb"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "profitFormula"
+      ],
+      "sourceHash": "e286f3af8c8f706f737502c898e1ba90c6bbc7680c380bba844ec4f3874b5bc4"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "proceedsFormula"
+      ],
+      "sourceHash": "9de390391c62a87b44f2c9bf74e5223e5d34c5a74cd5e12575f5e1452881a46e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "roiFormula"
+      ],
+      "sourceHash": "00f9b4df25ca733c11a00e762ab8d95f6e9c9364ce202a6c22ff95c3613e3fcb"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "label"
+      ],
+      "sourceHash": "3e56208886334ad120af2d85b44fca33b5922a7e96623d87d793727c75178e03"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "inputs",
+        0,
+        "label"
+      ],
+      "sourceHash": "d0081c4a08b2be87b687f4f35e5668e5c004581cd766a25feea76ebe7ae5afdb"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "inputs",
+        0,
+        "help"
+      ],
+      "sourceHash": "a8cff02d43e6c0371644e73ec0de532d8ac6ae2eb169301a6e3605e3cb010ab0"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "inputs",
+        1,
+        "label"
+      ],
+      "sourceHash": "9f135e34cc7bc32cafb416bcbf7ef6af035cdb444c22e90cccd0587ba3db19df"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "inputs",
+        1,
+        "help"
+      ],
+      "sourceHash": "d99a99ab817eea4a3a70ded599d0744a02fe8de95ab0b7c6a0fc9d5cb72c400d"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "inputs",
+        2,
+        "label"
+      ],
+      "sourceHash": "4b5674419c1cb29206fb7d1486e6492bb74df9523dbc3bd5cdb875a309486100"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "inputs",
+        2,
+        "help"
+      ],
+      "sourceHash": "310e52c988a868b67de05d75913bc83fea7f2ff3d06b15cb07adf6c22d1f94f1"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "offer",
+        "unit"
+      ],
+      "sourceHash": "3e56208886334ad120af2d85b44fca33b5922a7e96623d87d793727c75178e03"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "offer",
+        "allowance"
+      ],
+      "sourceHash": "aa695907fedd044f41aaf55b78c3e18e056e184ea83ebd0d21e1b8e7177ee995"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "offer",
+        "extras"
+      ],
+      "sourceHash": "2dde78d0a4b34a797ac41efa8426f1e98874a7e9bfc38db869338b90175c0a63"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "assumptions",
+        0
+      ],
+      "sourceHash": "79adeadb4feb385ac12585feee29f5f4b94954ccde2406a3b86aa5c7e90ca29f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "assumptions",
+        1
+      ],
+      "sourceHash": "989a9fcc887e91c895fb2d3cdee45f5d8279d36705594e66f19d87e172656e0e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "loop"
+      ],
+      "sourceHash": "edc50e97c701508b19ff0c0117cda5ab8aafa7faa0d747388080ab915edec13f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "ctaLabel"
+      ],
+      "sourceHash": "6e5fe4ca7c07142fa81eef400c342dea7f8ba0422aa331c3880e6604db8d52a7"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "label"
+      ],
+      "sourceHash": "4eaa570bcd2d051814cfbcea81a6a732eec55c652d08b722bda0aa7cb12971ef"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "inputs",
+        0,
+        "label"
+      ],
+      "sourceHash": "d0081c4a08b2be87b687f4f35e5668e5c004581cd766a25feea76ebe7ae5afdb"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "inputs",
+        0,
+        "help"
+      ],
+      "sourceHash": "a8cff02d43e6c0371644e73ec0de532d8ac6ae2eb169301a6e3605e3cb010ab0"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "inputs",
+        1,
+        "label"
+      ],
+      "sourceHash": "9f135e34cc7bc32cafb416bcbf7ef6af035cdb444c22e90cccd0587ba3db19df"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "inputs",
+        1,
+        "help"
+      ],
+      "sourceHash": "d99a99ab817eea4a3a70ded599d0744a02fe8de95ab0b7c6a0fc9d5cb72c400d"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "inputs",
+        2,
+        "label"
+      ],
+      "sourceHash": "4b5674419c1cb29206fb7d1486e6492bb74df9523dbc3bd5cdb875a309486100"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "inputs",
+        2,
+        "help"
+      ],
+      "sourceHash": "310e52c988a868b67de05d75913bc83fea7f2ff3d06b15cb07adf6c22d1f94f1"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "offer",
+        "unit"
+      ],
+      "sourceHash": "4eaa570bcd2d051814cfbcea81a6a732eec55c652d08b722bda0aa7cb12971ef"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "offer",
+        "allowance"
+      ],
+      "sourceHash": "aa695907fedd044f41aaf55b78c3e18e056e184ea83ebd0d21e1b8e7177ee995"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "offer",
+        "extras"
+      ],
+      "sourceHash": "2dde78d0a4b34a797ac41efa8426f1e98874a7e9bfc38db869338b90175c0a63"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "assumptions",
+        0
+      ],
+      "sourceHash": "79adeadb4feb385ac12585feee29f5f4b94954ccde2406a3b86aa5c7e90ca29f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "assumptions",
+        1
+      ],
+      "sourceHash": "989a9fcc887e91c895fb2d3cdee45f5d8279d36705594e66f19d87e172656e0e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "loop"
+      ],
+      "sourceHash": "edc50e97c701508b19ff0c0117cda5ab8aafa7faa0d747388080ab915edec13f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "ctaLabel"
+      ],
+      "sourceHash": "6e5fe4ca7c07142fa81eef400c342dea7f8ba0422aa331c3880e6604db8d52a7"
     },
     {
       "path": [
@@ -5380,7 +6528,7 @@
         "roiCalculator",
         "heading"
       ],
-      "sourceHash": "c63420eca3f95b8917c99f3a5cf72f000ab237bc6c658765b2176ebdd7b311be"
+      "sourceHash": "f605f95a678fe3249ebf6201cbc21b86ea72d7f4bc395cab6e017b8b91a674d6"
     },
     {
       "path": [
@@ -5391,7 +6539,7 @@
         "roiCalculator",
         "subheading"
       ],
-      "sourceHash": "7b148bf1bc2d445204b8b2a40faa420fe4a04624c98bd20f79c051038ca1b7da"
+      "sourceHash": "22fd8ffe8dbddd46f41fb690f262f66466bb343bae0b359e4c64dfd2f2f127a5"
     },
     {
       "path": [
@@ -5402,7 +6550,7 @@
         "roiCalculator",
         "disclaimer"
       ],
-      "sourceHash": "2571d3c4491924fe3b8aaab7d2acb5f4904b393aae9f2babc38cd0e46d1126aa"
+      "sourceHash": "28bd6e46023484d9a6b075ba5e7539842d6a2e920782ed0979f21366d56ae02f"
     },
     {
       "path": [
@@ -7830,7 +8978,7 @@
         "pricing",
         "label"
       ],
-      "sourceHash": "74be3e630a8b30d773e4002180e4cdf3963817fa92ff839e99f6556ac371eaa8"
+      "sourceHash": "dfe95783edfef7918760312f94edd764f4ce3ffd38b90c2c955a0cc3b250f040"
     },
     {
       "path": [
@@ -7880,6 +9028,809 @@
         "privacyNote"
       ],
       "sourceHash": "0e96f5e15977ab0a2a8d684c0d35d7459f3afc862b606046310ae1fbbd4be12b"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "navLabel"
+      ],
+      "sourceHash": "dfe95783edfef7918760312f94edd764f4ce3ffd38b90c2c955a0cc3b250f040"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "heading"
+      ],
+      "sourceHash": "f605f95a678fe3249ebf6201cbc21b86ea72d7f4bc395cab6e017b8b91a674d6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "intro"
+      ],
+      "sourceHash": "22fd8ffe8dbddd46f41fb690f262f66466bb343bae0b359e4c64dfd2f2f127a5"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "monthly"
+      ],
+      "sourceHash": "310ca503ef36f177ddbc760463fcaec1edc6eca12bfd590ad7bb244b31e59543"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "weekly"
+      ],
+      "sourceHash": "e78041ab51a818a22e2cfea6c15fe72e9e20092246f496f1670f7be3e42177a6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "daily"
+      ],
+      "sourceHash": "8f2364e11b8be3ff008f32b3dedb54e659362429bcc9e3eb6acb6070de4ffbff"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "cost"
+      ],
+      "sourceHash": "16c6e032c6d9e64e841b58a0298260d9f548fcbe3a8ad8dc475bd977b602898f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "benefit"
+      ],
+      "sourceHash": "a7f9c107913bba92d233f27fbfa5c4c52e4435a763a727214089505b9519d2dc"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "net"
+      ],
+      "sourceHash": "d32a3b8a970a1c2a790bdd47a4a86f208f6ff655d8e9269dcda5776b156d6039"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "roi"
+      ],
+      "sourceHash": "bd75a04bf54fbb79e68559c37be0a8752efacfe4f5b9a326b87143c8d5c87dcc"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "timeBenefit"
+      ],
+      "sourceHash": "cedc575743fa43d9e724db8bd1d54037d41369448eb826b63e1efba54e81c2a4"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "timeRoi"
+      ],
+      "sourceHash": "4b0df8181ded668923d1da293e0fc8ca4d0ac21eed3f933b32891615e67d1f6a"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "timeBack"
+      ],
+      "sourceHash": "92947077a2792fb311280e55e4d39fbeb1fbb152e76b389dee5a53697ea548ef"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "missing"
+      ],
+      "sourceHash": "4b11bc702fcdb172c2f88f4af465a9d05ac206b7f7e6304fcded04eb92cccde6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "noRatio"
+      ],
+      "sourceHash": "5237c96ac1a23b98eb13770503afe986b088acd6627fa7649a5afdcbc4bb8e99"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "method"
+      ],
+      "sourceHash": "b79afe297bec4d00ab3a70a61b5e8b607a423a123f23a2fa9ccf8d6af6bcd157"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "reset"
+      ],
+      "sourceHash": "daee7606b339f3c339076fe2c9f372a3ff40c8ee896005d829c7481b64ca5303"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "audience"
+      ],
+      "sourceHash": "545c02357695a6ffed97b01a94a46b9aeb4686f4480173da6d0faeae8eb85053"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "includedVat"
+      ],
+      "sourceHash": "3e366dcdda082eda14db7eab30381a2fcc424c43d183d0e6d7a4b15c9b567d7d"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "excludedVat"
+      ],
+      "sourceHash": "744120dab44d48957b4580cadd00fca1f91383823125d1400984a3cf62a76441"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "perMonth"
+      ],
+      "sourceHash": "88b1d1a67e34a269fec10b917a624817de854eeadb142640ab17c8199ab6bdae"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "equivalents"
+      ],
+      "sourceHash": "4a546022be02a950fc59270741b8e4784ca51f74da16e286c77e3f5a371aff38"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "timeNote"
+      ],
+      "sourceHash": "d7c17f23c52c1d9cf5be7fcb5a537017a0a09529bfde38e6b692afa2ecbf453f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "estimateNote"
+      ],
+      "sourceHash": "28bd6e46023484d9a6b075ba5e7539842d6a2e920782ed0979f21366d56ae02f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "limitNote"
+      ],
+      "sourceHash": "61108708047a1a834e46f1ca557d7518e3a63263a8ec7e7aa4301db230beacff"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "timeFormula"
+      ],
+      "sourceHash": "4cf3d8fcb0fa4b9c36d9869e709ba0cbabcd41083c7ff8cf77e9fe32066eacdb"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "profitFormula"
+      ],
+      "sourceHash": "e286f3af8c8f706f737502c898e1ba90c6bbc7680c380bba844ec4f3874b5bc4"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "proceedsFormula"
+      ],
+      "sourceHash": "9de390391c62a87b44f2c9bf74e5223e5d34c5a74cd5e12575f5e1452881a46e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "roiFormula"
+      ],
+      "sourceHash": "00f9b4df25ca733c11a00e762ab8d95f6e9c9364ce202a6c22ff95c3613e3fcb"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "label"
+      ],
+      "sourceHash": "3e56208886334ad120af2d85b44fca33b5922a7e96623d87d793727c75178e03"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "inputs",
+        0,
+        "label"
+      ],
+      "sourceHash": "d0081c4a08b2be87b687f4f35e5668e5c004581cd766a25feea76ebe7ae5afdb"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "inputs",
+        0,
+        "help"
+      ],
+      "sourceHash": "a8cff02d43e6c0371644e73ec0de532d8ac6ae2eb169301a6e3605e3cb010ab0"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "inputs",
+        1,
+        "label"
+      ],
+      "sourceHash": "9f135e34cc7bc32cafb416bcbf7ef6af035cdb444c22e90cccd0587ba3db19df"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "inputs",
+        1,
+        "help"
+      ],
+      "sourceHash": "d99a99ab817eea4a3a70ded599d0744a02fe8de95ab0b7c6a0fc9d5cb72c400d"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "inputs",
+        2,
+        "label"
+      ],
+      "sourceHash": "4b5674419c1cb29206fb7d1486e6492bb74df9523dbc3bd5cdb875a309486100"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "inputs",
+        2,
+        "help"
+      ],
+      "sourceHash": "310e52c988a868b67de05d75913bc83fea7f2ff3d06b15cb07adf6c22d1f94f1"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "offer",
+        "unit"
+      ],
+      "sourceHash": "3e56208886334ad120af2d85b44fca33b5922a7e96623d87d793727c75178e03"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "offer",
+        "allowance"
+      ],
+      "sourceHash": "aa695907fedd044f41aaf55b78c3e18e056e184ea83ebd0d21e1b8e7177ee995"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "offer",
+        "extras"
+      ],
+      "sourceHash": "2dde78d0a4b34a797ac41efa8426f1e98874a7e9bfc38db869338b90175c0a63"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "assumptions",
+        0
+      ],
+      "sourceHash": "79adeadb4feb385ac12585feee29f5f4b94954ccde2406a3b86aa5c7e90ca29f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "assumptions",
+        1
+      ],
+      "sourceHash": "989a9fcc887e91c895fb2d3cdee45f5d8279d36705594e66f19d87e172656e0e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "loop"
+      ],
+      "sourceHash": "edc50e97c701508b19ff0c0117cda5ab8aafa7faa0d747388080ab915edec13f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "ctaLabel"
+      ],
+      "sourceHash": "6e5fe4ca7c07142fa81eef400c342dea7f8ba0422aa331c3880e6604db8d52a7"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "label"
+      ],
+      "sourceHash": "4eaa570bcd2d051814cfbcea81a6a732eec55c652d08b722bda0aa7cb12971ef"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "inputs",
+        0,
+        "label"
+      ],
+      "sourceHash": "d0081c4a08b2be87b687f4f35e5668e5c004581cd766a25feea76ebe7ae5afdb"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "inputs",
+        0,
+        "help"
+      ],
+      "sourceHash": "a8cff02d43e6c0371644e73ec0de532d8ac6ae2eb169301a6e3605e3cb010ab0"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "inputs",
+        1,
+        "label"
+      ],
+      "sourceHash": "9f135e34cc7bc32cafb416bcbf7ef6af035cdb444c22e90cccd0587ba3db19df"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "inputs",
+        1,
+        "help"
+      ],
+      "sourceHash": "d99a99ab817eea4a3a70ded599d0744a02fe8de95ab0b7c6a0fc9d5cb72c400d"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "inputs",
+        2,
+        "label"
+      ],
+      "sourceHash": "4b5674419c1cb29206fb7d1486e6492bb74df9523dbc3bd5cdb875a309486100"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "inputs",
+        2,
+        "help"
+      ],
+      "sourceHash": "310e52c988a868b67de05d75913bc83fea7f2ff3d06b15cb07adf6c22d1f94f1"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "offer",
+        "unit"
+      ],
+      "sourceHash": "4eaa570bcd2d051814cfbcea81a6a732eec55c652d08b722bda0aa7cb12971ef"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "offer",
+        "allowance"
+      ],
+      "sourceHash": "aa695907fedd044f41aaf55b78c3e18e056e184ea83ebd0d21e1b8e7177ee995"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "offer",
+        "extras"
+      ],
+      "sourceHash": "2dde78d0a4b34a797ac41efa8426f1e98874a7e9bfc38db869338b90175c0a63"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "assumptions",
+        0
+      ],
+      "sourceHash": "79adeadb4feb385ac12585feee29f5f4b94954ccde2406a3b86aa5c7e90ca29f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "assumptions",
+        1
+      ],
+      "sourceHash": "989a9fcc887e91c895fb2d3cdee45f5d8279d36705594e66f19d87e172656e0e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "loop"
+      ],
+      "sourceHash": "edc50e97c701508b19ff0c0117cda5ab8aafa7faa0d747388080ab915edec13f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "ctaLabel"
+      ],
+      "sourceHash": "6e5fe4ca7c07142fa81eef400c342dea7f8ba0422aa331c3880e6604db8d52a7"
     },
     {
       "path": [
@@ -8944,7 +10895,7 @@
         "roiCalculator",
         "heading"
       ],
-      "sourceHash": "c63420eca3f95b8917c99f3a5cf72f000ab237bc6c658765b2176ebdd7b311be"
+      "sourceHash": "f605f95a678fe3249ebf6201cbc21b86ea72d7f4bc395cab6e017b8b91a674d6"
     },
     {
       "path": [
@@ -8952,7 +10903,7 @@
         "roiCalculator",
         "subheading"
       ],
-      "sourceHash": "7b148bf1bc2d445204b8b2a40faa420fe4a04624c98bd20f79c051038ca1b7da"
+      "sourceHash": "22fd8ffe8dbddd46f41fb690f262f66466bb343bae0b359e4c64dfd2f2f127a5"
     },
     {
       "path": [
@@ -8960,7 +10911,7 @@
         "roiCalculator",
         "disclaimer"
       ],
-      "sourceHash": "2571d3c4491924fe3b8aaab7d2acb5f4904b393aae9f2babc38cd0e46d1126aa"
+      "sourceHash": "28bd6e46023484d9a6b075ba5e7539842d6a2e920782ed0979f21366d56ae02f"
     },
     {
       "path": [
@@ -10845,7 +12796,7 @@
         "pricing",
         "label"
       ],
-      "sourceHash": "74be3e630a8b30d773e4002180e4cdf3963817fa92ff839e99f6556ac371eaa8"
+      "sourceHash": "dfe95783edfef7918760312f94edd764f4ce3ffd38b90c2c955a0cc3b250f040"
     },
     {
       "path": [
@@ -10883,7 +12834,639 @@
         "privacyNote"
       ],
       "sourceHash": "0e96f5e15977ab0a2a8d684c0d35d7459f3afc862b606046310ae1fbbd4be12b"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "navLabel"
+      ],
+      "sourceHash": "dfe95783edfef7918760312f94edd764f4ce3ffd38b90c2c955a0cc3b250f040"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "heading"
+      ],
+      "sourceHash": "f605f95a678fe3249ebf6201cbc21b86ea72d7f4bc395cab6e017b8b91a674d6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "intro"
+      ],
+      "sourceHash": "22fd8ffe8dbddd46f41fb690f262f66466bb343bae0b359e4c64dfd2f2f127a5"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "monthly"
+      ],
+      "sourceHash": "310ca503ef36f177ddbc760463fcaec1edc6eca12bfd590ad7bb244b31e59543"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "weekly"
+      ],
+      "sourceHash": "e78041ab51a818a22e2cfea6c15fe72e9e20092246f496f1670f7be3e42177a6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "daily"
+      ],
+      "sourceHash": "8f2364e11b8be3ff008f32b3dedb54e659362429bcc9e3eb6acb6070de4ffbff"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "cost"
+      ],
+      "sourceHash": "16c6e032c6d9e64e841b58a0298260d9f548fcbe3a8ad8dc475bd977b602898f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "benefit"
+      ],
+      "sourceHash": "a7f9c107913bba92d233f27fbfa5c4c52e4435a763a727214089505b9519d2dc"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "net"
+      ],
+      "sourceHash": "d32a3b8a970a1c2a790bdd47a4a86f208f6ff655d8e9269dcda5776b156d6039"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "roi"
+      ],
+      "sourceHash": "bd75a04bf54fbb79e68559c37be0a8752efacfe4f5b9a326b87143c8d5c87dcc"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "timeBenefit"
+      ],
+      "sourceHash": "cedc575743fa43d9e724db8bd1d54037d41369448eb826b63e1efba54e81c2a4"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "timeRoi"
+      ],
+      "sourceHash": "4b0df8181ded668923d1da293e0fc8ca4d0ac21eed3f933b32891615e67d1f6a"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "timeBack"
+      ],
+      "sourceHash": "92947077a2792fb311280e55e4d39fbeb1fbb152e76b389dee5a53697ea548ef"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "missing"
+      ],
+      "sourceHash": "4b11bc702fcdb172c2f88f4af465a9d05ac206b7f7e6304fcded04eb92cccde6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "noRatio"
+      ],
+      "sourceHash": "5237c96ac1a23b98eb13770503afe986b088acd6627fa7649a5afdcbc4bb8e99"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "method"
+      ],
+      "sourceHash": "b79afe297bec4d00ab3a70a61b5e8b607a423a123f23a2fa9ccf8d6af6bcd157"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "reset"
+      ],
+      "sourceHash": "daee7606b339f3c339076fe2c9f372a3ff40c8ee896005d829c7481b64ca5303"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "audience"
+      ],
+      "sourceHash": "545c02357695a6ffed97b01a94a46b9aeb4686f4480173da6d0faeae8eb85053"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "includedVat"
+      ],
+      "sourceHash": "3e366dcdda082eda14db7eab30381a2fcc424c43d183d0e6d7a4b15c9b567d7d"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "excludedVat"
+      ],
+      "sourceHash": "744120dab44d48957b4580cadd00fca1f91383823125d1400984a3cf62a76441"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "perMonth"
+      ],
+      "sourceHash": "88b1d1a67e34a269fec10b917a624817de854eeadb142640ab17c8199ab6bdae"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "equivalents"
+      ],
+      "sourceHash": "4a546022be02a950fc59270741b8e4784ca51f74da16e286c77e3f5a371aff38"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "timeNote"
+      ],
+      "sourceHash": "d7c17f23c52c1d9cf5be7fcb5a537017a0a09529bfde38e6b692afa2ecbf453f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "estimateNote"
+      ],
+      "sourceHash": "28bd6e46023484d9a6b075ba5e7539842d6a2e920782ed0979f21366d56ae02f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "limitNote"
+      ],
+      "sourceHash": "61108708047a1a834e46f1ca557d7518e3a63263a8ec7e7aa4301db230beacff"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "timeFormula"
+      ],
+      "sourceHash": "4cf3d8fcb0fa4b9c36d9869e709ba0cbabcd41083c7ff8cf77e9fe32066eacdb"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "profitFormula"
+      ],
+      "sourceHash": "e286f3af8c8f706f737502c898e1ba90c6bbc7680c380bba844ec4f3874b5bc4"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "proceedsFormula"
+      ],
+      "sourceHash": "9de390391c62a87b44f2c9bf74e5223e5d34c5a74cd5e12575f5e1452881a46e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "roiFormula"
+      ],
+      "sourceHash": "00f9b4df25ca733c11a00e762ab8d95f6e9c9364ce202a6c22ff95c3613e3fcb"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "label"
+      ],
+      "sourceHash": "3e56208886334ad120af2d85b44fca33b5922a7e96623d87d793727c75178e03"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "inputs",
+        0,
+        "label"
+      ],
+      "sourceHash": "d0081c4a08b2be87b687f4f35e5668e5c004581cd766a25feea76ebe7ae5afdb"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "inputs",
+        0,
+        "help"
+      ],
+      "sourceHash": "a8cff02d43e6c0371644e73ec0de532d8ac6ae2eb169301a6e3605e3cb010ab0"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "inputs",
+        1,
+        "label"
+      ],
+      "sourceHash": "9f135e34cc7bc32cafb416bcbf7ef6af035cdb444c22e90cccd0587ba3db19df"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "inputs",
+        1,
+        "help"
+      ],
+      "sourceHash": "d99a99ab817eea4a3a70ded599d0744a02fe8de95ab0b7c6a0fc9d5cb72c400d"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "inputs",
+        2,
+        "label"
+      ],
+      "sourceHash": "4b5674419c1cb29206fb7d1486e6492bb74df9523dbc3bd5cdb875a309486100"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "inputs",
+        2,
+        "help"
+      ],
+      "sourceHash": "310e52c988a868b67de05d75913bc83fea7f2ff3d06b15cb07adf6c22d1f94f1"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "offer",
+        "unit"
+      ],
+      "sourceHash": "3e56208886334ad120af2d85b44fca33b5922a7e96623d87d793727c75178e03"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "offer",
+        "allowance"
+      ],
+      "sourceHash": "aa695907fedd044f41aaf55b78c3e18e056e184ea83ebd0d21e1b8e7177ee995"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "offer",
+        "extras"
+      ],
+      "sourceHash": "2dde78d0a4b34a797ac41efa8426f1e98874a7e9bfc38db869338b90175c0a63"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "assumptions",
+        0
+      ],
+      "sourceHash": "79adeadb4feb385ac12585feee29f5f4b94954ccde2406a3b86aa5c7e90ca29f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "assumptions",
+        1
+      ],
+      "sourceHash": "989a9fcc887e91c895fb2d3cdee45f5d8279d36705594e66f19d87e172656e0e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "loop"
+      ],
+      "sourceHash": "edc50e97c701508b19ff0c0117cda5ab8aafa7faa0d747388080ab915edec13f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "ctaLabel"
+      ],
+      "sourceHash": "6e5fe4ca7c07142fa81eef400c342dea7f8ba0422aa331c3880e6604db8d52a7"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "label"
+      ],
+      "sourceHash": "4eaa570bcd2d051814cfbcea81a6a732eec55c652d08b722bda0aa7cb12971ef"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "inputs",
+        0,
+        "label"
+      ],
+      "sourceHash": "d0081c4a08b2be87b687f4f35e5668e5c004581cd766a25feea76ebe7ae5afdb"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "inputs",
+        0,
+        "help"
+      ],
+      "sourceHash": "a8cff02d43e6c0371644e73ec0de532d8ac6ae2eb169301a6e3605e3cb010ab0"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "inputs",
+        1,
+        "label"
+      ],
+      "sourceHash": "9f135e34cc7bc32cafb416bcbf7ef6af035cdb444c22e90cccd0587ba3db19df"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "inputs",
+        1,
+        "help"
+      ],
+      "sourceHash": "d99a99ab817eea4a3a70ded599d0744a02fe8de95ab0b7c6a0fc9d5cb72c400d"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "inputs",
+        2,
+        "label"
+      ],
+      "sourceHash": "4b5674419c1cb29206fb7d1486e6492bb74df9523dbc3bd5cdb875a309486100"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "inputs",
+        2,
+        "help"
+      ],
+      "sourceHash": "310e52c988a868b67de05d75913bc83fea7f2ff3d06b15cb07adf6c22d1f94f1"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "offer",
+        "unit"
+      ],
+      "sourceHash": "4eaa570bcd2d051814cfbcea81a6a732eec55c652d08b722bda0aa7cb12971ef"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "offer",
+        "allowance"
+      ],
+      "sourceHash": "aa695907fedd044f41aaf55b78c3e18e056e184ea83ebd0d21e1b8e7177ee995"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "offer",
+        "extras"
+      ],
+      "sourceHash": "2dde78d0a4b34a797ac41efa8426f1e98874a7e9bfc38db869338b90175c0a63"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "assumptions",
+        0
+      ],
+      "sourceHash": "79adeadb4feb385ac12585feee29f5f4b94954ccde2406a3b86aa5c7e90ca29f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "assumptions",
+        1
+      ],
+      "sourceHash": "989a9fcc887e91c895fb2d3cdee45f5d8279d36705594e66f19d87e172656e0e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "loop"
+      ],
+      "sourceHash": "edc50e97c701508b19ff0c0117cda5ab8aafa7faa0d747388080ab915edec13f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "ctaLabel"
+      ],
+      "sourceHash": "6e5fe4ca7c07142fa81eef400c342dea7f8ba0422aa331c3880e6604db8d52a7"
     }
   ],
-  "generatedAt": "2026-10-11T13:14:59.201Z"
+  "generatedAt": "2026-10-13T14:19:32.625Z"
 }

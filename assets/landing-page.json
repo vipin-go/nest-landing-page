@@ -216,9 +216,9 @@
             "methodologyVersion": 2,
             "enabled": true,
             "kicker": "Business impact",
-            "heading": "ROI Calculator",
-            "subheading": "Model a licensed second-home agent or brokerage using Nest for qualified, human-reviewed introductions in one local market.",
-            "disclaimer": "A modeled operating scenario with zero validated paid demand. Nest qualifies and coordinates consented introductions; it does not represent parties, value property, negotiate, earn commissions or guarantee a transaction.",
+            "heading": "Pricing & ROI",
+            "subheading": "Your inputs. Your estimated return.",
+            "disclaimer": "Planning estimates are separate from measured ROI. Only accepted outcomes and comparable recorded costs support measured returns.",
             "currency": "EUR",
             "currencyCopy": {
               "native": "Amounts in {currency}.",
@@ -252,7 +252,7 @@
                 "platform_cost": 1500,
                 "higher_value_hours": 0,
                 "contribution_rate": 0,
-                "customer_price": 750
+                "customer_price": 49
               },
               "copy": {
                 "navLabel": "Pricing",
@@ -497,35 +497,6 @@
                 "More qualified, human-reviewed introductions",
                 "Time for agent conversations and client needs"
               ],
-              "usagePackages": {
-                "base": {
-                  "volume": 1,
-                  "tokensPerOutput": 12000,
-                  "platform_cost": 450,
-                  "minutes": 20,
-                  "automation": 100,
-                  "review": 8,
-                  "model_cost": 0,
-                  "tools_cost": 0,
-                  "infrastructure_cost": 0,
-                  "higher_value_hours": 0,
-                  "contribution_rate": 0
-                },
-                "medium": {
-                  "volume": 1,
-                  "tokensPerOutput": 12000,
-                  "platform_cost": 750,
-                  "minutes": 20,
-                  "automation": 100,
-                  "review": 8,
-                  "model_cost": 0,
-                  "tools_cost": 0,
-                  "infrastructure_cost": 0,
-                  "higher_value_hours": 0,
-                  "contribution_rate": 0
-                }
-              },
-              "defaultPackage": "medium",
               "costMode": "itemized",
               "reviewMode": "team",
               "selected": [
@@ -588,8 +559,7 @@
               ],
               "pricing": {
                 "basis": "fixed",
-                "annualPrice": 9000,
-                "label": "Proposed Nest monthly price",
+                "label": "Pricing",
                 "help": "A €750/month working hypothesis for a qualified-introduction pilot. Treat as unvalidated until an agent or brokerage pays."
               },
               "presentation": {
@@ -604,6 +574,151 @@
               "secondaryLabel": "See how it works",
               "privacyNote": "Your data stays private. Hours are capacity. Financial amounts are modeled estimates, not observed results.",
               "secondaryTarget": "how-it-works"
+            },
+            "compact": {
+              "schemaVersion": 1,
+              "defaultProfileId": "buyer",
+              "copy": {
+                "navLabel": "Pricing",
+                "heading": "Pricing & ROI",
+                "intro": "Your inputs. Your estimated return.",
+                "monthly": "Month",
+                "weekly": "Week",
+                "daily": "Day",
+                "cost": "You pay",
+                "benefit": "Estimated return",
+                "net": "Net gain",
+                "roi": "Estimated ROI",
+                "timeBenefit": "Estimated time value",
+                "timeRoi": "Time-value ROI",
+                "timeBack": "Hours returned",
+                "missing": "Add your inputs",
+                "noRatio": "Not applicable",
+                "method": "How it’s calculated",
+                "reset": "Reset",
+                "audience": "Audience",
+                "includedVat": "Including VAT",
+                "excludedVat": "Excluding VAT",
+                "perMonth": "per month",
+                "equivalents": "Billed monthly. Day and week figures are averages, not daily or weekly charges or guaranteed returns.",
+                "timeNote": "Time value is your optional estimate, not cash received or a payroll reduction. Net minutes include your checking and approval time.",
+                "estimateNote": "Planning estimates are separate from measured ROI. Only accepted outcomes and comparable recorded costs support measured returns.",
+                "limitNote": "For more usage or separately quoted work, contact us. This estimate covers the included plan only.",
+                "timeFormula": "Time value = units × net minutes saved ÷ 60 × your hourly value.",
+                "profitFormula": "Contribution profit = eligible recommendation sessions × conversion uplift ÷ 100 × profit per additional order.",
+                "proceedsFormula": "Incremental proceeds = lots or pickups × (net proceeds afterward − net proceeds beforehand).",
+                "roiFormula": "Net = benefit − app subscription cost. ROI = net ÷ app subscription cost × 100. Free plans have no ROI percentage."
+              },
+              "profiles": [
+                {
+                  "id": "buyer",
+                  "label": "Agent workspace · buyer briefs",
+                  "model": "time_value",
+                  "unitsPerWorkload": 1,
+                  "inputs": [
+                    {
+                      "id": "units",
+                      "label": "Qualified briefs per month",
+                      "help": "Work you expect to review in one month, within the included allowance.",
+                      "defaultValue": 20,
+                      "min": 0,
+                      "max": 20,
+                      "step": 1,
+                      "format": "number"
+                    },
+                    {
+                      "id": "minutes_saved",
+                      "label": "Minutes saved",
+                      "help": "Your estimate after checking, approval and any rework. Negative values mean extra effort.",
+                      "defaultValue": 12,
+                      "min": -1440,
+                      "max": 1440,
+                      "step": 0.1,
+                      "format": "number"
+                    },
+                    {
+                      "id": "hourly_value",
+                      "label": "Hourly value",
+                      "help": "Your own optional valuation. This is not a promised cash saving or salary reduction.",
+                      "defaultValue": null,
+                      "min": 0,
+                      "max": 1000,
+                      "step": 0.01,
+                      "format": "currency"
+                    }
+                  ],
+                  "offer": {
+                    "monthlyPrice": 49,
+                    "basis": "fixed",
+                    "unit": "Agent workspace · buyer briefs",
+                    "vatIncluded": false,
+                    "includedUnits": 20,
+                    "allowance": "20 qualified briefs",
+                    "extras": "Additional usage and professional services are separately quoted."
+                  },
+                  "assumptions": [
+                    "The starting 12 net minutes is an illustrative preparation estimate, not a measured result.",
+                    "Net minutes include customer review. Monetary time value is supplied by you; it is not cash received."
+                  ],
+                  "loop": "Property or buyer-intent signal → qualify a sourced brief → agent reviews and parties consent → record accepted introduction and actual outcome.",
+                  "ctaLabel": "Try the demo",
+                  "ctaTarget": "meet"
+                },
+                {
+                  "id": "seller",
+                  "label": "Agent workspace · seller briefs",
+                  "model": "time_value",
+                  "unitsPerWorkload": 1,
+                  "inputs": [
+                    {
+                      "id": "units",
+                      "label": "Qualified briefs per month",
+                      "help": "Work you expect to review in one month, within the included allowance.",
+                      "defaultValue": 20,
+                      "min": 0,
+                      "max": 20,
+                      "step": 1,
+                      "format": "number"
+                    },
+                    {
+                      "id": "minutes_saved",
+                      "label": "Minutes saved",
+                      "help": "Your estimate after checking, approval and any rework. Negative values mean extra effort.",
+                      "defaultValue": 12,
+                      "min": -1440,
+                      "max": 1440,
+                      "step": 0.1,
+                      "format": "number"
+                    },
+                    {
+                      "id": "hourly_value",
+                      "label": "Hourly value",
+                      "help": "Your own optional valuation. This is not a promised cash saving or salary reduction.",
+                      "defaultValue": null,
+                      "min": 0,
+                      "max": 1000,
+                      "step": 0.01,
+                      "format": "currency"
+                    }
+                  ],
+                  "offer": {
+                    "monthlyPrice": 49,
+                    "basis": "fixed",
+                    "unit": "Agent workspace · seller briefs",
+                    "vatIncluded": false,
+                    "includedUnits": 20,
+                    "allowance": "20 qualified briefs",
+                    "extras": "Additional usage and professional services are separately quoted."
+                  },
+                  "assumptions": [
+                    "The starting 12 net minutes is an illustrative preparation estimate, not a measured result.",
+                    "Net minutes include customer review. Monetary time value is supplied by you; it is not cash received."
+                  ],
+                  "loop": "Property or buyer-intent signal → qualify a sourced brief → agent reviews and parties consent → record accepted introduction and actual outcome.",
+                  "ctaLabel": "Try the demo",
+                  "ctaTarget": "meet"
+                }
+              ]
             }
           },
           "leadScan": {
@@ -724,9 +839,9 @@
             "methodologyVersion": 2,
             "enabled": true,
             "kicker": "Business impact",
-            "heading": "ROI Calculator",
-            "subheading": "Model a licensed second-home agent or brokerage using Nest for qualified, human-reviewed introductions in one local market.",
-            "disclaimer": "A modeled operating scenario with zero validated paid demand. Nest qualifies and coordinates consented introductions; it does not represent parties, value property, negotiate, earn commissions or guarantee a transaction.",
+            "heading": "Pricing & ROI",
+            "subheading": "Your inputs. Your estimated return.",
+            "disclaimer": "Planning estimates are separate from measured ROI. Only accepted outcomes and comparable recorded costs support measured returns.",
             "currency": "EUR",
             "currencyCopy": {
               "native": "Amounts in {currency}.",
@@ -760,7 +875,7 @@
                 "platform_cost": 1500,
                 "higher_value_hours": 0,
                 "contribution_rate": 0,
-                "customer_price": 750
+                "customer_price": 49
               },
               "copy": {
                 "navLabel": "Pricing",
@@ -1005,35 +1120,6 @@
                 "More qualified, human-reviewed introductions",
                 "Time for agent conversations and client needs"
               ],
-              "usagePackages": {
-                "base": {
-                  "volume": 1,
-                  "tokensPerOutput": 12000,
-                  "platform_cost": 450,
-                  "minutes": 25,
-                  "automation": 100,
-                  "review": 10,
-                  "model_cost": 0,
-                  "tools_cost": 0,
-                  "infrastructure_cost": 0,
-                  "higher_value_hours": 0,
-                  "contribution_rate": 0
-                },
-                "medium": {
-                  "volume": 1,
-                  "tokensPerOutput": 12000,
-                  "platform_cost": 750,
-                  "minutes": 25,
-                  "automation": 100,
-                  "review": 10,
-                  "model_cost": 0,
-                  "tools_cost": 0,
-                  "infrastructure_cost": 0,
-                  "higher_value_hours": 0,
-                  "contribution_rate": 0
-                }
-              },
-              "defaultPackage": "medium",
               "costMode": "itemized",
               "reviewMode": "team",
               "selected": [
@@ -1101,8 +1187,7 @@
               ],
               "pricing": {
                 "basis": "fixed",
-                "annualPrice": 9000,
-                "label": "Proposed Nest monthly price",
+                "label": "Pricing",
                 "help": "A €750/month working hypothesis for a qualified-introduction pilot. Treat as unvalidated until an agent or brokerage pays."
               },
               "presentation": {
@@ -1117,6 +1202,151 @@
               "secondaryLabel": "See how it works",
               "privacyNote": "Your data stays private. Hours are capacity. Financial amounts are modeled estimates, not observed results.",
               "secondaryTarget": "how-it-works"
+            },
+            "compact": {
+              "schemaVersion": 1,
+              "defaultProfileId": "seller",
+              "copy": {
+                "navLabel": "Pricing",
+                "heading": "Pricing & ROI",
+                "intro": "Your inputs. Your estimated return.",
+                "monthly": "Month",
+                "weekly": "Week",
+                "daily": "Day",
+                "cost": "You pay",
+                "benefit": "Estimated return",
+                "net": "Net gain",
+                "roi": "Estimated ROI",
+                "timeBenefit": "Estimated time value",
+                "timeRoi": "Time-value ROI",
+                "timeBack": "Hours returned",
+                "missing": "Add your inputs",
+                "noRatio": "Not applicable",
+                "method": "How it’s calculated",
+                "reset": "Reset",
+                "audience": "Audience",
+                "includedVat": "Including VAT",
+                "excludedVat": "Excluding VAT",
+                "perMonth": "per month",
+                "equivalents": "Billed monthly. Day and week figures are averages, not daily or weekly charges or guaranteed returns.",
+                "timeNote": "Time value is your optional estimate, not cash received or a payroll reduction. Net minutes include your checking and approval time.",
+                "estimateNote": "Planning estimates are separate from measured ROI. Only accepted outcomes and comparable recorded costs support measured returns.",
+                "limitNote": "For more usage or separately quoted work, contact us. This estimate covers the included plan only.",
+                "timeFormula": "Time value = units × net minutes saved ÷ 60 × your hourly value.",
+                "profitFormula": "Contribution profit = eligible recommendation sessions × conversion uplift ÷ 100 × profit per additional order.",
+                "proceedsFormula": "Incremental proceeds = lots or pickups × (net proceeds afterward − net proceeds beforehand).",
+                "roiFormula": "Net = benefit − app subscription cost. ROI = net ÷ app subscription cost × 100. Free plans have no ROI percentage."
+              },
+              "profiles": [
+                {
+                  "id": "buyer",
+                  "label": "Agent workspace · buyer briefs",
+                  "model": "time_value",
+                  "unitsPerWorkload": 1,
+                  "inputs": [
+                    {
+                      "id": "units",
+                      "label": "Qualified briefs per month",
+                      "help": "Work you expect to review in one month, within the included allowance.",
+                      "defaultValue": 20,
+                      "min": 0,
+                      "max": 20,
+                      "step": 1,
+                      "format": "number"
+                    },
+                    {
+                      "id": "minutes_saved",
+                      "label": "Minutes saved",
+                      "help": "Your estimate after checking, approval and any rework. Negative values mean extra effort.",
+                      "defaultValue": 12,
+                      "min": -1440,
+                      "max": 1440,
+                      "step": 0.1,
+                      "format": "number"
+                    },
+                    {
+                      "id": "hourly_value",
+                      "label": "Hourly value",
+                      "help": "Your own optional valuation. This is not a promised cash saving or salary reduction.",
+                      "defaultValue": null,
+                      "min": 0,
+                      "max": 1000,
+                      "step": 0.01,
+                      "format": "currency"
+                    }
+                  ],
+                  "offer": {
+                    "monthlyPrice": 49,
+                    "basis": "fixed",
+                    "unit": "Agent workspace · buyer briefs",
+                    "vatIncluded": false,
+                    "includedUnits": 20,
+                    "allowance": "20 qualified briefs",
+                    "extras": "Additional usage and professional services are separately quoted."
+                  },
+                  "assumptions": [
+                    "The starting 12 net minutes is an illustrative preparation estimate, not a measured result.",
+                    "Net minutes include customer review. Monetary time value is supplied by you; it is not cash received."
+                  ],
+                  "loop": "Property or buyer-intent signal → qualify a sourced brief → agent reviews and parties consent → record accepted introduction and actual outcome.",
+                  "ctaLabel": "Try the demo",
+                  "ctaTarget": "meet"
+                },
+                {
+                  "id": "seller",
+                  "label": "Agent workspace · seller briefs",
+                  "model": "time_value",
+                  "unitsPerWorkload": 1,
+                  "inputs": [
+                    {
+                      "id": "units",
+                      "label": "Qualified briefs per month",
+                      "help": "Work you expect to review in one month, within the included allowance.",
+                      "defaultValue": 20,
+                      "min": 0,
+                      "max": 20,
+                      "step": 1,
+                      "format": "number"
+                    },
+                    {
+                      "id": "minutes_saved",
+                      "label": "Minutes saved",
+                      "help": "Your estimate after checking, approval and any rework. Negative values mean extra effort.",
+                      "defaultValue": 12,
+                      "min": -1440,
+                      "max": 1440,
+                      "step": 0.1,
+                      "format": "number"
+                    },
+                    {
+                      "id": "hourly_value",
+                      "label": "Hourly value",
+                      "help": "Your own optional valuation. This is not a promised cash saving or salary reduction.",
+                      "defaultValue": null,
+                      "min": 0,
+                      "max": 1000,
+                      "step": 0.01,
+                      "format": "currency"
+                    }
+                  ],
+                  "offer": {
+                    "monthlyPrice": 49,
+                    "basis": "fixed",
+                    "unit": "Agent workspace · seller briefs",
+                    "vatIncluded": false,
+                    "includedUnits": 20,
+                    "allowance": "20 qualified briefs",
+                    "extras": "Additional usage and professional services are separately quoted."
+                  },
+                  "assumptions": [
+                    "The starting 12 net minutes is an illustrative preparation estimate, not a measured result.",
+                    "Net minutes include customer review. Monetary time value is supplied by you; it is not cash received."
+                  ],
+                  "loop": "Property or buyer-intent signal → qualify a sourced brief → agent reviews and parties consent → record accepted introduction and actual outcome.",
+                  "ctaLabel": "Try the demo",
+                  "ctaTarget": "meet"
+                }
+              ]
             }
           },
           "leadScan": {
@@ -1325,9 +1555,9 @@
       "methodologyVersion": 2,
       "enabled": true,
       "kicker": "Business impact",
-      "heading": "ROI Calculator",
-      "subheading": "Model a licensed second-home agent or brokerage using Nest for qualified, human-reviewed introductions in one local market.",
-      "disclaimer": "A modeled operating scenario with zero validated paid demand. Nest qualifies and coordinates consented introductions; it does not represent parties, value property, negotiate, earn commissions or guarantee a transaction.",
+      "heading": "Pricing & ROI",
+      "subheading": "Your inputs. Your estimated return.",
+      "disclaimer": "Planning estimates are separate from measured ROI. Only accepted outcomes and comparable recorded costs support measured returns.",
       "currency": "EUR",
       "currencyCopy": {
         "native": "Amounts in {currency}.",
@@ -1361,7 +1591,7 @@
           "platform_cost": 1500,
           "higher_value_hours": 0,
           "contribution_rate": 0,
-          "customer_price": 750
+          "customer_price": 49
         },
         "copy": {
           "navLabel": "Pricing",
@@ -1606,35 +1836,6 @@
           "More qualified, human-reviewed introductions",
           "Time for agent conversations and client needs"
         ],
-        "usagePackages": {
-          "base": {
-            "volume": 1,
-            "tokensPerOutput": 12000,
-            "platform_cost": 450,
-            "minutes": 20,
-            "automation": 100,
-            "review": 8,
-            "model_cost": 0,
-            "tools_cost": 0,
-            "infrastructure_cost": 0,
-            "higher_value_hours": 0,
-            "contribution_rate": 0
-          },
-          "medium": {
-            "volume": 1,
-            "tokensPerOutput": 12000,
-            "platform_cost": 750,
-            "minutes": 20,
-            "automation": 100,
-            "review": 8,
-            "model_cost": 0,
-            "tools_cost": 0,
-            "infrastructure_cost": 0,
-            "higher_value_hours": 0,
-            "contribution_rate": 0
-          }
-        },
-        "defaultPackage": "medium",
         "costMode": "itemized",
         "reviewMode": "team",
         "selected": [
@@ -1702,8 +1903,7 @@
         ],
         "pricing": {
           "basis": "fixed",
-          "annualPrice": 9000,
-          "label": "Proposed Nest monthly price",
+          "label": "Pricing",
           "help": "A €750/month working hypothesis for a qualified-introduction pilot. Treat as unvalidated until an agent or brokerage pays."
         },
         "presentation": {
@@ -1718,6 +1918,151 @@
         "secondaryLabel": "See how it works",
         "privacyNote": "Your data stays private. Hours are capacity. Financial amounts are modeled estimates, not observed results.",
         "secondaryTarget": "how-it-works"
+      },
+      "compact": {
+        "schemaVersion": 1,
+        "defaultProfileId": "buyer",
+        "copy": {
+          "navLabel": "Pricing",
+          "heading": "Pricing & ROI",
+          "intro": "Your inputs. Your estimated return.",
+          "monthly": "Month",
+          "weekly": "Week",
+          "daily": "Day",
+          "cost": "You pay",
+          "benefit": "Estimated return",
+          "net": "Net gain",
+          "roi": "Estimated ROI",
+          "timeBenefit": "Estimated time value",
+          "timeRoi": "Time-value ROI",
+          "timeBack": "Hours returned",
+          "missing": "Add your inputs",
+          "noRatio": "Not applicable",
+          "method": "How it’s calculated",
+          "reset": "Reset",
+          "audience": "Audience",
+          "includedVat": "Including VAT",
+          "excludedVat": "Excluding VAT",
+          "perMonth": "per month",
+          "equivalents": "Billed monthly. Day and week figures are averages, not daily or weekly charges or guaranteed returns.",
+          "timeNote": "Time value is your optional estimate, not cash received or a payroll reduction. Net minutes include your checking and approval time.",
+          "estimateNote": "Planning estimates are separate from measured ROI. Only accepted outcomes and comparable recorded costs support measured returns.",
+          "limitNote": "For more usage or separately quoted work, contact us. This estimate covers the included plan only.",
+          "timeFormula": "Time value = units × net minutes saved ÷ 60 × your hourly value.",
+          "profitFormula": "Contribution profit = eligible recommendation sessions × conversion uplift ÷ 100 × profit per additional order.",
+          "proceedsFormula": "Incremental proceeds = lots or pickups × (net proceeds afterward − net proceeds beforehand).",
+          "roiFormula": "Net = benefit − app subscription cost. ROI = net ÷ app subscription cost × 100. Free plans have no ROI percentage."
+        },
+        "profiles": [
+          {
+            "id": "buyer",
+            "label": "Agent workspace · buyer briefs",
+            "model": "time_value",
+            "unitsPerWorkload": 1,
+            "inputs": [
+              {
+                "id": "units",
+                "label": "Qualified briefs per month",
+                "help": "Work you expect to review in one month, within the included allowance.",
+                "defaultValue": 20,
+                "min": 0,
+                "max": 20,
+                "step": 1,
+                "format": "number"
+              },
+              {
+                "id": "minutes_saved",
+                "label": "Minutes saved",
+                "help": "Your estimate after checking, approval and any rework. Negative values mean extra effort.",
+                "defaultValue": 12,
+                "min": -1440,
+                "max": 1440,
+                "step": 0.1,
+                "format": "number"
+              },
+              {
+                "id": "hourly_value",
+                "label": "Hourly value",
+                "help": "Your own optional valuation. This is not a promised cash saving or salary reduction.",
+                "defaultValue": null,
+                "min": 0,
+                "max": 1000,
+                "step": 0.01,
+                "format": "currency"
+              }
+            ],
+            "offer": {
+              "monthlyPrice": 49,
+              "basis": "fixed",
+              "unit": "Agent workspace · buyer briefs",
+              "vatIncluded": false,
+              "includedUnits": 20,
+              "allowance": "20 qualified briefs",
+              "extras": "Additional usage and professional services are separately quoted."
+            },
+            "assumptions": [
+              "The starting 12 net minutes is an illustrative preparation estimate, not a measured result.",
+              "Net minutes include customer review. Monetary time value is supplied by you; it is not cash received."
+            ],
+            "loop": "Property or buyer-intent signal → qualify a sourced brief → agent reviews and parties consent → record accepted introduction and actual outcome.",
+            "ctaLabel": "Try the demo",
+            "ctaTarget": "meet"
+          },
+          {
+            "id": "seller",
+            "label": "Agent workspace · seller briefs",
+            "model": "time_value",
+            "unitsPerWorkload": 1,
+            "inputs": [
+              {
+                "id": "units",
+                "label": "Qualified briefs per month",
+                "help": "Work you expect to review in one month, within the included allowance.",
+                "defaultValue": 20,
+                "min": 0,
+                "max": 20,
+                "step": 1,
+                "format": "number"
+              },
+              {
+                "id": "minutes_saved",
+                "label": "Minutes saved",
+                "help": "Your estimate after checking, approval and any rework. Negative values mean extra effort.",
+                "defaultValue": 12,
+                "min": -1440,
+                "max": 1440,
+                "step": 0.1,
+                "format": "number"
+              },
+              {
+                "id": "hourly_value",
+                "label": "Hourly value",
+                "help": "Your own optional valuation. This is not a promised cash saving or salary reduction.",
+                "defaultValue": null,
+                "min": 0,
+                "max": 1000,
+                "step": 0.01,
+                "format": "currency"
+              }
+            ],
+            "offer": {
+              "monthlyPrice": 49,
+              "basis": "fixed",
+              "unit": "Agent workspace · seller briefs",
+              "vatIncluded": false,
+              "includedUnits": 20,
+              "allowance": "20 qualified briefs",
+              "extras": "Additional usage and professional services are separately quoted."
+            },
+            "assumptions": [
+              "The starting 12 net minutes is an illustrative preparation estimate, not a measured result.",
+              "Net minutes include customer review. Monetary time value is supplied by you; it is not cash received."
+            ],
+            "loop": "Property or buyer-intent signal → qualify a sourced brief → agent reviews and parties consent → record accepted introduction and actual outcome.",
+            "ctaLabel": "Try the demo",
+            "ctaTarget": "meet"
+          }
+        ]
       }
     },
     "localization": {
@@ -1728,300 +2073,300 @@
         "autoDetectCountryLanguage": true,
         "generatedTranslations": [
           {
-            "language": "es",
-            "regionKey": null,
-            "sourceRevision": "d701b52843633b93bc6a942b1d7069b64e0764961352983e775addc605ea3000",
-            "assetPath": "assets/landing-page.es.json",
-            "assetSchemaVersion": 2,
-            "generatedAt": "2026-10-11T13:14:59.201Z"
-          },
-          {
-            "language": "de",
-            "regionKey": null,
-            "sourceRevision": "d701b52843633b93bc6a942b1d7069b64e0764961352983e775addc605ea3000",
-            "assetPath": "assets/landing-page.de.json",
-            "assetSchemaVersion": 2,
-            "generatedAt": "2026-10-11T13:14:59.201Z"
-          },
-          {
-            "language": "ja",
-            "regionKey": null,
-            "sourceRevision": "d701b52843633b93bc6a942b1d7069b64e0764961352983e775addc605ea3000",
-            "assetPath": "assets/landing-page.ja.json",
-            "assetSchemaVersion": 2,
-            "generatedAt": "2026-10-11T13:14:59.201Z"
-          },
-          {
-            "language": "fr",
-            "regionKey": null,
-            "sourceRevision": "d701b52843633b93bc6a942b1d7069b64e0764961352983e775addc605ea3000",
-            "assetPath": "assets/landing-page.fr.json",
-            "assetSchemaVersion": 2,
-            "generatedAt": "2026-10-11T13:14:59.201Z"
-          },
-          {
-            "language": "pt",
-            "regionKey": null,
-            "sourceRevision": "d701b52843633b93bc6a942b1d7069b64e0764961352983e775addc605ea3000",
-            "assetPath": "assets/landing-page.pt.json",
-            "assetSchemaVersion": 2,
-            "generatedAt": "2026-10-11T13:14:59.201Z"
-          },
-          {
-            "language": "ru",
-            "regionKey": null,
-            "sourceRevision": "d701b52843633b93bc6a942b1d7069b64e0764961352983e775addc605ea3000",
-            "assetPath": "assets/landing-page.ru.json",
-            "assetSchemaVersion": 2,
-            "generatedAt": "2026-10-11T13:14:59.201Z"
-          },
-          {
-            "language": "it",
-            "regionKey": null,
-            "sourceRevision": "d701b52843633b93bc6a942b1d7069b64e0764961352983e775addc605ea3000",
-            "assetPath": "assets/landing-page.it.json",
-            "assetSchemaVersion": 2,
-            "generatedAt": "2026-10-11T13:14:59.201Z"
-          },
-          {
-            "language": "nl",
-            "regionKey": null,
-            "sourceRevision": "d701b52843633b93bc6a942b1d7069b64e0764961352983e775addc605ea3000",
-            "assetPath": "assets/landing-page.nl.json",
-            "assetSchemaVersion": 2,
-            "generatedAt": "2026-10-11T13:14:59.201Z"
-          },
-          {
-            "language": "pl",
-            "regionKey": null,
-            "sourceRevision": "d701b52843633b93bc6a942b1d7069b64e0764961352983e775addc605ea3000",
-            "assetPath": "assets/landing-page.pl.json",
-            "assetSchemaVersion": 2,
-            "generatedAt": "2026-10-11T13:14:59.201Z"
-          },
-          {
-            "language": "tr",
-            "regionKey": null,
-            "sourceRevision": "d701b52843633b93bc6a942b1d7069b64e0764961352983e775addc605ea3000",
-            "assetPath": "assets/landing-page.tr.json",
-            "assetSchemaVersion": 2,
-            "generatedAt": "2026-10-11T13:14:59.201Z"
-          },
-          {
-            "language": "zh",
-            "regionKey": null,
-            "sourceRevision": "d701b52843633b93bc6a942b1d7069b64e0764961352983e775addc605ea3000",
-            "assetPath": "assets/landing-page.zh.json",
-            "assetSchemaVersion": 2,
-            "generatedAt": "2026-10-11T13:14:59.201Z"
-          },
-          {
-            "language": "fa",
-            "regionKey": null,
-            "sourceRevision": "d701b52843633b93bc6a942b1d7069b64e0764961352983e775addc605ea3000",
-            "assetPath": "assets/landing-page.fa.json",
-            "assetSchemaVersion": 2,
-            "generatedAt": "2026-10-11T13:14:59.201Z"
-          },
-          {
-            "language": "vi",
-            "regionKey": null,
-            "sourceRevision": "d701b52843633b93bc6a942b1d7069b64e0764961352983e775addc605ea3000",
-            "assetPath": "assets/landing-page.vi.json",
-            "assetSchemaVersion": 2,
-            "generatedAt": "2026-10-11T13:14:59.201Z"
-          },
-          {
-            "language": "cs",
-            "regionKey": null,
-            "sourceRevision": "d701b52843633b93bc6a942b1d7069b64e0764961352983e775addc605ea3000",
-            "assetPath": "assets/landing-page.cs.json",
-            "assetSchemaVersion": 2,
-            "generatedAt": "2026-10-11T13:14:59.201Z"
-          },
-          {
-            "language": "id",
-            "regionKey": null,
-            "sourceRevision": "d701b52843633b93bc6a942b1d7069b64e0764961352983e775addc605ea3000",
-            "assetPath": "assets/landing-page.id.json",
-            "assetSchemaVersion": 2,
-            "generatedAt": "2026-10-11T13:14:59.201Z"
-          },
-          {
-            "language": "ko",
-            "regionKey": null,
-            "sourceRevision": "d701b52843633b93bc6a942b1d7069b64e0764961352983e775addc605ea3000",
-            "assetPath": "assets/landing-page.ko.json",
-            "assetSchemaVersion": 2,
-            "generatedAt": "2026-10-11T13:14:59.201Z"
-          },
-          {
-            "language": "uk",
-            "regionKey": null,
-            "sourceRevision": "d701b52843633b93bc6a942b1d7069b64e0764961352983e775addc605ea3000",
-            "assetPath": "assets/landing-page.uk.json",
-            "assetSchemaVersion": 2,
-            "generatedAt": "2026-10-11T13:14:59.201Z"
-          },
-          {
-            "language": "hu",
-            "regionKey": null,
-            "sourceRevision": "d701b52843633b93bc6a942b1d7069b64e0764961352983e775addc605ea3000",
-            "assetPath": "assets/landing-page.hu.json",
-            "assetSchemaVersion": 2,
-            "generatedAt": "2026-10-11T13:14:59.201Z"
-          },
-          {
             "language": "ar",
             "regionKey": null,
-            "sourceRevision": "d701b52843633b93bc6a942b1d7069b64e0764961352983e775addc605ea3000",
+            "sourceRevision": "be40441c1455b89085020ea8725989ac5b0d6534d1db605c9fe719b98b0b6ab9",
             "assetPath": "assets/landing-page.ar.json",
             "assetSchemaVersion": 2,
-            "generatedAt": "2026-10-11T13:14:59.201Z"
-          },
-          {
-            "language": "sv",
-            "regionKey": null,
-            "sourceRevision": "d701b52843633b93bc6a942b1d7069b64e0764961352983e775addc605ea3000",
-            "assetPath": "assets/landing-page.sv.json",
-            "assetSchemaVersion": 2,
-            "generatedAt": "2026-10-11T13:14:59.201Z"
-          },
-          {
-            "language": "ro",
-            "regionKey": null,
-            "sourceRevision": "d701b52843633b93bc6a942b1d7069b64e0764961352983e775addc605ea3000",
-            "assetPath": "assets/landing-page.ro.json",
-            "assetSchemaVersion": 2,
-            "generatedAt": "2026-10-11T13:14:59.201Z"
-          },
-          {
-            "language": "el",
-            "regionKey": null,
-            "sourceRevision": "d701b52843633b93bc6a942b1d7069b64e0764961352983e775addc605ea3000",
-            "assetPath": "assets/landing-page.el.json",
-            "assetSchemaVersion": 2,
-            "generatedAt": "2026-10-11T13:14:59.201Z"
-          },
-          {
-            "language": "da",
-            "regionKey": null,
-            "sourceRevision": "d701b52843633b93bc6a942b1d7069b64e0764961352983e775addc605ea3000",
-            "assetPath": "assets/landing-page.da.json",
-            "assetSchemaVersion": 2,
-            "generatedAt": "2026-10-11T13:14:59.201Z"
-          },
-          {
-            "language": "fi",
-            "regionKey": null,
-            "sourceRevision": "d701b52843633b93bc6a942b1d7069b64e0764961352983e775addc605ea3000",
-            "assetPath": "assets/landing-page.fi.json",
-            "assetSchemaVersion": 2,
-            "generatedAt": "2026-10-11T13:14:59.201Z"
-          },
-          {
-            "language": "he",
-            "regionKey": null,
-            "sourceRevision": "d701b52843633b93bc6a942b1d7069b64e0764961352983e775addc605ea3000",
-            "assetPath": "assets/landing-page.he.json",
-            "assetSchemaVersion": 2,
-            "generatedAt": "2026-10-11T13:14:59.201Z"
-          },
-          {
-            "language": "sk",
-            "regionKey": null,
-            "sourceRevision": "d701b52843633b93bc6a942b1d7069b64e0764961352983e775addc605ea3000",
-            "assetPath": "assets/landing-page.sk.json",
-            "assetSchemaVersion": 2,
-            "generatedAt": "2026-10-11T13:14:59.201Z"
-          },
-          {
-            "language": "th",
-            "regionKey": null,
-            "sourceRevision": "d701b52843633b93bc6a942b1d7069b64e0764961352983e775addc605ea3000",
-            "assetPath": "assets/landing-page.th.json",
-            "assetSchemaVersion": 2,
-            "generatedAt": "2026-10-11T13:14:59.201Z"
+            "generatedAt": "2026-10-13T14:19:32.625Z"
           },
           {
             "language": "bg",
             "regionKey": null,
-            "sourceRevision": "d701b52843633b93bc6a942b1d7069b64e0764961352983e775addc605ea3000",
+            "sourceRevision": "be40441c1455b89085020ea8725989ac5b0d6534d1db605c9fe719b98b0b6ab9",
             "assetPath": "assets/landing-page.bg.json",
             "assetSchemaVersion": 2,
-            "generatedAt": "2026-10-11T13:14:59.201Z"
-          },
-          {
-            "language": "hr",
-            "regionKey": null,
-            "sourceRevision": "d701b52843633b93bc6a942b1d7069b64e0764961352983e775addc605ea3000",
-            "assetPath": "assets/landing-page.hr.json",
-            "assetSchemaVersion": 2,
-            "generatedAt": "2026-10-11T13:14:59.201Z"
-          },
-          {
-            "language": "nb",
-            "regionKey": null,
-            "sourceRevision": "d701b52843633b93bc6a942b1d7069b64e0764961352983e775addc605ea3000",
-            "assetPath": "assets/landing-page.nb.json",
-            "assetSchemaVersion": 2,
-            "generatedAt": "2026-10-11T13:14:59.201Z"
-          },
-          {
-            "language": "lt",
-            "regionKey": null,
-            "sourceRevision": "d701b52843633b93bc6a942b1d7069b64e0764961352983e775addc605ea3000",
-            "assetPath": "assets/landing-page.lt.json",
-            "assetSchemaVersion": 2,
-            "generatedAt": "2026-10-11T13:14:59.201Z"
-          },
-          {
-            "language": "sr",
-            "regionKey": null,
-            "sourceRevision": "d701b52843633b93bc6a942b1d7069b64e0764961352983e775addc605ea3000",
-            "assetPath": "assets/landing-page.sr.json",
-            "assetSchemaVersion": 2,
-            "generatedAt": "2026-10-11T13:14:59.201Z"
-          },
-          {
-            "language": "sl",
-            "regionKey": null,
-            "sourceRevision": "d701b52843633b93bc6a942b1d7069b64e0764961352983e775addc605ea3000",
-            "assetPath": "assets/landing-page.sl.json",
-            "assetSchemaVersion": 2,
-            "generatedAt": "2026-10-11T13:14:59.201Z"
+            "generatedAt": "2026-10-13T14:19:32.625Z"
           },
           {
             "language": "ca",
             "regionKey": null,
-            "sourceRevision": "d701b52843633b93bc6a942b1d7069b64e0764961352983e775addc605ea3000",
+            "sourceRevision": "be40441c1455b89085020ea8725989ac5b0d6534d1db605c9fe719b98b0b6ab9",
             "assetPath": "assets/landing-page.ca.json",
             "assetSchemaVersion": 2,
-            "generatedAt": "2026-10-11T13:14:59.201Z"
+            "generatedAt": "2026-10-13T14:19:32.625Z"
+          },
+          {
+            "language": "cs",
+            "regionKey": null,
+            "sourceRevision": "be40441c1455b89085020ea8725989ac5b0d6534d1db605c9fe719b98b0b6ab9",
+            "assetPath": "assets/landing-page.cs.json",
+            "assetSchemaVersion": 2,
+            "generatedAt": "2026-10-13T14:19:32.625Z"
+          },
+          {
+            "language": "da",
+            "regionKey": null,
+            "sourceRevision": "be40441c1455b89085020ea8725989ac5b0d6534d1db605c9fe719b98b0b6ab9",
+            "assetPath": "assets/landing-page.da.json",
+            "assetSchemaVersion": 2,
+            "generatedAt": "2026-10-13T14:19:32.625Z"
+          },
+          {
+            "language": "de",
+            "regionKey": null,
+            "sourceRevision": "be40441c1455b89085020ea8725989ac5b0d6534d1db605c9fe719b98b0b6ab9",
+            "assetPath": "assets/landing-page.de.json",
+            "assetSchemaVersion": 2,
+            "generatedAt": "2026-10-13T14:19:32.625Z"
+          },
+          {
+            "language": "el",
+            "regionKey": null,
+            "sourceRevision": "be40441c1455b89085020ea8725989ac5b0d6534d1db605c9fe719b98b0b6ab9",
+            "assetPath": "assets/landing-page.el.json",
+            "assetSchemaVersion": 2,
+            "generatedAt": "2026-10-13T14:19:32.625Z"
+          },
+          {
+            "language": "es",
+            "regionKey": null,
+            "sourceRevision": "be40441c1455b89085020ea8725989ac5b0d6534d1db605c9fe719b98b0b6ab9",
+            "assetPath": "assets/landing-page.es.json",
+            "assetSchemaVersion": 2,
+            "generatedAt": "2026-10-13T14:19:32.625Z"
           },
           {
             "language": "et",
             "regionKey": null,
-            "sourceRevision": "d701b52843633b93bc6a942b1d7069b64e0764961352983e775addc605ea3000",
+            "sourceRevision": "be40441c1455b89085020ea8725989ac5b0d6534d1db605c9fe719b98b0b6ab9",
             "assetPath": "assets/landing-page.et.json",
             "assetSchemaVersion": 2,
-            "generatedAt": "2026-10-11T13:14:59.201Z"
+            "generatedAt": "2026-10-13T14:19:32.625Z"
           },
           {
-            "language": "no",
+            "language": "fa",
             "regionKey": null,
-            "sourceRevision": "d701b52843633b93bc6a942b1d7069b64e0764961352983e775addc605ea3000",
-            "assetPath": "assets/landing-page.no.json",
+            "sourceRevision": "be40441c1455b89085020ea8725989ac5b0d6534d1db605c9fe719b98b0b6ab9",
+            "assetPath": "assets/landing-page.fa.json",
             "assetSchemaVersion": 2,
-            "generatedAt": "2026-10-11T13:14:59.201Z"
+            "generatedAt": "2026-10-13T14:19:32.625Z"
+          },
+          {
+            "language": "fi",
+            "regionKey": null,
+            "sourceRevision": "be40441c1455b89085020ea8725989ac5b0d6534d1db605c9fe719b98b0b6ab9",
+            "assetPath": "assets/landing-page.fi.json",
+            "assetSchemaVersion": 2,
+            "generatedAt": "2026-10-13T14:19:32.625Z"
+          },
+          {
+            "language": "fr",
+            "regionKey": null,
+            "sourceRevision": "be40441c1455b89085020ea8725989ac5b0d6534d1db605c9fe719b98b0b6ab9",
+            "assetPath": "assets/landing-page.fr.json",
+            "assetSchemaVersion": 2,
+            "generatedAt": "2026-10-13T14:19:32.625Z"
+          },
+          {
+            "language": "he",
+            "regionKey": null,
+            "sourceRevision": "be40441c1455b89085020ea8725989ac5b0d6534d1db605c9fe719b98b0b6ab9",
+            "assetPath": "assets/landing-page.he.json",
+            "assetSchemaVersion": 2,
+            "generatedAt": "2026-10-13T14:19:32.625Z"
+          },
+          {
+            "language": "hr",
+            "regionKey": null,
+            "sourceRevision": "be40441c1455b89085020ea8725989ac5b0d6534d1db605c9fe719b98b0b6ab9",
+            "assetPath": "assets/landing-page.hr.json",
+            "assetSchemaVersion": 2,
+            "generatedAt": "2026-10-13T14:19:32.625Z"
+          },
+          {
+            "language": "hu",
+            "regionKey": null,
+            "sourceRevision": "be40441c1455b89085020ea8725989ac5b0d6534d1db605c9fe719b98b0b6ab9",
+            "assetPath": "assets/landing-page.hu.json",
+            "assetSchemaVersion": 2,
+            "generatedAt": "2026-10-13T14:19:32.625Z"
+          },
+          {
+            "language": "id",
+            "regionKey": null,
+            "sourceRevision": "be40441c1455b89085020ea8725989ac5b0d6534d1db605c9fe719b98b0b6ab9",
+            "assetPath": "assets/landing-page.id.json",
+            "assetSchemaVersion": 2,
+            "generatedAt": "2026-10-13T14:19:32.625Z"
+          },
+          {
+            "language": "it",
+            "regionKey": null,
+            "sourceRevision": "be40441c1455b89085020ea8725989ac5b0d6534d1db605c9fe719b98b0b6ab9",
+            "assetPath": "assets/landing-page.it.json",
+            "assetSchemaVersion": 2,
+            "generatedAt": "2026-10-13T14:19:32.625Z"
+          },
+          {
+            "language": "ja",
+            "regionKey": null,
+            "sourceRevision": "be40441c1455b89085020ea8725989ac5b0d6534d1db605c9fe719b98b0b6ab9",
+            "assetPath": "assets/landing-page.ja.json",
+            "assetSchemaVersion": 2,
+            "generatedAt": "2026-10-13T14:19:32.625Z"
+          },
+          {
+            "language": "ko",
+            "regionKey": null,
+            "sourceRevision": "be40441c1455b89085020ea8725989ac5b0d6534d1db605c9fe719b98b0b6ab9",
+            "assetPath": "assets/landing-page.ko.json",
+            "assetSchemaVersion": 2,
+            "generatedAt": "2026-10-13T14:19:32.625Z"
+          },
+          {
+            "language": "lt",
+            "regionKey": null,
+            "sourceRevision": "be40441c1455b89085020ea8725989ac5b0d6534d1db605c9fe719b98b0b6ab9",
+            "assetPath": "assets/landing-page.lt.json",
+            "assetSchemaVersion": 2,
+            "generatedAt": "2026-10-13T14:19:32.625Z"
           },
           {
             "language": "lv",
             "regionKey": null,
-            "sourceRevision": "d701b52843633b93bc6a942b1d7069b64e0764961352983e775addc605ea3000",
+            "sourceRevision": "be40441c1455b89085020ea8725989ac5b0d6534d1db605c9fe719b98b0b6ab9",
             "assetPath": "assets/landing-page.lv.json",
             "assetSchemaVersion": 2,
-            "generatedAt": "2026-10-11T13:14:59.201Z"
+            "generatedAt": "2026-10-13T14:19:32.625Z"
+          },
+          {
+            "language": "nb",
+            "regionKey": null,
+            "sourceRevision": "be40441c1455b89085020ea8725989ac5b0d6534d1db605c9fe719b98b0b6ab9",
+            "assetPath": "assets/landing-page.nb.json",
+            "assetSchemaVersion": 2,
+            "generatedAt": "2026-10-13T14:19:32.625Z"
+          },
+          {
+            "language": "nl",
+            "regionKey": null,
+            "sourceRevision": "be40441c1455b89085020ea8725989ac5b0d6534d1db605c9fe719b98b0b6ab9",
+            "assetPath": "assets/landing-page.nl.json",
+            "assetSchemaVersion": 2,
+            "generatedAt": "2026-10-13T14:19:32.625Z"
+          },
+          {
+            "language": "no",
+            "regionKey": null,
+            "sourceRevision": "be40441c1455b89085020ea8725989ac5b0d6534d1db605c9fe719b98b0b6ab9",
+            "assetPath": "assets/landing-page.no.json",
+            "assetSchemaVersion": 2,
+            "generatedAt": "2026-10-13T14:19:32.625Z"
+          },
+          {
+            "language": "pl",
+            "regionKey": null,
+            "sourceRevision": "be40441c1455b89085020ea8725989ac5b0d6534d1db605c9fe719b98b0b6ab9",
+            "assetPath": "assets/landing-page.pl.json",
+            "assetSchemaVersion": 2,
+            "generatedAt": "2026-10-13T14:19:32.625Z"
+          },
+          {
+            "language": "pt",
+            "regionKey": null,
+            "sourceRevision": "be40441c1455b89085020ea8725989ac5b0d6534d1db605c9fe719b98b0b6ab9",
+            "assetPath": "assets/landing-page.pt.json",
+            "assetSchemaVersion": 2,
+            "generatedAt": "2026-10-13T14:19:32.625Z"
+          },
+          {
+            "language": "ro",
+            "regionKey": null,
+            "sourceRevision": "be40441c1455b89085020ea8725989ac5b0d6534d1db605c9fe719b98b0b6ab9",
+            "assetPath": "assets/landing-page.ro.json",
+            "assetSchemaVersion": 2,
+            "generatedAt": "2026-10-13T14:19:32.625Z"
+          },
+          {
+            "language": "ru",
+            "regionKey": null,
+            "sourceRevision": "be40441c1455b89085020ea8725989ac5b0d6534d1db605c9fe719b98b0b6ab9",
+            "assetPath": "assets/landing-page.ru.json",
+            "assetSchemaVersion": 2,
+            "generatedAt": "2026-10-13T14:19:32.625Z"
+          },
+          {
+            "language": "sk",
+            "regionKey": null,
+            "sourceRevision": "be40441c1455b89085020ea8725989ac5b0d6534d1db605c9fe719b98b0b6ab9",
+            "assetPath": "assets/landing-page.sk.json",
+            "assetSchemaVersion": 2,
+            "generatedAt": "2026-10-13T14:19:32.625Z"
+          },
+          {
+            "language": "sl",
+            "regionKey": null,
+            "sourceRevision": "be40441c1455b89085020ea8725989ac5b0d6534d1db605c9fe719b98b0b6ab9",
+            "assetPath": "assets/landing-page.sl.json",
+            "assetSchemaVersion": 2,
+            "generatedAt": "2026-10-13T14:19:32.625Z"
+          },
+          {
+            "language": "sr",
+            "regionKey": null,
+            "sourceRevision": "be40441c1455b89085020ea8725989ac5b0d6534d1db605c9fe719b98b0b6ab9",
+            "assetPath": "assets/landing-page.sr.json",
+            "assetSchemaVersion": 2,
+            "generatedAt": "2026-10-13T14:19:32.625Z"
+          },
+          {
+            "language": "sv",
+            "regionKey": null,
+            "sourceRevision": "be40441c1455b89085020ea8725989ac5b0d6534d1db605c9fe719b98b0b6ab9",
+            "assetPath": "assets/landing-page.sv.json",
+            "assetSchemaVersion": 2,
+            "generatedAt": "2026-10-13T14:19:32.625Z"
+          },
+          {
+            "language": "th",
+            "regionKey": null,
+            "sourceRevision": "be40441c1455b89085020ea8725989ac5b0d6534d1db605c9fe719b98b0b6ab9",
+            "assetPath": "assets/landing-page.th.json",
+            "assetSchemaVersion": 2,
+            "generatedAt": "2026-10-13T14:19:32.625Z"
+          },
+          {
+            "language": "tr",
+            "regionKey": null,
+            "sourceRevision": "be40441c1455b89085020ea8725989ac5b0d6534d1db605c9fe719b98b0b6ab9",
+            "assetPath": "assets/landing-page.tr.json",
+            "assetSchemaVersion": 2,
+            "generatedAt": "2026-10-13T14:19:32.625Z"
+          },
+          {
+            "language": "uk",
+            "regionKey": null,
+            "sourceRevision": "be40441c1455b89085020ea8725989ac5b0d6534d1db605c9fe719b98b0b6ab9",
+            "assetPath": "assets/landing-page.uk.json",
+            "assetSchemaVersion": 2,
+            "generatedAt": "2026-10-13T14:19:32.625Z"
+          },
+          {
+            "language": "vi",
+            "regionKey": null,
+            "sourceRevision": "be40441c1455b89085020ea8725989ac5b0d6534d1db605c9fe719b98b0b6ab9",
+            "assetPath": "assets/landing-page.vi.json",
+            "assetSchemaVersion": 2,
+            "generatedAt": "2026-10-13T14:19:32.625Z"
+          },
+          {
+            "language": "zh",
+            "regionKey": null,
+            "sourceRevision": "be40441c1455b89085020ea8725989ac5b0d6534d1db605c9fe719b98b0b6ab9",
+            "assetPath": "assets/landing-page.zh.json",
+            "assetSchemaVersion": 2,
+            "generatedAt": "2026-10-13T14:19:32.625Z"
           }
         ]
       },

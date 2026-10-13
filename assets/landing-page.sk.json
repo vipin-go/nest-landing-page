@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "language": "sk",
   "regionKey": null,
-  "sourceRevision": "d701b52843633b93bc6a942b1d7069b64e0764961352983e775addc605ea3000",
+  "sourceRevision": "be40441c1455b89085020ea8725989ac5b0d6534d1db605c9fe719b98b0b6ab9",
   "landingPage": {
     "headline": "Jedna kvalifikovaná prezentácia, ktorá vyhovuje.",
     "subheadline": "Súkromné predstavenia kupujúcich a predávajúcich, jedna ľudsko kontrolovaná ponuka naraz.",
@@ -212,24 +212,24 @@
             "methodologyVersion": 2,
             "enabled": true,
             "kicker": "Business impact",
-            "heading": "ROI Calculator",
-            "subheading": "Modelujte licencovaného makléra či realitku pre druhé bývanie s Nest na kvalifikované, človekom overené kontakty na miestnom trhu.",
-            "disclaimer": "Modelovaný prevádzkový scenár s nulovým overeným plateným dopytom. Nest kvalifikuje a koordinuje schválené introdukcie; nezastupuje strany, neoceňuje majetok, nevyjednáva, nezarába provízie ani nezaručuje transakciu.",
+            "heading": "Ceny a ROI",
+            "subheading": "Vaše údaje. Váš odhadovaný výnos.",
+            "disclaimer": "Plánované odhady sú oddelené od meraného ROI. Merané výnosy podkladajú len prijaté výsledky a porovnateľné evidované náklady.",
             "currency": "EUR",
             "currencyCopy": {
               "native": "Amounts in {currency}.",
               "loading": "Checking the local currency. Amounts remain in {currency} until a rate is available.",
               "unavailable": "A current local exchange rate is unavailable. Amounts remain in {currency}.",
               "converted": "Amounts converted from {base} to {currency} using the reference rate dated {date}.",
-              "basis": "Prevod meny nie je prieskumom miestnych nákladov. Zadajte svoje vlastné miestne náklady a predpokladané príspevky. Zmeny jazyka nemenia sumy."
+              "basis": "Prepočet meny nie je prieskum miestnych nákladov. Zadajte vlastné miestne náklady a predpoklady prínosu. Zmena jazyka sumy nemení."
             },
             "costCopy": {
-              "breakdown": "Ako sa vytvárajú náklady na AI",
+              "breakdown": "Ako vzniká celková cena AI",
               "perUnit": "{amount} per work unit (average)",
-              "budgetOnly": "Toto je váš celkový rozpočet. Položky zadáte v Rozpise nákladov; rozdelenie sme nepredpokladali.",
-              "benefitNotice": "Modelované výhody, nie poplatky. Prečiarknuté sumy sú výdavky, ktorým sa chcete vyhnúť, nie zľavy na účet AI.",
+              "budgetOnly": "Toto je celkový rozpočet. Na rozpis prepnite na Rozpis nákladov; delenie sa nepredpokladá.",
+              "benefitNotice": "Modelované prínosy, nie poplatky. Prečiarknuté sumy sú výdavky, ktorým sa chcete vyhnúť, nie zľavy z účtu za AI.",
               "remainder": "Other included operating costs",
-              "allocation": "Vrátené hodiny predstavujú kapacitu, nie automatické úspory. Len časti, ktoré priradíte skutočným zníženiam výdavkov alebo dodatočnému príspevku, získajú peňažnú hodnotu."
+              "allocation": "Uvoľnené hodiny sú kapacita, nie automatická úspora. Peňažnú hodnotu dostanú len časti, ktoré priradíte k skutočnému zníženiu výdavkov alebo dodatočnému prínosu."
             },
             "locale": "en-GB",
             "inputs": [],
@@ -248,17 +248,17 @@
                 "platform_cost": 1500,
                 "higher_value_hours": 0,
                 "contribution_rate": 0,
-                "customer_price": 750
+                "customer_price": 49
               },
               "copy": {
-                "navLabel": "Ceny",
+                "navLabel": "stanovenie ceny",
                 "workloadStep": "Introduction funnel",
                 "costStep": "AI operating cost",
                 "valueStep": "Capacity and evidence",
                 "workloadIntro": "Modelujte dopyty po druhom bývaní, kvalifikáciu a ľudskú kontrolu, nie predaje, provízie či zaručené párovanie.",
                 "costIntro": "Náklady na tokeny, modely, nástroje, infraštruktúru, platformu a kontrolórov sú odhady dodania. Cena Nest je samostatná neoverená hypotéza.",
                 "valueIntro": "Kapacita nie je príjem. Pozorovaný príspevok zadajte až potom, čo službu využije a zaplatí skutočný agent alebo maklér.",
-                "sampleNotice": "Typické využitie · nie merané výsledky",
+                "sampleNotice": "Bežné použitie · nie skutočné výsledky",
                 "monthly": "Monthly",
                 "yearly": "Yearly",
                 "next": "Continue",
@@ -283,11 +283,11 @@
                 "reviewMode": "Who handles the review?",
                 "teamReview": "Existing team",
                 "paidReview": "Additional paid reviewer",
-                "reviewNote": "Kontrola vlastným tímom využíva uvoľnenú kapacitu. Dodatočná platená kontrola je v prevádzkových nákladoch, neodpočítava sa znova z kapacity tímu.",
+                "reviewNote": "Kontrola súčasným tímom využíva uvoľnenú kapacitu. Dodatočná platená kontrola je v prevádzkových nákladoch a od kapacity tímu sa znova neodpočíta.",
                 "totalMode": "Monthly budget",
                 "itemizedMode": "Cost breakdown",
-                "budgetNote": "Rozpočet musí zahŕňať modely/médiá, nástroje, infraštruktúru, poplatky Gabrielovi a dodatočnú platenú recenziu. Nezahŕňajte nezmenené mzdy ako nové výdavky.",
-                "itemizedNote": "Využitie tokenov sa vypočíta z objemu × tokenov na výstup. Ďalšie médiá, nástroje a infraštruktúra zostávajú na nule, pokiaľ sa neuplatňujú. Dodatočná platená recenzia sa počíta z hodín kontroly a jej sadzby.",
+                "budgetNote": "Rozpočet musí zahŕňať modely/médiá, nástroje, infraštruktúru, poplatky Gabriel a dodatočnú platenú kontrolu. Nezmenené mzdy nezahŕňajte ako nové výdavky.",
+                "itemizedNote": "Spotreba tokenov sa počíta ako objem × tokeny na výstup. Ďalšie médiá, nástroje a infraštruktúra zostávajú nulové, ak sa neuplatňujú. Dodatočná platená kontrola sa počíta z hodín kontroly a jej sadzby.",
                 "paidReviewCost": "Additional paid review cost",
                 "allInCost": "Operating cost",
                 "missing": "Add your assumptions",
@@ -300,32 +300,32 @@
                 "multiple": "Internal delivery multiple",
                 "customerBenefit": "Modeled agent benefit",
                 "customerRoi": "Modeled customer ROI",
-                "payback": "Customer payback period",
+                "payback": "Návratnosť pre zákazníka",
                 "notApplicable": "Not applicable",
                 "annual": "Annual view",
-                "annualNote": "Rovnaké mesačné predpoklady, bez rastu alebo zloženia. Nájomné úspory trvajú len na zadané obdobie.",
+                "annualNote": "Rovnaké mesačné predpoklady bez rastu či zloženého úročenia. Úspory na nábore platia len počas zadaného obdobia.",
                 "method": "How this is calculated",
                 "burdenHeading": "Repetitive work reduced",
                 "opportunityHeading": "Capacity for higher-value work",
-                "methodBody": "Odstránená záťaž (záporná produktivita) uvoľní kapacitu. Hodnotnejšia práca (možná kladná produktivita) má ekonomický prínos len pri jej využití. Samotné hodiny nie sú finančnou úsporou. Náklad na tokeny vychádza z modelovaného pomeru vstupov a výstupov, nie z ponuky poskytovateľa.",
+                "methodBody": "Odstránená prevádzková záťaž (negatívna produktivita) vracia kapacitu. Hodnotnejšia práca (možná pozitívna produktivita) tvorí ekonomickú hodnotu, len ak sa kapacita využije. Samotné hodiny nie sú úspora hotovosti. Cena tokenov je z modelového mixu vstup/výstup, nie z ponuky poskytovateľa.",
                 "formulaLabel": "Kvalifikované zadania = dopyty × miera kvalifikácie. Náklady dodania zahŕňajú odhady tokenov, modelov, nástrojov, infraštruktúry, platformy a ľudskej kontroly. Návratnosť pre zákazníka je nedostupná, kým prínos a cenu nepodložia dôkazy.",
-                "allocationNote": "Každá hodina môže byť pridelená raz. Nepridelené hodiny zostávajú kapacitou, bez peňažnej hodnoty.",
-                "overlapLabel": "Tieto výhody sú odlišné; Náklady a straty som už vylúčil inde.",
-                "overlapNote": "Odhady chýb a rizík vylučujú úsporu práce a rovnaký incident sa nesmie objaviť v oboch kategóriách. Príspevok nezahŕňa náklady na AI, ktoré sa odpočítavajú samostatne.",
-                "hiringLabel": "Tento prenájom bol skutočne plánovaný a pridelená kapacita môže pokryť prácu.",
-                "reviewedLabel": "Skontroloval som svoje výsledky; nevybrané výsledky nemajú v tomto odhade žiadnu finančnú hodnotu.",
+                "allocationNote": "Každú hodinu možno priradiť raz. Nepriradené hodiny zostávajú kapacitou bez peňažnej hodnoty.",
+                "overlapLabel": "Tieto prínosy sa neprekrývajú; náklady a straty započítané inde sú vylúčené.",
+                "overlapNote": "Odhady chýb a rizík nezahŕňajú úspory práce a ten istý incident nesmie byť v oboch kategóriách. Prínos nezahŕňa náklady na AI, ktoré sa odpočítavajú zvlášť.",
+                "hiringLabel": "Tento nábor bol skutočne plánovaný a pridelená kapacita pokryje prácu.",
+                "reviewedLabel": "Výsledky sú skontrolované; nevybrané výsledky nemajú v tomto odhade finančnú hodnotu.",
                 "cycleResult": "Cycle-time improvement",
-                "throughputResult": "Dodatočné práce podporované kapacitou a dopytom",
-                "assumptionsIncomplete": "Vyplňte vybrané predpoklady na výpočet finančnej hodnoty.",
-                "allocationError": "Pridelené hodiny presahujú dostupnú čistú kapacitu. Znížte alokácie.",
-                "reviewError": "Kontrola trvá dlhšie než ušetrená práca. Pri týchto predpokladoch sa žiadna kapacita neuvoľní.",
-                "cashError": "Utratené výdavky nemôžu presiahnuť súčasné výdavky alebo mať kladnú hodnotu bez pridelených hodín.",
-                "hiringError": "Pridelená kapacita musí pokrývať plánované hodiny prenájmu. Potvrďte plánovaný prenájom a jeho trvanie.",
-                "riskError": "Pravdepodobnosť potom nemôže presiahnuť predchádzajúcu pravdepodobnosť pre odhad zníženia straty.",
-                "overlapError": "Pred zahrnutím do finančného výsledku sa uistite, že sa výhody neprekrývajú.",
+                "throughputResult": "Ďalšia práca podložená kapacitou a dopytom",
+                "assumptionsIncomplete": "Na výpočet finančnej hodnoty doplňte zvolené predpoklady.",
+                "allocationError": "Pridelené hodiny presahujú dostupnú čistú kapacitu. Znížte pridelenia.",
+                "reviewError": "Kontrola trvá dlhšie, než koľko práce ubudlo. Pri týchto predpokladoch nie je k dispozícii kladná kapacita.",
+                "cashError": "Ušetrené výdavky nemôžu presiahnuť súčasné ani mať kladnú hodnotu bez pridelených hodín.",
+                "hiringError": "Pridelená kapacita musí pokryť hodiny plánovaného náboru. Potvrďte nábor a jeho trvanie.",
+                "riskError": "Pri odhade zníženia strát nemôže pravdepodobnosť po prevýšiť pravdepodobnosť pred.",
+                "overlapError": "Pred zahrnutím do finančného výsledku potvrďte, že sa prínosy neprekrývajú.",
                 "boundsError": "Použite hodnoty v zobrazených medziach.",
                 "rangeLabel": "Adjust value",
-                "noCurrencyChange": "Jazyk mení formátovanie, nie vašu menu alebo predpoklady.",
+                "noCurrencyChange": "Jazyk mení formát, nie vašu menu či predpoklady.",
                 "currentPreparation": "Aktuálne hodiny prípravy",
                 "reviewHours": "Ľudské kontrolné hodiny",
                 "reworkHours": "vyhlo sa alebo pridalo prepracované hodiny",
@@ -366,7 +366,7 @@
                 },
                 "cycles_per_unit": {
                   "label": "Cykly na jednotku mesačne",
-                  "help": "Koľko cyklov objednávania, kontroly či spracovania prebehne na jednotku za bežný mesiac."
+                  "help": "Koľko cyklov objednávania, kontroly či spracovania vykoná jednotka za bežný mesiac."
                 },
                 "tokens_per_output": {
                   "label": "Tokeny na overený dopyt kupujúceho",
@@ -382,39 +382,39 @@
                 },
                 "tools_cost": {
                   "label": "Tools and integrations",
-                  "help": "Relácie prehliadača, konektory a ďalšie merané služby. Zadajte nulu, ak žiadnu."
+                  "help": "Relácie prehliadača, konektory a iné merané služby. Ak nie sú, zadajte nulu."
                 },
                 "infrastructure_cost": {
                   "label": "Infrastructure",
                   "help": "Dodatočný hosting, úložisko a výpočty pre túto záťaž. Ak nie sú, zadajte nulu."
                 },
                 "platform_cost": {
-                  "label": "Iné náklady na dodanie a podporu",
-                  "help": "Modelované náklady na hosting, ukladanie, monitorovanie a podporu, oddelené od ceny zákazníka."
+                  "label": "Other delivery and support cost",
+                  "help": "Modeled hosting, storage, monitoring and support cost, separate from the customer price."
                 },
                 "customer_price": {
                   "label": "Proposed monthly Nest price",
                   "help": "Upraviteľný cenový odhad pre makléra/kanceláriu. Nie je to overený príjem; treba ho otestovať v platenom pilote."
                 },
                 "personal_value_per_hour": {
-                  "label": "Voliteľná hodnota hodiny podľa vás",
-                  "help": "Len nepovinné osobné porovnanie. Nejde o plat, mzdy ani garantované úspory v hotovosti."
+                  "label": "Voliteľná hodnota hodiny vášho času",
+                  "help": "Iba voliteľné osobné porovnanie. Toto nie je plat, mzda ani garantované hotovostné úspory."
                 },
                 "review_rate": {
-                  "label": "Dodatočná platená kontrola/hod.",
-                  "help": "Skutočné dodatočné výdavky recenzenta, nie plat nezmeneného zamestnanca."
+                  "label": "Platená kontrola navyše za hodinu",
+                  "help": "Skutočné výdavky na ďalšieho kontrolóra, nie plat existujúceho zamestnanca."
                 },
                 "cash_hours": {
-                  "label": "Hodiny šetriace platenú prácu",
-                  "help": "Zahrňte len prácu, pri ktorej zaniknú výdavky na nadčasy, dodávateľov či spracovanie."
+                  "label": "Hodiny rušiace platenú prácu",
+                  "help": "Prideľte len prácu, ktorej výdavky na nadčasy, externistov či spracovanie naozaj skončia."
                 },
                 "cash_baseline": {
-                  "label": "Aktuálne mesačné výdavky na túto prácu",
-                  "help": "Hotovostný rozpočet, z ktorého bude pochádzať zníženie."
+                  "label": "Súčasné mesačné výdavky na túto prácu",
+                  "help": "Hotovostný rozpočet, z ktorého príde zníženie."
                 },
                 "cash_avoided": {
-                  "label": "Mesačné výdavky by ste prestali",
-                  "help": "Jedna konkrétna suma, nie hodiny × mzda; bez samostatne zadanej úspory za plánovaného zamestnanca."
+                  "label": "Mesačné výdavky, ktoré zrušíte",
+                  "help": "Jedna konkrétna suma, nie hodiny krát plat; vylúčte úsporu z plánovaného náboru zadanú zvlášť."
                 },
                 "higher_value_hours": {
                   "label": "Hodiny maklérov na skutočné rozhovory",
@@ -425,44 +425,44 @@
                   "help": "Príspevok z dodatočných prác, okrem hodnoty nehnuteľnosti, provízií a nákladov už započítaných."
                 },
                 "throughput_hours": {
-                  "label": "Hodiny použité na dodatočný objem",
-                  "help": "Túto alokáciu nemožno použiť ani na poradenskú činnosť alebo na znižovanie výdavkov."
+                  "label": "Hodiny na dodatočný objem",
+                  "help": "Toto pridelenie nemožno použiť aj na poradenstvo či zníženie výdavkov."
                 },
                 "extra_minutes": {
-                  "label": "Tímové minúty za ďalšiu jednotku",
-                  "help": "Zostávajúce ľudské úsilie, vrátane kontroly, potrebovalo dodať ešte jednu jednotku."
+                  "label": "Minúty tímu na ďalšiu jednotku",
+                  "help": "Zostávajúce ľudské úsilie vrátane kontroly potrebné na ďalšiu jednotku."
                 },
                 "demand": {
                   "label": "Ďalšie jednotky s očakávaným dopytom",
-                  "help": "Samotná kapacita nie je dopyt. Zadajte dodatočnú mesačnú prácu, ktorú očakávate."
+                  "help": "Kapacita nie je dopyt. Zadajte prácu navyše, ktorú mesačne očakávate prijať."
                 },
                 "unit_margin": {
                   "label": "Contribution per additional unit",
-                  "help": "Dodatočné príjmy mínus náklady dodania; prevádzkové náklady AI sa odpočítajú samostatne."
+                  "help": "Prírastkové tržby mínus náklady na dodanie; prevádzkové náklady AI sa odpočítajú zvlášť."
                 },
                 "hiring_hours": {
-                  "label": "Hodiny za plánovaného zamestnanca",
-                  "help": "Priraďte kapacitu ku konkrétnej plánovanej práci, nie k všeobecnému odhadu plných úväzkov."
+                  "label": "Hodiny kryjúce plánovaný nábor",
+                  "help": "Prideľte kapacitu na konkrétnu plánovanú prácu, nie na všeobecný odhad úväzku."
                 },
                 "planned_hours": {
-                  "label": "Mesačné hodiny plánovaného zamestnanca",
+                  "label": "Mesačné hodiny plánovanej pozície",
                   "help": "Pridelená kapacita musí pokryť celú túto záťaž."
                 },
                 "hire_cost": {
-                  "label": "Reálne odložené mesačné náklady náboru",
-                  "help": "Použite náklady na skutočne plánovaný prenájom, nie plat niekoho, kto už je zamestnaný."
+                  "label": "Odložené mesačné náklady na nábor",
+                  "help": "Použite náklady skutočne plánovaného náboru, nie plat už zamestnaného človeka."
                 },
                 "hire_months": {
-                  "label": "Počet mesiacov odkladu náboru",
-                  "help": "Jeden až dvanásť mesiacov; ročný odhad po tomto období prestane počítať úspory."
+                  "label": "Mesiace odloženia náboru",
+                  "help": "Jeden až dvanásť mesiacov; ročný odhad po tomto období úspory nezapočítava."
                 },
                 "incidents": {
-                  "label": "Očakávané vyvarované chyby za mesiac",
-                  "help": "Použite východiskový stav a očakávaný pokles. Vynechajte incidenty už zahrnuté do zníženia rizika."
+                  "label": "Očakávané odvrátené chyby za mesiac",
+                  "help": "Použite základ a očakávaný pokles. Vylúčte incidenty započítané aj ako zníženie rizika."
                 },
                 "incident_cost": {
                   "label": "Incremental cost per error",
-                  "help": "Vylúčte prácu, náhrady alebo iné straty, ktoré sú už zahrnuté inde."
+                  "help": "Vylúčte prácu, refundácie či iné straty už zahrnuté inde."
                 },
                 "probability_before": {
                   "label": "Monthly loss probability before",
@@ -470,19 +470,19 @@
                 },
                 "probability_after": {
                   "label": "Monthly loss probability after",
-                  "help": "Použite tú istú udalosť a mesačný horizont ako vo východisku."
+                  "help": "Použite rovnakú udalosť a mesačný horizont ako pri základe."
                 },
                 "loss": {
-                  "label": "Možná strata pri tejto udalosti",
-                  "help": "Vylúčte chybové incidenty a už započítané výdavky. Toto je neistá očakávaná hodnota, nie ušetrená hotovosť."
+                  "label": "Expozícia strát pri udalosti",
+                  "help": "Vylúčte chybové incidenty a už započítané výdavky. Ide o neistú očakávanú hodnotu, nie ušetrenú hotovosť."
                 },
                 "days_before": {
-                  "label": "Čas cyklu predtým, v dňoch",
-                  "help": "Uplynutý čas od začiatku do konca, oddelený od praktického úsilia."
+                  "label": "Dĺžka cyklu predtým (dni)",
+                  "help": "Čas od začiatku po dokončenie, oddelene od priamej práce."
                 },
                 "days_after": {
-                  "label": "Čas cyklu po, v dňoch",
-                  "help": "Zobrazuje sa len ako prevádzková zmena bez predpokladanej peňažnej hodnoty."
+                  "label": "Dĺžka cyklu potom (dni)",
+                  "help": "Zobrazené len ako prevádzková zmena, bez predpokladanej peňažnej hodnoty."
                 }
               },
               "burden": [
@@ -493,35 +493,6 @@
                 "More qualified, human-reviewed introductions",
                 "Čas na rozhovory s agentmi a potreby klientov"
               ],
-              "usagePackages": {
-                "base": {
-                  "volume": 1,
-                  "tokensPerOutput": 12000,
-                  "platform_cost": 450,
-                  "minutes": 20,
-                  "automation": 100,
-                  "review": 8,
-                  "model_cost": 0,
-                  "tools_cost": 0,
-                  "infrastructure_cost": 0,
-                  "higher_value_hours": 0,
-                  "contribution_rate": 0
-                },
-                "medium": {
-                  "volume": 1,
-                  "tokensPerOutput": 12000,
-                  "platform_cost": 750,
-                  "minutes": 20,
-                  "automation": 100,
-                  "review": 8,
-                  "model_cost": 0,
-                  "tools_cost": 0,
-                  "infrastructure_cost": 0,
-                  "higher_value_hours": 0,
-                  "contribution_rate": 0
-                }
-              },
-              "defaultPackage": "medium",
               "costMode": "itemized",
               "reviewMode": "team",
               "selected": [
@@ -584,8 +555,7 @@
               ],
               "pricing": {
                 "basis": "fixed",
-                "annualPrice": 9000,
-                "label": "Proposed Nest monthly price",
+                "label": "stanovenie ceny",
                 "help": "Pracovná hypotéza 750 EUR/mesiac pre kvalifikovaného úvodného pilota. Považujte ich za neoverené, kým agent alebo maklér nezaplatí."
               },
               "presentation": {
@@ -598,8 +568,153 @@
               "primaryLabel": "Talk with Nest",
               "primaryTarget": "meet",
               "secondaryLabel": "See how it works",
-              "privacyNote": "Vaše údaje zostanú súkromné. Hodiny sú kapacitné. Finančné sumy sú modelované odhady, nie pozorované výsledky.",
+              "privacyNote": "Vaše dáta zostávajú súkromné. Hodiny sú kapacita. Finančné sumy sú modelové odhady, nie skutočné výsledky.",
               "secondaryTarget": "how-it-works"
+            },
+            "compact": {
+              "schemaVersion": 1,
+              "defaultProfileId": "buyer",
+              "copy": {
+                "navLabel": "stanovenie ceny",
+                "heading": "Ceny a ROI",
+                "intro": "Vaše údaje. Váš odhadovaný výnos.",
+                "monthly": "Mesiac",
+                "weekly": "Týždeň",
+                "daily": "Deň",
+                "cost": "Platíte",
+                "benefit": "Odhadovaný výnos",
+                "net": "Čistý zisk",
+                "roi": "Odhad ROI",
+                "timeBenefit": "Odhad hodnoty času",
+                "timeRoi": "ROI hodnoty času",
+                "timeBack": "Ušetrené hodiny",
+                "missing": "Zadajte údaje",
+                "noRatio": "Not applicable",
+                "method": "Spôsob výpočtu",
+                "reset": "Obnoviť",
+                "audience": "Publikum",
+                "includedVat": "Vrátane VAT",
+                "excludedVat": "Bez VAT",
+                "perMonth": "mesačne",
+                "equivalents": "Platba mesačne. Denné a týždenné údaje sú priemery, nie denné či týždenné poplatky ani zaručené výnosy.",
+                "timeNote": "Hodnota času je váš voliteľný odhad, nie prijaté peniaze ani zníženie miezd. Čisté minúty zahŕňajú čas vašej kontroly a schvaľovania.",
+                "estimateNote": "Plánované odhady sú oddelené od meraného ROI. Merané výnosy podkladajú len prijaté výsledky a porovnateľné evidované náklady.",
+                "limitNote": "Pre vyššie využitie či prácu s osobitnou cenou nás kontaktujte. Odhad sa týka len zahrnutého plánu.",
+                "timeFormula": "Cena času = jednotky × čistá úspora minút ÷ 60 × vaša hodinová hodnota",
+                "profitFormula": "Príspevkový zisk = oprávnené relácie odporúčaní × nárast konverzie ÷ 100 × zisk z dodatočnej objednávky.",
+                "proceedsFormula": "Prírastok príjmov = dávky alebo odbery × (čisté príjmy po − čisté príjmy pred).",
+                "roiFormula": "Čistý prínos = prínos − predplatné. ROI = čistý prínos ÷ predplatné × 100. Bezplatné plány nemajú percento ROI."
+              },
+              "profiles": [
+                {
+                  "id": "buyer",
+                  "label": "Priestor makléra · kupujúci",
+                  "model": "time_value",
+                  "unitsPerWorkload": 1,
+                  "inputs": [
+                    {
+                      "id": "units",
+                      "label": "Kvalifikované súhrny mesačne",
+                      "help": "Práca, ktorú plánujete posúdiť za mesiac v rámci zahrnutého limitu.",
+                      "defaultValue": 20,
+                      "min": 0,
+                      "max": 20,
+                      "step": 1,
+                      "format": "number"
+                    },
+                    {
+                      "id": "minutes_saved",
+                      "label": "Ušetrené minúty",
+                      "help": "Váš odhad po kontrole, schválení a prípadných úpravách. Záporné hodnoty znamenajú úsilie navyše.",
+                      "defaultValue": 12,
+                      "min": -1440,
+                      "max": 1440,
+                      "step": 0.1,
+                      "format": "number"
+                    },
+                    {
+                      "id": "hourly_value",
+                      "label": "Hodnota hodiny",
+                      "help": "Vaše vlastné voliteľné ocenenie. Nejde o sľúbenú úsporu peňazí ani zníženie mzdy.",
+                      "defaultValue": null,
+                      "min": 0,
+                      "max": 1000,
+                      "step": 0.01,
+                      "format": "currency"
+                    }
+                  ],
+                  "offer": {
+                    "monthlyPrice": 49,
+                    "basis": "fixed",
+                    "unit": "Priestor makléra · kupujúci",
+                    "vatIncluded": false,
+                    "includedUnits": 20,
+                    "allowance": "20 vhodných súhrnov",
+                    "extras": "Ďalšie využitie a odborné služby sa naceňujú osobitne."
+                  },
+                  "assumptions": [
+                    "Úvodných 12 čistých minút je ilustračný odhad prípravy, nie nameraný výsledok.",
+                    "Čisté minúty zahŕňajú kontrolu zákazníkom. Peňažnú hodnotu času zadávate vy; nejde o prijaté peniaze."
+                  ],
+                  "loop": "Podnet o nehnuteľnosti či kúpe → overenie zdrojov súhrnu → kontrola maklérom a súhlas strán → záznam prijatého prepojenia a skutočného výsledku.",
+                  "ctaLabel": "Skúsiť ukážku",
+                  "ctaTarget": "meet"
+                },
+                {
+                  "id": "seller",
+                  "label": "Priestor makléra · predávajúci",
+                  "model": "time_value",
+                  "unitsPerWorkload": 1,
+                  "inputs": [
+                    {
+                      "id": "units",
+                      "label": "Kvalifikované súhrny mesačne",
+                      "help": "Práca, ktorú plánujete posúdiť za mesiac v rámci zahrnutého limitu.",
+                      "defaultValue": 20,
+                      "min": 0,
+                      "max": 20,
+                      "step": 1,
+                      "format": "number"
+                    },
+                    {
+                      "id": "minutes_saved",
+                      "label": "Ušetrené minúty",
+                      "help": "Váš odhad po kontrole, schválení a prípadných úpravách. Záporné hodnoty znamenajú úsilie navyše.",
+                      "defaultValue": 12,
+                      "min": -1440,
+                      "max": 1440,
+                      "step": 0.1,
+                      "format": "number"
+                    },
+                    {
+                      "id": "hourly_value",
+                      "label": "Hodnota hodiny",
+                      "help": "Vaše vlastné voliteľné ocenenie. Nejde o sľúbenú úsporu peňazí ani zníženie mzdy.",
+                      "defaultValue": null,
+                      "min": 0,
+                      "max": 1000,
+                      "step": 0.01,
+                      "format": "currency"
+                    }
+                  ],
+                  "offer": {
+                    "monthlyPrice": 49,
+                    "basis": "fixed",
+                    "unit": "Priestor makléra · predávajúci",
+                    "vatIncluded": false,
+                    "includedUnits": 20,
+                    "allowance": "20 vhodných súhrnov",
+                    "extras": "Ďalšie využitie a odborné služby sa naceňujú osobitne."
+                  },
+                  "assumptions": [
+                    "Úvodných 12 čistých minút je ilustračný odhad prípravy, nie nameraný výsledok.",
+                    "Čisté minúty zahŕňajú kontrolu zákazníkom. Peňažnú hodnotu času zadávate vy; nejde o prijaté peniaze."
+                  ],
+                  "loop": "Podnet o nehnuteľnosti či kúpe → overenie zdrojov súhrnu → kontrola maklérom a súhlas strán → záznam prijatého prepojenia a skutočného výsledku.",
+                  "ctaLabel": "Skúsiť ukážku",
+                  "ctaTarget": "meet"
+                }
+              ]
             }
           },
           "leadScan": {
@@ -720,24 +835,24 @@
             "methodologyVersion": 2,
             "enabled": true,
             "kicker": "Business impact",
-            "heading": "ROI Calculator",
-            "subheading": "Modelujte licencovaného makléra či realitku pre druhé bývanie s Nest na kvalifikované, človekom overené kontakty na miestnom trhu.",
-            "disclaimer": "Modelovaný prevádzkový scenár s nulovým overeným plateným dopytom. Nest kvalifikuje a koordinuje schválené introdukcie; nezastupuje strany, neoceňuje majetok, nevyjednáva, nezarába provízie ani nezaručuje transakciu.",
+            "heading": "Ceny a ROI",
+            "subheading": "Vaše údaje. Váš odhadovaný výnos.",
+            "disclaimer": "Plánované odhady sú oddelené od meraného ROI. Merané výnosy podkladajú len prijaté výsledky a porovnateľné evidované náklady.",
             "currency": "EUR",
             "currencyCopy": {
               "native": "Amounts in {currency}.",
               "loading": "Checking the local currency. Amounts remain in {currency} until a rate is available.",
               "unavailable": "A current local exchange rate is unavailable. Amounts remain in {currency}.",
               "converted": "Amounts converted from {base} to {currency} using the reference rate dated {date}.",
-              "basis": "Prevod meny nie je prieskumom miestnych nákladov. Zadajte svoje vlastné miestne náklady a predpokladané príspevky. Zmeny jazyka nemenia sumy."
+              "basis": "Prepočet meny nie je prieskum miestnych nákladov. Zadajte vlastné miestne náklady a predpoklady prínosu. Zmena jazyka sumy nemení."
             },
             "costCopy": {
-              "breakdown": "Ako sa vytvárajú náklady na AI",
+              "breakdown": "Ako vzniká celková cena AI",
               "perUnit": "{amount} per work unit (average)",
-              "budgetOnly": "Toto je váš celkový rozpočet. Položky zadáte v Rozpise nákladov; rozdelenie sme nepredpokladali.",
-              "benefitNotice": "Modelované výhody, nie poplatky. Prečiarknuté sumy sú výdavky, ktorým sa chcete vyhnúť, nie zľavy na účet AI.",
+              "budgetOnly": "Toto je celkový rozpočet. Na rozpis prepnite na Rozpis nákladov; delenie sa nepredpokladá.",
+              "benefitNotice": "Modelované prínosy, nie poplatky. Prečiarknuté sumy sú výdavky, ktorým sa chcete vyhnúť, nie zľavy z účtu za AI.",
               "remainder": "Other included operating costs",
-              "allocation": "Vrátené hodiny predstavujú kapacitu, nie automatické úspory. Len časti, ktoré priradíte skutočným zníženiam výdavkov alebo dodatočnému príspevku, získajú peňažnú hodnotu."
+              "allocation": "Uvoľnené hodiny sú kapacita, nie automatická úspora. Peňažnú hodnotu dostanú len časti, ktoré priradíte k skutočnému zníženiu výdavkov alebo dodatočnému prínosu."
             },
             "locale": "en-GB",
             "inputs": [],
@@ -756,17 +871,17 @@
                 "platform_cost": 1500,
                 "higher_value_hours": 0,
                 "contribution_rate": 0,
-                "customer_price": 750
+                "customer_price": 49
               },
               "copy": {
-                "navLabel": "Ceny",
+                "navLabel": "stanovenie ceny",
                 "workloadStep": "Introduction funnel",
                 "costStep": "AI operating cost",
                 "valueStep": "Capacity and evidence",
                 "workloadIntro": "Modelujte dopyty po druhom bývaní, kvalifikáciu a ľudskú kontrolu, nie predaje, provízie či zaručené párovanie.",
                 "costIntro": "Náklady na tokeny, modely, nástroje, infraštruktúru, platformu a kontrolórov sú odhady dodania. Cena Nest je samostatná neoverená hypotéza.",
                 "valueIntro": "Kapacita nie je príjem. Pozorovaný príspevok zadajte až potom, čo službu využije a zaplatí skutočný agent alebo maklér.",
-                "sampleNotice": "Typické využitie · nie merané výsledky",
+                "sampleNotice": "Bežné použitie · nie skutočné výsledky",
                 "monthly": "Monthly",
                 "yearly": "Yearly",
                 "next": "Continue",
@@ -791,11 +906,11 @@
                 "reviewMode": "Who handles the review?",
                 "teamReview": "Existing team",
                 "paidReview": "Additional paid reviewer",
-                "reviewNote": "Kontrola vlastným tímom využíva uvoľnenú kapacitu. Dodatočná platená kontrola je v prevádzkových nákladoch, neodpočítava sa znova z kapacity tímu.",
+                "reviewNote": "Kontrola súčasným tímom využíva uvoľnenú kapacitu. Dodatočná platená kontrola je v prevádzkových nákladoch a od kapacity tímu sa znova neodpočíta.",
                 "totalMode": "Monthly budget",
                 "itemizedMode": "Cost breakdown",
-                "budgetNote": "Rozpočet musí zahŕňať modely/médiá, nástroje, infraštruktúru, poplatky Gabrielovi a dodatočnú platenú recenziu. Nezahŕňajte nezmenené mzdy ako nové výdavky.",
-                "itemizedNote": "Využitie tokenov sa vypočíta z objemu × tokenov na výstup. Ďalšie médiá, nástroje a infraštruktúra zostávajú na nule, pokiaľ sa neuplatňujú. Dodatočná platená recenzia sa počíta z hodín kontroly a jej sadzby.",
+                "budgetNote": "Rozpočet musí zahŕňať modely/médiá, nástroje, infraštruktúru, poplatky Gabriel a dodatočnú platenú kontrolu. Nezmenené mzdy nezahŕňajte ako nové výdavky.",
+                "itemizedNote": "Spotreba tokenov sa počíta ako objem × tokeny na výstup. Ďalšie médiá, nástroje a infraštruktúra zostávajú nulové, ak sa neuplatňujú. Dodatočná platená kontrola sa počíta z hodín kontroly a jej sadzby.",
                 "paidReviewCost": "Additional paid review cost",
                 "allInCost": "Operating cost",
                 "missing": "Add your assumptions",
@@ -808,32 +923,32 @@
                 "multiple": "Internal delivery multiple",
                 "customerBenefit": "Modeled agent benefit",
                 "customerRoi": "Modeled customer ROI",
-                "payback": "Customer payback period",
+                "payback": "Návratnosť pre zákazníka",
                 "notApplicable": "Not applicable",
                 "annual": "Annual view",
-                "annualNote": "Rovnaké mesačné predpoklady, bez rastu alebo zloženia. Nájomné úspory trvajú len na zadané obdobie.",
+                "annualNote": "Rovnaké mesačné predpoklady bez rastu či zloženého úročenia. Úspory na nábore platia len počas zadaného obdobia.",
                 "method": "How this is calculated",
                 "burdenHeading": "Repetitive work reduced",
                 "opportunityHeading": "Capacity for higher-value work",
-                "methodBody": "Odstránená záťaž (záporná produktivita) uvoľní kapacitu. Hodnotnejšia práca (možná kladná produktivita) má ekonomický prínos len pri jej využití. Samotné hodiny nie sú finančnou úsporou. Náklad na tokeny vychádza z modelovaného pomeru vstupov a výstupov, nie z ponuky poskytovateľa.",
+                "methodBody": "Odstránená prevádzková záťaž (negatívna produktivita) vracia kapacitu. Hodnotnejšia práca (možná pozitívna produktivita) tvorí ekonomickú hodnotu, len ak sa kapacita využije. Samotné hodiny nie sú úspora hotovosti. Cena tokenov je z modelového mixu vstup/výstup, nie z ponuky poskytovateľa.",
                 "formulaLabel": "Kvalifikované zadania = dopyty × miera kvalifikácie. Náklady dodania zahŕňajú odhady tokenov, modelov, nástrojov, infraštruktúry, platformy a ľudskej kontroly. Návratnosť pre zákazníka je nedostupná, kým prínos a cenu nepodložia dôkazy.",
-                "allocationNote": "Každá hodina môže byť pridelená raz. Nepridelené hodiny zostávajú kapacitou, bez peňažnej hodnoty.",
-                "overlapLabel": "Tieto výhody sú odlišné; Náklady a straty som už vylúčil inde.",
-                "overlapNote": "Odhady chýb a rizík vylučujú úsporu práce a rovnaký incident sa nesmie objaviť v oboch kategóriách. Príspevok nezahŕňa náklady na AI, ktoré sa odpočítavajú samostatne.",
-                "hiringLabel": "Tento prenájom bol skutočne plánovaný a pridelená kapacita môže pokryť prácu.",
-                "reviewedLabel": "Skontroloval som svoje výsledky; nevybrané výsledky nemajú v tomto odhade žiadnu finančnú hodnotu.",
+                "allocationNote": "Každú hodinu možno priradiť raz. Nepriradené hodiny zostávajú kapacitou bez peňažnej hodnoty.",
+                "overlapLabel": "Tieto prínosy sa neprekrývajú; náklady a straty započítané inde sú vylúčené.",
+                "overlapNote": "Odhady chýb a rizík nezahŕňajú úspory práce a ten istý incident nesmie byť v oboch kategóriách. Prínos nezahŕňa náklady na AI, ktoré sa odpočítavajú zvlášť.",
+                "hiringLabel": "Tento nábor bol skutočne plánovaný a pridelená kapacita pokryje prácu.",
+                "reviewedLabel": "Výsledky sú skontrolované; nevybrané výsledky nemajú v tomto odhade finančnú hodnotu.",
                 "cycleResult": "Cycle-time improvement",
-                "throughputResult": "Dodatočné práce podporované kapacitou a dopytom",
-                "assumptionsIncomplete": "Vyplňte vybrané predpoklady na výpočet finančnej hodnoty.",
-                "allocationError": "Pridelené hodiny presahujú dostupnú čistú kapacitu. Znížte alokácie.",
-                "reviewError": "Kontrola trvá dlhšie než ušetrená práca. Pri týchto predpokladoch sa žiadna kapacita neuvoľní.",
-                "cashError": "Utratené výdavky nemôžu presiahnuť súčasné výdavky alebo mať kladnú hodnotu bez pridelených hodín.",
-                "hiringError": "Pridelená kapacita musí pokrývať plánované hodiny prenájmu. Potvrďte plánovaný prenájom a jeho trvanie.",
-                "riskError": "Pravdepodobnosť potom nemôže presiahnuť predchádzajúcu pravdepodobnosť pre odhad zníženia straty.",
-                "overlapError": "Pred zahrnutím do finančného výsledku sa uistite, že sa výhody neprekrývajú.",
+                "throughputResult": "Ďalšia práca podložená kapacitou a dopytom",
+                "assumptionsIncomplete": "Na výpočet finančnej hodnoty doplňte zvolené predpoklady.",
+                "allocationError": "Pridelené hodiny presahujú dostupnú čistú kapacitu. Znížte pridelenia.",
+                "reviewError": "Kontrola trvá dlhšie, než koľko práce ubudlo. Pri týchto predpokladoch nie je k dispozícii kladná kapacita.",
+                "cashError": "Ušetrené výdavky nemôžu presiahnuť súčasné ani mať kladnú hodnotu bez pridelených hodín.",
+                "hiringError": "Pridelená kapacita musí pokryť hodiny plánovaného náboru. Potvrďte nábor a jeho trvanie.",
+                "riskError": "Pri odhade zníženia strát nemôže pravdepodobnosť po prevýšiť pravdepodobnosť pred.",
+                "overlapError": "Pred zahrnutím do finančného výsledku potvrďte, že sa prínosy neprekrývajú.",
                 "boundsError": "Použite hodnoty v zobrazených medziach.",
                 "rangeLabel": "Adjust value",
-                "noCurrencyChange": "Jazyk mení formátovanie, nie vašu menu alebo predpoklady.",
+                "noCurrencyChange": "Jazyk mení formát, nie vašu menu či predpoklady.",
                 "currentPreparation": "Aktuálne hodiny prípravy",
                 "reviewHours": "Ľudské kontrolné hodiny",
                 "reworkHours": "vyhlo sa alebo pridalo prepracované hodiny",
@@ -874,7 +989,7 @@
                 },
                 "cycles_per_unit": {
                   "label": "Cykly na jednotku mesačne",
-                  "help": "Koľko cyklov objednávania, kontroly či spracovania prebehne na jednotku za bežný mesiac."
+                  "help": "Koľko cyklov objednávania, kontroly či spracovania vykoná jednotka za bežný mesiac."
                 },
                 "tokens_per_output": {
                   "label": "Tokeny pre kvalifikovaného predajcu",
@@ -890,39 +1005,39 @@
                 },
                 "tools_cost": {
                   "label": "Tools and integrations",
-                  "help": "Relácie prehliadača, konektory a ďalšie merané služby. Zadajte nulu, ak žiadnu."
+                  "help": "Relácie prehliadača, konektory a iné merané služby. Ak nie sú, zadajte nulu."
                 },
                 "infrastructure_cost": {
                   "label": "Infrastructure",
                   "help": "Dodatočný hosting, úložisko a výpočty pre túto záťaž. Ak nie sú, zadajte nulu."
                 },
                 "platform_cost": {
-                  "label": "Iné náklady na dodanie a podporu",
-                  "help": "Modelované náklady na hosting, ukladanie, monitorovanie a podporu, oddelené od ceny zákazníka."
+                  "label": "Other delivery and support cost",
+                  "help": "Modeled hosting, storage, monitoring and support cost, separate from the customer price."
                 },
                 "customer_price": {
                   "label": "Proposed monthly Nest price",
                   "help": "Upraviteľný cenový odhad pre makléra/kanceláriu. Nie je to overený príjem; treba ho otestovať v platenom pilote."
                 },
                 "personal_value_per_hour": {
-                  "label": "Voliteľná hodnota hodiny podľa vás",
-                  "help": "Len nepovinné osobné porovnanie. Nejde o plat, mzdy ani garantované úspory v hotovosti."
+                  "label": "Voliteľná hodnota hodiny vášho času",
+                  "help": "Iba voliteľné osobné porovnanie. Toto nie je plat, mzda ani garantované hotovostné úspory."
                 },
                 "review_rate": {
-                  "label": "Dodatočná platená kontrola/hod.",
-                  "help": "Skutočné dodatočné výdavky recenzenta, nie plat nezmeneného zamestnanca."
+                  "label": "Platená kontrola navyše za hodinu",
+                  "help": "Skutočné výdavky na ďalšieho kontrolóra, nie plat existujúceho zamestnanca."
                 },
                 "cash_hours": {
-                  "label": "Hodiny šetriace platenú prácu",
-                  "help": "Zahrňte len prácu, pri ktorej zaniknú výdavky na nadčasy, dodávateľov či spracovanie."
+                  "label": "Hodiny rušiace platenú prácu",
+                  "help": "Prideľte len prácu, ktorej výdavky na nadčasy, externistov či spracovanie naozaj skončia."
                 },
                 "cash_baseline": {
-                  "label": "Aktuálne mesačné výdavky na túto prácu",
-                  "help": "Hotovostný rozpočet, z ktorého bude pochádzať zníženie."
+                  "label": "Súčasné mesačné výdavky na túto prácu",
+                  "help": "Hotovostný rozpočet, z ktorého príde zníženie."
                 },
                 "cash_avoided": {
-                  "label": "Mesačné výdavky by ste prestali",
-                  "help": "Jedna konkrétna suma, nie hodiny × mzda; bez samostatne zadanej úspory za plánovaného zamestnanca."
+                  "label": "Mesačné výdavky, ktoré zrušíte",
+                  "help": "Jedna konkrétna suma, nie hodiny krát plat; vylúčte úsporu z plánovaného náboru zadanú zvlášť."
                 },
                 "higher_value_hours": {
                   "label": "Hodiny maklérov na skutočné rozhovory",
@@ -933,44 +1048,44 @@
                   "help": "Príspevok z dodatočných prác, okrem hodnoty nehnuteľnosti, provízií a nákladov už započítaných."
                 },
                 "throughput_hours": {
-                  "label": "Hodiny použité na dodatočný objem",
-                  "help": "Túto alokáciu nemožno použiť ani na poradenskú činnosť alebo na znižovanie výdavkov."
+                  "label": "Hodiny na dodatočný objem",
+                  "help": "Toto pridelenie nemožno použiť aj na poradenstvo či zníženie výdavkov."
                 },
                 "extra_minutes": {
-                  "label": "Tímové minúty za ďalšiu jednotku",
-                  "help": "Zostávajúce ľudské úsilie, vrátane kontroly, potrebovalo dodať ešte jednu jednotku."
+                  "label": "Minúty tímu na ďalšiu jednotku",
+                  "help": "Zostávajúce ľudské úsilie vrátane kontroly potrebné na ďalšiu jednotku."
                 },
                 "demand": {
                   "label": "Ďalšie jednotky s očakávaným dopytom",
-                  "help": "Samotná kapacita nie je dopyt. Zadajte dodatočnú mesačnú prácu, ktorú očakávate."
+                  "help": "Kapacita nie je dopyt. Zadajte prácu navyše, ktorú mesačne očakávate prijať."
                 },
                 "unit_margin": {
                   "label": "Contribution per additional unit",
-                  "help": "Dodatočné príjmy mínus náklady dodania; prevádzkové náklady AI sa odpočítajú samostatne."
+                  "help": "Prírastkové tržby mínus náklady na dodanie; prevádzkové náklady AI sa odpočítajú zvlášť."
                 },
                 "hiring_hours": {
-                  "label": "Hodiny za plánovaného zamestnanca",
-                  "help": "Priraďte kapacitu ku konkrétnej plánovanej práci, nie k všeobecnému odhadu plných úväzkov."
+                  "label": "Hodiny kryjúce plánovaný nábor",
+                  "help": "Prideľte kapacitu na konkrétnu plánovanú prácu, nie na všeobecný odhad úväzku."
                 },
                 "planned_hours": {
-                  "label": "Mesačné hodiny plánovaného zamestnanca",
+                  "label": "Mesačné hodiny plánovanej pozície",
                   "help": "Pridelená kapacita musí pokryť celú túto záťaž."
                 },
                 "hire_cost": {
-                  "label": "Reálne odložené mesačné náklady náboru",
-                  "help": "Použite náklady na skutočne plánovaný prenájom, nie plat niekoho, kto už je zamestnaný."
+                  "label": "Odložené mesačné náklady na nábor",
+                  "help": "Použite náklady skutočne plánovaného náboru, nie plat už zamestnaného človeka."
                 },
                 "hire_months": {
-                  "label": "Počet mesiacov odkladu náboru",
-                  "help": "Jeden až dvanásť mesiacov; ročný odhad po tomto období prestane počítať úspory."
+                  "label": "Mesiace odloženia náboru",
+                  "help": "Jeden až dvanásť mesiacov; ročný odhad po tomto období úspory nezapočítava."
                 },
                 "incidents": {
-                  "label": "Očakávané vyvarované chyby za mesiac",
-                  "help": "Použite východiskový stav a očakávaný pokles. Vynechajte incidenty už zahrnuté do zníženia rizika."
+                  "label": "Očakávané odvrátené chyby za mesiac",
+                  "help": "Použite základ a očakávaný pokles. Vylúčte incidenty započítané aj ako zníženie rizika."
                 },
                 "incident_cost": {
                   "label": "Incremental cost per error",
-                  "help": "Vylúčte prácu, náhrady alebo iné straty, ktoré sú už zahrnuté inde."
+                  "help": "Vylúčte prácu, refundácie či iné straty už zahrnuté inde."
                 },
                 "probability_before": {
                   "label": "Monthly loss probability before",
@@ -978,19 +1093,19 @@
                 },
                 "probability_after": {
                   "label": "Monthly loss probability after",
-                  "help": "Použite tú istú udalosť a mesačný horizont ako vo východisku."
+                  "help": "Použite rovnakú udalosť a mesačný horizont ako pri základe."
                 },
                 "loss": {
-                  "label": "Možná strata pri tejto udalosti",
-                  "help": "Vylúčte chybové incidenty a už započítané výdavky. Toto je neistá očakávaná hodnota, nie ušetrená hotovosť."
+                  "label": "Expozícia strát pri udalosti",
+                  "help": "Vylúčte chybové incidenty a už započítané výdavky. Ide o neistú očakávanú hodnotu, nie ušetrenú hotovosť."
                 },
                 "days_before": {
-                  "label": "Čas cyklu predtým, v dňoch",
-                  "help": "Uplynutý čas od začiatku do konca, oddelený od praktického úsilia."
+                  "label": "Dĺžka cyklu predtým (dni)",
+                  "help": "Čas od začiatku po dokončenie, oddelene od priamej práce."
                 },
                 "days_after": {
-                  "label": "Čas cyklu po, v dňoch",
-                  "help": "Zobrazuje sa len ako prevádzková zmena bez predpokladanej peňažnej hodnoty."
+                  "label": "Dĺžka cyklu potom (dni)",
+                  "help": "Zobrazené len ako prevádzková zmena, bez predpokladanej peňažnej hodnoty."
                 }
               },
               "burden": [
@@ -1001,35 +1116,6 @@
                 "More qualified, human-reviewed introductions",
                 "Čas na rozhovory s agentmi a potreby klientov"
               ],
-              "usagePackages": {
-                "base": {
-                  "volume": 1,
-                  "tokensPerOutput": 12000,
-                  "platform_cost": 450,
-                  "minutes": 25,
-                  "automation": 100,
-                  "review": 10,
-                  "model_cost": 0,
-                  "tools_cost": 0,
-                  "infrastructure_cost": 0,
-                  "higher_value_hours": 0,
-                  "contribution_rate": 0
-                },
-                "medium": {
-                  "volume": 1,
-                  "tokensPerOutput": 12000,
-                  "platform_cost": 750,
-                  "minutes": 25,
-                  "automation": 100,
-                  "review": 10,
-                  "model_cost": 0,
-                  "tools_cost": 0,
-                  "infrastructure_cost": 0,
-                  "higher_value_hours": 0,
-                  "contribution_rate": 0
-                }
-              },
-              "defaultPackage": "medium",
               "costMode": "itemized",
               "reviewMode": "team",
               "selected": [
@@ -1097,8 +1183,7 @@
               ],
               "pricing": {
                 "basis": "fixed",
-                "annualPrice": 9000,
-                "label": "Proposed Nest monthly price",
+                "label": "stanovenie ceny",
                 "help": "Pracovná hypotéza 750 EUR/mesiac pre kvalifikovaného úvodného pilota. Považujte ich za neoverené, kým agent alebo maklér nezaplatí."
               },
               "presentation": {
@@ -1111,8 +1196,153 @@
               "primaryLabel": "Talk with Nest",
               "primaryTarget": "meet",
               "secondaryLabel": "See how it works",
-              "privacyNote": "Vaše údaje zostanú súkromné. Hodiny sú kapacitné. Finančné sumy sú modelované odhady, nie pozorované výsledky.",
+              "privacyNote": "Vaše dáta zostávajú súkromné. Hodiny sú kapacita. Finančné sumy sú modelové odhady, nie skutočné výsledky.",
               "secondaryTarget": "how-it-works"
+            },
+            "compact": {
+              "schemaVersion": 1,
+              "defaultProfileId": "seller",
+              "copy": {
+                "navLabel": "stanovenie ceny",
+                "heading": "Ceny a ROI",
+                "intro": "Vaše údaje. Váš odhadovaný výnos.",
+                "monthly": "Mesiac",
+                "weekly": "Týždeň",
+                "daily": "Deň",
+                "cost": "Platíte",
+                "benefit": "Odhadovaný výnos",
+                "net": "Čistý zisk",
+                "roi": "Odhad ROI",
+                "timeBenefit": "Odhad hodnoty času",
+                "timeRoi": "ROI hodnoty času",
+                "timeBack": "Ušetrené hodiny",
+                "missing": "Zadajte údaje",
+                "noRatio": "Not applicable",
+                "method": "Spôsob výpočtu",
+                "reset": "Obnoviť",
+                "audience": "Publikum",
+                "includedVat": "Vrátane VAT",
+                "excludedVat": "Bez VAT",
+                "perMonth": "mesačne",
+                "equivalents": "Platba mesačne. Denné a týždenné údaje sú priemery, nie denné či týždenné poplatky ani zaručené výnosy.",
+                "timeNote": "Hodnota času je váš voliteľný odhad, nie prijaté peniaze ani zníženie miezd. Čisté minúty zahŕňajú čas vašej kontroly a schvaľovania.",
+                "estimateNote": "Plánované odhady sú oddelené od meraného ROI. Merané výnosy podkladajú len prijaté výsledky a porovnateľné evidované náklady.",
+                "limitNote": "Pre vyššie využitie či prácu s osobitnou cenou nás kontaktujte. Odhad sa týka len zahrnutého plánu.",
+                "timeFormula": "Cena času = jednotky × čistá úspora minút ÷ 60 × vaša hodinová hodnota",
+                "profitFormula": "Príspevkový zisk = oprávnené relácie odporúčaní × nárast konverzie ÷ 100 × zisk z dodatočnej objednávky.",
+                "proceedsFormula": "Prírastok príjmov = dávky alebo odbery × (čisté príjmy po − čisté príjmy pred).",
+                "roiFormula": "Čistý prínos = prínos − predplatné. ROI = čistý prínos ÷ predplatné × 100. Bezplatné plány nemajú percento ROI."
+              },
+              "profiles": [
+                {
+                  "id": "buyer",
+                  "label": "Priestor makléra · kupujúci",
+                  "model": "time_value",
+                  "unitsPerWorkload": 1,
+                  "inputs": [
+                    {
+                      "id": "units",
+                      "label": "Kvalifikované súhrny mesačne",
+                      "help": "Práca, ktorú plánujete posúdiť za mesiac v rámci zahrnutého limitu.",
+                      "defaultValue": 20,
+                      "min": 0,
+                      "max": 20,
+                      "step": 1,
+                      "format": "number"
+                    },
+                    {
+                      "id": "minutes_saved",
+                      "label": "Ušetrené minúty",
+                      "help": "Váš odhad po kontrole, schválení a prípadných úpravách. Záporné hodnoty znamenajú úsilie navyše.",
+                      "defaultValue": 12,
+                      "min": -1440,
+                      "max": 1440,
+                      "step": 0.1,
+                      "format": "number"
+                    },
+                    {
+                      "id": "hourly_value",
+                      "label": "Hodnota hodiny",
+                      "help": "Vaše vlastné voliteľné ocenenie. Nejde o sľúbenú úsporu peňazí ani zníženie mzdy.",
+                      "defaultValue": null,
+                      "min": 0,
+                      "max": 1000,
+                      "step": 0.01,
+                      "format": "currency"
+                    }
+                  ],
+                  "offer": {
+                    "monthlyPrice": 49,
+                    "basis": "fixed",
+                    "unit": "Priestor makléra · kupujúci",
+                    "vatIncluded": false,
+                    "includedUnits": 20,
+                    "allowance": "20 vhodných súhrnov",
+                    "extras": "Ďalšie využitie a odborné služby sa naceňujú osobitne."
+                  },
+                  "assumptions": [
+                    "Úvodných 12 čistých minút je ilustračný odhad prípravy, nie nameraný výsledok.",
+                    "Čisté minúty zahŕňajú kontrolu zákazníkom. Peňažnú hodnotu času zadávate vy; nejde o prijaté peniaze."
+                  ],
+                  "loop": "Podnet o nehnuteľnosti či kúpe → overenie zdrojov súhrnu → kontrola maklérom a súhlas strán → záznam prijatého prepojenia a skutočného výsledku.",
+                  "ctaLabel": "Skúsiť ukážku",
+                  "ctaTarget": "meet"
+                },
+                {
+                  "id": "seller",
+                  "label": "Priestor makléra · predávajúci",
+                  "model": "time_value",
+                  "unitsPerWorkload": 1,
+                  "inputs": [
+                    {
+                      "id": "units",
+                      "label": "Kvalifikované súhrny mesačne",
+                      "help": "Práca, ktorú plánujete posúdiť za mesiac v rámci zahrnutého limitu.",
+                      "defaultValue": 20,
+                      "min": 0,
+                      "max": 20,
+                      "step": 1,
+                      "format": "number"
+                    },
+                    {
+                      "id": "minutes_saved",
+                      "label": "Ušetrené minúty",
+                      "help": "Váš odhad po kontrole, schválení a prípadných úpravách. Záporné hodnoty znamenajú úsilie navyše.",
+                      "defaultValue": 12,
+                      "min": -1440,
+                      "max": 1440,
+                      "step": 0.1,
+                      "format": "number"
+                    },
+                    {
+                      "id": "hourly_value",
+                      "label": "Hodnota hodiny",
+                      "help": "Vaše vlastné voliteľné ocenenie. Nejde o sľúbenú úsporu peňazí ani zníženie mzdy.",
+                      "defaultValue": null,
+                      "min": 0,
+                      "max": 1000,
+                      "step": 0.01,
+                      "format": "currency"
+                    }
+                  ],
+                  "offer": {
+                    "monthlyPrice": 49,
+                    "basis": "fixed",
+                    "unit": "Priestor makléra · predávajúci",
+                    "vatIncluded": false,
+                    "includedUnits": 20,
+                    "allowance": "20 vhodných súhrnov",
+                    "extras": "Ďalšie využitie a odborné služby sa naceňujú osobitne."
+                  },
+                  "assumptions": [
+                    "Úvodných 12 čistých minút je ilustračný odhad prípravy, nie nameraný výsledok.",
+                    "Čisté minúty zahŕňajú kontrolu zákazníkom. Peňažnú hodnotu času zadávate vy; nejde o prijaté peniaze."
+                  ],
+                  "loop": "Podnet o nehnuteľnosti či kúpe → overenie zdrojov súhrnu → kontrola maklérom a súhlas strán → záznam prijatého prepojenia a skutočného výsledku.",
+                  "ctaLabel": "Skúsiť ukážku",
+                  "ctaTarget": "meet"
+                }
+              ]
             }
           },
           "leadScan": {
@@ -1321,24 +1551,24 @@
       "methodologyVersion": 2,
       "enabled": true,
       "kicker": "Business impact",
-      "heading": "ROI Calculator",
-      "subheading": "Modelujte licencovaného makléra či realitku pre druhé bývanie s Nest na kvalifikované, človekom overené kontakty na miestnom trhu.",
-      "disclaimer": "Modelovaný prevádzkový scenár s nulovým overeným plateným dopytom. Nest kvalifikuje a koordinuje schválené introdukcie; nezastupuje strany, neoceňuje majetok, nevyjednáva, nezarába provízie ani nezaručuje transakciu.",
+      "heading": "Ceny a ROI",
+      "subheading": "Vaše údaje. Váš odhadovaný výnos.",
+      "disclaimer": "Plánované odhady sú oddelené od meraného ROI. Merané výnosy podkladajú len prijaté výsledky a porovnateľné evidované náklady.",
       "currency": "EUR",
       "currencyCopy": {
         "native": "Amounts in {currency}.",
         "loading": "Checking the local currency. Amounts remain in {currency} until a rate is available.",
         "unavailable": "A current local exchange rate is unavailable. Amounts remain in {currency}.",
         "converted": "Amounts converted from {base} to {currency} using the reference rate dated {date}.",
-        "basis": "Prevod meny nie je prieskumom miestnych nákladov. Zadajte svoje vlastné miestne náklady a predpokladané príspevky. Zmeny jazyka nemenia sumy."
+        "basis": "Prepočet meny nie je prieskum miestnych nákladov. Zadajte vlastné miestne náklady a predpoklady prínosu. Zmena jazyka sumy nemení."
       },
       "costCopy": {
-        "breakdown": "Ako sa vytvárajú náklady na AI",
+        "breakdown": "Ako vzniká celková cena AI",
         "perUnit": "{amount} per work unit (average)",
-        "budgetOnly": "Toto je váš celkový rozpočet. Položky zadáte v Rozpise nákladov; rozdelenie sme nepredpokladali.",
-        "benefitNotice": "Modelované výhody, nie poplatky. Prečiarknuté sumy sú výdavky, ktorým sa chcete vyhnúť, nie zľavy na účet AI.",
+        "budgetOnly": "Toto je celkový rozpočet. Na rozpis prepnite na Rozpis nákladov; delenie sa nepredpokladá.",
+        "benefitNotice": "Modelované prínosy, nie poplatky. Prečiarknuté sumy sú výdavky, ktorým sa chcete vyhnúť, nie zľavy z účtu za AI.",
         "remainder": "Other included operating costs",
-        "allocation": "Vrátené hodiny predstavujú kapacitu, nie automatické úspory. Len časti, ktoré priradíte skutočným zníženiam výdavkov alebo dodatočnému príspevku, získajú peňažnú hodnotu."
+        "allocation": "Uvoľnené hodiny sú kapacita, nie automatická úspora. Peňažnú hodnotu dostanú len časti, ktoré priradíte k skutočnému zníženiu výdavkov alebo dodatočnému prínosu."
       },
       "locale": "en-GB",
       "inputs": [],
@@ -1357,17 +1587,17 @@
           "platform_cost": 1500,
           "higher_value_hours": 0,
           "contribution_rate": 0,
-          "customer_price": 750
+          "customer_price": 49
         },
         "copy": {
-          "navLabel": "Ceny",
+          "navLabel": "stanovenie ceny",
           "workloadStep": "Introduction funnel",
           "costStep": "AI operating cost",
           "valueStep": "Capacity and evidence",
           "workloadIntro": "Modelujte dopyty po druhom bývaní, kvalifikáciu a ľudskú kontrolu, nie predaje, provízie či zaručené párovanie.",
           "costIntro": "Náklady na tokeny, modely, nástroje, infraštruktúru, platformu a kontrolórov sú odhady dodania. Cena Nest je samostatná neoverená hypotéza.",
           "valueIntro": "Kapacita nie je príjem. Pozorovaný príspevok zadajte až potom, čo službu využije a zaplatí skutočný agent alebo maklér.",
-          "sampleNotice": "Typické využitie · nie merané výsledky",
+          "sampleNotice": "Bežné použitie · nie skutočné výsledky",
           "monthly": "Monthly",
           "yearly": "Yearly",
           "next": "Continue",
@@ -1392,11 +1622,11 @@
           "reviewMode": "Who handles the review?",
           "teamReview": "Existing team",
           "paidReview": "Additional paid reviewer",
-          "reviewNote": "Kontrola vlastným tímom využíva uvoľnenú kapacitu. Dodatočná platená kontrola je v prevádzkových nákladoch, neodpočítava sa znova z kapacity tímu.",
+          "reviewNote": "Kontrola súčasným tímom využíva uvoľnenú kapacitu. Dodatočná platená kontrola je v prevádzkových nákladoch a od kapacity tímu sa znova neodpočíta.",
           "totalMode": "Monthly budget",
           "itemizedMode": "Cost breakdown",
-          "budgetNote": "Rozpočet musí zahŕňať modely/médiá, nástroje, infraštruktúru, poplatky Gabrielovi a dodatočnú platenú recenziu. Nezahŕňajte nezmenené mzdy ako nové výdavky.",
-          "itemizedNote": "Využitie tokenov sa vypočíta z objemu × tokenov na výstup. Ďalšie médiá, nástroje a infraštruktúra zostávajú na nule, pokiaľ sa neuplatňujú. Dodatočná platená recenzia sa počíta z hodín kontroly a jej sadzby.",
+          "budgetNote": "Rozpočet musí zahŕňať modely/médiá, nástroje, infraštruktúru, poplatky Gabriel a dodatočnú platenú kontrolu. Nezmenené mzdy nezahŕňajte ako nové výdavky.",
+          "itemizedNote": "Spotreba tokenov sa počíta ako objem × tokeny na výstup. Ďalšie médiá, nástroje a infraštruktúra zostávajú nulové, ak sa neuplatňujú. Dodatočná platená kontrola sa počíta z hodín kontroly a jej sadzby.",
           "paidReviewCost": "Additional paid review cost",
           "allInCost": "Operating cost",
           "missing": "Add your assumptions",
@@ -1409,32 +1639,32 @@
           "multiple": "Internal delivery multiple",
           "customerBenefit": "Modeled agent benefit",
           "customerRoi": "Modeled customer ROI",
-          "payback": "Customer payback period",
+          "payback": "Návratnosť pre zákazníka",
           "notApplicable": "Not applicable",
           "annual": "Annual view",
-          "annualNote": "Rovnaké mesačné predpoklady, bez rastu alebo zloženia. Nájomné úspory trvajú len na zadané obdobie.",
+          "annualNote": "Rovnaké mesačné predpoklady bez rastu či zloženého úročenia. Úspory na nábore platia len počas zadaného obdobia.",
           "method": "How this is calculated",
           "burdenHeading": "Repetitive work reduced",
           "opportunityHeading": "Capacity for higher-value work",
-          "methodBody": "Odstránená záťaž (záporná produktivita) uvoľní kapacitu. Hodnotnejšia práca (možná kladná produktivita) má ekonomický prínos len pri jej využití. Samotné hodiny nie sú finančnou úsporou. Náklad na tokeny vychádza z modelovaného pomeru vstupov a výstupov, nie z ponuky poskytovateľa.",
+          "methodBody": "Odstránená prevádzková záťaž (negatívna produktivita) vracia kapacitu. Hodnotnejšia práca (možná pozitívna produktivita) tvorí ekonomickú hodnotu, len ak sa kapacita využije. Samotné hodiny nie sú úspora hotovosti. Cena tokenov je z modelového mixu vstup/výstup, nie z ponuky poskytovateľa.",
           "formulaLabel": "Kvalifikované zadania = dopyty × miera kvalifikácie. Náklady dodania zahŕňajú odhady tokenov, modelov, nástrojov, infraštruktúry, platformy a ľudskej kontroly. Návratnosť pre zákazníka je nedostupná, kým prínos a cenu nepodložia dôkazy.",
-          "allocationNote": "Každá hodina môže byť pridelená raz. Nepridelené hodiny zostávajú kapacitou, bez peňažnej hodnoty.",
-          "overlapLabel": "Tieto výhody sú odlišné; Náklady a straty som už vylúčil inde.",
-          "overlapNote": "Odhady chýb a rizík vylučujú úsporu práce a rovnaký incident sa nesmie objaviť v oboch kategóriách. Príspevok nezahŕňa náklady na AI, ktoré sa odpočítavajú samostatne.",
-          "hiringLabel": "Tento prenájom bol skutočne plánovaný a pridelená kapacita môže pokryť prácu.",
-          "reviewedLabel": "Skontroloval som svoje výsledky; nevybrané výsledky nemajú v tomto odhade žiadnu finančnú hodnotu.",
+          "allocationNote": "Každú hodinu možno priradiť raz. Nepriradené hodiny zostávajú kapacitou bez peňažnej hodnoty.",
+          "overlapLabel": "Tieto prínosy sa neprekrývajú; náklady a straty započítané inde sú vylúčené.",
+          "overlapNote": "Odhady chýb a rizík nezahŕňajú úspory práce a ten istý incident nesmie byť v oboch kategóriách. Prínos nezahŕňa náklady na AI, ktoré sa odpočítavajú zvlášť.",
+          "hiringLabel": "Tento nábor bol skutočne plánovaný a pridelená kapacita pokryje prácu.",
+          "reviewedLabel": "Výsledky sú skontrolované; nevybrané výsledky nemajú v tomto odhade finančnú hodnotu.",
           "cycleResult": "Cycle-time improvement",
-          "throughputResult": "Dodatočné práce podporované kapacitou a dopytom",
-          "assumptionsIncomplete": "Vyplňte vybrané predpoklady na výpočet finančnej hodnoty.",
-          "allocationError": "Pridelené hodiny presahujú dostupnú čistú kapacitu. Znížte alokácie.",
-          "reviewError": "Kontrola trvá dlhšie než ušetrená práca. Pri týchto predpokladoch sa žiadna kapacita neuvoľní.",
-          "cashError": "Utratené výdavky nemôžu presiahnuť súčasné výdavky alebo mať kladnú hodnotu bez pridelených hodín.",
-          "hiringError": "Pridelená kapacita musí pokrývať plánované hodiny prenájmu. Potvrďte plánovaný prenájom a jeho trvanie.",
-          "riskError": "Pravdepodobnosť potom nemôže presiahnuť predchádzajúcu pravdepodobnosť pre odhad zníženia straty.",
-          "overlapError": "Pred zahrnutím do finančného výsledku sa uistite, že sa výhody neprekrývajú.",
+          "throughputResult": "Ďalšia práca podložená kapacitou a dopytom",
+          "assumptionsIncomplete": "Na výpočet finančnej hodnoty doplňte zvolené predpoklady.",
+          "allocationError": "Pridelené hodiny presahujú dostupnú čistú kapacitu. Znížte pridelenia.",
+          "reviewError": "Kontrola trvá dlhšie, než koľko práce ubudlo. Pri týchto predpokladoch nie je k dispozícii kladná kapacita.",
+          "cashError": "Ušetrené výdavky nemôžu presiahnuť súčasné ani mať kladnú hodnotu bez pridelených hodín.",
+          "hiringError": "Pridelená kapacita musí pokryť hodiny plánovaného náboru. Potvrďte nábor a jeho trvanie.",
+          "riskError": "Pri odhade zníženia strát nemôže pravdepodobnosť po prevýšiť pravdepodobnosť pred.",
+          "overlapError": "Pred zahrnutím do finančného výsledku potvrďte, že sa prínosy neprekrývajú.",
           "boundsError": "Použite hodnoty v zobrazených medziach.",
           "rangeLabel": "Adjust value",
-          "noCurrencyChange": "Jazyk mení formátovanie, nie vašu menu alebo predpoklady.",
+          "noCurrencyChange": "Jazyk mení formát, nie vašu menu či predpoklady.",
           "currentPreparation": "Aktuálne hodiny prípravy",
           "reviewHours": "Ľudské kontrolné hodiny",
           "reworkHours": "vyhlo sa alebo pridalo prepracované hodiny",
@@ -1475,7 +1705,7 @@
           },
           "cycles_per_unit": {
             "label": "Cykly na jednotku mesačne",
-            "help": "Koľko cyklov objednávania, kontroly či spracovania prebehne na jednotku za bežný mesiac."
+            "help": "Koľko cyklov objednávania, kontroly či spracovania vykoná jednotka za bežný mesiac."
           },
           "tokens_per_output": {
             "label": "Tokeny na overený dopyt kupujúceho",
@@ -1491,39 +1721,39 @@
           },
           "tools_cost": {
             "label": "Tools and integrations",
-            "help": "Relácie prehliadača, konektory a ďalšie merané služby. Zadajte nulu, ak žiadnu."
+            "help": "Relácie prehliadača, konektory a iné merané služby. Ak nie sú, zadajte nulu."
           },
           "infrastructure_cost": {
             "label": "Infrastructure",
             "help": "Dodatočný hosting, úložisko a výpočty pre túto záťaž. Ak nie sú, zadajte nulu."
           },
           "platform_cost": {
-            "label": "Iné náklady na dodanie a podporu",
-            "help": "Modelované náklady na hosting, ukladanie, monitorovanie a podporu, oddelené od ceny zákazníka."
+            "label": "Other delivery and support cost",
+            "help": "Modeled hosting, storage, monitoring and support cost, separate from the customer price."
           },
           "customer_price": {
             "label": "Proposed monthly Nest price",
             "help": "Upraviteľný cenový odhad pre makléra/kanceláriu. Nie je to overený príjem; treba ho otestovať v platenom pilote."
           },
           "personal_value_per_hour": {
-            "label": "Voliteľná hodnota hodiny podľa vás",
-            "help": "Len nepovinné osobné porovnanie. Nejde o plat, mzdy ani garantované úspory v hotovosti."
+            "label": "Voliteľná hodnota hodiny vášho času",
+            "help": "Iba voliteľné osobné porovnanie. Toto nie je plat, mzda ani garantované hotovostné úspory."
           },
           "review_rate": {
-            "label": "Dodatočná platená kontrola/hod.",
-            "help": "Skutočné dodatočné výdavky recenzenta, nie plat nezmeneného zamestnanca."
+            "label": "Platená kontrola navyše za hodinu",
+            "help": "Skutočné výdavky na ďalšieho kontrolóra, nie plat existujúceho zamestnanca."
           },
           "cash_hours": {
-            "label": "Hodiny šetriace platenú prácu",
-            "help": "Zahrňte len prácu, pri ktorej zaniknú výdavky na nadčasy, dodávateľov či spracovanie."
+            "label": "Hodiny rušiace platenú prácu",
+            "help": "Prideľte len prácu, ktorej výdavky na nadčasy, externistov či spracovanie naozaj skončia."
           },
           "cash_baseline": {
-            "label": "Aktuálne mesačné výdavky na túto prácu",
-            "help": "Hotovostný rozpočet, z ktorého bude pochádzať zníženie."
+            "label": "Súčasné mesačné výdavky na túto prácu",
+            "help": "Hotovostný rozpočet, z ktorého príde zníženie."
           },
           "cash_avoided": {
-            "label": "Mesačné výdavky by ste prestali",
-            "help": "Jedna konkrétna suma, nie hodiny × mzda; bez samostatne zadanej úspory za plánovaného zamestnanca."
+            "label": "Mesačné výdavky, ktoré zrušíte",
+            "help": "Jedna konkrétna suma, nie hodiny krát plat; vylúčte úsporu z plánovaného náboru zadanú zvlášť."
           },
           "higher_value_hours": {
             "label": "Hodiny maklérov na skutočné rozhovory",
@@ -1534,44 +1764,44 @@
             "help": "Príspevok z dodatočných prác, okrem hodnoty nehnuteľnosti, provízií a nákladov už započítaných."
           },
           "throughput_hours": {
-            "label": "Hodiny použité na dodatočný objem",
-            "help": "Túto alokáciu nemožno použiť ani na poradenskú činnosť alebo na znižovanie výdavkov."
+            "label": "Hodiny na dodatočný objem",
+            "help": "Toto pridelenie nemožno použiť aj na poradenstvo či zníženie výdavkov."
           },
           "extra_minutes": {
-            "label": "Tímové minúty za ďalšiu jednotku",
-            "help": "Zostávajúce ľudské úsilie, vrátane kontroly, potrebovalo dodať ešte jednu jednotku."
+            "label": "Minúty tímu na ďalšiu jednotku",
+            "help": "Zostávajúce ľudské úsilie vrátane kontroly potrebné na ďalšiu jednotku."
           },
           "demand": {
             "label": "Ďalšie jednotky s očakávaným dopytom",
-            "help": "Samotná kapacita nie je dopyt. Zadajte dodatočnú mesačnú prácu, ktorú očakávate."
+            "help": "Kapacita nie je dopyt. Zadajte prácu navyše, ktorú mesačne očakávate prijať."
           },
           "unit_margin": {
             "label": "Contribution per additional unit",
-            "help": "Dodatočné príjmy mínus náklady dodania; prevádzkové náklady AI sa odpočítajú samostatne."
+            "help": "Prírastkové tržby mínus náklady na dodanie; prevádzkové náklady AI sa odpočítajú zvlášť."
           },
           "hiring_hours": {
-            "label": "Hodiny za plánovaného zamestnanca",
-            "help": "Priraďte kapacitu ku konkrétnej plánovanej práci, nie k všeobecnému odhadu plných úväzkov."
+            "label": "Hodiny kryjúce plánovaný nábor",
+            "help": "Prideľte kapacitu na konkrétnu plánovanú prácu, nie na všeobecný odhad úväzku."
           },
           "planned_hours": {
-            "label": "Mesačné hodiny plánovaného zamestnanca",
+            "label": "Mesačné hodiny plánovanej pozície",
             "help": "Pridelená kapacita musí pokryť celú túto záťaž."
           },
           "hire_cost": {
-            "label": "Reálne odložené mesačné náklady náboru",
-            "help": "Použite náklady na skutočne plánovaný prenájom, nie plat niekoho, kto už je zamestnaný."
+            "label": "Odložené mesačné náklady na nábor",
+            "help": "Použite náklady skutočne plánovaného náboru, nie plat už zamestnaného človeka."
           },
           "hire_months": {
-            "label": "Počet mesiacov odkladu náboru",
-            "help": "Jeden až dvanásť mesiacov; ročný odhad po tomto období prestane počítať úspory."
+            "label": "Mesiace odloženia náboru",
+            "help": "Jeden až dvanásť mesiacov; ročný odhad po tomto období úspory nezapočítava."
           },
           "incidents": {
-            "label": "Očakávané vyvarované chyby za mesiac",
-            "help": "Použite východiskový stav a očakávaný pokles. Vynechajte incidenty už zahrnuté do zníženia rizika."
+            "label": "Očakávané odvrátené chyby za mesiac",
+            "help": "Použite základ a očakávaný pokles. Vylúčte incidenty započítané aj ako zníženie rizika."
           },
           "incident_cost": {
             "label": "Incremental cost per error",
-            "help": "Vylúčte prácu, náhrady alebo iné straty, ktoré sú už zahrnuté inde."
+            "help": "Vylúčte prácu, refundácie či iné straty už zahrnuté inde."
           },
           "probability_before": {
             "label": "Monthly loss probability before",
@@ -1579,19 +1809,19 @@
           },
           "probability_after": {
             "label": "Monthly loss probability after",
-            "help": "Použite tú istú udalosť a mesačný horizont ako vo východisku."
+            "help": "Použite rovnakú udalosť a mesačný horizont ako pri základe."
           },
           "loss": {
-            "label": "Možná strata pri tejto udalosti",
-            "help": "Vylúčte chybové incidenty a už započítané výdavky. Toto je neistá očakávaná hodnota, nie ušetrená hotovosť."
+            "label": "Expozícia strát pri udalosti",
+            "help": "Vylúčte chybové incidenty a už započítané výdavky. Ide o neistú očakávanú hodnotu, nie ušetrenú hotovosť."
           },
           "days_before": {
-            "label": "Čas cyklu predtým, v dňoch",
-            "help": "Uplynutý čas od začiatku do konca, oddelený od praktického úsilia."
+            "label": "Dĺžka cyklu predtým (dni)",
+            "help": "Čas od začiatku po dokončenie, oddelene od priamej práce."
           },
           "days_after": {
-            "label": "Čas cyklu po, v dňoch",
-            "help": "Zobrazuje sa len ako prevádzková zmena bez predpokladanej peňažnej hodnoty."
+            "label": "Dĺžka cyklu potom (dni)",
+            "help": "Zobrazené len ako prevádzková zmena, bez predpokladanej peňažnej hodnoty."
           }
         },
         "burden": [
@@ -1602,35 +1832,6 @@
           "More qualified, human-reviewed introductions",
           "Čas na rozhovory s agentmi a potreby klientov"
         ],
-        "usagePackages": {
-          "base": {
-            "volume": 1,
-            "tokensPerOutput": 12000,
-            "platform_cost": 450,
-            "minutes": 20,
-            "automation": 100,
-            "review": 8,
-            "model_cost": 0,
-            "tools_cost": 0,
-            "infrastructure_cost": 0,
-            "higher_value_hours": 0,
-            "contribution_rate": 0
-          },
-          "medium": {
-            "volume": 1,
-            "tokensPerOutput": 12000,
-            "platform_cost": 750,
-            "minutes": 20,
-            "automation": 100,
-            "review": 8,
-            "model_cost": 0,
-            "tools_cost": 0,
-            "infrastructure_cost": 0,
-            "higher_value_hours": 0,
-            "contribution_rate": 0
-          }
-        },
-        "defaultPackage": "medium",
         "costMode": "itemized",
         "reviewMode": "team",
         "selected": [
@@ -1698,8 +1899,7 @@
         ],
         "pricing": {
           "basis": "fixed",
-          "annualPrice": 9000,
-          "label": "Proposed Nest monthly price",
+          "label": "stanovenie ceny",
           "help": "Pracovná hypotéza 750 EUR/mesiac pre kvalifikovaného úvodného pilota. Považujte ich za neoverené, kým agent alebo maklér nezaplatí."
         },
         "presentation": {
@@ -1712,8 +1912,153 @@
         "primaryLabel": "Talk with Nest",
         "primaryTarget": "meet",
         "secondaryLabel": "See how it works",
-        "privacyNote": "Vaše údaje zostanú súkromné. Hodiny sú kapacitné. Finančné sumy sú modelované odhady, nie pozorované výsledky.",
+        "privacyNote": "Vaše dáta zostávajú súkromné. Hodiny sú kapacita. Finančné sumy sú modelové odhady, nie skutočné výsledky.",
         "secondaryTarget": "how-it-works"
+      },
+      "compact": {
+        "schemaVersion": 1,
+        "defaultProfileId": "buyer",
+        "copy": {
+          "navLabel": "stanovenie ceny",
+          "heading": "Ceny a ROI",
+          "intro": "Vaše údaje. Váš odhadovaný výnos.",
+          "monthly": "Mesiac",
+          "weekly": "Týždeň",
+          "daily": "Deň",
+          "cost": "Platíte",
+          "benefit": "Odhadovaný výnos",
+          "net": "Čistý zisk",
+          "roi": "Odhad ROI",
+          "timeBenefit": "Odhad hodnoty času",
+          "timeRoi": "ROI hodnoty času",
+          "timeBack": "Ušetrené hodiny",
+          "missing": "Zadajte údaje",
+          "noRatio": "Not applicable",
+          "method": "Spôsob výpočtu",
+          "reset": "Obnoviť",
+          "audience": "Publikum",
+          "includedVat": "Vrátane VAT",
+          "excludedVat": "Bez VAT",
+          "perMonth": "mesačne",
+          "equivalents": "Platba mesačne. Denné a týždenné údaje sú priemery, nie denné či týždenné poplatky ani zaručené výnosy.",
+          "timeNote": "Hodnota času je váš voliteľný odhad, nie prijaté peniaze ani zníženie miezd. Čisté minúty zahŕňajú čas vašej kontroly a schvaľovania.",
+          "estimateNote": "Plánované odhady sú oddelené od meraného ROI. Merané výnosy podkladajú len prijaté výsledky a porovnateľné evidované náklady.",
+          "limitNote": "Pre vyššie využitie či prácu s osobitnou cenou nás kontaktujte. Odhad sa týka len zahrnutého plánu.",
+          "timeFormula": "Cena času = jednotky × čistá úspora minút ÷ 60 × vaša hodinová hodnota",
+          "profitFormula": "Príspevkový zisk = oprávnené relácie odporúčaní × nárast konverzie ÷ 100 × zisk z dodatočnej objednávky.",
+          "proceedsFormula": "Prírastok príjmov = dávky alebo odbery × (čisté príjmy po − čisté príjmy pred).",
+          "roiFormula": "Čistý prínos = prínos − predplatné. ROI = čistý prínos ÷ predplatné × 100. Bezplatné plány nemajú percento ROI."
+        },
+        "profiles": [
+          {
+            "id": "buyer",
+            "label": "Priestor makléra · kupujúci",
+            "model": "time_value",
+            "unitsPerWorkload": 1,
+            "inputs": [
+              {
+                "id": "units",
+                "label": "Kvalifikované súhrny mesačne",
+                "help": "Práca, ktorú plánujete posúdiť za mesiac v rámci zahrnutého limitu.",
+                "defaultValue": 20,
+                "min": 0,
+                "max": 20,
+                "step": 1,
+                "format": "number"
+              },
+              {
+                "id": "minutes_saved",
+                "label": "Ušetrené minúty",
+                "help": "Váš odhad po kontrole, schválení a prípadných úpravách. Záporné hodnoty znamenajú úsilie navyše.",
+                "defaultValue": 12,
+                "min": -1440,
+                "max": 1440,
+                "step": 0.1,
+                "format": "number"
+              },
+              {
+                "id": "hourly_value",
+                "label": "Hodnota hodiny",
+                "help": "Vaše vlastné voliteľné ocenenie. Nejde o sľúbenú úsporu peňazí ani zníženie mzdy.",
+                "defaultValue": null,
+                "min": 0,
+                "max": 1000,
+                "step": 0.01,
+                "format": "currency"
+              }
+            ],
+            "offer": {
+              "monthlyPrice": 49,
+              "basis": "fixed",
+              "unit": "Priestor makléra · kupujúci",
+              "vatIncluded": false,
+              "includedUnits": 20,
+              "allowance": "20 vhodných súhrnov",
+              "extras": "Ďalšie využitie a odborné služby sa naceňujú osobitne."
+            },
+            "assumptions": [
+              "Úvodných 12 čistých minút je ilustračný odhad prípravy, nie nameraný výsledok.",
+              "Čisté minúty zahŕňajú kontrolu zákazníkom. Peňažnú hodnotu času zadávate vy; nejde o prijaté peniaze."
+            ],
+            "loop": "Podnet o nehnuteľnosti či kúpe → overenie zdrojov súhrnu → kontrola maklérom a súhlas strán → záznam prijatého prepojenia a skutočného výsledku.",
+            "ctaLabel": "Skúsiť ukážku",
+            "ctaTarget": "meet"
+          },
+          {
+            "id": "seller",
+            "label": "Priestor makléra · predávajúci",
+            "model": "time_value",
+            "unitsPerWorkload": 1,
+            "inputs": [
+              {
+                "id": "units",
+                "label": "Kvalifikované súhrny mesačne",
+                "help": "Práca, ktorú plánujete posúdiť za mesiac v rámci zahrnutého limitu.",
+                "defaultValue": 20,
+                "min": 0,
+                "max": 20,
+                "step": 1,
+                "format": "number"
+              },
+              {
+                "id": "minutes_saved",
+                "label": "Ušetrené minúty",
+                "help": "Váš odhad po kontrole, schválení a prípadných úpravách. Záporné hodnoty znamenajú úsilie navyše.",
+                "defaultValue": 12,
+                "min": -1440,
+                "max": 1440,
+                "step": 0.1,
+                "format": "number"
+              },
+              {
+                "id": "hourly_value",
+                "label": "Hodnota hodiny",
+                "help": "Vaše vlastné voliteľné ocenenie. Nejde o sľúbenú úsporu peňazí ani zníženie mzdy.",
+                "defaultValue": null,
+                "min": 0,
+                "max": 1000,
+                "step": 0.01,
+                "format": "currency"
+              }
+            ],
+            "offer": {
+              "monthlyPrice": 49,
+              "basis": "fixed",
+              "unit": "Priestor makléra · predávajúci",
+              "vatIncluded": false,
+              "includedUnits": 20,
+              "allowance": "20 vhodných súhrnov",
+              "extras": "Ďalšie využitie a odborné služby sa naceňujú osobitne."
+            },
+            "assumptions": [
+              "Úvodných 12 čistých minút je ilustračný odhad prípravy, nie nameraný výsledok.",
+              "Čisté minúty zahŕňajú kontrolu zákazníkom. Peňažnú hodnotu času zadávate vy; nejde o prijaté peniaze."
+            ],
+            "loop": "Podnet o nehnuteľnosti či kúpe → overenie zdrojov súhrnu → kontrola maklérom a súhlas strán → záznam prijatého prepojenia a skutočného výsledku.",
+            "ctaLabel": "Skúsiť ukážku",
+            "ctaTarget": "meet"
+          }
+        ]
       }
     }
   },
@@ -2386,7 +2731,7 @@
         "roiCalculator",
         "heading"
       ],
-      "sourceHash": "c63420eca3f95b8917c99f3a5cf72f000ab237bc6c658765b2176ebdd7b311be"
+      "sourceHash": "f605f95a678fe3249ebf6201cbc21b86ea72d7f4bc395cab6e017b8b91a674d6"
     },
     {
       "path": [
@@ -2397,7 +2742,7 @@
         "roiCalculator",
         "subheading"
       ],
-      "sourceHash": "7b148bf1bc2d445204b8b2a40faa420fe4a04624c98bd20f79c051038ca1b7da"
+      "sourceHash": "22fd8ffe8dbddd46f41fb690f262f66466bb343bae0b359e4c64dfd2f2f127a5"
     },
     {
       "path": [
@@ -2408,7 +2753,7 @@
         "roiCalculator",
         "disclaimer"
       ],
-      "sourceHash": "2571d3c4491924fe3b8aaab7d2acb5f4904b393aae9f2babc38cd0e46d1126aa"
+      "sourceHash": "28bd6e46023484d9a6b075ba5e7539842d6a2e920782ed0979f21366d56ae02f"
     },
     {
       "path": [
@@ -4808,7 +5153,7 @@
         "pricing",
         "label"
       ],
-      "sourceHash": "74be3e630a8b30d773e4002180e4cdf3963817fa92ff839e99f6556ac371eaa8"
+      "sourceHash": "dfe95783edfef7918760312f94edd764f4ce3ffd38b90c2c955a0cc3b250f040"
     },
     {
       "path": [
@@ -4858,6 +5203,809 @@
         "privacyNote"
       ],
       "sourceHash": "0e96f5e15977ab0a2a8d684c0d35d7459f3afc862b606046310ae1fbbd4be12b"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "navLabel"
+      ],
+      "sourceHash": "dfe95783edfef7918760312f94edd764f4ce3ffd38b90c2c955a0cc3b250f040"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "heading"
+      ],
+      "sourceHash": "f605f95a678fe3249ebf6201cbc21b86ea72d7f4bc395cab6e017b8b91a674d6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "intro"
+      ],
+      "sourceHash": "22fd8ffe8dbddd46f41fb690f262f66466bb343bae0b359e4c64dfd2f2f127a5"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "monthly"
+      ],
+      "sourceHash": "310ca503ef36f177ddbc760463fcaec1edc6eca12bfd590ad7bb244b31e59543"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "weekly"
+      ],
+      "sourceHash": "e78041ab51a818a22e2cfea6c15fe72e9e20092246f496f1670f7be3e42177a6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "daily"
+      ],
+      "sourceHash": "8f2364e11b8be3ff008f32b3dedb54e659362429bcc9e3eb6acb6070de4ffbff"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "cost"
+      ],
+      "sourceHash": "16c6e032c6d9e64e841b58a0298260d9f548fcbe3a8ad8dc475bd977b602898f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "benefit"
+      ],
+      "sourceHash": "a7f9c107913bba92d233f27fbfa5c4c52e4435a763a727214089505b9519d2dc"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "net"
+      ],
+      "sourceHash": "d32a3b8a970a1c2a790bdd47a4a86f208f6ff655d8e9269dcda5776b156d6039"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "roi"
+      ],
+      "sourceHash": "bd75a04bf54fbb79e68559c37be0a8752efacfe4f5b9a326b87143c8d5c87dcc"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "timeBenefit"
+      ],
+      "sourceHash": "cedc575743fa43d9e724db8bd1d54037d41369448eb826b63e1efba54e81c2a4"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "timeRoi"
+      ],
+      "sourceHash": "4b0df8181ded668923d1da293e0fc8ca4d0ac21eed3f933b32891615e67d1f6a"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "timeBack"
+      ],
+      "sourceHash": "92947077a2792fb311280e55e4d39fbeb1fbb152e76b389dee5a53697ea548ef"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "missing"
+      ],
+      "sourceHash": "4b11bc702fcdb172c2f88f4af465a9d05ac206b7f7e6304fcded04eb92cccde6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "noRatio"
+      ],
+      "sourceHash": "5237c96ac1a23b98eb13770503afe986b088acd6627fa7649a5afdcbc4bb8e99"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "method"
+      ],
+      "sourceHash": "b79afe297bec4d00ab3a70a61b5e8b607a423a123f23a2fa9ccf8d6af6bcd157"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "reset"
+      ],
+      "sourceHash": "daee7606b339f3c339076fe2c9f372a3ff40c8ee896005d829c7481b64ca5303"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "audience"
+      ],
+      "sourceHash": "545c02357695a6ffed97b01a94a46b9aeb4686f4480173da6d0faeae8eb85053"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "includedVat"
+      ],
+      "sourceHash": "3e366dcdda082eda14db7eab30381a2fcc424c43d183d0e6d7a4b15c9b567d7d"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "excludedVat"
+      ],
+      "sourceHash": "744120dab44d48957b4580cadd00fca1f91383823125d1400984a3cf62a76441"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "perMonth"
+      ],
+      "sourceHash": "88b1d1a67e34a269fec10b917a624817de854eeadb142640ab17c8199ab6bdae"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "equivalents"
+      ],
+      "sourceHash": "4a546022be02a950fc59270741b8e4784ca51f74da16e286c77e3f5a371aff38"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "timeNote"
+      ],
+      "sourceHash": "d7c17f23c52c1d9cf5be7fcb5a537017a0a09529bfde38e6b692afa2ecbf453f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "estimateNote"
+      ],
+      "sourceHash": "28bd6e46023484d9a6b075ba5e7539842d6a2e920782ed0979f21366d56ae02f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "limitNote"
+      ],
+      "sourceHash": "61108708047a1a834e46f1ca557d7518e3a63263a8ec7e7aa4301db230beacff"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "timeFormula"
+      ],
+      "sourceHash": "4cf3d8fcb0fa4b9c36d9869e709ba0cbabcd41083c7ff8cf77e9fe32066eacdb"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "profitFormula"
+      ],
+      "sourceHash": "e286f3af8c8f706f737502c898e1ba90c6bbc7680c380bba844ec4f3874b5bc4"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "proceedsFormula"
+      ],
+      "sourceHash": "9de390391c62a87b44f2c9bf74e5223e5d34c5a74cd5e12575f5e1452881a46e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "roiFormula"
+      ],
+      "sourceHash": "00f9b4df25ca733c11a00e762ab8d95f6e9c9364ce202a6c22ff95c3613e3fcb"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "label"
+      ],
+      "sourceHash": "3e56208886334ad120af2d85b44fca33b5922a7e96623d87d793727c75178e03"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "inputs",
+        0,
+        "label"
+      ],
+      "sourceHash": "d0081c4a08b2be87b687f4f35e5668e5c004581cd766a25feea76ebe7ae5afdb"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "inputs",
+        0,
+        "help"
+      ],
+      "sourceHash": "a8cff02d43e6c0371644e73ec0de532d8ac6ae2eb169301a6e3605e3cb010ab0"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "inputs",
+        1,
+        "label"
+      ],
+      "sourceHash": "9f135e34cc7bc32cafb416bcbf7ef6af035cdb444c22e90cccd0587ba3db19df"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "inputs",
+        1,
+        "help"
+      ],
+      "sourceHash": "d99a99ab817eea4a3a70ded599d0744a02fe8de95ab0b7c6a0fc9d5cb72c400d"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "inputs",
+        2,
+        "label"
+      ],
+      "sourceHash": "4b5674419c1cb29206fb7d1486e6492bb74df9523dbc3bd5cdb875a309486100"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "inputs",
+        2,
+        "help"
+      ],
+      "sourceHash": "310e52c988a868b67de05d75913bc83fea7f2ff3d06b15cb07adf6c22d1f94f1"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "offer",
+        "unit"
+      ],
+      "sourceHash": "3e56208886334ad120af2d85b44fca33b5922a7e96623d87d793727c75178e03"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "offer",
+        "allowance"
+      ],
+      "sourceHash": "aa695907fedd044f41aaf55b78c3e18e056e184ea83ebd0d21e1b8e7177ee995"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "offer",
+        "extras"
+      ],
+      "sourceHash": "2dde78d0a4b34a797ac41efa8426f1e98874a7e9bfc38db869338b90175c0a63"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "assumptions",
+        0
+      ],
+      "sourceHash": "79adeadb4feb385ac12585feee29f5f4b94954ccde2406a3b86aa5c7e90ca29f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "assumptions",
+        1
+      ],
+      "sourceHash": "989a9fcc887e91c895fb2d3cdee45f5d8279d36705594e66f19d87e172656e0e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "loop"
+      ],
+      "sourceHash": "edc50e97c701508b19ff0c0117cda5ab8aafa7faa0d747388080ab915edec13f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "ctaLabel"
+      ],
+      "sourceHash": "6e5fe4ca7c07142fa81eef400c342dea7f8ba0422aa331c3880e6604db8d52a7"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "label"
+      ],
+      "sourceHash": "4eaa570bcd2d051814cfbcea81a6a732eec55c652d08b722bda0aa7cb12971ef"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "inputs",
+        0,
+        "label"
+      ],
+      "sourceHash": "d0081c4a08b2be87b687f4f35e5668e5c004581cd766a25feea76ebe7ae5afdb"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "inputs",
+        0,
+        "help"
+      ],
+      "sourceHash": "a8cff02d43e6c0371644e73ec0de532d8ac6ae2eb169301a6e3605e3cb010ab0"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "inputs",
+        1,
+        "label"
+      ],
+      "sourceHash": "9f135e34cc7bc32cafb416bcbf7ef6af035cdb444c22e90cccd0587ba3db19df"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "inputs",
+        1,
+        "help"
+      ],
+      "sourceHash": "d99a99ab817eea4a3a70ded599d0744a02fe8de95ab0b7c6a0fc9d5cb72c400d"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "inputs",
+        2,
+        "label"
+      ],
+      "sourceHash": "4b5674419c1cb29206fb7d1486e6492bb74df9523dbc3bd5cdb875a309486100"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "inputs",
+        2,
+        "help"
+      ],
+      "sourceHash": "310e52c988a868b67de05d75913bc83fea7f2ff3d06b15cb07adf6c22d1f94f1"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "offer",
+        "unit"
+      ],
+      "sourceHash": "4eaa570bcd2d051814cfbcea81a6a732eec55c652d08b722bda0aa7cb12971ef"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "offer",
+        "allowance"
+      ],
+      "sourceHash": "aa695907fedd044f41aaf55b78c3e18e056e184ea83ebd0d21e1b8e7177ee995"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "offer",
+        "extras"
+      ],
+      "sourceHash": "2dde78d0a4b34a797ac41efa8426f1e98874a7e9bfc38db869338b90175c0a63"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "assumptions",
+        0
+      ],
+      "sourceHash": "79adeadb4feb385ac12585feee29f5f4b94954ccde2406a3b86aa5c7e90ca29f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "assumptions",
+        1
+      ],
+      "sourceHash": "989a9fcc887e91c895fb2d3cdee45f5d8279d36705594e66f19d87e172656e0e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "loop"
+      ],
+      "sourceHash": "edc50e97c701508b19ff0c0117cda5ab8aafa7faa0d747388080ab915edec13f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "ctaLabel"
+      ],
+      "sourceHash": "6e5fe4ca7c07142fa81eef400c342dea7f8ba0422aa331c3880e6604db8d52a7"
     },
     {
       "path": [
@@ -5380,7 +6528,7 @@
         "roiCalculator",
         "heading"
       ],
-      "sourceHash": "c63420eca3f95b8917c99f3a5cf72f000ab237bc6c658765b2176ebdd7b311be"
+      "sourceHash": "f605f95a678fe3249ebf6201cbc21b86ea72d7f4bc395cab6e017b8b91a674d6"
     },
     {
       "path": [
@@ -5391,7 +6539,7 @@
         "roiCalculator",
         "subheading"
       ],
-      "sourceHash": "7b148bf1bc2d445204b8b2a40faa420fe4a04624c98bd20f79c051038ca1b7da"
+      "sourceHash": "22fd8ffe8dbddd46f41fb690f262f66466bb343bae0b359e4c64dfd2f2f127a5"
     },
     {
       "path": [
@@ -5402,7 +6550,7 @@
         "roiCalculator",
         "disclaimer"
       ],
-      "sourceHash": "2571d3c4491924fe3b8aaab7d2acb5f4904b393aae9f2babc38cd0e46d1126aa"
+      "sourceHash": "28bd6e46023484d9a6b075ba5e7539842d6a2e920782ed0979f21366d56ae02f"
     },
     {
       "path": [
@@ -7830,7 +8978,7 @@
         "pricing",
         "label"
       ],
-      "sourceHash": "74be3e630a8b30d773e4002180e4cdf3963817fa92ff839e99f6556ac371eaa8"
+      "sourceHash": "dfe95783edfef7918760312f94edd764f4ce3ffd38b90c2c955a0cc3b250f040"
     },
     {
       "path": [
@@ -7880,6 +9028,809 @@
         "privacyNote"
       ],
       "sourceHash": "0e96f5e15977ab0a2a8d684c0d35d7459f3afc862b606046310ae1fbbd4be12b"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "navLabel"
+      ],
+      "sourceHash": "dfe95783edfef7918760312f94edd764f4ce3ffd38b90c2c955a0cc3b250f040"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "heading"
+      ],
+      "sourceHash": "f605f95a678fe3249ebf6201cbc21b86ea72d7f4bc395cab6e017b8b91a674d6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "intro"
+      ],
+      "sourceHash": "22fd8ffe8dbddd46f41fb690f262f66466bb343bae0b359e4c64dfd2f2f127a5"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "monthly"
+      ],
+      "sourceHash": "310ca503ef36f177ddbc760463fcaec1edc6eca12bfd590ad7bb244b31e59543"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "weekly"
+      ],
+      "sourceHash": "e78041ab51a818a22e2cfea6c15fe72e9e20092246f496f1670f7be3e42177a6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "daily"
+      ],
+      "sourceHash": "8f2364e11b8be3ff008f32b3dedb54e659362429bcc9e3eb6acb6070de4ffbff"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "cost"
+      ],
+      "sourceHash": "16c6e032c6d9e64e841b58a0298260d9f548fcbe3a8ad8dc475bd977b602898f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "benefit"
+      ],
+      "sourceHash": "a7f9c107913bba92d233f27fbfa5c4c52e4435a763a727214089505b9519d2dc"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "net"
+      ],
+      "sourceHash": "d32a3b8a970a1c2a790bdd47a4a86f208f6ff655d8e9269dcda5776b156d6039"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "roi"
+      ],
+      "sourceHash": "bd75a04bf54fbb79e68559c37be0a8752efacfe4f5b9a326b87143c8d5c87dcc"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "timeBenefit"
+      ],
+      "sourceHash": "cedc575743fa43d9e724db8bd1d54037d41369448eb826b63e1efba54e81c2a4"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "timeRoi"
+      ],
+      "sourceHash": "4b0df8181ded668923d1da293e0fc8ca4d0ac21eed3f933b32891615e67d1f6a"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "timeBack"
+      ],
+      "sourceHash": "92947077a2792fb311280e55e4d39fbeb1fbb152e76b389dee5a53697ea548ef"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "missing"
+      ],
+      "sourceHash": "4b11bc702fcdb172c2f88f4af465a9d05ac206b7f7e6304fcded04eb92cccde6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "noRatio"
+      ],
+      "sourceHash": "5237c96ac1a23b98eb13770503afe986b088acd6627fa7649a5afdcbc4bb8e99"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "method"
+      ],
+      "sourceHash": "b79afe297bec4d00ab3a70a61b5e8b607a423a123f23a2fa9ccf8d6af6bcd157"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "reset"
+      ],
+      "sourceHash": "daee7606b339f3c339076fe2c9f372a3ff40c8ee896005d829c7481b64ca5303"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "audience"
+      ],
+      "sourceHash": "545c02357695a6ffed97b01a94a46b9aeb4686f4480173da6d0faeae8eb85053"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "includedVat"
+      ],
+      "sourceHash": "3e366dcdda082eda14db7eab30381a2fcc424c43d183d0e6d7a4b15c9b567d7d"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "excludedVat"
+      ],
+      "sourceHash": "744120dab44d48957b4580cadd00fca1f91383823125d1400984a3cf62a76441"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "perMonth"
+      ],
+      "sourceHash": "88b1d1a67e34a269fec10b917a624817de854eeadb142640ab17c8199ab6bdae"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "equivalents"
+      ],
+      "sourceHash": "4a546022be02a950fc59270741b8e4784ca51f74da16e286c77e3f5a371aff38"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "timeNote"
+      ],
+      "sourceHash": "d7c17f23c52c1d9cf5be7fcb5a537017a0a09529bfde38e6b692afa2ecbf453f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "estimateNote"
+      ],
+      "sourceHash": "28bd6e46023484d9a6b075ba5e7539842d6a2e920782ed0979f21366d56ae02f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "limitNote"
+      ],
+      "sourceHash": "61108708047a1a834e46f1ca557d7518e3a63263a8ec7e7aa4301db230beacff"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "timeFormula"
+      ],
+      "sourceHash": "4cf3d8fcb0fa4b9c36d9869e709ba0cbabcd41083c7ff8cf77e9fe32066eacdb"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "profitFormula"
+      ],
+      "sourceHash": "e286f3af8c8f706f737502c898e1ba90c6bbc7680c380bba844ec4f3874b5bc4"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "proceedsFormula"
+      ],
+      "sourceHash": "9de390391c62a87b44f2c9bf74e5223e5d34c5a74cd5e12575f5e1452881a46e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "roiFormula"
+      ],
+      "sourceHash": "00f9b4df25ca733c11a00e762ab8d95f6e9c9364ce202a6c22ff95c3613e3fcb"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "label"
+      ],
+      "sourceHash": "3e56208886334ad120af2d85b44fca33b5922a7e96623d87d793727c75178e03"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "inputs",
+        0,
+        "label"
+      ],
+      "sourceHash": "d0081c4a08b2be87b687f4f35e5668e5c004581cd766a25feea76ebe7ae5afdb"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "inputs",
+        0,
+        "help"
+      ],
+      "sourceHash": "a8cff02d43e6c0371644e73ec0de532d8ac6ae2eb169301a6e3605e3cb010ab0"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "inputs",
+        1,
+        "label"
+      ],
+      "sourceHash": "9f135e34cc7bc32cafb416bcbf7ef6af035cdb444c22e90cccd0587ba3db19df"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "inputs",
+        1,
+        "help"
+      ],
+      "sourceHash": "d99a99ab817eea4a3a70ded599d0744a02fe8de95ab0b7c6a0fc9d5cb72c400d"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "inputs",
+        2,
+        "label"
+      ],
+      "sourceHash": "4b5674419c1cb29206fb7d1486e6492bb74df9523dbc3bd5cdb875a309486100"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "inputs",
+        2,
+        "help"
+      ],
+      "sourceHash": "310e52c988a868b67de05d75913bc83fea7f2ff3d06b15cb07adf6c22d1f94f1"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "offer",
+        "unit"
+      ],
+      "sourceHash": "3e56208886334ad120af2d85b44fca33b5922a7e96623d87d793727c75178e03"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "offer",
+        "allowance"
+      ],
+      "sourceHash": "aa695907fedd044f41aaf55b78c3e18e056e184ea83ebd0d21e1b8e7177ee995"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "offer",
+        "extras"
+      ],
+      "sourceHash": "2dde78d0a4b34a797ac41efa8426f1e98874a7e9bfc38db869338b90175c0a63"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "assumptions",
+        0
+      ],
+      "sourceHash": "79adeadb4feb385ac12585feee29f5f4b94954ccde2406a3b86aa5c7e90ca29f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "assumptions",
+        1
+      ],
+      "sourceHash": "989a9fcc887e91c895fb2d3cdee45f5d8279d36705594e66f19d87e172656e0e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "loop"
+      ],
+      "sourceHash": "edc50e97c701508b19ff0c0117cda5ab8aafa7faa0d747388080ab915edec13f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "ctaLabel"
+      ],
+      "sourceHash": "6e5fe4ca7c07142fa81eef400c342dea7f8ba0422aa331c3880e6604db8d52a7"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "label"
+      ],
+      "sourceHash": "4eaa570bcd2d051814cfbcea81a6a732eec55c652d08b722bda0aa7cb12971ef"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "inputs",
+        0,
+        "label"
+      ],
+      "sourceHash": "d0081c4a08b2be87b687f4f35e5668e5c004581cd766a25feea76ebe7ae5afdb"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "inputs",
+        0,
+        "help"
+      ],
+      "sourceHash": "a8cff02d43e6c0371644e73ec0de532d8ac6ae2eb169301a6e3605e3cb010ab0"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "inputs",
+        1,
+        "label"
+      ],
+      "sourceHash": "9f135e34cc7bc32cafb416bcbf7ef6af035cdb444c22e90cccd0587ba3db19df"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "inputs",
+        1,
+        "help"
+      ],
+      "sourceHash": "d99a99ab817eea4a3a70ded599d0744a02fe8de95ab0b7c6a0fc9d5cb72c400d"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "inputs",
+        2,
+        "label"
+      ],
+      "sourceHash": "4b5674419c1cb29206fb7d1486e6492bb74df9523dbc3bd5cdb875a309486100"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "inputs",
+        2,
+        "help"
+      ],
+      "sourceHash": "310e52c988a868b67de05d75913bc83fea7f2ff3d06b15cb07adf6c22d1f94f1"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "offer",
+        "unit"
+      ],
+      "sourceHash": "4eaa570bcd2d051814cfbcea81a6a732eec55c652d08b722bda0aa7cb12971ef"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "offer",
+        "allowance"
+      ],
+      "sourceHash": "aa695907fedd044f41aaf55b78c3e18e056e184ea83ebd0d21e1b8e7177ee995"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "offer",
+        "extras"
+      ],
+      "sourceHash": "2dde78d0a4b34a797ac41efa8426f1e98874a7e9bfc38db869338b90175c0a63"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "assumptions",
+        0
+      ],
+      "sourceHash": "79adeadb4feb385ac12585feee29f5f4b94954ccde2406a3b86aa5c7e90ca29f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "assumptions",
+        1
+      ],
+      "sourceHash": "989a9fcc887e91c895fb2d3cdee45f5d8279d36705594e66f19d87e172656e0e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "loop"
+      ],
+      "sourceHash": "edc50e97c701508b19ff0c0117cda5ab8aafa7faa0d747388080ab915edec13f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "ctaLabel"
+      ],
+      "sourceHash": "6e5fe4ca7c07142fa81eef400c342dea7f8ba0422aa331c3880e6604db8d52a7"
     },
     {
       "path": [
@@ -8944,7 +10895,7 @@
         "roiCalculator",
         "heading"
       ],
-      "sourceHash": "c63420eca3f95b8917c99f3a5cf72f000ab237bc6c658765b2176ebdd7b311be"
+      "sourceHash": "f605f95a678fe3249ebf6201cbc21b86ea72d7f4bc395cab6e017b8b91a674d6"
     },
     {
       "path": [
@@ -8952,7 +10903,7 @@
         "roiCalculator",
         "subheading"
       ],
-      "sourceHash": "7b148bf1bc2d445204b8b2a40faa420fe4a04624c98bd20f79c051038ca1b7da"
+      "sourceHash": "22fd8ffe8dbddd46f41fb690f262f66466bb343bae0b359e4c64dfd2f2f127a5"
     },
     {
       "path": [
@@ -8960,7 +10911,7 @@
         "roiCalculator",
         "disclaimer"
       ],
-      "sourceHash": "2571d3c4491924fe3b8aaab7d2acb5f4904b393aae9f2babc38cd0e46d1126aa"
+      "sourceHash": "28bd6e46023484d9a6b075ba5e7539842d6a2e920782ed0979f21366d56ae02f"
     },
     {
       "path": [
@@ -10845,7 +12796,7 @@
         "pricing",
         "label"
       ],
-      "sourceHash": "74be3e630a8b30d773e4002180e4cdf3963817fa92ff839e99f6556ac371eaa8"
+      "sourceHash": "dfe95783edfef7918760312f94edd764f4ce3ffd38b90c2c955a0cc3b250f040"
     },
     {
       "path": [
@@ -10883,7 +12834,639 @@
         "privacyNote"
       ],
       "sourceHash": "0e96f5e15977ab0a2a8d684c0d35d7459f3afc862b606046310ae1fbbd4be12b"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "navLabel"
+      ],
+      "sourceHash": "dfe95783edfef7918760312f94edd764f4ce3ffd38b90c2c955a0cc3b250f040"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "heading"
+      ],
+      "sourceHash": "f605f95a678fe3249ebf6201cbc21b86ea72d7f4bc395cab6e017b8b91a674d6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "intro"
+      ],
+      "sourceHash": "22fd8ffe8dbddd46f41fb690f262f66466bb343bae0b359e4c64dfd2f2f127a5"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "monthly"
+      ],
+      "sourceHash": "310ca503ef36f177ddbc760463fcaec1edc6eca12bfd590ad7bb244b31e59543"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "weekly"
+      ],
+      "sourceHash": "e78041ab51a818a22e2cfea6c15fe72e9e20092246f496f1670f7be3e42177a6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "daily"
+      ],
+      "sourceHash": "8f2364e11b8be3ff008f32b3dedb54e659362429bcc9e3eb6acb6070de4ffbff"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "cost"
+      ],
+      "sourceHash": "16c6e032c6d9e64e841b58a0298260d9f548fcbe3a8ad8dc475bd977b602898f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "benefit"
+      ],
+      "sourceHash": "a7f9c107913bba92d233f27fbfa5c4c52e4435a763a727214089505b9519d2dc"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "net"
+      ],
+      "sourceHash": "d32a3b8a970a1c2a790bdd47a4a86f208f6ff655d8e9269dcda5776b156d6039"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "roi"
+      ],
+      "sourceHash": "bd75a04bf54fbb79e68559c37be0a8752efacfe4f5b9a326b87143c8d5c87dcc"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "timeBenefit"
+      ],
+      "sourceHash": "cedc575743fa43d9e724db8bd1d54037d41369448eb826b63e1efba54e81c2a4"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "timeRoi"
+      ],
+      "sourceHash": "4b0df8181ded668923d1da293e0fc8ca4d0ac21eed3f933b32891615e67d1f6a"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "timeBack"
+      ],
+      "sourceHash": "92947077a2792fb311280e55e4d39fbeb1fbb152e76b389dee5a53697ea548ef"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "missing"
+      ],
+      "sourceHash": "4b11bc702fcdb172c2f88f4af465a9d05ac206b7f7e6304fcded04eb92cccde6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "noRatio"
+      ],
+      "sourceHash": "5237c96ac1a23b98eb13770503afe986b088acd6627fa7649a5afdcbc4bb8e99"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "method"
+      ],
+      "sourceHash": "b79afe297bec4d00ab3a70a61b5e8b607a423a123f23a2fa9ccf8d6af6bcd157"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "reset"
+      ],
+      "sourceHash": "daee7606b339f3c339076fe2c9f372a3ff40c8ee896005d829c7481b64ca5303"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "audience"
+      ],
+      "sourceHash": "545c02357695a6ffed97b01a94a46b9aeb4686f4480173da6d0faeae8eb85053"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "includedVat"
+      ],
+      "sourceHash": "3e366dcdda082eda14db7eab30381a2fcc424c43d183d0e6d7a4b15c9b567d7d"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "excludedVat"
+      ],
+      "sourceHash": "744120dab44d48957b4580cadd00fca1f91383823125d1400984a3cf62a76441"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "perMonth"
+      ],
+      "sourceHash": "88b1d1a67e34a269fec10b917a624817de854eeadb142640ab17c8199ab6bdae"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "equivalents"
+      ],
+      "sourceHash": "4a546022be02a950fc59270741b8e4784ca51f74da16e286c77e3f5a371aff38"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "timeNote"
+      ],
+      "sourceHash": "d7c17f23c52c1d9cf5be7fcb5a537017a0a09529bfde38e6b692afa2ecbf453f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "estimateNote"
+      ],
+      "sourceHash": "28bd6e46023484d9a6b075ba5e7539842d6a2e920782ed0979f21366d56ae02f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "limitNote"
+      ],
+      "sourceHash": "61108708047a1a834e46f1ca557d7518e3a63263a8ec7e7aa4301db230beacff"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "timeFormula"
+      ],
+      "sourceHash": "4cf3d8fcb0fa4b9c36d9869e709ba0cbabcd41083c7ff8cf77e9fe32066eacdb"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "profitFormula"
+      ],
+      "sourceHash": "e286f3af8c8f706f737502c898e1ba90c6bbc7680c380bba844ec4f3874b5bc4"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "proceedsFormula"
+      ],
+      "sourceHash": "9de390391c62a87b44f2c9bf74e5223e5d34c5a74cd5e12575f5e1452881a46e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "roiFormula"
+      ],
+      "sourceHash": "00f9b4df25ca733c11a00e762ab8d95f6e9c9364ce202a6c22ff95c3613e3fcb"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "label"
+      ],
+      "sourceHash": "3e56208886334ad120af2d85b44fca33b5922a7e96623d87d793727c75178e03"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "inputs",
+        0,
+        "label"
+      ],
+      "sourceHash": "d0081c4a08b2be87b687f4f35e5668e5c004581cd766a25feea76ebe7ae5afdb"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "inputs",
+        0,
+        "help"
+      ],
+      "sourceHash": "a8cff02d43e6c0371644e73ec0de532d8ac6ae2eb169301a6e3605e3cb010ab0"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "inputs",
+        1,
+        "label"
+      ],
+      "sourceHash": "9f135e34cc7bc32cafb416bcbf7ef6af035cdb444c22e90cccd0587ba3db19df"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "inputs",
+        1,
+        "help"
+      ],
+      "sourceHash": "d99a99ab817eea4a3a70ded599d0744a02fe8de95ab0b7c6a0fc9d5cb72c400d"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "inputs",
+        2,
+        "label"
+      ],
+      "sourceHash": "4b5674419c1cb29206fb7d1486e6492bb74df9523dbc3bd5cdb875a309486100"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "inputs",
+        2,
+        "help"
+      ],
+      "sourceHash": "310e52c988a868b67de05d75913bc83fea7f2ff3d06b15cb07adf6c22d1f94f1"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "offer",
+        "unit"
+      ],
+      "sourceHash": "3e56208886334ad120af2d85b44fca33b5922a7e96623d87d793727c75178e03"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "offer",
+        "allowance"
+      ],
+      "sourceHash": "aa695907fedd044f41aaf55b78c3e18e056e184ea83ebd0d21e1b8e7177ee995"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "offer",
+        "extras"
+      ],
+      "sourceHash": "2dde78d0a4b34a797ac41efa8426f1e98874a7e9bfc38db869338b90175c0a63"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "assumptions",
+        0
+      ],
+      "sourceHash": "79adeadb4feb385ac12585feee29f5f4b94954ccde2406a3b86aa5c7e90ca29f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "assumptions",
+        1
+      ],
+      "sourceHash": "989a9fcc887e91c895fb2d3cdee45f5d8279d36705594e66f19d87e172656e0e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "loop"
+      ],
+      "sourceHash": "edc50e97c701508b19ff0c0117cda5ab8aafa7faa0d747388080ab915edec13f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "ctaLabel"
+      ],
+      "sourceHash": "6e5fe4ca7c07142fa81eef400c342dea7f8ba0422aa331c3880e6604db8d52a7"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "label"
+      ],
+      "sourceHash": "4eaa570bcd2d051814cfbcea81a6a732eec55c652d08b722bda0aa7cb12971ef"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "inputs",
+        0,
+        "label"
+      ],
+      "sourceHash": "d0081c4a08b2be87b687f4f35e5668e5c004581cd766a25feea76ebe7ae5afdb"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "inputs",
+        0,
+        "help"
+      ],
+      "sourceHash": "a8cff02d43e6c0371644e73ec0de532d8ac6ae2eb169301a6e3605e3cb010ab0"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "inputs",
+        1,
+        "label"
+      ],
+      "sourceHash": "9f135e34cc7bc32cafb416bcbf7ef6af035cdb444c22e90cccd0587ba3db19df"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "inputs",
+        1,
+        "help"
+      ],
+      "sourceHash": "d99a99ab817eea4a3a70ded599d0744a02fe8de95ab0b7c6a0fc9d5cb72c400d"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "inputs",
+        2,
+        "label"
+      ],
+      "sourceHash": "4b5674419c1cb29206fb7d1486e6492bb74df9523dbc3bd5cdb875a309486100"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "inputs",
+        2,
+        "help"
+      ],
+      "sourceHash": "310e52c988a868b67de05d75913bc83fea7f2ff3d06b15cb07adf6c22d1f94f1"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "offer",
+        "unit"
+      ],
+      "sourceHash": "4eaa570bcd2d051814cfbcea81a6a732eec55c652d08b722bda0aa7cb12971ef"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "offer",
+        "allowance"
+      ],
+      "sourceHash": "aa695907fedd044f41aaf55b78c3e18e056e184ea83ebd0d21e1b8e7177ee995"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "offer",
+        "extras"
+      ],
+      "sourceHash": "2dde78d0a4b34a797ac41efa8426f1e98874a7e9bfc38db869338b90175c0a63"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "assumptions",
+        0
+      ],
+      "sourceHash": "79adeadb4feb385ac12585feee29f5f4b94954ccde2406a3b86aa5c7e90ca29f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "assumptions",
+        1
+      ],
+      "sourceHash": "989a9fcc887e91c895fb2d3cdee45f5d8279d36705594e66f19d87e172656e0e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "loop"
+      ],
+      "sourceHash": "edc50e97c701508b19ff0c0117cda5ab8aafa7faa0d747388080ab915edec13f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "ctaLabel"
+      ],
+      "sourceHash": "6e5fe4ca7c07142fa81eef400c342dea7f8ba0422aa331c3880e6604db8d52a7"
     }
   ],
-  "generatedAt": "2026-10-11T13:14:59.201Z"
+  "generatedAt": "2026-10-13T14:19:32.625Z"
 }

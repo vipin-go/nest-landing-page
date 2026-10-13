@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "language": "nl",
   "regionKey": null,
-  "sourceRevision": "d701b52843633b93bc6a942b1d7069b64e0764961352983e775addc605ea3000",
+  "sourceRevision": "be40441c1455b89085020ea8725989ac5b0d6534d1db605c9fe719b98b0b6ab9",
   "landingPage": {
     "headline": "Eén gerichte introductie die past.",
     "subheadline": "Privé-introducties tussen koper en verkoper. Eén getoetst voorstel tegelijk.",
@@ -212,9 +212,9 @@
             "methodologyVersion": 2,
             "enabled": true,
             "kicker": "Zakelijke impact",
-            "heading": "ROI-calculator",
-            "subheading": "Model voor een bevoegde tweedehuismakelaar die Nest gebruikt voor gerichte, menselijk beoordeelde introducties in één regio.",
-            "disclaimer": "Modelscenario zonder bewezen betaalde vraag. Nest selecteert en regelt introducties met toestemming. Het vertegenwoordigt niemand, taxeert of onderhandelt niet, ontvangt geen commissie en garandeert geen transactie.",
+            "heading": "Prijzen en ROI",
+            "subheading": "Jouw invoer. Jouw geschatte rendement.",
+            "disclaimer": "Planramingen staan los van gemeten ROI. Alleen aanvaarde resultaten en vergelijkbare vastgelegde kosten onderbouwen gemeten rendement.",
             "currency": "EUR",
             "currencyCopy": {
               "native": "Amounts in {currency}.",
@@ -224,12 +224,12 @@
               "basis": "Valutaconversie is geen onderzoek naar lokale kosten. Voer uw eigen lokale kosten en bijdrageaannames in. Taalwijzigingen veranderen de bedragen niet."
             },
             "costCopy": {
-              "breakdown": "Opbouw van je totale AI-kosten",
+              "breakdown": "Hoe de all-in AI-kosten zijn opgebouwd",
               "perUnit": "{amount} per work unit (average)",
-              "budgetOnly": "Dit is je totale budget. Kies Kostenoverzicht voor de onderdelen; er is geen verdeling aangenomen.",
-              "benefitNotice": "Modelvoordelen, geen kosten. Doorgestreepte bedragen zijn verwachte vermeden uitgaven, geen korting op de AI-rekening.",
-              "remainder": "Andere opgenomen bedrijfskosten",
-              "allocation": "Vrijgekomen uren zijn capaciteit, geen automatische besparing. Alleen toegewezen uren voor echte kostenverlaging of extra bijdrage krijgen een geldwaarde."
+              "budgetOnly": "Dit is uw totale budget. Schakel over naar Kostenoverzicht om het te specificeren; er is geen verdeling aangenomen.",
+              "benefitNotice": "Gemodelleerde voordelen, geen kosten. Doorgehaalde bedragen zijn uitgaven die u verwacht te vermijden, geen kortingen op de AI-rekening.",
+              "remainder": "Andere inbegrepen operationele kosten",
+              "allocation": "Teruggegeven uren zijn capaciteit, geen automatische besparingen. Alleen de delen die u toewijst aan daadwerkelijke kostenreducties of extra bijdragen krijgen een geldelijke waarde."
             },
             "locale": "en-GB",
             "inputs": [],
@@ -248,7 +248,7 @@
                 "platform_cost": 1500,
                 "higher_value_hours": 0,
                 "contribution_rate": 0,
-                "customer_price": 750
+                "customer_price": 49
               },
               "copy": {
                 "navLabel": "Prijzen",
@@ -258,85 +258,85 @@
                 "workloadIntro": "Model voor tweedehuisleads, selectie en menselijke toetsing — geen woningverkoop, commissie of gegarandeerde match.",
                 "costIntro": "Token-, model-, tool-, infrastructuur-, platform- en beoordelaarskosten zijn leveringsaannames. Nest-prijs is een aparte, niet-gevalideerde hypothese.",
                 "valueIntro": "Capaciteit is geen omzet. Vul bewezen bijdrage pas in nadat een echte makelaar de dienst gebruikt en betaalt.",
-                "sampleNotice": "Typisch gebruik · niet gemeten",
-                "monthly": "Per maand",
-                "yearly": "Jaar-",
+                "sampleNotice": "Typisch gebruik · geen waargenomen resultaten",
+                "monthly": "Maandelijks",
+                "yearly": "Jaarlijks",
                 "next": "Doorgaan",
                 "back": "Terug",
                 "reset": "Aannames resetten",
-                "summary": "Je geraamde impact",
+                "summary": "Uw gemodelleerde impact",
                 "volume": "Geraamde leads",
-                "grossHours": "Minder herhaalwerk",
+                "grossHours": "Repetitief werk verminderd",
                 "capacity": "Capaciteit beoordelaar terug",
-                "retained": "Vrijgehouden capaciteit",
+                "retained": "Beschikbaar gehouden capaciteit",
                 "hours": "uren",
                 "days": "dagen",
                 "percent": "%",
                 "minutes": "minuten",
                 "tokens": "tokens",
-                "monthlyTokens": "Tokens per maand",
+                "monthlyTokens": "Maandelijkse tokens",
                 "tokenCost": "Tokengebruik",
                 "packageLabel": "Gebruikspakket",
                 "packageBase": "Basis",
                 "packageMedium": "Medium",
-                "packageCustom": "Gewoonte",
-                "reviewMode": "Wie regelt de recensie?",
+                "packageCustom": "Aangepast",
+                "reviewMode": "Wie handelt de beoordeling af?",
                 "teamReview": "Bestaand team",
                 "paidReview": "Extra betaalde beoordelaar",
-                "reviewNote": "Toetsing door je team benut vrijgekomen capaciteit. Extra betaalde toetsing zit in de bedrijfskosten en gaat niet opnieuw van teamcapaciteit af.",
-                "totalMode": "maandbudget",
+                "reviewNote": "Beoordeling door bestaand team gebruikt de terugverdiende capaciteit. Extra betaalde beoordeling is inbegrepen in de operationele kosten, wordt niet nogmaals afgetrokken van de teamcapaciteit.",
+                "totalMode": "Maandelijks budget",
                 "itemizedMode": "Kostenoverzicht",
-                "budgetNote": "Budget: modellen/media, tools, infrastructuur, Gabriel-kosten en extra betaalde toetsing. Ongewijzigde lonen zijn geen nieuwe uitgaven.",
-                "itemizedNote": "Tokens = volume × tokens per resultaat. Extra media, tools en infrastructuur blijven nul tenzij van toepassing. Extra betaalde toetsing = toetsingsuren × tarief.",
-                "paidReviewCost": "Extra toetsingskosten",
-                "allInCost": "bedrijfskosten",
+                "budgetNote": "Het budget moet modellen/media, tools, infrastructuur, Gabriel-kosten en extra betaalde beoordeling bevatten. Onveranderde salarisadministratie niet meerekenen als nieuwe uitgaven.",
+                "itemizedNote": "Tokengebruik wordt berekend op basis van volume × tokens per output. Extra media, tools en infrastructuur blijven op nul, tenzij van toepassing. Extra betaalde beoordeling wordt berekend op basis van beoordelingsuren en het tarief.",
+                "paidReviewCost": "Kosten voor extra betaalde beoordeling",
+                "allInCost": "Operationele kosten",
                 "missing": "Voeg uw aannames toe",
-                "cashValue": "Vermeden uitgaven",
+                "cashValue": "Vermeden contante uitgaven",
                 "contribution": "Verwachte bijdrage",
-                "expectedLoss": "Verwachte verliesdaling",
+                "expectedLoss": "Verwachte vermindering van verlies",
                 "riskValue": "Onzekere risicowaarde inbegrepen",
                 "economicValue": "Gemodelleerde bijdrage",
                 "netBenefit": "Gemodelleerd voordeel na Nest-prijs",
-                "multiple": "Interne leveringsmultiple",
+                "multiple": "Internal delivery multiple",
                 "customerBenefit": "Geraamd makelaarsnut",
                 "customerRoi": "Geraamde klant-ROI",
-                "payback": "Klantterugverdientijd",
-                "notApplicable": "Niet relevant",
-                "annual": "Jaaroverzicht",
-                "annualNote": "Dezelfde maandaannames, zonder groei of rente-op-rente. Bespaarde werving telt alleen tijdens de ingevulde periode.",
+                "payback": "Terugverdientijd klant",
+                "notApplicable": "Niet van toepassing",
+                "annual": "Jaarlijks overzicht",
+                "annualNote": "Dezelfde maandelijkse aannames, zonder groei of samengestelde rente. Besparingen op personeel duren slechts voor de ingevoerde periode.",
                 "method": "Hoe dit wordt berekend",
-                "burdenHeading": "Minder herhaalwerk",
-                "opportunityHeading": "Capaciteit voor waardevoller werk",
-                "methodBody": "Minder werklast (negatieve productiviteit) maakt capaciteit vrij. Waardevoller werk (mogelijke positieve productiviteit) heeft pas economische waarde bij benutting. Uren zijn geen geldbesparing. Tokenkosten volgen een modelmix van invoer/uitvoer, geen provider-offerte.",
+                "burdenHeading": "Repetitief werk verminderd",
+                "opportunityHeading": "Capaciteit voor werk van hogere waarde",
+                "methodBody": "Operationele lasten verwijderd (negatieve productiviteit) leveren capaciteit op. Werk van hogere waarde (potentiële positieve productiviteit) creëert economische waarde alleen als die capaciteit wordt benut. Alleen uren zijn geen contante besparingen. Tokenkosten gebruiken een gemodelleerde input/output-mix, geen offerte van een provider.",
                 "formulaLabel": "Gekwalificeerde briefs = leads × selectieratio. Leveringskosten omvatten geraamde tokens, modellen, tools, infrastructuur, platform en menselijke toetsing. Klant-ROI blijft onbekend tot voordeel en prijs bewezen zijn.",
-                "allocationNote": "Elk uur kan eenmaal worden toegewezen. Niet-toegewezen uren blijven capaciteit, zonder geldwaarde.",
-                "overlapLabel": "Deze voordelen zijn losstaand; kosten en verliezen die elders meetellen zijn hier uitgesloten.",
-                "overlapNote": "Fout- en risicoramingen sluiten arbeidsbesparing uit; één incident mag niet in beide groepen staan. Bijdrage sluit AI-kosten uit, die apart worden afgetrokken.",
+                "allocationNote": "Elk uur kan eenmaal worden toegewezen. Niet-toegewezen uren blijven capaciteit, zonder geldelijke waarde.",
+                "overlapLabel": "Deze voordelen zijn afzonderlijk; ik heb kosten en verliezen uitgesloten die al elders zijn meegeteld.",
+                "overlapNote": "Fout- en risico-schattingen sluiten arbeidsbesparingen uit en hetzelfde incident mag niet in beide categorieën voorkomen. Bijdrage sluit AI-kosten uit, die afzonderlijk worden afgetrokken.",
                 "hiringLabel": "Deze aanwerving was echt gepland en de toegewezen capaciteit kan het werk dekken.",
-                "reviewedLabel": "Ik heb mijn resultaten bekeken; niet-gekozen uitkomsten hebben in deze raming geen geldwaarde.",
-                "cycleResult": "Cyclustijdverbetering",
+                "reviewedLabel": "Ik heb mijn resultaten beoordeeld; niet-geselecteerde resultaten hebben geen financiële waarde in deze schatting.",
+                "cycleResult": "Verbetering van cyclustijd",
                 "throughputResult": "Aanvullend werk ondersteund door capaciteit en vraag",
-                "assumptionsIncomplete": "Vul de gekozen aannames in om de geldwaarde te berekenen.",
-                "allocationError": "Toegewezen uren overschrijden de netto vrije capaciteit. Verlaag de toewijzing.",
-                "reviewError": "Toetsing kost meer tijd dan het verminderde werk. Bij deze aannames is geen positieve capaciteit vrij.",
-                "cashError": "Vermeden uitgaven mogen niet boven huidige uitgaven liggen of positief zijn zonder toegewezen uren.",
-                "hiringError": "Toegewezen capaciteit moet de geplande huururen dekken. Bevestig de geplande huur en de duur ervan.",
+                "assumptionsIncomplete": "Voltooi de geselecteerde aannames om de financiële waarde te berekenen.",
+                "allocationError": "Toegewezen uren overschrijden de netto beschikbare capaciteit. Verminder de toewijzingen.",
+                "reviewError": "Beoordeling kost meer tijd dan het verminderde werk. Er is geen positieve capaciteit beschikbaar bij deze aannames.",
+                "cashError": "Vermeden uitgaven kunnen geen uitgaven overschrijden of een positieve waarde hebben zonder toegewezen uren.",
+                "hiringError": "Toegewezen capaciteit moet de geplande aanstellingsuren dekken. Bevestig de geplande aanstelling en de duur ervan.",
                 "riskError": "De kans na kan niet groter zijn dan de kans voor een schatting van verliesvermindering.",
-                "overlapError": "Bevestig dat voordelen niet overlappen vóór ze meetellen in het financiële resultaat.",
-                "boundsError": "Gebruik waarden binnen de getoonde grenzen.",
-                "rangeLabel": "Pas waarde aan",
+                "overlapError": "Bevestig dat de voordelen elkaar niet overlappen voordat u ze opneemt in het financiële resultaat.",
+                "boundsError": "Gebruik waarden binnen de weergegeven limieten.",
+                "rangeLabel": "Waarde aanpassen",
                 "noCurrencyChange": "Taal verandert de opmaak, niet uw valuta of aannames.",
                 "currentPreparation": "Huidige voorbereidingsuren",
-                "reviewHours": "Menselijke toetsuren",
-                "reworkHours": "Vermeden of extra hersteluren",
-                "capacityValue": "Geraamde uurwaarde",
-                "acceptedUnits": "Aanvaarde units",
-                "attendedUnits": "Attended units",
-                "costPerAttended": "Kosten/bijgewoonde unit",
-                "benefitCost": "Voordeel/kostenratio",
-                "firstYearCost": "Kosten in jaar 1",
+                "reviewHours": "Uren menselijke beoordeling",
+                "reworkHours": "Vermeden of toegevoegde rework-uren",
+                "capacityValue": "Gemodelleerde capaciteitswaarde",
+                "acceptedUnits": "Geaccepteerde eenheden",
+                "attendedUnits": "Bezochte eenheden",
+                "costPerAttended": "Kosten per bezochte eenheid",
+                "benefitCost": "Voordeel-kosten multiple",
+                "firstYearCost": "Eerstejaars kosten",
                 "firstYearRoi": "Eerstejaars ROI",
-                "paybackOutsideTerm": "Niet terugverdiend in de modelperiode",
+                "paybackOutsideTerm": "Niet terugverdiend binnen de gemodelleerde termijn",
                 "months": "months"
               },
               "fields": {
@@ -366,15 +366,15 @@
                 },
                 "cycles_per_unit": {
                   "label": "Cycli per eenheid per maand",
-                  "help": "Hoeveel terugkerende order-, beoordelings- of verwerkingscycli elke eenheid per maand doorloopt."
+                  "help": "Hoeveel bestel-, controle- of verwerkingscycli elke eenheid doorgaans per maand doorloopt."
                 },
                 "tokens_per_output": {
                   "label": "Tokens per gekwalificeerde brief",
                   "help": "Geraamde invoer- en uitvoertokens per toetsbare brief; vervang deze aanname door echt providergebruik."
                 },
                 "budget": {
-                  "label": "Geschat maandelijks bedrijfsbudget",
-                  "help": "Inclusief tokens, modellen/media, tools, infrastructuur, Gabriel-kosten en extra betaalde toetsing."
+                  "label": "Geschat maandelijks operationeel budget",
+                  "help": "Inclusief tokengebruik, modellen/media, tools, infrastructuur, Gabriel-kosten en extra betaalde beoordeling."
                 },
                 "model_cost": {
                   "label": "Extra model- of mediakosten",
@@ -382,39 +382,39 @@
                 },
                 "tools_cost": {
                   "label": "Tools en integraties",
-                  "help": "Browsersessies, connectoren en andere meetservices. Voer nul in als er geen."
+                  "help": "Browsersessies, connectoren en andere gemeten services. Voer nul in als er geen zijn."
                 },
                 "infrastructure_cost": {
                   "label": "Infrastructuur",
-                  "help": "Extra hosting, opslag en rekenkracht voor deze werklast. Vul nul in als er geen is."
+                  "help": "Incrementele hosting, opslag en rekenkracht voor deze workload. Voer nul in indien van toepassing."
                 },
                 "platform_cost": {
-                  "label": "Overige lever-/supportkosten",
-                  "help": "Geraamde kosten voor hosting, opslag, monitoring en support, los van de klantprijs."
+                  "label": "Other delivery and support cost",
+                  "help": "Modeled hosting, storage, monitoring and support cost, separate from the customer price."
                 },
                 "customer_price": {
                   "label": "Voorgestelde Nest-maandprijs",
                   "help": "Aanpasbare prijshypothese voor makelaars. Geen bewezen omzet; toets dit in een betaalde proef."
                 },
                 "personal_value_per_hour": {
-                  "label": "Optionele waarde van één uur",
+                  "label": "Optioneel: uw waarde per uur",
                   "help": "Alleen een optionele persoonlijke vergelijking. Geen salaris, loon of gegarandeerde geldbesparing."
                 },
                 "review_rate": {
                   "label": "Extra betaalde beoordeling per uur",
-                  "help": "Echte extra toetsingskosten, niet het loon van een ongewijzigde medewerker."
+                  "help": "Werkelijke extra kosten voor reviewers, niet het salaris van een ongewijzigde werknemer."
                 },
                 "cash_hours": {
                   "label": "Uren die betaald werk besparen",
-                  "help": "Wijs alleen werk toe waarvan kosten voor overuren, externen of verwerking echt stoppen."
+                  "help": "Wijs alleen werk toe waarvan de overwerk-, contractanten- of verwerkingskosten daadwerkelijk stoppen."
                 },
                 "cash_baseline": {
-                  "label": "Huidige maandkosten voor dat werk",
+                  "label": "Huidige maandelijkse uitgaven aan dat werk",
                   "help": "Het cashbudget waaruit de reductie zal komen."
                 },
                 "cash_avoided": {
-                  "label": "Maandkosten die je zou stoppen",
-                  "help": "Eén concreet bedrag, niet uren × salaris; sluit apart ingevulde besparing op geplande werving uit."
+                  "label": "Maandelijkse uitgaven die u zou stoppen",
+                  "help": "Eén expliciet bedrag, geen uren vermenigvuldigd met salaris; sluit besparingen op geplande aanwervingen die afzonderlijk zijn ingevoerd uit."
                 },
                 "higher_value_hours": {
                   "label": "Uren voor echte makelaarsgesprekken",
@@ -430,39 +430,39 @@
                 },
                 "extra_minutes": {
                   "label": "Teamminuten per extra eenheid",
-                  "help": "Resterende menselijke inzet, inclusief toetsing, voor één extra unit."
+                  "help": "De resterende menselijke inspanning, inclusief beoordeling, die nodig is om nog een eenheid te leveren."
                 },
                 "demand": {
                   "label": "Extra eenheden met verwachte vraag",
-                  "help": "Capaciteit is geen vraag. Vul het extra maandwerk in dat je verwacht aan te nemen."
+                  "help": "Capaciteit alleen is geen vraag. Voer het extra maandelijkse werk in dat u verwacht aan te nemen."
                 },
                 "unit_margin": {
                   "label": "Bijdrage per extra eenheid",
                   "help": "Incrementele omzet minus leveringskosten; AI-operationele kosten worden apart afgetrokken."
                 },
                 "hiring_hours": {
-                  "label": "Uren dekken de geplande huur",
-                  "help": "Wijs capaciteit toe aan concreet gepland werk, niet aan een algemene fte-raming."
+                  "label": "Uren die de geplande aanwerving dekken",
+                  "help": "Wijs capaciteit toe aan specifiek gepland werk, niet aan een algemene fulltime-equivalent schatting."
                 },
                 "planned_hours": {
-                  "label": "Maanduren voor de geplande medewerker",
-                  "help": "De toegewezen capaciteit moet dit hele werk dekken."
+                  "label": "Maandelijkse uren die de geplande aanwerving zou dekken",
+                  "help": "De toegewezen capaciteit moet deze volledige workload dekken."
                 },
                 "hire_cost": {
-                  "label": "Echt uitgestelde maandloonkosten",
-                  "help": "Gebruik kosten van echt geplande werving, niet het loon van een bestaande medewerker."
+                  "label": "Maandelijkse kosten van aanwerving die daadwerkelijk zijn uitgesteld",
+                  "help": "Gebruik de kosten van een daadwerkelijk geplande aanwerving, niet het salaris van iemand die al in dienst is."
                 },
                 "hire_months": {
-                  "label": "Maanden uitgestelde werving",
-                  "help": "Eén tot twaalf maanden; de jaarraming telt na deze periode geen besparing meer."
+                  "label": "Maanden dat de aanwerving wordt uitgesteld",
+                  "help": "Eén tot twaalf maanden; de jaarlijkse schatting stopt met het tellen van besparingen na deze periode."
                 },
                 "incidents": {
                   "label": "Verwachte vermeden fouten per maand",
-                  "help": "Gebruik je uitgangspunt en verwachte daling. Sluit incidenten uit die ook als risicodaling tellen."
+                  "help": "Gebruik uw basislijn en verwachte reductie. Sluit incidenten uit die ook worden meegeteld als risicoreductie."
                 },
                 "incident_cost": {
                   "label": "Incrementele kosten per fout",
-                  "help": "Sluit elders getelde arbeid, terugbetalingen en andere verliezen uit."
+                  "help": "Sluit arbeid, terugbetalingen of andere verliezen die al elders zijn opgenomen uit."
                 },
                 "probability_before": {
                   "label": "Maandelijkse verlieskans voorheen",
@@ -470,19 +470,19 @@
                 },
                 "probability_after": {
                   "label": "Maandelijkse verlieskans hierna",
-                  "help": "Gebruik hetzelfde incident en dezelfde maandperiode als de basis."
+                  "help": "Gebruik hetzelfde evenement en dezelfde maandelijkse tijdshorizon als de basislijn."
                 },
                 "loss": {
-                  "label": "Verliesrisico van dat incident",
-                  "help": "Uitsluiten van foutincidenten en reeds getelde uitgaven. Dit is onzekere verwachte waarde, niet contant geld."
+                  "label": "Verliesblootstelling voor dat evenement",
+                  "help": "Sluit foutincidenten en uitgaven die al zijn meegeteld uit. Dit is onzekere verwachte waarde, geen bespaard geld."
                 },
                 "days_before": {
                   "label": "Cyclustijd voorheen, in dagen",
-                  "help": "Verstreken tijd van start tot voltooiing, los van hands-on inspanning."
+                  "help": "Verstreken tijd van begin tot voltooiing, gescheiden van hands-on inspanning."
                 },
                 "days_after": {
                   "label": "Cyclustijd hierna, in dagen",
-                  "help": "Alleen een operationele verandering, zonder aangenomen geldwaarde."
+                  "help": "Weergegeven als een operationele verandering, zonder een veronderstelde geldwaarde."
                 }
               },
               "burden": [
@@ -493,35 +493,6 @@
                 "Meer gerichte, menselijk getoetste introducties",
                 "Tijd voor agentgesprekken en klantbehoeften"
               ],
-              "usagePackages": {
-                "base": {
-                  "volume": 1,
-                  "tokensPerOutput": 12000,
-                  "platform_cost": 450,
-                  "minutes": 20,
-                  "automation": 100,
-                  "review": 8,
-                  "model_cost": 0,
-                  "tools_cost": 0,
-                  "infrastructure_cost": 0,
-                  "higher_value_hours": 0,
-                  "contribution_rate": 0
-                },
-                "medium": {
-                  "volume": 1,
-                  "tokensPerOutput": 12000,
-                  "platform_cost": 750,
-                  "minutes": 20,
-                  "automation": 100,
-                  "review": 8,
-                  "model_cost": 0,
-                  "tools_cost": 0,
-                  "infrastructure_cost": 0,
-                  "higher_value_hours": 0,
-                  "contribution_rate": 0
-                }
-              },
-              "defaultPackage": "medium",
               "costMode": "itemized",
               "reviewMode": "team",
               "selected": [
@@ -584,8 +555,7 @@
               ],
               "pricing": {
                 "basis": "fixed",
-                "annualPrice": 9000,
-                "label": "Voorgestelde Nest-maandprijs",
+                "label": "Prijzen",
                 "help": "€750/maand als werkhypothese voor een introductieproef. Onbewezen tot een makelaar betaalt."
               },
               "presentation": {
@@ -598,8 +568,153 @@
               "primaryLabel": "Praat met Nest",
               "primaryTarget": "meet",
               "secondaryLabel": "Zie hoe het werkt",
-              "privacyNote": "Je data blijft privé. Uren zijn capaciteit. Geldbedragen zijn ramingen, geen gemeten resultaten.",
+              "privacyNote": "Uw gegevens blijven privé. Uren zijn capaciteit. Financiële bedragen zijn gemodelleerde schattingen, geen waargenomen resultaten.",
               "secondaryTarget": "how-it-works"
+            },
+            "compact": {
+              "schemaVersion": 1,
+              "defaultProfileId": "buyer",
+              "copy": {
+                "navLabel": "Prijzen",
+                "heading": "Prijzen en ROI",
+                "intro": "Jouw invoer. Jouw geschatte rendement.",
+                "monthly": "Maand",
+                "weekly": "Week",
+                "daily": "Dag",
+                "cost": "U betaalt",
+                "benefit": "Geschat rendement",
+                "net": "Nettowinst",
+                "roi": "Geschat ROI",
+                "timeBenefit": "Geschatte tijdwaarde",
+                "timeRoi": "Tijdwaarde-ROI",
+                "timeBack": "Hergewonnen uren",
+                "missing": "Voer gegevens in",
+                "noRatio": "Niet van toepassing",
+                "method": "Berekeningswijze",
+                "reset": "Herstel",
+                "audience": "Publiek",
+                "includedVat": "Inclusief btw",
+                "excludedVat": "Exclusief btw",
+                "perMonth": "per maand",
+                "equivalents": "Maandfactuur. Dag- en weekcijfers zijn gemiddelden, geen dag- of weekkosten of gegarandeerd rendement.",
+                "timeNote": "Tijdwaarde is je optionele raming, geen ontvangen geld of lagere loonkosten. Nettominuten omvatten je controle- en goedkeuringstijd.",
+                "estimateNote": "Planramingen staan los van gemeten ROI. Alleen aanvaarde resultaten en vergelijkbare vastgelegde kosten onderbouwen gemeten rendement.",
+                "limitNote": "Neem contact op voor meer gebruik of maatwerkoffertes. Deze raming betreft alleen het inbegrepen pakket.",
+                "timeFormula": "Tijdwaarde = eenheden × netto bespaarde minuten ÷ 60 × je uurwaarde.",
+                "profitFormula": "Dekkingsbijdrage = geldige adviessessies × conversiestijging ÷ 100 × winst per extra bestelling.",
+                "proceedsFormula": "Extra opbrengst = partijen of afhalingen × (netto-opbrengst achteraf − netto-opbrengst vooraf).",
+                "roiFormula": "Netto = voordeel − appabonnementskosten. ROI = netto ÷ appabonnementskosten × 100. Gratis abonnementen: geen ROI-percentage."
+              },
+              "profiles": [
+                {
+                  "id": "buyer",
+                  "label": "Agentwerkplek · kopersbriefings",
+                  "model": "time_value",
+                  "unitsPerWorkload": 1,
+                  "inputs": [
+                    {
+                      "id": "units",
+                      "label": "Geschikte dossiers per maand",
+                      "help": "Werk dat je in één maand denkt te beoordelen, binnen de inbegrepen limiet.",
+                      "defaultValue": 20,
+                      "min": 0,
+                      "max": 20,
+                      "step": 1,
+                      "format": "number"
+                    },
+                    {
+                      "id": "minutes_saved",
+                      "label": "Bespaarde min.",
+                      "help": "Je raming na controle, goedkeuring en herstelwerk. Negatieve waarden betekenen extra werk.",
+                      "defaultValue": 12,
+                      "min": -1440,
+                      "max": 1440,
+                      "step": 0.1,
+                      "format": "number"
+                    },
+                    {
+                      "id": "hourly_value",
+                      "label": "Waarde per uur",
+                      "help": "Je eigen optionele waardering. Geen beloofde geldbesparing of vermindering van loonkosten.",
+                      "defaultValue": null,
+                      "min": 0,
+                      "max": 1000,
+                      "step": 0.01,
+                      "format": "currency"
+                    }
+                  ],
+                  "offer": {
+                    "monthlyPrice": 49,
+                    "basis": "fixed",
+                    "unit": "Agentwerkplek · kopersbriefings",
+                    "vatIncluded": false,
+                    "includedUnits": 20,
+                    "allowance": "20 geschikte dossiers",
+                    "extras": "Extra gebruik en professionele diensten krijgen een aparte offerte."
+                  },
+                  "assumptions": [
+                    "De 12 nettominuten zijn een indicatieve raming van voorbereidingstijd, geen meetresultaat.",
+                    "Nettominuten omvatten klantcontrole. Jij geeft de geldwaarde van tijd op; het is geen ontvangen geld."
+                  ],
+                  "loop": "Pand- of koopsignaal → dossier met bronnen kwalificeren → makelaar toetst en partijen stemmen in → aanvaarde introductie en werkelijk resultaat vastleggen.",
+                  "ctaLabel": "Probeer demo",
+                  "ctaTarget": "meet"
+                },
+                {
+                  "id": "seller",
+                  "label": "Agentwerkplek · verkopersbriefings",
+                  "model": "time_value",
+                  "unitsPerWorkload": 1,
+                  "inputs": [
+                    {
+                      "id": "units",
+                      "label": "Geschikte dossiers per maand",
+                      "help": "Werk dat je in één maand denkt te beoordelen, binnen de inbegrepen limiet.",
+                      "defaultValue": 20,
+                      "min": 0,
+                      "max": 20,
+                      "step": 1,
+                      "format": "number"
+                    },
+                    {
+                      "id": "minutes_saved",
+                      "label": "Bespaarde min.",
+                      "help": "Je raming na controle, goedkeuring en herstelwerk. Negatieve waarden betekenen extra werk.",
+                      "defaultValue": 12,
+                      "min": -1440,
+                      "max": 1440,
+                      "step": 0.1,
+                      "format": "number"
+                    },
+                    {
+                      "id": "hourly_value",
+                      "label": "Waarde per uur",
+                      "help": "Je eigen optionele waardering. Geen beloofde geldbesparing of vermindering van loonkosten.",
+                      "defaultValue": null,
+                      "min": 0,
+                      "max": 1000,
+                      "step": 0.01,
+                      "format": "currency"
+                    }
+                  ],
+                  "offer": {
+                    "monthlyPrice": 49,
+                    "basis": "fixed",
+                    "unit": "Agentwerkplek · verkopersbriefings",
+                    "vatIncluded": false,
+                    "includedUnits": 20,
+                    "allowance": "20 geschikte dossiers",
+                    "extras": "Extra gebruik en professionele diensten krijgen een aparte offerte."
+                  },
+                  "assumptions": [
+                    "De 12 nettominuten zijn een indicatieve raming van voorbereidingstijd, geen meetresultaat.",
+                    "Nettominuten omvatten klantcontrole. Jij geeft de geldwaarde van tijd op; het is geen ontvangen geld."
+                  ],
+                  "loop": "Pand- of koopsignaal → dossier met bronnen kwalificeren → makelaar toetst en partijen stemmen in → aanvaarde introductie en werkelijk resultaat vastleggen.",
+                  "ctaLabel": "Probeer demo",
+                  "ctaTarget": "meet"
+                }
+              ]
             }
           },
           "leadScan": {
@@ -720,9 +835,9 @@
             "methodologyVersion": 2,
             "enabled": true,
             "kicker": "Zakelijke impact",
-            "heading": "ROI-calculator",
-            "subheading": "Model voor een bevoegde tweedehuismakelaar die Nest gebruikt voor gerichte, menselijk beoordeelde introducties in één regio.",
-            "disclaimer": "Modelscenario zonder bewezen betaalde vraag. Nest selecteert en regelt introducties met toestemming. Het vertegenwoordigt niemand, taxeert of onderhandelt niet, ontvangt geen commissie en garandeert geen transactie.",
+            "heading": "Prijzen en ROI",
+            "subheading": "Jouw invoer. Jouw geschatte rendement.",
+            "disclaimer": "Planramingen staan los van gemeten ROI. Alleen aanvaarde resultaten en vergelijkbare vastgelegde kosten onderbouwen gemeten rendement.",
             "currency": "EUR",
             "currencyCopy": {
               "native": "Amounts in {currency}.",
@@ -732,12 +847,12 @@
               "basis": "Valutaconversie is geen onderzoek naar lokale kosten. Voer uw eigen lokale kosten en bijdrageaannames in. Taalwijzigingen veranderen de bedragen niet."
             },
             "costCopy": {
-              "breakdown": "Opbouw van je totale AI-kosten",
+              "breakdown": "Hoe de all-in AI-kosten zijn opgebouwd",
               "perUnit": "{amount} per work unit (average)",
-              "budgetOnly": "Dit is je totale budget. Kies Kostenoverzicht voor de onderdelen; er is geen verdeling aangenomen.",
-              "benefitNotice": "Modelvoordelen, geen kosten. Doorgestreepte bedragen zijn verwachte vermeden uitgaven, geen korting op de AI-rekening.",
-              "remainder": "Andere opgenomen bedrijfskosten",
-              "allocation": "Vrijgekomen uren zijn capaciteit, geen automatische besparing. Alleen toegewezen uren voor echte kostenverlaging of extra bijdrage krijgen een geldwaarde."
+              "budgetOnly": "Dit is uw totale budget. Schakel over naar Kostenoverzicht om het te specificeren; er is geen verdeling aangenomen.",
+              "benefitNotice": "Gemodelleerde voordelen, geen kosten. Doorgehaalde bedragen zijn uitgaven die u verwacht te vermijden, geen kortingen op de AI-rekening.",
+              "remainder": "Andere inbegrepen operationele kosten",
+              "allocation": "Teruggegeven uren zijn capaciteit, geen automatische besparingen. Alleen de delen die u toewijst aan daadwerkelijke kostenreducties of extra bijdragen krijgen een geldelijke waarde."
             },
             "locale": "en-GB",
             "inputs": [],
@@ -756,7 +871,7 @@
                 "platform_cost": 1500,
                 "higher_value_hours": 0,
                 "contribution_rate": 0,
-                "customer_price": 750
+                "customer_price": 49
               },
               "copy": {
                 "navLabel": "Prijzen",
@@ -766,85 +881,85 @@
                 "workloadIntro": "Model voor tweedehuisleads, selectie en menselijke toetsing — geen woningverkoop, commissie of gegarandeerde match.",
                 "costIntro": "Token-, model-, tool-, infrastructuur-, platform- en beoordelaarskosten zijn leveringsaannames. Nest-prijs is een aparte, niet-gevalideerde hypothese.",
                 "valueIntro": "Capaciteit is geen omzet. Vul bewezen bijdrage pas in nadat een echte makelaar de dienst gebruikt en betaalt.",
-                "sampleNotice": "Typisch gebruik · niet gemeten",
-                "monthly": "Per maand",
-                "yearly": "Jaar-",
+                "sampleNotice": "Typisch gebruik · geen waargenomen resultaten",
+                "monthly": "Maandelijks",
+                "yearly": "Jaarlijks",
                 "next": "Doorgaan",
                 "back": "Terug",
                 "reset": "Aannames resetten",
-                "summary": "Je geraamde impact",
+                "summary": "Uw gemodelleerde impact",
                 "volume": "Geraamde leads",
-                "grossHours": "Minder herhaalwerk",
+                "grossHours": "Repetitief werk verminderd",
                 "capacity": "Capaciteit beoordelaar terug",
-                "retained": "Vrijgehouden capaciteit",
+                "retained": "Beschikbaar gehouden capaciteit",
                 "hours": "uren",
                 "days": "dagen",
                 "percent": "%",
                 "minutes": "minuten",
                 "tokens": "tokens",
-                "monthlyTokens": "Tokens per maand",
+                "monthlyTokens": "Maandelijkse tokens",
                 "tokenCost": "Tokengebruik",
                 "packageLabel": "Gebruikspakket",
                 "packageBase": "Basis",
                 "packageMedium": "Medium",
-                "packageCustom": "Gewoonte",
-                "reviewMode": "Wie regelt de recensie?",
+                "packageCustom": "Aangepast",
+                "reviewMode": "Wie handelt de beoordeling af?",
                 "teamReview": "Bestaand team",
                 "paidReview": "Extra betaalde beoordelaar",
-                "reviewNote": "Toetsing door je team benut vrijgekomen capaciteit. Extra betaalde toetsing zit in de bedrijfskosten en gaat niet opnieuw van teamcapaciteit af.",
-                "totalMode": "maandbudget",
+                "reviewNote": "Beoordeling door bestaand team gebruikt de terugverdiende capaciteit. Extra betaalde beoordeling is inbegrepen in de operationele kosten, wordt niet nogmaals afgetrokken van de teamcapaciteit.",
+                "totalMode": "Maandelijks budget",
                 "itemizedMode": "Kostenoverzicht",
-                "budgetNote": "Budget: modellen/media, tools, infrastructuur, Gabriel-kosten en extra betaalde toetsing. Ongewijzigde lonen zijn geen nieuwe uitgaven.",
-                "itemizedNote": "Tokens = volume × tokens per resultaat. Extra media, tools en infrastructuur blijven nul tenzij van toepassing. Extra betaalde toetsing = toetsingsuren × tarief.",
-                "paidReviewCost": "Extra toetsingskosten",
-                "allInCost": "bedrijfskosten",
+                "budgetNote": "Het budget moet modellen/media, tools, infrastructuur, Gabriel-kosten en extra betaalde beoordeling bevatten. Onveranderde salarisadministratie niet meerekenen als nieuwe uitgaven.",
+                "itemizedNote": "Tokengebruik wordt berekend op basis van volume × tokens per output. Extra media, tools en infrastructuur blijven op nul, tenzij van toepassing. Extra betaalde beoordeling wordt berekend op basis van beoordelingsuren en het tarief.",
+                "paidReviewCost": "Kosten voor extra betaalde beoordeling",
+                "allInCost": "Operationele kosten",
                 "missing": "Voeg uw aannames toe",
-                "cashValue": "Vermeden uitgaven",
+                "cashValue": "Vermeden contante uitgaven",
                 "contribution": "Verwachte bijdrage",
-                "expectedLoss": "Verwachte verliesdaling",
+                "expectedLoss": "Verwachte vermindering van verlies",
                 "riskValue": "Onzekere risicowaarde inbegrepen",
                 "economicValue": "Gemodelleerde bijdrage",
                 "netBenefit": "Gemodelleerd voordeel na Nest-prijs",
-                "multiple": "Interne leveringsmultiple",
+                "multiple": "Internal delivery multiple",
                 "customerBenefit": "Geraamd makelaarsnut",
                 "customerRoi": "Geraamde klant-ROI",
-                "payback": "Klantterugverdientijd",
-                "notApplicable": "Niet relevant",
-                "annual": "Jaaroverzicht",
-                "annualNote": "Dezelfde maandaannames, zonder groei of rente-op-rente. Bespaarde werving telt alleen tijdens de ingevulde periode.",
+                "payback": "Terugverdientijd klant",
+                "notApplicable": "Niet van toepassing",
+                "annual": "Jaarlijks overzicht",
+                "annualNote": "Dezelfde maandelijkse aannames, zonder groei of samengestelde rente. Besparingen op personeel duren slechts voor de ingevoerde periode.",
                 "method": "Hoe dit wordt berekend",
-                "burdenHeading": "Minder herhaalwerk",
-                "opportunityHeading": "Capaciteit voor waardevoller werk",
-                "methodBody": "Minder werklast (negatieve productiviteit) maakt capaciteit vrij. Waardevoller werk (mogelijke positieve productiviteit) heeft pas economische waarde bij benutting. Uren zijn geen geldbesparing. Tokenkosten volgen een modelmix van invoer/uitvoer, geen provider-offerte.",
+                "burdenHeading": "Repetitief werk verminderd",
+                "opportunityHeading": "Capaciteit voor werk van hogere waarde",
+                "methodBody": "Operationele lasten verwijderd (negatieve productiviteit) leveren capaciteit op. Werk van hogere waarde (potentiële positieve productiviteit) creëert economische waarde alleen als die capaciteit wordt benut. Alleen uren zijn geen contante besparingen. Tokenkosten gebruiken een gemodelleerde input/output-mix, geen offerte van een provider.",
                 "formulaLabel": "Gekwalificeerde briefs = leads × selectieratio. Leveringskosten omvatten geraamde tokens, modellen, tools, infrastructuur, platform en menselijke toetsing. Klant-ROI blijft onbekend tot voordeel en prijs bewezen zijn.",
-                "allocationNote": "Elk uur kan eenmaal worden toegewezen. Niet-toegewezen uren blijven capaciteit, zonder geldwaarde.",
-                "overlapLabel": "Deze voordelen zijn losstaand; kosten en verliezen die elders meetellen zijn hier uitgesloten.",
-                "overlapNote": "Fout- en risicoramingen sluiten arbeidsbesparing uit; één incident mag niet in beide groepen staan. Bijdrage sluit AI-kosten uit, die apart worden afgetrokken.",
+                "allocationNote": "Elk uur kan eenmaal worden toegewezen. Niet-toegewezen uren blijven capaciteit, zonder geldelijke waarde.",
+                "overlapLabel": "Deze voordelen zijn afzonderlijk; ik heb kosten en verliezen uitgesloten die al elders zijn meegeteld.",
+                "overlapNote": "Fout- en risico-schattingen sluiten arbeidsbesparingen uit en hetzelfde incident mag niet in beide categorieën voorkomen. Bijdrage sluit AI-kosten uit, die afzonderlijk worden afgetrokken.",
                 "hiringLabel": "Deze aanwerving was echt gepland en de toegewezen capaciteit kan het werk dekken.",
-                "reviewedLabel": "Ik heb mijn resultaten bekeken; niet-gekozen uitkomsten hebben in deze raming geen geldwaarde.",
-                "cycleResult": "Cyclustijdverbetering",
+                "reviewedLabel": "Ik heb mijn resultaten beoordeeld; niet-geselecteerde resultaten hebben geen financiële waarde in deze schatting.",
+                "cycleResult": "Verbetering van cyclustijd",
                 "throughputResult": "Aanvullend werk ondersteund door capaciteit en vraag",
-                "assumptionsIncomplete": "Vul de gekozen aannames in om de geldwaarde te berekenen.",
-                "allocationError": "Toegewezen uren overschrijden de netto vrije capaciteit. Verlaag de toewijzing.",
-                "reviewError": "Toetsing kost meer tijd dan het verminderde werk. Bij deze aannames is geen positieve capaciteit vrij.",
-                "cashError": "Vermeden uitgaven mogen niet boven huidige uitgaven liggen of positief zijn zonder toegewezen uren.",
-                "hiringError": "Toegewezen capaciteit moet de geplande huururen dekken. Bevestig de geplande huur en de duur ervan.",
+                "assumptionsIncomplete": "Voltooi de geselecteerde aannames om de financiële waarde te berekenen.",
+                "allocationError": "Toegewezen uren overschrijden de netto beschikbare capaciteit. Verminder de toewijzingen.",
+                "reviewError": "Beoordeling kost meer tijd dan het verminderde werk. Er is geen positieve capaciteit beschikbaar bij deze aannames.",
+                "cashError": "Vermeden uitgaven kunnen geen uitgaven overschrijden of een positieve waarde hebben zonder toegewezen uren.",
+                "hiringError": "Toegewezen capaciteit moet de geplande aanstellingsuren dekken. Bevestig de geplande aanstelling en de duur ervan.",
                 "riskError": "De kans na kan niet groter zijn dan de kans voor een schatting van verliesvermindering.",
-                "overlapError": "Bevestig dat voordelen niet overlappen vóór ze meetellen in het financiële resultaat.",
-                "boundsError": "Gebruik waarden binnen de getoonde grenzen.",
-                "rangeLabel": "Pas waarde aan",
+                "overlapError": "Bevestig dat de voordelen elkaar niet overlappen voordat u ze opneemt in het financiële resultaat.",
+                "boundsError": "Gebruik waarden binnen de weergegeven limieten.",
+                "rangeLabel": "Waarde aanpassen",
                 "noCurrencyChange": "Taal verandert de opmaak, niet uw valuta of aannames.",
                 "currentPreparation": "Huidige voorbereidingsuren",
-                "reviewHours": "Menselijke toetsuren",
-                "reworkHours": "Vermeden of extra hersteluren",
-                "capacityValue": "Geraamde uurwaarde",
-                "acceptedUnits": "Aanvaarde units",
-                "attendedUnits": "Attended units",
-                "costPerAttended": "Kosten/bijgewoonde unit",
-                "benefitCost": "Voordeel/kostenratio",
-                "firstYearCost": "Kosten in jaar 1",
+                "reviewHours": "Uren menselijke beoordeling",
+                "reworkHours": "Vermeden of toegevoegde rework-uren",
+                "capacityValue": "Gemodelleerde capaciteitswaarde",
+                "acceptedUnits": "Geaccepteerde eenheden",
+                "attendedUnits": "Bezochte eenheden",
+                "costPerAttended": "Kosten per bezochte eenheid",
+                "benefitCost": "Voordeel-kosten multiple",
+                "firstYearCost": "Eerstejaars kosten",
                 "firstYearRoi": "Eerstejaars ROI",
-                "paybackOutsideTerm": "Niet terugverdiend in de modelperiode",
+                "paybackOutsideTerm": "Niet terugverdiend binnen de gemodelleerde termijn",
                 "months": "months"
               },
               "fields": {
@@ -874,15 +989,15 @@
                 },
                 "cycles_per_unit": {
                   "label": "Cycli per eenheid per maand",
-                  "help": "Hoeveel terugkerende order-, beoordelings- of verwerkingscycli elke eenheid per maand doorloopt."
+                  "help": "Hoeveel bestel-, controle- of verwerkingscycli elke eenheid doorgaans per maand doorloopt."
                 },
                 "tokens_per_output": {
                   "label": "Tokens per geschikte verkopersbrief",
                   "help": "Geraamde invoer- en uitvoertokens per toetsbare brief; vervang deze aanname door echt providergebruik."
                 },
                 "budget": {
-                  "label": "Geschat maandelijks bedrijfsbudget",
-                  "help": "Inclusief tokens, modellen/media, tools, infrastructuur, Gabriel-kosten en extra betaalde toetsing."
+                  "label": "Geschat maandelijks operationeel budget",
+                  "help": "Inclusief tokengebruik, modellen/media, tools, infrastructuur, Gabriel-kosten en extra betaalde beoordeling."
                 },
                 "model_cost": {
                   "label": "Extra model- of mediakosten",
@@ -890,39 +1005,39 @@
                 },
                 "tools_cost": {
                   "label": "Tools en integraties",
-                  "help": "Browsersessies, connectoren en andere meetservices. Voer nul in als er geen."
+                  "help": "Browsersessies, connectoren en andere gemeten services. Voer nul in als er geen zijn."
                 },
                 "infrastructure_cost": {
                   "label": "Infrastructuur",
-                  "help": "Extra hosting, opslag en rekenkracht voor deze werklast. Vul nul in als er geen is."
+                  "help": "Incrementele hosting, opslag en rekenkracht voor deze workload. Voer nul in indien van toepassing."
                 },
                 "platform_cost": {
-                  "label": "Overige lever-/supportkosten",
-                  "help": "Geraamde kosten voor hosting, opslag, monitoring en support, los van de klantprijs."
+                  "label": "Other delivery and support cost",
+                  "help": "Modeled hosting, storage, monitoring and support cost, separate from the customer price."
                 },
                 "customer_price": {
                   "label": "Voorgestelde Nest-maandprijs",
                   "help": "Aanpasbare prijshypothese voor makelaars. Geen bewezen omzet; toets dit in een betaalde proef."
                 },
                 "personal_value_per_hour": {
-                  "label": "Optionele waarde van één uur",
+                  "label": "Optioneel: uw waarde per uur",
                   "help": "Alleen een optionele persoonlijke vergelijking. Geen salaris, loon of gegarandeerde geldbesparing."
                 },
                 "review_rate": {
                   "label": "Extra betaalde beoordeling per uur",
-                  "help": "Echte extra toetsingskosten, niet het loon van een ongewijzigde medewerker."
+                  "help": "Werkelijke extra kosten voor reviewers, niet het salaris van een ongewijzigde werknemer."
                 },
                 "cash_hours": {
                   "label": "Uren die betaald werk besparen",
-                  "help": "Wijs alleen werk toe waarvan kosten voor overuren, externen of verwerking echt stoppen."
+                  "help": "Wijs alleen werk toe waarvan de overwerk-, contractanten- of verwerkingskosten daadwerkelijk stoppen."
                 },
                 "cash_baseline": {
-                  "label": "Huidige maandkosten voor dat werk",
+                  "label": "Huidige maandelijkse uitgaven aan dat werk",
                   "help": "Het cashbudget waaruit de reductie zal komen."
                 },
                 "cash_avoided": {
-                  "label": "Maandkosten die je zou stoppen",
-                  "help": "Eén concreet bedrag, niet uren × salaris; sluit apart ingevulde besparing op geplande werving uit."
+                  "label": "Maandelijkse uitgaven die u zou stoppen",
+                  "help": "Eén expliciet bedrag, geen uren vermenigvuldigd met salaris; sluit besparingen op geplande aanwervingen die afzonderlijk zijn ingevoerd uit."
                 },
                 "higher_value_hours": {
                   "label": "Uren voor echte makelaarsgesprekken",
@@ -938,39 +1053,39 @@
                 },
                 "extra_minutes": {
                   "label": "Teamminuten per extra eenheid",
-                  "help": "Resterende menselijke inzet, inclusief toetsing, voor één extra unit."
+                  "help": "De resterende menselijke inspanning, inclusief beoordeling, die nodig is om nog een eenheid te leveren."
                 },
                 "demand": {
                   "label": "Extra eenheden met verwachte vraag",
-                  "help": "Capaciteit is geen vraag. Vul het extra maandwerk in dat je verwacht aan te nemen."
+                  "help": "Capaciteit alleen is geen vraag. Voer het extra maandelijkse werk in dat u verwacht aan te nemen."
                 },
                 "unit_margin": {
                   "label": "Bijdrage per extra eenheid",
                   "help": "Incrementele omzet minus leveringskosten; AI-operationele kosten worden apart afgetrokken."
                 },
                 "hiring_hours": {
-                  "label": "Uren dekken de geplande huur",
-                  "help": "Wijs capaciteit toe aan concreet gepland werk, niet aan een algemene fte-raming."
+                  "label": "Uren die de geplande aanwerving dekken",
+                  "help": "Wijs capaciteit toe aan specifiek gepland werk, niet aan een algemene fulltime-equivalent schatting."
                 },
                 "planned_hours": {
-                  "label": "Maanduren voor de geplande medewerker",
-                  "help": "De toegewezen capaciteit moet dit hele werk dekken."
+                  "label": "Maandelijkse uren die de geplande aanwerving zou dekken",
+                  "help": "De toegewezen capaciteit moet deze volledige workload dekken."
                 },
                 "hire_cost": {
-                  "label": "Echt uitgestelde maandloonkosten",
-                  "help": "Gebruik kosten van echt geplande werving, niet het loon van een bestaande medewerker."
+                  "label": "Maandelijkse kosten van aanwerving die daadwerkelijk zijn uitgesteld",
+                  "help": "Gebruik de kosten van een daadwerkelijk geplande aanwerving, niet het salaris van iemand die al in dienst is."
                 },
                 "hire_months": {
-                  "label": "Maanden uitgestelde werving",
-                  "help": "Eén tot twaalf maanden; de jaarraming telt na deze periode geen besparing meer."
+                  "label": "Maanden dat de aanwerving wordt uitgesteld",
+                  "help": "Eén tot twaalf maanden; de jaarlijkse schatting stopt met het tellen van besparingen na deze periode."
                 },
                 "incidents": {
                   "label": "Verwachte vermeden fouten per maand",
-                  "help": "Gebruik je uitgangspunt en verwachte daling. Sluit incidenten uit die ook als risicodaling tellen."
+                  "help": "Gebruik uw basislijn en verwachte reductie. Sluit incidenten uit die ook worden meegeteld als risicoreductie."
                 },
                 "incident_cost": {
                   "label": "Incrementele kosten per fout",
-                  "help": "Sluit elders getelde arbeid, terugbetalingen en andere verliezen uit."
+                  "help": "Sluit arbeid, terugbetalingen of andere verliezen die al elders zijn opgenomen uit."
                 },
                 "probability_before": {
                   "label": "Maandelijkse verlieskans voorheen",
@@ -978,19 +1093,19 @@
                 },
                 "probability_after": {
                   "label": "Maandelijkse verlieskans hierna",
-                  "help": "Gebruik hetzelfde incident en dezelfde maandperiode als de basis."
+                  "help": "Gebruik hetzelfde evenement en dezelfde maandelijkse tijdshorizon als de basislijn."
                 },
                 "loss": {
-                  "label": "Verliesrisico van dat incident",
-                  "help": "Uitsluiten van foutincidenten en reeds getelde uitgaven. Dit is onzekere verwachte waarde, niet contant geld."
+                  "label": "Verliesblootstelling voor dat evenement",
+                  "help": "Sluit foutincidenten en uitgaven die al zijn meegeteld uit. Dit is onzekere verwachte waarde, geen bespaard geld."
                 },
                 "days_before": {
                   "label": "Cyclustijd voorheen, in dagen",
-                  "help": "Verstreken tijd van start tot voltooiing, los van hands-on inspanning."
+                  "help": "Verstreken tijd van begin tot voltooiing, gescheiden van hands-on inspanning."
                 },
                 "days_after": {
                   "label": "Cyclustijd hierna, in dagen",
-                  "help": "Alleen een operationele verandering, zonder aangenomen geldwaarde."
+                  "help": "Weergegeven als een operationele verandering, zonder een veronderstelde geldwaarde."
                 }
               },
               "burden": [
@@ -1001,35 +1116,6 @@
                 "Meer gerichte, menselijk getoetste introducties",
                 "Tijd voor agentgesprekken en klantbehoeften"
               ],
-              "usagePackages": {
-                "base": {
-                  "volume": 1,
-                  "tokensPerOutput": 12000,
-                  "platform_cost": 450,
-                  "minutes": 25,
-                  "automation": 100,
-                  "review": 10,
-                  "model_cost": 0,
-                  "tools_cost": 0,
-                  "infrastructure_cost": 0,
-                  "higher_value_hours": 0,
-                  "contribution_rate": 0
-                },
-                "medium": {
-                  "volume": 1,
-                  "tokensPerOutput": 12000,
-                  "platform_cost": 750,
-                  "minutes": 25,
-                  "automation": 100,
-                  "review": 10,
-                  "model_cost": 0,
-                  "tools_cost": 0,
-                  "infrastructure_cost": 0,
-                  "higher_value_hours": 0,
-                  "contribution_rate": 0
-                }
-              },
-              "defaultPackage": "medium",
               "costMode": "itemized",
               "reviewMode": "team",
               "selected": [
@@ -1097,8 +1183,7 @@
               ],
               "pricing": {
                 "basis": "fixed",
-                "annualPrice": 9000,
-                "label": "Voorgestelde Nest-maandprijs",
+                "label": "Prijzen",
                 "help": "€750/maand als werkhypothese voor een introductieproef. Onbewezen tot een makelaar betaalt."
               },
               "presentation": {
@@ -1111,8 +1196,153 @@
               "primaryLabel": "Praat met Nest",
               "primaryTarget": "meet",
               "secondaryLabel": "Zie hoe het werkt",
-              "privacyNote": "Je data blijft privé. Uren zijn capaciteit. Geldbedragen zijn ramingen, geen gemeten resultaten.",
+              "privacyNote": "Uw gegevens blijven privé. Uren zijn capaciteit. Financiële bedragen zijn gemodelleerde schattingen, geen waargenomen resultaten.",
               "secondaryTarget": "how-it-works"
+            },
+            "compact": {
+              "schemaVersion": 1,
+              "defaultProfileId": "seller",
+              "copy": {
+                "navLabel": "Prijzen",
+                "heading": "Prijzen en ROI",
+                "intro": "Jouw invoer. Jouw geschatte rendement.",
+                "monthly": "Maand",
+                "weekly": "Week",
+                "daily": "Dag",
+                "cost": "U betaalt",
+                "benefit": "Geschat rendement",
+                "net": "Nettowinst",
+                "roi": "Geschat ROI",
+                "timeBenefit": "Geschatte tijdwaarde",
+                "timeRoi": "Tijdwaarde-ROI",
+                "timeBack": "Hergewonnen uren",
+                "missing": "Voer gegevens in",
+                "noRatio": "Niet van toepassing",
+                "method": "Berekeningswijze",
+                "reset": "Herstel",
+                "audience": "Publiek",
+                "includedVat": "Inclusief btw",
+                "excludedVat": "Exclusief btw",
+                "perMonth": "per maand",
+                "equivalents": "Maandfactuur. Dag- en weekcijfers zijn gemiddelden, geen dag- of weekkosten of gegarandeerd rendement.",
+                "timeNote": "Tijdwaarde is je optionele raming, geen ontvangen geld of lagere loonkosten. Nettominuten omvatten je controle- en goedkeuringstijd.",
+                "estimateNote": "Planramingen staan los van gemeten ROI. Alleen aanvaarde resultaten en vergelijkbare vastgelegde kosten onderbouwen gemeten rendement.",
+                "limitNote": "Neem contact op voor meer gebruik of maatwerkoffertes. Deze raming betreft alleen het inbegrepen pakket.",
+                "timeFormula": "Tijdwaarde = eenheden × netto bespaarde minuten ÷ 60 × je uurwaarde.",
+                "profitFormula": "Dekkingsbijdrage = geldige adviessessies × conversiestijging ÷ 100 × winst per extra bestelling.",
+                "proceedsFormula": "Extra opbrengst = partijen of afhalingen × (netto-opbrengst achteraf − netto-opbrengst vooraf).",
+                "roiFormula": "Netto = voordeel − appabonnementskosten. ROI = netto ÷ appabonnementskosten × 100. Gratis abonnementen: geen ROI-percentage."
+              },
+              "profiles": [
+                {
+                  "id": "buyer",
+                  "label": "Agentwerkplek · kopersbriefings",
+                  "model": "time_value",
+                  "unitsPerWorkload": 1,
+                  "inputs": [
+                    {
+                      "id": "units",
+                      "label": "Geschikte dossiers per maand",
+                      "help": "Werk dat je in één maand denkt te beoordelen, binnen de inbegrepen limiet.",
+                      "defaultValue": 20,
+                      "min": 0,
+                      "max": 20,
+                      "step": 1,
+                      "format": "number"
+                    },
+                    {
+                      "id": "minutes_saved",
+                      "label": "Bespaarde min.",
+                      "help": "Je raming na controle, goedkeuring en herstelwerk. Negatieve waarden betekenen extra werk.",
+                      "defaultValue": 12,
+                      "min": -1440,
+                      "max": 1440,
+                      "step": 0.1,
+                      "format": "number"
+                    },
+                    {
+                      "id": "hourly_value",
+                      "label": "Waarde per uur",
+                      "help": "Je eigen optionele waardering. Geen beloofde geldbesparing of vermindering van loonkosten.",
+                      "defaultValue": null,
+                      "min": 0,
+                      "max": 1000,
+                      "step": 0.01,
+                      "format": "currency"
+                    }
+                  ],
+                  "offer": {
+                    "monthlyPrice": 49,
+                    "basis": "fixed",
+                    "unit": "Agentwerkplek · kopersbriefings",
+                    "vatIncluded": false,
+                    "includedUnits": 20,
+                    "allowance": "20 geschikte dossiers",
+                    "extras": "Extra gebruik en professionele diensten krijgen een aparte offerte."
+                  },
+                  "assumptions": [
+                    "De 12 nettominuten zijn een indicatieve raming van voorbereidingstijd, geen meetresultaat.",
+                    "Nettominuten omvatten klantcontrole. Jij geeft de geldwaarde van tijd op; het is geen ontvangen geld."
+                  ],
+                  "loop": "Pand- of koopsignaal → dossier met bronnen kwalificeren → makelaar toetst en partijen stemmen in → aanvaarde introductie en werkelijk resultaat vastleggen.",
+                  "ctaLabel": "Probeer demo",
+                  "ctaTarget": "meet"
+                },
+                {
+                  "id": "seller",
+                  "label": "Agentwerkplek · verkopersbriefings",
+                  "model": "time_value",
+                  "unitsPerWorkload": 1,
+                  "inputs": [
+                    {
+                      "id": "units",
+                      "label": "Geschikte dossiers per maand",
+                      "help": "Werk dat je in één maand denkt te beoordelen, binnen de inbegrepen limiet.",
+                      "defaultValue": 20,
+                      "min": 0,
+                      "max": 20,
+                      "step": 1,
+                      "format": "number"
+                    },
+                    {
+                      "id": "minutes_saved",
+                      "label": "Bespaarde min.",
+                      "help": "Je raming na controle, goedkeuring en herstelwerk. Negatieve waarden betekenen extra werk.",
+                      "defaultValue": 12,
+                      "min": -1440,
+                      "max": 1440,
+                      "step": 0.1,
+                      "format": "number"
+                    },
+                    {
+                      "id": "hourly_value",
+                      "label": "Waarde per uur",
+                      "help": "Je eigen optionele waardering. Geen beloofde geldbesparing of vermindering van loonkosten.",
+                      "defaultValue": null,
+                      "min": 0,
+                      "max": 1000,
+                      "step": 0.01,
+                      "format": "currency"
+                    }
+                  ],
+                  "offer": {
+                    "monthlyPrice": 49,
+                    "basis": "fixed",
+                    "unit": "Agentwerkplek · verkopersbriefings",
+                    "vatIncluded": false,
+                    "includedUnits": 20,
+                    "allowance": "20 geschikte dossiers",
+                    "extras": "Extra gebruik en professionele diensten krijgen een aparte offerte."
+                  },
+                  "assumptions": [
+                    "De 12 nettominuten zijn een indicatieve raming van voorbereidingstijd, geen meetresultaat.",
+                    "Nettominuten omvatten klantcontrole. Jij geeft de geldwaarde van tijd op; het is geen ontvangen geld."
+                  ],
+                  "loop": "Pand- of koopsignaal → dossier met bronnen kwalificeren → makelaar toetst en partijen stemmen in → aanvaarde introductie en werkelijk resultaat vastleggen.",
+                  "ctaLabel": "Probeer demo",
+                  "ctaTarget": "meet"
+                }
+              ]
             }
           },
           "leadScan": {
@@ -1153,9 +1383,9 @@
           "introHeading": "Uw privé-huisbrief",
           "introBody": "Deel alleen wat de beoordelaar nodig heeft. Exacte adressen en contactgegevens worden hier nooit gevraagd.",
           "chatLabel": "Maak per chat · 10 beurten",
-          "voiceLabel": "Bouw door stem · 5 min",
-          "reviewLabel": "Herziene korte",
-          "editLabel": "Bewerk",
+          "voiceLabel": "Bouwen via spraak · 5 min",
+          "reviewLabel": "Brief beoordelen",
+          "editLabel": "Bewerken",
           "reviewHeading": "Beoordeel uw privé-brief",
           "reviewBody": "Niets wordt opgeslagen, doorzocht, voorgesteld of gedeeld terwijl u anoniem bent.",
           "submitLabel": "Log in voor mensentoets",
@@ -1309,7 +1539,7 @@
                 "target": "meet"
               },
               {
-                "label": "Bouw een korte",
+                "label": "Bouw een briefing",
                 "target": "hero-chat"
               }
             ]
@@ -1321,9 +1551,9 @@
       "methodologyVersion": 2,
       "enabled": true,
       "kicker": "Zakelijke impact",
-      "heading": "ROI-calculator",
-      "subheading": "Model voor een bevoegde tweedehuismakelaar die Nest gebruikt voor gerichte, menselijk beoordeelde introducties in één regio.",
-      "disclaimer": "Modelscenario zonder bewezen betaalde vraag. Nest selecteert en regelt introducties met toestemming. Het vertegenwoordigt niemand, taxeert of onderhandelt niet, ontvangt geen commissie en garandeert geen transactie.",
+      "heading": "Prijzen en ROI",
+      "subheading": "Jouw invoer. Jouw geschatte rendement.",
+      "disclaimer": "Planramingen staan los van gemeten ROI. Alleen aanvaarde resultaten en vergelijkbare vastgelegde kosten onderbouwen gemeten rendement.",
       "currency": "EUR",
       "currencyCopy": {
         "native": "Amounts in {currency}.",
@@ -1333,12 +1563,12 @@
         "basis": "Valutaconversie is geen onderzoek naar lokale kosten. Voer uw eigen lokale kosten en bijdrageaannames in. Taalwijzigingen veranderen de bedragen niet."
       },
       "costCopy": {
-        "breakdown": "Opbouw van je totale AI-kosten",
+        "breakdown": "Hoe de all-in AI-kosten zijn opgebouwd",
         "perUnit": "{amount} per work unit (average)",
-        "budgetOnly": "Dit is je totale budget. Kies Kostenoverzicht voor de onderdelen; er is geen verdeling aangenomen.",
-        "benefitNotice": "Modelvoordelen, geen kosten. Doorgestreepte bedragen zijn verwachte vermeden uitgaven, geen korting op de AI-rekening.",
-        "remainder": "Andere opgenomen bedrijfskosten",
-        "allocation": "Vrijgekomen uren zijn capaciteit, geen automatische besparing. Alleen toegewezen uren voor echte kostenverlaging of extra bijdrage krijgen een geldwaarde."
+        "budgetOnly": "Dit is uw totale budget. Schakel over naar Kostenoverzicht om het te specificeren; er is geen verdeling aangenomen.",
+        "benefitNotice": "Gemodelleerde voordelen, geen kosten. Doorgehaalde bedragen zijn uitgaven die u verwacht te vermijden, geen kortingen op de AI-rekening.",
+        "remainder": "Andere inbegrepen operationele kosten",
+        "allocation": "Teruggegeven uren zijn capaciteit, geen automatische besparingen. Alleen de delen die u toewijst aan daadwerkelijke kostenreducties of extra bijdragen krijgen een geldelijke waarde."
       },
       "locale": "en-GB",
       "inputs": [],
@@ -1357,7 +1587,7 @@
           "platform_cost": 1500,
           "higher_value_hours": 0,
           "contribution_rate": 0,
-          "customer_price": 750
+          "customer_price": 49
         },
         "copy": {
           "navLabel": "Prijzen",
@@ -1367,85 +1597,85 @@
           "workloadIntro": "Model voor tweedehuisleads, selectie en menselijke toetsing — geen woningverkoop, commissie of gegarandeerde match.",
           "costIntro": "Token-, model-, tool-, infrastructuur-, platform- en beoordelaarskosten zijn leveringsaannames. Nest-prijs is een aparte, niet-gevalideerde hypothese.",
           "valueIntro": "Capaciteit is geen omzet. Vul bewezen bijdrage pas in nadat een echte makelaar de dienst gebruikt en betaalt.",
-          "sampleNotice": "Typisch gebruik · niet gemeten",
-          "monthly": "Per maand",
-          "yearly": "Jaar-",
+          "sampleNotice": "Typisch gebruik · geen waargenomen resultaten",
+          "monthly": "Maandelijks",
+          "yearly": "Jaarlijks",
           "next": "Doorgaan",
           "back": "Terug",
           "reset": "Aannames resetten",
-          "summary": "Je geraamde impact",
+          "summary": "Uw gemodelleerde impact",
           "volume": "Geraamde leads",
-          "grossHours": "Minder herhaalwerk",
+          "grossHours": "Repetitief werk verminderd",
           "capacity": "Capaciteit beoordelaar terug",
-          "retained": "Vrijgehouden capaciteit",
+          "retained": "Beschikbaar gehouden capaciteit",
           "hours": "uren",
           "days": "dagen",
           "percent": "%",
           "minutes": "minuten",
           "tokens": "tokens",
-          "monthlyTokens": "Tokens per maand",
+          "monthlyTokens": "Maandelijkse tokens",
           "tokenCost": "Tokengebruik",
           "packageLabel": "Gebruikspakket",
           "packageBase": "Basis",
           "packageMedium": "Medium",
-          "packageCustom": "Gewoonte",
-          "reviewMode": "Wie regelt de recensie?",
+          "packageCustom": "Aangepast",
+          "reviewMode": "Wie handelt de beoordeling af?",
           "teamReview": "Bestaand team",
           "paidReview": "Extra betaalde beoordelaar",
-          "reviewNote": "Toetsing door je team benut vrijgekomen capaciteit. Extra betaalde toetsing zit in de bedrijfskosten en gaat niet opnieuw van teamcapaciteit af.",
-          "totalMode": "maandbudget",
+          "reviewNote": "Beoordeling door bestaand team gebruikt de terugverdiende capaciteit. Extra betaalde beoordeling is inbegrepen in de operationele kosten, wordt niet nogmaals afgetrokken van de teamcapaciteit.",
+          "totalMode": "Maandelijks budget",
           "itemizedMode": "Kostenoverzicht",
-          "budgetNote": "Budget: modellen/media, tools, infrastructuur, Gabriel-kosten en extra betaalde toetsing. Ongewijzigde lonen zijn geen nieuwe uitgaven.",
-          "itemizedNote": "Tokens = volume × tokens per resultaat. Extra media, tools en infrastructuur blijven nul tenzij van toepassing. Extra betaalde toetsing = toetsingsuren × tarief.",
-          "paidReviewCost": "Extra toetsingskosten",
-          "allInCost": "bedrijfskosten",
+          "budgetNote": "Het budget moet modellen/media, tools, infrastructuur, Gabriel-kosten en extra betaalde beoordeling bevatten. Onveranderde salarisadministratie niet meerekenen als nieuwe uitgaven.",
+          "itemizedNote": "Tokengebruik wordt berekend op basis van volume × tokens per output. Extra media, tools en infrastructuur blijven op nul, tenzij van toepassing. Extra betaalde beoordeling wordt berekend op basis van beoordelingsuren en het tarief.",
+          "paidReviewCost": "Kosten voor extra betaalde beoordeling",
+          "allInCost": "Operationele kosten",
           "missing": "Voeg uw aannames toe",
-          "cashValue": "Vermeden uitgaven",
+          "cashValue": "Vermeden contante uitgaven",
           "contribution": "Verwachte bijdrage",
-          "expectedLoss": "Verwachte verliesdaling",
+          "expectedLoss": "Verwachte vermindering van verlies",
           "riskValue": "Onzekere risicowaarde inbegrepen",
           "economicValue": "Gemodelleerde bijdrage",
           "netBenefit": "Gemodelleerd voordeel na Nest-prijs",
-          "multiple": "Interne leveringsmultiple",
+          "multiple": "Internal delivery multiple",
           "customerBenefit": "Geraamd makelaarsnut",
           "customerRoi": "Geraamde klant-ROI",
-          "payback": "Klantterugverdientijd",
-          "notApplicable": "Niet relevant",
-          "annual": "Jaaroverzicht",
-          "annualNote": "Dezelfde maandaannames, zonder groei of rente-op-rente. Bespaarde werving telt alleen tijdens de ingevulde periode.",
+          "payback": "Terugverdientijd klant",
+          "notApplicable": "Niet van toepassing",
+          "annual": "Jaarlijks overzicht",
+          "annualNote": "Dezelfde maandelijkse aannames, zonder groei of samengestelde rente. Besparingen op personeel duren slechts voor de ingevoerde periode.",
           "method": "Hoe dit wordt berekend",
-          "burdenHeading": "Minder herhaalwerk",
-          "opportunityHeading": "Capaciteit voor waardevoller werk",
-          "methodBody": "Minder werklast (negatieve productiviteit) maakt capaciteit vrij. Waardevoller werk (mogelijke positieve productiviteit) heeft pas economische waarde bij benutting. Uren zijn geen geldbesparing. Tokenkosten volgen een modelmix van invoer/uitvoer, geen provider-offerte.",
+          "burdenHeading": "Repetitief werk verminderd",
+          "opportunityHeading": "Capaciteit voor werk van hogere waarde",
+          "methodBody": "Operationele lasten verwijderd (negatieve productiviteit) leveren capaciteit op. Werk van hogere waarde (potentiële positieve productiviteit) creëert economische waarde alleen als die capaciteit wordt benut. Alleen uren zijn geen contante besparingen. Tokenkosten gebruiken een gemodelleerde input/output-mix, geen offerte van een provider.",
           "formulaLabel": "Gekwalificeerde briefs = leads × selectieratio. Leveringskosten omvatten geraamde tokens, modellen, tools, infrastructuur, platform en menselijke toetsing. Klant-ROI blijft onbekend tot voordeel en prijs bewezen zijn.",
-          "allocationNote": "Elk uur kan eenmaal worden toegewezen. Niet-toegewezen uren blijven capaciteit, zonder geldwaarde.",
-          "overlapLabel": "Deze voordelen zijn losstaand; kosten en verliezen die elders meetellen zijn hier uitgesloten.",
-          "overlapNote": "Fout- en risicoramingen sluiten arbeidsbesparing uit; één incident mag niet in beide groepen staan. Bijdrage sluit AI-kosten uit, die apart worden afgetrokken.",
+          "allocationNote": "Elk uur kan eenmaal worden toegewezen. Niet-toegewezen uren blijven capaciteit, zonder geldelijke waarde.",
+          "overlapLabel": "Deze voordelen zijn afzonderlijk; ik heb kosten en verliezen uitgesloten die al elders zijn meegeteld.",
+          "overlapNote": "Fout- en risico-schattingen sluiten arbeidsbesparingen uit en hetzelfde incident mag niet in beide categorieën voorkomen. Bijdrage sluit AI-kosten uit, die afzonderlijk worden afgetrokken.",
           "hiringLabel": "Deze aanwerving was echt gepland en de toegewezen capaciteit kan het werk dekken.",
-          "reviewedLabel": "Ik heb mijn resultaten bekeken; niet-gekozen uitkomsten hebben in deze raming geen geldwaarde.",
-          "cycleResult": "Cyclustijdverbetering",
+          "reviewedLabel": "Ik heb mijn resultaten beoordeeld; niet-geselecteerde resultaten hebben geen financiële waarde in deze schatting.",
+          "cycleResult": "Verbetering van cyclustijd",
           "throughputResult": "Aanvullend werk ondersteund door capaciteit en vraag",
-          "assumptionsIncomplete": "Vul de gekozen aannames in om de geldwaarde te berekenen.",
-          "allocationError": "Toegewezen uren overschrijden de netto vrije capaciteit. Verlaag de toewijzing.",
-          "reviewError": "Toetsing kost meer tijd dan het verminderde werk. Bij deze aannames is geen positieve capaciteit vrij.",
-          "cashError": "Vermeden uitgaven mogen niet boven huidige uitgaven liggen of positief zijn zonder toegewezen uren.",
-          "hiringError": "Toegewezen capaciteit moet de geplande huururen dekken. Bevestig de geplande huur en de duur ervan.",
+          "assumptionsIncomplete": "Voltooi de geselecteerde aannames om de financiële waarde te berekenen.",
+          "allocationError": "Toegewezen uren overschrijden de netto beschikbare capaciteit. Verminder de toewijzingen.",
+          "reviewError": "Beoordeling kost meer tijd dan het verminderde werk. Er is geen positieve capaciteit beschikbaar bij deze aannames.",
+          "cashError": "Vermeden uitgaven kunnen geen uitgaven overschrijden of een positieve waarde hebben zonder toegewezen uren.",
+          "hiringError": "Toegewezen capaciteit moet de geplande aanstellingsuren dekken. Bevestig de geplande aanstelling en de duur ervan.",
           "riskError": "De kans na kan niet groter zijn dan de kans voor een schatting van verliesvermindering.",
-          "overlapError": "Bevestig dat voordelen niet overlappen vóór ze meetellen in het financiële resultaat.",
-          "boundsError": "Gebruik waarden binnen de getoonde grenzen.",
-          "rangeLabel": "Pas waarde aan",
+          "overlapError": "Bevestig dat de voordelen elkaar niet overlappen voordat u ze opneemt in het financiële resultaat.",
+          "boundsError": "Gebruik waarden binnen de weergegeven limieten.",
+          "rangeLabel": "Waarde aanpassen",
           "noCurrencyChange": "Taal verandert de opmaak, niet uw valuta of aannames.",
           "currentPreparation": "Huidige voorbereidingsuren",
-          "reviewHours": "Menselijke toetsuren",
-          "reworkHours": "Vermeden of extra hersteluren",
-          "capacityValue": "Geraamde uurwaarde",
-          "acceptedUnits": "Aanvaarde units",
-          "attendedUnits": "Attended units",
-          "costPerAttended": "Kosten/bijgewoonde unit",
-          "benefitCost": "Voordeel/kostenratio",
-          "firstYearCost": "Kosten in jaar 1",
+          "reviewHours": "Uren menselijke beoordeling",
+          "reworkHours": "Vermeden of toegevoegde rework-uren",
+          "capacityValue": "Gemodelleerde capaciteitswaarde",
+          "acceptedUnits": "Geaccepteerde eenheden",
+          "attendedUnits": "Bezochte eenheden",
+          "costPerAttended": "Kosten per bezochte eenheid",
+          "benefitCost": "Voordeel-kosten multiple",
+          "firstYearCost": "Eerstejaars kosten",
           "firstYearRoi": "Eerstejaars ROI",
-          "paybackOutsideTerm": "Niet terugverdiend in de modelperiode",
+          "paybackOutsideTerm": "Niet terugverdiend binnen de gemodelleerde termijn",
           "months": "months"
         },
         "fields": {
@@ -1475,15 +1705,15 @@
           },
           "cycles_per_unit": {
             "label": "Cycli per eenheid per maand",
-            "help": "Hoeveel terugkerende order-, beoordelings- of verwerkingscycli elke eenheid per maand doorloopt."
+            "help": "Hoeveel bestel-, controle- of verwerkingscycli elke eenheid doorgaans per maand doorloopt."
           },
           "tokens_per_output": {
             "label": "Tokens per gekwalificeerde brief",
             "help": "Geraamde invoer- en uitvoertokens per toetsbare brief; vervang deze aanname door echt providergebruik."
           },
           "budget": {
-            "label": "Geschat maandelijks bedrijfsbudget",
-            "help": "Inclusief tokens, modellen/media, tools, infrastructuur, Gabriel-kosten en extra betaalde toetsing."
+            "label": "Geschat maandelijks operationeel budget",
+            "help": "Inclusief tokengebruik, modellen/media, tools, infrastructuur, Gabriel-kosten en extra betaalde beoordeling."
           },
           "model_cost": {
             "label": "Extra model- of mediakosten",
@@ -1491,39 +1721,39 @@
           },
           "tools_cost": {
             "label": "Tools en integraties",
-            "help": "Browsersessies, connectoren en andere meetservices. Voer nul in als er geen."
+            "help": "Browsersessies, connectoren en andere gemeten services. Voer nul in als er geen zijn."
           },
           "infrastructure_cost": {
             "label": "Infrastructuur",
-            "help": "Extra hosting, opslag en rekenkracht voor deze werklast. Vul nul in als er geen is."
+            "help": "Incrementele hosting, opslag en rekenkracht voor deze workload. Voer nul in indien van toepassing."
           },
           "platform_cost": {
-            "label": "Overige lever-/supportkosten",
-            "help": "Geraamde kosten voor hosting, opslag, monitoring en support, los van de klantprijs."
+            "label": "Other delivery and support cost",
+            "help": "Modeled hosting, storage, monitoring and support cost, separate from the customer price."
           },
           "customer_price": {
             "label": "Voorgestelde Nest-maandprijs",
             "help": "Aanpasbare prijshypothese voor makelaars. Geen bewezen omzet; toets dit in een betaalde proef."
           },
           "personal_value_per_hour": {
-            "label": "Optionele waarde van één uur",
+            "label": "Optioneel: uw waarde per uur",
             "help": "Alleen een optionele persoonlijke vergelijking. Geen salaris, loon of gegarandeerde geldbesparing."
           },
           "review_rate": {
             "label": "Extra betaalde beoordeling per uur",
-            "help": "Echte extra toetsingskosten, niet het loon van een ongewijzigde medewerker."
+            "help": "Werkelijke extra kosten voor reviewers, niet het salaris van een ongewijzigde werknemer."
           },
           "cash_hours": {
             "label": "Uren die betaald werk besparen",
-            "help": "Wijs alleen werk toe waarvan kosten voor overuren, externen of verwerking echt stoppen."
+            "help": "Wijs alleen werk toe waarvan de overwerk-, contractanten- of verwerkingskosten daadwerkelijk stoppen."
           },
           "cash_baseline": {
-            "label": "Huidige maandkosten voor dat werk",
+            "label": "Huidige maandelijkse uitgaven aan dat werk",
             "help": "Het cashbudget waaruit de reductie zal komen."
           },
           "cash_avoided": {
-            "label": "Maandkosten die je zou stoppen",
-            "help": "Eén concreet bedrag, niet uren × salaris; sluit apart ingevulde besparing op geplande werving uit."
+            "label": "Maandelijkse uitgaven die u zou stoppen",
+            "help": "Eén expliciet bedrag, geen uren vermenigvuldigd met salaris; sluit besparingen op geplande aanwervingen die afzonderlijk zijn ingevoerd uit."
           },
           "higher_value_hours": {
             "label": "Uren voor echte makelaarsgesprekken",
@@ -1539,39 +1769,39 @@
           },
           "extra_minutes": {
             "label": "Teamminuten per extra eenheid",
-            "help": "Resterende menselijke inzet, inclusief toetsing, voor één extra unit."
+            "help": "De resterende menselijke inspanning, inclusief beoordeling, die nodig is om nog een eenheid te leveren."
           },
           "demand": {
             "label": "Extra eenheden met verwachte vraag",
-            "help": "Capaciteit is geen vraag. Vul het extra maandwerk in dat je verwacht aan te nemen."
+            "help": "Capaciteit alleen is geen vraag. Voer het extra maandelijkse werk in dat u verwacht aan te nemen."
           },
           "unit_margin": {
             "label": "Bijdrage per extra eenheid",
             "help": "Incrementele omzet minus leveringskosten; AI-operationele kosten worden apart afgetrokken."
           },
           "hiring_hours": {
-            "label": "Uren dekken de geplande huur",
-            "help": "Wijs capaciteit toe aan concreet gepland werk, niet aan een algemene fte-raming."
+            "label": "Uren die de geplande aanwerving dekken",
+            "help": "Wijs capaciteit toe aan specifiek gepland werk, niet aan een algemene fulltime-equivalent schatting."
           },
           "planned_hours": {
-            "label": "Maanduren voor de geplande medewerker",
-            "help": "De toegewezen capaciteit moet dit hele werk dekken."
+            "label": "Maandelijkse uren die de geplande aanwerving zou dekken",
+            "help": "De toegewezen capaciteit moet deze volledige workload dekken."
           },
           "hire_cost": {
-            "label": "Echt uitgestelde maandloonkosten",
-            "help": "Gebruik kosten van echt geplande werving, niet het loon van een bestaande medewerker."
+            "label": "Maandelijkse kosten van aanwerving die daadwerkelijk zijn uitgesteld",
+            "help": "Gebruik de kosten van een daadwerkelijk geplande aanwerving, niet het salaris van iemand die al in dienst is."
           },
           "hire_months": {
-            "label": "Maanden uitgestelde werving",
-            "help": "Eén tot twaalf maanden; de jaarraming telt na deze periode geen besparing meer."
+            "label": "Maanden dat de aanwerving wordt uitgesteld",
+            "help": "Eén tot twaalf maanden; de jaarlijkse schatting stopt met het tellen van besparingen na deze periode."
           },
           "incidents": {
             "label": "Verwachte vermeden fouten per maand",
-            "help": "Gebruik je uitgangspunt en verwachte daling. Sluit incidenten uit die ook als risicodaling tellen."
+            "help": "Gebruik uw basislijn en verwachte reductie. Sluit incidenten uit die ook worden meegeteld als risicoreductie."
           },
           "incident_cost": {
             "label": "Incrementele kosten per fout",
-            "help": "Sluit elders getelde arbeid, terugbetalingen en andere verliezen uit."
+            "help": "Sluit arbeid, terugbetalingen of andere verliezen die al elders zijn opgenomen uit."
           },
           "probability_before": {
             "label": "Maandelijkse verlieskans voorheen",
@@ -1579,19 +1809,19 @@
           },
           "probability_after": {
             "label": "Maandelijkse verlieskans hierna",
-            "help": "Gebruik hetzelfde incident en dezelfde maandperiode als de basis."
+            "help": "Gebruik hetzelfde evenement en dezelfde maandelijkse tijdshorizon als de basislijn."
           },
           "loss": {
-            "label": "Verliesrisico van dat incident",
-            "help": "Uitsluiten van foutincidenten en reeds getelde uitgaven. Dit is onzekere verwachte waarde, niet contant geld."
+            "label": "Verliesblootstelling voor dat evenement",
+            "help": "Sluit foutincidenten en uitgaven die al zijn meegeteld uit. Dit is onzekere verwachte waarde, geen bespaard geld."
           },
           "days_before": {
             "label": "Cyclustijd voorheen, in dagen",
-            "help": "Verstreken tijd van start tot voltooiing, los van hands-on inspanning."
+            "help": "Verstreken tijd van begin tot voltooiing, gescheiden van hands-on inspanning."
           },
           "days_after": {
             "label": "Cyclustijd hierna, in dagen",
-            "help": "Alleen een operationele verandering, zonder aangenomen geldwaarde."
+            "help": "Weergegeven als een operationele verandering, zonder een veronderstelde geldwaarde."
           }
         },
         "burden": [
@@ -1602,35 +1832,6 @@
           "Meer gerichte, menselijk getoetste introducties",
           "Tijd voor agentgesprekken en klantbehoeften"
         ],
-        "usagePackages": {
-          "base": {
-            "volume": 1,
-            "tokensPerOutput": 12000,
-            "platform_cost": 450,
-            "minutes": 20,
-            "automation": 100,
-            "review": 8,
-            "model_cost": 0,
-            "tools_cost": 0,
-            "infrastructure_cost": 0,
-            "higher_value_hours": 0,
-            "contribution_rate": 0
-          },
-          "medium": {
-            "volume": 1,
-            "tokensPerOutput": 12000,
-            "platform_cost": 750,
-            "minutes": 20,
-            "automation": 100,
-            "review": 8,
-            "model_cost": 0,
-            "tools_cost": 0,
-            "infrastructure_cost": 0,
-            "higher_value_hours": 0,
-            "contribution_rate": 0
-          }
-        },
-        "defaultPackage": "medium",
         "costMode": "itemized",
         "reviewMode": "team",
         "selected": [
@@ -1698,8 +1899,7 @@
         ],
         "pricing": {
           "basis": "fixed",
-          "annualPrice": 9000,
-          "label": "Voorgestelde Nest-maandprijs",
+          "label": "Prijzen",
           "help": "€750/maand als werkhypothese voor een introductieproef. Onbewezen tot een makelaar betaalt."
         },
         "presentation": {
@@ -1712,8 +1912,153 @@
         "primaryLabel": "Praat met Nest",
         "primaryTarget": "meet",
         "secondaryLabel": "Zie hoe het werkt",
-        "privacyNote": "Je data blijft privé. Uren zijn capaciteit. Geldbedragen zijn ramingen, geen gemeten resultaten.",
+        "privacyNote": "Uw gegevens blijven privé. Uren zijn capaciteit. Financiële bedragen zijn gemodelleerde schattingen, geen waargenomen resultaten.",
         "secondaryTarget": "how-it-works"
+      },
+      "compact": {
+        "schemaVersion": 1,
+        "defaultProfileId": "buyer",
+        "copy": {
+          "navLabel": "Prijzen",
+          "heading": "Prijzen en ROI",
+          "intro": "Jouw invoer. Jouw geschatte rendement.",
+          "monthly": "Maand",
+          "weekly": "Week",
+          "daily": "Dag",
+          "cost": "U betaalt",
+          "benefit": "Geschat rendement",
+          "net": "Nettowinst",
+          "roi": "Geschat ROI",
+          "timeBenefit": "Geschatte tijdwaarde",
+          "timeRoi": "Tijdwaarde-ROI",
+          "timeBack": "Hergewonnen uren",
+          "missing": "Voer gegevens in",
+          "noRatio": "Niet van toepassing",
+          "method": "Berekeningswijze",
+          "reset": "Herstel",
+          "audience": "Publiek",
+          "includedVat": "Inclusief btw",
+          "excludedVat": "Exclusief btw",
+          "perMonth": "per maand",
+          "equivalents": "Maandfactuur. Dag- en weekcijfers zijn gemiddelden, geen dag- of weekkosten of gegarandeerd rendement.",
+          "timeNote": "Tijdwaarde is je optionele raming, geen ontvangen geld of lagere loonkosten. Nettominuten omvatten je controle- en goedkeuringstijd.",
+          "estimateNote": "Planramingen staan los van gemeten ROI. Alleen aanvaarde resultaten en vergelijkbare vastgelegde kosten onderbouwen gemeten rendement.",
+          "limitNote": "Neem contact op voor meer gebruik of maatwerkoffertes. Deze raming betreft alleen het inbegrepen pakket.",
+          "timeFormula": "Tijdwaarde = eenheden × netto bespaarde minuten ÷ 60 × je uurwaarde.",
+          "profitFormula": "Dekkingsbijdrage = geldige adviessessies × conversiestijging ÷ 100 × winst per extra bestelling.",
+          "proceedsFormula": "Extra opbrengst = partijen of afhalingen × (netto-opbrengst achteraf − netto-opbrengst vooraf).",
+          "roiFormula": "Netto = voordeel − appabonnementskosten. ROI = netto ÷ appabonnementskosten × 100. Gratis abonnementen: geen ROI-percentage."
+        },
+        "profiles": [
+          {
+            "id": "buyer",
+            "label": "Agentwerkplek · kopersbriefings",
+            "model": "time_value",
+            "unitsPerWorkload": 1,
+            "inputs": [
+              {
+                "id": "units",
+                "label": "Geschikte dossiers per maand",
+                "help": "Werk dat je in één maand denkt te beoordelen, binnen de inbegrepen limiet.",
+                "defaultValue": 20,
+                "min": 0,
+                "max": 20,
+                "step": 1,
+                "format": "number"
+              },
+              {
+                "id": "minutes_saved",
+                "label": "Bespaarde min.",
+                "help": "Je raming na controle, goedkeuring en herstelwerk. Negatieve waarden betekenen extra werk.",
+                "defaultValue": 12,
+                "min": -1440,
+                "max": 1440,
+                "step": 0.1,
+                "format": "number"
+              },
+              {
+                "id": "hourly_value",
+                "label": "Waarde per uur",
+                "help": "Je eigen optionele waardering. Geen beloofde geldbesparing of vermindering van loonkosten.",
+                "defaultValue": null,
+                "min": 0,
+                "max": 1000,
+                "step": 0.01,
+                "format": "currency"
+              }
+            ],
+            "offer": {
+              "monthlyPrice": 49,
+              "basis": "fixed",
+              "unit": "Agentwerkplek · kopersbriefings",
+              "vatIncluded": false,
+              "includedUnits": 20,
+              "allowance": "20 geschikte dossiers",
+              "extras": "Extra gebruik en professionele diensten krijgen een aparte offerte."
+            },
+            "assumptions": [
+              "De 12 nettominuten zijn een indicatieve raming van voorbereidingstijd, geen meetresultaat.",
+              "Nettominuten omvatten klantcontrole. Jij geeft de geldwaarde van tijd op; het is geen ontvangen geld."
+            ],
+            "loop": "Pand- of koopsignaal → dossier met bronnen kwalificeren → makelaar toetst en partijen stemmen in → aanvaarde introductie en werkelijk resultaat vastleggen.",
+            "ctaLabel": "Probeer demo",
+            "ctaTarget": "meet"
+          },
+          {
+            "id": "seller",
+            "label": "Agentwerkplek · verkopersbriefings",
+            "model": "time_value",
+            "unitsPerWorkload": 1,
+            "inputs": [
+              {
+                "id": "units",
+                "label": "Geschikte dossiers per maand",
+                "help": "Werk dat je in één maand denkt te beoordelen, binnen de inbegrepen limiet.",
+                "defaultValue": 20,
+                "min": 0,
+                "max": 20,
+                "step": 1,
+                "format": "number"
+              },
+              {
+                "id": "minutes_saved",
+                "label": "Bespaarde min.",
+                "help": "Je raming na controle, goedkeuring en herstelwerk. Negatieve waarden betekenen extra werk.",
+                "defaultValue": 12,
+                "min": -1440,
+                "max": 1440,
+                "step": 0.1,
+                "format": "number"
+              },
+              {
+                "id": "hourly_value",
+                "label": "Waarde per uur",
+                "help": "Je eigen optionele waardering. Geen beloofde geldbesparing of vermindering van loonkosten.",
+                "defaultValue": null,
+                "min": 0,
+                "max": 1000,
+                "step": 0.01,
+                "format": "currency"
+              }
+            ],
+            "offer": {
+              "monthlyPrice": 49,
+              "basis": "fixed",
+              "unit": "Agentwerkplek · verkopersbriefings",
+              "vatIncluded": false,
+              "includedUnits": 20,
+              "allowance": "20 geschikte dossiers",
+              "extras": "Extra gebruik en professionele diensten krijgen een aparte offerte."
+            },
+            "assumptions": [
+              "De 12 nettominuten zijn een indicatieve raming van voorbereidingstijd, geen meetresultaat.",
+              "Nettominuten omvatten klantcontrole. Jij geeft de geldwaarde van tijd op; het is geen ontvangen geld."
+            ],
+            "loop": "Pand- of koopsignaal → dossier met bronnen kwalificeren → makelaar toetst en partijen stemmen in → aanvaarde introductie en werkelijk resultaat vastleggen.",
+            "ctaLabel": "Probeer demo",
+            "ctaTarget": "meet"
+          }
+        ]
       }
     }
   },
@@ -2386,7 +2731,7 @@
         "roiCalculator",
         "heading"
       ],
-      "sourceHash": "c63420eca3f95b8917c99f3a5cf72f000ab237bc6c658765b2176ebdd7b311be"
+      "sourceHash": "f605f95a678fe3249ebf6201cbc21b86ea72d7f4bc395cab6e017b8b91a674d6"
     },
     {
       "path": [
@@ -2397,7 +2742,7 @@
         "roiCalculator",
         "subheading"
       ],
-      "sourceHash": "7b148bf1bc2d445204b8b2a40faa420fe4a04624c98bd20f79c051038ca1b7da"
+      "sourceHash": "22fd8ffe8dbddd46f41fb690f262f66466bb343bae0b359e4c64dfd2f2f127a5"
     },
     {
       "path": [
@@ -2408,7 +2753,7 @@
         "roiCalculator",
         "disclaimer"
       ],
-      "sourceHash": "2571d3c4491924fe3b8aaab7d2acb5f4904b393aae9f2babc38cd0e46d1126aa"
+      "sourceHash": "28bd6e46023484d9a6b075ba5e7539842d6a2e920782ed0979f21366d56ae02f"
     },
     {
       "path": [
@@ -4808,7 +5153,7 @@
         "pricing",
         "label"
       ],
-      "sourceHash": "74be3e630a8b30d773e4002180e4cdf3963817fa92ff839e99f6556ac371eaa8"
+      "sourceHash": "dfe95783edfef7918760312f94edd764f4ce3ffd38b90c2c955a0cc3b250f040"
     },
     {
       "path": [
@@ -4858,6 +5203,809 @@
         "privacyNote"
       ],
       "sourceHash": "0e96f5e15977ab0a2a8d684c0d35d7459f3afc862b606046310ae1fbbd4be12b"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "navLabel"
+      ],
+      "sourceHash": "dfe95783edfef7918760312f94edd764f4ce3ffd38b90c2c955a0cc3b250f040"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "heading"
+      ],
+      "sourceHash": "f605f95a678fe3249ebf6201cbc21b86ea72d7f4bc395cab6e017b8b91a674d6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "intro"
+      ],
+      "sourceHash": "22fd8ffe8dbddd46f41fb690f262f66466bb343bae0b359e4c64dfd2f2f127a5"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "monthly"
+      ],
+      "sourceHash": "310ca503ef36f177ddbc760463fcaec1edc6eca12bfd590ad7bb244b31e59543"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "weekly"
+      ],
+      "sourceHash": "e78041ab51a818a22e2cfea6c15fe72e9e20092246f496f1670f7be3e42177a6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "daily"
+      ],
+      "sourceHash": "8f2364e11b8be3ff008f32b3dedb54e659362429bcc9e3eb6acb6070de4ffbff"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "cost"
+      ],
+      "sourceHash": "16c6e032c6d9e64e841b58a0298260d9f548fcbe3a8ad8dc475bd977b602898f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "benefit"
+      ],
+      "sourceHash": "a7f9c107913bba92d233f27fbfa5c4c52e4435a763a727214089505b9519d2dc"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "net"
+      ],
+      "sourceHash": "d32a3b8a970a1c2a790bdd47a4a86f208f6ff655d8e9269dcda5776b156d6039"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "roi"
+      ],
+      "sourceHash": "bd75a04bf54fbb79e68559c37be0a8752efacfe4f5b9a326b87143c8d5c87dcc"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "timeBenefit"
+      ],
+      "sourceHash": "cedc575743fa43d9e724db8bd1d54037d41369448eb826b63e1efba54e81c2a4"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "timeRoi"
+      ],
+      "sourceHash": "4b0df8181ded668923d1da293e0fc8ca4d0ac21eed3f933b32891615e67d1f6a"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "timeBack"
+      ],
+      "sourceHash": "92947077a2792fb311280e55e4d39fbeb1fbb152e76b389dee5a53697ea548ef"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "missing"
+      ],
+      "sourceHash": "4b11bc702fcdb172c2f88f4af465a9d05ac206b7f7e6304fcded04eb92cccde6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "noRatio"
+      ],
+      "sourceHash": "5237c96ac1a23b98eb13770503afe986b088acd6627fa7649a5afdcbc4bb8e99"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "method"
+      ],
+      "sourceHash": "b79afe297bec4d00ab3a70a61b5e8b607a423a123f23a2fa9ccf8d6af6bcd157"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "reset"
+      ],
+      "sourceHash": "daee7606b339f3c339076fe2c9f372a3ff40c8ee896005d829c7481b64ca5303"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "audience"
+      ],
+      "sourceHash": "545c02357695a6ffed97b01a94a46b9aeb4686f4480173da6d0faeae8eb85053"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "includedVat"
+      ],
+      "sourceHash": "3e366dcdda082eda14db7eab30381a2fcc424c43d183d0e6d7a4b15c9b567d7d"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "excludedVat"
+      ],
+      "sourceHash": "744120dab44d48957b4580cadd00fca1f91383823125d1400984a3cf62a76441"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "perMonth"
+      ],
+      "sourceHash": "88b1d1a67e34a269fec10b917a624817de854eeadb142640ab17c8199ab6bdae"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "equivalents"
+      ],
+      "sourceHash": "4a546022be02a950fc59270741b8e4784ca51f74da16e286c77e3f5a371aff38"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "timeNote"
+      ],
+      "sourceHash": "d7c17f23c52c1d9cf5be7fcb5a537017a0a09529bfde38e6b692afa2ecbf453f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "estimateNote"
+      ],
+      "sourceHash": "28bd6e46023484d9a6b075ba5e7539842d6a2e920782ed0979f21366d56ae02f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "limitNote"
+      ],
+      "sourceHash": "61108708047a1a834e46f1ca557d7518e3a63263a8ec7e7aa4301db230beacff"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "timeFormula"
+      ],
+      "sourceHash": "4cf3d8fcb0fa4b9c36d9869e709ba0cbabcd41083c7ff8cf77e9fe32066eacdb"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "profitFormula"
+      ],
+      "sourceHash": "e286f3af8c8f706f737502c898e1ba90c6bbc7680c380bba844ec4f3874b5bc4"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "proceedsFormula"
+      ],
+      "sourceHash": "9de390391c62a87b44f2c9bf74e5223e5d34c5a74cd5e12575f5e1452881a46e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "roiFormula"
+      ],
+      "sourceHash": "00f9b4df25ca733c11a00e762ab8d95f6e9c9364ce202a6c22ff95c3613e3fcb"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "label"
+      ],
+      "sourceHash": "3e56208886334ad120af2d85b44fca33b5922a7e96623d87d793727c75178e03"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "inputs",
+        0,
+        "label"
+      ],
+      "sourceHash": "d0081c4a08b2be87b687f4f35e5668e5c004581cd766a25feea76ebe7ae5afdb"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "inputs",
+        0,
+        "help"
+      ],
+      "sourceHash": "a8cff02d43e6c0371644e73ec0de532d8ac6ae2eb169301a6e3605e3cb010ab0"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "inputs",
+        1,
+        "label"
+      ],
+      "sourceHash": "9f135e34cc7bc32cafb416bcbf7ef6af035cdb444c22e90cccd0587ba3db19df"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "inputs",
+        1,
+        "help"
+      ],
+      "sourceHash": "d99a99ab817eea4a3a70ded599d0744a02fe8de95ab0b7c6a0fc9d5cb72c400d"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "inputs",
+        2,
+        "label"
+      ],
+      "sourceHash": "4b5674419c1cb29206fb7d1486e6492bb74df9523dbc3bd5cdb875a309486100"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "inputs",
+        2,
+        "help"
+      ],
+      "sourceHash": "310e52c988a868b67de05d75913bc83fea7f2ff3d06b15cb07adf6c22d1f94f1"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "offer",
+        "unit"
+      ],
+      "sourceHash": "3e56208886334ad120af2d85b44fca33b5922a7e96623d87d793727c75178e03"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "offer",
+        "allowance"
+      ],
+      "sourceHash": "aa695907fedd044f41aaf55b78c3e18e056e184ea83ebd0d21e1b8e7177ee995"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "offer",
+        "extras"
+      ],
+      "sourceHash": "2dde78d0a4b34a797ac41efa8426f1e98874a7e9bfc38db869338b90175c0a63"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "assumptions",
+        0
+      ],
+      "sourceHash": "79adeadb4feb385ac12585feee29f5f4b94954ccde2406a3b86aa5c7e90ca29f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "assumptions",
+        1
+      ],
+      "sourceHash": "989a9fcc887e91c895fb2d3cdee45f5d8279d36705594e66f19d87e172656e0e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "loop"
+      ],
+      "sourceHash": "edc50e97c701508b19ff0c0117cda5ab8aafa7faa0d747388080ab915edec13f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "ctaLabel"
+      ],
+      "sourceHash": "6e5fe4ca7c07142fa81eef400c342dea7f8ba0422aa331c3880e6604db8d52a7"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "label"
+      ],
+      "sourceHash": "4eaa570bcd2d051814cfbcea81a6a732eec55c652d08b722bda0aa7cb12971ef"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "inputs",
+        0,
+        "label"
+      ],
+      "sourceHash": "d0081c4a08b2be87b687f4f35e5668e5c004581cd766a25feea76ebe7ae5afdb"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "inputs",
+        0,
+        "help"
+      ],
+      "sourceHash": "a8cff02d43e6c0371644e73ec0de532d8ac6ae2eb169301a6e3605e3cb010ab0"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "inputs",
+        1,
+        "label"
+      ],
+      "sourceHash": "9f135e34cc7bc32cafb416bcbf7ef6af035cdb444c22e90cccd0587ba3db19df"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "inputs",
+        1,
+        "help"
+      ],
+      "sourceHash": "d99a99ab817eea4a3a70ded599d0744a02fe8de95ab0b7c6a0fc9d5cb72c400d"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "inputs",
+        2,
+        "label"
+      ],
+      "sourceHash": "4b5674419c1cb29206fb7d1486e6492bb74df9523dbc3bd5cdb875a309486100"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "inputs",
+        2,
+        "help"
+      ],
+      "sourceHash": "310e52c988a868b67de05d75913bc83fea7f2ff3d06b15cb07adf6c22d1f94f1"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "offer",
+        "unit"
+      ],
+      "sourceHash": "4eaa570bcd2d051814cfbcea81a6a732eec55c652d08b722bda0aa7cb12971ef"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "offer",
+        "allowance"
+      ],
+      "sourceHash": "aa695907fedd044f41aaf55b78c3e18e056e184ea83ebd0d21e1b8e7177ee995"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "offer",
+        "extras"
+      ],
+      "sourceHash": "2dde78d0a4b34a797ac41efa8426f1e98874a7e9bfc38db869338b90175c0a63"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "assumptions",
+        0
+      ],
+      "sourceHash": "79adeadb4feb385ac12585feee29f5f4b94954ccde2406a3b86aa5c7e90ca29f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "assumptions",
+        1
+      ],
+      "sourceHash": "989a9fcc887e91c895fb2d3cdee45f5d8279d36705594e66f19d87e172656e0e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "loop"
+      ],
+      "sourceHash": "edc50e97c701508b19ff0c0117cda5ab8aafa7faa0d747388080ab915edec13f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "ctaLabel"
+      ],
+      "sourceHash": "6e5fe4ca7c07142fa81eef400c342dea7f8ba0422aa331c3880e6604db8d52a7"
     },
     {
       "path": [
@@ -5380,7 +6528,7 @@
         "roiCalculator",
         "heading"
       ],
-      "sourceHash": "c63420eca3f95b8917c99f3a5cf72f000ab237bc6c658765b2176ebdd7b311be"
+      "sourceHash": "f605f95a678fe3249ebf6201cbc21b86ea72d7f4bc395cab6e017b8b91a674d6"
     },
     {
       "path": [
@@ -5391,7 +6539,7 @@
         "roiCalculator",
         "subheading"
       ],
-      "sourceHash": "7b148bf1bc2d445204b8b2a40faa420fe4a04624c98bd20f79c051038ca1b7da"
+      "sourceHash": "22fd8ffe8dbddd46f41fb690f262f66466bb343bae0b359e4c64dfd2f2f127a5"
     },
     {
       "path": [
@@ -5402,7 +6550,7 @@
         "roiCalculator",
         "disclaimer"
       ],
-      "sourceHash": "2571d3c4491924fe3b8aaab7d2acb5f4904b393aae9f2babc38cd0e46d1126aa"
+      "sourceHash": "28bd6e46023484d9a6b075ba5e7539842d6a2e920782ed0979f21366d56ae02f"
     },
     {
       "path": [
@@ -7830,7 +8978,7 @@
         "pricing",
         "label"
       ],
-      "sourceHash": "74be3e630a8b30d773e4002180e4cdf3963817fa92ff839e99f6556ac371eaa8"
+      "sourceHash": "dfe95783edfef7918760312f94edd764f4ce3ffd38b90c2c955a0cc3b250f040"
     },
     {
       "path": [
@@ -7880,6 +9028,809 @@
         "privacyNote"
       ],
       "sourceHash": "0e96f5e15977ab0a2a8d684c0d35d7459f3afc862b606046310ae1fbbd4be12b"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "navLabel"
+      ],
+      "sourceHash": "dfe95783edfef7918760312f94edd764f4ce3ffd38b90c2c955a0cc3b250f040"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "heading"
+      ],
+      "sourceHash": "f605f95a678fe3249ebf6201cbc21b86ea72d7f4bc395cab6e017b8b91a674d6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "intro"
+      ],
+      "sourceHash": "22fd8ffe8dbddd46f41fb690f262f66466bb343bae0b359e4c64dfd2f2f127a5"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "monthly"
+      ],
+      "sourceHash": "310ca503ef36f177ddbc760463fcaec1edc6eca12bfd590ad7bb244b31e59543"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "weekly"
+      ],
+      "sourceHash": "e78041ab51a818a22e2cfea6c15fe72e9e20092246f496f1670f7be3e42177a6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "daily"
+      ],
+      "sourceHash": "8f2364e11b8be3ff008f32b3dedb54e659362429bcc9e3eb6acb6070de4ffbff"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "cost"
+      ],
+      "sourceHash": "16c6e032c6d9e64e841b58a0298260d9f548fcbe3a8ad8dc475bd977b602898f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "benefit"
+      ],
+      "sourceHash": "a7f9c107913bba92d233f27fbfa5c4c52e4435a763a727214089505b9519d2dc"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "net"
+      ],
+      "sourceHash": "d32a3b8a970a1c2a790bdd47a4a86f208f6ff655d8e9269dcda5776b156d6039"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "roi"
+      ],
+      "sourceHash": "bd75a04bf54fbb79e68559c37be0a8752efacfe4f5b9a326b87143c8d5c87dcc"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "timeBenefit"
+      ],
+      "sourceHash": "cedc575743fa43d9e724db8bd1d54037d41369448eb826b63e1efba54e81c2a4"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "timeRoi"
+      ],
+      "sourceHash": "4b0df8181ded668923d1da293e0fc8ca4d0ac21eed3f933b32891615e67d1f6a"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "timeBack"
+      ],
+      "sourceHash": "92947077a2792fb311280e55e4d39fbeb1fbb152e76b389dee5a53697ea548ef"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "missing"
+      ],
+      "sourceHash": "4b11bc702fcdb172c2f88f4af465a9d05ac206b7f7e6304fcded04eb92cccde6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "noRatio"
+      ],
+      "sourceHash": "5237c96ac1a23b98eb13770503afe986b088acd6627fa7649a5afdcbc4bb8e99"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "method"
+      ],
+      "sourceHash": "b79afe297bec4d00ab3a70a61b5e8b607a423a123f23a2fa9ccf8d6af6bcd157"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "reset"
+      ],
+      "sourceHash": "daee7606b339f3c339076fe2c9f372a3ff40c8ee896005d829c7481b64ca5303"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "audience"
+      ],
+      "sourceHash": "545c02357695a6ffed97b01a94a46b9aeb4686f4480173da6d0faeae8eb85053"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "includedVat"
+      ],
+      "sourceHash": "3e366dcdda082eda14db7eab30381a2fcc424c43d183d0e6d7a4b15c9b567d7d"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "excludedVat"
+      ],
+      "sourceHash": "744120dab44d48957b4580cadd00fca1f91383823125d1400984a3cf62a76441"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "perMonth"
+      ],
+      "sourceHash": "88b1d1a67e34a269fec10b917a624817de854eeadb142640ab17c8199ab6bdae"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "equivalents"
+      ],
+      "sourceHash": "4a546022be02a950fc59270741b8e4784ca51f74da16e286c77e3f5a371aff38"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "timeNote"
+      ],
+      "sourceHash": "d7c17f23c52c1d9cf5be7fcb5a537017a0a09529bfde38e6b692afa2ecbf453f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "estimateNote"
+      ],
+      "sourceHash": "28bd6e46023484d9a6b075ba5e7539842d6a2e920782ed0979f21366d56ae02f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "limitNote"
+      ],
+      "sourceHash": "61108708047a1a834e46f1ca557d7518e3a63263a8ec7e7aa4301db230beacff"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "timeFormula"
+      ],
+      "sourceHash": "4cf3d8fcb0fa4b9c36d9869e709ba0cbabcd41083c7ff8cf77e9fe32066eacdb"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "profitFormula"
+      ],
+      "sourceHash": "e286f3af8c8f706f737502c898e1ba90c6bbc7680c380bba844ec4f3874b5bc4"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "proceedsFormula"
+      ],
+      "sourceHash": "9de390391c62a87b44f2c9bf74e5223e5d34c5a74cd5e12575f5e1452881a46e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "roiFormula"
+      ],
+      "sourceHash": "00f9b4df25ca733c11a00e762ab8d95f6e9c9364ce202a6c22ff95c3613e3fcb"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "label"
+      ],
+      "sourceHash": "3e56208886334ad120af2d85b44fca33b5922a7e96623d87d793727c75178e03"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "inputs",
+        0,
+        "label"
+      ],
+      "sourceHash": "d0081c4a08b2be87b687f4f35e5668e5c004581cd766a25feea76ebe7ae5afdb"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "inputs",
+        0,
+        "help"
+      ],
+      "sourceHash": "a8cff02d43e6c0371644e73ec0de532d8ac6ae2eb169301a6e3605e3cb010ab0"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "inputs",
+        1,
+        "label"
+      ],
+      "sourceHash": "9f135e34cc7bc32cafb416bcbf7ef6af035cdb444c22e90cccd0587ba3db19df"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "inputs",
+        1,
+        "help"
+      ],
+      "sourceHash": "d99a99ab817eea4a3a70ded599d0744a02fe8de95ab0b7c6a0fc9d5cb72c400d"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "inputs",
+        2,
+        "label"
+      ],
+      "sourceHash": "4b5674419c1cb29206fb7d1486e6492bb74df9523dbc3bd5cdb875a309486100"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "inputs",
+        2,
+        "help"
+      ],
+      "sourceHash": "310e52c988a868b67de05d75913bc83fea7f2ff3d06b15cb07adf6c22d1f94f1"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "offer",
+        "unit"
+      ],
+      "sourceHash": "3e56208886334ad120af2d85b44fca33b5922a7e96623d87d793727c75178e03"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "offer",
+        "allowance"
+      ],
+      "sourceHash": "aa695907fedd044f41aaf55b78c3e18e056e184ea83ebd0d21e1b8e7177ee995"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "offer",
+        "extras"
+      ],
+      "sourceHash": "2dde78d0a4b34a797ac41efa8426f1e98874a7e9bfc38db869338b90175c0a63"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "assumptions",
+        0
+      ],
+      "sourceHash": "79adeadb4feb385ac12585feee29f5f4b94954ccde2406a3b86aa5c7e90ca29f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "assumptions",
+        1
+      ],
+      "sourceHash": "989a9fcc887e91c895fb2d3cdee45f5d8279d36705594e66f19d87e172656e0e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "loop"
+      ],
+      "sourceHash": "edc50e97c701508b19ff0c0117cda5ab8aafa7faa0d747388080ab915edec13f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "ctaLabel"
+      ],
+      "sourceHash": "6e5fe4ca7c07142fa81eef400c342dea7f8ba0422aa331c3880e6604db8d52a7"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "label"
+      ],
+      "sourceHash": "4eaa570bcd2d051814cfbcea81a6a732eec55c652d08b722bda0aa7cb12971ef"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "inputs",
+        0,
+        "label"
+      ],
+      "sourceHash": "d0081c4a08b2be87b687f4f35e5668e5c004581cd766a25feea76ebe7ae5afdb"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "inputs",
+        0,
+        "help"
+      ],
+      "sourceHash": "a8cff02d43e6c0371644e73ec0de532d8ac6ae2eb169301a6e3605e3cb010ab0"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "inputs",
+        1,
+        "label"
+      ],
+      "sourceHash": "9f135e34cc7bc32cafb416bcbf7ef6af035cdb444c22e90cccd0587ba3db19df"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "inputs",
+        1,
+        "help"
+      ],
+      "sourceHash": "d99a99ab817eea4a3a70ded599d0744a02fe8de95ab0b7c6a0fc9d5cb72c400d"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "inputs",
+        2,
+        "label"
+      ],
+      "sourceHash": "4b5674419c1cb29206fb7d1486e6492bb74df9523dbc3bd5cdb875a309486100"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "inputs",
+        2,
+        "help"
+      ],
+      "sourceHash": "310e52c988a868b67de05d75913bc83fea7f2ff3d06b15cb07adf6c22d1f94f1"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "offer",
+        "unit"
+      ],
+      "sourceHash": "4eaa570bcd2d051814cfbcea81a6a732eec55c652d08b722bda0aa7cb12971ef"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "offer",
+        "allowance"
+      ],
+      "sourceHash": "aa695907fedd044f41aaf55b78c3e18e056e184ea83ebd0d21e1b8e7177ee995"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "offer",
+        "extras"
+      ],
+      "sourceHash": "2dde78d0a4b34a797ac41efa8426f1e98874a7e9bfc38db869338b90175c0a63"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "assumptions",
+        0
+      ],
+      "sourceHash": "79adeadb4feb385ac12585feee29f5f4b94954ccde2406a3b86aa5c7e90ca29f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "assumptions",
+        1
+      ],
+      "sourceHash": "989a9fcc887e91c895fb2d3cdee45f5d8279d36705594e66f19d87e172656e0e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "loop"
+      ],
+      "sourceHash": "edc50e97c701508b19ff0c0117cda5ab8aafa7faa0d747388080ab915edec13f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "ctaLabel"
+      ],
+      "sourceHash": "6e5fe4ca7c07142fa81eef400c342dea7f8ba0422aa331c3880e6604db8d52a7"
     },
     {
       "path": [
@@ -8944,7 +10895,7 @@
         "roiCalculator",
         "heading"
       ],
-      "sourceHash": "c63420eca3f95b8917c99f3a5cf72f000ab237bc6c658765b2176ebdd7b311be"
+      "sourceHash": "f605f95a678fe3249ebf6201cbc21b86ea72d7f4bc395cab6e017b8b91a674d6"
     },
     {
       "path": [
@@ -8952,7 +10903,7 @@
         "roiCalculator",
         "subheading"
       ],
-      "sourceHash": "7b148bf1bc2d445204b8b2a40faa420fe4a04624c98bd20f79c051038ca1b7da"
+      "sourceHash": "22fd8ffe8dbddd46f41fb690f262f66466bb343bae0b359e4c64dfd2f2f127a5"
     },
     {
       "path": [
@@ -8960,7 +10911,7 @@
         "roiCalculator",
         "disclaimer"
       ],
-      "sourceHash": "2571d3c4491924fe3b8aaab7d2acb5f4904b393aae9f2babc38cd0e46d1126aa"
+      "sourceHash": "28bd6e46023484d9a6b075ba5e7539842d6a2e920782ed0979f21366d56ae02f"
     },
     {
       "path": [
@@ -10845,7 +12796,7 @@
         "pricing",
         "label"
       ],
-      "sourceHash": "74be3e630a8b30d773e4002180e4cdf3963817fa92ff839e99f6556ac371eaa8"
+      "sourceHash": "dfe95783edfef7918760312f94edd764f4ce3ffd38b90c2c955a0cc3b250f040"
     },
     {
       "path": [
@@ -10883,7 +12834,639 @@
         "privacyNote"
       ],
       "sourceHash": "0e96f5e15977ab0a2a8d684c0d35d7459f3afc862b606046310ae1fbbd4be12b"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "navLabel"
+      ],
+      "sourceHash": "dfe95783edfef7918760312f94edd764f4ce3ffd38b90c2c955a0cc3b250f040"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "heading"
+      ],
+      "sourceHash": "f605f95a678fe3249ebf6201cbc21b86ea72d7f4bc395cab6e017b8b91a674d6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "intro"
+      ],
+      "sourceHash": "22fd8ffe8dbddd46f41fb690f262f66466bb343bae0b359e4c64dfd2f2f127a5"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "monthly"
+      ],
+      "sourceHash": "310ca503ef36f177ddbc760463fcaec1edc6eca12bfd590ad7bb244b31e59543"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "weekly"
+      ],
+      "sourceHash": "e78041ab51a818a22e2cfea6c15fe72e9e20092246f496f1670f7be3e42177a6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "daily"
+      ],
+      "sourceHash": "8f2364e11b8be3ff008f32b3dedb54e659362429bcc9e3eb6acb6070de4ffbff"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "cost"
+      ],
+      "sourceHash": "16c6e032c6d9e64e841b58a0298260d9f548fcbe3a8ad8dc475bd977b602898f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "benefit"
+      ],
+      "sourceHash": "a7f9c107913bba92d233f27fbfa5c4c52e4435a763a727214089505b9519d2dc"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "net"
+      ],
+      "sourceHash": "d32a3b8a970a1c2a790bdd47a4a86f208f6ff655d8e9269dcda5776b156d6039"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "roi"
+      ],
+      "sourceHash": "bd75a04bf54fbb79e68559c37be0a8752efacfe4f5b9a326b87143c8d5c87dcc"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "timeBenefit"
+      ],
+      "sourceHash": "cedc575743fa43d9e724db8bd1d54037d41369448eb826b63e1efba54e81c2a4"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "timeRoi"
+      ],
+      "sourceHash": "4b0df8181ded668923d1da293e0fc8ca4d0ac21eed3f933b32891615e67d1f6a"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "timeBack"
+      ],
+      "sourceHash": "92947077a2792fb311280e55e4d39fbeb1fbb152e76b389dee5a53697ea548ef"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "missing"
+      ],
+      "sourceHash": "4b11bc702fcdb172c2f88f4af465a9d05ac206b7f7e6304fcded04eb92cccde6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "noRatio"
+      ],
+      "sourceHash": "5237c96ac1a23b98eb13770503afe986b088acd6627fa7649a5afdcbc4bb8e99"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "method"
+      ],
+      "sourceHash": "b79afe297bec4d00ab3a70a61b5e8b607a423a123f23a2fa9ccf8d6af6bcd157"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "reset"
+      ],
+      "sourceHash": "daee7606b339f3c339076fe2c9f372a3ff40c8ee896005d829c7481b64ca5303"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "audience"
+      ],
+      "sourceHash": "545c02357695a6ffed97b01a94a46b9aeb4686f4480173da6d0faeae8eb85053"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "includedVat"
+      ],
+      "sourceHash": "3e366dcdda082eda14db7eab30381a2fcc424c43d183d0e6d7a4b15c9b567d7d"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "excludedVat"
+      ],
+      "sourceHash": "744120dab44d48957b4580cadd00fca1f91383823125d1400984a3cf62a76441"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "perMonth"
+      ],
+      "sourceHash": "88b1d1a67e34a269fec10b917a624817de854eeadb142640ab17c8199ab6bdae"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "equivalents"
+      ],
+      "sourceHash": "4a546022be02a950fc59270741b8e4784ca51f74da16e286c77e3f5a371aff38"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "timeNote"
+      ],
+      "sourceHash": "d7c17f23c52c1d9cf5be7fcb5a537017a0a09529bfde38e6b692afa2ecbf453f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "estimateNote"
+      ],
+      "sourceHash": "28bd6e46023484d9a6b075ba5e7539842d6a2e920782ed0979f21366d56ae02f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "limitNote"
+      ],
+      "sourceHash": "61108708047a1a834e46f1ca557d7518e3a63263a8ec7e7aa4301db230beacff"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "timeFormula"
+      ],
+      "sourceHash": "4cf3d8fcb0fa4b9c36d9869e709ba0cbabcd41083c7ff8cf77e9fe32066eacdb"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "profitFormula"
+      ],
+      "sourceHash": "e286f3af8c8f706f737502c898e1ba90c6bbc7680c380bba844ec4f3874b5bc4"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "proceedsFormula"
+      ],
+      "sourceHash": "9de390391c62a87b44f2c9bf74e5223e5d34c5a74cd5e12575f5e1452881a46e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "roiFormula"
+      ],
+      "sourceHash": "00f9b4df25ca733c11a00e762ab8d95f6e9c9364ce202a6c22ff95c3613e3fcb"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "label"
+      ],
+      "sourceHash": "3e56208886334ad120af2d85b44fca33b5922a7e96623d87d793727c75178e03"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "inputs",
+        0,
+        "label"
+      ],
+      "sourceHash": "d0081c4a08b2be87b687f4f35e5668e5c004581cd766a25feea76ebe7ae5afdb"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "inputs",
+        0,
+        "help"
+      ],
+      "sourceHash": "a8cff02d43e6c0371644e73ec0de532d8ac6ae2eb169301a6e3605e3cb010ab0"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "inputs",
+        1,
+        "label"
+      ],
+      "sourceHash": "9f135e34cc7bc32cafb416bcbf7ef6af035cdb444c22e90cccd0587ba3db19df"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "inputs",
+        1,
+        "help"
+      ],
+      "sourceHash": "d99a99ab817eea4a3a70ded599d0744a02fe8de95ab0b7c6a0fc9d5cb72c400d"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "inputs",
+        2,
+        "label"
+      ],
+      "sourceHash": "4b5674419c1cb29206fb7d1486e6492bb74df9523dbc3bd5cdb875a309486100"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "inputs",
+        2,
+        "help"
+      ],
+      "sourceHash": "310e52c988a868b67de05d75913bc83fea7f2ff3d06b15cb07adf6c22d1f94f1"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "offer",
+        "unit"
+      ],
+      "sourceHash": "3e56208886334ad120af2d85b44fca33b5922a7e96623d87d793727c75178e03"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "offer",
+        "allowance"
+      ],
+      "sourceHash": "aa695907fedd044f41aaf55b78c3e18e056e184ea83ebd0d21e1b8e7177ee995"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "offer",
+        "extras"
+      ],
+      "sourceHash": "2dde78d0a4b34a797ac41efa8426f1e98874a7e9bfc38db869338b90175c0a63"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "assumptions",
+        0
+      ],
+      "sourceHash": "79adeadb4feb385ac12585feee29f5f4b94954ccde2406a3b86aa5c7e90ca29f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "assumptions",
+        1
+      ],
+      "sourceHash": "989a9fcc887e91c895fb2d3cdee45f5d8279d36705594e66f19d87e172656e0e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "loop"
+      ],
+      "sourceHash": "edc50e97c701508b19ff0c0117cda5ab8aafa7faa0d747388080ab915edec13f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "ctaLabel"
+      ],
+      "sourceHash": "6e5fe4ca7c07142fa81eef400c342dea7f8ba0422aa331c3880e6604db8d52a7"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "label"
+      ],
+      "sourceHash": "4eaa570bcd2d051814cfbcea81a6a732eec55c652d08b722bda0aa7cb12971ef"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "inputs",
+        0,
+        "label"
+      ],
+      "sourceHash": "d0081c4a08b2be87b687f4f35e5668e5c004581cd766a25feea76ebe7ae5afdb"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "inputs",
+        0,
+        "help"
+      ],
+      "sourceHash": "a8cff02d43e6c0371644e73ec0de532d8ac6ae2eb169301a6e3605e3cb010ab0"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "inputs",
+        1,
+        "label"
+      ],
+      "sourceHash": "9f135e34cc7bc32cafb416bcbf7ef6af035cdb444c22e90cccd0587ba3db19df"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "inputs",
+        1,
+        "help"
+      ],
+      "sourceHash": "d99a99ab817eea4a3a70ded599d0744a02fe8de95ab0b7c6a0fc9d5cb72c400d"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "inputs",
+        2,
+        "label"
+      ],
+      "sourceHash": "4b5674419c1cb29206fb7d1486e6492bb74df9523dbc3bd5cdb875a309486100"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "inputs",
+        2,
+        "help"
+      ],
+      "sourceHash": "310e52c988a868b67de05d75913bc83fea7f2ff3d06b15cb07adf6c22d1f94f1"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "offer",
+        "unit"
+      ],
+      "sourceHash": "4eaa570bcd2d051814cfbcea81a6a732eec55c652d08b722bda0aa7cb12971ef"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "offer",
+        "allowance"
+      ],
+      "sourceHash": "aa695907fedd044f41aaf55b78c3e18e056e184ea83ebd0d21e1b8e7177ee995"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "offer",
+        "extras"
+      ],
+      "sourceHash": "2dde78d0a4b34a797ac41efa8426f1e98874a7e9bfc38db869338b90175c0a63"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "assumptions",
+        0
+      ],
+      "sourceHash": "79adeadb4feb385ac12585feee29f5f4b94954ccde2406a3b86aa5c7e90ca29f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "assumptions",
+        1
+      ],
+      "sourceHash": "989a9fcc887e91c895fb2d3cdee45f5d8279d36705594e66f19d87e172656e0e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "loop"
+      ],
+      "sourceHash": "edc50e97c701508b19ff0c0117cda5ab8aafa7faa0d747388080ab915edec13f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "ctaLabel"
+      ],
+      "sourceHash": "6e5fe4ca7c07142fa81eef400c342dea7f8ba0422aa331c3880e6604db8d52a7"
     }
   ],
-  "generatedAt": "2026-10-11T13:14:59.201Z"
+  "generatedAt": "2026-10-13T14:19:32.625Z"
 }

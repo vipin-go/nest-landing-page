@@ -42,3 +42,14 @@ appears and that incomplete authored content is rejected instead of silently
 falling back to English. Push only within the user's authorization, child first
 and then the parent's exact immutable pin. Repository pushes do not authorize
 platform deployment, live persona activation or store rollout.
+
+## Brand interactions
+
+Author light and dark colors in `landingPage.design.brand.colors`. Use `accent` for
+primary/selected controls and optional `accentHover` for their hover tone; these
+are normalized hex seeds, never CSS. Chat, voice launchers, focus borders and
+signed-in navigation must consume the same resolved model palette. Do not spread
+a default palette and replace only its accent: that retains unrelated hover,
+border and soft-selection colors. The renderer derives contrast-safe normal and
+hover foregrounds. Mirror these seeds into `branding.theme.colors` in
+`assets/persona-app-config.json` for native and desktop builds.

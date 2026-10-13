@@ -1105,6 +1105,26 @@
       "runtimeSideEffects": false,
       "validation": "scripts/landing-page-mobile.cjs",
       "desktopTranslationRevisionAffected": false
+    },
+    "mirav": {
+      "requiredWhen": {
+        "design.variant": "community-connections"
+      },
+      "schemaVersion": 1,
+      "contract": "references/model-owned-content.md",
+      "validation": "scripts/mirav-landing-copy.cjs",
+      "uiKeys": "scripts/mirav-copy-keys.json",
+      "contentOwner": "persona_model_repository",
+      "platformContentDefaults": false,
+      "profileModes": [
+        "neighborhood",
+        "schools"
+      ],
+      "aiIdentityImage": "media.portraitImage",
+      "displayTranslation": "indexed_split_assets",
+      "optionIdsTranslated": false,
+      "operationalCommandsTranslated": false,
+      "prototypeRuntimeSideEffects": false
     }
   }
 }

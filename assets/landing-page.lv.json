@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "language": "lv",
   "regionKey": null,
-  "sourceRevision": "d701b52843633b93bc6a942b1d7069b64e0764961352983e775addc605ea3000",
+  "sourceRevision": "be40441c1455b89085020ea8725989ac5b0d6534d1db605c9fe719b98b0b6ab9",
   "landingPage": {
     "headline": "Viens kvalificēts iepazīstinos, kas atbilst.",
     "subheadline": "Privāti pircēju un pārdevēju iepazīstinoši, viens cilvēiski pārbaudīts piedāvājums katru reizi.",
@@ -202,7 +202,7 @@
             },
             {
               "key": "privateConstraints",
-              "label": "Privāti ierobežojumi",
+              "label": "Privātie ierobežojumi",
               "placeholder": "Jebkas, kas Nest būjtu jāpatur privāti",
               "type": "textarea",
               "required": false
@@ -212,24 +212,24 @@
             "methodologyVersion": 2,
             "enabled": true,
             "kicker": "Business impact",
-            "heading": "ROI Calculator",
-            "subheading": "Modelējiet licencētu otro mājokļu aģentu vai biroju, kas ar Nest vietējā tirgū veido kvalificētus, cilvēka pārbaudītus kontaktus.",
-            "disclaimer": "Modelēts darbības scenārijs ar nulli apstiprinātu apmaksātu pieprasījumu. Nest kvalificē un koordinē saskaņoto ievadu; tas nepārstāv puses, nenovērtē īpašumu, neveic sarunas, negūst komisijas naudu un negarantē darījumu.",
+            "heading": "Cenas un ROI",
+            "subheading": "Jūsu dati. Jūsu prognozētā atdeve.",
+            "disclaimer": "Plāna aplēses ir šķirtas no izmērītās ROI. Izmērīto atdevi pamato tikai pieņemti rezultāti un salīdzināmas reģistrētas izmaksas.",
             "currency": "EUR",
             "currencyCopy": {
               "native": "Amounts in {currency}.",
               "loading": "Checking the local currency. Amounts remain in {currency} until a rate is available.",
               "unavailable": "A current local exchange rate is unavailable. Amounts remain in {currency}.",
               "converted": "Amounts converted from {base} to {currency} using the reference rate dated {date}.",
-              "basis": "Valūtas konvertēšana nav vietējo izmaksu izpēte. Ievadiet savas vietējās izmaksas un ieguldījumu pieņēmumus. Valodas izmaiņas nemaina summas."
+              "basis": "Valūtas konvertēšana nav vietējo izmaksu izpēte. Ievadiet savas vietējās izmaksas un pienesuma pieņēmumus. Valodas maiņa nemaina summas."
             },
             "costCopy": {
               "breakdown": "Kā veidojas kopējās MI izmaksas",
               "perUnit": "{amount} per work unit (average)",
-              "budgetOnly": "Šis ir kopējais budžets. Detalizācijai izvēlieties izmaksu sadalījumu; sadalījums vēl nav pieņemts.",
-              "benefitNotice": "Modelēti ieguvumi, nevis maksa. Pārsvītrotās summas ir paredzētie novēršamie tēriņi, nevis atlaides MI rēķinam.",
+              "budgetOnly": "Tas ir kopējais budžets. Detalizējiet to sadaļā «Izmaksu sadalījums»; sadalījums nav pieņemts.",
+              "benefitNotice": "Modelēti ieguvumi, nevis maksas. Pārsvītrotās summas ir paredzētie novērstie tēriņi, nevis atlaides MI rēķinam.",
               "remainder": "Other included operating costs",
-              "allocation": "Atgūtās stundas dod jaudu, ne automātisku ietaupījumu. Naudas vērtību piešķir tikai tai daļai, ko novirzāt reālam tēriņu samazinājumam vai papildu pienesumam."
+              "allocation": "Atgūtās stundas ir kapacitāte, nevis automātisks ietaupījums. Naudas vērtību piešķir tikai daļai, ko novirzāt faktiskam tēriņu samazinājumam vai papildu pienesumam."
             },
             "locale": "en-GB",
             "inputs": [],
@@ -248,17 +248,17 @@
                 "platform_cost": 1500,
                 "higher_value_hours": 0,
                 "contribution_rate": 0,
-                "customer_price": 750
+                "customer_price": 49
               },
               "copy": {
-                "navLabel": "Cenas",
+                "navLabel": "Cenu noteikšana",
                 "workloadStep": "Introduction funnel",
                 "costStep": "AI operating cost",
                 "valueStep": "Capacity and evidence",
                 "workloadIntro": "Modelējiet brīvdienu mājokļu interesentus, atlasi un cilvēka pārbaudi, ne pārdošanu, komisijas vai garantētu saderību.",
                 "costIntro": "Tokena, modeļa, rīka, infrastruktūras, platformas un recenzenta izmaksas ir piegādes pieņēmumi. Nest cena ir atsevišķa neapstiprināta hipotēze.",
                 "valueIntro": "Jauda nav ieņēmumi. Ievadiet novēroto pienesumu tikai tad, kad reāls aģents vai aģentūra lieto pakalpojumu un par to maksā.",
-                "sampleNotice": "Tipisks lietojums · nav reāli rezultāti",
+                "sampleNotice": "Tipisks lietojums · ne faktiskie dati",
                 "monthly": "Monthly",
                 "yearly": "Yearly",
                 "next": "Continue",
@@ -283,11 +283,11 @@
                 "reviewMode": "Who handles the review?",
                 "teamReview": "Existing team",
                 "paidReview": "Additional paid reviewer",
-                "reviewNote": "Esošās komandas pārbaude izmanto atgūto jaudu. Papildu apmaksāta pārbaude ir darbības izmaksās; to atkārtoti neatņem no komandas jaudas.",
+                "reviewNote": "Esošās komandas pārbaude izmanto atgūto kapacitāti. Papildu apmaksāta pārbaude ir darbības izmaksās; to atkārtoti neatņem no komandas kapacitātes.",
                 "totalMode": "Monthly budget",
                 "itemizedMode": "Cost breakdown",
-                "budgetNote": "Budžetā jāiekļauj modeļi/mediji, rīki, infrastruktūra, Gabriel maksas un papildu apmaksāta pārskatīšana. Neiekļaujiet nemainīgu algu sarakstu kā jaunus izdevumus.",
-                "itemizedNote": "Žetonu patēriņš = apjoms × žetoni uz rezultātu. Papildu mediju, rīku un infrastruktūras izmaksas ir nulle, ja tie nav vajadzīgi. Papildu apmaksātu pārbaudi aprēķina pēc pārbaudes stundām un likmes.",
+                "budgetNote": "Budžetā iekļaujiet modeļus/medijus, rīkus, infrastruktūru, Gabriel maksas un papildu apmaksātu pārbaudi. Nemainīgu algu fondu neiekļaujiet kā jaunus tēriņus.",
+                "itemizedNote": "Žetonu patēriņš = apjoms × žetoni uz vienību. Papildu mediju, rīku un infrastruktūras izmaksas ir nulle, ja tās nerodas. Papildu apmaksātu pārbaudi aprēķina pēc pārbaudes stundām un likmes.",
                 "paidReviewCost": "Additional paid review cost",
                 "allInCost": "Operating cost",
                 "missing": "Add your assumptions",
@@ -300,43 +300,43 @@
                 "multiple": "Internal delivery multiple",
                 "customerBenefit": "Modeled agent benefit",
                 "customerRoi": "Modeled customer ROI",
-                "payback": "Customer payback period",
+                "payback": "Klienta atmaksas laiks",
                 "notApplicable": "Not applicable",
                 "annual": "Annual view",
-                "annualNote": "Tie paši ikmēneša pieņēmumi, bez pieauguma vai salikšanas. Nomas ietaupījumi saglabājas tikai norādītajā periodā.",
+                "annualNote": "Tie paši mēneša pieņēmumi, bez pieauguma vai uzkrāšanas. Darbinieka algošanas ietaupījums ir tikai norādītajā periodā.",
                 "method": "How this is calculated",
                 "burdenHeading": "Repetitive work reduced",
                 "opportunityHeading": "Capacity for higher-value work",
-                "methodBody": "Mazāks darba slogs (negatīvā produktivitāte) atbrīvo jaudu. Vērtīgāks darbs (iespējamā pozitīvā produktivitāte) rada vērtību tikai tad, ja šo jaudu izmanto. Stundas pašas par sevi nav naudas ietaupījums. Žetonu izmaksām lieto modelētu ievades/izvades attiecību, ne sniedzēja cenas piedāvājumu.",
+                "methodBody": "Mazāks darba slogs (negatīva produktivitāte) atbrīvo kapacitāti. Vērtīgāks darbs (iespējama pozitīva produktivitāte) rada ekonomisko vērtību tikai tad, ja šo kapacitāti izmanto. Stundas pašas naudu neietaupa. Žetonu izmaksas balstās modelētā ievades/izvades attiecībā, nevis piegādātāja cenā.",
                 "formulaLabel": "Atlasītie profili = interesenti × atlases īpatsvars. Izpildes izmaksās ir modelētās žetonu, modeļu, rīku, infrastruktūras, platformas un cilvēka pārbaudes izmaksas. Klienta ieguldījumu atdeve nav pieejama, līdz ieguvumu un cenu pamato pierādījumi.",
-                "allocationNote": "Katru stundu var atvēlēt vienu reizi. Nepiešķirtās stundas paliek jaudas, bez naudas vērtības.",
-                "overlapLabel": "Šie ieguvumi nepārklājas; esmu izslēdzis citur jau uzskaitītās izmaksas un zaudējumus.",
-                "overlapNote": "Kļūdu un riska aplēsēs neiekļauj darbaspēka ietaupījumu; vienu incidentu nedrīkst uzskaitīt abās kategorijās. Pienesumā neiekļauj MI izmaksas, tās atskaita atsevišķi.",
-                "hiringLabel": "Šī noma bija patiesi plānota, un piešķirtā jauda var nosegt darbu.",
-                "reviewedLabel": "Esmu pārskatījis savus rezultātus; neatlasītiem rezultātiem šajā aplēsē nav finansiālas vērtības.",
+                "allocationNote": "Katru stundu var sadalīt vienreiz. Nesadalītās stundas paliek kapacitāte bez naudas vērtības.",
+                "overlapLabel": "Šie ieguvumi nepārklājas; citur jau uzskaitītās izmaksas un zaudējumus esmu izslēdzis.",
+                "overlapNote": "Kļūdu un risku aplēsēs neiekļauj darba ietaupījumu; vienu incidentu nedrīkst iekļaut abās kategorijās. Pienesumā neiekļauj MI izmaksas, kuras atņem atsevišķi.",
+                "hiringLabel": "Šo darbinieku tiešām bija plānots pieņemt, un piešķirtā kapacitāte sedz viņa darbu.",
+                "reviewedLabel": "Esmu pārskatījis rezultātus; neatlasītajiem šajā aplēsē nav finansiālas vērtības.",
                 "cycleResult": "Cycle-time improvement",
-                "throughputResult": "Papildu darbs, ko atbalsta jauda un pieprasījums",
-                "assumptionsIncomplete": "Pabeidziet atlasītos pieņēmumus, lai aprēķinātu finansiālo vērtību.",
-                "allocationError": "Piešķirtās stundas pārsniedz pieejamo neto jaudu. Samaziniet piešķīrumus.",
-                "reviewError": "Pārbaude aizņem vairāk laika, nekā darbs ietaupa. Ar šiem pieņēmumiem papildu jauda nav pieejama.",
-                "cashError": "Novērstie tēriņi nevar pārsniegt pašreizējos vai būt pozitīvi, ja nav atvēlētas stundas.",
-                "hiringError": "Piešķirtajai jaudai jāietver plānotās nomas stundas. Apstipriniet plānoto nomas termiņu un tā ilgumu.",
-                "riskError": "Zaudējumu samazināšanas aplēses pēc varbūtība nedrīkst pārsniegt pirms varbūtību.",
-                "overlapError": "Pirms iekļaujat tos finanšu rezultātos, pārliecinieties, ka ieguvumi nepārklājas.",
-                "boundsError": "Izmantojiet vērtības parādītajās robežās.",
+                "throughputResult": "Papildu darbs pēc kapacitātes un pieprasījuma",
+                "assumptionsIncomplete": "Aizpildiet izvēlētos pieņēmumus, lai aprēķinātu finansiālo vērtību.",
+                "allocationError": "Piešķirtās stundas pārsniedz pieejamo neto kapacitāti. Samaziniet piešķīrumus.",
+                "reviewError": "Pārbaude aizņem vairāk laika, nekā ietaupīts darbā. Ar šiem pieņēmumiem papildu kapacitātes nav.",
+                "cashError": "Novērstie tēriņi nevar pārsniegt esošos tēriņus vai būt pozitīvi, ja tiem nav piešķirtu stundu.",
+                "hiringError": "Kapacitātei jāsedz plānotā darbinieka stundas. Apstipriniet plānoto pieņemšanu darbā un ilgumu.",
+                "riskError": "Zaudējumu samazinājuma aplēsē varbūtība pēc izmaiņām nevar pārsniegt sākotnējo varbūtību.",
+                "overlapError": "Pirms ieguvumu iekļaušanas finanšu rezultātā apstipriniet, ka tie nepārklājas.",
+                "boundsError": "Lietojiet vērtības norādītajās robežās.",
                 "rangeLabel": "Adjust value",
-                "noCurrencyChange": "Valoda maina formatējumu, nevis jūsu valūtu vai pieņēmumus.",
-                "currentPreparation": "Aktuālie sagatavošanas stundas",
-                "reviewHours": "Cilvēciskās pārbaudes stundas",
-                "reworkHours": "Izvairītie vai pievienotais pārstrādes stundas",
-                "capacityValue": "Modelētā kapacitātes vērtība",
-                "acceptedUnits": "Pieņemtas vienības",
-                "attendedUnits": "Apstrādātās vienības",
-                "costPerAttended": "Kostenība uz vienu apstrādātu vienību",
-                "benefitCost": "Ieguldījuma-kostenības daudzums",
-                "firstYearCost": "Pirmā gada kostenība",
-                "firstYearRoi": "Pirmā gada ROI",
-                "paybackOutsideTerm": "Nav atgūts ietvaros modelētā termiņa",
+                "noCurrencyChange": "Valoda maina formātu, nevis valūtu vai pieņēmumus.",
+                "currentPreparation": "Pašreizējās sagatavošanas stundas",
+                "reviewHours": "Cilvēku apskates stundas",
+                "reworkHours": "Izvairīts vai pievienots pārstrādāšanas laiks",
+                "capacityValue": "Modelētā jaudas vērtība",
+                "acceptedUnits": "Pieņemtās vienības",
+                "attendedUnits": "Apmeklētās vienības",
+                "costPerAttended": "Maksa par vienu apmeklēto vienību",
+                "benefitCost": "Ieguvums-izmaksas daudzkārtējs",
+                "firstYearCost": "Pirmā gada izmaksas",
+                "firstYearRoi": "Pirmā gada IA",
+                "paybackOutsideTerm": "Nav atgūts modelētajā termiņā",
                 "months": "months"
               },
               "fields": {
@@ -365,8 +365,8 @@
                   "help": "Pirms piedāvājumu redz kāda no pusēm, vajadzīga cilvēka pārbaude."
                 },
                 "cycles_per_unit": {
-                  "label": "Cikli uz vienību katru mēnesi",
-                  "help": "Cik periodisku pasūtījumu, pārskatīšanas vai apstrādes ciklu katra vienība veic parastā mēnesī."
+                  "label": "Ciklus vienības mēnešā",
+                  "help": "Cik pasūtījumu, pārbaužu vai apstrādes ciklu katra vienība veic tipiskā mēnesī."
                 },
                 "tokens_per_output": {
                   "label": "Žetoni uz atlasītu pircēja profilu",
@@ -374,7 +374,7 @@
                 },
                 "budget": {
                   "label": "Estimated monthly operating budget",
-                  "help": "Iekļaujiet žetonus, modeļus/medijus, rīkus, infrastruktūru, Gabriel maksu un papildu apmaksātu pārbaudi."
+                  "help": "Iekļaujiet žetonus, modeļus/medijus, rīkus, infrastruktūru, Gabriel maksas un papildu apmaksātu pārbaudi."
                 },
                 "model_cost": {
                   "label": "Modeļa vai mediju papildizmaksas",
@@ -382,39 +382,39 @@
                 },
                 "tools_cost": {
                   "label": "Tools and integrations",
-                  "help": "Pārlūka sesijas, savienotāji un citi maksas pakalpojumi pēc patēriņa. Ja nav, 0."
+                  "help": "Pārlūka sesijas, savienotāji un citi pakalpojumi pēc patēriņa. Ja nav, ievadiet 0."
                 },
                 "infrastructure_cost": {
                   "label": "Infrastructure",
-                  "help": "Papildu mitināšana, glabāšana un skaitļošana šim darbam. Ja nav, ievadiet nulli."
+                  "help": "Papildu mitināšana, glabāšana un skaitļošana šai slodzei. Ja nav, ievadiet nulli."
                 },
                 "platform_cost": {
-                  "label": "Citas piegādes/atbalsta izmaksas",
-                  "help": "Modelētās hostinga, uzglabāšanas, uzraudzības un atbalsta izmaksas, atsevišķi no klienta cenas."
+                  "label": "Other delivery and support cost",
+                  "help": "Modeled hosting, storage, monitoring and support cost, separate from the customer price."
                 },
                 "customer_price": {
                   "label": "Proposed monthly Nest price",
                   "help": "Maināms cenas pieņēmums aģentam/aģentūrai. Tie nav apstiprināti ieņēmumi; tas jāpārbauda maksas izmēģinājumā."
                 },
                 "personal_value_per_hour": {
-                  "label": "Stundai piešķirtā vērtība (neobligāti)",
-                  "help": "Tikai izvēles personīgam salīdzinājumam. Tā nav alga, atlīdzība vai garantēts naudas ietaupījums."
+                  "label": "Jūsu izvēlētā stundas vērtība",
+                  "help": "Tikai izvēles personisks salīdzinājums. Tā nav alga vai garantēts naudas ietaupījums."
                 },
                 "review_rate": {
-                  "label": "Papildus apmaksāta apskate stundā",
-                  "help": "Faktiskie papildu recenzenta izdevumi, nevis nemainīga darbinieka alga."
+                  "label": "Papildu pārbaudes maksa stundā",
+                  "help": "Reāli papildu tēriņi pārbaudītājam, nevis esošā darbinieka nemainīgā alga."
                 },
                 "cash_hours": {
                   "label": "Stundas apmaksāta darba vietā",
-                  "help": "Piešķir tikai darbu, kas tiešām novērsīs virsstundu, ārpakalpojumu vai apstrādes izmaksas."
+                  "help": "Iedaliet tikai darbu, kura virsstundu, ārpakalpojumu vai apstrādes izmaksas tiešām izzudīs."
                 },
                 "cash_baseline": {
-                  "label": "Pašreizējie ikmēneša izdevumi šim darbam",
-                  "help": "Naudas budžets, no kura nāks samazinājums."
+                  "label": "Esošie mēneša tēriņi šim darbam",
+                  "help": "Naudas budžets, kurā radīsies samazinājums."
                 },
                 "cash_avoided": {
-                  "label": "Ikmēneša tēriņus jūs pārtrauktu",
-                  "help": "Viena konkrēta summa, ne stundu un algas reizinājums; bez atsevišķā plānotas pieņemšanas darbā ietaupījuma."
+                  "label": "Mēneša tēriņi, ko pārtrauksiet",
+                  "help": "Viena konkrēta summa, nevis stundas × alga; neiekļaujiet atsevišķi ievadīto plānotās algošanas ietaupījumu."
                 },
                 "higher_value_hours": {
                   "label": "Stundu aģenti var izmantot īstām sarunām",
@@ -426,63 +426,63 @@
                 },
                 "throughput_hours": {
                   "label": "Stundas papildu apjomam",
-                  "help": "Šo piešķīrumu nevar izmantot arī konsultatīvam darbam vai izdevumu samazināšanai."
+                  "help": "Šo piešķīrumu nevar vienlaikus izmantot konsultācijām vai tēriņu samazināšanai."
                 },
                 "extra_minutes": {
-                  "label": "Komandas minūtes uz papildu vienību",
-                  "help": "Atlikušais cilvēka darbs vēl vienas vienības izpildei, tostarp pārbaude."
+                  "label": "Komandas minūtes papildu vienībai",
+                  "help": "Atlikušais cilvēka darbs, ieskaitot pārbaudi, kas vajadzīgs vēl vienai vienībai."
                 },
                 "demand": {
-                  "label": "Papildu vienības ar gaidāmu pieprasījumu",
-                  "help": "Jauda vien nav pieprasījums. Ievadiet papildu ikmēneša darbu, ko plānojat uzņemties."
+                  "label": "Papildu vienības ar gaidītu pieprasījumu",
+                  "help": "Kapacitāte nav pieprasījums. Ievadiet papildu darbu, ko plānojat uzņemties mēnesī."
                 },
                 "unit_margin": {
                   "label": "Contribution per additional unit",
-                  "help": "Papildu ieņēmumi mīnus izpildes izmaksas; MI darbības izmaksas atskaita atsevišķi."
+                  "help": "Papildu ieņēmumi mīnus izpildes izmaksas; MI darbības izmaksas atņem atsevišķi."
                 },
                 "hiring_hours": {
-                  "label": "Stundas, kas aptver plānoto nomu",
-                  "help": "Piešķiriet jaudu konkrētam plānotajam darbam, nevis vispārējai pilnas slodzes ekvivalenta tāmei."
+                  "label": "Stundas plānotā darbinieka vietā",
+                  "help": "Atvēliet jaudu konkrētiem plānotiem darbiem, nevis vispārīgam pilnslodzes ekvivalenta aprēķinam."
                 },
                 "planned_hours": {
-                  "label": "Ikmēneša stundas plānotā nomas maksa",
-                  "help": "Piešķirtajai jaudai ir jāaptver visa šī darba slodze."
+                  "label": "Plānotā darbinieka darba stundas mēnesī",
+                  "help": "Piešķirtajai kapacitātei jāsedz viss šis darba apjoms."
                 },
                 "hire_cost": {
-                  "label": "Ikmēneša nomas maksa faktiski atlikta",
-                  "help": "Izmantojiet patiesi plānotas nomas izmaksas, nevis kāda jau nodarbināta algu."
+                  "label": "Reāli atliktās algošanas mēnešizmaksas",
+                  "help": "Lietojiet reāli plānota jauna darbinieka izmaksas, nevis jau nodarbināta cilvēka algu."
                 },
                 "hire_months": {
-                  "label": "Mēneši, kad noma tiek atlikta",
-                  "help": "Viens līdz divpadsmit mēneši; gada aplēsē pēc šī perioda ietaupījumu vairs neieskaita."
+                  "label": "Algošanas atlikšanas mēneši",
+                  "help": "Viens līdz divpadsmit mēneši; gada aplēse pēc šī perioda ietaupījumu vairs neuzskaita."
                 },
                 "incidents": {
-                  "label": "Paredzamās novērstās kļūdas mēnesī",
-                  "help": "Lieto sākumdatus un gaidīto samazinājumu. Izslēdz incidentus, kas jau skaitīti riska mazināšanā."
+                  "label": "Gaidāmās novērstās kļūdas mēnesī",
+                  "help": "Izmantojiet bāzlīmeni un gaidīto samazinājumu. Izslēdziet risku mazināšanā skaitītos incidentus."
                 },
                 "incident_cost": {
                   "label": "Incremental cost per error",
-                  "help": "Neiekļaujiet citur ieskaitītu darbu, atmaksas vai citus zaudējumus."
+                  "help": "Izslēdziet citur iekļauto darbu, atmaksas vai citus zaudējumus."
                 },
                 "probability_before": {
                   "label": "Monthly loss probability before",
-                  "help": "Jūsu aplēse, nevis garantēts riska novērtējums."
+                  "help": "Jūsu aplēse, nevis garantēts riska vērtējums."
                 },
                 "probability_after": {
                   "label": "Monthly loss probability after",
-                  "help": "Izmantojiet to pašu notikumu un mēneša periodu kā sākumdatos."
+                  "help": "Lietojiet to pašu notikumu un mēneša periodu kā bāzes līmenim."
                 },
                 "loss": {
                   "label": "Notikuma iespējamie zaudējumi",
-                  "help": "Izslēdziet jau uzskaitītas kļūdas un tēriņus. Tā ir nenoteikta sagaidāmā vērtība, ne ietaupīta nauda."
+                  "help": "Izslēdziet jau uzskaitītās kļūdas un tēriņus. Tā ir nenoteikta gaidāmā vērtība, nevis ietaupīta nauda."
                 },
                 "days_before": {
-                  "label": "Cikla laiks iepriekš, dienās",
-                  "help": "Pagājušais laiks no sākuma līdz pabeigšanai, atsevišķi no praktiskām pūlēm."
+                  "label": "Cikla ilgums pirms, dienās",
+                  "help": "Laiks no sākuma līdz pabeigšanai, atsevišķi no aktīvi ieguldītā darba."
                 },
                 "days_after": {
-                  "label": "Cikla laiks pēc, dienās",
-                  "help": "Parādīts tikai kā operatīvas izmaiņas, bez pieņemtās naudas vērtības."
+                  "label": "Cikla ilgums pēc, dienās",
+                  "help": "Parādīts tikai kā darbības izmaiņa bez pieņemtas naudas vērtības."
                 }
               },
               "burden": [
@@ -493,35 +493,6 @@
                 "More qualified, human-reviewed introductions",
                 "Laiks aģentu sarunām un klientu vajadzībām"
               ],
-              "usagePackages": {
-                "base": {
-                  "volume": 1,
-                  "tokensPerOutput": 12000,
-                  "platform_cost": 450,
-                  "minutes": 20,
-                  "automation": 100,
-                  "review": 8,
-                  "model_cost": 0,
-                  "tools_cost": 0,
-                  "infrastructure_cost": 0,
-                  "higher_value_hours": 0,
-                  "contribution_rate": 0
-                },
-                "medium": {
-                  "volume": 1,
-                  "tokensPerOutput": 12000,
-                  "platform_cost": 750,
-                  "minutes": 20,
-                  "automation": 100,
-                  "review": 8,
-                  "model_cost": 0,
-                  "tools_cost": 0,
-                  "infrastructure_cost": 0,
-                  "higher_value_hours": 0,
-                  "contribution_rate": 0
-                }
-              },
-              "defaultPackage": "medium",
               "costMode": "itemized",
               "reviewMode": "team",
               "selected": [
@@ -584,8 +555,7 @@
               ],
               "pricing": {
                 "basis": "fixed",
-                "annualPrice": 9000,
-                "label": "Proposed Nest monthly price",
+                "label": "Cenu noteikšana",
                 "help": "€750/mēnesī — darba hipotēze atlasītu klientu iepazīstināšanas pilotam. Nav apstiprināta, līdz aģents vai mākleru birojs samaksā."
               },
               "presentation": {
@@ -598,8 +568,153 @@
               "primaryLabel": "Talk with Nest",
               "primaryTarget": "meet",
               "secondaryLabel": "See how it works",
-              "privacyNote": "Jūsu dati paliek privāti. Stundas ir ietilpība. Finanšu summas ir modelētas aplēses, nevis novērotie rezultāti.",
+              "privacyNote": "Jūsu dati paliek privāti. Stundas ir kapacitāte. Finanšu summas ir modelētas aplēses, nevis faktiskie rezultāti.",
               "secondaryTarget": "how-it-works"
+            },
+            "compact": {
+              "schemaVersion": 1,
+              "defaultProfileId": "buyer",
+              "copy": {
+                "navLabel": "Cenu noteikšana",
+                "heading": "Cenas un ROI",
+                "intro": "Jūsu dati. Jūsu prognozētā atdeve.",
+                "monthly": "Mēnesis",
+                "weekly": "Nedēļa",
+                "daily": "Diena",
+                "cost": "Tu maksā",
+                "benefit": "Prognozētā atdeve",
+                "net": "Neto peļņa",
+                "roi": "Aplēstā ROI",
+                "timeBenefit": "Aplēstā laika vērtība",
+                "timeRoi": "Laika vērt. ROI",
+                "timeBack": "Atgūtās stundas",
+                "missing": "Ievadīt datus",
+                "noRatio": "Not applicable",
+                "method": "Kā to aprēķina",
+                "reset": "Atiest.",
+                "audience": "Auditorija",
+                "includedVat": "Ar VAT",
+                "excludedVat": "Bez VAT",
+                "perMonth": "mēnesī",
+                "equivalents": "Maksā reizi mēnesī. Dienas un nedēļas rādītāji ir vidējie, ne maksa par dienu vai nedēļu vai garantēta atdeve.",
+                "timeNote": "Laika vērtība ir tava izvēles aplēse, ne ienākums vai algu izmaksu samazinājums. Neto minūtēs ietilpst tavs pārbaudes un apstiprināšanas laiks.",
+                "estimateNote": "Plāna aplēses ir šķirtas no izmērītās ROI. Izmērīto atdevi pamato tikai pieņemti rezultāti un salīdzināmas reģistrētas izmaksas.",
+                "limitNote": "Papildu lietojumam vai atsevišķi cenotiem darbiem sazinies ar mums. Aplēse aptver tikai iekļauto plānu.",
+                "timeFormula": "Laika vērtība = vienības×neto ietaupītās min.÷60×tava stundas vērtība.",
+                "profitFormula": "Seguma peļņa = derīgās ieteikumu sesijas × konversijas pieaugums ÷ 100 × peļņa no papildu pasūtījuma.",
+                "proceedsFormula": "Papildu ieņēmumi = partijas vai savākšanas reizes × (neto ieņēmumi pēc − neto ieņēmumi pirms).",
+                "roiFormula": "Neto = ieguvums − lietotnes abonmaksa. ROI = neto ÷ lietotnes abonmaksa × 100. Bezmaksas plāniem nav ROI procenta."
+              },
+              "profiles": [
+                {
+                  "id": "buyer",
+                  "label": "Aģenta vide · pircēju apraksti",
+                  "model": "time_value",
+                  "unitsPerWorkload": 1,
+                  "inputs": [
+                    {
+                      "id": "units",
+                      "label": "Atlasīti apraksti mēnesī",
+                      "help": "Darbs, ko plāno pārskatīt mēnesī, nepārsniedzot iekļauto apjomu.",
+                      "defaultValue": 20,
+                      "min": 0,
+                      "max": 20,
+                      "step": 1,
+                      "format": "number"
+                    },
+                    {
+                      "id": "minutes_saved",
+                      "label": "Ietaupītās min.",
+                      "help": "Tava aplēse pēc pārbaudes, apstiprināšanas un labojumiem. Negatīva vērtība nozīmē papildu darbu.",
+                      "defaultValue": 12,
+                      "min": -1440,
+                      "max": 1440,
+                      "step": 0.1,
+                      "format": "number"
+                    },
+                    {
+                      "id": "hourly_value",
+                      "label": "Vērtība stundā",
+                      "help": "Tavs izvēles vērtējums. Tas nesola naudas ietaupījumu vai algu izmaksu samazinājumu.",
+                      "defaultValue": null,
+                      "min": 0,
+                      "max": 1000,
+                      "step": 0.01,
+                      "format": "currency"
+                    }
+                  ],
+                  "offer": {
+                    "monthlyPrice": 49,
+                    "basis": "fixed",
+                    "unit": "Aģenta vide · pircēju apraksti",
+                    "vatIncluded": false,
+                    "includedUnits": 20,
+                    "allowance": "20 atlasīti apraksti",
+                    "extras": "Papildu lietojuma un profesionālo pakalpojumu cenu nosaka atsevišķi."
+                  },
+                  "assumptions": [
+                    "Sākotnējās 12 neto minūtes ir ilustratīva sagatavošanas aplēse, nevis izmērīts rezultāts.",
+                    "Neto minūtēs ietilpst klienta pārbaude. Laika vērtību naudā norādi tu; tā nav saņemta nauda."
+                  ],
+                  "loop": "Īpašuma vai pircēja nodoma signāls → atlasa avotos balstītu aprakstu → aģents pārskata, puses piekrīt → fiksē pieņemto iepazīstināšanu un faktisko iznākumu.",
+                  "ctaLabel": "Izmēģini demo",
+                  "ctaTarget": "meet"
+                },
+                {
+                  "id": "seller",
+                  "label": "Aģenta vide · pārdevēju apraksti",
+                  "model": "time_value",
+                  "unitsPerWorkload": 1,
+                  "inputs": [
+                    {
+                      "id": "units",
+                      "label": "Atlasīti apraksti mēnesī",
+                      "help": "Darbs, ko plāno pārskatīt mēnesī, nepārsniedzot iekļauto apjomu.",
+                      "defaultValue": 20,
+                      "min": 0,
+                      "max": 20,
+                      "step": 1,
+                      "format": "number"
+                    },
+                    {
+                      "id": "minutes_saved",
+                      "label": "Ietaupītās min.",
+                      "help": "Tava aplēse pēc pārbaudes, apstiprināšanas un labojumiem. Negatīva vērtība nozīmē papildu darbu.",
+                      "defaultValue": 12,
+                      "min": -1440,
+                      "max": 1440,
+                      "step": 0.1,
+                      "format": "number"
+                    },
+                    {
+                      "id": "hourly_value",
+                      "label": "Vērtība stundā",
+                      "help": "Tavs izvēles vērtējums. Tas nesola naudas ietaupījumu vai algu izmaksu samazinājumu.",
+                      "defaultValue": null,
+                      "min": 0,
+                      "max": 1000,
+                      "step": 0.01,
+                      "format": "currency"
+                    }
+                  ],
+                  "offer": {
+                    "monthlyPrice": 49,
+                    "basis": "fixed",
+                    "unit": "Aģenta vide · pārdevēju apraksti",
+                    "vatIncluded": false,
+                    "includedUnits": 20,
+                    "allowance": "20 atlasīti apraksti",
+                    "extras": "Papildu lietojuma un profesionālo pakalpojumu cenu nosaka atsevišķi."
+                  },
+                  "assumptions": [
+                    "Sākotnējās 12 neto minūtes ir ilustratīva sagatavošanas aplēse, nevis izmērīts rezultāts.",
+                    "Neto minūtēs ietilpst klienta pārbaude. Laika vērtību naudā norādi tu; tā nav saņemta nauda."
+                  ],
+                  "loop": "Īpašuma vai pircēja nodoma signāls → atlasa avotos balstītu aprakstu → aģents pārskata, puses piekrīt → fiksē pieņemto iepazīstināšanu un faktisko iznākumu.",
+                  "ctaLabel": "Izmēģini demo",
+                  "ctaTarget": "meet"
+                }
+              ]
             }
           },
           "leadScan": {
@@ -710,7 +825,7 @@
             },
             {
               "key": "privateConstraints",
-              "label": "Privāti ierobežojumi",
+              "label": "Privātie ierobežojumi",
               "placeholder": "Jebkas, kas Nest būjtu jāpatur privāti",
               "type": "textarea",
               "required": false
@@ -720,24 +835,24 @@
             "methodologyVersion": 2,
             "enabled": true,
             "kicker": "Business impact",
-            "heading": "ROI Calculator",
-            "subheading": "Modelējiet licencētu otro mājokļu aģentu vai biroju, kas ar Nest vietējā tirgū veido kvalificētus, cilvēka pārbaudītus kontaktus.",
-            "disclaimer": "Modelēts darbības scenārijs ar nulli apstiprinātu apmaksātu pieprasījumu. Nest kvalificē un koordinē saskaņoto ievadu; tas nepārstāv puses, nenovērtē īpašumu, neveic sarunas, negūst komisijas naudu un negarantē darījumu.",
+            "heading": "Cenas un ROI",
+            "subheading": "Jūsu dati. Jūsu prognozētā atdeve.",
+            "disclaimer": "Plāna aplēses ir šķirtas no izmērītās ROI. Izmērīto atdevi pamato tikai pieņemti rezultāti un salīdzināmas reģistrētas izmaksas.",
             "currency": "EUR",
             "currencyCopy": {
               "native": "Amounts in {currency}.",
               "loading": "Checking the local currency. Amounts remain in {currency} until a rate is available.",
               "unavailable": "A current local exchange rate is unavailable. Amounts remain in {currency}.",
               "converted": "Amounts converted from {base} to {currency} using the reference rate dated {date}.",
-              "basis": "Valūtas konvertēšana nav vietējo izmaksu izpēte. Ievadiet savas vietējās izmaksas un ieguldījumu pieņēmumus. Valodas izmaiņas nemaina summas."
+              "basis": "Valūtas konvertēšana nav vietējo izmaksu izpēte. Ievadiet savas vietējās izmaksas un pienesuma pieņēmumus. Valodas maiņa nemaina summas."
             },
             "costCopy": {
               "breakdown": "Kā veidojas kopējās MI izmaksas",
               "perUnit": "{amount} per work unit (average)",
-              "budgetOnly": "Šis ir kopējais budžets. Detalizācijai izvēlieties izmaksu sadalījumu; sadalījums vēl nav pieņemts.",
-              "benefitNotice": "Modelēti ieguvumi, nevis maksa. Pārsvītrotās summas ir paredzētie novēršamie tēriņi, nevis atlaides MI rēķinam.",
+              "budgetOnly": "Tas ir kopējais budžets. Detalizējiet to sadaļā «Izmaksu sadalījums»; sadalījums nav pieņemts.",
+              "benefitNotice": "Modelēti ieguvumi, nevis maksas. Pārsvītrotās summas ir paredzētie novērstie tēriņi, nevis atlaides MI rēķinam.",
               "remainder": "Other included operating costs",
-              "allocation": "Atgūtās stundas dod jaudu, ne automātisku ietaupījumu. Naudas vērtību piešķir tikai tai daļai, ko novirzāt reālam tēriņu samazinājumam vai papildu pienesumam."
+              "allocation": "Atgūtās stundas ir kapacitāte, nevis automātisks ietaupījums. Naudas vērtību piešķir tikai daļai, ko novirzāt faktiskam tēriņu samazinājumam vai papildu pienesumam."
             },
             "locale": "en-GB",
             "inputs": [],
@@ -756,17 +871,17 @@
                 "platform_cost": 1500,
                 "higher_value_hours": 0,
                 "contribution_rate": 0,
-                "customer_price": 750
+                "customer_price": 49
               },
               "copy": {
-                "navLabel": "Cenas",
+                "navLabel": "Cenu noteikšana",
                 "workloadStep": "Introduction funnel",
                 "costStep": "AI operating cost",
                 "valueStep": "Capacity and evidence",
                 "workloadIntro": "Modelējiet brīvdienu mājokļu interesentus, atlasi un cilvēka pārbaudi, ne pārdošanu, komisijas vai garantētu saderību.",
                 "costIntro": "Tokena, modeļa, rīka, infrastruktūras, platformas un recenzenta izmaksas ir piegādes pieņēmumi. Nest cena ir atsevišķa neapstiprināta hipotēze.",
                 "valueIntro": "Jauda nav ieņēmumi. Ievadiet novēroto pienesumu tikai tad, kad reāls aģents vai aģentūra lieto pakalpojumu un par to maksā.",
-                "sampleNotice": "Tipisks lietojums · nav reāli rezultāti",
+                "sampleNotice": "Tipisks lietojums · ne faktiskie dati",
                 "monthly": "Monthly",
                 "yearly": "Yearly",
                 "next": "Continue",
@@ -791,11 +906,11 @@
                 "reviewMode": "Who handles the review?",
                 "teamReview": "Existing team",
                 "paidReview": "Additional paid reviewer",
-                "reviewNote": "Esošās komandas pārbaude izmanto atgūto jaudu. Papildu apmaksāta pārbaude ir darbības izmaksās; to atkārtoti neatņem no komandas jaudas.",
+                "reviewNote": "Esošās komandas pārbaude izmanto atgūto kapacitāti. Papildu apmaksāta pārbaude ir darbības izmaksās; to atkārtoti neatņem no komandas kapacitātes.",
                 "totalMode": "Monthly budget",
                 "itemizedMode": "Cost breakdown",
-                "budgetNote": "Budžetā jāiekļauj modeļi/mediji, rīki, infrastruktūra, Gabriel maksas un papildu apmaksāta pārskatīšana. Neiekļaujiet nemainīgu algu sarakstu kā jaunus izdevumus.",
-                "itemizedNote": "Žetonu patēriņš = apjoms × žetoni uz rezultātu. Papildu mediju, rīku un infrastruktūras izmaksas ir nulle, ja tie nav vajadzīgi. Papildu apmaksātu pārbaudi aprēķina pēc pārbaudes stundām un likmes.",
+                "budgetNote": "Budžetā iekļaujiet modeļus/medijus, rīkus, infrastruktūru, Gabriel maksas un papildu apmaksātu pārbaudi. Nemainīgu algu fondu neiekļaujiet kā jaunus tēriņus.",
+                "itemizedNote": "Žetonu patēriņš = apjoms × žetoni uz vienību. Papildu mediju, rīku un infrastruktūras izmaksas ir nulle, ja tās nerodas. Papildu apmaksātu pārbaudi aprēķina pēc pārbaudes stundām un likmes.",
                 "paidReviewCost": "Additional paid review cost",
                 "allInCost": "Operating cost",
                 "missing": "Add your assumptions",
@@ -808,43 +923,43 @@
                 "multiple": "Internal delivery multiple",
                 "customerBenefit": "Modeled agent benefit",
                 "customerRoi": "Modeled customer ROI",
-                "payback": "Customer payback period",
+                "payback": "Klienta atmaksas laiks",
                 "notApplicable": "Not applicable",
                 "annual": "Annual view",
-                "annualNote": "Tie paši ikmēneša pieņēmumi, bez pieauguma vai salikšanas. Nomas ietaupījumi saglabājas tikai norādītajā periodā.",
+                "annualNote": "Tie paši mēneša pieņēmumi, bez pieauguma vai uzkrāšanas. Darbinieka algošanas ietaupījums ir tikai norādītajā periodā.",
                 "method": "How this is calculated",
                 "burdenHeading": "Repetitive work reduced",
                 "opportunityHeading": "Capacity for higher-value work",
-                "methodBody": "Mazāks darba slogs (negatīvā produktivitāte) atbrīvo jaudu. Vērtīgāks darbs (iespējamā pozitīvā produktivitāte) rada vērtību tikai tad, ja šo jaudu izmanto. Stundas pašas par sevi nav naudas ietaupījums. Žetonu izmaksām lieto modelētu ievades/izvades attiecību, ne sniedzēja cenas piedāvājumu.",
+                "methodBody": "Mazāks darba slogs (negatīva produktivitāte) atbrīvo kapacitāti. Vērtīgāks darbs (iespējama pozitīva produktivitāte) rada ekonomisko vērtību tikai tad, ja šo kapacitāti izmanto. Stundas pašas naudu neietaupa. Žetonu izmaksas balstās modelētā ievades/izvades attiecībā, nevis piegādātāja cenā.",
                 "formulaLabel": "Atlasītie profili = interesenti × atlases īpatsvars. Izpildes izmaksās ir modelētās žetonu, modeļu, rīku, infrastruktūras, platformas un cilvēka pārbaudes izmaksas. Klienta ieguldījumu atdeve nav pieejama, līdz ieguvumu un cenu pamato pierādījumi.",
-                "allocationNote": "Katru stundu var atvēlēt vienu reizi. Nepiešķirtās stundas paliek jaudas, bez naudas vērtības.",
-                "overlapLabel": "Šie ieguvumi nepārklājas; esmu izslēdzis citur jau uzskaitītās izmaksas un zaudējumus.",
-                "overlapNote": "Kļūdu un riska aplēsēs neiekļauj darbaspēka ietaupījumu; vienu incidentu nedrīkst uzskaitīt abās kategorijās. Pienesumā neiekļauj MI izmaksas, tās atskaita atsevišķi.",
-                "hiringLabel": "Šī noma bija patiesi plānota, un piešķirtā jauda var nosegt darbu.",
-                "reviewedLabel": "Esmu pārskatījis savus rezultātus; neatlasītiem rezultātiem šajā aplēsē nav finansiālas vērtības.",
+                "allocationNote": "Katru stundu var sadalīt vienreiz. Nesadalītās stundas paliek kapacitāte bez naudas vērtības.",
+                "overlapLabel": "Šie ieguvumi nepārklājas; citur jau uzskaitītās izmaksas un zaudējumus esmu izslēdzis.",
+                "overlapNote": "Kļūdu un risku aplēsēs neiekļauj darba ietaupījumu; vienu incidentu nedrīkst iekļaut abās kategorijās. Pienesumā neiekļauj MI izmaksas, kuras atņem atsevišķi.",
+                "hiringLabel": "Šo darbinieku tiešām bija plānots pieņemt, un piešķirtā kapacitāte sedz viņa darbu.",
+                "reviewedLabel": "Esmu pārskatījis rezultātus; neatlasītajiem šajā aplēsē nav finansiālas vērtības.",
                 "cycleResult": "Cycle-time improvement",
-                "throughputResult": "Papildu darbs, ko atbalsta jauda un pieprasījums",
-                "assumptionsIncomplete": "Pabeidziet atlasītos pieņēmumus, lai aprēķinātu finansiālo vērtību.",
-                "allocationError": "Piešķirtās stundas pārsniedz pieejamo neto jaudu. Samaziniet piešķīrumus.",
-                "reviewError": "Pārbaude aizņem vairāk laika, nekā darbs ietaupa. Ar šiem pieņēmumiem papildu jauda nav pieejama.",
-                "cashError": "Novērstie tēriņi nevar pārsniegt pašreizējos vai būt pozitīvi, ja nav atvēlētas stundas.",
-                "hiringError": "Piešķirtajai jaudai jāietver plānotās nomas stundas. Apstipriniet plānoto nomas termiņu un tā ilgumu.",
-                "riskError": "Zaudējumu samazināšanas aplēses pēc varbūtība nedrīkst pārsniegt pirms varbūtību.",
-                "overlapError": "Pirms iekļaujat tos finanšu rezultātos, pārliecinieties, ka ieguvumi nepārklājas.",
-                "boundsError": "Izmantojiet vērtības parādītajās robežās.",
+                "throughputResult": "Papildu darbs pēc kapacitātes un pieprasījuma",
+                "assumptionsIncomplete": "Aizpildiet izvēlētos pieņēmumus, lai aprēķinātu finansiālo vērtību.",
+                "allocationError": "Piešķirtās stundas pārsniedz pieejamo neto kapacitāti. Samaziniet piešķīrumus.",
+                "reviewError": "Pārbaude aizņem vairāk laika, nekā ietaupīts darbā. Ar šiem pieņēmumiem papildu kapacitātes nav.",
+                "cashError": "Novērstie tēriņi nevar pārsniegt esošos tēriņus vai būt pozitīvi, ja tiem nav piešķirtu stundu.",
+                "hiringError": "Kapacitātei jāsedz plānotā darbinieka stundas. Apstipriniet plānoto pieņemšanu darbā un ilgumu.",
+                "riskError": "Zaudējumu samazinājuma aplēsē varbūtība pēc izmaiņām nevar pārsniegt sākotnējo varbūtību.",
+                "overlapError": "Pirms ieguvumu iekļaušanas finanšu rezultātā apstipriniet, ka tie nepārklājas.",
+                "boundsError": "Lietojiet vērtības norādītajās robežās.",
                 "rangeLabel": "Adjust value",
-                "noCurrencyChange": "Valoda maina formatējumu, nevis jūsu valūtu vai pieņēmumus.",
-                "currentPreparation": "Aktuālie sagatavošanas stundas",
-                "reviewHours": "Cilvēciskās pārbaudes stundas",
-                "reworkHours": "Izvairītie vai pievienotais pārstrādes stundas",
-                "capacityValue": "Modelētā kapacitātes vērtība",
-                "acceptedUnits": "Pieņemtas vienības",
-                "attendedUnits": "Apstrādātās vienības",
-                "costPerAttended": "Kostenība uz vienu apstrādātu vienību",
-                "benefitCost": "Ieguldījuma-kostenības daudzums",
-                "firstYearCost": "Pirmā gada kostenība",
-                "firstYearRoi": "Pirmā gada ROI",
-                "paybackOutsideTerm": "Nav atgūts ietvaros modelētā termiņa",
+                "noCurrencyChange": "Valoda maina formātu, nevis valūtu vai pieņēmumus.",
+                "currentPreparation": "Pašreizējās sagatavošanas stundas",
+                "reviewHours": "Cilvēku apskates stundas",
+                "reworkHours": "Izvairīts vai pievienots pārstrādāšanas laiks",
+                "capacityValue": "Modelētā jaudas vērtība",
+                "acceptedUnits": "Pieņemtās vienības",
+                "attendedUnits": "Apmeklētās vienības",
+                "costPerAttended": "Maksa par vienu apmeklēto vienību",
+                "benefitCost": "Ieguvums-izmaksas daudzkārtējs",
+                "firstYearCost": "Pirmā gada izmaksas",
+                "firstYearRoi": "Pirmā gada IA",
+                "paybackOutsideTerm": "Nav atgūts modelētajā termiņā",
                 "months": "months"
               },
               "fields": {
@@ -873,8 +988,8 @@
                   "help": "Pirms piedāvājumu redz kāda no pusēm, vajadzīga cilvēka pārbaude."
                 },
                 "cycles_per_unit": {
-                  "label": "Cikli uz vienību katru mēnesi",
-                  "help": "Cik periodisku pasūtījumu, pārskatīšanas vai apstrādes ciklu katra vienība veic parastā mēnesī."
+                  "label": "Ciklus vienības mēnešā",
+                  "help": "Cik pasūtījumu, pārbaužu vai apstrādes ciklu katra vienība veic tipiskā mēnesī."
                 },
                 "tokens_per_output": {
                   "label": "Tokeni uz atlasītu pārdevēja anketu",
@@ -882,7 +997,7 @@
                 },
                 "budget": {
                   "label": "Estimated monthly operating budget",
-                  "help": "Iekļaujiet žetonus, modeļus/medijus, rīkus, infrastruktūru, Gabriel maksu un papildu apmaksātu pārbaudi."
+                  "help": "Iekļaujiet žetonus, modeļus/medijus, rīkus, infrastruktūru, Gabriel maksas un papildu apmaksātu pārbaudi."
                 },
                 "model_cost": {
                   "label": "Modeļa vai mediju papildizmaksas",
@@ -890,39 +1005,39 @@
                 },
                 "tools_cost": {
                   "label": "Tools and integrations",
-                  "help": "Pārlūka sesijas, savienotāji un citi maksas pakalpojumi pēc patēriņa. Ja nav, 0."
+                  "help": "Pārlūka sesijas, savienotāji un citi pakalpojumi pēc patēriņa. Ja nav, ievadiet 0."
                 },
                 "infrastructure_cost": {
                   "label": "Infrastructure",
-                  "help": "Papildu mitināšana, glabāšana un skaitļošana šim darbam. Ja nav, ievadiet nulli."
+                  "help": "Papildu mitināšana, glabāšana un skaitļošana šai slodzei. Ja nav, ievadiet nulli."
                 },
                 "platform_cost": {
-                  "label": "Citas piegādes/atbalsta izmaksas",
-                  "help": "Modelētās hostinga, uzglabāšanas, uzraudzības un atbalsta izmaksas, atsevišķi no klienta cenas."
+                  "label": "Other delivery and support cost",
+                  "help": "Modeled hosting, storage, monitoring and support cost, separate from the customer price."
                 },
                 "customer_price": {
                   "label": "Proposed monthly Nest price",
                   "help": "Maināms cenas pieņēmums aģentam/aģentūrai. Tie nav apstiprināti ieņēmumi; tas jāpārbauda maksas izmēģinājumā."
                 },
                 "personal_value_per_hour": {
-                  "label": "Stundai piešķirtā vērtība (neobligāti)",
-                  "help": "Tikai izvēles personīgam salīdzinājumam. Tā nav alga, atlīdzība vai garantēts naudas ietaupījums."
+                  "label": "Jūsu izvēlētā stundas vērtība",
+                  "help": "Tikai izvēles personisks salīdzinājums. Tā nav alga vai garantēts naudas ietaupījums."
                 },
                 "review_rate": {
-                  "label": "Papildus apmaksāta apskate stundā",
-                  "help": "Faktiskie papildu recenzenta izdevumi, nevis nemainīga darbinieka alga."
+                  "label": "Papildu pārbaudes maksa stundā",
+                  "help": "Reāli papildu tēriņi pārbaudītājam, nevis esošā darbinieka nemainīgā alga."
                 },
                 "cash_hours": {
                   "label": "Stundas apmaksāta darba vietā",
-                  "help": "Piešķir tikai darbu, kas tiešām novērsīs virsstundu, ārpakalpojumu vai apstrādes izmaksas."
+                  "help": "Iedaliet tikai darbu, kura virsstundu, ārpakalpojumu vai apstrādes izmaksas tiešām izzudīs."
                 },
                 "cash_baseline": {
-                  "label": "Pašreizējie ikmēneša izdevumi šim darbam",
-                  "help": "Naudas budžets, no kura nāks samazinājums."
+                  "label": "Esošie mēneša tēriņi šim darbam",
+                  "help": "Naudas budžets, kurā radīsies samazinājums."
                 },
                 "cash_avoided": {
-                  "label": "Ikmēneša tēriņus jūs pārtrauktu",
-                  "help": "Viena konkrēta summa, ne stundu un algas reizinājums; bez atsevišķā plānotas pieņemšanas darbā ietaupījuma."
+                  "label": "Mēneša tēriņi, ko pārtrauksiet",
+                  "help": "Viena konkrēta summa, nevis stundas × alga; neiekļaujiet atsevišķi ievadīto plānotās algošanas ietaupījumu."
                 },
                 "higher_value_hours": {
                   "label": "Stundu aģenti var izmantot īstām sarunām",
@@ -934,63 +1049,63 @@
                 },
                 "throughput_hours": {
                   "label": "Stundas papildu apjomam",
-                  "help": "Šo piešķīrumu nevar izmantot arī konsultatīvam darbam vai izdevumu samazināšanai."
+                  "help": "Šo piešķīrumu nevar vienlaikus izmantot konsultācijām vai tēriņu samazināšanai."
                 },
                 "extra_minutes": {
-                  "label": "Komandas minūtes uz papildu vienību",
-                  "help": "Atlikušais cilvēka darbs vēl vienas vienības izpildei, tostarp pārbaude."
+                  "label": "Komandas minūtes papildu vienībai",
+                  "help": "Atlikušais cilvēka darbs, ieskaitot pārbaudi, kas vajadzīgs vēl vienai vienībai."
                 },
                 "demand": {
-                  "label": "Papildu vienības ar gaidāmu pieprasījumu",
-                  "help": "Jauda vien nav pieprasījums. Ievadiet papildu ikmēneša darbu, ko plānojat uzņemties."
+                  "label": "Papildu vienības ar gaidītu pieprasījumu",
+                  "help": "Kapacitāte nav pieprasījums. Ievadiet papildu darbu, ko plānojat uzņemties mēnesī."
                 },
                 "unit_margin": {
                   "label": "Contribution per additional unit",
-                  "help": "Papildu ieņēmumi mīnus izpildes izmaksas; MI darbības izmaksas atskaita atsevišķi."
+                  "help": "Papildu ieņēmumi mīnus izpildes izmaksas; MI darbības izmaksas atņem atsevišķi."
                 },
                 "hiring_hours": {
-                  "label": "Stundas, kas aptver plānoto nomu",
-                  "help": "Piešķiriet jaudu konkrētam plānotajam darbam, nevis vispārējai pilnas slodzes ekvivalenta tāmei."
+                  "label": "Stundas plānotā darbinieka vietā",
+                  "help": "Atvēliet jaudu konkrētiem plānotiem darbiem, nevis vispārīgam pilnslodzes ekvivalenta aprēķinam."
                 },
                 "planned_hours": {
-                  "label": "Ikmēneša stundas plānotā nomas maksa",
-                  "help": "Piešķirtajai jaudai ir jāaptver visa šī darba slodze."
+                  "label": "Plānotā darbinieka darba stundas mēnesī",
+                  "help": "Piešķirtajai kapacitātei jāsedz viss šis darba apjoms."
                 },
                 "hire_cost": {
-                  "label": "Ikmēneša nomas maksa faktiski atlikta",
-                  "help": "Izmantojiet patiesi plānotas nomas izmaksas, nevis kāda jau nodarbināta algu."
+                  "label": "Reāli atliktās algošanas mēnešizmaksas",
+                  "help": "Lietojiet reāli plānota jauna darbinieka izmaksas, nevis jau nodarbināta cilvēka algu."
                 },
                 "hire_months": {
-                  "label": "Mēneši, kad noma tiek atlikta",
-                  "help": "Viens līdz divpadsmit mēneši; gada aplēsē pēc šī perioda ietaupījumu vairs neieskaita."
+                  "label": "Algošanas atlikšanas mēneši",
+                  "help": "Viens līdz divpadsmit mēneši; gada aplēse pēc šī perioda ietaupījumu vairs neuzskaita."
                 },
                 "incidents": {
-                  "label": "Paredzamās novērstās kļūdas mēnesī",
-                  "help": "Lieto sākumdatus un gaidīto samazinājumu. Izslēdz incidentus, kas jau skaitīti riska mazināšanā."
+                  "label": "Gaidāmās novērstās kļūdas mēnesī",
+                  "help": "Izmantojiet bāzlīmeni un gaidīto samazinājumu. Izslēdziet risku mazināšanā skaitītos incidentus."
                 },
                 "incident_cost": {
                   "label": "Incremental cost per error",
-                  "help": "Neiekļaujiet citur ieskaitītu darbu, atmaksas vai citus zaudējumus."
+                  "help": "Izslēdziet citur iekļauto darbu, atmaksas vai citus zaudējumus."
                 },
                 "probability_before": {
                   "label": "Monthly loss probability before",
-                  "help": "Jūsu aplēse, nevis garantēts riska novērtējums."
+                  "help": "Jūsu aplēse, nevis garantēts riska vērtējums."
                 },
                 "probability_after": {
                   "label": "Monthly loss probability after",
-                  "help": "Izmantojiet to pašu notikumu un mēneša periodu kā sākumdatos."
+                  "help": "Lietojiet to pašu notikumu un mēneša periodu kā bāzes līmenim."
                 },
                 "loss": {
                   "label": "Notikuma iespējamie zaudējumi",
-                  "help": "Izslēdziet jau uzskaitītas kļūdas un tēriņus. Tā ir nenoteikta sagaidāmā vērtība, ne ietaupīta nauda."
+                  "help": "Izslēdziet jau uzskaitītās kļūdas un tēriņus. Tā ir nenoteikta gaidāmā vērtība, nevis ietaupīta nauda."
                 },
                 "days_before": {
-                  "label": "Cikla laiks iepriekš, dienās",
-                  "help": "Pagājušais laiks no sākuma līdz pabeigšanai, atsevišķi no praktiskām pūlēm."
+                  "label": "Cikla ilgums pirms, dienās",
+                  "help": "Laiks no sākuma līdz pabeigšanai, atsevišķi no aktīvi ieguldītā darba."
                 },
                 "days_after": {
-                  "label": "Cikla laiks pēc, dienās",
-                  "help": "Parādīts tikai kā operatīvas izmaiņas, bez pieņemtās naudas vērtības."
+                  "label": "Cikla ilgums pēc, dienās",
+                  "help": "Parādīts tikai kā darbības izmaiņa bez pieņemtas naudas vērtības."
                 }
               },
               "burden": [
@@ -1001,35 +1116,6 @@
                 "More qualified, human-reviewed introductions",
                 "Laiks aģentu sarunām un klientu vajadzībām"
               ],
-              "usagePackages": {
-                "base": {
-                  "volume": 1,
-                  "tokensPerOutput": 12000,
-                  "platform_cost": 450,
-                  "minutes": 25,
-                  "automation": 100,
-                  "review": 10,
-                  "model_cost": 0,
-                  "tools_cost": 0,
-                  "infrastructure_cost": 0,
-                  "higher_value_hours": 0,
-                  "contribution_rate": 0
-                },
-                "medium": {
-                  "volume": 1,
-                  "tokensPerOutput": 12000,
-                  "platform_cost": 750,
-                  "minutes": 25,
-                  "automation": 100,
-                  "review": 10,
-                  "model_cost": 0,
-                  "tools_cost": 0,
-                  "infrastructure_cost": 0,
-                  "higher_value_hours": 0,
-                  "contribution_rate": 0
-                }
-              },
-              "defaultPackage": "medium",
               "costMode": "itemized",
               "reviewMode": "team",
               "selected": [
@@ -1097,8 +1183,7 @@
               ],
               "pricing": {
                 "basis": "fixed",
-                "annualPrice": 9000,
-                "label": "Proposed Nest monthly price",
+                "label": "Cenu noteikšana",
                 "help": "€750/mēnesī — darba hipotēze atlasītu klientu iepazīstināšanas pilotam. Nav apstiprināta, līdz aģents vai mākleru birojs samaksā."
               },
               "presentation": {
@@ -1111,8 +1196,153 @@
               "primaryLabel": "Talk with Nest",
               "primaryTarget": "meet",
               "secondaryLabel": "See how it works",
-              "privacyNote": "Jūsu dati paliek privāti. Stundas ir ietilpība. Finanšu summas ir modelētas aplēses, nevis novērotie rezultāti.",
+              "privacyNote": "Jūsu dati paliek privāti. Stundas ir kapacitāte. Finanšu summas ir modelētas aplēses, nevis faktiskie rezultāti.",
               "secondaryTarget": "how-it-works"
+            },
+            "compact": {
+              "schemaVersion": 1,
+              "defaultProfileId": "seller",
+              "copy": {
+                "navLabel": "Cenu noteikšana",
+                "heading": "Cenas un ROI",
+                "intro": "Jūsu dati. Jūsu prognozētā atdeve.",
+                "monthly": "Mēnesis",
+                "weekly": "Nedēļa",
+                "daily": "Diena",
+                "cost": "Tu maksā",
+                "benefit": "Prognozētā atdeve",
+                "net": "Neto peļņa",
+                "roi": "Aplēstā ROI",
+                "timeBenefit": "Aplēstā laika vērtība",
+                "timeRoi": "Laika vērt. ROI",
+                "timeBack": "Atgūtās stundas",
+                "missing": "Ievadīt datus",
+                "noRatio": "Not applicable",
+                "method": "Kā to aprēķina",
+                "reset": "Atiest.",
+                "audience": "Auditorija",
+                "includedVat": "Ar VAT",
+                "excludedVat": "Bez VAT",
+                "perMonth": "mēnesī",
+                "equivalents": "Maksā reizi mēnesī. Dienas un nedēļas rādītāji ir vidējie, ne maksa par dienu vai nedēļu vai garantēta atdeve.",
+                "timeNote": "Laika vērtība ir tava izvēles aplēse, ne ienākums vai algu izmaksu samazinājums. Neto minūtēs ietilpst tavs pārbaudes un apstiprināšanas laiks.",
+                "estimateNote": "Plāna aplēses ir šķirtas no izmērītās ROI. Izmērīto atdevi pamato tikai pieņemti rezultāti un salīdzināmas reģistrētas izmaksas.",
+                "limitNote": "Papildu lietojumam vai atsevišķi cenotiem darbiem sazinies ar mums. Aplēse aptver tikai iekļauto plānu.",
+                "timeFormula": "Laika vērtība = vienības×neto ietaupītās min.÷60×tava stundas vērtība.",
+                "profitFormula": "Seguma peļņa = derīgās ieteikumu sesijas × konversijas pieaugums ÷ 100 × peļņa no papildu pasūtījuma.",
+                "proceedsFormula": "Papildu ieņēmumi = partijas vai savākšanas reizes × (neto ieņēmumi pēc − neto ieņēmumi pirms).",
+                "roiFormula": "Neto = ieguvums − lietotnes abonmaksa. ROI = neto ÷ lietotnes abonmaksa × 100. Bezmaksas plāniem nav ROI procenta."
+              },
+              "profiles": [
+                {
+                  "id": "buyer",
+                  "label": "Aģenta vide · pircēju apraksti",
+                  "model": "time_value",
+                  "unitsPerWorkload": 1,
+                  "inputs": [
+                    {
+                      "id": "units",
+                      "label": "Atlasīti apraksti mēnesī",
+                      "help": "Darbs, ko plāno pārskatīt mēnesī, nepārsniedzot iekļauto apjomu.",
+                      "defaultValue": 20,
+                      "min": 0,
+                      "max": 20,
+                      "step": 1,
+                      "format": "number"
+                    },
+                    {
+                      "id": "minutes_saved",
+                      "label": "Ietaupītās min.",
+                      "help": "Tava aplēse pēc pārbaudes, apstiprināšanas un labojumiem. Negatīva vērtība nozīmē papildu darbu.",
+                      "defaultValue": 12,
+                      "min": -1440,
+                      "max": 1440,
+                      "step": 0.1,
+                      "format": "number"
+                    },
+                    {
+                      "id": "hourly_value",
+                      "label": "Vērtība stundā",
+                      "help": "Tavs izvēles vērtējums. Tas nesola naudas ietaupījumu vai algu izmaksu samazinājumu.",
+                      "defaultValue": null,
+                      "min": 0,
+                      "max": 1000,
+                      "step": 0.01,
+                      "format": "currency"
+                    }
+                  ],
+                  "offer": {
+                    "monthlyPrice": 49,
+                    "basis": "fixed",
+                    "unit": "Aģenta vide · pircēju apraksti",
+                    "vatIncluded": false,
+                    "includedUnits": 20,
+                    "allowance": "20 atlasīti apraksti",
+                    "extras": "Papildu lietojuma un profesionālo pakalpojumu cenu nosaka atsevišķi."
+                  },
+                  "assumptions": [
+                    "Sākotnējās 12 neto minūtes ir ilustratīva sagatavošanas aplēse, nevis izmērīts rezultāts.",
+                    "Neto minūtēs ietilpst klienta pārbaude. Laika vērtību naudā norādi tu; tā nav saņemta nauda."
+                  ],
+                  "loop": "Īpašuma vai pircēja nodoma signāls → atlasa avotos balstītu aprakstu → aģents pārskata, puses piekrīt → fiksē pieņemto iepazīstināšanu un faktisko iznākumu.",
+                  "ctaLabel": "Izmēģini demo",
+                  "ctaTarget": "meet"
+                },
+                {
+                  "id": "seller",
+                  "label": "Aģenta vide · pārdevēju apraksti",
+                  "model": "time_value",
+                  "unitsPerWorkload": 1,
+                  "inputs": [
+                    {
+                      "id": "units",
+                      "label": "Atlasīti apraksti mēnesī",
+                      "help": "Darbs, ko plāno pārskatīt mēnesī, nepārsniedzot iekļauto apjomu.",
+                      "defaultValue": 20,
+                      "min": 0,
+                      "max": 20,
+                      "step": 1,
+                      "format": "number"
+                    },
+                    {
+                      "id": "minutes_saved",
+                      "label": "Ietaupītās min.",
+                      "help": "Tava aplēse pēc pārbaudes, apstiprināšanas un labojumiem. Negatīva vērtība nozīmē papildu darbu.",
+                      "defaultValue": 12,
+                      "min": -1440,
+                      "max": 1440,
+                      "step": 0.1,
+                      "format": "number"
+                    },
+                    {
+                      "id": "hourly_value",
+                      "label": "Vērtība stundā",
+                      "help": "Tavs izvēles vērtējums. Tas nesola naudas ietaupījumu vai algu izmaksu samazinājumu.",
+                      "defaultValue": null,
+                      "min": 0,
+                      "max": 1000,
+                      "step": 0.01,
+                      "format": "currency"
+                    }
+                  ],
+                  "offer": {
+                    "monthlyPrice": 49,
+                    "basis": "fixed",
+                    "unit": "Aģenta vide · pārdevēju apraksti",
+                    "vatIncluded": false,
+                    "includedUnits": 20,
+                    "allowance": "20 atlasīti apraksti",
+                    "extras": "Papildu lietojuma un profesionālo pakalpojumu cenu nosaka atsevišķi."
+                  },
+                  "assumptions": [
+                    "Sākotnējās 12 neto minūtes ir ilustratīva sagatavošanas aplēse, nevis izmērīts rezultāts.",
+                    "Neto minūtēs ietilpst klienta pārbaude. Laika vērtību naudā norādi tu; tā nav saņemta nauda."
+                  ],
+                  "loop": "Īpašuma vai pircēja nodoma signāls → atlasa avotos balstītu aprakstu → aģents pārskata, puses piekrīt → fiksē pieņemto iepazīstināšanu un faktisko iznākumu.",
+                  "ctaLabel": "Izmēģini demo",
+                  "ctaTarget": "meet"
+                }
+              ]
             }
           },
           "leadScan": {
@@ -1153,14 +1383,14 @@
           "introHeading": "Jūsu privātais mājokļa apraksts",
           "introBody": "Kopīgojiet tikai to, kas cilvēka recenzentam ir vajadzīgs. Precīzas adreses un kontaktinformācika šeit nekad netiek pieprasīta.",
           "chatLabel": "Veidojiet ar tērzēšanu · 10 gājieni",
-          "voiceLabel": "Izveidot ar balsi · 5 min",
-          "reviewLabel": "Pārskatīt kopsavilkumu",
+          "voiceLabel": "Veidot ar balsi · 5 min",
+          "reviewLabel": "Pārskata īss apraksts",
           "editLabel": "Rediģēt",
-          "reviewHeading": "Pārskatiet savu privāto aprakstu",
+          "reviewHeading": "Pārskatiet savu privāto ziņojumu",
           "reviewBody": "Nekas netiek saglabāts, meklēts, piedāvāts vai kopīgots, kamēr esat anonīms.",
           "submitLabel": "Piesakieties cilvēka pārskatīšanai",
           "loginNotice": "Piesakieties, lai pārvietotu šo privāto mājokļa aprakstu savā Nest darbvietā autentificētai cilvēka pārskatīšanai.",
-          "expiryCopy": "Neiesniegti apraksti beidzas pēc vienas stundas.",
+          "expiryCopy": "Neiesniegto biksīšu derīguma termiņš beidzas pēc vienas stundas.",
           "privacyCopy": "Anonīmā režīmā nav dalībnieku meklēšanas, precīzas adreses kopīgošanas vai kontaktinformācijas atklāšanas.",
           "errorCopy": "Nest nevarēja saglabāt šo aprakstu. Lūdzu, mēģiniet vēlreiz vai piesakieties."
         }
@@ -1285,7 +1515,7 @@
         "copyright": "© 2026 Nest",
         "groups": [
           {
-            "label": "Izpētiet",
+            "label": "Izpētīt",
             "links": [
               {
                 "label": "Kā tas darbojas",
@@ -1309,7 +1539,7 @@
                 "target": "meet"
               },
               {
-                "label": "Izveidojiet aprakstu",
+                "label": "Izveidojiet īsu ziņojumu",
                 "target": "hero-chat"
               }
             ]
@@ -1321,24 +1551,24 @@
       "methodologyVersion": 2,
       "enabled": true,
       "kicker": "Business impact",
-      "heading": "ROI Calculator",
-      "subheading": "Modelējiet licencētu otro mājokļu aģentu vai biroju, kas ar Nest vietējā tirgū veido kvalificētus, cilvēka pārbaudītus kontaktus.",
-      "disclaimer": "Modelēts darbības scenārijs ar nulli apstiprinātu apmaksātu pieprasījumu. Nest kvalificē un koordinē saskaņoto ievadu; tas nepārstāv puses, nenovērtē īpašumu, neveic sarunas, negūst komisijas naudu un negarantē darījumu.",
+      "heading": "Cenas un ROI",
+      "subheading": "Jūsu dati. Jūsu prognozētā atdeve.",
+      "disclaimer": "Plāna aplēses ir šķirtas no izmērītās ROI. Izmērīto atdevi pamato tikai pieņemti rezultāti un salīdzināmas reģistrētas izmaksas.",
       "currency": "EUR",
       "currencyCopy": {
         "native": "Amounts in {currency}.",
         "loading": "Checking the local currency. Amounts remain in {currency} until a rate is available.",
         "unavailable": "A current local exchange rate is unavailable. Amounts remain in {currency}.",
         "converted": "Amounts converted from {base} to {currency} using the reference rate dated {date}.",
-        "basis": "Valūtas konvertēšana nav vietējo izmaksu izpēte. Ievadiet savas vietējās izmaksas un ieguldījumu pieņēmumus. Valodas izmaiņas nemaina summas."
+        "basis": "Valūtas konvertēšana nav vietējo izmaksu izpēte. Ievadiet savas vietējās izmaksas un pienesuma pieņēmumus. Valodas maiņa nemaina summas."
       },
       "costCopy": {
         "breakdown": "Kā veidojas kopējās MI izmaksas",
         "perUnit": "{amount} per work unit (average)",
-        "budgetOnly": "Šis ir kopējais budžets. Detalizācijai izvēlieties izmaksu sadalījumu; sadalījums vēl nav pieņemts.",
-        "benefitNotice": "Modelēti ieguvumi, nevis maksa. Pārsvītrotās summas ir paredzētie novēršamie tēriņi, nevis atlaides MI rēķinam.",
+        "budgetOnly": "Tas ir kopējais budžets. Detalizējiet to sadaļā «Izmaksu sadalījums»; sadalījums nav pieņemts.",
+        "benefitNotice": "Modelēti ieguvumi, nevis maksas. Pārsvītrotās summas ir paredzētie novērstie tēriņi, nevis atlaides MI rēķinam.",
         "remainder": "Other included operating costs",
-        "allocation": "Atgūtās stundas dod jaudu, ne automātisku ietaupījumu. Naudas vērtību piešķir tikai tai daļai, ko novirzāt reālam tēriņu samazinājumam vai papildu pienesumam."
+        "allocation": "Atgūtās stundas ir kapacitāte, nevis automātisks ietaupījums. Naudas vērtību piešķir tikai daļai, ko novirzāt faktiskam tēriņu samazinājumam vai papildu pienesumam."
       },
       "locale": "en-GB",
       "inputs": [],
@@ -1357,17 +1587,17 @@
           "platform_cost": 1500,
           "higher_value_hours": 0,
           "contribution_rate": 0,
-          "customer_price": 750
+          "customer_price": 49
         },
         "copy": {
-          "navLabel": "Cenas",
+          "navLabel": "Cenu noteikšana",
           "workloadStep": "Introduction funnel",
           "costStep": "AI operating cost",
           "valueStep": "Capacity and evidence",
           "workloadIntro": "Modelējiet brīvdienu mājokļu interesentus, atlasi un cilvēka pārbaudi, ne pārdošanu, komisijas vai garantētu saderību.",
           "costIntro": "Tokena, modeļa, rīka, infrastruktūras, platformas un recenzenta izmaksas ir piegādes pieņēmumi. Nest cena ir atsevišķa neapstiprināta hipotēze.",
           "valueIntro": "Jauda nav ieņēmumi. Ievadiet novēroto pienesumu tikai tad, kad reāls aģents vai aģentūra lieto pakalpojumu un par to maksā.",
-          "sampleNotice": "Tipisks lietojums · nav reāli rezultāti",
+          "sampleNotice": "Tipisks lietojums · ne faktiskie dati",
           "monthly": "Monthly",
           "yearly": "Yearly",
           "next": "Continue",
@@ -1392,11 +1622,11 @@
           "reviewMode": "Who handles the review?",
           "teamReview": "Existing team",
           "paidReview": "Additional paid reviewer",
-          "reviewNote": "Esošās komandas pārbaude izmanto atgūto jaudu. Papildu apmaksāta pārbaude ir darbības izmaksās; to atkārtoti neatņem no komandas jaudas.",
+          "reviewNote": "Esošās komandas pārbaude izmanto atgūto kapacitāti. Papildu apmaksāta pārbaude ir darbības izmaksās; to atkārtoti neatņem no komandas kapacitātes.",
           "totalMode": "Monthly budget",
           "itemizedMode": "Cost breakdown",
-          "budgetNote": "Budžetā jāiekļauj modeļi/mediji, rīki, infrastruktūra, Gabriel maksas un papildu apmaksāta pārskatīšana. Neiekļaujiet nemainīgu algu sarakstu kā jaunus izdevumus.",
-          "itemizedNote": "Žetonu patēriņš = apjoms × žetoni uz rezultātu. Papildu mediju, rīku un infrastruktūras izmaksas ir nulle, ja tie nav vajadzīgi. Papildu apmaksātu pārbaudi aprēķina pēc pārbaudes stundām un likmes.",
+          "budgetNote": "Budžetā iekļaujiet modeļus/medijus, rīkus, infrastruktūru, Gabriel maksas un papildu apmaksātu pārbaudi. Nemainīgu algu fondu neiekļaujiet kā jaunus tēriņus.",
+          "itemizedNote": "Žetonu patēriņš = apjoms × žetoni uz vienību. Papildu mediju, rīku un infrastruktūras izmaksas ir nulle, ja tās nerodas. Papildu apmaksātu pārbaudi aprēķina pēc pārbaudes stundām un likmes.",
           "paidReviewCost": "Additional paid review cost",
           "allInCost": "Operating cost",
           "missing": "Add your assumptions",
@@ -1409,43 +1639,43 @@
           "multiple": "Internal delivery multiple",
           "customerBenefit": "Modeled agent benefit",
           "customerRoi": "Modeled customer ROI",
-          "payback": "Customer payback period",
+          "payback": "Klienta atmaksas laiks",
           "notApplicable": "Not applicable",
           "annual": "Annual view",
-          "annualNote": "Tie paši ikmēneša pieņēmumi, bez pieauguma vai salikšanas. Nomas ietaupījumi saglabājas tikai norādītajā periodā.",
+          "annualNote": "Tie paši mēneša pieņēmumi, bez pieauguma vai uzkrāšanas. Darbinieka algošanas ietaupījums ir tikai norādītajā periodā.",
           "method": "How this is calculated",
           "burdenHeading": "Repetitive work reduced",
           "opportunityHeading": "Capacity for higher-value work",
-          "methodBody": "Mazāks darba slogs (negatīvā produktivitāte) atbrīvo jaudu. Vērtīgāks darbs (iespējamā pozitīvā produktivitāte) rada vērtību tikai tad, ja šo jaudu izmanto. Stundas pašas par sevi nav naudas ietaupījums. Žetonu izmaksām lieto modelētu ievades/izvades attiecību, ne sniedzēja cenas piedāvājumu.",
+          "methodBody": "Mazāks darba slogs (negatīva produktivitāte) atbrīvo kapacitāti. Vērtīgāks darbs (iespējama pozitīva produktivitāte) rada ekonomisko vērtību tikai tad, ja šo kapacitāti izmanto. Stundas pašas naudu neietaupa. Žetonu izmaksas balstās modelētā ievades/izvades attiecībā, nevis piegādātāja cenā.",
           "formulaLabel": "Atlasītie profili = interesenti × atlases īpatsvars. Izpildes izmaksās ir modelētās žetonu, modeļu, rīku, infrastruktūras, platformas un cilvēka pārbaudes izmaksas. Klienta ieguldījumu atdeve nav pieejama, līdz ieguvumu un cenu pamato pierādījumi.",
-          "allocationNote": "Katru stundu var atvēlēt vienu reizi. Nepiešķirtās stundas paliek jaudas, bez naudas vērtības.",
-          "overlapLabel": "Šie ieguvumi nepārklājas; esmu izslēdzis citur jau uzskaitītās izmaksas un zaudējumus.",
-          "overlapNote": "Kļūdu un riska aplēsēs neiekļauj darbaspēka ietaupījumu; vienu incidentu nedrīkst uzskaitīt abās kategorijās. Pienesumā neiekļauj MI izmaksas, tās atskaita atsevišķi.",
-          "hiringLabel": "Šī noma bija patiesi plānota, un piešķirtā jauda var nosegt darbu.",
-          "reviewedLabel": "Esmu pārskatījis savus rezultātus; neatlasītiem rezultātiem šajā aplēsē nav finansiālas vērtības.",
+          "allocationNote": "Katru stundu var sadalīt vienreiz. Nesadalītās stundas paliek kapacitāte bez naudas vērtības.",
+          "overlapLabel": "Šie ieguvumi nepārklājas; citur jau uzskaitītās izmaksas un zaudējumus esmu izslēdzis.",
+          "overlapNote": "Kļūdu un risku aplēsēs neiekļauj darba ietaupījumu; vienu incidentu nedrīkst iekļaut abās kategorijās. Pienesumā neiekļauj MI izmaksas, kuras atņem atsevišķi.",
+          "hiringLabel": "Šo darbinieku tiešām bija plānots pieņemt, un piešķirtā kapacitāte sedz viņa darbu.",
+          "reviewedLabel": "Esmu pārskatījis rezultātus; neatlasītajiem šajā aplēsē nav finansiālas vērtības.",
           "cycleResult": "Cycle-time improvement",
-          "throughputResult": "Papildu darbs, ko atbalsta jauda un pieprasījums",
-          "assumptionsIncomplete": "Pabeidziet atlasītos pieņēmumus, lai aprēķinātu finansiālo vērtību.",
-          "allocationError": "Piešķirtās stundas pārsniedz pieejamo neto jaudu. Samaziniet piešķīrumus.",
-          "reviewError": "Pārbaude aizņem vairāk laika, nekā darbs ietaupa. Ar šiem pieņēmumiem papildu jauda nav pieejama.",
-          "cashError": "Novērstie tēriņi nevar pārsniegt pašreizējos vai būt pozitīvi, ja nav atvēlētas stundas.",
-          "hiringError": "Piešķirtajai jaudai jāietver plānotās nomas stundas. Apstipriniet plānoto nomas termiņu un tā ilgumu.",
-          "riskError": "Zaudējumu samazināšanas aplēses pēc varbūtība nedrīkst pārsniegt pirms varbūtību.",
-          "overlapError": "Pirms iekļaujat tos finanšu rezultātos, pārliecinieties, ka ieguvumi nepārklājas.",
-          "boundsError": "Izmantojiet vērtības parādītajās robežās.",
+          "throughputResult": "Papildu darbs pēc kapacitātes un pieprasījuma",
+          "assumptionsIncomplete": "Aizpildiet izvēlētos pieņēmumus, lai aprēķinātu finansiālo vērtību.",
+          "allocationError": "Piešķirtās stundas pārsniedz pieejamo neto kapacitāti. Samaziniet piešķīrumus.",
+          "reviewError": "Pārbaude aizņem vairāk laika, nekā ietaupīts darbā. Ar šiem pieņēmumiem papildu kapacitātes nav.",
+          "cashError": "Novērstie tēriņi nevar pārsniegt esošos tēriņus vai būt pozitīvi, ja tiem nav piešķirtu stundu.",
+          "hiringError": "Kapacitātei jāsedz plānotā darbinieka stundas. Apstipriniet plānoto pieņemšanu darbā un ilgumu.",
+          "riskError": "Zaudējumu samazinājuma aplēsē varbūtība pēc izmaiņām nevar pārsniegt sākotnējo varbūtību.",
+          "overlapError": "Pirms ieguvumu iekļaušanas finanšu rezultātā apstipriniet, ka tie nepārklājas.",
+          "boundsError": "Lietojiet vērtības norādītajās robežās.",
           "rangeLabel": "Adjust value",
-          "noCurrencyChange": "Valoda maina formatējumu, nevis jūsu valūtu vai pieņēmumus.",
-          "currentPreparation": "Aktuālie sagatavošanas stundas",
-          "reviewHours": "Cilvēciskās pārbaudes stundas",
-          "reworkHours": "Izvairītie vai pievienotais pārstrādes stundas",
-          "capacityValue": "Modelētā kapacitātes vērtība",
-          "acceptedUnits": "Pieņemtas vienības",
-          "attendedUnits": "Apstrādātās vienības",
-          "costPerAttended": "Kostenība uz vienu apstrādātu vienību",
-          "benefitCost": "Ieguldījuma-kostenības daudzums",
-          "firstYearCost": "Pirmā gada kostenība",
-          "firstYearRoi": "Pirmā gada ROI",
-          "paybackOutsideTerm": "Nav atgūts ietvaros modelētā termiņa",
+          "noCurrencyChange": "Valoda maina formātu, nevis valūtu vai pieņēmumus.",
+          "currentPreparation": "Pašreizējās sagatavošanas stundas",
+          "reviewHours": "Cilvēku apskates stundas",
+          "reworkHours": "Izvairīts vai pievienots pārstrādāšanas laiks",
+          "capacityValue": "Modelētā jaudas vērtība",
+          "acceptedUnits": "Pieņemtās vienības",
+          "attendedUnits": "Apmeklētās vienības",
+          "costPerAttended": "Maksa par vienu apmeklēto vienību",
+          "benefitCost": "Ieguvums-izmaksas daudzkārtējs",
+          "firstYearCost": "Pirmā gada izmaksas",
+          "firstYearRoi": "Pirmā gada IA",
+          "paybackOutsideTerm": "Nav atgūts modelētajā termiņā",
           "months": "months"
         },
         "fields": {
@@ -1474,8 +1704,8 @@
             "help": "Pirms piedāvājumu redz kāda no pusēm, vajadzīga cilvēka pārbaude."
           },
           "cycles_per_unit": {
-            "label": "Cikli uz vienību katru mēnesi",
-            "help": "Cik periodisku pasūtījumu, pārskatīšanas vai apstrādes ciklu katra vienība veic parastā mēnesī."
+            "label": "Ciklus vienības mēnešā",
+            "help": "Cik pasūtījumu, pārbaužu vai apstrādes ciklu katra vienība veic tipiskā mēnesī."
           },
           "tokens_per_output": {
             "label": "Žetoni uz atlasītu pircēja profilu",
@@ -1483,7 +1713,7 @@
           },
           "budget": {
             "label": "Estimated monthly operating budget",
-            "help": "Iekļaujiet žetonus, modeļus/medijus, rīkus, infrastruktūru, Gabriel maksu un papildu apmaksātu pārbaudi."
+            "help": "Iekļaujiet žetonus, modeļus/medijus, rīkus, infrastruktūru, Gabriel maksas un papildu apmaksātu pārbaudi."
           },
           "model_cost": {
             "label": "Modeļa vai mediju papildizmaksas",
@@ -1491,39 +1721,39 @@
           },
           "tools_cost": {
             "label": "Tools and integrations",
-            "help": "Pārlūka sesijas, savienotāji un citi maksas pakalpojumi pēc patēriņa. Ja nav, 0."
+            "help": "Pārlūka sesijas, savienotāji un citi pakalpojumi pēc patēriņa. Ja nav, ievadiet 0."
           },
           "infrastructure_cost": {
             "label": "Infrastructure",
-            "help": "Papildu mitināšana, glabāšana un skaitļošana šim darbam. Ja nav, ievadiet nulli."
+            "help": "Papildu mitināšana, glabāšana un skaitļošana šai slodzei. Ja nav, ievadiet nulli."
           },
           "platform_cost": {
-            "label": "Citas piegādes/atbalsta izmaksas",
-            "help": "Modelētās hostinga, uzglabāšanas, uzraudzības un atbalsta izmaksas, atsevišķi no klienta cenas."
+            "label": "Other delivery and support cost",
+            "help": "Modeled hosting, storage, monitoring and support cost, separate from the customer price."
           },
           "customer_price": {
             "label": "Proposed monthly Nest price",
             "help": "Maināms cenas pieņēmums aģentam/aģentūrai. Tie nav apstiprināti ieņēmumi; tas jāpārbauda maksas izmēģinājumā."
           },
           "personal_value_per_hour": {
-            "label": "Stundai piešķirtā vērtība (neobligāti)",
-            "help": "Tikai izvēles personīgam salīdzinājumam. Tā nav alga, atlīdzība vai garantēts naudas ietaupījums."
+            "label": "Jūsu izvēlētā stundas vērtība",
+            "help": "Tikai izvēles personisks salīdzinājums. Tā nav alga vai garantēts naudas ietaupījums."
           },
           "review_rate": {
-            "label": "Papildus apmaksāta apskate stundā",
-            "help": "Faktiskie papildu recenzenta izdevumi, nevis nemainīga darbinieka alga."
+            "label": "Papildu pārbaudes maksa stundā",
+            "help": "Reāli papildu tēriņi pārbaudītājam, nevis esošā darbinieka nemainīgā alga."
           },
           "cash_hours": {
             "label": "Stundas apmaksāta darba vietā",
-            "help": "Piešķir tikai darbu, kas tiešām novērsīs virsstundu, ārpakalpojumu vai apstrādes izmaksas."
+            "help": "Iedaliet tikai darbu, kura virsstundu, ārpakalpojumu vai apstrādes izmaksas tiešām izzudīs."
           },
           "cash_baseline": {
-            "label": "Pašreizējie ikmēneša izdevumi šim darbam",
-            "help": "Naudas budžets, no kura nāks samazinājums."
+            "label": "Esošie mēneša tēriņi šim darbam",
+            "help": "Naudas budžets, kurā radīsies samazinājums."
           },
           "cash_avoided": {
-            "label": "Ikmēneša tēriņus jūs pārtrauktu",
-            "help": "Viena konkrēta summa, ne stundu un algas reizinājums; bez atsevišķā plānotas pieņemšanas darbā ietaupījuma."
+            "label": "Mēneša tēriņi, ko pārtrauksiet",
+            "help": "Viena konkrēta summa, nevis stundas × alga; neiekļaujiet atsevišķi ievadīto plānotās algošanas ietaupījumu."
           },
           "higher_value_hours": {
             "label": "Stundu aģenti var izmantot īstām sarunām",
@@ -1535,63 +1765,63 @@
           },
           "throughput_hours": {
             "label": "Stundas papildu apjomam",
-            "help": "Šo piešķīrumu nevar izmantot arī konsultatīvam darbam vai izdevumu samazināšanai."
+            "help": "Šo piešķīrumu nevar vienlaikus izmantot konsultācijām vai tēriņu samazināšanai."
           },
           "extra_minutes": {
-            "label": "Komandas minūtes uz papildu vienību",
-            "help": "Atlikušais cilvēka darbs vēl vienas vienības izpildei, tostarp pārbaude."
+            "label": "Komandas minūtes papildu vienībai",
+            "help": "Atlikušais cilvēka darbs, ieskaitot pārbaudi, kas vajadzīgs vēl vienai vienībai."
           },
           "demand": {
-            "label": "Papildu vienības ar gaidāmu pieprasījumu",
-            "help": "Jauda vien nav pieprasījums. Ievadiet papildu ikmēneša darbu, ko plānojat uzņemties."
+            "label": "Papildu vienības ar gaidītu pieprasījumu",
+            "help": "Kapacitāte nav pieprasījums. Ievadiet papildu darbu, ko plānojat uzņemties mēnesī."
           },
           "unit_margin": {
             "label": "Contribution per additional unit",
-            "help": "Papildu ieņēmumi mīnus izpildes izmaksas; MI darbības izmaksas atskaita atsevišķi."
+            "help": "Papildu ieņēmumi mīnus izpildes izmaksas; MI darbības izmaksas atņem atsevišķi."
           },
           "hiring_hours": {
-            "label": "Stundas, kas aptver plānoto nomu",
-            "help": "Piešķiriet jaudu konkrētam plānotajam darbam, nevis vispārējai pilnas slodzes ekvivalenta tāmei."
+            "label": "Stundas plānotā darbinieka vietā",
+            "help": "Atvēliet jaudu konkrētiem plānotiem darbiem, nevis vispārīgam pilnslodzes ekvivalenta aprēķinam."
           },
           "planned_hours": {
-            "label": "Ikmēneša stundas plānotā nomas maksa",
-            "help": "Piešķirtajai jaudai ir jāaptver visa šī darba slodze."
+            "label": "Plānotā darbinieka darba stundas mēnesī",
+            "help": "Piešķirtajai kapacitātei jāsedz viss šis darba apjoms."
           },
           "hire_cost": {
-            "label": "Ikmēneša nomas maksa faktiski atlikta",
-            "help": "Izmantojiet patiesi plānotas nomas izmaksas, nevis kāda jau nodarbināta algu."
+            "label": "Reāli atliktās algošanas mēnešizmaksas",
+            "help": "Lietojiet reāli plānota jauna darbinieka izmaksas, nevis jau nodarbināta cilvēka algu."
           },
           "hire_months": {
-            "label": "Mēneši, kad noma tiek atlikta",
-            "help": "Viens līdz divpadsmit mēneši; gada aplēsē pēc šī perioda ietaupījumu vairs neieskaita."
+            "label": "Algošanas atlikšanas mēneši",
+            "help": "Viens līdz divpadsmit mēneši; gada aplēse pēc šī perioda ietaupījumu vairs neuzskaita."
           },
           "incidents": {
-            "label": "Paredzamās novērstās kļūdas mēnesī",
-            "help": "Lieto sākumdatus un gaidīto samazinājumu. Izslēdz incidentus, kas jau skaitīti riska mazināšanā."
+            "label": "Gaidāmās novērstās kļūdas mēnesī",
+            "help": "Izmantojiet bāzlīmeni un gaidīto samazinājumu. Izslēdziet risku mazināšanā skaitītos incidentus."
           },
           "incident_cost": {
             "label": "Incremental cost per error",
-            "help": "Neiekļaujiet citur ieskaitītu darbu, atmaksas vai citus zaudējumus."
+            "help": "Izslēdziet citur iekļauto darbu, atmaksas vai citus zaudējumus."
           },
           "probability_before": {
             "label": "Monthly loss probability before",
-            "help": "Jūsu aplēse, nevis garantēts riska novērtējums."
+            "help": "Jūsu aplēse, nevis garantēts riska vērtējums."
           },
           "probability_after": {
             "label": "Monthly loss probability after",
-            "help": "Izmantojiet to pašu notikumu un mēneša periodu kā sākumdatos."
+            "help": "Lietojiet to pašu notikumu un mēneša periodu kā bāzes līmenim."
           },
           "loss": {
             "label": "Notikuma iespējamie zaudējumi",
-            "help": "Izslēdziet jau uzskaitītas kļūdas un tēriņus. Tā ir nenoteikta sagaidāmā vērtība, ne ietaupīta nauda."
+            "help": "Izslēdziet jau uzskaitītās kļūdas un tēriņus. Tā ir nenoteikta gaidāmā vērtība, nevis ietaupīta nauda."
           },
           "days_before": {
-            "label": "Cikla laiks iepriekš, dienās",
-            "help": "Pagājušais laiks no sākuma līdz pabeigšanai, atsevišķi no praktiskām pūlēm."
+            "label": "Cikla ilgums pirms, dienās",
+            "help": "Laiks no sākuma līdz pabeigšanai, atsevišķi no aktīvi ieguldītā darba."
           },
           "days_after": {
-            "label": "Cikla laiks pēc, dienās",
-            "help": "Parādīts tikai kā operatīvas izmaiņas, bez pieņemtās naudas vērtības."
+            "label": "Cikla ilgums pēc, dienās",
+            "help": "Parādīts tikai kā darbības izmaiņa bez pieņemtas naudas vērtības."
           }
         },
         "burden": [
@@ -1602,35 +1832,6 @@
           "More qualified, human-reviewed introductions",
           "Laiks aģentu sarunām un klientu vajadzībām"
         ],
-        "usagePackages": {
-          "base": {
-            "volume": 1,
-            "tokensPerOutput": 12000,
-            "platform_cost": 450,
-            "minutes": 20,
-            "automation": 100,
-            "review": 8,
-            "model_cost": 0,
-            "tools_cost": 0,
-            "infrastructure_cost": 0,
-            "higher_value_hours": 0,
-            "contribution_rate": 0
-          },
-          "medium": {
-            "volume": 1,
-            "tokensPerOutput": 12000,
-            "platform_cost": 750,
-            "minutes": 20,
-            "automation": 100,
-            "review": 8,
-            "model_cost": 0,
-            "tools_cost": 0,
-            "infrastructure_cost": 0,
-            "higher_value_hours": 0,
-            "contribution_rate": 0
-          }
-        },
-        "defaultPackage": "medium",
         "costMode": "itemized",
         "reviewMode": "team",
         "selected": [
@@ -1698,8 +1899,7 @@
         ],
         "pricing": {
           "basis": "fixed",
-          "annualPrice": 9000,
-          "label": "Proposed Nest monthly price",
+          "label": "Cenu noteikšana",
           "help": "€750/mēnesī — darba hipotēze atlasītu klientu iepazīstināšanas pilotam. Nav apstiprināta, līdz aģents vai mākleru birojs samaksā."
         },
         "presentation": {
@@ -1712,8 +1912,153 @@
         "primaryLabel": "Talk with Nest",
         "primaryTarget": "meet",
         "secondaryLabel": "See how it works",
-        "privacyNote": "Jūsu dati paliek privāti. Stundas ir ietilpība. Finanšu summas ir modelētas aplēses, nevis novērotie rezultāti.",
+        "privacyNote": "Jūsu dati paliek privāti. Stundas ir kapacitāte. Finanšu summas ir modelētas aplēses, nevis faktiskie rezultāti.",
         "secondaryTarget": "how-it-works"
+      },
+      "compact": {
+        "schemaVersion": 1,
+        "defaultProfileId": "buyer",
+        "copy": {
+          "navLabel": "Cenu noteikšana",
+          "heading": "Cenas un ROI",
+          "intro": "Jūsu dati. Jūsu prognozētā atdeve.",
+          "monthly": "Mēnesis",
+          "weekly": "Nedēļa",
+          "daily": "Diena",
+          "cost": "Tu maksā",
+          "benefit": "Prognozētā atdeve",
+          "net": "Neto peļņa",
+          "roi": "Aplēstā ROI",
+          "timeBenefit": "Aplēstā laika vērtība",
+          "timeRoi": "Laika vērt. ROI",
+          "timeBack": "Atgūtās stundas",
+          "missing": "Ievadīt datus",
+          "noRatio": "Not applicable",
+          "method": "Kā to aprēķina",
+          "reset": "Atiest.",
+          "audience": "Auditorija",
+          "includedVat": "Ar VAT",
+          "excludedVat": "Bez VAT",
+          "perMonth": "mēnesī",
+          "equivalents": "Maksā reizi mēnesī. Dienas un nedēļas rādītāji ir vidējie, ne maksa par dienu vai nedēļu vai garantēta atdeve.",
+          "timeNote": "Laika vērtība ir tava izvēles aplēse, ne ienākums vai algu izmaksu samazinājums. Neto minūtēs ietilpst tavs pārbaudes un apstiprināšanas laiks.",
+          "estimateNote": "Plāna aplēses ir šķirtas no izmērītās ROI. Izmērīto atdevi pamato tikai pieņemti rezultāti un salīdzināmas reģistrētas izmaksas.",
+          "limitNote": "Papildu lietojumam vai atsevišķi cenotiem darbiem sazinies ar mums. Aplēse aptver tikai iekļauto plānu.",
+          "timeFormula": "Laika vērtība = vienības×neto ietaupītās min.÷60×tava stundas vērtība.",
+          "profitFormula": "Seguma peļņa = derīgās ieteikumu sesijas × konversijas pieaugums ÷ 100 × peļņa no papildu pasūtījuma.",
+          "proceedsFormula": "Papildu ieņēmumi = partijas vai savākšanas reizes × (neto ieņēmumi pēc − neto ieņēmumi pirms).",
+          "roiFormula": "Neto = ieguvums − lietotnes abonmaksa. ROI = neto ÷ lietotnes abonmaksa × 100. Bezmaksas plāniem nav ROI procenta."
+        },
+        "profiles": [
+          {
+            "id": "buyer",
+            "label": "Aģenta vide · pircēju apraksti",
+            "model": "time_value",
+            "unitsPerWorkload": 1,
+            "inputs": [
+              {
+                "id": "units",
+                "label": "Atlasīti apraksti mēnesī",
+                "help": "Darbs, ko plāno pārskatīt mēnesī, nepārsniedzot iekļauto apjomu.",
+                "defaultValue": 20,
+                "min": 0,
+                "max": 20,
+                "step": 1,
+                "format": "number"
+              },
+              {
+                "id": "minutes_saved",
+                "label": "Ietaupītās min.",
+                "help": "Tava aplēse pēc pārbaudes, apstiprināšanas un labojumiem. Negatīva vērtība nozīmē papildu darbu.",
+                "defaultValue": 12,
+                "min": -1440,
+                "max": 1440,
+                "step": 0.1,
+                "format": "number"
+              },
+              {
+                "id": "hourly_value",
+                "label": "Vērtība stundā",
+                "help": "Tavs izvēles vērtējums. Tas nesola naudas ietaupījumu vai algu izmaksu samazinājumu.",
+                "defaultValue": null,
+                "min": 0,
+                "max": 1000,
+                "step": 0.01,
+                "format": "currency"
+              }
+            ],
+            "offer": {
+              "monthlyPrice": 49,
+              "basis": "fixed",
+              "unit": "Aģenta vide · pircēju apraksti",
+              "vatIncluded": false,
+              "includedUnits": 20,
+              "allowance": "20 atlasīti apraksti",
+              "extras": "Papildu lietojuma un profesionālo pakalpojumu cenu nosaka atsevišķi."
+            },
+            "assumptions": [
+              "Sākotnējās 12 neto minūtes ir ilustratīva sagatavošanas aplēse, nevis izmērīts rezultāts.",
+              "Neto minūtēs ietilpst klienta pārbaude. Laika vērtību naudā norādi tu; tā nav saņemta nauda."
+            ],
+            "loop": "Īpašuma vai pircēja nodoma signāls → atlasa avotos balstītu aprakstu → aģents pārskata, puses piekrīt → fiksē pieņemto iepazīstināšanu un faktisko iznākumu.",
+            "ctaLabel": "Izmēģini demo",
+            "ctaTarget": "meet"
+          },
+          {
+            "id": "seller",
+            "label": "Aģenta vide · pārdevēju apraksti",
+            "model": "time_value",
+            "unitsPerWorkload": 1,
+            "inputs": [
+              {
+                "id": "units",
+                "label": "Atlasīti apraksti mēnesī",
+                "help": "Darbs, ko plāno pārskatīt mēnesī, nepārsniedzot iekļauto apjomu.",
+                "defaultValue": 20,
+                "min": 0,
+                "max": 20,
+                "step": 1,
+                "format": "number"
+              },
+              {
+                "id": "minutes_saved",
+                "label": "Ietaupītās min.",
+                "help": "Tava aplēse pēc pārbaudes, apstiprināšanas un labojumiem. Negatīva vērtība nozīmē papildu darbu.",
+                "defaultValue": 12,
+                "min": -1440,
+                "max": 1440,
+                "step": 0.1,
+                "format": "number"
+              },
+              {
+                "id": "hourly_value",
+                "label": "Vērtība stundā",
+                "help": "Tavs izvēles vērtējums. Tas nesola naudas ietaupījumu vai algu izmaksu samazinājumu.",
+                "defaultValue": null,
+                "min": 0,
+                "max": 1000,
+                "step": 0.01,
+                "format": "currency"
+              }
+            ],
+            "offer": {
+              "monthlyPrice": 49,
+              "basis": "fixed",
+              "unit": "Aģenta vide · pārdevēju apraksti",
+              "vatIncluded": false,
+              "includedUnits": 20,
+              "allowance": "20 atlasīti apraksti",
+              "extras": "Papildu lietojuma un profesionālo pakalpojumu cenu nosaka atsevišķi."
+            },
+            "assumptions": [
+              "Sākotnējās 12 neto minūtes ir ilustratīva sagatavošanas aplēse, nevis izmērīts rezultāts.",
+              "Neto minūtēs ietilpst klienta pārbaude. Laika vērtību naudā norādi tu; tā nav saņemta nauda."
+            ],
+            "loop": "Īpašuma vai pircēja nodoma signāls → atlasa avotos balstītu aprakstu → aģents pārskata, puses piekrīt → fiksē pieņemto iepazīstināšanu un faktisko iznākumu.",
+            "ctaLabel": "Izmēģini demo",
+            "ctaTarget": "meet"
+          }
+        ]
       }
     }
   },
@@ -2386,7 +2731,7 @@
         "roiCalculator",
         "heading"
       ],
-      "sourceHash": "c63420eca3f95b8917c99f3a5cf72f000ab237bc6c658765b2176ebdd7b311be"
+      "sourceHash": "f605f95a678fe3249ebf6201cbc21b86ea72d7f4bc395cab6e017b8b91a674d6"
     },
     {
       "path": [
@@ -2397,7 +2742,7 @@
         "roiCalculator",
         "subheading"
       ],
-      "sourceHash": "7b148bf1bc2d445204b8b2a40faa420fe4a04624c98bd20f79c051038ca1b7da"
+      "sourceHash": "22fd8ffe8dbddd46f41fb690f262f66466bb343bae0b359e4c64dfd2f2f127a5"
     },
     {
       "path": [
@@ -2408,7 +2753,7 @@
         "roiCalculator",
         "disclaimer"
       ],
-      "sourceHash": "2571d3c4491924fe3b8aaab7d2acb5f4904b393aae9f2babc38cd0e46d1126aa"
+      "sourceHash": "28bd6e46023484d9a6b075ba5e7539842d6a2e920782ed0979f21366d56ae02f"
     },
     {
       "path": [
@@ -4808,7 +5153,7 @@
         "pricing",
         "label"
       ],
-      "sourceHash": "74be3e630a8b30d773e4002180e4cdf3963817fa92ff839e99f6556ac371eaa8"
+      "sourceHash": "dfe95783edfef7918760312f94edd764f4ce3ffd38b90c2c955a0cc3b250f040"
     },
     {
       "path": [
@@ -4858,6 +5203,809 @@
         "privacyNote"
       ],
       "sourceHash": "0e96f5e15977ab0a2a8d684c0d35d7459f3afc862b606046310ae1fbbd4be12b"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "navLabel"
+      ],
+      "sourceHash": "dfe95783edfef7918760312f94edd764f4ce3ffd38b90c2c955a0cc3b250f040"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "heading"
+      ],
+      "sourceHash": "f605f95a678fe3249ebf6201cbc21b86ea72d7f4bc395cab6e017b8b91a674d6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "intro"
+      ],
+      "sourceHash": "22fd8ffe8dbddd46f41fb690f262f66466bb343bae0b359e4c64dfd2f2f127a5"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "monthly"
+      ],
+      "sourceHash": "310ca503ef36f177ddbc760463fcaec1edc6eca12bfd590ad7bb244b31e59543"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "weekly"
+      ],
+      "sourceHash": "e78041ab51a818a22e2cfea6c15fe72e9e20092246f496f1670f7be3e42177a6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "daily"
+      ],
+      "sourceHash": "8f2364e11b8be3ff008f32b3dedb54e659362429bcc9e3eb6acb6070de4ffbff"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "cost"
+      ],
+      "sourceHash": "16c6e032c6d9e64e841b58a0298260d9f548fcbe3a8ad8dc475bd977b602898f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "benefit"
+      ],
+      "sourceHash": "a7f9c107913bba92d233f27fbfa5c4c52e4435a763a727214089505b9519d2dc"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "net"
+      ],
+      "sourceHash": "d32a3b8a970a1c2a790bdd47a4a86f208f6ff655d8e9269dcda5776b156d6039"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "roi"
+      ],
+      "sourceHash": "bd75a04bf54fbb79e68559c37be0a8752efacfe4f5b9a326b87143c8d5c87dcc"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "timeBenefit"
+      ],
+      "sourceHash": "cedc575743fa43d9e724db8bd1d54037d41369448eb826b63e1efba54e81c2a4"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "timeRoi"
+      ],
+      "sourceHash": "4b0df8181ded668923d1da293e0fc8ca4d0ac21eed3f933b32891615e67d1f6a"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "timeBack"
+      ],
+      "sourceHash": "92947077a2792fb311280e55e4d39fbeb1fbb152e76b389dee5a53697ea548ef"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "missing"
+      ],
+      "sourceHash": "4b11bc702fcdb172c2f88f4af465a9d05ac206b7f7e6304fcded04eb92cccde6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "noRatio"
+      ],
+      "sourceHash": "5237c96ac1a23b98eb13770503afe986b088acd6627fa7649a5afdcbc4bb8e99"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "method"
+      ],
+      "sourceHash": "b79afe297bec4d00ab3a70a61b5e8b607a423a123f23a2fa9ccf8d6af6bcd157"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "reset"
+      ],
+      "sourceHash": "daee7606b339f3c339076fe2c9f372a3ff40c8ee896005d829c7481b64ca5303"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "audience"
+      ],
+      "sourceHash": "545c02357695a6ffed97b01a94a46b9aeb4686f4480173da6d0faeae8eb85053"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "includedVat"
+      ],
+      "sourceHash": "3e366dcdda082eda14db7eab30381a2fcc424c43d183d0e6d7a4b15c9b567d7d"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "excludedVat"
+      ],
+      "sourceHash": "744120dab44d48957b4580cadd00fca1f91383823125d1400984a3cf62a76441"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "perMonth"
+      ],
+      "sourceHash": "88b1d1a67e34a269fec10b917a624817de854eeadb142640ab17c8199ab6bdae"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "equivalents"
+      ],
+      "sourceHash": "4a546022be02a950fc59270741b8e4784ca51f74da16e286c77e3f5a371aff38"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "timeNote"
+      ],
+      "sourceHash": "d7c17f23c52c1d9cf5be7fcb5a537017a0a09529bfde38e6b692afa2ecbf453f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "estimateNote"
+      ],
+      "sourceHash": "28bd6e46023484d9a6b075ba5e7539842d6a2e920782ed0979f21366d56ae02f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "limitNote"
+      ],
+      "sourceHash": "61108708047a1a834e46f1ca557d7518e3a63263a8ec7e7aa4301db230beacff"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "timeFormula"
+      ],
+      "sourceHash": "4cf3d8fcb0fa4b9c36d9869e709ba0cbabcd41083c7ff8cf77e9fe32066eacdb"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "profitFormula"
+      ],
+      "sourceHash": "e286f3af8c8f706f737502c898e1ba90c6bbc7680c380bba844ec4f3874b5bc4"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "proceedsFormula"
+      ],
+      "sourceHash": "9de390391c62a87b44f2c9bf74e5223e5d34c5a74cd5e12575f5e1452881a46e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "roiFormula"
+      ],
+      "sourceHash": "00f9b4df25ca733c11a00e762ab8d95f6e9c9364ce202a6c22ff95c3613e3fcb"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "label"
+      ],
+      "sourceHash": "3e56208886334ad120af2d85b44fca33b5922a7e96623d87d793727c75178e03"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "inputs",
+        0,
+        "label"
+      ],
+      "sourceHash": "d0081c4a08b2be87b687f4f35e5668e5c004581cd766a25feea76ebe7ae5afdb"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "inputs",
+        0,
+        "help"
+      ],
+      "sourceHash": "a8cff02d43e6c0371644e73ec0de532d8ac6ae2eb169301a6e3605e3cb010ab0"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "inputs",
+        1,
+        "label"
+      ],
+      "sourceHash": "9f135e34cc7bc32cafb416bcbf7ef6af035cdb444c22e90cccd0587ba3db19df"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "inputs",
+        1,
+        "help"
+      ],
+      "sourceHash": "d99a99ab817eea4a3a70ded599d0744a02fe8de95ab0b7c6a0fc9d5cb72c400d"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "inputs",
+        2,
+        "label"
+      ],
+      "sourceHash": "4b5674419c1cb29206fb7d1486e6492bb74df9523dbc3bd5cdb875a309486100"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "inputs",
+        2,
+        "help"
+      ],
+      "sourceHash": "310e52c988a868b67de05d75913bc83fea7f2ff3d06b15cb07adf6c22d1f94f1"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "offer",
+        "unit"
+      ],
+      "sourceHash": "3e56208886334ad120af2d85b44fca33b5922a7e96623d87d793727c75178e03"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "offer",
+        "allowance"
+      ],
+      "sourceHash": "aa695907fedd044f41aaf55b78c3e18e056e184ea83ebd0d21e1b8e7177ee995"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "offer",
+        "extras"
+      ],
+      "sourceHash": "2dde78d0a4b34a797ac41efa8426f1e98874a7e9bfc38db869338b90175c0a63"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "assumptions",
+        0
+      ],
+      "sourceHash": "79adeadb4feb385ac12585feee29f5f4b94954ccde2406a3b86aa5c7e90ca29f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "assumptions",
+        1
+      ],
+      "sourceHash": "989a9fcc887e91c895fb2d3cdee45f5d8279d36705594e66f19d87e172656e0e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "loop"
+      ],
+      "sourceHash": "edc50e97c701508b19ff0c0117cda5ab8aafa7faa0d747388080ab915edec13f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "ctaLabel"
+      ],
+      "sourceHash": "6e5fe4ca7c07142fa81eef400c342dea7f8ba0422aa331c3880e6604db8d52a7"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "label"
+      ],
+      "sourceHash": "4eaa570bcd2d051814cfbcea81a6a732eec55c652d08b722bda0aa7cb12971ef"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "inputs",
+        0,
+        "label"
+      ],
+      "sourceHash": "d0081c4a08b2be87b687f4f35e5668e5c004581cd766a25feea76ebe7ae5afdb"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "inputs",
+        0,
+        "help"
+      ],
+      "sourceHash": "a8cff02d43e6c0371644e73ec0de532d8ac6ae2eb169301a6e3605e3cb010ab0"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "inputs",
+        1,
+        "label"
+      ],
+      "sourceHash": "9f135e34cc7bc32cafb416bcbf7ef6af035cdb444c22e90cccd0587ba3db19df"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "inputs",
+        1,
+        "help"
+      ],
+      "sourceHash": "d99a99ab817eea4a3a70ded599d0744a02fe8de95ab0b7c6a0fc9d5cb72c400d"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "inputs",
+        2,
+        "label"
+      ],
+      "sourceHash": "4b5674419c1cb29206fb7d1486e6492bb74df9523dbc3bd5cdb875a309486100"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "inputs",
+        2,
+        "help"
+      ],
+      "sourceHash": "310e52c988a868b67de05d75913bc83fea7f2ff3d06b15cb07adf6c22d1f94f1"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "offer",
+        "unit"
+      ],
+      "sourceHash": "4eaa570bcd2d051814cfbcea81a6a732eec55c652d08b722bda0aa7cb12971ef"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "offer",
+        "allowance"
+      ],
+      "sourceHash": "aa695907fedd044f41aaf55b78c3e18e056e184ea83ebd0d21e1b8e7177ee995"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "offer",
+        "extras"
+      ],
+      "sourceHash": "2dde78d0a4b34a797ac41efa8426f1e98874a7e9bfc38db869338b90175c0a63"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "assumptions",
+        0
+      ],
+      "sourceHash": "79adeadb4feb385ac12585feee29f5f4b94954ccde2406a3b86aa5c7e90ca29f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "assumptions",
+        1
+      ],
+      "sourceHash": "989a9fcc887e91c895fb2d3cdee45f5d8279d36705594e66f19d87e172656e0e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "loop"
+      ],
+      "sourceHash": "edc50e97c701508b19ff0c0117cda5ab8aafa7faa0d747388080ab915edec13f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "ctaLabel"
+      ],
+      "sourceHash": "6e5fe4ca7c07142fa81eef400c342dea7f8ba0422aa331c3880e6604db8d52a7"
     },
     {
       "path": [
@@ -5380,7 +6528,7 @@
         "roiCalculator",
         "heading"
       ],
-      "sourceHash": "c63420eca3f95b8917c99f3a5cf72f000ab237bc6c658765b2176ebdd7b311be"
+      "sourceHash": "f605f95a678fe3249ebf6201cbc21b86ea72d7f4bc395cab6e017b8b91a674d6"
     },
     {
       "path": [
@@ -5391,7 +6539,7 @@
         "roiCalculator",
         "subheading"
       ],
-      "sourceHash": "7b148bf1bc2d445204b8b2a40faa420fe4a04624c98bd20f79c051038ca1b7da"
+      "sourceHash": "22fd8ffe8dbddd46f41fb690f262f66466bb343bae0b359e4c64dfd2f2f127a5"
     },
     {
       "path": [
@@ -5402,7 +6550,7 @@
         "roiCalculator",
         "disclaimer"
       ],
-      "sourceHash": "2571d3c4491924fe3b8aaab7d2acb5f4904b393aae9f2babc38cd0e46d1126aa"
+      "sourceHash": "28bd6e46023484d9a6b075ba5e7539842d6a2e920782ed0979f21366d56ae02f"
     },
     {
       "path": [
@@ -7830,7 +8978,7 @@
         "pricing",
         "label"
       ],
-      "sourceHash": "74be3e630a8b30d773e4002180e4cdf3963817fa92ff839e99f6556ac371eaa8"
+      "sourceHash": "dfe95783edfef7918760312f94edd764f4ce3ffd38b90c2c955a0cc3b250f040"
     },
     {
       "path": [
@@ -7880,6 +9028,809 @@
         "privacyNote"
       ],
       "sourceHash": "0e96f5e15977ab0a2a8d684c0d35d7459f3afc862b606046310ae1fbbd4be12b"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "navLabel"
+      ],
+      "sourceHash": "dfe95783edfef7918760312f94edd764f4ce3ffd38b90c2c955a0cc3b250f040"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "heading"
+      ],
+      "sourceHash": "f605f95a678fe3249ebf6201cbc21b86ea72d7f4bc395cab6e017b8b91a674d6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "intro"
+      ],
+      "sourceHash": "22fd8ffe8dbddd46f41fb690f262f66466bb343bae0b359e4c64dfd2f2f127a5"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "monthly"
+      ],
+      "sourceHash": "310ca503ef36f177ddbc760463fcaec1edc6eca12bfd590ad7bb244b31e59543"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "weekly"
+      ],
+      "sourceHash": "e78041ab51a818a22e2cfea6c15fe72e9e20092246f496f1670f7be3e42177a6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "daily"
+      ],
+      "sourceHash": "8f2364e11b8be3ff008f32b3dedb54e659362429bcc9e3eb6acb6070de4ffbff"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "cost"
+      ],
+      "sourceHash": "16c6e032c6d9e64e841b58a0298260d9f548fcbe3a8ad8dc475bd977b602898f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "benefit"
+      ],
+      "sourceHash": "a7f9c107913bba92d233f27fbfa5c4c52e4435a763a727214089505b9519d2dc"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "net"
+      ],
+      "sourceHash": "d32a3b8a970a1c2a790bdd47a4a86f208f6ff655d8e9269dcda5776b156d6039"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "roi"
+      ],
+      "sourceHash": "bd75a04bf54fbb79e68559c37be0a8752efacfe4f5b9a326b87143c8d5c87dcc"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "timeBenefit"
+      ],
+      "sourceHash": "cedc575743fa43d9e724db8bd1d54037d41369448eb826b63e1efba54e81c2a4"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "timeRoi"
+      ],
+      "sourceHash": "4b0df8181ded668923d1da293e0fc8ca4d0ac21eed3f933b32891615e67d1f6a"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "timeBack"
+      ],
+      "sourceHash": "92947077a2792fb311280e55e4d39fbeb1fbb152e76b389dee5a53697ea548ef"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "missing"
+      ],
+      "sourceHash": "4b11bc702fcdb172c2f88f4af465a9d05ac206b7f7e6304fcded04eb92cccde6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "noRatio"
+      ],
+      "sourceHash": "5237c96ac1a23b98eb13770503afe986b088acd6627fa7649a5afdcbc4bb8e99"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "method"
+      ],
+      "sourceHash": "b79afe297bec4d00ab3a70a61b5e8b607a423a123f23a2fa9ccf8d6af6bcd157"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "reset"
+      ],
+      "sourceHash": "daee7606b339f3c339076fe2c9f372a3ff40c8ee896005d829c7481b64ca5303"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "audience"
+      ],
+      "sourceHash": "545c02357695a6ffed97b01a94a46b9aeb4686f4480173da6d0faeae8eb85053"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "includedVat"
+      ],
+      "sourceHash": "3e366dcdda082eda14db7eab30381a2fcc424c43d183d0e6d7a4b15c9b567d7d"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "excludedVat"
+      ],
+      "sourceHash": "744120dab44d48957b4580cadd00fca1f91383823125d1400984a3cf62a76441"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "perMonth"
+      ],
+      "sourceHash": "88b1d1a67e34a269fec10b917a624817de854eeadb142640ab17c8199ab6bdae"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "equivalents"
+      ],
+      "sourceHash": "4a546022be02a950fc59270741b8e4784ca51f74da16e286c77e3f5a371aff38"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "timeNote"
+      ],
+      "sourceHash": "d7c17f23c52c1d9cf5be7fcb5a537017a0a09529bfde38e6b692afa2ecbf453f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "estimateNote"
+      ],
+      "sourceHash": "28bd6e46023484d9a6b075ba5e7539842d6a2e920782ed0979f21366d56ae02f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "limitNote"
+      ],
+      "sourceHash": "61108708047a1a834e46f1ca557d7518e3a63263a8ec7e7aa4301db230beacff"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "timeFormula"
+      ],
+      "sourceHash": "4cf3d8fcb0fa4b9c36d9869e709ba0cbabcd41083c7ff8cf77e9fe32066eacdb"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "profitFormula"
+      ],
+      "sourceHash": "e286f3af8c8f706f737502c898e1ba90c6bbc7680c380bba844ec4f3874b5bc4"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "proceedsFormula"
+      ],
+      "sourceHash": "9de390391c62a87b44f2c9bf74e5223e5d34c5a74cd5e12575f5e1452881a46e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "roiFormula"
+      ],
+      "sourceHash": "00f9b4df25ca733c11a00e762ab8d95f6e9c9364ce202a6c22ff95c3613e3fcb"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "label"
+      ],
+      "sourceHash": "3e56208886334ad120af2d85b44fca33b5922a7e96623d87d793727c75178e03"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "inputs",
+        0,
+        "label"
+      ],
+      "sourceHash": "d0081c4a08b2be87b687f4f35e5668e5c004581cd766a25feea76ebe7ae5afdb"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "inputs",
+        0,
+        "help"
+      ],
+      "sourceHash": "a8cff02d43e6c0371644e73ec0de532d8ac6ae2eb169301a6e3605e3cb010ab0"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "inputs",
+        1,
+        "label"
+      ],
+      "sourceHash": "9f135e34cc7bc32cafb416bcbf7ef6af035cdb444c22e90cccd0587ba3db19df"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "inputs",
+        1,
+        "help"
+      ],
+      "sourceHash": "d99a99ab817eea4a3a70ded599d0744a02fe8de95ab0b7c6a0fc9d5cb72c400d"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "inputs",
+        2,
+        "label"
+      ],
+      "sourceHash": "4b5674419c1cb29206fb7d1486e6492bb74df9523dbc3bd5cdb875a309486100"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "inputs",
+        2,
+        "help"
+      ],
+      "sourceHash": "310e52c988a868b67de05d75913bc83fea7f2ff3d06b15cb07adf6c22d1f94f1"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "offer",
+        "unit"
+      ],
+      "sourceHash": "3e56208886334ad120af2d85b44fca33b5922a7e96623d87d793727c75178e03"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "offer",
+        "allowance"
+      ],
+      "sourceHash": "aa695907fedd044f41aaf55b78c3e18e056e184ea83ebd0d21e1b8e7177ee995"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "offer",
+        "extras"
+      ],
+      "sourceHash": "2dde78d0a4b34a797ac41efa8426f1e98874a7e9bfc38db869338b90175c0a63"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "assumptions",
+        0
+      ],
+      "sourceHash": "79adeadb4feb385ac12585feee29f5f4b94954ccde2406a3b86aa5c7e90ca29f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "assumptions",
+        1
+      ],
+      "sourceHash": "989a9fcc887e91c895fb2d3cdee45f5d8279d36705594e66f19d87e172656e0e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "loop"
+      ],
+      "sourceHash": "edc50e97c701508b19ff0c0117cda5ab8aafa7faa0d747388080ab915edec13f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "ctaLabel"
+      ],
+      "sourceHash": "6e5fe4ca7c07142fa81eef400c342dea7f8ba0422aa331c3880e6604db8d52a7"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "label"
+      ],
+      "sourceHash": "4eaa570bcd2d051814cfbcea81a6a732eec55c652d08b722bda0aa7cb12971ef"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "inputs",
+        0,
+        "label"
+      ],
+      "sourceHash": "d0081c4a08b2be87b687f4f35e5668e5c004581cd766a25feea76ebe7ae5afdb"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "inputs",
+        0,
+        "help"
+      ],
+      "sourceHash": "a8cff02d43e6c0371644e73ec0de532d8ac6ae2eb169301a6e3605e3cb010ab0"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "inputs",
+        1,
+        "label"
+      ],
+      "sourceHash": "9f135e34cc7bc32cafb416bcbf7ef6af035cdb444c22e90cccd0587ba3db19df"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "inputs",
+        1,
+        "help"
+      ],
+      "sourceHash": "d99a99ab817eea4a3a70ded599d0744a02fe8de95ab0b7c6a0fc9d5cb72c400d"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "inputs",
+        2,
+        "label"
+      ],
+      "sourceHash": "4b5674419c1cb29206fb7d1486e6492bb74df9523dbc3bd5cdb875a309486100"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "inputs",
+        2,
+        "help"
+      ],
+      "sourceHash": "310e52c988a868b67de05d75913bc83fea7f2ff3d06b15cb07adf6c22d1f94f1"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "offer",
+        "unit"
+      ],
+      "sourceHash": "4eaa570bcd2d051814cfbcea81a6a732eec55c652d08b722bda0aa7cb12971ef"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "offer",
+        "allowance"
+      ],
+      "sourceHash": "aa695907fedd044f41aaf55b78c3e18e056e184ea83ebd0d21e1b8e7177ee995"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "offer",
+        "extras"
+      ],
+      "sourceHash": "2dde78d0a4b34a797ac41efa8426f1e98874a7e9bfc38db869338b90175c0a63"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "assumptions",
+        0
+      ],
+      "sourceHash": "79adeadb4feb385ac12585feee29f5f4b94954ccde2406a3b86aa5c7e90ca29f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "assumptions",
+        1
+      ],
+      "sourceHash": "989a9fcc887e91c895fb2d3cdee45f5d8279d36705594e66f19d87e172656e0e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "loop"
+      ],
+      "sourceHash": "edc50e97c701508b19ff0c0117cda5ab8aafa7faa0d747388080ab915edec13f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "ctaLabel"
+      ],
+      "sourceHash": "6e5fe4ca7c07142fa81eef400c342dea7f8ba0422aa331c3880e6604db8d52a7"
     },
     {
       "path": [
@@ -8944,7 +10895,7 @@
         "roiCalculator",
         "heading"
       ],
-      "sourceHash": "c63420eca3f95b8917c99f3a5cf72f000ab237bc6c658765b2176ebdd7b311be"
+      "sourceHash": "f605f95a678fe3249ebf6201cbc21b86ea72d7f4bc395cab6e017b8b91a674d6"
     },
     {
       "path": [
@@ -8952,7 +10903,7 @@
         "roiCalculator",
         "subheading"
       ],
-      "sourceHash": "7b148bf1bc2d445204b8b2a40faa420fe4a04624c98bd20f79c051038ca1b7da"
+      "sourceHash": "22fd8ffe8dbddd46f41fb690f262f66466bb343bae0b359e4c64dfd2f2f127a5"
     },
     {
       "path": [
@@ -8960,7 +10911,7 @@
         "roiCalculator",
         "disclaimer"
       ],
-      "sourceHash": "2571d3c4491924fe3b8aaab7d2acb5f4904b393aae9f2babc38cd0e46d1126aa"
+      "sourceHash": "28bd6e46023484d9a6b075ba5e7539842d6a2e920782ed0979f21366d56ae02f"
     },
     {
       "path": [
@@ -10845,7 +12796,7 @@
         "pricing",
         "label"
       ],
-      "sourceHash": "74be3e630a8b30d773e4002180e4cdf3963817fa92ff839e99f6556ac371eaa8"
+      "sourceHash": "dfe95783edfef7918760312f94edd764f4ce3ffd38b90c2c955a0cc3b250f040"
     },
     {
       "path": [
@@ -10883,7 +12834,639 @@
         "privacyNote"
       ],
       "sourceHash": "0e96f5e15977ab0a2a8d684c0d35d7459f3afc862b606046310ae1fbbd4be12b"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "navLabel"
+      ],
+      "sourceHash": "dfe95783edfef7918760312f94edd764f4ce3ffd38b90c2c955a0cc3b250f040"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "heading"
+      ],
+      "sourceHash": "f605f95a678fe3249ebf6201cbc21b86ea72d7f4bc395cab6e017b8b91a674d6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "intro"
+      ],
+      "sourceHash": "22fd8ffe8dbddd46f41fb690f262f66466bb343bae0b359e4c64dfd2f2f127a5"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "monthly"
+      ],
+      "sourceHash": "310ca503ef36f177ddbc760463fcaec1edc6eca12bfd590ad7bb244b31e59543"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "weekly"
+      ],
+      "sourceHash": "e78041ab51a818a22e2cfea6c15fe72e9e20092246f496f1670f7be3e42177a6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "daily"
+      ],
+      "sourceHash": "8f2364e11b8be3ff008f32b3dedb54e659362429bcc9e3eb6acb6070de4ffbff"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "cost"
+      ],
+      "sourceHash": "16c6e032c6d9e64e841b58a0298260d9f548fcbe3a8ad8dc475bd977b602898f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "benefit"
+      ],
+      "sourceHash": "a7f9c107913bba92d233f27fbfa5c4c52e4435a763a727214089505b9519d2dc"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "net"
+      ],
+      "sourceHash": "d32a3b8a970a1c2a790bdd47a4a86f208f6ff655d8e9269dcda5776b156d6039"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "roi"
+      ],
+      "sourceHash": "bd75a04bf54fbb79e68559c37be0a8752efacfe4f5b9a326b87143c8d5c87dcc"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "timeBenefit"
+      ],
+      "sourceHash": "cedc575743fa43d9e724db8bd1d54037d41369448eb826b63e1efba54e81c2a4"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "timeRoi"
+      ],
+      "sourceHash": "4b0df8181ded668923d1da293e0fc8ca4d0ac21eed3f933b32891615e67d1f6a"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "timeBack"
+      ],
+      "sourceHash": "92947077a2792fb311280e55e4d39fbeb1fbb152e76b389dee5a53697ea548ef"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "missing"
+      ],
+      "sourceHash": "4b11bc702fcdb172c2f88f4af465a9d05ac206b7f7e6304fcded04eb92cccde6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "noRatio"
+      ],
+      "sourceHash": "5237c96ac1a23b98eb13770503afe986b088acd6627fa7649a5afdcbc4bb8e99"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "method"
+      ],
+      "sourceHash": "b79afe297bec4d00ab3a70a61b5e8b607a423a123f23a2fa9ccf8d6af6bcd157"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "reset"
+      ],
+      "sourceHash": "daee7606b339f3c339076fe2c9f372a3ff40c8ee896005d829c7481b64ca5303"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "audience"
+      ],
+      "sourceHash": "545c02357695a6ffed97b01a94a46b9aeb4686f4480173da6d0faeae8eb85053"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "includedVat"
+      ],
+      "sourceHash": "3e366dcdda082eda14db7eab30381a2fcc424c43d183d0e6d7a4b15c9b567d7d"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "excludedVat"
+      ],
+      "sourceHash": "744120dab44d48957b4580cadd00fca1f91383823125d1400984a3cf62a76441"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "perMonth"
+      ],
+      "sourceHash": "88b1d1a67e34a269fec10b917a624817de854eeadb142640ab17c8199ab6bdae"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "equivalents"
+      ],
+      "sourceHash": "4a546022be02a950fc59270741b8e4784ca51f74da16e286c77e3f5a371aff38"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "timeNote"
+      ],
+      "sourceHash": "d7c17f23c52c1d9cf5be7fcb5a537017a0a09529bfde38e6b692afa2ecbf453f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "estimateNote"
+      ],
+      "sourceHash": "28bd6e46023484d9a6b075ba5e7539842d6a2e920782ed0979f21366d56ae02f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "limitNote"
+      ],
+      "sourceHash": "61108708047a1a834e46f1ca557d7518e3a63263a8ec7e7aa4301db230beacff"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "timeFormula"
+      ],
+      "sourceHash": "4cf3d8fcb0fa4b9c36d9869e709ba0cbabcd41083c7ff8cf77e9fe32066eacdb"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "profitFormula"
+      ],
+      "sourceHash": "e286f3af8c8f706f737502c898e1ba90c6bbc7680c380bba844ec4f3874b5bc4"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "proceedsFormula"
+      ],
+      "sourceHash": "9de390391c62a87b44f2c9bf74e5223e5d34c5a74cd5e12575f5e1452881a46e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "roiFormula"
+      ],
+      "sourceHash": "00f9b4df25ca733c11a00e762ab8d95f6e9c9364ce202a6c22ff95c3613e3fcb"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "label"
+      ],
+      "sourceHash": "3e56208886334ad120af2d85b44fca33b5922a7e96623d87d793727c75178e03"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "inputs",
+        0,
+        "label"
+      ],
+      "sourceHash": "d0081c4a08b2be87b687f4f35e5668e5c004581cd766a25feea76ebe7ae5afdb"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "inputs",
+        0,
+        "help"
+      ],
+      "sourceHash": "a8cff02d43e6c0371644e73ec0de532d8ac6ae2eb169301a6e3605e3cb010ab0"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "inputs",
+        1,
+        "label"
+      ],
+      "sourceHash": "9f135e34cc7bc32cafb416bcbf7ef6af035cdb444c22e90cccd0587ba3db19df"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "inputs",
+        1,
+        "help"
+      ],
+      "sourceHash": "d99a99ab817eea4a3a70ded599d0744a02fe8de95ab0b7c6a0fc9d5cb72c400d"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "inputs",
+        2,
+        "label"
+      ],
+      "sourceHash": "4b5674419c1cb29206fb7d1486e6492bb74df9523dbc3bd5cdb875a309486100"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "inputs",
+        2,
+        "help"
+      ],
+      "sourceHash": "310e52c988a868b67de05d75913bc83fea7f2ff3d06b15cb07adf6c22d1f94f1"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "offer",
+        "unit"
+      ],
+      "sourceHash": "3e56208886334ad120af2d85b44fca33b5922a7e96623d87d793727c75178e03"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "offer",
+        "allowance"
+      ],
+      "sourceHash": "aa695907fedd044f41aaf55b78c3e18e056e184ea83ebd0d21e1b8e7177ee995"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "offer",
+        "extras"
+      ],
+      "sourceHash": "2dde78d0a4b34a797ac41efa8426f1e98874a7e9bfc38db869338b90175c0a63"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "assumptions",
+        0
+      ],
+      "sourceHash": "79adeadb4feb385ac12585feee29f5f4b94954ccde2406a3b86aa5c7e90ca29f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "assumptions",
+        1
+      ],
+      "sourceHash": "989a9fcc887e91c895fb2d3cdee45f5d8279d36705594e66f19d87e172656e0e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "loop"
+      ],
+      "sourceHash": "edc50e97c701508b19ff0c0117cda5ab8aafa7faa0d747388080ab915edec13f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "ctaLabel"
+      ],
+      "sourceHash": "6e5fe4ca7c07142fa81eef400c342dea7f8ba0422aa331c3880e6604db8d52a7"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "label"
+      ],
+      "sourceHash": "4eaa570bcd2d051814cfbcea81a6a732eec55c652d08b722bda0aa7cb12971ef"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "inputs",
+        0,
+        "label"
+      ],
+      "sourceHash": "d0081c4a08b2be87b687f4f35e5668e5c004581cd766a25feea76ebe7ae5afdb"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "inputs",
+        0,
+        "help"
+      ],
+      "sourceHash": "a8cff02d43e6c0371644e73ec0de532d8ac6ae2eb169301a6e3605e3cb010ab0"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "inputs",
+        1,
+        "label"
+      ],
+      "sourceHash": "9f135e34cc7bc32cafb416bcbf7ef6af035cdb444c22e90cccd0587ba3db19df"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "inputs",
+        1,
+        "help"
+      ],
+      "sourceHash": "d99a99ab817eea4a3a70ded599d0744a02fe8de95ab0b7c6a0fc9d5cb72c400d"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "inputs",
+        2,
+        "label"
+      ],
+      "sourceHash": "4b5674419c1cb29206fb7d1486e6492bb74df9523dbc3bd5cdb875a309486100"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "inputs",
+        2,
+        "help"
+      ],
+      "sourceHash": "310e52c988a868b67de05d75913bc83fea7f2ff3d06b15cb07adf6c22d1f94f1"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "offer",
+        "unit"
+      ],
+      "sourceHash": "4eaa570bcd2d051814cfbcea81a6a732eec55c652d08b722bda0aa7cb12971ef"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "offer",
+        "allowance"
+      ],
+      "sourceHash": "aa695907fedd044f41aaf55b78c3e18e056e184ea83ebd0d21e1b8e7177ee995"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "offer",
+        "extras"
+      ],
+      "sourceHash": "2dde78d0a4b34a797ac41efa8426f1e98874a7e9bfc38db869338b90175c0a63"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "assumptions",
+        0
+      ],
+      "sourceHash": "79adeadb4feb385ac12585feee29f5f4b94954ccde2406a3b86aa5c7e90ca29f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "assumptions",
+        1
+      ],
+      "sourceHash": "989a9fcc887e91c895fb2d3cdee45f5d8279d36705594e66f19d87e172656e0e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "loop"
+      ],
+      "sourceHash": "edc50e97c701508b19ff0c0117cda5ab8aafa7faa0d747388080ab915edec13f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "ctaLabel"
+      ],
+      "sourceHash": "6e5fe4ca7c07142fa81eef400c342dea7f8ba0422aa331c3880e6604db8d52a7"
     }
   ],
-  "generatedAt": "2026-10-11T13:14:59.201Z"
+  "generatedAt": "2026-10-13T14:19:32.625Z"
 }

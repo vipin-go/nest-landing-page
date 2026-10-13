@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "language": "sv",
   "regionKey": null,
-  "sourceRevision": "d701b52843633b93bc6a942b1d7069b64e0764961352983e775addc605ea3000",
+  "sourceRevision": "be40441c1455b89085020ea8725989ac5b0d6534d1db605c9fe719b98b0b6ab9",
   "landingPage": {
     "headline": "En kvalificerad introduktion som passar.",
     "subheadline": "Privata köpare och säljare introduktioner, ett mänskligt granskat förslag i taget.",
@@ -212,9 +212,9 @@
             "methodologyVersion": 2,
             "enabled": true,
             "kicker": "Business impact",
-            "heading": "ROI Calculator",
-            "subheading": "Modellera en licensierad andrahandsagent eller mäklarfirma med Nest för kvalificerade, mänskligt granskade introduktioner på en lokal marknad.",
-            "disclaimer": "Ett modellerat driftscenario med noll validerad betald efterfrågan. Nest kvalificerar och koordinerar godkända introduktioner; it does not represent parties, value property, negotiate, earn commissions or guarantee a transaction.",
+            "heading": "Priser och ROI",
+            "subheading": "Dina värden. Din väntade avkastning.",
+            "disclaimer": "Planeringsestimat är skilda från uppmätt ROI. Bara godtagna utfall och jämförbara bokförda kostnader stöder uppmätt avkastning.",
             "currency": "EUR",
             "currencyCopy": {
               "native": "Amounts in {currency}.",
@@ -224,12 +224,12 @@
               "basis": "Valutaomvandling är inte lokal kostnadsundersökning. Enter your own local costs and contribution assumptions. Språkändringar ändrar inte mängder."
             },
             "costCopy": {
-              "breakdown": "Hur all-in AI-kostnaden är byggd",
+              "breakdown": "Så beräknas total AI-kostnad",
               "perUnit": "{amount} per work unit (average)",
               "budgetOnly": "Detta är din totala budget. Byt till kostnadsfördelning för att specificera den; ingen splittring har antagits.",
               "benefitNotice": "Modellerade förmåner, inte avgifter. Överkorsade belopp är utgifter du förväntar dig att undvika, inte rabatter på AI-notan.",
               "remainder": "Other included operating costs",
-              "allocation": "Returnerade timmar är kapacitet, inte automatiska besparingar. Endast de delar du tilldelar faktiska utgiftsminskningar eller ytterligare bidrag får ett monetärt värde."
+              "allocation": "Frigjorda timmar är kapacitet, inte automatiska besparingar. Endast de delar du kopplar till faktiska kostnadsminskningar eller extra bidrag får ett monetärt värde."
             },
             "locale": "en-GB",
             "inputs": [],
@@ -248,7 +248,7 @@
                 "platform_cost": 1500,
                 "higher_value_hours": 0,
                 "contribution_rate": 0,
-                "customer_price": 750
+                "customer_price": 49
               },
               "copy": {
                 "navLabel": "Prissättning",
@@ -287,7 +287,7 @@
                 "totalMode": "Monthly budget",
                 "itemizedMode": "Cost breakdown",
                 "budgetNote": "Budgeten ska innehålla modeller/media, verktyg, infrastruktur, Gabriel-arvoden och ytterligare betald recension. Inkludera inte oförändrad löneräkning som nya utgifter.",
-                "itemizedNote": "Tokenanvändning beräknas från volym × tokens per utgång. Extra media, verktyg och infrastruktur förblir på noll om de inte gäller. Ytterligare betald recension beräknas utifrån recensionstimmar och dess pris.",
+                "itemizedNote": "Tokenanvändning beräknas som volym × tokens per output. Extra media, verktyg och infrastruktur förblir noll om de inte används. Extra betald granskning beräknas från granskningstimmar och timpris.",
                 "paidReviewCost": "Additional paid review cost",
                 "allInCost": "Operating cost",
                 "missing": "Add your assumptions",
@@ -300,7 +300,7 @@
                 "multiple": "Internal delivery multiple",
                 "customerBenefit": "Modeled agent benefit",
                 "customerRoi": "Modeled customer ROI",
-                "payback": "Customer payback period",
+                "payback": "Kundens återbetalningstid",
                 "notApplicable": "Not applicable",
                 "annual": "Annual view",
                 "annualNote": "Samma månatliga antaganden, utan tillväxt eller sammansättning. Hiring savings last only for the entered period.",
@@ -315,7 +315,7 @@
                 "hiringLabel": "Denna hyra var genuint planerad och den tilldelade kapaciteten kan täcka arbetet.",
                 "reviewedLabel": "I have reviewed my outcomes; ej valda utfall har inget ekonomiskt värde i denna uppskattning.",
                 "cycleResult": "Cycle-time improvement",
-                "throughputResult": "Merarbete med stöd av kapacitet och efterfrågan",
+                "throughputResult": "Extra arbete som kapacitet och efterfrågan medger",
                 "assumptionsIncomplete": "Fyll i de valda antagandena för att beräkna ekonomiskt värde.",
                 "allocationError": "Tilldelade timmar överstiger den tillgängliga nettokapaciteten. Minska anslagen.",
                 "reviewError": "Review takes more time than the work reduced. Ingen positiv kapacitet är tillgänglig vid dessa antaganden.",
@@ -365,8 +365,8 @@
                   "help": "Mänsklig granskning krävs fortfarande innan någon sida ser ett förslag."
                 },
                 "cycles_per_unit": {
-                  "label": "Cyklar per enhet varje månad",
-                  "help": "Antal återkommande order-, gransknings- eller hanteringscykler per enhet en normal månad."
+                  "label": "Cykler per enhet varje månad",
+                  "help": "Antal order-, gransknings- eller bearbetningscykler varje enhet kör under en normal månad."
                 },
                 "tokens_per_output": {
                   "label": "Tokens per kvalificerad köpare",
@@ -389,16 +389,16 @@
                   "help": "Incremental hosting, storage and compute for this workload. Ange noll om ingen."
                 },
                 "platform_cost": {
-                  "label": "Övriga leverans- och supportkostnader",
-                  "help": "Modellerad hosting, lagring, övervakning och supportkostnad, separat från kundpriset."
+                  "label": "Other delivery and support cost",
+                  "help": "Modeled hosting, storage, monitoring and support cost, separate from the customer price."
                 },
                 "customer_price": {
                   "label": "Proposed monthly Nest price",
                   "help": "Redigerbar agent/mäklarprishypotes. Det är inte validerad intäkt och måste testas i en betald pilot."
                 },
                 "personal_value_per_hour": {
-                  "label": "Valfritt värde du tilldelar en timme",
-                  "help": "Endast en valfri personlig jämförelse. This is not salary, wages or guaranteed cash savings."
+                  "label": "valfritt värde du tilldelar en timme",
+                  "help": "Endast en valfri personlig jämförelse. Detta är inte lön, lön eller garanterat kontantbesparing."
                 },
                 "review_rate": {
                   "label": "Extra betald granskning per timme",
@@ -406,11 +406,11 @@
                 },
                 "cash_hours": {
                   "label": "Timmar som tar bort betalt arbete",
-                  "help": "Räkna bara med arbete där kostnader för övertid, konsulter eller hantering faktiskt upphör."
+                  "help": "Fördela bara arbete vars övertids-, konsult- eller bearbetningskostnader faktiskt upphör."
                 },
                 "cash_baseline": {
                   "label": "Nuvarande månadskostnad för arbetet",
-                  "help": "Den kassabudget som minskningen kommer ifrån."
+                  "help": "Den kassabudget som minskningen kommer från."
                 },
                 "cash_avoided": {
                   "label": "Månatliga utgifter du skulle sluta",
@@ -426,11 +426,11 @@
                 },
                 "throughput_hours": {
                   "label": "Timmar som används för extra volym",
-                  "help": "Detta anslag kan inte även användas för rådgivningsarbete eller utgiftsminskningar."
+                  "help": "Denna fördelning kan inte också användas för rådgivning eller kostnadsminskningar."
                 },
                 "extra_minutes": {
                   "label": "Lagminuter per extra enhet",
-                  "help": "Återstående mänskligt arbete, inklusive granskning, för att leverera en enhet till."
+                  "help": "Återstående mänsklig insats, inklusive granskning, för att leverera en enhet till."
                 },
                 "demand": {
                   "label": "Ytterligare enheter med förväntad efterfrågan",
@@ -442,7 +442,7 @@
                 },
                 "hiring_hours": {
                   "label": "Timmar som täcker den planerade hyran",
-                  "help": "Avsätt kapacitet för specifikt planerat arbete, inte en allmän uppskattning i heltidstjänster."
+                  "help": "Fördela kapacitet till konkret planerat arbete, inte en generell heltidsuppskattning."
                 },
                 "planned_hours": {
                   "label": "Månadstimmar som den planerade hyran skulle täcka",
@@ -450,7 +450,7 @@
                 },
                 "hire_cost": {
                   "label": "Månatlig hyra kostnad faktiskt uppskjuten",
-                  "help": "Använd kostnaden för en faktiskt planerad rekrytering, inte lönen för någon redan anställd."
+                  "help": "Använd kostnaden för en faktiskt planerad rekrytering, inte lönen för befintlig personal."
                 },
                 "hire_months": {
                   "label": "Månader som hyran skjuts upp",
@@ -470,11 +470,11 @@
                 },
                 "probability_after": {
                   "label": "Monthly loss probability after",
-                  "help": "Använd samma händelse och månatliga tidshorisont som baslinjen."
+                  "help": "Använd samma evenemang och månadsperiod som i baslinjen."
                 },
                 "loss": {
                   "label": "Förlustexponering för den händelsen",
-                  "help": "Uteslut felincidenter och redan räknade utgifter. Detta är ett osäkert förväntat värde, inte sparade pengar."
+                  "help": "Exkludera felincidenter och redan räknade kostnader. Detta är osäkert förväntat värde, inte sparade pengar."
                 },
                 "days_before": {
                   "label": "Cykeltid före, i dagar",
@@ -482,7 +482,7 @@
                 },
                 "days_after": {
                   "label": "Cykeltid efter, i dagar",
-                  "help": "Visas endast som en operativ förändring, utan ett antaget monetärt värde."
+                  "help": "Visas endast som en operativ förändring, utan antaget monetärt värde."
                 }
               },
               "burden": [
@@ -493,35 +493,6 @@
                 "More qualified, human-reviewed introductions",
                 "Dags för agentsamtal och kundbehov"
               ],
-              "usagePackages": {
-                "base": {
-                  "volume": 1,
-                  "tokensPerOutput": 12000,
-                  "platform_cost": 450,
-                  "minutes": 20,
-                  "automation": 100,
-                  "review": 8,
-                  "model_cost": 0,
-                  "tools_cost": 0,
-                  "infrastructure_cost": 0,
-                  "higher_value_hours": 0,
-                  "contribution_rate": 0
-                },
-                "medium": {
-                  "volume": 1,
-                  "tokensPerOutput": 12000,
-                  "platform_cost": 750,
-                  "minutes": 20,
-                  "automation": 100,
-                  "review": 8,
-                  "model_cost": 0,
-                  "tools_cost": 0,
-                  "infrastructure_cost": 0,
-                  "higher_value_hours": 0,
-                  "contribution_rate": 0
-                }
-              },
-              "defaultPackage": "medium",
               "costMode": "itemized",
               "reviewMode": "team",
               "selected": [
@@ -584,8 +555,7 @@
               ],
               "pricing": {
                 "basis": "fixed",
-                "annualPrice": 9000,
-                "label": "Proposed Nest monthly price",
+                "label": "Prissättning",
                 "help": "En arbetshypotes för 750 €/månad för en kvalificerad introduktionspilot. Behandla som ogiltig tills en agent eller mäklare betalar."
               },
               "presentation": {
@@ -600,6 +570,151 @@
               "secondaryLabel": "See how it works",
               "privacyNote": "Din data förblir privat. Timmar är kapacitet. Finansiella belopp är modellerade uppskattningar, inte observerade resultat.",
               "secondaryTarget": "how-it-works"
+            },
+            "compact": {
+              "schemaVersion": 1,
+              "defaultProfileId": "buyer",
+              "copy": {
+                "navLabel": "Prissättning",
+                "heading": "Priser och ROI",
+                "intro": "Dina värden. Din väntade avkastning.",
+                "monthly": "Månad",
+                "weekly": "Vecka",
+                "daily": "Dag",
+                "cost": "Ditt pris",
+                "benefit": "Väntad avkastning",
+                "net": "Nettovinst",
+                "roi": "Uppskattad ROI",
+                "timeBenefit": "Uppskattat tidsvärde",
+                "timeRoi": "Tidsvärdes-ROI",
+                "timeBack": "Återvunna timmar",
+                "missing": "Ange dina värden",
+                "noRatio": "Not applicable",
+                "method": "Så beräknas det",
+                "reset": "Nolla",
+                "audience": "Publikum",
+                "includedVat": "Inklusive VAT",
+                "excludedVat": "Exklusive VAT",
+                "perMonth": "per månad",
+                "equivalents": "Faktureras månadsvis. Dags- och veckotal är snitt, inte dags- eller veckoavgifter eller garanterad avkastning.",
+                "timeNote": "Tidsvärdet är ditt valfria estimat, inte mottagna pengar eller sänkt lön. Nettominuterna inkluderar din tid för kontroll och godkännande.",
+                "estimateNote": "Planeringsestimat är skilda från uppmätt ROI. Bara godtagna utfall och jämförbara bokförda kostnader stöder uppmätt avkastning.",
+                "limitNote": "Kontakta oss för mer användning eller separat offert. Kalkylen gäller endast det som ingår i planen.",
+                "timeFormula": "Tidsvärde = enheter × sparade nettominuter ÷ 60 × ditt timvärde.",
+                "profitFormula": "Täckningsbidrag = kvalificerade rekommendationstillfällen × konverteringsökning ÷ 100 × vinst per extra order.",
+                "proceedsFormula": "Merintäkter = partier eller hämtningar × (nettointäkt efter − nettointäkt före).",
+                "roiFormula": "Netto = nytta − appabonnemang. ROI = netto ÷ appabonnemang × 100. Gratisplaner saknar ROI-procent."
+              },
+              "profiles": [
+                {
+                  "id": "buyer",
+                  "label": "Mäklararbetsyta · köparunderlag",
+                  "model": "time_value",
+                  "unitsPerWorkload": 1,
+                  "inputs": [
+                    {
+                      "id": "units",
+                      "label": "Kvalificerade underlag/månad",
+                      "help": "Arbete du tänker granska under en månad, inom den inkluderade kvoten.",
+                      "defaultValue": 20,
+                      "min": 0,
+                      "max": 20,
+                      "step": 1,
+                      "format": "number"
+                    },
+                    {
+                      "id": "minutes_saved",
+                      "label": "Sparade minuter",
+                      "help": "Ditt estimat efter kontroll, godkännande och omarbete. Negativa värden betyder extra arbete.",
+                      "defaultValue": 12,
+                      "min": -1440,
+                      "max": 1440,
+                      "step": 0.1,
+                      "format": "number"
+                    },
+                    {
+                      "id": "hourly_value",
+                      "label": "Timvärde",
+                      "help": "Din egen valfria värdering. Ingen utlovad kontantbesparing eller löneminskning.",
+                      "defaultValue": null,
+                      "min": 0,
+                      "max": 1000,
+                      "step": 0.01,
+                      "format": "currency"
+                    }
+                  ],
+                  "offer": {
+                    "monthlyPrice": 49,
+                    "basis": "fixed",
+                    "unit": "Mäklararbetsyta · köparunderlag",
+                    "vatIncluded": false,
+                    "includedUnits": 20,
+                    "allowance": "20 godkända underlag",
+                    "extras": "Extra användning och experttjänster offereras separat."
+                  },
+                  "assumptions": [
+                    "Startvärdet 12 nettominuter är ett räkneexempel för förberedelser, inte ett uppmätt resultat.",
+                    "Nettominuterna inkluderar kundens granskning. Du anger tidsvärdet i pengar; det är inte mottagna pengar."
+                  ],
+                  "loop": "Bostads- eller köpsignal → kvalificera källbelagt underlag → mäklaren granskar och parterna samtycker → registrera godkänd kontakt och faktiskt utfall.",
+                  "ctaLabel": "Testa demon",
+                  "ctaTarget": "meet"
+                },
+                {
+                  "id": "seller",
+                  "label": "Mäklararbetsyta · säljarunderlag",
+                  "model": "time_value",
+                  "unitsPerWorkload": 1,
+                  "inputs": [
+                    {
+                      "id": "units",
+                      "label": "Kvalificerade underlag/månad",
+                      "help": "Arbete du tänker granska under en månad, inom den inkluderade kvoten.",
+                      "defaultValue": 20,
+                      "min": 0,
+                      "max": 20,
+                      "step": 1,
+                      "format": "number"
+                    },
+                    {
+                      "id": "minutes_saved",
+                      "label": "Sparade minuter",
+                      "help": "Ditt estimat efter kontroll, godkännande och omarbete. Negativa värden betyder extra arbete.",
+                      "defaultValue": 12,
+                      "min": -1440,
+                      "max": 1440,
+                      "step": 0.1,
+                      "format": "number"
+                    },
+                    {
+                      "id": "hourly_value",
+                      "label": "Timvärde",
+                      "help": "Din egen valfria värdering. Ingen utlovad kontantbesparing eller löneminskning.",
+                      "defaultValue": null,
+                      "min": 0,
+                      "max": 1000,
+                      "step": 0.01,
+                      "format": "currency"
+                    }
+                  ],
+                  "offer": {
+                    "monthlyPrice": 49,
+                    "basis": "fixed",
+                    "unit": "Mäklararbetsyta · säljarunderlag",
+                    "vatIncluded": false,
+                    "includedUnits": 20,
+                    "allowance": "20 godkända underlag",
+                    "extras": "Extra användning och experttjänster offereras separat."
+                  },
+                  "assumptions": [
+                    "Startvärdet 12 nettominuter är ett räkneexempel för förberedelser, inte ett uppmätt resultat.",
+                    "Nettominuterna inkluderar kundens granskning. Du anger tidsvärdet i pengar; det är inte mottagna pengar."
+                  ],
+                  "loop": "Bostads- eller köpsignal → kvalificera källbelagt underlag → mäklaren granskar och parterna samtycker → registrera godkänd kontakt och faktiskt utfall.",
+                  "ctaLabel": "Testa demon",
+                  "ctaTarget": "meet"
+                }
+              ]
             }
           },
           "leadScan": {
@@ -720,9 +835,9 @@
             "methodologyVersion": 2,
             "enabled": true,
             "kicker": "Business impact",
-            "heading": "ROI Calculator",
-            "subheading": "Modellera en licensierad andrahandsagent eller mäklarfirma med Nest för kvalificerade, mänskligt granskade introduktioner på en lokal marknad.",
-            "disclaimer": "Ett modellerat driftscenario med noll validerad betald efterfrågan. Nest kvalificerar och koordinerar godkända introduktioner; it does not represent parties, value property, negotiate, earn commissions or guarantee a transaction.",
+            "heading": "Priser och ROI",
+            "subheading": "Dina värden. Din väntade avkastning.",
+            "disclaimer": "Planeringsestimat är skilda från uppmätt ROI. Bara godtagna utfall och jämförbara bokförda kostnader stöder uppmätt avkastning.",
             "currency": "EUR",
             "currencyCopy": {
               "native": "Amounts in {currency}.",
@@ -732,12 +847,12 @@
               "basis": "Valutaomvandling är inte lokal kostnadsundersökning. Enter your own local costs and contribution assumptions. Språkändringar ändrar inte mängder."
             },
             "costCopy": {
-              "breakdown": "Hur all-in AI-kostnaden är byggd",
+              "breakdown": "Så beräknas total AI-kostnad",
               "perUnit": "{amount} per work unit (average)",
               "budgetOnly": "Detta är din totala budget. Byt till kostnadsfördelning för att specificera den; ingen splittring har antagits.",
               "benefitNotice": "Modellerade förmåner, inte avgifter. Överkorsade belopp är utgifter du förväntar dig att undvika, inte rabatter på AI-notan.",
               "remainder": "Other included operating costs",
-              "allocation": "Returnerade timmar är kapacitet, inte automatiska besparingar. Endast de delar du tilldelar faktiska utgiftsminskningar eller ytterligare bidrag får ett monetärt värde."
+              "allocation": "Frigjorda timmar är kapacitet, inte automatiska besparingar. Endast de delar du kopplar till faktiska kostnadsminskningar eller extra bidrag får ett monetärt värde."
             },
             "locale": "en-GB",
             "inputs": [],
@@ -756,7 +871,7 @@
                 "platform_cost": 1500,
                 "higher_value_hours": 0,
                 "contribution_rate": 0,
-                "customer_price": 750
+                "customer_price": 49
               },
               "copy": {
                 "navLabel": "Prissättning",
@@ -795,7 +910,7 @@
                 "totalMode": "Monthly budget",
                 "itemizedMode": "Cost breakdown",
                 "budgetNote": "Budgeten ska innehålla modeller/media, verktyg, infrastruktur, Gabriel-arvoden och ytterligare betald recension. Inkludera inte oförändrad löneräkning som nya utgifter.",
-                "itemizedNote": "Tokenanvändning beräknas från volym × tokens per utgång. Extra media, verktyg och infrastruktur förblir på noll om de inte gäller. Ytterligare betald recension beräknas utifrån recensionstimmar och dess pris.",
+                "itemizedNote": "Tokenanvändning beräknas som volym × tokens per output. Extra media, verktyg och infrastruktur förblir noll om de inte används. Extra betald granskning beräknas från granskningstimmar och timpris.",
                 "paidReviewCost": "Additional paid review cost",
                 "allInCost": "Operating cost",
                 "missing": "Add your assumptions",
@@ -808,7 +923,7 @@
                 "multiple": "Internal delivery multiple",
                 "customerBenefit": "Modeled agent benefit",
                 "customerRoi": "Modeled customer ROI",
-                "payback": "Customer payback period",
+                "payback": "Kundens återbetalningstid",
                 "notApplicable": "Not applicable",
                 "annual": "Annual view",
                 "annualNote": "Samma månatliga antaganden, utan tillväxt eller sammansättning. Hiring savings last only for the entered period.",
@@ -823,7 +938,7 @@
                 "hiringLabel": "Denna hyra var genuint planerad och den tilldelade kapaciteten kan täcka arbetet.",
                 "reviewedLabel": "I have reviewed my outcomes; ej valda utfall har inget ekonomiskt värde i denna uppskattning.",
                 "cycleResult": "Cycle-time improvement",
-                "throughputResult": "Merarbete med stöd av kapacitet och efterfrågan",
+                "throughputResult": "Extra arbete som kapacitet och efterfrågan medger",
                 "assumptionsIncomplete": "Fyll i de valda antagandena för att beräkna ekonomiskt värde.",
                 "allocationError": "Tilldelade timmar överstiger den tillgängliga nettokapaciteten. Minska anslagen.",
                 "reviewError": "Review takes more time than the work reduced. Ingen positiv kapacitet är tillgänglig vid dessa antaganden.",
@@ -873,8 +988,8 @@
                   "help": "Mänsklig granskning krävs fortfarande innan någon sida ser ett förslag."
                 },
                 "cycles_per_unit": {
-                  "label": "Cyklar per enhet varje månad",
-                  "help": "Antal återkommande order-, gransknings- eller hanteringscykler per enhet en normal månad."
+                  "label": "Cykler per enhet varje månad",
+                  "help": "Antal order-, gransknings- eller bearbetningscykler varje enhet kör under en normal månad."
                 },
                 "tokens_per_output": {
                   "label": "Tokens per kvalificerad säljare",
@@ -897,16 +1012,16 @@
                   "help": "Incremental hosting, storage and compute for this workload. Ange noll om ingen."
                 },
                 "platform_cost": {
-                  "label": "Övriga leverans- och supportkostnader",
-                  "help": "Modellerad hosting, lagring, övervakning och supportkostnad, separat från kundpriset."
+                  "label": "Other delivery and support cost",
+                  "help": "Modeled hosting, storage, monitoring and support cost, separate from the customer price."
                 },
                 "customer_price": {
                   "label": "Proposed monthly Nest price",
                   "help": "Redigerbar agent/mäklarprishypotes. Det är inte validerad intäkt och måste testas i en betald pilot."
                 },
                 "personal_value_per_hour": {
-                  "label": "Valfritt värde du tilldelar en timme",
-                  "help": "Endast en valfri personlig jämförelse. This is not salary, wages or guaranteed cash savings."
+                  "label": "valfritt värde du tilldelar en timme",
+                  "help": "Endast en valfri personlig jämförelse. Detta är inte lön, lön eller garanterat kontantbesparing."
                 },
                 "review_rate": {
                   "label": "Extra betald granskning per timme",
@@ -914,11 +1029,11 @@
                 },
                 "cash_hours": {
                   "label": "Timmar som tar bort betalt arbete",
-                  "help": "Räkna bara med arbete där kostnader för övertid, konsulter eller hantering faktiskt upphör."
+                  "help": "Fördela bara arbete vars övertids-, konsult- eller bearbetningskostnader faktiskt upphör."
                 },
                 "cash_baseline": {
                   "label": "Nuvarande månadskostnad för arbetet",
-                  "help": "Den kassabudget som minskningen kommer ifrån."
+                  "help": "Den kassabudget som minskningen kommer från."
                 },
                 "cash_avoided": {
                   "label": "Månatliga utgifter du skulle sluta",
@@ -934,11 +1049,11 @@
                 },
                 "throughput_hours": {
                   "label": "Timmar som används för extra volym",
-                  "help": "Detta anslag kan inte även användas för rådgivningsarbete eller utgiftsminskningar."
+                  "help": "Denna fördelning kan inte också användas för rådgivning eller kostnadsminskningar."
                 },
                 "extra_minutes": {
                   "label": "Lagminuter per extra enhet",
-                  "help": "Återstående mänskligt arbete, inklusive granskning, för att leverera en enhet till."
+                  "help": "Återstående mänsklig insats, inklusive granskning, för att leverera en enhet till."
                 },
                 "demand": {
                   "label": "Ytterligare enheter med förväntad efterfrågan",
@@ -950,7 +1065,7 @@
                 },
                 "hiring_hours": {
                   "label": "Timmar som täcker den planerade hyran",
-                  "help": "Avsätt kapacitet för specifikt planerat arbete, inte en allmän uppskattning i heltidstjänster."
+                  "help": "Fördela kapacitet till konkret planerat arbete, inte en generell heltidsuppskattning."
                 },
                 "planned_hours": {
                   "label": "Månadstimmar som den planerade hyran skulle täcka",
@@ -958,7 +1073,7 @@
                 },
                 "hire_cost": {
                   "label": "Månatlig hyra kostnad faktiskt uppskjuten",
-                  "help": "Använd kostnaden för en faktiskt planerad rekrytering, inte lönen för någon redan anställd."
+                  "help": "Använd kostnaden för en faktiskt planerad rekrytering, inte lönen för befintlig personal."
                 },
                 "hire_months": {
                   "label": "Månader som hyran skjuts upp",
@@ -978,11 +1093,11 @@
                 },
                 "probability_after": {
                   "label": "Monthly loss probability after",
-                  "help": "Använd samma händelse och månatliga tidshorisont som baslinjen."
+                  "help": "Använd samma evenemang och månadsperiod som i baslinjen."
                 },
                 "loss": {
                   "label": "Förlustexponering för den händelsen",
-                  "help": "Uteslut felincidenter och redan räknade utgifter. Detta är ett osäkert förväntat värde, inte sparade pengar."
+                  "help": "Exkludera felincidenter och redan räknade kostnader. Detta är osäkert förväntat värde, inte sparade pengar."
                 },
                 "days_before": {
                   "label": "Cykeltid före, i dagar",
@@ -990,7 +1105,7 @@
                 },
                 "days_after": {
                   "label": "Cykeltid efter, i dagar",
-                  "help": "Visas endast som en operativ förändring, utan ett antaget monetärt värde."
+                  "help": "Visas endast som en operativ förändring, utan antaget monetärt värde."
                 }
               },
               "burden": [
@@ -1001,35 +1116,6 @@
                 "More qualified, human-reviewed introductions",
                 "Dags för agentsamtal och kundbehov"
               ],
-              "usagePackages": {
-                "base": {
-                  "volume": 1,
-                  "tokensPerOutput": 12000,
-                  "platform_cost": 450,
-                  "minutes": 25,
-                  "automation": 100,
-                  "review": 10,
-                  "model_cost": 0,
-                  "tools_cost": 0,
-                  "infrastructure_cost": 0,
-                  "higher_value_hours": 0,
-                  "contribution_rate": 0
-                },
-                "medium": {
-                  "volume": 1,
-                  "tokensPerOutput": 12000,
-                  "platform_cost": 750,
-                  "minutes": 25,
-                  "automation": 100,
-                  "review": 10,
-                  "model_cost": 0,
-                  "tools_cost": 0,
-                  "infrastructure_cost": 0,
-                  "higher_value_hours": 0,
-                  "contribution_rate": 0
-                }
-              },
-              "defaultPackage": "medium",
               "costMode": "itemized",
               "reviewMode": "team",
               "selected": [
@@ -1097,8 +1183,7 @@
               ],
               "pricing": {
                 "basis": "fixed",
-                "annualPrice": 9000,
-                "label": "Proposed Nest monthly price",
+                "label": "Prissättning",
                 "help": "En arbetshypotes för 750 €/månad för en kvalificerad introduktionspilot. Behandla som ogiltig tills en agent eller mäklare betalar."
               },
               "presentation": {
@@ -1113,6 +1198,151 @@
               "secondaryLabel": "See how it works",
               "privacyNote": "Din data förblir privat. Timmar är kapacitet. Finansiella belopp är modellerade uppskattningar, inte observerade resultat.",
               "secondaryTarget": "how-it-works"
+            },
+            "compact": {
+              "schemaVersion": 1,
+              "defaultProfileId": "seller",
+              "copy": {
+                "navLabel": "Prissättning",
+                "heading": "Priser och ROI",
+                "intro": "Dina värden. Din väntade avkastning.",
+                "monthly": "Månad",
+                "weekly": "Vecka",
+                "daily": "Dag",
+                "cost": "Ditt pris",
+                "benefit": "Väntad avkastning",
+                "net": "Nettovinst",
+                "roi": "Uppskattad ROI",
+                "timeBenefit": "Uppskattat tidsvärde",
+                "timeRoi": "Tidsvärdes-ROI",
+                "timeBack": "Återvunna timmar",
+                "missing": "Ange dina värden",
+                "noRatio": "Not applicable",
+                "method": "Så beräknas det",
+                "reset": "Nolla",
+                "audience": "Publikum",
+                "includedVat": "Inklusive VAT",
+                "excludedVat": "Exklusive VAT",
+                "perMonth": "per månad",
+                "equivalents": "Faktureras månadsvis. Dags- och veckotal är snitt, inte dags- eller veckoavgifter eller garanterad avkastning.",
+                "timeNote": "Tidsvärdet är ditt valfria estimat, inte mottagna pengar eller sänkt lön. Nettominuterna inkluderar din tid för kontroll och godkännande.",
+                "estimateNote": "Planeringsestimat är skilda från uppmätt ROI. Bara godtagna utfall och jämförbara bokförda kostnader stöder uppmätt avkastning.",
+                "limitNote": "Kontakta oss för mer användning eller separat offert. Kalkylen gäller endast det som ingår i planen.",
+                "timeFormula": "Tidsvärde = enheter × sparade nettominuter ÷ 60 × ditt timvärde.",
+                "profitFormula": "Täckningsbidrag = kvalificerade rekommendationstillfällen × konverteringsökning ÷ 100 × vinst per extra order.",
+                "proceedsFormula": "Merintäkter = partier eller hämtningar × (nettointäkt efter − nettointäkt före).",
+                "roiFormula": "Netto = nytta − appabonnemang. ROI = netto ÷ appabonnemang × 100. Gratisplaner saknar ROI-procent."
+              },
+              "profiles": [
+                {
+                  "id": "buyer",
+                  "label": "Mäklararbetsyta · köparunderlag",
+                  "model": "time_value",
+                  "unitsPerWorkload": 1,
+                  "inputs": [
+                    {
+                      "id": "units",
+                      "label": "Kvalificerade underlag/månad",
+                      "help": "Arbete du tänker granska under en månad, inom den inkluderade kvoten.",
+                      "defaultValue": 20,
+                      "min": 0,
+                      "max": 20,
+                      "step": 1,
+                      "format": "number"
+                    },
+                    {
+                      "id": "minutes_saved",
+                      "label": "Sparade minuter",
+                      "help": "Ditt estimat efter kontroll, godkännande och omarbete. Negativa värden betyder extra arbete.",
+                      "defaultValue": 12,
+                      "min": -1440,
+                      "max": 1440,
+                      "step": 0.1,
+                      "format": "number"
+                    },
+                    {
+                      "id": "hourly_value",
+                      "label": "Timvärde",
+                      "help": "Din egen valfria värdering. Ingen utlovad kontantbesparing eller löneminskning.",
+                      "defaultValue": null,
+                      "min": 0,
+                      "max": 1000,
+                      "step": 0.01,
+                      "format": "currency"
+                    }
+                  ],
+                  "offer": {
+                    "monthlyPrice": 49,
+                    "basis": "fixed",
+                    "unit": "Mäklararbetsyta · köparunderlag",
+                    "vatIncluded": false,
+                    "includedUnits": 20,
+                    "allowance": "20 godkända underlag",
+                    "extras": "Extra användning och experttjänster offereras separat."
+                  },
+                  "assumptions": [
+                    "Startvärdet 12 nettominuter är ett räkneexempel för förberedelser, inte ett uppmätt resultat.",
+                    "Nettominuterna inkluderar kundens granskning. Du anger tidsvärdet i pengar; det är inte mottagna pengar."
+                  ],
+                  "loop": "Bostads- eller köpsignal → kvalificera källbelagt underlag → mäklaren granskar och parterna samtycker → registrera godkänd kontakt och faktiskt utfall.",
+                  "ctaLabel": "Testa demon",
+                  "ctaTarget": "meet"
+                },
+                {
+                  "id": "seller",
+                  "label": "Mäklararbetsyta · säljarunderlag",
+                  "model": "time_value",
+                  "unitsPerWorkload": 1,
+                  "inputs": [
+                    {
+                      "id": "units",
+                      "label": "Kvalificerade underlag/månad",
+                      "help": "Arbete du tänker granska under en månad, inom den inkluderade kvoten.",
+                      "defaultValue": 20,
+                      "min": 0,
+                      "max": 20,
+                      "step": 1,
+                      "format": "number"
+                    },
+                    {
+                      "id": "minutes_saved",
+                      "label": "Sparade minuter",
+                      "help": "Ditt estimat efter kontroll, godkännande och omarbete. Negativa värden betyder extra arbete.",
+                      "defaultValue": 12,
+                      "min": -1440,
+                      "max": 1440,
+                      "step": 0.1,
+                      "format": "number"
+                    },
+                    {
+                      "id": "hourly_value",
+                      "label": "Timvärde",
+                      "help": "Din egen valfria värdering. Ingen utlovad kontantbesparing eller löneminskning.",
+                      "defaultValue": null,
+                      "min": 0,
+                      "max": 1000,
+                      "step": 0.01,
+                      "format": "currency"
+                    }
+                  ],
+                  "offer": {
+                    "monthlyPrice": 49,
+                    "basis": "fixed",
+                    "unit": "Mäklararbetsyta · säljarunderlag",
+                    "vatIncluded": false,
+                    "includedUnits": 20,
+                    "allowance": "20 godkända underlag",
+                    "extras": "Extra användning och experttjänster offereras separat."
+                  },
+                  "assumptions": [
+                    "Startvärdet 12 nettominuter är ett räkneexempel för förberedelser, inte ett uppmätt resultat.",
+                    "Nettominuterna inkluderar kundens granskning. Du anger tidsvärdet i pengar; det är inte mottagna pengar."
+                  ],
+                  "loop": "Bostads- eller köpsignal → kvalificera källbelagt underlag → mäklaren granskar och parterna samtycker → registrera godkänd kontakt och faktiskt utfall.",
+                  "ctaLabel": "Testa demon",
+                  "ctaTarget": "meet"
+                }
+              ]
             }
           },
           "leadScan": {
@@ -1321,9 +1551,9 @@
       "methodologyVersion": 2,
       "enabled": true,
       "kicker": "Business impact",
-      "heading": "ROI Calculator",
-      "subheading": "Modellera en licensierad andrahandsagent eller mäklarfirma med Nest för kvalificerade, mänskligt granskade introduktioner på en lokal marknad.",
-      "disclaimer": "Ett modellerat driftscenario med noll validerad betald efterfrågan. Nest kvalificerar och koordinerar godkända introduktioner; it does not represent parties, value property, negotiate, earn commissions or guarantee a transaction.",
+      "heading": "Priser och ROI",
+      "subheading": "Dina värden. Din väntade avkastning.",
+      "disclaimer": "Planeringsestimat är skilda från uppmätt ROI. Bara godtagna utfall och jämförbara bokförda kostnader stöder uppmätt avkastning.",
       "currency": "EUR",
       "currencyCopy": {
         "native": "Amounts in {currency}.",
@@ -1333,12 +1563,12 @@
         "basis": "Valutaomvandling är inte lokal kostnadsundersökning. Enter your own local costs and contribution assumptions. Språkändringar ändrar inte mängder."
       },
       "costCopy": {
-        "breakdown": "Hur all-in AI-kostnaden är byggd",
+        "breakdown": "Så beräknas total AI-kostnad",
         "perUnit": "{amount} per work unit (average)",
         "budgetOnly": "Detta är din totala budget. Byt till kostnadsfördelning för att specificera den; ingen splittring har antagits.",
         "benefitNotice": "Modellerade förmåner, inte avgifter. Överkorsade belopp är utgifter du förväntar dig att undvika, inte rabatter på AI-notan.",
         "remainder": "Other included operating costs",
-        "allocation": "Returnerade timmar är kapacitet, inte automatiska besparingar. Endast de delar du tilldelar faktiska utgiftsminskningar eller ytterligare bidrag får ett monetärt värde."
+        "allocation": "Frigjorda timmar är kapacitet, inte automatiska besparingar. Endast de delar du kopplar till faktiska kostnadsminskningar eller extra bidrag får ett monetärt värde."
       },
       "locale": "en-GB",
       "inputs": [],
@@ -1357,7 +1587,7 @@
           "platform_cost": 1500,
           "higher_value_hours": 0,
           "contribution_rate": 0,
-          "customer_price": 750
+          "customer_price": 49
         },
         "copy": {
           "navLabel": "Prissättning",
@@ -1396,7 +1626,7 @@
           "totalMode": "Monthly budget",
           "itemizedMode": "Cost breakdown",
           "budgetNote": "Budgeten ska innehålla modeller/media, verktyg, infrastruktur, Gabriel-arvoden och ytterligare betald recension. Inkludera inte oförändrad löneräkning som nya utgifter.",
-          "itemizedNote": "Tokenanvändning beräknas från volym × tokens per utgång. Extra media, verktyg och infrastruktur förblir på noll om de inte gäller. Ytterligare betald recension beräknas utifrån recensionstimmar och dess pris.",
+          "itemizedNote": "Tokenanvändning beräknas som volym × tokens per output. Extra media, verktyg och infrastruktur förblir noll om de inte används. Extra betald granskning beräknas från granskningstimmar och timpris.",
           "paidReviewCost": "Additional paid review cost",
           "allInCost": "Operating cost",
           "missing": "Add your assumptions",
@@ -1409,7 +1639,7 @@
           "multiple": "Internal delivery multiple",
           "customerBenefit": "Modeled agent benefit",
           "customerRoi": "Modeled customer ROI",
-          "payback": "Customer payback period",
+          "payback": "Kundens återbetalningstid",
           "notApplicable": "Not applicable",
           "annual": "Annual view",
           "annualNote": "Samma månatliga antaganden, utan tillväxt eller sammansättning. Hiring savings last only for the entered period.",
@@ -1424,7 +1654,7 @@
           "hiringLabel": "Denna hyra var genuint planerad och den tilldelade kapaciteten kan täcka arbetet.",
           "reviewedLabel": "I have reviewed my outcomes; ej valda utfall har inget ekonomiskt värde i denna uppskattning.",
           "cycleResult": "Cycle-time improvement",
-          "throughputResult": "Merarbete med stöd av kapacitet och efterfrågan",
+          "throughputResult": "Extra arbete som kapacitet och efterfrågan medger",
           "assumptionsIncomplete": "Fyll i de valda antagandena för att beräkna ekonomiskt värde.",
           "allocationError": "Tilldelade timmar överstiger den tillgängliga nettokapaciteten. Minska anslagen.",
           "reviewError": "Review takes more time than the work reduced. Ingen positiv kapacitet är tillgänglig vid dessa antaganden.",
@@ -1474,8 +1704,8 @@
             "help": "Mänsklig granskning krävs fortfarande innan någon sida ser ett förslag."
           },
           "cycles_per_unit": {
-            "label": "Cyklar per enhet varje månad",
-            "help": "Antal återkommande order-, gransknings- eller hanteringscykler per enhet en normal månad."
+            "label": "Cykler per enhet varje månad",
+            "help": "Antal order-, gransknings- eller bearbetningscykler varje enhet kör under en normal månad."
           },
           "tokens_per_output": {
             "label": "Tokens per kvalificerad köpare",
@@ -1498,16 +1728,16 @@
             "help": "Incremental hosting, storage and compute for this workload. Ange noll om ingen."
           },
           "platform_cost": {
-            "label": "Övriga leverans- och supportkostnader",
-            "help": "Modellerad hosting, lagring, övervakning och supportkostnad, separat från kundpriset."
+            "label": "Other delivery and support cost",
+            "help": "Modeled hosting, storage, monitoring and support cost, separate from the customer price."
           },
           "customer_price": {
             "label": "Proposed monthly Nest price",
             "help": "Redigerbar agent/mäklarprishypotes. Det är inte validerad intäkt och måste testas i en betald pilot."
           },
           "personal_value_per_hour": {
-            "label": "Valfritt värde du tilldelar en timme",
-            "help": "Endast en valfri personlig jämförelse. This is not salary, wages or guaranteed cash savings."
+            "label": "valfritt värde du tilldelar en timme",
+            "help": "Endast en valfri personlig jämförelse. Detta är inte lön, lön eller garanterat kontantbesparing."
           },
           "review_rate": {
             "label": "Extra betald granskning per timme",
@@ -1515,11 +1745,11 @@
           },
           "cash_hours": {
             "label": "Timmar som tar bort betalt arbete",
-            "help": "Räkna bara med arbete där kostnader för övertid, konsulter eller hantering faktiskt upphör."
+            "help": "Fördela bara arbete vars övertids-, konsult- eller bearbetningskostnader faktiskt upphör."
           },
           "cash_baseline": {
             "label": "Nuvarande månadskostnad för arbetet",
-            "help": "Den kassabudget som minskningen kommer ifrån."
+            "help": "Den kassabudget som minskningen kommer från."
           },
           "cash_avoided": {
             "label": "Månatliga utgifter du skulle sluta",
@@ -1535,11 +1765,11 @@
           },
           "throughput_hours": {
             "label": "Timmar som används för extra volym",
-            "help": "Detta anslag kan inte även användas för rådgivningsarbete eller utgiftsminskningar."
+            "help": "Denna fördelning kan inte också användas för rådgivning eller kostnadsminskningar."
           },
           "extra_minutes": {
             "label": "Lagminuter per extra enhet",
-            "help": "Återstående mänskligt arbete, inklusive granskning, för att leverera en enhet till."
+            "help": "Återstående mänsklig insats, inklusive granskning, för att leverera en enhet till."
           },
           "demand": {
             "label": "Ytterligare enheter med förväntad efterfrågan",
@@ -1551,7 +1781,7 @@
           },
           "hiring_hours": {
             "label": "Timmar som täcker den planerade hyran",
-            "help": "Avsätt kapacitet för specifikt planerat arbete, inte en allmän uppskattning i heltidstjänster."
+            "help": "Fördela kapacitet till konkret planerat arbete, inte en generell heltidsuppskattning."
           },
           "planned_hours": {
             "label": "Månadstimmar som den planerade hyran skulle täcka",
@@ -1559,7 +1789,7 @@
           },
           "hire_cost": {
             "label": "Månatlig hyra kostnad faktiskt uppskjuten",
-            "help": "Använd kostnaden för en faktiskt planerad rekrytering, inte lönen för någon redan anställd."
+            "help": "Använd kostnaden för en faktiskt planerad rekrytering, inte lönen för befintlig personal."
           },
           "hire_months": {
             "label": "Månader som hyran skjuts upp",
@@ -1579,11 +1809,11 @@
           },
           "probability_after": {
             "label": "Monthly loss probability after",
-            "help": "Använd samma händelse och månatliga tidshorisont som baslinjen."
+            "help": "Använd samma evenemang och månadsperiod som i baslinjen."
           },
           "loss": {
             "label": "Förlustexponering för den händelsen",
-            "help": "Uteslut felincidenter och redan räknade utgifter. Detta är ett osäkert förväntat värde, inte sparade pengar."
+            "help": "Exkludera felincidenter och redan räknade kostnader. Detta är osäkert förväntat värde, inte sparade pengar."
           },
           "days_before": {
             "label": "Cykeltid före, i dagar",
@@ -1591,7 +1821,7 @@
           },
           "days_after": {
             "label": "Cykeltid efter, i dagar",
-            "help": "Visas endast som en operativ förändring, utan ett antaget monetärt värde."
+            "help": "Visas endast som en operativ förändring, utan antaget monetärt värde."
           }
         },
         "burden": [
@@ -1602,35 +1832,6 @@
           "More qualified, human-reviewed introductions",
           "Dags för agentsamtal och kundbehov"
         ],
-        "usagePackages": {
-          "base": {
-            "volume": 1,
-            "tokensPerOutput": 12000,
-            "platform_cost": 450,
-            "minutes": 20,
-            "automation": 100,
-            "review": 8,
-            "model_cost": 0,
-            "tools_cost": 0,
-            "infrastructure_cost": 0,
-            "higher_value_hours": 0,
-            "contribution_rate": 0
-          },
-          "medium": {
-            "volume": 1,
-            "tokensPerOutput": 12000,
-            "platform_cost": 750,
-            "minutes": 20,
-            "automation": 100,
-            "review": 8,
-            "model_cost": 0,
-            "tools_cost": 0,
-            "infrastructure_cost": 0,
-            "higher_value_hours": 0,
-            "contribution_rate": 0
-          }
-        },
-        "defaultPackage": "medium",
         "costMode": "itemized",
         "reviewMode": "team",
         "selected": [
@@ -1698,8 +1899,7 @@
         ],
         "pricing": {
           "basis": "fixed",
-          "annualPrice": 9000,
-          "label": "Proposed Nest monthly price",
+          "label": "Prissättning",
           "help": "En arbetshypotes för 750 €/månad för en kvalificerad introduktionspilot. Behandla som ogiltig tills en agent eller mäklare betalar."
         },
         "presentation": {
@@ -1714,6 +1914,151 @@
         "secondaryLabel": "See how it works",
         "privacyNote": "Din data förblir privat. Timmar är kapacitet. Finansiella belopp är modellerade uppskattningar, inte observerade resultat.",
         "secondaryTarget": "how-it-works"
+      },
+      "compact": {
+        "schemaVersion": 1,
+        "defaultProfileId": "buyer",
+        "copy": {
+          "navLabel": "Prissättning",
+          "heading": "Priser och ROI",
+          "intro": "Dina värden. Din väntade avkastning.",
+          "monthly": "Månad",
+          "weekly": "Vecka",
+          "daily": "Dag",
+          "cost": "Ditt pris",
+          "benefit": "Väntad avkastning",
+          "net": "Nettovinst",
+          "roi": "Uppskattad ROI",
+          "timeBenefit": "Uppskattat tidsvärde",
+          "timeRoi": "Tidsvärdes-ROI",
+          "timeBack": "Återvunna timmar",
+          "missing": "Ange dina värden",
+          "noRatio": "Not applicable",
+          "method": "Så beräknas det",
+          "reset": "Nolla",
+          "audience": "Publikum",
+          "includedVat": "Inklusive VAT",
+          "excludedVat": "Exklusive VAT",
+          "perMonth": "per månad",
+          "equivalents": "Faktureras månadsvis. Dags- och veckotal är snitt, inte dags- eller veckoavgifter eller garanterad avkastning.",
+          "timeNote": "Tidsvärdet är ditt valfria estimat, inte mottagna pengar eller sänkt lön. Nettominuterna inkluderar din tid för kontroll och godkännande.",
+          "estimateNote": "Planeringsestimat är skilda från uppmätt ROI. Bara godtagna utfall och jämförbara bokförda kostnader stöder uppmätt avkastning.",
+          "limitNote": "Kontakta oss för mer användning eller separat offert. Kalkylen gäller endast det som ingår i planen.",
+          "timeFormula": "Tidsvärde = enheter × sparade nettominuter ÷ 60 × ditt timvärde.",
+          "profitFormula": "Täckningsbidrag = kvalificerade rekommendationstillfällen × konverteringsökning ÷ 100 × vinst per extra order.",
+          "proceedsFormula": "Merintäkter = partier eller hämtningar × (nettointäkt efter − nettointäkt före).",
+          "roiFormula": "Netto = nytta − appabonnemang. ROI = netto ÷ appabonnemang × 100. Gratisplaner saknar ROI-procent."
+        },
+        "profiles": [
+          {
+            "id": "buyer",
+            "label": "Mäklararbetsyta · köparunderlag",
+            "model": "time_value",
+            "unitsPerWorkload": 1,
+            "inputs": [
+              {
+                "id": "units",
+                "label": "Kvalificerade underlag/månad",
+                "help": "Arbete du tänker granska under en månad, inom den inkluderade kvoten.",
+                "defaultValue": 20,
+                "min": 0,
+                "max": 20,
+                "step": 1,
+                "format": "number"
+              },
+              {
+                "id": "minutes_saved",
+                "label": "Sparade minuter",
+                "help": "Ditt estimat efter kontroll, godkännande och omarbete. Negativa värden betyder extra arbete.",
+                "defaultValue": 12,
+                "min": -1440,
+                "max": 1440,
+                "step": 0.1,
+                "format": "number"
+              },
+              {
+                "id": "hourly_value",
+                "label": "Timvärde",
+                "help": "Din egen valfria värdering. Ingen utlovad kontantbesparing eller löneminskning.",
+                "defaultValue": null,
+                "min": 0,
+                "max": 1000,
+                "step": 0.01,
+                "format": "currency"
+              }
+            ],
+            "offer": {
+              "monthlyPrice": 49,
+              "basis": "fixed",
+              "unit": "Mäklararbetsyta · köparunderlag",
+              "vatIncluded": false,
+              "includedUnits": 20,
+              "allowance": "20 godkända underlag",
+              "extras": "Extra användning och experttjänster offereras separat."
+            },
+            "assumptions": [
+              "Startvärdet 12 nettominuter är ett räkneexempel för förberedelser, inte ett uppmätt resultat.",
+              "Nettominuterna inkluderar kundens granskning. Du anger tidsvärdet i pengar; det är inte mottagna pengar."
+            ],
+            "loop": "Bostads- eller köpsignal → kvalificera källbelagt underlag → mäklaren granskar och parterna samtycker → registrera godkänd kontakt och faktiskt utfall.",
+            "ctaLabel": "Testa demon",
+            "ctaTarget": "meet"
+          },
+          {
+            "id": "seller",
+            "label": "Mäklararbetsyta · säljarunderlag",
+            "model": "time_value",
+            "unitsPerWorkload": 1,
+            "inputs": [
+              {
+                "id": "units",
+                "label": "Kvalificerade underlag/månad",
+                "help": "Arbete du tänker granska under en månad, inom den inkluderade kvoten.",
+                "defaultValue": 20,
+                "min": 0,
+                "max": 20,
+                "step": 1,
+                "format": "number"
+              },
+              {
+                "id": "minutes_saved",
+                "label": "Sparade minuter",
+                "help": "Ditt estimat efter kontroll, godkännande och omarbete. Negativa värden betyder extra arbete.",
+                "defaultValue": 12,
+                "min": -1440,
+                "max": 1440,
+                "step": 0.1,
+                "format": "number"
+              },
+              {
+                "id": "hourly_value",
+                "label": "Timvärde",
+                "help": "Din egen valfria värdering. Ingen utlovad kontantbesparing eller löneminskning.",
+                "defaultValue": null,
+                "min": 0,
+                "max": 1000,
+                "step": 0.01,
+                "format": "currency"
+              }
+            ],
+            "offer": {
+              "monthlyPrice": 49,
+              "basis": "fixed",
+              "unit": "Mäklararbetsyta · säljarunderlag",
+              "vatIncluded": false,
+              "includedUnits": 20,
+              "allowance": "20 godkända underlag",
+              "extras": "Extra användning och experttjänster offereras separat."
+            },
+            "assumptions": [
+              "Startvärdet 12 nettominuter är ett räkneexempel för förberedelser, inte ett uppmätt resultat.",
+              "Nettominuterna inkluderar kundens granskning. Du anger tidsvärdet i pengar; det är inte mottagna pengar."
+            ],
+            "loop": "Bostads- eller köpsignal → kvalificera källbelagt underlag → mäklaren granskar och parterna samtycker → registrera godkänd kontakt och faktiskt utfall.",
+            "ctaLabel": "Testa demon",
+            "ctaTarget": "meet"
+          }
+        ]
       }
     }
   },
@@ -2386,7 +2731,7 @@
         "roiCalculator",
         "heading"
       ],
-      "sourceHash": "c63420eca3f95b8917c99f3a5cf72f000ab237bc6c658765b2176ebdd7b311be"
+      "sourceHash": "f605f95a678fe3249ebf6201cbc21b86ea72d7f4bc395cab6e017b8b91a674d6"
     },
     {
       "path": [
@@ -2397,7 +2742,7 @@
         "roiCalculator",
         "subheading"
       ],
-      "sourceHash": "7b148bf1bc2d445204b8b2a40faa420fe4a04624c98bd20f79c051038ca1b7da"
+      "sourceHash": "22fd8ffe8dbddd46f41fb690f262f66466bb343bae0b359e4c64dfd2f2f127a5"
     },
     {
       "path": [
@@ -2408,7 +2753,7 @@
         "roiCalculator",
         "disclaimer"
       ],
-      "sourceHash": "2571d3c4491924fe3b8aaab7d2acb5f4904b393aae9f2babc38cd0e46d1126aa"
+      "sourceHash": "28bd6e46023484d9a6b075ba5e7539842d6a2e920782ed0979f21366d56ae02f"
     },
     {
       "path": [
@@ -4808,7 +5153,7 @@
         "pricing",
         "label"
       ],
-      "sourceHash": "74be3e630a8b30d773e4002180e4cdf3963817fa92ff839e99f6556ac371eaa8"
+      "sourceHash": "dfe95783edfef7918760312f94edd764f4ce3ffd38b90c2c955a0cc3b250f040"
     },
     {
       "path": [
@@ -4858,6 +5203,809 @@
         "privacyNote"
       ],
       "sourceHash": "0e96f5e15977ab0a2a8d684c0d35d7459f3afc862b606046310ae1fbbd4be12b"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "navLabel"
+      ],
+      "sourceHash": "dfe95783edfef7918760312f94edd764f4ce3ffd38b90c2c955a0cc3b250f040"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "heading"
+      ],
+      "sourceHash": "f605f95a678fe3249ebf6201cbc21b86ea72d7f4bc395cab6e017b8b91a674d6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "intro"
+      ],
+      "sourceHash": "22fd8ffe8dbddd46f41fb690f262f66466bb343bae0b359e4c64dfd2f2f127a5"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "monthly"
+      ],
+      "sourceHash": "310ca503ef36f177ddbc760463fcaec1edc6eca12bfd590ad7bb244b31e59543"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "weekly"
+      ],
+      "sourceHash": "e78041ab51a818a22e2cfea6c15fe72e9e20092246f496f1670f7be3e42177a6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "daily"
+      ],
+      "sourceHash": "8f2364e11b8be3ff008f32b3dedb54e659362429bcc9e3eb6acb6070de4ffbff"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "cost"
+      ],
+      "sourceHash": "16c6e032c6d9e64e841b58a0298260d9f548fcbe3a8ad8dc475bd977b602898f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "benefit"
+      ],
+      "sourceHash": "a7f9c107913bba92d233f27fbfa5c4c52e4435a763a727214089505b9519d2dc"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "net"
+      ],
+      "sourceHash": "d32a3b8a970a1c2a790bdd47a4a86f208f6ff655d8e9269dcda5776b156d6039"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "roi"
+      ],
+      "sourceHash": "bd75a04bf54fbb79e68559c37be0a8752efacfe4f5b9a326b87143c8d5c87dcc"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "timeBenefit"
+      ],
+      "sourceHash": "cedc575743fa43d9e724db8bd1d54037d41369448eb826b63e1efba54e81c2a4"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "timeRoi"
+      ],
+      "sourceHash": "4b0df8181ded668923d1da293e0fc8ca4d0ac21eed3f933b32891615e67d1f6a"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "timeBack"
+      ],
+      "sourceHash": "92947077a2792fb311280e55e4d39fbeb1fbb152e76b389dee5a53697ea548ef"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "missing"
+      ],
+      "sourceHash": "4b11bc702fcdb172c2f88f4af465a9d05ac206b7f7e6304fcded04eb92cccde6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "noRatio"
+      ],
+      "sourceHash": "5237c96ac1a23b98eb13770503afe986b088acd6627fa7649a5afdcbc4bb8e99"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "method"
+      ],
+      "sourceHash": "b79afe297bec4d00ab3a70a61b5e8b607a423a123f23a2fa9ccf8d6af6bcd157"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "reset"
+      ],
+      "sourceHash": "daee7606b339f3c339076fe2c9f372a3ff40c8ee896005d829c7481b64ca5303"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "audience"
+      ],
+      "sourceHash": "545c02357695a6ffed97b01a94a46b9aeb4686f4480173da6d0faeae8eb85053"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "includedVat"
+      ],
+      "sourceHash": "3e366dcdda082eda14db7eab30381a2fcc424c43d183d0e6d7a4b15c9b567d7d"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "excludedVat"
+      ],
+      "sourceHash": "744120dab44d48957b4580cadd00fca1f91383823125d1400984a3cf62a76441"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "perMonth"
+      ],
+      "sourceHash": "88b1d1a67e34a269fec10b917a624817de854eeadb142640ab17c8199ab6bdae"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "equivalents"
+      ],
+      "sourceHash": "4a546022be02a950fc59270741b8e4784ca51f74da16e286c77e3f5a371aff38"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "timeNote"
+      ],
+      "sourceHash": "d7c17f23c52c1d9cf5be7fcb5a537017a0a09529bfde38e6b692afa2ecbf453f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "estimateNote"
+      ],
+      "sourceHash": "28bd6e46023484d9a6b075ba5e7539842d6a2e920782ed0979f21366d56ae02f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "limitNote"
+      ],
+      "sourceHash": "61108708047a1a834e46f1ca557d7518e3a63263a8ec7e7aa4301db230beacff"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "timeFormula"
+      ],
+      "sourceHash": "4cf3d8fcb0fa4b9c36d9869e709ba0cbabcd41083c7ff8cf77e9fe32066eacdb"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "profitFormula"
+      ],
+      "sourceHash": "e286f3af8c8f706f737502c898e1ba90c6bbc7680c380bba844ec4f3874b5bc4"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "proceedsFormula"
+      ],
+      "sourceHash": "9de390391c62a87b44f2c9bf74e5223e5d34c5a74cd5e12575f5e1452881a46e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "roiFormula"
+      ],
+      "sourceHash": "00f9b4df25ca733c11a00e762ab8d95f6e9c9364ce202a6c22ff95c3613e3fcb"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "label"
+      ],
+      "sourceHash": "3e56208886334ad120af2d85b44fca33b5922a7e96623d87d793727c75178e03"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "inputs",
+        0,
+        "label"
+      ],
+      "sourceHash": "d0081c4a08b2be87b687f4f35e5668e5c004581cd766a25feea76ebe7ae5afdb"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "inputs",
+        0,
+        "help"
+      ],
+      "sourceHash": "a8cff02d43e6c0371644e73ec0de532d8ac6ae2eb169301a6e3605e3cb010ab0"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "inputs",
+        1,
+        "label"
+      ],
+      "sourceHash": "9f135e34cc7bc32cafb416bcbf7ef6af035cdb444c22e90cccd0587ba3db19df"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "inputs",
+        1,
+        "help"
+      ],
+      "sourceHash": "d99a99ab817eea4a3a70ded599d0744a02fe8de95ab0b7c6a0fc9d5cb72c400d"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "inputs",
+        2,
+        "label"
+      ],
+      "sourceHash": "4b5674419c1cb29206fb7d1486e6492bb74df9523dbc3bd5cdb875a309486100"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "inputs",
+        2,
+        "help"
+      ],
+      "sourceHash": "310e52c988a868b67de05d75913bc83fea7f2ff3d06b15cb07adf6c22d1f94f1"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "offer",
+        "unit"
+      ],
+      "sourceHash": "3e56208886334ad120af2d85b44fca33b5922a7e96623d87d793727c75178e03"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "offer",
+        "allowance"
+      ],
+      "sourceHash": "aa695907fedd044f41aaf55b78c3e18e056e184ea83ebd0d21e1b8e7177ee995"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "offer",
+        "extras"
+      ],
+      "sourceHash": "2dde78d0a4b34a797ac41efa8426f1e98874a7e9bfc38db869338b90175c0a63"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "assumptions",
+        0
+      ],
+      "sourceHash": "79adeadb4feb385ac12585feee29f5f4b94954ccde2406a3b86aa5c7e90ca29f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "assumptions",
+        1
+      ],
+      "sourceHash": "989a9fcc887e91c895fb2d3cdee45f5d8279d36705594e66f19d87e172656e0e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "loop"
+      ],
+      "sourceHash": "edc50e97c701508b19ff0c0117cda5ab8aafa7faa0d747388080ab915edec13f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "ctaLabel"
+      ],
+      "sourceHash": "6e5fe4ca7c07142fa81eef400c342dea7f8ba0422aa331c3880e6604db8d52a7"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "label"
+      ],
+      "sourceHash": "4eaa570bcd2d051814cfbcea81a6a732eec55c652d08b722bda0aa7cb12971ef"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "inputs",
+        0,
+        "label"
+      ],
+      "sourceHash": "d0081c4a08b2be87b687f4f35e5668e5c004581cd766a25feea76ebe7ae5afdb"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "inputs",
+        0,
+        "help"
+      ],
+      "sourceHash": "a8cff02d43e6c0371644e73ec0de532d8ac6ae2eb169301a6e3605e3cb010ab0"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "inputs",
+        1,
+        "label"
+      ],
+      "sourceHash": "9f135e34cc7bc32cafb416bcbf7ef6af035cdb444c22e90cccd0587ba3db19df"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "inputs",
+        1,
+        "help"
+      ],
+      "sourceHash": "d99a99ab817eea4a3a70ded599d0744a02fe8de95ab0b7c6a0fc9d5cb72c400d"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "inputs",
+        2,
+        "label"
+      ],
+      "sourceHash": "4b5674419c1cb29206fb7d1486e6492bb74df9523dbc3bd5cdb875a309486100"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "inputs",
+        2,
+        "help"
+      ],
+      "sourceHash": "310e52c988a868b67de05d75913bc83fea7f2ff3d06b15cb07adf6c22d1f94f1"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "offer",
+        "unit"
+      ],
+      "sourceHash": "4eaa570bcd2d051814cfbcea81a6a732eec55c652d08b722bda0aa7cb12971ef"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "offer",
+        "allowance"
+      ],
+      "sourceHash": "aa695907fedd044f41aaf55b78c3e18e056e184ea83ebd0d21e1b8e7177ee995"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "offer",
+        "extras"
+      ],
+      "sourceHash": "2dde78d0a4b34a797ac41efa8426f1e98874a7e9bfc38db869338b90175c0a63"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "assumptions",
+        0
+      ],
+      "sourceHash": "79adeadb4feb385ac12585feee29f5f4b94954ccde2406a3b86aa5c7e90ca29f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "assumptions",
+        1
+      ],
+      "sourceHash": "989a9fcc887e91c895fb2d3cdee45f5d8279d36705594e66f19d87e172656e0e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "loop"
+      ],
+      "sourceHash": "edc50e97c701508b19ff0c0117cda5ab8aafa7faa0d747388080ab915edec13f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "ctaLabel"
+      ],
+      "sourceHash": "6e5fe4ca7c07142fa81eef400c342dea7f8ba0422aa331c3880e6604db8d52a7"
     },
     {
       "path": [
@@ -5380,7 +6528,7 @@
         "roiCalculator",
         "heading"
       ],
-      "sourceHash": "c63420eca3f95b8917c99f3a5cf72f000ab237bc6c658765b2176ebdd7b311be"
+      "sourceHash": "f605f95a678fe3249ebf6201cbc21b86ea72d7f4bc395cab6e017b8b91a674d6"
     },
     {
       "path": [
@@ -5391,7 +6539,7 @@
         "roiCalculator",
         "subheading"
       ],
-      "sourceHash": "7b148bf1bc2d445204b8b2a40faa420fe4a04624c98bd20f79c051038ca1b7da"
+      "sourceHash": "22fd8ffe8dbddd46f41fb690f262f66466bb343bae0b359e4c64dfd2f2f127a5"
     },
     {
       "path": [
@@ -5402,7 +6550,7 @@
         "roiCalculator",
         "disclaimer"
       ],
-      "sourceHash": "2571d3c4491924fe3b8aaab7d2acb5f4904b393aae9f2babc38cd0e46d1126aa"
+      "sourceHash": "28bd6e46023484d9a6b075ba5e7539842d6a2e920782ed0979f21366d56ae02f"
     },
     {
       "path": [
@@ -7830,7 +8978,7 @@
         "pricing",
         "label"
       ],
-      "sourceHash": "74be3e630a8b30d773e4002180e4cdf3963817fa92ff839e99f6556ac371eaa8"
+      "sourceHash": "dfe95783edfef7918760312f94edd764f4ce3ffd38b90c2c955a0cc3b250f040"
     },
     {
       "path": [
@@ -7880,6 +9028,809 @@
         "privacyNote"
       ],
       "sourceHash": "0e96f5e15977ab0a2a8d684c0d35d7459f3afc862b606046310ae1fbbd4be12b"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "navLabel"
+      ],
+      "sourceHash": "dfe95783edfef7918760312f94edd764f4ce3ffd38b90c2c955a0cc3b250f040"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "heading"
+      ],
+      "sourceHash": "f605f95a678fe3249ebf6201cbc21b86ea72d7f4bc395cab6e017b8b91a674d6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "intro"
+      ],
+      "sourceHash": "22fd8ffe8dbddd46f41fb690f262f66466bb343bae0b359e4c64dfd2f2f127a5"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "monthly"
+      ],
+      "sourceHash": "310ca503ef36f177ddbc760463fcaec1edc6eca12bfd590ad7bb244b31e59543"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "weekly"
+      ],
+      "sourceHash": "e78041ab51a818a22e2cfea6c15fe72e9e20092246f496f1670f7be3e42177a6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "daily"
+      ],
+      "sourceHash": "8f2364e11b8be3ff008f32b3dedb54e659362429bcc9e3eb6acb6070de4ffbff"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "cost"
+      ],
+      "sourceHash": "16c6e032c6d9e64e841b58a0298260d9f548fcbe3a8ad8dc475bd977b602898f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "benefit"
+      ],
+      "sourceHash": "a7f9c107913bba92d233f27fbfa5c4c52e4435a763a727214089505b9519d2dc"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "net"
+      ],
+      "sourceHash": "d32a3b8a970a1c2a790bdd47a4a86f208f6ff655d8e9269dcda5776b156d6039"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "roi"
+      ],
+      "sourceHash": "bd75a04bf54fbb79e68559c37be0a8752efacfe4f5b9a326b87143c8d5c87dcc"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "timeBenefit"
+      ],
+      "sourceHash": "cedc575743fa43d9e724db8bd1d54037d41369448eb826b63e1efba54e81c2a4"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "timeRoi"
+      ],
+      "sourceHash": "4b0df8181ded668923d1da293e0fc8ca4d0ac21eed3f933b32891615e67d1f6a"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "timeBack"
+      ],
+      "sourceHash": "92947077a2792fb311280e55e4d39fbeb1fbb152e76b389dee5a53697ea548ef"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "missing"
+      ],
+      "sourceHash": "4b11bc702fcdb172c2f88f4af465a9d05ac206b7f7e6304fcded04eb92cccde6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "noRatio"
+      ],
+      "sourceHash": "5237c96ac1a23b98eb13770503afe986b088acd6627fa7649a5afdcbc4bb8e99"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "method"
+      ],
+      "sourceHash": "b79afe297bec4d00ab3a70a61b5e8b607a423a123f23a2fa9ccf8d6af6bcd157"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "reset"
+      ],
+      "sourceHash": "daee7606b339f3c339076fe2c9f372a3ff40c8ee896005d829c7481b64ca5303"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "audience"
+      ],
+      "sourceHash": "545c02357695a6ffed97b01a94a46b9aeb4686f4480173da6d0faeae8eb85053"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "includedVat"
+      ],
+      "sourceHash": "3e366dcdda082eda14db7eab30381a2fcc424c43d183d0e6d7a4b15c9b567d7d"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "excludedVat"
+      ],
+      "sourceHash": "744120dab44d48957b4580cadd00fca1f91383823125d1400984a3cf62a76441"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "perMonth"
+      ],
+      "sourceHash": "88b1d1a67e34a269fec10b917a624817de854eeadb142640ab17c8199ab6bdae"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "equivalents"
+      ],
+      "sourceHash": "4a546022be02a950fc59270741b8e4784ca51f74da16e286c77e3f5a371aff38"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "timeNote"
+      ],
+      "sourceHash": "d7c17f23c52c1d9cf5be7fcb5a537017a0a09529bfde38e6b692afa2ecbf453f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "estimateNote"
+      ],
+      "sourceHash": "28bd6e46023484d9a6b075ba5e7539842d6a2e920782ed0979f21366d56ae02f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "limitNote"
+      ],
+      "sourceHash": "61108708047a1a834e46f1ca557d7518e3a63263a8ec7e7aa4301db230beacff"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "timeFormula"
+      ],
+      "sourceHash": "4cf3d8fcb0fa4b9c36d9869e709ba0cbabcd41083c7ff8cf77e9fe32066eacdb"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "profitFormula"
+      ],
+      "sourceHash": "e286f3af8c8f706f737502c898e1ba90c6bbc7680c380bba844ec4f3874b5bc4"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "proceedsFormula"
+      ],
+      "sourceHash": "9de390391c62a87b44f2c9bf74e5223e5d34c5a74cd5e12575f5e1452881a46e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "copy",
+        "roiFormula"
+      ],
+      "sourceHash": "00f9b4df25ca733c11a00e762ab8d95f6e9c9364ce202a6c22ff95c3613e3fcb"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "label"
+      ],
+      "sourceHash": "3e56208886334ad120af2d85b44fca33b5922a7e96623d87d793727c75178e03"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "inputs",
+        0,
+        "label"
+      ],
+      "sourceHash": "d0081c4a08b2be87b687f4f35e5668e5c004581cd766a25feea76ebe7ae5afdb"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "inputs",
+        0,
+        "help"
+      ],
+      "sourceHash": "a8cff02d43e6c0371644e73ec0de532d8ac6ae2eb169301a6e3605e3cb010ab0"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "inputs",
+        1,
+        "label"
+      ],
+      "sourceHash": "9f135e34cc7bc32cafb416bcbf7ef6af035cdb444c22e90cccd0587ba3db19df"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "inputs",
+        1,
+        "help"
+      ],
+      "sourceHash": "d99a99ab817eea4a3a70ded599d0744a02fe8de95ab0b7c6a0fc9d5cb72c400d"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "inputs",
+        2,
+        "label"
+      ],
+      "sourceHash": "4b5674419c1cb29206fb7d1486e6492bb74df9523dbc3bd5cdb875a309486100"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "inputs",
+        2,
+        "help"
+      ],
+      "sourceHash": "310e52c988a868b67de05d75913bc83fea7f2ff3d06b15cb07adf6c22d1f94f1"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "offer",
+        "unit"
+      ],
+      "sourceHash": "3e56208886334ad120af2d85b44fca33b5922a7e96623d87d793727c75178e03"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "offer",
+        "allowance"
+      ],
+      "sourceHash": "aa695907fedd044f41aaf55b78c3e18e056e184ea83ebd0d21e1b8e7177ee995"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "offer",
+        "extras"
+      ],
+      "sourceHash": "2dde78d0a4b34a797ac41efa8426f1e98874a7e9bfc38db869338b90175c0a63"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "assumptions",
+        0
+      ],
+      "sourceHash": "79adeadb4feb385ac12585feee29f5f4b94954ccde2406a3b86aa5c7e90ca29f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "assumptions",
+        1
+      ],
+      "sourceHash": "989a9fcc887e91c895fb2d3cdee45f5d8279d36705594e66f19d87e172656e0e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "loop"
+      ],
+      "sourceHash": "edc50e97c701508b19ff0c0117cda5ab8aafa7faa0d747388080ab915edec13f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "ctaLabel"
+      ],
+      "sourceHash": "6e5fe4ca7c07142fa81eef400c342dea7f8ba0422aa331c3880e6604db8d52a7"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "label"
+      ],
+      "sourceHash": "4eaa570bcd2d051814cfbcea81a6a732eec55c652d08b722bda0aa7cb12971ef"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "inputs",
+        0,
+        "label"
+      ],
+      "sourceHash": "d0081c4a08b2be87b687f4f35e5668e5c004581cd766a25feea76ebe7ae5afdb"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "inputs",
+        0,
+        "help"
+      ],
+      "sourceHash": "a8cff02d43e6c0371644e73ec0de532d8ac6ae2eb169301a6e3605e3cb010ab0"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "inputs",
+        1,
+        "label"
+      ],
+      "sourceHash": "9f135e34cc7bc32cafb416bcbf7ef6af035cdb444c22e90cccd0587ba3db19df"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "inputs",
+        1,
+        "help"
+      ],
+      "sourceHash": "d99a99ab817eea4a3a70ded599d0744a02fe8de95ab0b7c6a0fc9d5cb72c400d"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "inputs",
+        2,
+        "label"
+      ],
+      "sourceHash": "4b5674419c1cb29206fb7d1486e6492bb74df9523dbc3bd5cdb875a309486100"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "inputs",
+        2,
+        "help"
+      ],
+      "sourceHash": "310e52c988a868b67de05d75913bc83fea7f2ff3d06b15cb07adf6c22d1f94f1"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "offer",
+        "unit"
+      ],
+      "sourceHash": "4eaa570bcd2d051814cfbcea81a6a732eec55c652d08b722bda0aa7cb12971ef"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "offer",
+        "allowance"
+      ],
+      "sourceHash": "aa695907fedd044f41aaf55b78c3e18e056e184ea83ebd0d21e1b8e7177ee995"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "offer",
+        "extras"
+      ],
+      "sourceHash": "2dde78d0a4b34a797ac41efa8426f1e98874a7e9bfc38db869338b90175c0a63"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "assumptions",
+        0
+      ],
+      "sourceHash": "79adeadb4feb385ac12585feee29f5f4b94954ccde2406a3b86aa5c7e90ca29f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "assumptions",
+        1
+      ],
+      "sourceHash": "989a9fcc887e91c895fb2d3cdee45f5d8279d36705594e66f19d87e172656e0e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "loop"
+      ],
+      "sourceHash": "edc50e97c701508b19ff0c0117cda5ab8aafa7faa0d747388080ab915edec13f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "ctaLabel"
+      ],
+      "sourceHash": "6e5fe4ca7c07142fa81eef400c342dea7f8ba0422aa331c3880e6604db8d52a7"
     },
     {
       "path": [
@@ -8944,7 +10895,7 @@
         "roiCalculator",
         "heading"
       ],
-      "sourceHash": "c63420eca3f95b8917c99f3a5cf72f000ab237bc6c658765b2176ebdd7b311be"
+      "sourceHash": "f605f95a678fe3249ebf6201cbc21b86ea72d7f4bc395cab6e017b8b91a674d6"
     },
     {
       "path": [
@@ -8952,7 +10903,7 @@
         "roiCalculator",
         "subheading"
       ],
-      "sourceHash": "7b148bf1bc2d445204b8b2a40faa420fe4a04624c98bd20f79c051038ca1b7da"
+      "sourceHash": "22fd8ffe8dbddd46f41fb690f262f66466bb343bae0b359e4c64dfd2f2f127a5"
     },
     {
       "path": [
@@ -8960,7 +10911,7 @@
         "roiCalculator",
         "disclaimer"
       ],
-      "sourceHash": "2571d3c4491924fe3b8aaab7d2acb5f4904b393aae9f2babc38cd0e46d1126aa"
+      "sourceHash": "28bd6e46023484d9a6b075ba5e7539842d6a2e920782ed0979f21366d56ae02f"
     },
     {
       "path": [
@@ -10845,7 +12796,7 @@
         "pricing",
         "label"
       ],
-      "sourceHash": "74be3e630a8b30d773e4002180e4cdf3963817fa92ff839e99f6556ac371eaa8"
+      "sourceHash": "dfe95783edfef7918760312f94edd764f4ce3ffd38b90c2c955a0cc3b250f040"
     },
     {
       "path": [
@@ -10883,7 +12834,639 @@
         "privacyNote"
       ],
       "sourceHash": "0e96f5e15977ab0a2a8d684c0d35d7459f3afc862b606046310ae1fbbd4be12b"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "navLabel"
+      ],
+      "sourceHash": "dfe95783edfef7918760312f94edd764f4ce3ffd38b90c2c955a0cc3b250f040"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "heading"
+      ],
+      "sourceHash": "f605f95a678fe3249ebf6201cbc21b86ea72d7f4bc395cab6e017b8b91a674d6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "intro"
+      ],
+      "sourceHash": "22fd8ffe8dbddd46f41fb690f262f66466bb343bae0b359e4c64dfd2f2f127a5"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "monthly"
+      ],
+      "sourceHash": "310ca503ef36f177ddbc760463fcaec1edc6eca12bfd590ad7bb244b31e59543"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "weekly"
+      ],
+      "sourceHash": "e78041ab51a818a22e2cfea6c15fe72e9e20092246f496f1670f7be3e42177a6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "daily"
+      ],
+      "sourceHash": "8f2364e11b8be3ff008f32b3dedb54e659362429bcc9e3eb6acb6070de4ffbff"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "cost"
+      ],
+      "sourceHash": "16c6e032c6d9e64e841b58a0298260d9f548fcbe3a8ad8dc475bd977b602898f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "benefit"
+      ],
+      "sourceHash": "a7f9c107913bba92d233f27fbfa5c4c52e4435a763a727214089505b9519d2dc"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "net"
+      ],
+      "sourceHash": "d32a3b8a970a1c2a790bdd47a4a86f208f6ff655d8e9269dcda5776b156d6039"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "roi"
+      ],
+      "sourceHash": "bd75a04bf54fbb79e68559c37be0a8752efacfe4f5b9a326b87143c8d5c87dcc"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "timeBenefit"
+      ],
+      "sourceHash": "cedc575743fa43d9e724db8bd1d54037d41369448eb826b63e1efba54e81c2a4"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "timeRoi"
+      ],
+      "sourceHash": "4b0df8181ded668923d1da293e0fc8ca4d0ac21eed3f933b32891615e67d1f6a"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "timeBack"
+      ],
+      "sourceHash": "92947077a2792fb311280e55e4d39fbeb1fbb152e76b389dee5a53697ea548ef"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "missing"
+      ],
+      "sourceHash": "4b11bc702fcdb172c2f88f4af465a9d05ac206b7f7e6304fcded04eb92cccde6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "noRatio"
+      ],
+      "sourceHash": "5237c96ac1a23b98eb13770503afe986b088acd6627fa7649a5afdcbc4bb8e99"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "method"
+      ],
+      "sourceHash": "b79afe297bec4d00ab3a70a61b5e8b607a423a123f23a2fa9ccf8d6af6bcd157"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "reset"
+      ],
+      "sourceHash": "daee7606b339f3c339076fe2c9f372a3ff40c8ee896005d829c7481b64ca5303"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "audience"
+      ],
+      "sourceHash": "545c02357695a6ffed97b01a94a46b9aeb4686f4480173da6d0faeae8eb85053"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "includedVat"
+      ],
+      "sourceHash": "3e366dcdda082eda14db7eab30381a2fcc424c43d183d0e6d7a4b15c9b567d7d"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "excludedVat"
+      ],
+      "sourceHash": "744120dab44d48957b4580cadd00fca1f91383823125d1400984a3cf62a76441"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "perMonth"
+      ],
+      "sourceHash": "88b1d1a67e34a269fec10b917a624817de854eeadb142640ab17c8199ab6bdae"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "equivalents"
+      ],
+      "sourceHash": "4a546022be02a950fc59270741b8e4784ca51f74da16e286c77e3f5a371aff38"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "timeNote"
+      ],
+      "sourceHash": "d7c17f23c52c1d9cf5be7fcb5a537017a0a09529bfde38e6b692afa2ecbf453f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "estimateNote"
+      ],
+      "sourceHash": "28bd6e46023484d9a6b075ba5e7539842d6a2e920782ed0979f21366d56ae02f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "limitNote"
+      ],
+      "sourceHash": "61108708047a1a834e46f1ca557d7518e3a63263a8ec7e7aa4301db230beacff"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "timeFormula"
+      ],
+      "sourceHash": "4cf3d8fcb0fa4b9c36d9869e709ba0cbabcd41083c7ff8cf77e9fe32066eacdb"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "profitFormula"
+      ],
+      "sourceHash": "e286f3af8c8f706f737502c898e1ba90c6bbc7680c380bba844ec4f3874b5bc4"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "proceedsFormula"
+      ],
+      "sourceHash": "9de390391c62a87b44f2c9bf74e5223e5d34c5a74cd5e12575f5e1452881a46e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "copy",
+        "roiFormula"
+      ],
+      "sourceHash": "00f9b4df25ca733c11a00e762ab8d95f6e9c9364ce202a6c22ff95c3613e3fcb"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "label"
+      ],
+      "sourceHash": "3e56208886334ad120af2d85b44fca33b5922a7e96623d87d793727c75178e03"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "inputs",
+        0,
+        "label"
+      ],
+      "sourceHash": "d0081c4a08b2be87b687f4f35e5668e5c004581cd766a25feea76ebe7ae5afdb"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "inputs",
+        0,
+        "help"
+      ],
+      "sourceHash": "a8cff02d43e6c0371644e73ec0de532d8ac6ae2eb169301a6e3605e3cb010ab0"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "inputs",
+        1,
+        "label"
+      ],
+      "sourceHash": "9f135e34cc7bc32cafb416bcbf7ef6af035cdb444c22e90cccd0587ba3db19df"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "inputs",
+        1,
+        "help"
+      ],
+      "sourceHash": "d99a99ab817eea4a3a70ded599d0744a02fe8de95ab0b7c6a0fc9d5cb72c400d"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "inputs",
+        2,
+        "label"
+      ],
+      "sourceHash": "4b5674419c1cb29206fb7d1486e6492bb74df9523dbc3bd5cdb875a309486100"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "inputs",
+        2,
+        "help"
+      ],
+      "sourceHash": "310e52c988a868b67de05d75913bc83fea7f2ff3d06b15cb07adf6c22d1f94f1"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "offer",
+        "unit"
+      ],
+      "sourceHash": "3e56208886334ad120af2d85b44fca33b5922a7e96623d87d793727c75178e03"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "offer",
+        "allowance"
+      ],
+      "sourceHash": "aa695907fedd044f41aaf55b78c3e18e056e184ea83ebd0d21e1b8e7177ee995"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "offer",
+        "extras"
+      ],
+      "sourceHash": "2dde78d0a4b34a797ac41efa8426f1e98874a7e9bfc38db869338b90175c0a63"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "assumptions",
+        0
+      ],
+      "sourceHash": "79adeadb4feb385ac12585feee29f5f4b94954ccde2406a3b86aa5c7e90ca29f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "assumptions",
+        1
+      ],
+      "sourceHash": "989a9fcc887e91c895fb2d3cdee45f5d8279d36705594e66f19d87e172656e0e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "loop"
+      ],
+      "sourceHash": "edc50e97c701508b19ff0c0117cda5ab8aafa7faa0d747388080ab915edec13f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "ctaLabel"
+      ],
+      "sourceHash": "6e5fe4ca7c07142fa81eef400c342dea7f8ba0422aa331c3880e6604db8d52a7"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "label"
+      ],
+      "sourceHash": "4eaa570bcd2d051814cfbcea81a6a732eec55c652d08b722bda0aa7cb12971ef"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "inputs",
+        0,
+        "label"
+      ],
+      "sourceHash": "d0081c4a08b2be87b687f4f35e5668e5c004581cd766a25feea76ebe7ae5afdb"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "inputs",
+        0,
+        "help"
+      ],
+      "sourceHash": "a8cff02d43e6c0371644e73ec0de532d8ac6ae2eb169301a6e3605e3cb010ab0"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "inputs",
+        1,
+        "label"
+      ],
+      "sourceHash": "9f135e34cc7bc32cafb416bcbf7ef6af035cdb444c22e90cccd0587ba3db19df"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "inputs",
+        1,
+        "help"
+      ],
+      "sourceHash": "d99a99ab817eea4a3a70ded599d0744a02fe8de95ab0b7c6a0fc9d5cb72c400d"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "inputs",
+        2,
+        "label"
+      ],
+      "sourceHash": "4b5674419c1cb29206fb7d1486e6492bb74df9523dbc3bd5cdb875a309486100"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "inputs",
+        2,
+        "help"
+      ],
+      "sourceHash": "310e52c988a868b67de05d75913bc83fea7f2ff3d06b15cb07adf6c22d1f94f1"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "offer",
+        "unit"
+      ],
+      "sourceHash": "4eaa570bcd2d051814cfbcea81a6a732eec55c652d08b722bda0aa7cb12971ef"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "offer",
+        "allowance"
+      ],
+      "sourceHash": "aa695907fedd044f41aaf55b78c3e18e056e184ea83ebd0d21e1b8e7177ee995"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "offer",
+        "extras"
+      ],
+      "sourceHash": "2dde78d0a4b34a797ac41efa8426f1e98874a7e9bfc38db869338b90175c0a63"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "assumptions",
+        0
+      ],
+      "sourceHash": "79adeadb4feb385ac12585feee29f5f4b94954ccde2406a3b86aa5c7e90ca29f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "assumptions",
+        1
+      ],
+      "sourceHash": "989a9fcc887e91c895fb2d3cdee45f5d8279d36705594e66f19d87e172656e0e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "loop"
+      ],
+      "sourceHash": "edc50e97c701508b19ff0c0117cda5ab8aafa7faa0d747388080ab915edec13f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "ctaLabel"
+      ],
+      "sourceHash": "6e5fe4ca7c07142fa81eef400c342dea7f8ba0422aa331c3880e6604db8d52a7"
     }
   ],
-  "generatedAt": "2026-10-11T13:14:59.201Z"
+  "generatedAt": "2026-10-13T14:19:32.625Z"
 }
