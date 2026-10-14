@@ -2,8 +2,13 @@
   "schemaVersion": 2,
   "language": "es",
   "regionKey": null,
-  "sourceRevision": "be40441c1455b89085020ea8725989ac5b0d6534d1db605c9fe719b98b0b6ab9",
+  "sourceRevision": "8352a2472d5a6ea97a7eff7dba34411a65430100e253d617d0c6a3a1d745858f",
   "landingPage": {
+    "capabilityPreview": {
+      "enabled": true,
+      "commandId": "find-leads",
+      "presentation": "surface"
+    },
     "headline": "Una introducción calificada que encaja.",
     "subheadline": "Introducciones privadas de compradores y vendedores, una propuesta revisada por humanos a la vez.",
     "ctaLabel": "Habla al Nest",
@@ -213,7 +218,7 @@
             "enabled": true,
             "kicker": "Business impact",
             "heading": "Precios y ROI",
-            "subheading": "Tus datos. Tu retorno estimado.",
+            "subheading": "Elige un plan. Consulta tu previsión.",
             "disclaimer": "Estimar no es medir el ROI. Solo los resultados aceptados y los costes registrados comparables permiten medir el retorno.",
             "currency": "EUR",
             "currencyCopy": {
@@ -577,7 +582,7 @@
               "copy": {
                 "navLabel": "precio",
                 "heading": "Precios y ROI",
-                "intro": "Tus datos. Tu retorno estimado.",
+                "intro": "Elige un plan. Consulta tu previsión.",
                 "monthly": "Mes",
                 "weekly": "Semana",
                 "daily": "Día",
@@ -588,7 +593,7 @@
                 "timeBenefit": "Valor horario estimado",
                 "timeRoi": "ROI del tiempo",
                 "timeBack": "Horas liberadas",
-                "missing": "Añade tus datos",
+                "missing": "Previsión no disponible",
                 "noRatio": "Not applicable",
                 "method": "Cómo se calcula",
                 "reset": "Reponer",
@@ -597,10 +602,10 @@
                 "excludedVat": "Sin IVA",
                 "perMonth": "al mes",
                 "equivalents": "Cobro mensual. Las cifras diarias y semanales son medias, no cargos ni retornos garantizados de esos periodos.",
-                "timeNote": "Valorar el tiempo es opcional: no es dinero recibido ni ahorro salarial. Los minutos netos incluyen tu tiempo de revisión y aprobación.",
+                "timeNote": "El valor previsto del tiempo representa capacidad recuperada, no dinero recibido ni una reducción de nómina. Los minutos netos incluyen revisión y aprobación.",
                 "estimateNote": "Estimar no es medir el ROI. Solo los resultados aceptados y los costes registrados comparables permiten medir el retorno.",
                 "limitNote": "Para más uso o trabajos con presupuesto aparte, contáctanos. La estimación solo cubre lo incluido.",
-                "timeFormula": "Valor del tiempo = unidades × min ahorrados netos ÷ 60 × tu valor/hora",
+                "timeFormula": "Valor previsto del tiempo = trabajo incluido × minutos netos recuperados fijos ÷ 60 × valor horario de referencia.",
                 "profitFormula": "Margen de contribución = sesiones aptas de recomendación × aumento de conversión ÷ 100 × beneficio por pedido adicional.",
                 "proceedsFormula": "Ingresos adicionales = lotes o recogidas × (ingresos netos posteriores − ingresos netos anteriores).",
                 "roiFormula": "Neto = beneficio − suscripción. ROI = neto ÷ suscripción × 100. Los planes gratuitos no tienen porcentaje de ROI."
@@ -615,7 +620,7 @@
                     {
                       "id": "units",
                       "label": "Fichas cualificadas al mes",
-                      "help": "Trabajo que prevés revisar en un mes, dentro del cupo incluido.",
+                      "help": "La previsión supone el uso de toda la cuota mensual incluida. Los niveles superiores propuestos aumentan tanto la capacidad como el precio.",
                       "defaultValue": 20,
                       "min": 0,
                       "max": 20,
@@ -625,7 +630,7 @@
                     {
                       "id": "minutes_saved",
                       "label": "Min. ahorrados",
-                      "help": "Tu estimación tras revisar, aprobar y corregir. Los valores negativos indican esfuerzo adicional.",
+                      "help": "Previsión fija tras preparación, revisión, aprobación y correcciones; no es un ahorro medido.",
                       "defaultValue": 12,
                       "min": -1440,
                       "max": 1440,
@@ -635,8 +640,8 @@
                     {
                       "id": "hourly_value",
                       "label": "Valor por hora",
-                      "help": "Tu valoración opcional. No promete ahorro de dinero ni reducción salarial.",
-                      "defaultValue": null,
+                      "help": "Valoración fija de referencia de la capacidad recuperada; no es dinero recibido ni una reducción salarial.",
+                      "defaultValue": 34.9,
                       "min": 0,
                       "max": 1000,
                       "step": 0.01,
@@ -650,11 +655,21 @@
                     "vatIncluded": false,
                     "includedUnits": 20,
                     "allowance": "20 fichas calificadas",
-                    "extras": "El uso adicional y los servicios profesionales se presupuestan aparte."
+                    "extras": "El uso adicional y los servicios profesionales se presupuestan aparte.",
+                    "free": {
+                      "includedUnits": 1,
+                      "allowance": "Gratis · 1 informe"
+                    },
+                    "trialDays": 7,
+                    "trialLabel": "Prueba de 7 días · después, precio mensual"
                   },
                   "assumptions": [
-                    "Los 12 min netos iniciales estiman la preparación a modo ilustrativo; no son un resultado medido.",
-                    "Los minutos netos incluyen la revisión del cliente. Tú valoras el tiempo; no es dinero recibido."
+                    "Previsión revisada el 2026-10-13. Uso de toda la cuota incluida, trabajo disponible y un escenario lineal de capacidad de 1×/2×/3×; no se garantiza demanda adicional.",
+                    "Tiempo propuesto por unidad de trabajo: 60 minutos manuales frente a 48 minutos de trabajo humano asistido, con revisión, aprobación y correcciones. Los 12 minutos netos (20%) son un escenario, no un rendimiento observado de esta persona.",
+                    "El escenario de reducción del tiempo del 20% se basa en estudios sobre tareas de conocimiento asistidas por IA. Sus resultados no demuestran ahorros para esta persona ni para todas las tareas: https://aiinstitute.hbs.edu/navigating-the-jagged-technological-frontier/",
+                    "La capacidad empresarial recuperada se valora en €34.90/hora, el coste laboral horario de referencia de toda la economía de la UE para 2025. No es una tarifa específica de una profesión ni un ahorro en nómina: https://ec.europa.eu/eurostat/en/web/products-eurostat-news/w/ddn-20260331-2",
+                    "Todas las cifras son previsiones. Se excluyen el esfuerzo de configuración, el tiempo de aprendizaje y los servicios adicionales; el retorno neto real puede ser menor o negativo. No se monetizan ventas, colocaciones, financiación ni resultados educativos o sociales.",
+                    "El acceso gratuito se renueva mensualmente con la cuota básica indicada. Se excluyen los contenidos multimedia prémium, las integraciones y el uso adicional. Los niveles de pago tienen una prueba de siete días; su uso se limita a una cuota básica gratuita, sin una cuota mensual completa adicional. Los precios indicados son recurrentes tras la prueba. Son propuestas de oferta elaboradas; la calculadora no concede derechos de acceso ni modifica la facturación."
                   ],
                   "loop": "Señal de inmueble o interés de compra → validar ficha documentada → agente revisa y partes consienten → registrar presentación aceptada y resultado real.",
                   "ctaLabel": "Prueba la demo",
@@ -669,7 +684,7 @@
                     {
                       "id": "units",
                       "label": "Fichas cualificadas al mes",
-                      "help": "Trabajo que prevés revisar en un mes, dentro del cupo incluido.",
+                      "help": "La previsión supone el uso de toda la cuota mensual incluida. Los niveles superiores propuestos aumentan tanto la capacidad como el precio.",
                       "defaultValue": 20,
                       "min": 0,
                       "max": 20,
@@ -679,7 +694,7 @@
                     {
                       "id": "minutes_saved",
                       "label": "Min. ahorrados",
-                      "help": "Tu estimación tras revisar, aprobar y corregir. Los valores negativos indican esfuerzo adicional.",
+                      "help": "Previsión fija tras preparación, revisión, aprobación y correcciones; no es un ahorro medido.",
                       "defaultValue": 12,
                       "min": -1440,
                       "max": 1440,
@@ -689,8 +704,8 @@
                     {
                       "id": "hourly_value",
                       "label": "Valor por hora",
-                      "help": "Tu valoración opcional. No promete ahorro de dinero ni reducción salarial.",
-                      "defaultValue": null,
+                      "help": "Valoración fija de referencia de la capacidad recuperada; no es dinero recibido ni una reducción salarial.",
+                      "defaultValue": 34.9,
                       "min": 0,
                       "max": 1000,
                       "step": 0.01,
@@ -704,11 +719,21 @@
                     "vatIncluded": false,
                     "includedUnits": 20,
                     "allowance": "20 fichas calificadas",
-                    "extras": "El uso adicional y los servicios profesionales se presupuestan aparte."
+                    "extras": "El uso adicional y los servicios profesionales se presupuestan aparte.",
+                    "free": {
+                      "includedUnits": 1,
+                      "allowance": "Gratis · 1 informe"
+                    },
+                    "trialDays": 7,
+                    "trialLabel": "Prueba de 7 días · después, precio mensual"
                   },
                   "assumptions": [
-                    "Los 12 min netos iniciales estiman la preparación a modo ilustrativo; no son un resultado medido.",
-                    "Los minutos netos incluyen la revisión del cliente. Tú valoras el tiempo; no es dinero recibido."
+                    "Previsión revisada el 2026-10-13. Uso de toda la cuota incluida, trabajo disponible y un escenario lineal de capacidad de 1×/2×/3×; no se garantiza demanda adicional.",
+                    "Tiempo propuesto por unidad de trabajo: 60 minutos manuales frente a 48 minutos de trabajo humano asistido, con revisión, aprobación y correcciones. Los 12 minutos netos (20%) son un escenario, no un rendimiento observado de esta persona.",
+                    "El escenario de reducción del tiempo del 20% se basa en estudios sobre tareas de conocimiento asistidas por IA. Sus resultados no demuestran ahorros para esta persona ni para todas las tareas: https://aiinstitute.hbs.edu/navigating-the-jagged-technological-frontier/",
+                    "La capacidad empresarial recuperada se valora en €34.90/hora, el coste laboral horario de referencia de toda la economía de la UE para 2025. No es una tarifa específica de una profesión ni un ahorro en nómina: https://ec.europa.eu/eurostat/en/web/products-eurostat-news/w/ddn-20260331-2",
+                    "Todas las cifras son previsiones. Se excluyen el esfuerzo de configuración, el tiempo de aprendizaje y los servicios adicionales; el retorno neto real puede ser menor o negativo. No se monetizan ventas, colocaciones, financiación ni resultados educativos o sociales.",
+                    "El acceso gratuito se renueva mensualmente con la cuota básica indicada. Se excluyen los contenidos multimedia prémium, las integraciones y el uso adicional. Los niveles de pago tienen una prueba de siete días; su uso se limita a una cuota básica gratuita, sin una cuota mensual completa adicional. Los precios indicados son recurrentes tras la prueba. Son propuestas de oferta elaboradas; la calculadora no concede derechos de acceso ni modifica la facturación."
                   ],
                   "loop": "Señal de inmueble o interés de compra → validar ficha documentada → agente revisa y partes consienten → registrar presentación aceptada y resultado real.",
                   "ctaLabel": "Prueba la demo",
@@ -836,7 +861,7 @@
             "enabled": true,
             "kicker": "Business impact",
             "heading": "Precios y ROI",
-            "subheading": "Tus datos. Tu retorno estimado.",
+            "subheading": "Elige un plan. Consulta tu previsión.",
             "disclaimer": "Estimar no es medir el ROI. Solo los resultados aceptados y los costes registrados comparables permiten medir el retorno.",
             "currency": "EUR",
             "currencyCopy": {
@@ -1205,7 +1230,7 @@
               "copy": {
                 "navLabel": "precio",
                 "heading": "Precios y ROI",
-                "intro": "Tus datos. Tu retorno estimado.",
+                "intro": "Elige un plan. Consulta tu previsión.",
                 "monthly": "Mes",
                 "weekly": "Semana",
                 "daily": "Día",
@@ -1216,7 +1241,7 @@
                 "timeBenefit": "Valor horario estimado",
                 "timeRoi": "ROI del tiempo",
                 "timeBack": "Horas liberadas",
-                "missing": "Añade tus datos",
+                "missing": "Previsión no disponible",
                 "noRatio": "Not applicable",
                 "method": "Cómo se calcula",
                 "reset": "Reponer",
@@ -1225,10 +1250,10 @@
                 "excludedVat": "Sin IVA",
                 "perMonth": "al mes",
                 "equivalents": "Cobro mensual. Las cifras diarias y semanales son medias, no cargos ni retornos garantizados de esos periodos.",
-                "timeNote": "Valorar el tiempo es opcional: no es dinero recibido ni ahorro salarial. Los minutos netos incluyen tu tiempo de revisión y aprobación.",
+                "timeNote": "El valor previsto del tiempo representa capacidad recuperada, no dinero recibido ni una reducción de nómina. Los minutos netos incluyen revisión y aprobación.",
                 "estimateNote": "Estimar no es medir el ROI. Solo los resultados aceptados y los costes registrados comparables permiten medir el retorno.",
                 "limitNote": "Para más uso o trabajos con presupuesto aparte, contáctanos. La estimación solo cubre lo incluido.",
-                "timeFormula": "Valor del tiempo = unidades × min ahorrados netos ÷ 60 × tu valor/hora",
+                "timeFormula": "Valor previsto del tiempo = trabajo incluido × minutos netos recuperados fijos ÷ 60 × valor horario de referencia.",
                 "profitFormula": "Margen de contribución = sesiones aptas de recomendación × aumento de conversión ÷ 100 × beneficio por pedido adicional.",
                 "proceedsFormula": "Ingresos adicionales = lotes o recogidas × (ingresos netos posteriores − ingresos netos anteriores).",
                 "roiFormula": "Neto = beneficio − suscripción. ROI = neto ÷ suscripción × 100. Los planes gratuitos no tienen porcentaje de ROI."
@@ -1243,7 +1268,7 @@
                     {
                       "id": "units",
                       "label": "Fichas cualificadas al mes",
-                      "help": "Trabajo que prevés revisar en un mes, dentro del cupo incluido.",
+                      "help": "La previsión supone el uso de toda la cuota mensual incluida. Los niveles superiores propuestos aumentan tanto la capacidad como el precio.",
                       "defaultValue": 20,
                       "min": 0,
                       "max": 20,
@@ -1253,7 +1278,7 @@
                     {
                       "id": "minutes_saved",
                       "label": "Min. ahorrados",
-                      "help": "Tu estimación tras revisar, aprobar y corregir. Los valores negativos indican esfuerzo adicional.",
+                      "help": "Previsión fija tras preparación, revisión, aprobación y correcciones; no es un ahorro medido.",
                       "defaultValue": 12,
                       "min": -1440,
                       "max": 1440,
@@ -1263,8 +1288,8 @@
                     {
                       "id": "hourly_value",
                       "label": "Valor por hora",
-                      "help": "Tu valoración opcional. No promete ahorro de dinero ni reducción salarial.",
-                      "defaultValue": null,
+                      "help": "Valoración fija de referencia de la capacidad recuperada; no es dinero recibido ni una reducción salarial.",
+                      "defaultValue": 34.9,
                       "min": 0,
                       "max": 1000,
                       "step": 0.01,
@@ -1278,11 +1303,21 @@
                     "vatIncluded": false,
                     "includedUnits": 20,
                     "allowance": "20 fichas calificadas",
-                    "extras": "El uso adicional y los servicios profesionales se presupuestan aparte."
+                    "extras": "El uso adicional y los servicios profesionales se presupuestan aparte.",
+                    "free": {
+                      "includedUnits": 1,
+                      "allowance": "Gratis · 1 informe"
+                    },
+                    "trialDays": 7,
+                    "trialLabel": "Prueba de 7 días · después, precio mensual"
                   },
                   "assumptions": [
-                    "Los 12 min netos iniciales estiman la preparación a modo ilustrativo; no son un resultado medido.",
-                    "Los minutos netos incluyen la revisión del cliente. Tú valoras el tiempo; no es dinero recibido."
+                    "Previsión revisada el 2026-10-13. Uso de toda la cuota incluida, trabajo disponible y un escenario lineal de capacidad de 1×/2×/3×; no se garantiza demanda adicional.",
+                    "Tiempo propuesto por unidad de trabajo: 60 minutos manuales frente a 48 minutos de trabajo humano asistido, con revisión, aprobación y correcciones. Los 12 minutos netos (20%) son un escenario, no un rendimiento observado de esta persona.",
+                    "El escenario de reducción del tiempo del 20% se basa en estudios sobre tareas de conocimiento asistidas por IA. Sus resultados no demuestran ahorros para esta persona ni para todas las tareas: https://aiinstitute.hbs.edu/navigating-the-jagged-technological-frontier/",
+                    "La capacidad empresarial recuperada se valora en €34.90/hora, el coste laboral horario de referencia de toda la economía de la UE para 2025. No es una tarifa específica de una profesión ni un ahorro en nómina: https://ec.europa.eu/eurostat/en/web/products-eurostat-news/w/ddn-20260331-2",
+                    "Todas las cifras son previsiones. Se excluyen el esfuerzo de configuración, el tiempo de aprendizaje y los servicios adicionales; el retorno neto real puede ser menor o negativo. No se monetizan ventas, colocaciones, financiación ni resultados educativos o sociales.",
+                    "El acceso gratuito se renueva mensualmente con la cuota básica indicada. Se excluyen los contenidos multimedia prémium, las integraciones y el uso adicional. Los niveles de pago tienen una prueba de siete días; su uso se limita a una cuota básica gratuita, sin una cuota mensual completa adicional. Los precios indicados son recurrentes tras la prueba. Son propuestas de oferta elaboradas; la calculadora no concede derechos de acceso ni modifica la facturación."
                   ],
                   "loop": "Señal de inmueble o interés de compra → validar ficha documentada → agente revisa y partes consienten → registrar presentación aceptada y resultado real.",
                   "ctaLabel": "Prueba la demo",
@@ -1297,7 +1332,7 @@
                     {
                       "id": "units",
                       "label": "Fichas cualificadas al mes",
-                      "help": "Trabajo que prevés revisar en un mes, dentro del cupo incluido.",
+                      "help": "La previsión supone el uso de toda la cuota mensual incluida. Los niveles superiores propuestos aumentan tanto la capacidad como el precio.",
                       "defaultValue": 20,
                       "min": 0,
                       "max": 20,
@@ -1307,7 +1342,7 @@
                     {
                       "id": "minutes_saved",
                       "label": "Min. ahorrados",
-                      "help": "Tu estimación tras revisar, aprobar y corregir. Los valores negativos indican esfuerzo adicional.",
+                      "help": "Previsión fija tras preparación, revisión, aprobación y correcciones; no es un ahorro medido.",
                       "defaultValue": 12,
                       "min": -1440,
                       "max": 1440,
@@ -1317,8 +1352,8 @@
                     {
                       "id": "hourly_value",
                       "label": "Valor por hora",
-                      "help": "Tu valoración opcional. No promete ahorro de dinero ni reducción salarial.",
-                      "defaultValue": null,
+                      "help": "Valoración fija de referencia de la capacidad recuperada; no es dinero recibido ni una reducción salarial.",
+                      "defaultValue": 34.9,
                       "min": 0,
                       "max": 1000,
                       "step": 0.01,
@@ -1332,11 +1367,21 @@
                     "vatIncluded": false,
                     "includedUnits": 20,
                     "allowance": "20 fichas calificadas",
-                    "extras": "El uso adicional y los servicios profesionales se presupuestan aparte."
+                    "extras": "El uso adicional y los servicios profesionales se presupuestan aparte.",
+                    "free": {
+                      "includedUnits": 1,
+                      "allowance": "Gratis · 1 informe"
+                    },
+                    "trialDays": 7,
+                    "trialLabel": "Prueba de 7 días · después, precio mensual"
                   },
                   "assumptions": [
-                    "Los 12 min netos iniciales estiman la preparación a modo ilustrativo; no son un resultado medido.",
-                    "Los minutos netos incluyen la revisión del cliente. Tú valoras el tiempo; no es dinero recibido."
+                    "Previsión revisada el 2026-10-13. Uso de toda la cuota incluida, trabajo disponible y un escenario lineal de capacidad de 1×/2×/3×; no se garantiza demanda adicional.",
+                    "Tiempo propuesto por unidad de trabajo: 60 minutos manuales frente a 48 minutos de trabajo humano asistido, con revisión, aprobación y correcciones. Los 12 minutos netos (20%) son un escenario, no un rendimiento observado de esta persona.",
+                    "El escenario de reducción del tiempo del 20% se basa en estudios sobre tareas de conocimiento asistidas por IA. Sus resultados no demuestran ahorros para esta persona ni para todas las tareas: https://aiinstitute.hbs.edu/navigating-the-jagged-technological-frontier/",
+                    "La capacidad empresarial recuperada se valora en €34.90/hora, el coste laboral horario de referencia de toda la economía de la UE para 2025. No es una tarifa específica de una profesión ni un ahorro en nómina: https://ec.europa.eu/eurostat/en/web/products-eurostat-news/w/ddn-20260331-2",
+                    "Todas las cifras son previsiones. Se excluyen el esfuerzo de configuración, el tiempo de aprendizaje y los servicios adicionales; el retorno neto real puede ser menor o negativo. No se monetizan ventas, colocaciones, financiación ni resultados educativos o sociales.",
+                    "El acceso gratuito se renueva mensualmente con la cuota básica indicada. Se excluyen los contenidos multimedia prémium, las integraciones y el uso adicional. Los niveles de pago tienen una prueba de siete días; su uso se limita a una cuota básica gratuita, sin una cuota mensual completa adicional. Los precios indicados son recurrentes tras la prueba. Son propuestas de oferta elaboradas; la calculadora no concede derechos de acceso ni modifica la facturación."
                   ],
                   "loop": "Señal de inmueble o interés de compra → validar ficha documentada → agente revisa y partes consienten → registrar presentación aceptada y resultado real.",
                   "ctaLabel": "Prueba la demo",
@@ -1552,7 +1597,7 @@
       "enabled": true,
       "kicker": "Business impact",
       "heading": "Precios y ROI",
-      "subheading": "Tus datos. Tu retorno estimado.",
+      "subheading": "Elige un plan. Consulta tu previsión.",
       "disclaimer": "Estimar no es medir el ROI. Solo los resultados aceptados y los costes registrados comparables permiten medir el retorno.",
       "currency": "EUR",
       "currencyCopy": {
@@ -1921,7 +1966,7 @@
         "copy": {
           "navLabel": "precio",
           "heading": "Precios y ROI",
-          "intro": "Tus datos. Tu retorno estimado.",
+          "intro": "Elige un plan. Consulta tu previsión.",
           "monthly": "Mes",
           "weekly": "Semana",
           "daily": "Día",
@@ -1932,7 +1977,7 @@
           "timeBenefit": "Valor horario estimado",
           "timeRoi": "ROI del tiempo",
           "timeBack": "Horas liberadas",
-          "missing": "Añade tus datos",
+          "missing": "Previsión no disponible",
           "noRatio": "Not applicable",
           "method": "Cómo se calcula",
           "reset": "Reponer",
@@ -1941,10 +1986,10 @@
           "excludedVat": "Sin IVA",
           "perMonth": "al mes",
           "equivalents": "Cobro mensual. Las cifras diarias y semanales son medias, no cargos ni retornos garantizados de esos periodos.",
-          "timeNote": "Valorar el tiempo es opcional: no es dinero recibido ni ahorro salarial. Los minutos netos incluyen tu tiempo de revisión y aprobación.",
+          "timeNote": "El valor previsto del tiempo representa capacidad recuperada, no dinero recibido ni una reducción de nómina. Los minutos netos incluyen revisión y aprobación.",
           "estimateNote": "Estimar no es medir el ROI. Solo los resultados aceptados y los costes registrados comparables permiten medir el retorno.",
           "limitNote": "Para más uso o trabajos con presupuesto aparte, contáctanos. La estimación solo cubre lo incluido.",
-          "timeFormula": "Valor del tiempo = unidades × min ahorrados netos ÷ 60 × tu valor/hora",
+          "timeFormula": "Valor previsto del tiempo = trabajo incluido × minutos netos recuperados fijos ÷ 60 × valor horario de referencia.",
           "profitFormula": "Margen de contribución = sesiones aptas de recomendación × aumento de conversión ÷ 100 × beneficio por pedido adicional.",
           "proceedsFormula": "Ingresos adicionales = lotes o recogidas × (ingresos netos posteriores − ingresos netos anteriores).",
           "roiFormula": "Neto = beneficio − suscripción. ROI = neto ÷ suscripción × 100. Los planes gratuitos no tienen porcentaje de ROI."
@@ -1959,7 +2004,7 @@
               {
                 "id": "units",
                 "label": "Fichas cualificadas al mes",
-                "help": "Trabajo que prevés revisar en un mes, dentro del cupo incluido.",
+                "help": "La previsión supone el uso de toda la cuota mensual incluida. Los niveles superiores propuestos aumentan tanto la capacidad como el precio.",
                 "defaultValue": 20,
                 "min": 0,
                 "max": 20,
@@ -1969,7 +2014,7 @@
               {
                 "id": "minutes_saved",
                 "label": "Min. ahorrados",
-                "help": "Tu estimación tras revisar, aprobar y corregir. Los valores negativos indican esfuerzo adicional.",
+                "help": "Previsión fija tras preparación, revisión, aprobación y correcciones; no es un ahorro medido.",
                 "defaultValue": 12,
                 "min": -1440,
                 "max": 1440,
@@ -1979,8 +2024,8 @@
               {
                 "id": "hourly_value",
                 "label": "Valor por hora",
-                "help": "Tu valoración opcional. No promete ahorro de dinero ni reducción salarial.",
-                "defaultValue": null,
+                "help": "Valoración fija de referencia de la capacidad recuperada; no es dinero recibido ni una reducción salarial.",
+                "defaultValue": 34.9,
                 "min": 0,
                 "max": 1000,
                 "step": 0.01,
@@ -1994,11 +2039,21 @@
               "vatIncluded": false,
               "includedUnits": 20,
               "allowance": "20 fichas calificadas",
-              "extras": "El uso adicional y los servicios profesionales se presupuestan aparte."
+              "extras": "El uso adicional y los servicios profesionales se presupuestan aparte.",
+              "free": {
+                "includedUnits": 1,
+                "allowance": "Gratis · 1 informe"
+              },
+              "trialDays": 7,
+              "trialLabel": "Prueba de 7 días · después, precio mensual"
             },
             "assumptions": [
-              "Los 12 min netos iniciales estiman la preparación a modo ilustrativo; no son un resultado medido.",
-              "Los minutos netos incluyen la revisión del cliente. Tú valoras el tiempo; no es dinero recibido."
+              "Previsión revisada el 2026-10-13. Uso de toda la cuota incluida, trabajo disponible y un escenario lineal de capacidad de 1×/2×/3×; no se garantiza demanda adicional.",
+              "Tiempo propuesto por unidad de trabajo: 60 minutos manuales frente a 48 minutos de trabajo humano asistido, con revisión, aprobación y correcciones. Los 12 minutos netos (20%) son un escenario, no un rendimiento observado de esta persona.",
+              "El escenario de reducción del tiempo del 20% se basa en estudios sobre tareas de conocimiento asistidas por IA. Sus resultados no demuestran ahorros para esta persona ni para todas las tareas: https://aiinstitute.hbs.edu/navigating-the-jagged-technological-frontier/",
+              "La capacidad empresarial recuperada se valora en €34.90/hora, el coste laboral horario de referencia de toda la economía de la UE para 2025. No es una tarifa específica de una profesión ni un ahorro en nómina: https://ec.europa.eu/eurostat/en/web/products-eurostat-news/w/ddn-20260331-2",
+              "Todas las cifras son previsiones. Se excluyen el esfuerzo de configuración, el tiempo de aprendizaje y los servicios adicionales; el retorno neto real puede ser menor o negativo. No se monetizan ventas, colocaciones, financiación ni resultados educativos o sociales.",
+              "El acceso gratuito se renueva mensualmente con la cuota básica indicada. Se excluyen los contenidos multimedia prémium, las integraciones y el uso adicional. Los niveles de pago tienen una prueba de siete días; su uso se limita a una cuota básica gratuita, sin una cuota mensual completa adicional. Los precios indicados son recurrentes tras la prueba. Son propuestas de oferta elaboradas; la calculadora no concede derechos de acceso ni modifica la facturación."
             ],
             "loop": "Señal de inmueble o interés de compra → validar ficha documentada → agente revisa y partes consienten → registrar presentación aceptada y resultado real.",
             "ctaLabel": "Prueba la demo",
@@ -2013,7 +2068,7 @@
               {
                 "id": "units",
                 "label": "Fichas cualificadas al mes",
-                "help": "Trabajo que prevés revisar en un mes, dentro del cupo incluido.",
+                "help": "La previsión supone el uso de toda la cuota mensual incluida. Los niveles superiores propuestos aumentan tanto la capacidad como el precio.",
                 "defaultValue": 20,
                 "min": 0,
                 "max": 20,
@@ -2023,7 +2078,7 @@
               {
                 "id": "minutes_saved",
                 "label": "Min. ahorrados",
-                "help": "Tu estimación tras revisar, aprobar y corregir. Los valores negativos indican esfuerzo adicional.",
+                "help": "Previsión fija tras preparación, revisión, aprobación y correcciones; no es un ahorro medido.",
                 "defaultValue": 12,
                 "min": -1440,
                 "max": 1440,
@@ -2033,8 +2088,8 @@
               {
                 "id": "hourly_value",
                 "label": "Valor por hora",
-                "help": "Tu valoración opcional. No promete ahorro de dinero ni reducción salarial.",
-                "defaultValue": null,
+                "help": "Valoración fija de referencia de la capacidad recuperada; no es dinero recibido ni una reducción salarial.",
+                "defaultValue": 34.9,
                 "min": 0,
                 "max": 1000,
                 "step": 0.01,
@@ -2048,11 +2103,21 @@
               "vatIncluded": false,
               "includedUnits": 20,
               "allowance": "20 fichas calificadas",
-              "extras": "El uso adicional y los servicios profesionales se presupuestan aparte."
+              "extras": "El uso adicional y los servicios profesionales se presupuestan aparte.",
+              "free": {
+                "includedUnits": 1,
+                "allowance": "Gratis · 1 informe"
+              },
+              "trialDays": 7,
+              "trialLabel": "Prueba de 7 días · después, precio mensual"
             },
             "assumptions": [
-              "Los 12 min netos iniciales estiman la preparación a modo ilustrativo; no son un resultado medido.",
-              "Los minutos netos incluyen la revisión del cliente. Tú valoras el tiempo; no es dinero recibido."
+              "Previsión revisada el 2026-10-13. Uso de toda la cuota incluida, trabajo disponible y un escenario lineal de capacidad de 1×/2×/3×; no se garantiza demanda adicional.",
+              "Tiempo propuesto por unidad de trabajo: 60 minutos manuales frente a 48 minutos de trabajo humano asistido, con revisión, aprobación y correcciones. Los 12 minutos netos (20%) son un escenario, no un rendimiento observado de esta persona.",
+              "El escenario de reducción del tiempo del 20% se basa en estudios sobre tareas de conocimiento asistidas por IA. Sus resultados no demuestran ahorros para esta persona ni para todas las tareas: https://aiinstitute.hbs.edu/navigating-the-jagged-technological-frontier/",
+              "La capacidad empresarial recuperada se valora en €34.90/hora, el coste laboral horario de referencia de toda la economía de la UE para 2025. No es una tarifa específica de una profesión ni un ahorro en nómina: https://ec.europa.eu/eurostat/en/web/products-eurostat-news/w/ddn-20260331-2",
+              "Todas las cifras son previsiones. Se excluyen el esfuerzo de configuración, el tiempo de aprendizaje y los servicios adicionales; el retorno neto real puede ser menor o negativo. No se monetizan ventas, colocaciones, financiación ni resultados educativos o sociales.",
+              "El acceso gratuito se renueva mensualmente con la cuota básica indicada. Se excluyen los contenidos multimedia prémium, las integraciones y el uso adicional. Los niveles de pago tienen una prueba de siete días; su uso se limita a una cuota básica gratuita, sin una cuota mensual completa adicional. Los precios indicados son recurrentes tras la prueba. Son propuestas de oferta elaboradas; la calculadora no concede derechos de acceso ni modifica la facturación."
             ],
             "loop": "Señal de inmueble o interés de compra → validar ficha documentada → agente revisa y partes consienten → registrar presentación aceptada y resultado real.",
             "ctaLabel": "Prueba la demo",
@@ -2742,7 +2807,7 @@
         "roiCalculator",
         "subheading"
       ],
-      "sourceHash": "22fd8ffe8dbddd46f41fb690f262f66466bb343bae0b359e4c64dfd2f2f127a5"
+      "sourceHash": "7e0335f15435324d6c9561bc41d72ac01fac940e282a3812a2a08f88ca4dd0d8"
     },
     {
       "path": [
@@ -5241,7 +5306,7 @@
         "copy",
         "intro"
       ],
-      "sourceHash": "22fd8ffe8dbddd46f41fb690f262f66466bb343bae0b359e4c64dfd2f2f127a5"
+      "sourceHash": "7e0335f15435324d6c9561bc41d72ac01fac940e282a3812a2a08f88ca4dd0d8"
     },
     {
       "path": [
@@ -5384,7 +5449,7 @@
         "copy",
         "missing"
       ],
-      "sourceHash": "4b11bc702fcdb172c2f88f4af465a9d05ac206b7f7e6304fcded04eb92cccde6"
+      "sourceHash": "31f441cdeb7260c189ff3872cc0cf5eafa1389efb13fdc53bd705ae8851f9e24"
     },
     {
       "path": [
@@ -5501,7 +5566,7 @@
         "copy",
         "timeNote"
       ],
-      "sourceHash": "d7c17f23c52c1d9cf5be7fcb5a537017a0a09529bfde38e6b692afa2ecbf453f"
+      "sourceHash": "b2b5695beb66ae51219045b8b89a8c8203c74f556f2b14252fb6b3f4f201d4c7"
     },
     {
       "path": [
@@ -5540,7 +5605,7 @@
         "copy",
         "timeFormula"
       ],
-      "sourceHash": "4cf3d8fcb0fa4b9c36d9869e709ba0cbabcd41083c7ff8cf77e9fe32066eacdb"
+      "sourceHash": "7a72bb01ee78a5c39b77c2529b7e8a7cc72544f4034c6b52caa8cbcffc9d487d"
     },
     {
       "path": [
@@ -5625,7 +5690,7 @@
         0,
         "help"
       ],
-      "sourceHash": "a8cff02d43e6c0371644e73ec0de532d8ac6ae2eb169301a6e3605e3cb010ab0"
+      "sourceHash": "6081b0b981fb170b4a06ecb33199787e85f172ff8e778e8aec6b3241045cc6ff"
     },
     {
       "path": [
@@ -5657,7 +5722,7 @@
         1,
         "help"
       ],
-      "sourceHash": "d99a99ab817eea4a3a70ded599d0744a02fe8de95ab0b7c6a0fc9d5cb72c400d"
+      "sourceHash": "7c28dd88f074ddbd0a8b4aa2f439957660aa7eac68736cfe1b2a65e27204ee93"
     },
     {
       "path": [
@@ -5689,7 +5754,7 @@
         2,
         "help"
       ],
-      "sourceHash": "310e52c988a868b67de05d75913bc83fea7f2ff3d06b15cb07adf6c22d1f94f1"
+      "sourceHash": "33750d80c52f18680269d5e6b913abeb0f2a0f1a550c24e09a031f8732097c97"
     },
     {
       "path": [
@@ -5746,10 +5811,41 @@
         "compact",
         "profiles",
         0,
+        "offer",
+        "free",
+        "allowance"
+      ],
+      "sourceHash": "1550b77d15ecd988b30c0fa40fd2d710ed80b2f9744d27ad25faa1463804f5fc"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "offer",
+        "trialLabel"
+      ],
+      "sourceHash": "baa96265c9efe648589a6be0a7e489d2afb6ce4aeab71ffc2e67b53cefcdb97b"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
         "assumptions",
         0
       ],
-      "sourceHash": "79adeadb4feb385ac12585feee29f5f4b94954ccde2406a3b86aa5c7e90ca29f"
+      "sourceHash": "fda1ac9a57ab4191beebef559208e63a82d97ba0a74c030f2eb4658f776a8d6d"
     },
     {
       "path": [
@@ -5764,7 +5860,67 @@
         "assumptions",
         1
       ],
-      "sourceHash": "989a9fcc887e91c895fb2d3cdee45f5d8279d36705594e66f19d87e172656e0e"
+      "sourceHash": "e8490c487803beb2a4f93e4cbea78f378407b6b86ec60ea4419b977d1aaaf0a5"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "assumptions",
+        2
+      ],
+      "sourceHash": "490d4e3b3e91d2a741133ae4ba19dc41e2444a57992c8d9ea5208eeb94e0aa07"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "assumptions",
+        3
+      ],
+      "sourceHash": "657ba73c2f83806a89ec3c7ceab83bc0665381866b29d91484962500c9aac45e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "assumptions",
+        4
+      ],
+      "sourceHash": "5ec19ed8b04acf63c229e10b9a11a54f571fd18e6059561fb67523472a5cee50"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "assumptions",
+        5
+      ],
+      "sourceHash": "9bbe0ab3486f8b9872cce1c65b3561bfaab7782beffd18708e43b4340813cd7d"
     },
     {
       "path": [
@@ -5838,7 +5994,7 @@
         0,
         "help"
       ],
-      "sourceHash": "a8cff02d43e6c0371644e73ec0de532d8ac6ae2eb169301a6e3605e3cb010ab0"
+      "sourceHash": "6081b0b981fb170b4a06ecb33199787e85f172ff8e778e8aec6b3241045cc6ff"
     },
     {
       "path": [
@@ -5870,7 +6026,7 @@
         1,
         "help"
       ],
-      "sourceHash": "d99a99ab817eea4a3a70ded599d0744a02fe8de95ab0b7c6a0fc9d5cb72c400d"
+      "sourceHash": "7c28dd88f074ddbd0a8b4aa2f439957660aa7eac68736cfe1b2a65e27204ee93"
     },
     {
       "path": [
@@ -5902,7 +6058,7 @@
         2,
         "help"
       ],
-      "sourceHash": "310e52c988a868b67de05d75913bc83fea7f2ff3d06b15cb07adf6c22d1f94f1"
+      "sourceHash": "33750d80c52f18680269d5e6b913abeb0f2a0f1a550c24e09a031f8732097c97"
     },
     {
       "path": [
@@ -5959,10 +6115,41 @@
         "compact",
         "profiles",
         1,
+        "offer",
+        "free",
+        "allowance"
+      ],
+      "sourceHash": "1550b77d15ecd988b30c0fa40fd2d710ed80b2f9744d27ad25faa1463804f5fc"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "offer",
+        "trialLabel"
+      ],
+      "sourceHash": "baa96265c9efe648589a6be0a7e489d2afb6ce4aeab71ffc2e67b53cefcdb97b"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
         "assumptions",
         0
       ],
-      "sourceHash": "79adeadb4feb385ac12585feee29f5f4b94954ccde2406a3b86aa5c7e90ca29f"
+      "sourceHash": "fda1ac9a57ab4191beebef559208e63a82d97ba0a74c030f2eb4658f776a8d6d"
     },
     {
       "path": [
@@ -5977,7 +6164,67 @@
         "assumptions",
         1
       ],
-      "sourceHash": "989a9fcc887e91c895fb2d3cdee45f5d8279d36705594e66f19d87e172656e0e"
+      "sourceHash": "e8490c487803beb2a4f93e4cbea78f378407b6b86ec60ea4419b977d1aaaf0a5"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "assumptions",
+        2
+      ],
+      "sourceHash": "490d4e3b3e91d2a741133ae4ba19dc41e2444a57992c8d9ea5208eeb94e0aa07"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "assumptions",
+        3
+      ],
+      "sourceHash": "657ba73c2f83806a89ec3c7ceab83bc0665381866b29d91484962500c9aac45e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "assumptions",
+        4
+      ],
+      "sourceHash": "5ec19ed8b04acf63c229e10b9a11a54f571fd18e6059561fb67523472a5cee50"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        0,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "assumptions",
+        5
+      ],
+      "sourceHash": "9bbe0ab3486f8b9872cce1c65b3561bfaab7782beffd18708e43b4340813cd7d"
     },
     {
       "path": [
@@ -6539,7 +6786,7 @@
         "roiCalculator",
         "subheading"
       ],
-      "sourceHash": "22fd8ffe8dbddd46f41fb690f262f66466bb343bae0b359e4c64dfd2f2f127a5"
+      "sourceHash": "7e0335f15435324d6c9561bc41d72ac01fac940e282a3812a2a08f88ca4dd0d8"
     },
     {
       "path": [
@@ -9066,7 +9313,7 @@
         "copy",
         "intro"
       ],
-      "sourceHash": "22fd8ffe8dbddd46f41fb690f262f66466bb343bae0b359e4c64dfd2f2f127a5"
+      "sourceHash": "7e0335f15435324d6c9561bc41d72ac01fac940e282a3812a2a08f88ca4dd0d8"
     },
     {
       "path": [
@@ -9209,7 +9456,7 @@
         "copy",
         "missing"
       ],
-      "sourceHash": "4b11bc702fcdb172c2f88f4af465a9d05ac206b7f7e6304fcded04eb92cccde6"
+      "sourceHash": "31f441cdeb7260c189ff3872cc0cf5eafa1389efb13fdc53bd705ae8851f9e24"
     },
     {
       "path": [
@@ -9326,7 +9573,7 @@
         "copy",
         "timeNote"
       ],
-      "sourceHash": "d7c17f23c52c1d9cf5be7fcb5a537017a0a09529bfde38e6b692afa2ecbf453f"
+      "sourceHash": "b2b5695beb66ae51219045b8b89a8c8203c74f556f2b14252fb6b3f4f201d4c7"
     },
     {
       "path": [
@@ -9365,7 +9612,7 @@
         "copy",
         "timeFormula"
       ],
-      "sourceHash": "4cf3d8fcb0fa4b9c36d9869e709ba0cbabcd41083c7ff8cf77e9fe32066eacdb"
+      "sourceHash": "7a72bb01ee78a5c39b77c2529b7e8a7cc72544f4034c6b52caa8cbcffc9d487d"
     },
     {
       "path": [
@@ -9450,7 +9697,7 @@
         0,
         "help"
       ],
-      "sourceHash": "a8cff02d43e6c0371644e73ec0de532d8ac6ae2eb169301a6e3605e3cb010ab0"
+      "sourceHash": "6081b0b981fb170b4a06ecb33199787e85f172ff8e778e8aec6b3241045cc6ff"
     },
     {
       "path": [
@@ -9482,7 +9729,7 @@
         1,
         "help"
       ],
-      "sourceHash": "d99a99ab817eea4a3a70ded599d0744a02fe8de95ab0b7c6a0fc9d5cb72c400d"
+      "sourceHash": "7c28dd88f074ddbd0a8b4aa2f439957660aa7eac68736cfe1b2a65e27204ee93"
     },
     {
       "path": [
@@ -9514,7 +9761,7 @@
         2,
         "help"
       ],
-      "sourceHash": "310e52c988a868b67de05d75913bc83fea7f2ff3d06b15cb07adf6c22d1f94f1"
+      "sourceHash": "33750d80c52f18680269d5e6b913abeb0f2a0f1a550c24e09a031f8732097c97"
     },
     {
       "path": [
@@ -9571,10 +9818,41 @@
         "compact",
         "profiles",
         0,
+        "offer",
+        "free",
+        "allowance"
+      ],
+      "sourceHash": "1550b77d15ecd988b30c0fa40fd2d710ed80b2f9744d27ad25faa1463804f5fc"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "offer",
+        "trialLabel"
+      ],
+      "sourceHash": "baa96265c9efe648589a6be0a7e489d2afb6ce4aeab71ffc2e67b53cefcdb97b"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
         "assumptions",
         0
       ],
-      "sourceHash": "79adeadb4feb385ac12585feee29f5f4b94954ccde2406a3b86aa5c7e90ca29f"
+      "sourceHash": "fda1ac9a57ab4191beebef559208e63a82d97ba0a74c030f2eb4658f776a8d6d"
     },
     {
       "path": [
@@ -9589,7 +9867,67 @@
         "assumptions",
         1
       ],
-      "sourceHash": "989a9fcc887e91c895fb2d3cdee45f5d8279d36705594e66f19d87e172656e0e"
+      "sourceHash": "e8490c487803beb2a4f93e4cbea78f378407b6b86ec60ea4419b977d1aaaf0a5"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "assumptions",
+        2
+      ],
+      "sourceHash": "490d4e3b3e91d2a741133ae4ba19dc41e2444a57992c8d9ea5208eeb94e0aa07"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "assumptions",
+        3
+      ],
+      "sourceHash": "657ba73c2f83806a89ec3c7ceab83bc0665381866b29d91484962500c9aac45e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "assumptions",
+        4
+      ],
+      "sourceHash": "5ec19ed8b04acf63c229e10b9a11a54f571fd18e6059561fb67523472a5cee50"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "assumptions",
+        5
+      ],
+      "sourceHash": "9bbe0ab3486f8b9872cce1c65b3561bfaab7782beffd18708e43b4340813cd7d"
     },
     {
       "path": [
@@ -9663,7 +10001,7 @@
         0,
         "help"
       ],
-      "sourceHash": "a8cff02d43e6c0371644e73ec0de532d8ac6ae2eb169301a6e3605e3cb010ab0"
+      "sourceHash": "6081b0b981fb170b4a06ecb33199787e85f172ff8e778e8aec6b3241045cc6ff"
     },
     {
       "path": [
@@ -9695,7 +10033,7 @@
         1,
         "help"
       ],
-      "sourceHash": "d99a99ab817eea4a3a70ded599d0744a02fe8de95ab0b7c6a0fc9d5cb72c400d"
+      "sourceHash": "7c28dd88f074ddbd0a8b4aa2f439957660aa7eac68736cfe1b2a65e27204ee93"
     },
     {
       "path": [
@@ -9727,7 +10065,7 @@
         2,
         "help"
       ],
-      "sourceHash": "310e52c988a868b67de05d75913bc83fea7f2ff3d06b15cb07adf6c22d1f94f1"
+      "sourceHash": "33750d80c52f18680269d5e6b913abeb0f2a0f1a550c24e09a031f8732097c97"
     },
     {
       "path": [
@@ -9784,10 +10122,41 @@
         "compact",
         "profiles",
         1,
+        "offer",
+        "free",
+        "allowance"
+      ],
+      "sourceHash": "1550b77d15ecd988b30c0fa40fd2d710ed80b2f9744d27ad25faa1463804f5fc"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "offer",
+        "trialLabel"
+      ],
+      "sourceHash": "baa96265c9efe648589a6be0a7e489d2afb6ce4aeab71ffc2e67b53cefcdb97b"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
         "assumptions",
         0
       ],
-      "sourceHash": "79adeadb4feb385ac12585feee29f5f4b94954ccde2406a3b86aa5c7e90ca29f"
+      "sourceHash": "fda1ac9a57ab4191beebef559208e63a82d97ba0a74c030f2eb4658f776a8d6d"
     },
     {
       "path": [
@@ -9802,7 +10171,67 @@
         "assumptions",
         1
       ],
-      "sourceHash": "989a9fcc887e91c895fb2d3cdee45f5d8279d36705594e66f19d87e172656e0e"
+      "sourceHash": "e8490c487803beb2a4f93e4cbea78f378407b6b86ec60ea4419b977d1aaaf0a5"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "assumptions",
+        2
+      ],
+      "sourceHash": "490d4e3b3e91d2a741133ae4ba19dc41e2444a57992c8d9ea5208eeb94e0aa07"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "assumptions",
+        3
+      ],
+      "sourceHash": "657ba73c2f83806a89ec3c7ceab83bc0665381866b29d91484962500c9aac45e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "assumptions",
+        4
+      ],
+      "sourceHash": "5ec19ed8b04acf63c229e10b9a11a54f571fd18e6059561fb67523472a5cee50"
+    },
+    {
+      "path": [
+        "landingPage",
+        "homeIntroductions",
+        "tracks",
+        1,
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "assumptions",
+        5
+      ],
+      "sourceHash": "9bbe0ab3486f8b9872cce1c65b3561bfaab7782beffd18708e43b4340813cd7d"
     },
     {
       "path": [
@@ -10903,7 +11332,7 @@
         "roiCalculator",
         "subheading"
       ],
-      "sourceHash": "22fd8ffe8dbddd46f41fb690f262f66466bb343bae0b359e4c64dfd2f2f127a5"
+      "sourceHash": "7e0335f15435324d6c9561bc41d72ac01fac940e282a3812a2a08f88ca4dd0d8"
     },
     {
       "path": [
@@ -12863,7 +13292,7 @@
         "copy",
         "intro"
       ],
-      "sourceHash": "22fd8ffe8dbddd46f41fb690f262f66466bb343bae0b359e4c64dfd2f2f127a5"
+      "sourceHash": "7e0335f15435324d6c9561bc41d72ac01fac940e282a3812a2a08f88ca4dd0d8"
     },
     {
       "path": [
@@ -12973,7 +13402,7 @@
         "copy",
         "missing"
       ],
-      "sourceHash": "4b11bc702fcdb172c2f88f4af465a9d05ac206b7f7e6304fcded04eb92cccde6"
+      "sourceHash": "31f441cdeb7260c189ff3872cc0cf5eafa1389efb13fdc53bd705ae8851f9e24"
     },
     {
       "path": [
@@ -13063,7 +13492,7 @@
         "copy",
         "timeNote"
       ],
-      "sourceHash": "d7c17f23c52c1d9cf5be7fcb5a537017a0a09529bfde38e6b692afa2ecbf453f"
+      "sourceHash": "b2b5695beb66ae51219045b8b89a8c8203c74f556f2b14252fb6b3f4f201d4c7"
     },
     {
       "path": [
@@ -13093,7 +13522,7 @@
         "copy",
         "timeFormula"
       ],
-      "sourceHash": "4cf3d8fcb0fa4b9c36d9869e709ba0cbabcd41083c7ff8cf77e9fe32066eacdb"
+      "sourceHash": "7a72bb01ee78a5c39b77c2529b7e8a7cc72544f4034c6b52caa8cbcffc9d487d"
     },
     {
       "path": [
@@ -13160,7 +13589,7 @@
         0,
         "help"
       ],
-      "sourceHash": "a8cff02d43e6c0371644e73ec0de532d8ac6ae2eb169301a6e3605e3cb010ab0"
+      "sourceHash": "6081b0b981fb170b4a06ecb33199787e85f172ff8e778e8aec6b3241045cc6ff"
     },
     {
       "path": [
@@ -13186,7 +13615,7 @@
         1,
         "help"
       ],
-      "sourceHash": "d99a99ab817eea4a3a70ded599d0744a02fe8de95ab0b7c6a0fc9d5cb72c400d"
+      "sourceHash": "7c28dd88f074ddbd0a8b4aa2f439957660aa7eac68736cfe1b2a65e27204ee93"
     },
     {
       "path": [
@@ -13212,7 +13641,7 @@
         2,
         "help"
       ],
-      "sourceHash": "310e52c988a868b67de05d75913bc83fea7f2ff3d06b15cb07adf6c22d1f94f1"
+      "sourceHash": "33750d80c52f18680269d5e6b913abeb0f2a0f1a550c24e09a031f8732097c97"
     },
     {
       "path": [
@@ -13257,10 +13686,35 @@
         "compact",
         "profiles",
         0,
+        "offer",
+        "free",
+        "allowance"
+      ],
+      "sourceHash": "1550b77d15ecd988b30c0fa40fd2d710ed80b2f9744d27ad25faa1463804f5fc"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "offer",
+        "trialLabel"
+      ],
+      "sourceHash": "baa96265c9efe648589a6be0a7e489d2afb6ce4aeab71ffc2e67b53cefcdb97b"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
         "assumptions",
         0
       ],
-      "sourceHash": "79adeadb4feb385ac12585feee29f5f4b94954ccde2406a3b86aa5c7e90ca29f"
+      "sourceHash": "fda1ac9a57ab4191beebef559208e63a82d97ba0a74c030f2eb4658f776a8d6d"
     },
     {
       "path": [
@@ -13272,7 +13726,55 @@
         "assumptions",
         1
       ],
-      "sourceHash": "989a9fcc887e91c895fb2d3cdee45f5d8279d36705594e66f19d87e172656e0e"
+      "sourceHash": "e8490c487803beb2a4f93e4cbea78f378407b6b86ec60ea4419b977d1aaaf0a5"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "assumptions",
+        2
+      ],
+      "sourceHash": "490d4e3b3e91d2a741133ae4ba19dc41e2444a57992c8d9ea5208eeb94e0aa07"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "assumptions",
+        3
+      ],
+      "sourceHash": "657ba73c2f83806a89ec3c7ceab83bc0665381866b29d91484962500c9aac45e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "assumptions",
+        4
+      ],
+      "sourceHash": "5ec19ed8b04acf63c229e10b9a11a54f571fd18e6059561fb67523472a5cee50"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "assumptions",
+        5
+      ],
+      "sourceHash": "9bbe0ab3486f8b9872cce1c65b3561bfaab7782beffd18708e43b4340813cd7d"
     },
     {
       "path": [
@@ -13331,7 +13833,7 @@
         0,
         "help"
       ],
-      "sourceHash": "a8cff02d43e6c0371644e73ec0de532d8ac6ae2eb169301a6e3605e3cb010ab0"
+      "sourceHash": "6081b0b981fb170b4a06ecb33199787e85f172ff8e778e8aec6b3241045cc6ff"
     },
     {
       "path": [
@@ -13357,7 +13859,7 @@
         1,
         "help"
       ],
-      "sourceHash": "d99a99ab817eea4a3a70ded599d0744a02fe8de95ab0b7c6a0fc9d5cb72c400d"
+      "sourceHash": "7c28dd88f074ddbd0a8b4aa2f439957660aa7eac68736cfe1b2a65e27204ee93"
     },
     {
       "path": [
@@ -13383,7 +13885,7 @@
         2,
         "help"
       ],
-      "sourceHash": "310e52c988a868b67de05d75913bc83fea7f2ff3d06b15cb07adf6c22d1f94f1"
+      "sourceHash": "33750d80c52f18680269d5e6b913abeb0f2a0f1a550c24e09a031f8732097c97"
     },
     {
       "path": [
@@ -13428,10 +13930,35 @@
         "compact",
         "profiles",
         1,
+        "offer",
+        "free",
+        "allowance"
+      ],
+      "sourceHash": "1550b77d15ecd988b30c0fa40fd2d710ed80b2f9744d27ad25faa1463804f5fc"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "offer",
+        "trialLabel"
+      ],
+      "sourceHash": "baa96265c9efe648589a6be0a7e489d2afb6ce4aeab71ffc2e67b53cefcdb97b"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
         "assumptions",
         0
       ],
-      "sourceHash": "79adeadb4feb385ac12585feee29f5f4b94954ccde2406a3b86aa5c7e90ca29f"
+      "sourceHash": "fda1ac9a57ab4191beebef559208e63a82d97ba0a74c030f2eb4658f776a8d6d"
     },
     {
       "path": [
@@ -13443,7 +13970,55 @@
         "assumptions",
         1
       ],
-      "sourceHash": "989a9fcc887e91c895fb2d3cdee45f5d8279d36705594e66f19d87e172656e0e"
+      "sourceHash": "e8490c487803beb2a4f93e4cbea78f378407b6b86ec60ea4419b977d1aaaf0a5"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "assumptions",
+        2
+      ],
+      "sourceHash": "490d4e3b3e91d2a741133ae4ba19dc41e2444a57992c8d9ea5208eeb94e0aa07"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "assumptions",
+        3
+      ],
+      "sourceHash": "657ba73c2f83806a89ec3c7ceab83bc0665381866b29d91484962500c9aac45e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "assumptions",
+        4
+      ],
+      "sourceHash": "5ec19ed8b04acf63c229e10b9a11a54f571fd18e6059561fb67523472a5cee50"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        1,
+        "assumptions",
+        5
+      ],
+      "sourceHash": "9bbe0ab3486f8b9872cce1c65b3561bfaab7782beffd18708e43b4340813cd7d"
     },
     {
       "path": [

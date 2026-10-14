@@ -217,7 +217,7 @@
             "enabled": true,
             "kicker": "Business impact",
             "heading": "Pricing & ROI",
-            "subheading": "Your inputs. Your estimated return.",
+            "subheading": "Choose a plan. See your forecast.",
             "disclaimer": "Planning estimates are separate from measured ROI. Only accepted outcomes and comparable recorded costs support measured returns.",
             "currency": "EUR",
             "currencyCopy": {
@@ -581,7 +581,7 @@
               "copy": {
                 "navLabel": "Pricing",
                 "heading": "Pricing & ROI",
-                "intro": "Your inputs. Your estimated return.",
+                "intro": "Choose a plan. See your forecast.",
                 "monthly": "Month",
                 "weekly": "Week",
                 "daily": "Day",
@@ -592,7 +592,7 @@
                 "timeBenefit": "Estimated time value",
                 "timeRoi": "Time-value ROI",
                 "timeBack": "Hours returned",
-                "missing": "Add your inputs",
+                "missing": "Forecast unavailable",
                 "noRatio": "Not applicable",
                 "method": "How it’s calculated",
                 "reset": "Reset",
@@ -601,10 +601,10 @@
                 "excludedVat": "Excluding VAT",
                 "perMonth": "per month",
                 "equivalents": "Billed monthly. Day and week figures are averages, not daily or weekly charges or guaranteed returns.",
-                "timeNote": "Time value is your optional estimate, not cash received or a payroll reduction. Net minutes include your checking and approval time.",
+                "timeNote": "Forecast time value is returned capacity, not cash received or a payroll reduction. Net minutes include checking and approval.",
                 "estimateNote": "Planning estimates are separate from measured ROI. Only accepted outcomes and comparable recorded costs support measured returns.",
                 "limitNote": "For more usage or separately quoted work, contact us. This estimate covers the included plan only.",
-                "timeFormula": "Time value = units × net minutes saved ÷ 60 × your hourly value.",
+                "timeFormula": "Forecast time value = included work × fixed net minutes returned ÷ 60 × reference hourly value.",
                 "profitFormula": "Contribution profit = eligible recommendation sessions × conversion uplift ÷ 100 × profit per additional order.",
                 "proceedsFormula": "Incremental proceeds = lots or pickups × (net proceeds afterward − net proceeds beforehand).",
                 "roiFormula": "Net = benefit − app subscription cost. ROI = net ÷ app subscription cost × 100. Free plans have no ROI percentage."
@@ -619,7 +619,7 @@
                     {
                       "id": "units",
                       "label": "Qualified briefs per month",
-                      "help": "Work you expect to review in one month, within the included allowance.",
+                      "help": "Forecast assumes the included monthly allowance is used. Higher draft tiers increase capacity and price together.",
                       "defaultValue": 20,
                       "min": 0,
                       "max": 20,
@@ -629,7 +629,7 @@
                     {
                       "id": "minutes_saved",
                       "label": "Minutes saved",
-                      "help": "Your estimate after checking, approval and any rework. Negative values mean extra effort.",
+                      "help": "Fixed forecast after preparation, checking, approval and rework; not a measured saving.",
                       "defaultValue": 12,
                       "min": -1440,
                       "max": 1440,
@@ -639,8 +639,8 @@
                     {
                       "id": "hourly_value",
                       "label": "Hourly value",
-                      "help": "Your own optional valuation. This is not a promised cash saving or salary reduction.",
-                      "defaultValue": null,
+                      "help": "Fixed reference valuation of returned capacity; not cash received or a salary reduction.",
+                      "defaultValue": 34.9,
                       "min": 0,
                       "max": 1000,
                       "step": 0.01,
@@ -654,11 +654,21 @@
                     "vatIncluded": false,
                     "includedUnits": 20,
                     "allowance": "20 qualified briefs",
-                    "extras": "Additional usage and professional services are separately quoted."
+                    "extras": "Additional usage and professional services are separately quoted.",
+                    "free": {
+                      "includedUnits": 1,
+                      "allowance": "Free · 1 brief"
+                    },
+                    "trialDays": 7,
+                    "trialLabel": "7-day trial · monthly price afterward"
                   },
                   "assumptions": [
-                    "The starting 12 net minutes is an illustrative preparation estimate, not a measured result.",
-                    "Net minutes include customer review. Monetary time value is supplied by you; it is not cash received."
+                    "Forecast revision 2026-10-13. Full included usage, available work and a linear 1×/2×/3× capacity scenario; no extra demand is guaranteed.",
+                    "Authored task budget: 60 manual minutes versus 48 assisted human minutes per work unit, including checking, approval and rework. The 12 net minutes (20%) is a scenario, not observed persona performance.",
+                    "The 20% time-reduction scenario is informed by research on AI-assisted knowledge tasks. Its results do not establish savings for this persona or for every task: https://aiinstitute.hbs.edu/navigating-the-jagged-technological-frontier/",
+                    "Returned business capacity is valued at €34.90/hour, the EU whole-economy hourly labour-cost reference for 2025. It is not a profession-specific rate or a payroll saving: https://ec.europa.eu/eurostat/en/web/products-eurostat-news/w/ddn-20260331-2",
+                    "All figures are forecasts. Setup effort, learning time and any additional services are excluded; actual net returns can be lower or negative. No sale, placement, funding, learning result or social outcome is monetized.",
+                    "Free access renews monthly with the displayed basic allowance. Premium media, integrations and extra usage are excluded. Paid tiers have a seven-day trial; trial usage is capped at one basic free allowance, not an extra full monthly allowance. Prices shown are recurring prices after the trial. These are authored offer proposals; the calculator does not provision entitlements or change billing."
                   ],
                   "loop": "Property or buyer-intent signal → qualify a sourced brief → agent reviews and parties consent → record accepted introduction and actual outcome.",
                   "ctaLabel": "Try the demo",
@@ -673,7 +683,7 @@
                     {
                       "id": "units",
                       "label": "Qualified briefs per month",
-                      "help": "Work you expect to review in one month, within the included allowance.",
+                      "help": "Forecast assumes the included monthly allowance is used. Higher draft tiers increase capacity and price together.",
                       "defaultValue": 20,
                       "min": 0,
                       "max": 20,
@@ -683,7 +693,7 @@
                     {
                       "id": "minutes_saved",
                       "label": "Minutes saved",
-                      "help": "Your estimate after checking, approval and any rework. Negative values mean extra effort.",
+                      "help": "Fixed forecast after preparation, checking, approval and rework; not a measured saving.",
                       "defaultValue": 12,
                       "min": -1440,
                       "max": 1440,
@@ -693,8 +703,8 @@
                     {
                       "id": "hourly_value",
                       "label": "Hourly value",
-                      "help": "Your own optional valuation. This is not a promised cash saving or salary reduction.",
-                      "defaultValue": null,
+                      "help": "Fixed reference valuation of returned capacity; not cash received or a salary reduction.",
+                      "defaultValue": 34.9,
                       "min": 0,
                       "max": 1000,
                       "step": 0.01,
@@ -708,11 +718,21 @@
                     "vatIncluded": false,
                     "includedUnits": 20,
                     "allowance": "20 qualified briefs",
-                    "extras": "Additional usage and professional services are separately quoted."
+                    "extras": "Additional usage and professional services are separately quoted.",
+                    "free": {
+                      "includedUnits": 1,
+                      "allowance": "Free · 1 brief"
+                    },
+                    "trialDays": 7,
+                    "trialLabel": "7-day trial · monthly price afterward"
                   },
                   "assumptions": [
-                    "The starting 12 net minutes is an illustrative preparation estimate, not a measured result.",
-                    "Net minutes include customer review. Monetary time value is supplied by you; it is not cash received."
+                    "Forecast revision 2026-10-13. Full included usage, available work and a linear 1×/2×/3× capacity scenario; no extra demand is guaranteed.",
+                    "Authored task budget: 60 manual minutes versus 48 assisted human minutes per work unit, including checking, approval and rework. The 12 net minutes (20%) is a scenario, not observed persona performance.",
+                    "The 20% time-reduction scenario is informed by research on AI-assisted knowledge tasks. Its results do not establish savings for this persona or for every task: https://aiinstitute.hbs.edu/navigating-the-jagged-technological-frontier/",
+                    "Returned business capacity is valued at €34.90/hour, the EU whole-economy hourly labour-cost reference for 2025. It is not a profession-specific rate or a payroll saving: https://ec.europa.eu/eurostat/en/web/products-eurostat-news/w/ddn-20260331-2",
+                    "All figures are forecasts. Setup effort, learning time and any additional services are excluded; actual net returns can be lower or negative. No sale, placement, funding, learning result or social outcome is monetized.",
+                    "Free access renews monthly with the displayed basic allowance. Premium media, integrations and extra usage are excluded. Paid tiers have a seven-day trial; trial usage is capped at one basic free allowance, not an extra full monthly allowance. Prices shown are recurring prices after the trial. These are authored offer proposals; the calculator does not provision entitlements or change billing."
                   ],
                   "loop": "Property or buyer-intent signal → qualify a sourced brief → agent reviews and parties consent → record accepted introduction and actual outcome.",
                   "ctaLabel": "Try the demo",
@@ -840,7 +860,7 @@
             "enabled": true,
             "kicker": "Business impact",
             "heading": "Pricing & ROI",
-            "subheading": "Your inputs. Your estimated return.",
+            "subheading": "Choose a plan. See your forecast.",
             "disclaimer": "Planning estimates are separate from measured ROI. Only accepted outcomes and comparable recorded costs support measured returns.",
             "currency": "EUR",
             "currencyCopy": {
@@ -1209,7 +1229,7 @@
               "copy": {
                 "navLabel": "Pricing",
                 "heading": "Pricing & ROI",
-                "intro": "Your inputs. Your estimated return.",
+                "intro": "Choose a plan. See your forecast.",
                 "monthly": "Month",
                 "weekly": "Week",
                 "daily": "Day",
@@ -1220,7 +1240,7 @@
                 "timeBenefit": "Estimated time value",
                 "timeRoi": "Time-value ROI",
                 "timeBack": "Hours returned",
-                "missing": "Add your inputs",
+                "missing": "Forecast unavailable",
                 "noRatio": "Not applicable",
                 "method": "How it’s calculated",
                 "reset": "Reset",
@@ -1229,10 +1249,10 @@
                 "excludedVat": "Excluding VAT",
                 "perMonth": "per month",
                 "equivalents": "Billed monthly. Day and week figures are averages, not daily or weekly charges or guaranteed returns.",
-                "timeNote": "Time value is your optional estimate, not cash received or a payroll reduction. Net minutes include your checking and approval time.",
+                "timeNote": "Forecast time value is returned capacity, not cash received or a payroll reduction. Net minutes include checking and approval.",
                 "estimateNote": "Planning estimates are separate from measured ROI. Only accepted outcomes and comparable recorded costs support measured returns.",
                 "limitNote": "For more usage or separately quoted work, contact us. This estimate covers the included plan only.",
-                "timeFormula": "Time value = units × net minutes saved ÷ 60 × your hourly value.",
+                "timeFormula": "Forecast time value = included work × fixed net minutes returned ÷ 60 × reference hourly value.",
                 "profitFormula": "Contribution profit = eligible recommendation sessions × conversion uplift ÷ 100 × profit per additional order.",
                 "proceedsFormula": "Incremental proceeds = lots or pickups × (net proceeds afterward − net proceeds beforehand).",
                 "roiFormula": "Net = benefit − app subscription cost. ROI = net ÷ app subscription cost × 100. Free plans have no ROI percentage."
@@ -1247,7 +1267,7 @@
                     {
                       "id": "units",
                       "label": "Qualified briefs per month",
-                      "help": "Work you expect to review in one month, within the included allowance.",
+                      "help": "Forecast assumes the included monthly allowance is used. Higher draft tiers increase capacity and price together.",
                       "defaultValue": 20,
                       "min": 0,
                       "max": 20,
@@ -1257,7 +1277,7 @@
                     {
                       "id": "minutes_saved",
                       "label": "Minutes saved",
-                      "help": "Your estimate after checking, approval and any rework. Negative values mean extra effort.",
+                      "help": "Fixed forecast after preparation, checking, approval and rework; not a measured saving.",
                       "defaultValue": 12,
                       "min": -1440,
                       "max": 1440,
@@ -1267,8 +1287,8 @@
                     {
                       "id": "hourly_value",
                       "label": "Hourly value",
-                      "help": "Your own optional valuation. This is not a promised cash saving or salary reduction.",
-                      "defaultValue": null,
+                      "help": "Fixed reference valuation of returned capacity; not cash received or a salary reduction.",
+                      "defaultValue": 34.9,
                       "min": 0,
                       "max": 1000,
                       "step": 0.01,
@@ -1282,11 +1302,21 @@
                     "vatIncluded": false,
                     "includedUnits": 20,
                     "allowance": "20 qualified briefs",
-                    "extras": "Additional usage and professional services are separately quoted."
+                    "extras": "Additional usage and professional services are separately quoted.",
+                    "free": {
+                      "includedUnits": 1,
+                      "allowance": "Free · 1 brief"
+                    },
+                    "trialDays": 7,
+                    "trialLabel": "7-day trial · monthly price afterward"
                   },
                   "assumptions": [
-                    "The starting 12 net minutes is an illustrative preparation estimate, not a measured result.",
-                    "Net minutes include customer review. Monetary time value is supplied by you; it is not cash received."
+                    "Forecast revision 2026-10-13. Full included usage, available work and a linear 1×/2×/3× capacity scenario; no extra demand is guaranteed.",
+                    "Authored task budget: 60 manual minutes versus 48 assisted human minutes per work unit, including checking, approval and rework. The 12 net minutes (20%) is a scenario, not observed persona performance.",
+                    "The 20% time-reduction scenario is informed by research on AI-assisted knowledge tasks. Its results do not establish savings for this persona or for every task: https://aiinstitute.hbs.edu/navigating-the-jagged-technological-frontier/",
+                    "Returned business capacity is valued at €34.90/hour, the EU whole-economy hourly labour-cost reference for 2025. It is not a profession-specific rate or a payroll saving: https://ec.europa.eu/eurostat/en/web/products-eurostat-news/w/ddn-20260331-2",
+                    "All figures are forecasts. Setup effort, learning time and any additional services are excluded; actual net returns can be lower or negative. No sale, placement, funding, learning result or social outcome is monetized.",
+                    "Free access renews monthly with the displayed basic allowance. Premium media, integrations and extra usage are excluded. Paid tiers have a seven-day trial; trial usage is capped at one basic free allowance, not an extra full monthly allowance. Prices shown are recurring prices after the trial. These are authored offer proposals; the calculator does not provision entitlements or change billing."
                   ],
                   "loop": "Property or buyer-intent signal → qualify a sourced brief → agent reviews and parties consent → record accepted introduction and actual outcome.",
                   "ctaLabel": "Try the demo",
@@ -1301,7 +1331,7 @@
                     {
                       "id": "units",
                       "label": "Qualified briefs per month",
-                      "help": "Work you expect to review in one month, within the included allowance.",
+                      "help": "Forecast assumes the included monthly allowance is used. Higher draft tiers increase capacity and price together.",
                       "defaultValue": 20,
                       "min": 0,
                       "max": 20,
@@ -1311,7 +1341,7 @@
                     {
                       "id": "minutes_saved",
                       "label": "Minutes saved",
-                      "help": "Your estimate after checking, approval and any rework. Negative values mean extra effort.",
+                      "help": "Fixed forecast after preparation, checking, approval and rework; not a measured saving.",
                       "defaultValue": 12,
                       "min": -1440,
                       "max": 1440,
@@ -1321,8 +1351,8 @@
                     {
                       "id": "hourly_value",
                       "label": "Hourly value",
-                      "help": "Your own optional valuation. This is not a promised cash saving or salary reduction.",
-                      "defaultValue": null,
+                      "help": "Fixed reference valuation of returned capacity; not cash received or a salary reduction.",
+                      "defaultValue": 34.9,
                       "min": 0,
                       "max": 1000,
                       "step": 0.01,
@@ -1336,11 +1366,21 @@
                     "vatIncluded": false,
                     "includedUnits": 20,
                     "allowance": "20 qualified briefs",
-                    "extras": "Additional usage and professional services are separately quoted."
+                    "extras": "Additional usage and professional services are separately quoted.",
+                    "free": {
+                      "includedUnits": 1,
+                      "allowance": "Free · 1 brief"
+                    },
+                    "trialDays": 7,
+                    "trialLabel": "7-day trial · monthly price afterward"
                   },
                   "assumptions": [
-                    "The starting 12 net minutes is an illustrative preparation estimate, not a measured result.",
-                    "Net minutes include customer review. Monetary time value is supplied by you; it is not cash received."
+                    "Forecast revision 2026-10-13. Full included usage, available work and a linear 1×/2×/3× capacity scenario; no extra demand is guaranteed.",
+                    "Authored task budget: 60 manual minutes versus 48 assisted human minutes per work unit, including checking, approval and rework. The 12 net minutes (20%) is a scenario, not observed persona performance.",
+                    "The 20% time-reduction scenario is informed by research on AI-assisted knowledge tasks. Its results do not establish savings for this persona or for every task: https://aiinstitute.hbs.edu/navigating-the-jagged-technological-frontier/",
+                    "Returned business capacity is valued at €34.90/hour, the EU whole-economy hourly labour-cost reference for 2025. It is not a profession-specific rate or a payroll saving: https://ec.europa.eu/eurostat/en/web/products-eurostat-news/w/ddn-20260331-2",
+                    "All figures are forecasts. Setup effort, learning time and any additional services are excluded; actual net returns can be lower or negative. No sale, placement, funding, learning result or social outcome is monetized.",
+                    "Free access renews monthly with the displayed basic allowance. Premium media, integrations and extra usage are excluded. Paid tiers have a seven-day trial; trial usage is capped at one basic free allowance, not an extra full monthly allowance. Prices shown are recurring prices after the trial. These are authored offer proposals; the calculator does not provision entitlements or change billing."
                   ],
                   "loop": "Property or buyer-intent signal → qualify a sourced brief → agent reviews and parties consent → record accepted introduction and actual outcome.",
                   "ctaLabel": "Try the demo",
@@ -1556,7 +1596,7 @@
       "enabled": true,
       "kicker": "Business impact",
       "heading": "Pricing & ROI",
-      "subheading": "Your inputs. Your estimated return.",
+      "subheading": "Choose a plan. See your forecast.",
       "disclaimer": "Planning estimates are separate from measured ROI. Only accepted outcomes and comparable recorded costs support measured returns.",
       "currency": "EUR",
       "currencyCopy": {
@@ -1925,7 +1965,7 @@
         "copy": {
           "navLabel": "Pricing",
           "heading": "Pricing & ROI",
-          "intro": "Your inputs. Your estimated return.",
+          "intro": "Choose a plan. See your forecast.",
           "monthly": "Month",
           "weekly": "Week",
           "daily": "Day",
@@ -1936,7 +1976,7 @@
           "timeBenefit": "Estimated time value",
           "timeRoi": "Time-value ROI",
           "timeBack": "Hours returned",
-          "missing": "Add your inputs",
+          "missing": "Forecast unavailable",
           "noRatio": "Not applicable",
           "method": "How it’s calculated",
           "reset": "Reset",
@@ -1945,10 +1985,10 @@
           "excludedVat": "Excluding VAT",
           "perMonth": "per month",
           "equivalents": "Billed monthly. Day and week figures are averages, not daily or weekly charges or guaranteed returns.",
-          "timeNote": "Time value is your optional estimate, not cash received or a payroll reduction. Net minutes include your checking and approval time.",
+          "timeNote": "Forecast time value is returned capacity, not cash received or a payroll reduction. Net minutes include checking and approval.",
           "estimateNote": "Planning estimates are separate from measured ROI. Only accepted outcomes and comparable recorded costs support measured returns.",
           "limitNote": "For more usage or separately quoted work, contact us. This estimate covers the included plan only.",
-          "timeFormula": "Time value = units × net minutes saved ÷ 60 × your hourly value.",
+          "timeFormula": "Forecast time value = included work × fixed net minutes returned ÷ 60 × reference hourly value.",
           "profitFormula": "Contribution profit = eligible recommendation sessions × conversion uplift ÷ 100 × profit per additional order.",
           "proceedsFormula": "Incremental proceeds = lots or pickups × (net proceeds afterward − net proceeds beforehand).",
           "roiFormula": "Net = benefit − app subscription cost. ROI = net ÷ app subscription cost × 100. Free plans have no ROI percentage."
@@ -1963,7 +2003,7 @@
               {
                 "id": "units",
                 "label": "Qualified briefs per month",
-                "help": "Work you expect to review in one month, within the included allowance.",
+                "help": "Forecast assumes the included monthly allowance is used. Higher draft tiers increase capacity and price together.",
                 "defaultValue": 20,
                 "min": 0,
                 "max": 20,
@@ -1973,7 +2013,7 @@
               {
                 "id": "minutes_saved",
                 "label": "Minutes saved",
-                "help": "Your estimate after checking, approval and any rework. Negative values mean extra effort.",
+                "help": "Fixed forecast after preparation, checking, approval and rework; not a measured saving.",
                 "defaultValue": 12,
                 "min": -1440,
                 "max": 1440,
@@ -1983,8 +2023,8 @@
               {
                 "id": "hourly_value",
                 "label": "Hourly value",
-                "help": "Your own optional valuation. This is not a promised cash saving or salary reduction.",
-                "defaultValue": null,
+                "help": "Fixed reference valuation of returned capacity; not cash received or a salary reduction.",
+                "defaultValue": 34.9,
                 "min": 0,
                 "max": 1000,
                 "step": 0.01,
@@ -1998,11 +2038,21 @@
               "vatIncluded": false,
               "includedUnits": 20,
               "allowance": "20 qualified briefs",
-              "extras": "Additional usage and professional services are separately quoted."
+              "extras": "Additional usage and professional services are separately quoted.",
+              "free": {
+                "includedUnits": 1,
+                "allowance": "Free · 1 brief"
+              },
+              "trialDays": 7,
+              "trialLabel": "7-day trial · monthly price afterward"
             },
             "assumptions": [
-              "The starting 12 net minutes is an illustrative preparation estimate, not a measured result.",
-              "Net minutes include customer review. Monetary time value is supplied by you; it is not cash received."
+              "Forecast revision 2026-10-13. Full included usage, available work and a linear 1×/2×/3× capacity scenario; no extra demand is guaranteed.",
+              "Authored task budget: 60 manual minutes versus 48 assisted human minutes per work unit, including checking, approval and rework. The 12 net minutes (20%) is a scenario, not observed persona performance.",
+              "The 20% time-reduction scenario is informed by research on AI-assisted knowledge tasks. Its results do not establish savings for this persona or for every task: https://aiinstitute.hbs.edu/navigating-the-jagged-technological-frontier/",
+              "Returned business capacity is valued at €34.90/hour, the EU whole-economy hourly labour-cost reference for 2025. It is not a profession-specific rate or a payroll saving: https://ec.europa.eu/eurostat/en/web/products-eurostat-news/w/ddn-20260331-2",
+              "All figures are forecasts. Setup effort, learning time and any additional services are excluded; actual net returns can be lower or negative. No sale, placement, funding, learning result or social outcome is monetized.",
+              "Free access renews monthly with the displayed basic allowance. Premium media, integrations and extra usage are excluded. Paid tiers have a seven-day trial; trial usage is capped at one basic free allowance, not an extra full monthly allowance. Prices shown are recurring prices after the trial. These are authored offer proposals; the calculator does not provision entitlements or change billing."
             ],
             "loop": "Property or buyer-intent signal → qualify a sourced brief → agent reviews and parties consent → record accepted introduction and actual outcome.",
             "ctaLabel": "Try the demo",
@@ -2017,7 +2067,7 @@
               {
                 "id": "units",
                 "label": "Qualified briefs per month",
-                "help": "Work you expect to review in one month, within the included allowance.",
+                "help": "Forecast assumes the included monthly allowance is used. Higher draft tiers increase capacity and price together.",
                 "defaultValue": 20,
                 "min": 0,
                 "max": 20,
@@ -2027,7 +2077,7 @@
               {
                 "id": "minutes_saved",
                 "label": "Minutes saved",
-                "help": "Your estimate after checking, approval and any rework. Negative values mean extra effort.",
+                "help": "Fixed forecast after preparation, checking, approval and rework; not a measured saving.",
                 "defaultValue": 12,
                 "min": -1440,
                 "max": 1440,
@@ -2037,8 +2087,8 @@
               {
                 "id": "hourly_value",
                 "label": "Hourly value",
-                "help": "Your own optional valuation. This is not a promised cash saving or salary reduction.",
-                "defaultValue": null,
+                "help": "Fixed reference valuation of returned capacity; not cash received or a salary reduction.",
+                "defaultValue": 34.9,
                 "min": 0,
                 "max": 1000,
                 "step": 0.01,
@@ -2052,11 +2102,21 @@
               "vatIncluded": false,
               "includedUnits": 20,
               "allowance": "20 qualified briefs",
-              "extras": "Additional usage and professional services are separately quoted."
+              "extras": "Additional usage and professional services are separately quoted.",
+              "free": {
+                "includedUnits": 1,
+                "allowance": "Free · 1 brief"
+              },
+              "trialDays": 7,
+              "trialLabel": "7-day trial · monthly price afterward"
             },
             "assumptions": [
-              "The starting 12 net minutes is an illustrative preparation estimate, not a measured result.",
-              "Net minutes include customer review. Monetary time value is supplied by you; it is not cash received."
+              "Forecast revision 2026-10-13. Full included usage, available work and a linear 1×/2×/3× capacity scenario; no extra demand is guaranteed.",
+              "Authored task budget: 60 manual minutes versus 48 assisted human minutes per work unit, including checking, approval and rework. The 12 net minutes (20%) is a scenario, not observed persona performance.",
+              "The 20% time-reduction scenario is informed by research on AI-assisted knowledge tasks. Its results do not establish savings for this persona or for every task: https://aiinstitute.hbs.edu/navigating-the-jagged-technological-frontier/",
+              "Returned business capacity is valued at €34.90/hour, the EU whole-economy hourly labour-cost reference for 2025. It is not a profession-specific rate or a payroll saving: https://ec.europa.eu/eurostat/en/web/products-eurostat-news/w/ddn-20260331-2",
+              "All figures are forecasts. Setup effort, learning time and any additional services are excluded; actual net returns can be lower or negative. No sale, placement, funding, learning result or social outcome is monetized.",
+              "Free access renews monthly with the displayed basic allowance. Premium media, integrations and extra usage are excluded. Paid tiers have a seven-day trial; trial usage is capped at one basic free allowance, not an extra full monthly allowance. Prices shown are recurring prices after the trial. These are authored offer proposals; the calculator does not provision entitlements or change billing."
             ],
             "loop": "Property or buyer-intent signal → qualify a sourced brief → agent reviews and parties consent → record accepted introduction and actual outcome.",
             "ctaLabel": "Try the demo",
@@ -2075,7 +2135,7 @@
           {
             "language": "ar",
             "regionKey": null,
-            "sourceRevision": "be40441c1455b89085020ea8725989ac5b0d6534d1db605c9fe719b98b0b6ab9",
+            "sourceRevision": "8352a2472d5a6ea97a7eff7dba34411a65430100e253d617d0c6a3a1d745858f",
             "assetPath": "assets/landing-page.ar.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-10-13T14:19:32.625Z"
@@ -2083,7 +2143,7 @@
           {
             "language": "bg",
             "regionKey": null,
-            "sourceRevision": "be40441c1455b89085020ea8725989ac5b0d6534d1db605c9fe719b98b0b6ab9",
+            "sourceRevision": "8352a2472d5a6ea97a7eff7dba34411a65430100e253d617d0c6a3a1d745858f",
             "assetPath": "assets/landing-page.bg.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-10-13T14:19:32.625Z"
@@ -2091,7 +2151,7 @@
           {
             "language": "ca",
             "regionKey": null,
-            "sourceRevision": "be40441c1455b89085020ea8725989ac5b0d6534d1db605c9fe719b98b0b6ab9",
+            "sourceRevision": "8352a2472d5a6ea97a7eff7dba34411a65430100e253d617d0c6a3a1d745858f",
             "assetPath": "assets/landing-page.ca.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-10-13T14:19:32.625Z"
@@ -2099,7 +2159,7 @@
           {
             "language": "cs",
             "regionKey": null,
-            "sourceRevision": "be40441c1455b89085020ea8725989ac5b0d6534d1db605c9fe719b98b0b6ab9",
+            "sourceRevision": "8352a2472d5a6ea97a7eff7dba34411a65430100e253d617d0c6a3a1d745858f",
             "assetPath": "assets/landing-page.cs.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-10-13T14:19:32.625Z"
@@ -2107,7 +2167,7 @@
           {
             "language": "da",
             "regionKey": null,
-            "sourceRevision": "be40441c1455b89085020ea8725989ac5b0d6534d1db605c9fe719b98b0b6ab9",
+            "sourceRevision": "8352a2472d5a6ea97a7eff7dba34411a65430100e253d617d0c6a3a1d745858f",
             "assetPath": "assets/landing-page.da.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-10-13T14:19:32.625Z"
@@ -2115,7 +2175,7 @@
           {
             "language": "de",
             "regionKey": null,
-            "sourceRevision": "be40441c1455b89085020ea8725989ac5b0d6534d1db605c9fe719b98b0b6ab9",
+            "sourceRevision": "8352a2472d5a6ea97a7eff7dba34411a65430100e253d617d0c6a3a1d745858f",
             "assetPath": "assets/landing-page.de.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-10-13T14:19:32.625Z"
@@ -2123,7 +2183,7 @@
           {
             "language": "el",
             "regionKey": null,
-            "sourceRevision": "be40441c1455b89085020ea8725989ac5b0d6534d1db605c9fe719b98b0b6ab9",
+            "sourceRevision": "8352a2472d5a6ea97a7eff7dba34411a65430100e253d617d0c6a3a1d745858f",
             "assetPath": "assets/landing-page.el.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-10-13T14:19:32.625Z"
@@ -2131,7 +2191,7 @@
           {
             "language": "es",
             "regionKey": null,
-            "sourceRevision": "be40441c1455b89085020ea8725989ac5b0d6534d1db605c9fe719b98b0b6ab9",
+            "sourceRevision": "8352a2472d5a6ea97a7eff7dba34411a65430100e253d617d0c6a3a1d745858f",
             "assetPath": "assets/landing-page.es.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-10-13T14:19:32.625Z"
@@ -2139,7 +2199,7 @@
           {
             "language": "et",
             "regionKey": null,
-            "sourceRevision": "be40441c1455b89085020ea8725989ac5b0d6534d1db605c9fe719b98b0b6ab9",
+            "sourceRevision": "8352a2472d5a6ea97a7eff7dba34411a65430100e253d617d0c6a3a1d745858f",
             "assetPath": "assets/landing-page.et.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-10-13T14:19:32.625Z"
@@ -2147,7 +2207,7 @@
           {
             "language": "fa",
             "regionKey": null,
-            "sourceRevision": "be40441c1455b89085020ea8725989ac5b0d6534d1db605c9fe719b98b0b6ab9",
+            "sourceRevision": "8352a2472d5a6ea97a7eff7dba34411a65430100e253d617d0c6a3a1d745858f",
             "assetPath": "assets/landing-page.fa.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-10-13T14:19:32.625Z"
@@ -2155,7 +2215,7 @@
           {
             "language": "fi",
             "regionKey": null,
-            "sourceRevision": "be40441c1455b89085020ea8725989ac5b0d6534d1db605c9fe719b98b0b6ab9",
+            "sourceRevision": "8352a2472d5a6ea97a7eff7dba34411a65430100e253d617d0c6a3a1d745858f",
             "assetPath": "assets/landing-page.fi.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-10-13T14:19:32.625Z"
@@ -2163,7 +2223,7 @@
           {
             "language": "fr",
             "regionKey": null,
-            "sourceRevision": "be40441c1455b89085020ea8725989ac5b0d6534d1db605c9fe719b98b0b6ab9",
+            "sourceRevision": "8352a2472d5a6ea97a7eff7dba34411a65430100e253d617d0c6a3a1d745858f",
             "assetPath": "assets/landing-page.fr.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-10-13T14:19:32.625Z"
@@ -2171,7 +2231,7 @@
           {
             "language": "he",
             "regionKey": null,
-            "sourceRevision": "be40441c1455b89085020ea8725989ac5b0d6534d1db605c9fe719b98b0b6ab9",
+            "sourceRevision": "8352a2472d5a6ea97a7eff7dba34411a65430100e253d617d0c6a3a1d745858f",
             "assetPath": "assets/landing-page.he.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-10-13T14:19:32.625Z"
@@ -2179,7 +2239,7 @@
           {
             "language": "hr",
             "regionKey": null,
-            "sourceRevision": "be40441c1455b89085020ea8725989ac5b0d6534d1db605c9fe719b98b0b6ab9",
+            "sourceRevision": "8352a2472d5a6ea97a7eff7dba34411a65430100e253d617d0c6a3a1d745858f",
             "assetPath": "assets/landing-page.hr.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-10-13T14:19:32.625Z"
@@ -2187,7 +2247,7 @@
           {
             "language": "hu",
             "regionKey": null,
-            "sourceRevision": "be40441c1455b89085020ea8725989ac5b0d6534d1db605c9fe719b98b0b6ab9",
+            "sourceRevision": "8352a2472d5a6ea97a7eff7dba34411a65430100e253d617d0c6a3a1d745858f",
             "assetPath": "assets/landing-page.hu.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-10-13T14:19:32.625Z"
@@ -2195,7 +2255,7 @@
           {
             "language": "id",
             "regionKey": null,
-            "sourceRevision": "be40441c1455b89085020ea8725989ac5b0d6534d1db605c9fe719b98b0b6ab9",
+            "sourceRevision": "8352a2472d5a6ea97a7eff7dba34411a65430100e253d617d0c6a3a1d745858f",
             "assetPath": "assets/landing-page.id.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-10-13T14:19:32.625Z"
@@ -2203,7 +2263,7 @@
           {
             "language": "it",
             "regionKey": null,
-            "sourceRevision": "be40441c1455b89085020ea8725989ac5b0d6534d1db605c9fe719b98b0b6ab9",
+            "sourceRevision": "8352a2472d5a6ea97a7eff7dba34411a65430100e253d617d0c6a3a1d745858f",
             "assetPath": "assets/landing-page.it.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-10-13T14:19:32.625Z"
@@ -2211,7 +2271,7 @@
           {
             "language": "ja",
             "regionKey": null,
-            "sourceRevision": "be40441c1455b89085020ea8725989ac5b0d6534d1db605c9fe719b98b0b6ab9",
+            "sourceRevision": "8352a2472d5a6ea97a7eff7dba34411a65430100e253d617d0c6a3a1d745858f",
             "assetPath": "assets/landing-page.ja.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-10-13T14:19:32.625Z"
@@ -2219,7 +2279,7 @@
           {
             "language": "ko",
             "regionKey": null,
-            "sourceRevision": "be40441c1455b89085020ea8725989ac5b0d6534d1db605c9fe719b98b0b6ab9",
+            "sourceRevision": "8352a2472d5a6ea97a7eff7dba34411a65430100e253d617d0c6a3a1d745858f",
             "assetPath": "assets/landing-page.ko.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-10-13T14:19:32.625Z"
@@ -2227,7 +2287,7 @@
           {
             "language": "lt",
             "regionKey": null,
-            "sourceRevision": "be40441c1455b89085020ea8725989ac5b0d6534d1db605c9fe719b98b0b6ab9",
+            "sourceRevision": "8352a2472d5a6ea97a7eff7dba34411a65430100e253d617d0c6a3a1d745858f",
             "assetPath": "assets/landing-page.lt.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-10-13T14:19:32.625Z"
@@ -2235,7 +2295,7 @@
           {
             "language": "lv",
             "regionKey": null,
-            "sourceRevision": "be40441c1455b89085020ea8725989ac5b0d6534d1db605c9fe719b98b0b6ab9",
+            "sourceRevision": "8352a2472d5a6ea97a7eff7dba34411a65430100e253d617d0c6a3a1d745858f",
             "assetPath": "assets/landing-page.lv.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-10-13T14:19:32.625Z"
@@ -2243,7 +2303,7 @@
           {
             "language": "nb",
             "regionKey": null,
-            "sourceRevision": "be40441c1455b89085020ea8725989ac5b0d6534d1db605c9fe719b98b0b6ab9",
+            "sourceRevision": "8352a2472d5a6ea97a7eff7dba34411a65430100e253d617d0c6a3a1d745858f",
             "assetPath": "assets/landing-page.nb.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-10-13T14:19:32.625Z"
@@ -2251,7 +2311,7 @@
           {
             "language": "nl",
             "regionKey": null,
-            "sourceRevision": "be40441c1455b89085020ea8725989ac5b0d6534d1db605c9fe719b98b0b6ab9",
+            "sourceRevision": "8352a2472d5a6ea97a7eff7dba34411a65430100e253d617d0c6a3a1d745858f",
             "assetPath": "assets/landing-page.nl.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-10-13T14:19:32.625Z"
@@ -2259,7 +2319,7 @@
           {
             "language": "no",
             "regionKey": null,
-            "sourceRevision": "be40441c1455b89085020ea8725989ac5b0d6534d1db605c9fe719b98b0b6ab9",
+            "sourceRevision": "8352a2472d5a6ea97a7eff7dba34411a65430100e253d617d0c6a3a1d745858f",
             "assetPath": "assets/landing-page.no.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-10-13T14:19:32.625Z"
@@ -2267,7 +2327,7 @@
           {
             "language": "pl",
             "regionKey": null,
-            "sourceRevision": "be40441c1455b89085020ea8725989ac5b0d6534d1db605c9fe719b98b0b6ab9",
+            "sourceRevision": "8352a2472d5a6ea97a7eff7dba34411a65430100e253d617d0c6a3a1d745858f",
             "assetPath": "assets/landing-page.pl.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-10-13T14:19:32.625Z"
@@ -2275,7 +2335,7 @@
           {
             "language": "pt",
             "regionKey": null,
-            "sourceRevision": "be40441c1455b89085020ea8725989ac5b0d6534d1db605c9fe719b98b0b6ab9",
+            "sourceRevision": "8352a2472d5a6ea97a7eff7dba34411a65430100e253d617d0c6a3a1d745858f",
             "assetPath": "assets/landing-page.pt.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-10-13T14:19:32.625Z"
@@ -2283,7 +2343,7 @@
           {
             "language": "ro",
             "regionKey": null,
-            "sourceRevision": "be40441c1455b89085020ea8725989ac5b0d6534d1db605c9fe719b98b0b6ab9",
+            "sourceRevision": "8352a2472d5a6ea97a7eff7dba34411a65430100e253d617d0c6a3a1d745858f",
             "assetPath": "assets/landing-page.ro.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-10-13T14:19:32.625Z"
@@ -2291,7 +2351,7 @@
           {
             "language": "ru",
             "regionKey": null,
-            "sourceRevision": "be40441c1455b89085020ea8725989ac5b0d6534d1db605c9fe719b98b0b6ab9",
+            "sourceRevision": "8352a2472d5a6ea97a7eff7dba34411a65430100e253d617d0c6a3a1d745858f",
             "assetPath": "assets/landing-page.ru.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-10-13T14:19:32.625Z"
@@ -2299,7 +2359,7 @@
           {
             "language": "sk",
             "regionKey": null,
-            "sourceRevision": "be40441c1455b89085020ea8725989ac5b0d6534d1db605c9fe719b98b0b6ab9",
+            "sourceRevision": "8352a2472d5a6ea97a7eff7dba34411a65430100e253d617d0c6a3a1d745858f",
             "assetPath": "assets/landing-page.sk.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-10-13T14:19:32.625Z"
@@ -2307,7 +2367,7 @@
           {
             "language": "sl",
             "regionKey": null,
-            "sourceRevision": "be40441c1455b89085020ea8725989ac5b0d6534d1db605c9fe719b98b0b6ab9",
+            "sourceRevision": "8352a2472d5a6ea97a7eff7dba34411a65430100e253d617d0c6a3a1d745858f",
             "assetPath": "assets/landing-page.sl.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-10-13T14:19:32.625Z"
@@ -2315,7 +2375,7 @@
           {
             "language": "sr",
             "regionKey": null,
-            "sourceRevision": "be40441c1455b89085020ea8725989ac5b0d6534d1db605c9fe719b98b0b6ab9",
+            "sourceRevision": "8352a2472d5a6ea97a7eff7dba34411a65430100e253d617d0c6a3a1d745858f",
             "assetPath": "assets/landing-page.sr.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-10-13T14:19:32.625Z"
@@ -2323,7 +2383,7 @@
           {
             "language": "sv",
             "regionKey": null,
-            "sourceRevision": "be40441c1455b89085020ea8725989ac5b0d6534d1db605c9fe719b98b0b6ab9",
+            "sourceRevision": "8352a2472d5a6ea97a7eff7dba34411a65430100e253d617d0c6a3a1d745858f",
             "assetPath": "assets/landing-page.sv.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-10-13T14:19:32.625Z"
@@ -2331,7 +2391,7 @@
           {
             "language": "th",
             "regionKey": null,
-            "sourceRevision": "be40441c1455b89085020ea8725989ac5b0d6534d1db605c9fe719b98b0b6ab9",
+            "sourceRevision": "8352a2472d5a6ea97a7eff7dba34411a65430100e253d617d0c6a3a1d745858f",
             "assetPath": "assets/landing-page.th.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-10-13T14:19:32.625Z"
@@ -2339,7 +2399,7 @@
           {
             "language": "tr",
             "regionKey": null,
-            "sourceRevision": "be40441c1455b89085020ea8725989ac5b0d6534d1db605c9fe719b98b0b6ab9",
+            "sourceRevision": "8352a2472d5a6ea97a7eff7dba34411a65430100e253d617d0c6a3a1d745858f",
             "assetPath": "assets/landing-page.tr.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-10-13T14:19:32.625Z"
@@ -2347,7 +2407,7 @@
           {
             "language": "uk",
             "regionKey": null,
-            "sourceRevision": "be40441c1455b89085020ea8725989ac5b0d6534d1db605c9fe719b98b0b6ab9",
+            "sourceRevision": "8352a2472d5a6ea97a7eff7dba34411a65430100e253d617d0c6a3a1d745858f",
             "assetPath": "assets/landing-page.uk.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-10-13T14:19:32.625Z"
@@ -2355,7 +2415,7 @@
           {
             "language": "vi",
             "regionKey": null,
-            "sourceRevision": "be40441c1455b89085020ea8725989ac5b0d6534d1db605c9fe719b98b0b6ab9",
+            "sourceRevision": "8352a2472d5a6ea97a7eff7dba34411a65430100e253d617d0c6a3a1d745858f",
             "assetPath": "assets/landing-page.vi.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-10-13T14:19:32.625Z"
@@ -2363,7 +2423,7 @@
           {
             "language": "zh",
             "regionKey": null,
-            "sourceRevision": "be40441c1455b89085020ea8725989ac5b0d6534d1db605c9fe719b98b0b6ab9",
+            "sourceRevision": "8352a2472d5a6ea97a7eff7dba34411a65430100e253d617d0c6a3a1d745858f",
             "assetPath": "assets/landing-page.zh.json",
             "assetSchemaVersion": 2,
             "generatedAt": "2026-10-13T14:19:32.625Z"
